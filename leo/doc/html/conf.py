@@ -26,7 +26,7 @@
 #    source_suffix = ['.html.txt', '.md'] # possible: '.rst',
 #    print('===== conf.py: .md files enabled') 
 #except ImportError:
-source_suffix = '.html.rst'
+source_suffix = '.rst'
 #    print('===== conf.py: .md files NOT enabled') 
 
 
@@ -47,7 +47,7 @@ templates_path = ['_templates']
 #source_encoding = 'utf-8'
 
 # The master toctree document.
-master_doc = 'leo_toc' # don't use any suffix.
+master_doc = 'index' # don't use any suffix.
 
 # General information about the project.
 project = 'Leo'

@@ -378,7 +378,7 @@
 </v>
 <v t="ekr.20040414161647"><vh>Leo's Documentation</vh>
 <v t="ekr.20170215081358.1"><vh> Table of contents</vh>
-<v t="ekr.20170215075612.1"><vh>@rst html\leo_toc.html</vh></v>
+<v t="ekr.20170215075612.1"><vh>@rst html\index.html</vh></v>
 </v>
 <v t="ekr.20140216125129.16666"><vh>Additonal web pages</vh>
 <v t="ekr.20131030184445.16582"><vh>@rst html/leoLinks.html </vh></v>
