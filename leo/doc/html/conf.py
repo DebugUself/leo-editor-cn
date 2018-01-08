@@ -26,7 +26,7 @@ try:
     source_suffix = ['.html.txt', '.md'] # possible: '.rst',
     print('===== conf.py: .md files enabled') 
 except ImportError:
-    source_suffix = '.html.txt'
+    source_suffix = '.rst'
     print('===== conf.py: .md files NOT enabled') 
 
 # If extensions (or modules to document with autodoc) are in another directory,
