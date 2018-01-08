@@ -26,7 +26,7 @@
 #    source_suffix = ['.html.txt', '.md'] # possible: '.rst',
 #    print('===== conf.py: .md files enabled') 
 #except ImportError:
-    source_suffix = '.html.rst'
+source_suffix = '.html.rst'
 #    print('===== conf.py: .md files NOT enabled') 
 
 
