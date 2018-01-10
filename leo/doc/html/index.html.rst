@@ -7,9 +7,9 @@ Leo's Documentation Page
 
 **Important**: the easiest way to search Leo's documentation is to search LeoDocs.leo.
 
-.. _`Leo's home page`: http://leoeditor.com/
+.. _`Leo 主页`: http://leoeditor.com/
 
-`Leo's home page`_
+`Leo 主页`_
 
 .. toctree::
    :maxdepth: 2
