@@ -1,31 +1,21 @@
-Leo 5.6 September 25, 2017
+# Leo 中文文档翻译计划
 
-[Leo](http://leoeditor.com/) 5.6 is now available on [SourceForge](http://sourceforge.net/projects/leo/files/Leo/) and on [GitHub](https://github.com/leo-editor/leo-editor).
+## Notice 
+This is not [the official leo repository](https://github.com/leo-editor/leo-editor). We've been working on translating [the official leo docs](http://leoeditor.com/leo_toc.html) in Chinese. 
 
-Leo is an IDE, outliner and PIM, as described [here](http://leoeditor.com/preface.html).
+## 如何贡献
 
-Simulating Leo's features in Vim, Emacs or Eclipse is possible, just as it is possible to simulate Python in assembly language...
+**本地构建**
 
-**The highlights of Leo 5.6**
+**翻译文档**
 
-- The cursesGui2.py plugin creates a console gui for Leo.
-- Added "Yes to All" and "No to All" buttons to file-changed dialog.
-- Improved how Leo switches between git branches.
-- Created outline-oriented git-diff command.
 
-**Leo 5.6.1, November 9, 2017**
+## Contributors
 
-- Published on Python Package Index (PyPi) and pip installable, `pip install leo`
+感谢所有 参与翻译的同学。是大家的开源精神和辛勤工作让文档的翻译得以如此顺利迅速进行。
 
-**Links**
+## License
 
-- [Leo's home page](http://leoeditor.com)
-- [Documentation](http://leoeditor.com/leo_toc.html)
-- [Tutorials](http://leoeditor.com/tutorial.html)
-- [Video tutorials](http://leoeditor.com/screencasts.html)
-- [Forum](http://groups.google.com/group/leo-editor)
-- [Download](http://sourceforge.net/projects/leo/files/)
-- [Leo on GitHub](https://github.com/leo-editor/leo-editor)
-- [What people are saying about Leo](http://leoeditor.com/testimonials.html)
-- [A web page that displays .leo files](http://leoeditor.com/load-leo.html)
-- [More links](http://leoeditor.com/leoLinks.html)
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>
+
+文档翻译采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a> 进行许可。著作权归译者本人所有，禁止商用。
