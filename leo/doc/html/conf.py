@@ -17,18 +17,17 @@
 
 # 2017/02/16: http://docs.readthedocs.io/en/latest/getting_started.html#in-markdown
 # The suffix of source filenames.
-#try:
-#    from recommonmark.parser import CommonMarkParser
+try:
+    from recommonmark.parser import CommonMarkParser
     
-#    source_parsers = {
-#        '.md': CommonMarkParser,
-#    }
-#    source_suffix = ['.html.txt', '.md'] # possible: '.rst',
-#    print('===== conf.py: .md files enabled') 
-#except ImportError:
-source_suffix = '.rst'
-#    print('===== conf.py: .md files NOT enabled') 
-
+    source_parsers = {
+        '.md': CommonMarkParser,
+    }
+    source_suffix = ['.html.txt', '.md'] # possible: '.rst',
+    print('===== conf.py: .md files enabled') 
+except ImportError:
+    source_suffix = '.html.txt'
+print('===== conf.py: .md files NOT enabled') 
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
