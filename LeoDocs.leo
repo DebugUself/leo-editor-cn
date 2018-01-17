@@ -22743,7 +22743,7 @@ Leo 文档
 
 **重要**: 搜索 Leo 文档的最简方式, 就是搜索 LeoDocs.leo
 
-.. _`Leo 主页`: https://omlalala.github.io/leo-master-doc/
+.. _`Leo 主页`: http://du.zoomquiet.io/leo-editor-cn/
 
 `Leo 主页`_
 
