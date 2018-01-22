@@ -47,7 +47,7 @@
 <v t="ekr.20131009050634.17623"><vh>@bool rst3_write_intermediate_file = True</vh></v>
 <v t="ekr.20051202072010"><vh>@string rst3_default_path =</vh></v>
 <v t="ekr.20131009050634.17616"><vh>@string rst3_stylesheet_path = ..\doc</vh></v>
-<v t="ekr.20131027064821.18685"><vh>@string rst3_write_intermediate_extension = .txt</vh></v>
+<v t="ekr.20131027064821.18685"><vh>@string rst3_write_intermediate_extension = .md</vh></v>
 <v t="ekr.20050812123002.1"><vh>Http options...</vh>
 <v t="ekr.20050812123002.2"><vh>@bool rst3_clear_http_attributes = False</vh></v>
 <v t="ekr.20050812123002.3"><vh>@string rst3_http_attributename = rst_http_attribute</vh></v>
@@ -398,19 +398,19 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 </v>
 <v t="ekr.20040414161647"><vh>Leo's Documentation</vh>
 <v t="ekr.20170215081358.1"><vh> Table of contents</vh>
-<v t="ekr.20170215075612.1"><vh>@rst html.txt\leo_toc.html</vh></v>
+<v t="ekr.20170215075612.1"><vh>@rst docs\leo_toc.html</vh></v>
 </v>
 <v t="ekr.20140216125129.16666"><vh>Additonal web pages</vh>
-<v t="ekr.20131030184445.16582"><vh>@rst html.txt/leoLinks.html </vh></v>
-<v t="ekr.20090711120622.10447"><vh>@rst html.txt/screen-shots.html</vh>
+<v t="ekr.20131030184445.16582"><vh>@rst docs/leoLinks.html </vh></v>
+<v t="ekr.20090711120622.10447"><vh>@rst docs/screen-shots.html</vh>
 <v t="ekr.20170322084431.1"><vh>Leo's main window</vh></v>
 <v t="ekr.20170322084657.1"><vh>A dark theme</vh></v>
 <v t="ekr.20090811090022.14453"><vh>Leo's main window on Linux</vh></v>
 <v t="ekr.20090811090022.14452"><vh>Leo's rendering pane</vh></v>
 <v t="ekr.20170322084909.1"><vh>Using Leo to manage a PhD thesis</vh></v>
 </v>
-<v t="ekr.20131120115900.16329"><vh>@rst html.txt/screencasts.html</vh></v>
-<v t="ekr.20100821182153.4343"><vh>@rst html.txt/slides.html</vh></v>
+<v t="ekr.20131120115900.16329"><vh>@rst docs/screencasts.html</vh></v>
+<v t="ekr.20100821182153.4343"><vh>@rst docs/slides.html</vh></v>
 <v t="ekr.20170130080532.1"><vh>@auto-md ../doc/demo.md</vh></v>
 <v t="ekr.20170202125807.1"><vh>@auto-md ../doc/colorizer.md</vh></v>
 <v t="ekr.20161120073024.1"><vh>Technical docs on GitHub</vh>
@@ -427,9 +427,9 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 <v t="ekr.20101104024804.4898"><vh>How to generate these docs</vh></v>
 </v>
 <v t="ekr.20131023151757.17122"><vh>Preliminaries</vh>
-<v t="ekr.20131008041326.16079"><vh>@rst html.txt/preliminaries.html</vh></v>
-<v t="ekr.20131017174814.17479"><vh>@rst html.txt/preface.html</vh></v>
-<v t="ekr.20050831184021.4"><vh>@rst html.txt/testimonials.html</vh>
+<v t="ekr.20131008041326.16079"><vh>@rst docs/preliminaries.html</vh></v>
+<v t="ekr.20131017174814.17479"><vh>@rst docs/preface.html</vh></v>
+<v t="ekr.20050831184021.4"><vh>@rst docs/testimonials.html</vh>
 <v t="ekr.20050830074815.1"><vh>Leo is revolutionary</vh></v>
 <v t="ekr.20050830074815.2"><vh>Leo is a showcase Python application</vh></v>
 <v t="ekr.20050830074815.3"><vh>Leo is fun, even addicting</vh></v>
@@ -458,15 +458,15 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 <v t="ekr.20160304081437.9"><vh>Speed's comments</vh></v>
 </v>
 </v>
-<v t="ekr.20040414172218.4"><vh>@rst html.txt/acknowledgements.html</vh></v>
-<v t="ekr.20090221070927.1"><vh>@rst html.txt/license.html</vh></v>
+<v t="ekr.20040414172218.4"><vh>@rst docs/acknowledgements.html</vh></v>
+<v t="ekr.20090221070927.1"><vh>@rst docs/license.html</vh></v>
 </v>
 <v t="ekr.20131008041326.16092"><vh>Installing &amp; running Leo</vh>
-<v t="ekr.20131015104133.16766"><vh>@rst html.txt/getting-started.html</vh></v>
-<v t="ekr.20111127144911.5544"><vh>@rst html.txt/download.html</vh>
+<v t="ekr.20131015104133.16766"><vh>@rst docs/getting-started.html</vh></v>
+<v t="ekr.20111127144911.5544"><vh>@rst docs/download.html</vh>
 <v t="tbrown.20140412113009.50227"><vh>Snapshots</vh></v>
 </v>
-<v t="ekr.20131008041326.16094"><vh>@rst html.txt/installing.html</vh>
+<v t="ekr.20131008041326.16094"><vh>@rst docs/installing.html</vh>
 <v t="ekr.20141105052052.4"><vh>Dependencies</vh></v>
 <v t="ekr.20101125062332.5090"><vh>Installing packages</vh></v>
 <v t="ekr.20170206073848.1"><vh>Installing Leo itself</vh>
@@ -483,7 +483,7 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 <v t="ekr.20170206073747.9"><vh>Installing Leo on MacOs 10.7 (Lion) and later</vh></v>
 </v>
 </v>
-<v t="ekr.20131008041326.16140"><vh>@rst html.txt/running.html</vh>
+<v t="ekr.20131008041326.16140"><vh>@rst docs/running.html</vh>
 <v t="ekr.20131008041326.16151"><vh>Running Leo</vh>
 <v t="ekr.20131008041326.16152"><vh>Running Leo the first time</vh></v>
 <v t="ekr.20131008041326.16153"><vh>Running Leo in batch mode</vh></v>
@@ -496,7 +496,7 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 </v>
 </v>
 <v t="ekr.20050831195331.1"><vh>FAQ</vh>
-<v t="ekr.20050830115714"><vh>@rst html.txt\FAQ.html</vh>
+<v t="ekr.20050830115714"><vh>@rst docs\FAQ.html</vh>
 <v t="ekr.20050830120007"><vh>@rst-no-head Links (FAQ)</vh></v>
 <v t="ekr.20090212054250.5"><vh>Getting Leo</vh>
 <v t="ekr.20090212054250.6"><vh>Where can I get official releases of Leo?</vh></v>
@@ -628,8 +628,8 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 </v>
 </v>
 <v t="ekr.20091130111843.6787"><vh>Tutorials</vh>
-<v t="ekr.20091130111843.6788"><vh>@rst html.txt\tutorial.html</vh></v>
-<v t="ekr.20131008041326.16203"><vh>@rst html.txt\tutorial-basics.html</vh>
+<v t="ekr.20091130111843.6788"><vh>@rst docs\tutorial.html</vh></v>
+<v t="ekr.20131008041326.16203"><vh>@rst docs\tutorial-basics.html</vh>
 <v t="ekr.20131002055813.15973"><vh>Leo's main window</vh></v>
 <v t="ekr.20170215105125.1"><vh>Commands</vh></v>
 <v t="ekr.20170215031129.1"><vh>Outlines and clones</vh></v>
@@ -652,7 +652,7 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 </v>
 <v t="ekr.20131005214621.16090"><vh>Summary</vh></v>
 </v>
-<v t="ekr.20131008041326.16222"><vh>@rst html.txt\tutorial-pim.html</vh>
+<v t="ekr.20131008041326.16222"><vh>@rst docs\tutorial-pim.html</vh>
 <v t="ekr.20131004073415.16044"><vh>Clones</vh></v>
 <v t="ekr.20131018100353.16706"><vh>Clones accelerate work flow by creating views</vh></v>
 <v t="ekr.20131009100732.16760"><vh>Using abbreviations and templates</vh></v>
@@ -660,7 +660,7 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 <v t="ekr.20170312083548.1"><vh>Using Chapters</vh></v>
 <v t="ekr.20131008041326.16066"><vh>Summary</vh></v>
 </v>
-<v t="omlalala.20180117232556.1"><vh>@rst html.txt\tutorial-rst3.html</vh>
+<v t="omlalala.20180117232556.1"><vh>@rst docs\tutorial-rst3.html</vh>
 <v t="omlalala.20180117232556.2"><vh>@rst-ignore 节点</vh></v>
 <v t="omlalala.20180117232556.3"><vh>安装 docutils 和 (备选) sphinx</vh></v>
 <v t="omlalala.20180117232556.4"><vh>创建 @rst 节点</vh></v>
@@ -681,7 +681,7 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 <v t="omlalala.20180117232556.17"><vh>总结</vh></v>
 <v t="omlalala.20180117232556.18"><vh>进阶学习</vh></v>
 </v>
-<v t="ekr.20040403171740"><vh>@rst html.txt\tutorial-scripting.html</vh>
+<v t="ekr.20040403171740"><vh>@rst docs\tutorial-scripting.html</vh>
 <v t="ekr.20131013060803.16852"><vh>Hello world</vh></v>
 <v t="ekr.20170313111502.1"><vh>Create outline nodes</vh></v>
 <v t="ekr.20170313111626.1"><vh>Generate an output file from nodes</vh></v>
@@ -697,9 +697,9 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 </v>
 </v>
 <v t="ekr.20131008041326.16080"><vh>Users Guide</vh>
-<v t="ekr.20131008041326.16082"><vh>@rst html.txt/usersguide.html</vh></v>
+<v t="ekr.20131008041326.16082"><vh>@rst docs/usersguide.html</vh></v>
 <v t="EKR.20040524104904.211"><vh>Customizing Leo</vh>
-<v t="ekr.20050901101608.4"><vh>@rst html.txt\customizing.html</vh>
+<v t="ekr.20050901101608.4"><vh>@rst docs\customizing.html</vh>
 <v t="EKR.20040524104904.140"><vh>Specifying settings</vh>
 <v t="ekr.20090116130002.1"><vh>Configuration directories</vh></v>
 <v t="ekr.20090116094356.2"><vh>Search order for settings files</vh></v>
@@ -733,7 +733,7 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 </v>
 </v>
 <v t="ekr.20050831184021.1"><vh>Creating documents with the rst3 Command</vh>
-<v t="ekr.20050818163826"><vh>@rst html.txt\rstplugin3.html</vh>
+<v t="ekr.20050818163826"><vh>@rst docs\rstplugin3.html</vh>
 <v t="ekr.20100813075851.4296"><vh>Options</vh>
 <v t="ekr.20100809122216.4286"><vh>General options</vh></v>
 <v t="ekr.20050818163826.7"><vh>Headline commands</vh></v>
@@ -759,7 +759,7 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 </v>
 </v>
 <v t="ekr.20050912125144"><vh>Plugins</vh>
-<v t="ekr.20050912125144.1"><vh>@rst html.txt\plugins.html</vh>
+<v t="ekr.20050912125144.1"><vh>@rst docs\plugins.html</vh>
 <v t="ekr.20070814104719"><vh>Enabling plugins</vh></v>
 <v t="ekr.20101113063552.9398"><vh>Summary</vh></v>
 <v t="ekr.20101113063552.9528"><vh>Gui-independent plugins</vh>
@@ -903,7 +903,7 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 </v>
 </v>
 <v t="EKR.20040524104904.99"><vh>Commands Reference</vh>
-<v t="ekr.20050901101608.2"><vh>@rst html.txt\commands.html</vh>
+<v t="ekr.20050901101608.2"><vh>@rst docs\commands.html</vh>
 <v t="ekr.20131001100335.15946"><vh>Executing commands from the minibuffer</vh>
 <v t="ekr.20170312085351.1"><vh>Typing completion</vh></v>
 <v t="ekr.20170312085434.1"><vh>Filename completion</vh></v>
@@ -1011,7 +1011,7 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 <v t="ekr.20150323102918.1"><vh>@rst-ignore Not documented</vh></v>
 </v>
 <v t="ekr.20131005214621.16130"><vh>Directives Reference</vh>
-<v t="ekr.20131009065148.31758"><vh>@rst html.txt/directives.html</vh>
+<v t="ekr.20131009065148.31758"><vh>@rst docs/directives.html</vh>
 <v t="ekr.20100806170836.4392"><vh>Part 1: \@&lt;file&gt; directives</vh>
 <v t="ekr.20100806170836.4393"><vh>\@asis &lt;path&gt;</vh></v>
 <v t="ekr.20100806170836.4396"><vh>\@auto &lt;path&gt;</vh>
@@ -1032,9 +1032,9 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 </v>
 </v>
 <v t="ekr.20101025080245.5798"><vh>Leo and Other Programs</vh>
-<v t="ekr.20131008041326.16100"><vh>@rst html.txt/leoandotherprograms.html</vh></v>
+<v t="ekr.20131008041326.16100"><vh>@rst docs/leoandotherprograms.html</vh></v>
 <v t="ekr.20061025065357"><vh>Leo and Emacs</vh>
-<v t="ekr.20061025065357.1"><vh>@rst html.txt\emacs.html</vh>
+<v t="ekr.20061025065357.1"><vh>@rst docs\emacs.html</vh>
 <v t="ekr.20170315072706.1"><vh>Leo vs org mode</vh></v>
 <v t="ekr.20140720203932.17747"><vh>Using org-mode (.org) files in Leo</vh></v>
 <v t="ekr.20061025081359"><vh>Controlling Leo from Emacs using Pymacs</vh></v>
@@ -1043,7 +1043,7 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 </v>
 </v>
 <v t="TL.20080804095315.1"><vh>Leo and Vim</vh>
-<v t="TL.20080804095315.2"><vh>@rst html.txt\vimBindings.html</vh>
+<v t="TL.20080804095315.2"><vh>@rst docs\vimBindings.html</vh>
 <v t="ekr.20140810085801.18230"><vh>Using Leo's native vim mode</vh>
 <v t="ekr.20140810153947.6747"><vh>Supported commands</vh></v>
 <v t="ekr.20140810153947.6752"><vh>Differences from the real vim</vh></v>
@@ -1063,7 +1063,7 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 </v>
 </v>
 <v t="ekr.20080203101507"><vh>ILeo - the IPython bridge</vh>
-<v t="ekr.20080203101507.1"><vh>@rst html.txt\IPythonBridge.html</vh>
+<v t="ekr.20080203101507.1"><vh>@rst docs\IPythonBridge.html</vh>
 <v t="vivainio.20080302174639.1"><vh>Overview</vh></v>
 <v t="vivainio.20080302174639.2"><vh>Starting ILeo</vh></v>
 <v t="ekr.20131001045038.18981"><vh>Running Leo scripts from IPython</vh></v>
@@ -1074,14 +1074,14 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 </v>
 </v>
 <v t="ekr.20070317033759"><vh>Embedding Leo with the leoBridge module</vh>
-<v t="ekr.20070317033759.1"><vh>@rst html.txt\leoBridge.html</vh>
+<v t="ekr.20070317033759.1"><vh>@rst docs\leoBridge.html</vh>
 <v t="ekr.20070317033759.3"><vh>The basics</vh></v>
 <v t="ekr.20150328073917.1"><vh>Example: running unit tests from leoBridge</vh></v>
 <v t="ekr.20071210094621"><vh>Running leoBridge from within Leo</vh></v>
 </v>
 </v>
 <v t="ekr.20060913164304"><vh>Leo and ZODB</vh>
-<v t="ekr.20060913164304.1"><vh>@rst html.txt\zodb.html</vh>
+<v t="ekr.20060913164304.1"><vh>@rst docs\zodb.html</vh>
 <v t="ekr.20060913170145"><vh>Configuring Leo to use zodb</vh></v>
 <v t="ekr.20060913170403"><vh>Initing zodb</vh></v>
 <v t="ekr.20060913170403.1"><vh>Writing data to zodb</vh></v>
@@ -1096,9 +1096,9 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 </v>
 </v>
 <v t="ekr.20101025080245.5799"><vh>Advanced Topics</vh>
-<v t="ekr.20131008041326.16099"><vh>@rst html.txt/intermediatetopics.html</vh></v>
+<v t="ekr.20131008041326.16099"><vh>@rst docs/intermediatetopics.html</vh></v>
 <v t="ekr.20060430221745"><vh>Controlling syntax coloring</vh>
-<v t="ekr.20060430221745.1"><vh>@rst html.txt\coloring.html</vh>
+<v t="ekr.20060430221745.1"><vh>@rst docs\coloring.html</vh>
 <v t="ekr.20060830142929"><vh>Syntax coloring settings</vh></v>
 <v t="ekr.20060430220749"><vh>Files</vh></v>
 <v t="ekr.20060502084233"><vh>The colorizer's inner loop</vh></v>
@@ -1126,7 +1126,7 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 </v>
 </v>
 <v t="ekr.20060612102055"><vh>Writing Plugins</vh>
-<v t="ekr.20060612103240"><vh>@rst html.txt\writingPlugins.html</vh>
+<v t="ekr.20060612103240"><vh>@rst docs\writingPlugins.html</vh>
 <v t="ekr.20131008041326.16053"><vh>Writing Plugins</vh></v>
 <v t="EKR.20040524104904.224"><vh>Important security warnings</vh></v>
 <v t="peckj.20130813123907.6841"><vh>Documenting plugins</vh></v>
@@ -1138,7 +1138,7 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 </v>
 </v>
 <v t="ekr.20070628083442"><vh>Unit testing with Leo</vh>
-<v t="ekr.20070628083442.1"><vh>@rst html.txt\unitTesting.html</vh>
+<v t="ekr.20070628083442.1"><vh>@rst docs\unitTesting.html</vh>
 <v t="ekr.20070628084351"><vh>Using @test nodes</vh></v>
 <v t="ekr.20070628094515.1"><vh>Using @suite nodes</vh></v>
 <v t="ekr.20120229094652.15125"><vh>Using @mark-for-unit-tests</vh></v>
@@ -1149,7 +1149,7 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 </v>
 </v>
 <v t="ekr.20060527105211"><vh>Debugging with Leo</vh>
-<v t="ekr.20060527105617"><vh>@rst html.txt\debuggers.html</vh>
+<v t="ekr.20060527105617"><vh>@rst docs\debuggers.html</vh>
 <v t="ekr.20070116062405"><vh>Using g.trace and g.pdb</vh></v>
 <v t="ekr.20060527112801"><vh>Settings for winpdb</vh></v>
 <v t="ekr.20070115172724"><vh>Debugging scripts with winpdb</vh>
@@ -1159,7 +1159,7 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 </v>
 </v>
 <v t="ekr.20170618113437.1"><vh>Leo's console gui</vh>
-<v t="ekr.20170618113503.1"><vh>@rst html.txt\console-gui.html</vh>
+<v t="ekr.20170618113503.1"><vh>@rst docs\console-gui.html</vh>
 <v t="ekr.20170815082542.1"><vh>System requirements</vh></v>
 <v t="ekr.20170618111245.1"><vh>Starting Leo with the console gui</vh></v>
 <v t="ekr.20170618162705.1"><vh>Exiting Leo &amp; saving files</vh></v>
@@ -1179,7 +1179,7 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 </v>
 </v>
 <v t="ekr.20131015104133.16763"><vh>A scripting miscellany</vh>
-<v t="ekr.20131015091948.16784"><vh>@rst html.txt\scripting-miscellany.html</vh>
+<v t="ekr.20131015091948.16784"><vh>@rst docs\scripting-miscellany.html</vh>
 <v t="ekr.20131014053720.16816"><vh>\@button example</vh></v>
 <v t="ekr.20150817125512.1"><vh>Comparing two similar outlines</vh></v>
 <v t="ekr.20161014160238.1"><vh>Creating code that will run on both Python 2 and 3</vh></v>
@@ -1206,7 +1206,7 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 </v>
 </v>
 <v t="ekr.20131008041326.16178"><vh>Exploring Leo's Code Base</vh>
-<v t="ekr.20131009065148.31760"><vh>@rst html.txt/theory.html</vh>
+<v t="ekr.20131009065148.31760"><vh>@rst docs/theory.html</vh>
 <v t="ekr.20131011050613.16868"><vh>How to explore Leo's sources</vh>
 <v t="ekr.20131012060912.16768"><vh>Finding commands</vh></v>
 <v t="ekr.20131011050613.16870"><vh>Finding key-handling code</vh></v>
@@ -1225,7 +1225,7 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 </v>
 </v>
 <v t="ekr.20140810085801.18216"><vh>Vim Mode Theory of Operation</vh>
-<v t="ekr.20140810085801.18232"><vh>@rst html.txt/vim-theory.html</vh>
+<v t="ekr.20140810085801.18232"><vh>@rst docs/vim-theory.html</vh>
 <v t="ekr.20140810085801.18217"><vh>The big picture</vh></v>
 <v t="ekr.20140811083910.18246"><vh>A simple key handler</vh></v>
 <v t="ekr.20140810085801.18221"><vh>A more complex key handler</vh>
@@ -1246,11 +1246,11 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 </v>
 </v>
 <v t="ekr.20131019035402.17557"><vh>The Leonine world</vh>
-<v t="ekr.20131019035402.17573"><vh>@rst html.txt\leonine-world.html</vh></v>
+<v t="ekr.20131019035402.17573"><vh>@rst docs\leonine-world.html</vh></v>
 </v>
 </v>
 <v t="ekr.20131008041326.16091"><vh>Cheat Sheet</vh>
-<v t="ekr.20131007143750.16070"><vh>@rst html.txt\cheatsheet.html</vh>
+<v t="ekr.20131007143750.16070"><vh>@rst docs\cheatsheet.html</vh>
 <v t="ekr.20131019061259.16693"><vh>Key bindings</vh>
 <v t="ekr.20131015035606.16778"><vh>Selecting outline nodes</vh></v>
 <v t="ekr.20131015035606.16800"><vh>Moving outline nodes</vh></v>
@@ -1279,7 +1279,7 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 </v>
 </v>
 <v t="ekr.20150312080344.67"><vh>History of Leo</vh>
-<v t="ekr.20150312080344.68"><vh>@rst html.txt/history.html</vh>
+<v t="ekr.20150312080344.68"><vh>@rst docs/history.html</vh>
 <v t="ekr.20050902105852"><vh>1995: Beginnings</vh></v>
 <v t="ekr.20050902105852.1"><vh>1996: Breakthroughs</vh></v>
 <v t="ekr.20050902105852.2"><vh>1996-1998: Apple and YellowBox</vh></v>
@@ -1331,7 +1331,7 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 </v>
 </v>
 <v t="ekr.20050831184021.5"><vh>Appendices &amp; glossary</vh>
-<v t="ekr.20131008041326.16341"><vh>@rst html.txt/appendices.html</vh>
+<v t="ekr.20131008041326.16341"><vh>@rst docs/appendices.html</vh>
 <v t="EKR.20040524104904.357"><vh>Format of .leo files</vh></v>
 <v t="ekr.20060921064744.1"><vh>Format of external files</vh></v>
 <v t="EKR.20040524104904.354"><vh>Unicode reference</vh></v>
@@ -1352,7 +1352,7 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 <v t="ekr.20050901092232.6"><vh>Conclusions</vh></v>
 </v>
 </v>
-<v t="ekr.20091111112709.6672"><vh>@rst html.txt/glossary.html</vh>
+<v t="ekr.20091111112709.6672"><vh>@rst docs/glossary.html</vh>
 <v t="ekr.20100804133903.7250"><vh>\@</vh></v>
 <v t="ekr.20100804133903.7251"><vh>A - C</vh></v>
 <v t="ekr.20100804133903.7252"><vh>D - G</vh></v>
@@ -1363,7 +1363,7 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 </v>
 </v>
 <v t="ekr.20060620094033"><vh>What's New...</vh>
-<v t="ekr.20101025080245.5791"><vh>@rst html.txt/what-is-new.html</vh>
+<v t="ekr.20101025080245.5791"><vh>@rst docs/what-is-new.html</vh>
 <v t="ekr.20071116062917.2"><vh>@rst-no-head links</vh></v>
 <v t="ekr.20170911082347.1"><vh>What's new in Leo 5.6</vh>
 <v t="ekr.20170911082432.2"><vh>Highlights</vh>
@@ -1719,7 +1719,7 @@ expanded="ekr.20101014034526.5299,ekr.20101014034526.5296,"><vh>@file slideshows
 <v t="ekr.20170707034853.72"><vh>screen_capture.py now enabled by default</vh></v>
 </v>
 </v>
-<v t="maphew.20171129140022.1"><vh>@rst html.txt/quick.html</vh>
+<v t="maphew.20171129140022.1"><vh>@rst docs/quick.html</vh>
 <v t="maphew.20171129131746.1"><vh>Computer with python already</vh></v>
 <v t="maphew.20171129131759.1"><vh>No python yet</vh></v>
 </v>
@@ -2927,7 +2927,7 @@ Scripts in the scriptFile may execute any of Leo's commands except the Edit Body
     for p in c2.all_positions():
         g.es(g.toEncodedString(p.h,"utf-8"))
 </t>
-<t tx="ekr.20040414161647" str_atime="1376411963.0">
+<t tx="ekr.20040414161647" str_atime="1376411963.0">htm
 @pagewidth 70
 @tabwidth -4
 
