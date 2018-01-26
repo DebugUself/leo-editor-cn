@@ -366,7 +366,8 @@
 <v t="ekr.20100805171546.4412"><vh>Web pages</vh>
 <v t="ekr.20101112045055.5065"><vh>@url docs generated from plugin_catalog.py</vh></v>
 <v t="ekr.20131005214621.16088"><vh>Home page</vh>
-<v t="ekr.20100808060203.4273"><vh>@file index.html</vh></v>
+<v t="ekr.20100808060203.4273"
+expanded="ekr.20100808060203.4274,ekr.20100808060203.4286,"><vh>@file index.html</vh></v>
 </v>
 <v t="ekr.20101115152915.4937"><vh>wikipedia entry</vh></v>
 </v>
@@ -22578,9 +22579,8 @@ Rob (Largo84)::
 
     ol;;=&lt;ol&gt;\n    &lt;li&gt;&lt;|item|&gt;&lt;/li&gt;\n&lt;/ol&gt;
     li;;=&lt;li&gt;&lt;|ITEM|&gt;&lt;/li&gt;
-    link;;=&lt;a href="&lt;|URL|&gt;" target="_blank"&gt;&lt;|TEXT|&gt;&lt;/a&gt;
-    enum;;=\begin{enumerate}\n    \item &lt;|item|&gt;\n\end{enumerate}
-</t>
+    link;;=&lt;a href="html/html/&lt;|URL|&gt;" target="_blank"&gt;&lt;|TEXT|&gt;&lt;/a&gt;
+    enum;;=\begin{enumerate}\n    \item &lt;|item|&gt;\n\end{enumerate}</t>
 <t tx="ekr.20170228112247.1">https://github.com/leo-editor/leo-editor/pull/349
 Command line option to select type of @&lt;file&gt; node to when opening non-outline files</t>
 <t tx="ekr.20170228112643.1">**Decluttering** replaces controls custom formatting of headlines, including:
