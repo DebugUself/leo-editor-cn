@@ -366,7 +366,8 @@
 <v t="ekr.20100805171546.4412"><vh>Web pages</vh>
 <v t="ekr.20101112045055.5065"><vh>@url docs generated from plugin_catalog.py</vh></v>
 <v t="ekr.20131005214621.16088"><vh>Home page</vh>
-<v t="omlalala.20180206203511.1"><vh>@file index.html</vh></v>
+<v t="omlalala.20180206203511.1"
+expanded="omlalala.20180206203511.2,omlalala.20180206203511.6,omlalala.20180206203511.11,omlalala.20180206203511.12,"><vh>@file index.html</vh></v>
 </v>
 <v t="ekr.20101115152915.4937"><vh>wikipedia entry</vh></v>
 </v>
