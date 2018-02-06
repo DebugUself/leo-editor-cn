@@ -4,7 +4,7 @@
 
 [Leo](http://leoeditor.com/) 是个人知识管理工具/IDE/大纲编辑器, 可加速程序员/写作者和网页设计师的工作流.
 
-此库意在翻译 [Leo 文档](http://leoeditor.com/leo_toc.html).
+此库为 [Leo 5.7 中文文档](http://leoeditor.com/leo_toc.html).
 
 翻译同 **释**, Leo 为 **狮**. 
 
