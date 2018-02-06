@@ -1,4 +1,4 @@
-.. rst3: filename: docs/vimBindings.html
+.. rst3: filename: docs\vimBindings.html
 
 ###################
 Using Vim with Leo

@@ -6,14 +6,19 @@ Glossary
 
 .. Links
 .. _`Customizing Leo`:              customizing.html
+.. _`git repository`:               https://github.com/leo-editor/leo-editor
 .. _`Writing plugins and hooks`:    writingPlugins.html
 .. _`Leo's reference`:              directives.html
 .. _`leo's tutorial`:               tutorial.html
 
 This is a short glossary of important terms in Leo's world. For more information about terms, look in the index for links to discussions in other places, especially in `Leo's Tutorial`_ and `Leo's Reference`_.
 
-.. glossary::
-    :sorted:
+.. .. glossary::
+..    :sorted:
+
+.. contents:: Contents
+    :depth: 2
+    :local:
 
 \@
 ++++
@@ -383,7 +388,7 @@ External file
     pair: gnx; Glossary
     pair: Global Node Index; Glossary
     
-.. _`format of external files`: http://leoeditor.com/appendices.html#format-of-external-files
+.. _`format of external files`: appendices.html#format-of-external-files
     
 Gnx (Global Node Index)
 
@@ -532,12 +537,21 @@ Promote
 
     To move all children of a node in an outline so that they become siblings of
     the node.
+    
+.. index::
+    pair: FAQ; Glossary
+
+Reference .leo file
+
+Leo's `git repository`_ and Leo distributions contain the following reference files: LeoPyRef.leo, LeoPluginsRef.leo and leoGuiPluginsRef.leo. These reference files should contain nothing but @file nodes and should change only when new external files get added to the project. Developers should use *local copies* of reference files for their own work. For example, instead of using LeoPyRef.leo directly, I use a copy called LeoPy.leo.
+
 
 .. index::
     pair: reStructuredText; Glossary
     pair: rST; Glossary
 
 .. _`rST primer`: http://docutils.sourceforge.net/docs/user/rst/quickstart.html
+
 
 reStructuredText (rST)
 
@@ -653,7 +667,7 @@ Underindent line
 .. index::
     pair: uA; Glossary
 
-.. _`extensible attributes`: http://leoeditor.com/customizing.html#adding-extensible-attributes-to-nodes-and-leo-files
+.. _`extensible attributes`: customizing.html#adding-extensible-attributes-to-nodes-and-leo-files
     
 uA
     

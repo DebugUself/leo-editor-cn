@@ -137,7 +137,7 @@ headlines in that file:</p>
 <p>Leo sends more detailed error messages to stderr,
 the output stream that goes to the console window. In Linux and MacOS
 environments, python programs normally execute with the console window visible.</p>
-<p>On Windows, you can run Leo with the console window visible by <a class="reference external" href="http://leoeditor.com/installing.html#creating-windows-file-associations">associating .leo files with python.exe</a> <em>not</em> pythonw.exe.</p>
+<p>On Windows, you can run Leo with the console window visible by <a class="reference external" href="installing.html#creating-windows-file-associations">associating .leo files with python.exe</a> <em>not</em> pythonw.exe.</p>
 </div>
 <div class="section" id="the-leo-directory">
 <h3><a class="toc-backref" href="#id6">The .leo directory</a><a class="headerlink" href="#the-leo-directory" title="Permalink to this headline">¶</a></h3>
@@ -201,12 +201,11 @@ environments, python programs normally execute with the console window visible.<
 </div>
 <div class="section" id="using-sessions">
 <h2><a class="toc-backref" href="#id9">Using sessions</a><a class="headerlink" href="#using-sessions" title="Permalink to this headline">¶</a></h2>
-<p>A <strong>session</strong> specifies a list of tabs (.leo files) that Leo opens
-automatically when Leo first starts.</p>
-<p>The typical usage is to start Leo with the <code class="docutils literal"><span class="pre">--session-save</span> <span class="pre">--session-restore</span></code> command-line options, open several Leo files and exit.</p>
-<p>The next time Leo is started with those options, the files will be
-open, and the nodes focused as when the previous session ended.</p>
-<p>Leo stores session state in <code class="docutils literal"><span class="pre">~/.leo/leo.session</span></code></p>
+<p>A <strong>session</strong> specifies a list of .leo files that Leo opens automatically when Leo first starts. Like this:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">leo</span> <span class="o">--</span><span class="n">session</span><span class="o">-</span><span class="n">save</span> <span class="o">--</span><span class="n">session</span><span class="o">-</span><span class="n">restore</span> <span class="o">&lt;</span><span class="nb">list</span> <span class="n">of</span> <span class="o">.</span><span class="n">leo</span> <span class="n">files</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>When Leo closes, it stores session state in <code class="docutils literal"><span class="pre">~/.leo/leo.session</span></code>. Session state consists of the list of open files and the selected node in each file. The next time Leo starts with those options, Leo will open these files and will select the appropriate nodes.</p>
 </div>
 </div>
 

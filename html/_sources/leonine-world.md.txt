@@ -1,4 +1,4 @@
-.. rst3: filename: docs/leonine-world.html
+.. rst3: filename: docs\leonine-world.html
 
 #################
 The Leonine World

@@ -2,17 +2,26 @@
 
 
 
+.. _`Installing Leo with git`:  installing.html#installing-leo-with-git
+.. _`Installing Leo with pip`:  installing.html#installing-leo-with-pip
+.. _`Nightly snapshot`:         download.html#snapshots       
+.. _`Python wheel`:             https://pythonwheels.com/
+.. _`SourceForge`:              https://sourceforge.net/projects/leo/files/Leo/
+.. _`git`:                      https://git-scm.com/
+
 ###############
 Downloading Leo
 ###############
 
-We recommend using `git <https://git-scm.com/>`_ to download Leo. Using git gives you the latest, thoroughly tested code. With git, you can review all the new features and update when you decide. Git also makes it easy to revert to previous versions when problems arise.
+There are four ways to download Leo:
 
-- To install using git, follow the instructions at `Installing Leo with git <http://leoeditor.com/installing.html#installing-leo-with-git>`_.
+- **New**: Leo 5.7 final will have a `Python wheel`_, so ``pip install leo`` will automatically download *and* install Leo, including all Leo's dependencies. See `Installing Leo with pip`_.
 
-- If you prefer a new development version, or a version from from 1, 2, 5, 10, 30 or 90 days ago, download a `Nightly snapshot <http://leoeditor.com/download.html#snapshots>`_.
+- We recommend installing Leo using `git`_, see `Installing Leo with git`_. Git gives you the latest, thoroughly tested code. All of Leo's developers use git.
 
-- If you want a stable release download from `SourceForge <https://sourceforge.net/projects/leo/files/Leo/>`_. Remember that it *won't* have the latest features and bug fixes.
+- If you prefer a new development version, or a version from from 1, 2, 5, 10, 30 or 90 days ago, download a `Nightly snapshot`_.
+
+- If you want a stable release download from `SourceForge`_. Remember that it *won't* have the latest features and bug fixes.
 
 Snapshots
 +++++++++

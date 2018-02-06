@@ -19,6 +19,8 @@ This chapter tells how to install and run Leo on Windows, Linux and MacOS.
 Dependencies
 ++++++++++++
 
+.. _`Anaconda`:   https://www.anaconda.com/download/
+.. _`Miniconda`:  https://conda.io/miniconda.html
 .. _`Docutils`:   http://docutils.sourceforge.net
 .. _`feedparser`: https://pypi.python.org/pypi/feedparser
 .. _`Markdown`:   http://daringfireball.net/projects/markdown/syntax
@@ -43,21 +45,44 @@ The following packages are optional, but recommended:
 
 Plugins may require other packages.  For example, viewrendered requires `Markdown`_ if one wishes to use markdown rendering, but it is optional. rss.py will not function without `feedparser`_. Etc.
 
+Installing Leo with pip
++++++++++++++++++++++++
+
+.. _`Install pip`:      https://pip.pypa.io/en/stable/installing/               
+.. _`Install Python`:   http://python.org.
+.. _`pip`:              https://pypi.python.org/pypi/pip
+
+Python's `pip`_ tool will download *and* install Leo and all of Leo's dependencies automatically:
+
+1. `Install Python`_ first, if necessary. If you are new to Python, install Python 3, not Python 2. Python 3 installs pip automatically.
+
+2. (Python 2 only) `Install pip`_ itself, if necessary.  To check whether pip has been installed, open a terminal window and type::
+
+    pip --version
+   
+3. (Python 2 only) From a terminal, install `PyQt`_ with::
+
+    pip install pyqt
+
+4. Install Leo with::
+
+    pip install leo
+    
+This will download and install all required packages (except PyQt).
+
 Installing packages
 +++++++++++++++++++
 
 **Python**: Leo will work on any platform that supports Python 2.6 or above, including Python 3.0 and above. To install Python, see http://python.org.
 
-**PyQt**: `PyQt`_ provides Leo's widgets.
+**PyQt**: `PyQt`_ provides Leo's widgets:
 
 * Download PyQt4 from http://www.riverbankcomputing.com/software/pyqt/download.
 * Download PyQt5 from http://www.riverbankcomputing.com/software/pyqt/download5.
 
 **Important**: The PyQt version must match your installed Python version. Remember that Leo requires Python 2.6 or later, or Python 3.0 or later.
 
-**PyEnchant**: You must install `PyEnchant`_ if you want to use Leo's Spell tab.
-
-There is an executable installer for Windows users.
+**PyEnchant**: You must install `PyEnchant`_ if you want to use Leo's Spell tab. There is an executable installer for Windows users.
 
 Installing Leo itself
 +++++++++++++++++++++
@@ -83,7 +108,7 @@ Leo has a binary installer for Windows, available at the `SourceForge download p
 Installing from sources (Windows)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. _`Leo's download page`: http://leoeditor.com/download.html
+.. _`Leo's download page`: download.html
 
 You may download Leo's sources in one of three ways, as described at `Leo's download page`_. If the sources are zipped, unpack them into a temp folder. You may place the sources anywhere you like, including Python's \*site-packages* folder, for example, C:\\Python26\\Lib\\site-packages.
 
@@ -150,22 +175,18 @@ Leo.
    
         git clone git@github.com:leo-editor/leo-editor.git (ssh access)
 
-And that's it! You can run leo/core/leo.py directly. When you want to refresh the
+And that's it! You can run launchLeo.py directly. When you want to refresh the
 code with latest modifications from GitHub, run git pull.
 
 Installing Leo on Linux
 ***********************
 
 .. _`install Leo from a debian package`: installing.html#installing-from-a-debian-package
-.. _`install Leo using pip`: installing.html#installing-using-pip
 .. _`install Leo from sources`: installing.html#installing-from-sources-linux
 
 If you are using Debian/Ubuntu, it's best to
 `install Leo from a debian package`_, as described next.
 This provides file associations, icons, launcher items, etc.
-
-.. Otherwise, you may `install Leo using pip`_ or `install Leo from sources`_.
-
 Otherwise, you may `install Leo from sources`_.
 
 Installing from a debian package
@@ -184,17 +205,19 @@ Then run::
 Installing from sources (Linux)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You may download Leo's sources in one of three ways, as described at:
-http://leoeditor.com/download.html If the sources are zipped, unzip them
-into a folder in your home directory, say ~/leo-5.6.
+.. _`download Leo's sources`: download.html
+
+You may `download Leo's sources`_ in one of three ways. If the sources
+are zipped, unzip them into a folder in your home directory, say
+~/leo-5.7.
 
 You now have several choices.
 
-1. You can run Leo from your home directory. Just add  ~/leo-5.6 to your path.
+1. You can run Leo from your home directory. Just add  ~/leo-5.7 to your path.
 
 2. You can install leo into /usr/local/lib and /usr/local/bin with:
 
-    cd ~/leo-5.6
+    cd ~/leo-5.7
     sudo python setup.py install
 
 See `Running Leo`_ for how to run Leo after installing it.
@@ -267,4 +290,20 @@ Here is my installation write-up:
 - Open a new Terminal tab / window so that the above settings take effect, and install Leo. I downloaded the Leo-4.9-final-a.zip, unzipped it, and ran "python launchLeo.py" inside the Leo directory.
 
 It would really be great to get a Leo formula going for Homebrew. As mentioned before, the main question is just where to place all the Leo files in the /usr/local hierarchy.
+
+Installing everything with Anaconda or Miniconda
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+The `Anaconda`_ scientific computing environment includes Python, NumPy, SciPy, PyQt, and over a thousand other tools, packages and libraries. It's a 500+ MB download but you're guaranteed to have everything needed.
+
+To install Leo do this from a console::
+
+    pip install leo
+
+The `Miniconda`_ environment includes just Python and the `conda` package management tool. Pick and choose from the full Anaconda ecosystem.
+
+To install Leo do this from a console::
+
+    conda install pyqt5
+    pip install leo
 

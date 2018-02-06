@@ -194,8 +194,8 @@ By default, the file’s extension determines the importer:</p>
 </div>
 <p><strong>Note 1</strong>: The importers/exporters for markdown, org-mode, reStructuredText and vimoutline files automatically generate section heading of the appropriate level. Body text of the top-level &#64;auto node is ignored.</p>
 <p><strong>Note 2</strong>: See the official <a class="reference external" href="http://en.wikipedia.org/wiki/Markdown">Markdown</a> documentation.</p>
-<p><strong>Note 3</strong>: See Leo’s <a class="reference external" href="http://leoeditor.com/emacs.html#using-org-mode-org-files-in-leo">Emacs</a> documentation and Emacs’s <a class="reference external" href="http://en.wikipedia.org/wiki/Org-mode">org-mode</a> documentation.</p>
-<p><strong>Note 4</strong>: See Leo’s <a class="reference external" href="http://leoeditor.com/vimBindings.html#using-vimoutline-otl-files-in-leo">vim</a> documentation and Vim’s <a class="reference external" href="http://www.vim.org/scripts/script.php?script_id=3515">vim outline</a> documentation.</p>
+<p><strong>Note 3</strong>: See Leo’s <a class="reference external" href="emacs.html#using-org-mode-org-files-in-leo">Emacs</a> documentation and Emacs’s <a class="reference external" href="http://en.wikipedia.org/wiki/Org-mode">org-mode</a> documentation.</p>
+<p><strong>Note 4</strong>: See Leo’s <a class="reference external" href="vimBindings.html#using-vimoutline-otl-files-in-leo">vim</a> documentation and Vim’s <a class="reference external" href="http://www.vim.org/scripts/script.php?script_id=3515">vim outline</a> documentation.</p>
 <p><strong>Note 5</strong>: See the <a class="reference external" href="http://docutils.sourceforge.net/rst.html">reStructuredText</a> documentation.</p>
 <div class="section" id="auto-sanity-checks">
 <h4><a class="toc-backref" href="#id5">&#64;auto sanity checks</a><a class="headerlink" href="#auto-sanity-checks" title="Permalink to this headline">¶</a></h4>
@@ -217,7 +217,7 @@ By default, the file’s extension determines the importer:</p>
 accessing external files for most people.</p>
 <p>When writing an &#64;clean tree, Leo expands section references, &#64;all and</p>
 <p>When reading an &#64;clean tree, Leo propagates changes from the external file
-to the &#64;clean tree using the <a class="reference external" href="http://leoeditor.com/appendices.html#the-mulder-ream-update-algorithm">Mulder/Ream update algorithm</a>.</p>
+to the &#64;clean tree using the <a class="reference external" href="appendices.html#the-mulder-ream-update-algorithm">Mulder/Ream update algorithm</a>.</p>
 <p><strong>Note</strong>: The &#64;bool force_newlines_in_at_nosent_bodies setting controls whether
 Leo writes a trailing newline if non-empty body text does not end in a newline.
 The default is True.</p>
@@ -257,7 +257,7 @@ a problem: Leo 4.7 can read all external files written by Leo 4.6.</p>
 <h3><a class="toc-backref" href="#id10">&#64;shadow &lt;path&gt; (deprecated)</a><a class="headerlink" href="#shadow-path-deprecated" title="Permalink to this headline">¶</a></h3>
 <p id="index-11"><strong>Important</strong>: As of Leo 5.1, &#64;shadow is <strong>deprecated</strong> Use &#64;clean instead. &#64;clean is faster than &#64;shadow and requires no hidden files.</p>
 <p>The &#64;shadow directive creates <em>two</em> external files, a <strong>public</strong> file without sentinels, and a <strong>private</strong> file containing sentinels.</p>
-<p>When reading an &#64;shadow node, Leo uses the <a class="reference external" href="http://leoeditor.com/appendices.html#the-mulder-ream-update-algorithm">Mulder/Ream update algorithm</a> to compare the public and private files, then updates the outline based on changes to the <em>public</em> file.</p>
+<p>When reading an &#64;shadow node, Leo uses the <a class="reference external" href="appendices.html#the-mulder-ream-update-algorithm">Mulder/Ream update algorithm</a> to compare the public and private files, then updates the outline based on changes to the <em>public</em> file.</p>
 <p>Leo can do an initial import of &#64;shadow trees by parsing the corresponding public file, exactly as is done for &#64;auto nodes.</p>
 </div>
 <div class="section" id="path-expressions">

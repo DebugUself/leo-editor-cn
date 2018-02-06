@@ -1,4 +1,4 @@
-.. rst3: filename: docs/scripting-miscellany.html
+.. rst3: filename: docs\scripting-miscellany.html
 
 #############################
 A Miscellany of Leo Scripting

@@ -17,6 +17,78 @@ What's New in Leo
 .. _pymacs:                 http://pymacs.progiciels-bpi.ca/index.html
 .. _`Leo and Emacs`:        emacs.html
 
+What's new in Leo 5.7
++++++++++++++++++++++
+
+
+
+Highlights
+**********
+
+.. _`LeoVue`: https://github.com/kaleguy/leovue#leo-vue
+
+- Added Debian package for Leo.
+- pip install leo (After 5.7 final).
+- A web based Leo viewer, `LeoVue`_, written by Joe Orr.
+- New reload-settings command.
+- Leo optionally shows user tips on startup.
+- Added a new Tips page to Leo's documentation.
+- Improved the console_gui plugin.
+- Added live links from urls in the log pane.
+- Unit tests use a string gui, making them faster and more robust.
+- The line_numbering plugin shows line numbers in external files.
+- Added a TreePad importer.
+
+Code
+****
+
+- Unit tests can run in more environments.
+- The @g.commander_command decorator injects ivars into the Commands class.
+- Added verbose option to g.callers().
+- Revised redraw code.
+- Added backup-repo script in leoPy.leo.
+- Added @button get-issues to LeoDocs.leo.
+
+Commands
+********
+
+- New commands::
+
+    check-conventions
+    count-children
+    find-all-unique-regex
+    insert-as-first-child
+    insert-as-last-child
+    read-ref-file
+    set-ref-file
+    update-ref-file
+
+- The cff commands now sort their results.
+
+Enhancements
+************
+
+.. _`5.7 enhancements page`: https://github.com/leo-editor/leo-editor/issues?utf8=%E2%9C%93&q=is%3Aissue+milestone%3A5.7+label%3Aenhancement
+
+- Completed 19 enhancement issues.  See the `5.7 enhancements page`_.
+- Improved the javascript importer.
+
+Plugins
+*******
+
+- New plugins::
+
+    patch_python_colorizer.py.
+    leo_cloud.py.
+    line_numbering.py
+
+- Improved the console_gui plugin.
+
+Settings & command-line arguments
+*********************************
+
+reinstated --trace-shutdown
+
 What's new in Leo 5.6
 +++++++++++++++++++++
 

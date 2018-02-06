@@ -89,7 +89,7 @@ headlines in that file::
 Running Leo from a console window
 *********************************
 
-.. _`associating .leo files with python.exe`: http://leoeditor.com/installing.html#creating-windows-file-associations
+.. _`associating .leo files with python.exe`: installing.html#creating-windows-file-associations
 
 Leo sends more detailed error messages to stderr,
 the output stream that goes to the console window. In Linux and MacOS
@@ -162,13 +162,9 @@ If you give no file arguments on the command line Leo will open ``~/.leo/workboo
 Using sessions
 ++++++++++++++
 
-A **session** specifies a list of tabs (.leo files) that Leo opens
-automatically when Leo first starts.
+A **session** specifies a list of .leo files that Leo opens automatically when Leo first starts. Like this::
 
-The typical usage is to start Leo with the ``--session-save --session-restore`` command-line options, open several Leo files and exit.
-
-The next time Leo is started with those options, the files will be
-open, and the nodes focused as when the previous session ended.
-
-Leo stores session state in ``~/.leo/leo.session``
+    leo --session-save --session-restore <list of .leo files>
+    
+When Leo closes, it stores session state in ``~/.leo/leo.session``. Session state consists of the list of open files and the selected node in each file. The next time Leo starts with those options, Leo will open these files and will select the appropriate nodes.
 

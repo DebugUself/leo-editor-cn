@@ -1,4 +1,4 @@
-.. rst3: filename: docs/debuggers.html
+.. rst3: filename: docs\debuggers.html
 
 ##################
 Debugging with Leo
@@ -16,10 +16,10 @@ general scripts do not.
 Using g.trace and g.pdb
 +++++++++++++++++++++++
 
-.. _`FAQ`: http://leoeditor.com/FAQ.html#how-can-i-use-python-s-pdb-debugger-with-leo
-.. _`pdb`: https://docs.python.org/3/library/pdb.html
+.. _`FAQ`:                  FAQ.html#how-can-i-use-python-s-pdb-debugger-with-leo
+.. _`pdb`:                  https://docs.python.org/3/library/pdb.html
 .. _`run Leo in a console`: installing.html#running-leo-from-a-console-window
-.. _`work flow`: http://leoeditor.com/FAQ.html#how-can-i-use-leo-to-develop-leo-itself
+.. _`work flow`:            FAQ.html#how-can-i-use-leo-to-develop-leo-itself
 
 Inserting g.trace statements in my Python code is usually my first debugging choice. The g.trace statement prints the name of the function in which the call to g.trace occurs, followed by the value of its arguments. The output of the g.trace goes to the console, so you must `run Leo in a console`_ to use g.trace.
 

@@ -1,4 +1,4 @@
-.. rst3: filename: docs/customizing.html
+.. rst3: filename: docs\customizing.html
 
 ################
 Customizing Leo

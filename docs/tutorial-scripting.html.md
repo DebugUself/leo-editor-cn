@@ -1,4 +1,4 @@
-.. rst3: filename: docs/tutorial-scripting.html
+.. rst3: filename: docs\tutorial-scripting.html
 
 
 .. |---| unicode:: U+02015 .. for quotes

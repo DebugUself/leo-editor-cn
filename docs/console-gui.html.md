@@ -1,4 +1,4 @@
-.. rst3: filename: docs/console-gui.html
+.. rst3: filename: docs\console-gui.html
 
 ##################
 Leo's Console Gui

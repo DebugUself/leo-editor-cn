@@ -1,4 +1,4 @@
-.. rst3: filename: docs/leo_toc.html
+.. rst3: filename: docs\leo_toc.html
 
 .. This is the table of contents for Leo's documentation.
 

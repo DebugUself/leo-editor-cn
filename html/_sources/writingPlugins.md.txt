@@ -1,4 +1,4 @@
-.. rst3: filename: docs/writingPlugins.html
+.. rst3: filename: docs\writingPlugins.html
 
 ###############
 Writing Plugins

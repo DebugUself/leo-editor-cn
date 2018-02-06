@@ -1,4 +1,4 @@
-.. rst3: filename: docs/coloring.html
+.. rst3: filename: docs\coloring.html
 
 ###########################
 Controlling Syntax Coloring

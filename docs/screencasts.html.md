@@ -17,7 +17,7 @@ This page links to videos about Leo.  **Important notes**:
   YouTube videos typically become clearer after a few seconds.
   
 **Potential screencasters**: please read these
-`tips for screencast authors <http://leoeditor.com/FAQ.html#how-to-make-a-screencast>`_.
+`tips for screencast authors <FAQ.html#how-to-make-a-screencast>`_.
 
 .. list-table::
    :widths: 10 30 10 10

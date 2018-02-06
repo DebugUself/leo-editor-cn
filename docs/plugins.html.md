@@ -1,4 +1,4 @@
-.. rst3: filename: docs/plugins.html
+.. rst3: filename: docs\plugins.html
 
 #######
 Plugins
@@ -798,7 +798,9 @@ Creates a two-way communication (bridge) between Leo scripts and IPython running
 
 Using this bridge, scripts running in Leo can affect IPython, and vice versa. In particular, scripts running in IPython can alter Leo outlines!
 
-For full details, see Leo Users Guide: http://leoeditor.com/IPythonBridge.html
+.. _`IPython Bridge Guide`: IPythonBridge.html
+
+For full details, see the `IPython Bridge Guide`.
 
 open_shell.py
 ^^^^^^^^^^^^^

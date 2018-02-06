@@ -1,4 +1,4 @@
-.. rst3: filename: docs/commands.html
+.. rst3: filename: docs\commands.html
 
 ########################
 Leo's Commands Reference
@@ -256,6 +256,27 @@ These commands discuss special topics::
     help-for-regular-expressions
     help-for-scripting
     help-for-sessions
+
+Operations on reference .leo files
+**********************************
+
+.. .. https://groups.google.com/forum/#!topic/leo-editor/yAtfcG6AL70
+
+.. _`reference .leo files`: FAQ.html#what-is-a-reference-leo-file
+
+These commands make it easier to use Leo's `reference .leo files`_. From time to time, developers needs to open reference Leo file and copy its content to and from their personal file. These commands use a **separation node**, a top-level node whose headline is::
+
+    ---begin-private-area---
+    
+The body of the separation node contains the **.leo reference**, a path to the reference .leo file. Everything above this node is the **public part** of the outline.  Everything below this node is the **private part** of the outline.
+
+**set-reference-file** selects the reference .leo file corresponding to the local .leo file. It creates the separation node if it doesn't exists, changing the .leo reference as needed.
+
+**read-ref-file** reads the public part of this outline from the reference .leo file given in the separation node. **Warning**: This command **deletes all nodes above separation node**, recreating them from the reference file.
+
+**update-ref-file** saves public part of this outline to reference .leo file.
+
+Developers will typically execute the read-ref-file command after any git pull that changes any reference .leo file.  Similarly, devs will typically execute the update-ref-file command before doing a git commit that changes a reference .leo file.
 
 All other commands
 ++++++++++++++++++

@@ -1,4 +1,4 @@
-.. rst3: filename: docs/emacs.html
+.. rst3: filename: docs\emacs.html
 
 #################################
 Leo and Emacs, including org mode
@@ -41,7 +41,7 @@ More generally, org mode lacks the following Leonine features:
 - A full Python API and DOM, including generators.
 - @command, @button, @test.
 
-.. _`algorithm`: http://leoeditor.com/appendices.html#the-mulder-ream-update-algorithm
+.. _`algorithm`: appendices.html#the-mulder-ream-update-algorithm
 .. _`Directed Acyclic Graphs`:  https://en.wikipedia.org/wiki/Directed_acyclic_graph
 
 Leo's is based on technologies missing from org mode:

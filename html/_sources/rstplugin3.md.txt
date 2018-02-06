@@ -1,4 +1,4 @@
-.. rst3: filename: docs/rstplugin3.html
+.. rst3: filename: docs\rstplugin3.html
 
 ######################
 rst3 Command Reference
@@ -276,8 +276,8 @@ Notes:
 Further study
 +++++++++++++
 
-.. _ListManagerDocs.html: http://leoeditor.com/ListManagerDocs.html
-.. _wxListManager.leo:    http://leoeditor.com/wxListManager.leo
+.. _ListManagerDocs.html: ListManagerDocs.html
+.. _wxListManager.leo:    wxListManager.leo
 
 The file `ListManagerDocs.html`_ is an impressive example of the kind of output that can be generated relatively easily using the rst3 command.
 

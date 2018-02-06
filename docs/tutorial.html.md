@@ -1,4 +1,4 @@
-.. rst3: filename: docs/tutorial.html
+.. rst3: filename: docs\tutorial.html
 
 .. |---| unicode:: U+02015 .. for quotes
    :trim:
@@ -36,6 +36,13 @@ The last tutorial is for programmers:
     :maxdepth: 1
 
     tutorial-scripting
+    
+And finally, here is a list of helpful tips:
+
+.. toctree::
+    :maxdepth: 1
+
+    tutorial-tips
 
 Ask for help at `leo-editor <https://groups.google.com/forum/#!forum/leo-editor>`_.
 

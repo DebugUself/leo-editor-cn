@@ -1,4 +1,4 @@
-.. rst3: filename: docs/cheatsheet.html
+.. rst3: filename: docs\cheatsheet.html
 
 #################
 Leo's Cheat Sheet
@@ -602,7 +602,7 @@ Test driven development
 
 - Use `imp.reload <https://docs.python.org/3/library/imp.html>`_ to reload all changed modules.
 - Make sure to *instantiate* any changed objects.
-- See `this section <http://leoeditor.com/unitTesting.html#test-driven-development-in-leo>`_ for full details.
+- See `this section <unitTesting.html#test-driven-development-in-leo>`_ for full details.
 
 Performance gotchas
 *******************

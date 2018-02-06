@@ -1,4 +1,4 @@
-.. rst3: filename: docs/tutorial-basics.html
+.. rst3: filename: docs\tutorial-basics.html
 
 .. |---| unicode:: U+02015
    :trim:
@@ -374,7 +374,7 @@ Leo's markup applies to scripts as well as external files. Leo's execute-script 
         @others
     Controller(c).run # c *is* defined.
 
-**Important**: Leo recognizes section references *everywhere*, even inside strings or comments. See `this FAQ entry <http://leoeditor.com/FAQ.html#what-about-code-that-looks-like-a-section-reference>`_.
+**Important**: Leo recognizes section references *everywhere*, even inside strings or comments. See `this FAQ entry <FAQ.html#what-about-code-that-looks-like-a-section-reference>`_.
 
 c, g and p
 **********

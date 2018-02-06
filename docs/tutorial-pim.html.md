@@ -1,4 +1,4 @@
-.. rst3: filename: docs/tutorial-pim.html
+.. rst3: filename: docs\tutorial-pim.html
 
 .. |---| unicode:: U+02015 .. for quotes
    :trim:

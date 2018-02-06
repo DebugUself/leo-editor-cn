@@ -1,4 +1,4 @@
-.. rst3: filename: docs/IPythonBridge.html
+.. rst3: filename: docs\IPythonBridge.html
 
 ##########################
 ILeo: Leo's IPython Bridge

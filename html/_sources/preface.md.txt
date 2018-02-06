@@ -15,15 +15,15 @@ A Brief Summary of Leo
 .. Use full links here so links are active in LeoDocs.leo
 
 .. _`Emacs`: https://www.gnu.org/software/emacs/
-.. _`Leo's tutorial`: http://leoeditor.com/tutorial.html
+.. _`Leo's tutorial`: tutorial.html
 .. _`ask for help`:   https://groups.google.com/forum/#!forum/leo-editor
 .. _`Directed Acyclic Graphs`: https://en.wikipedia.org/wiki/Directed_acyclic_graph
 .. _`group of developers and users`: https://groups.google.com/forum/#!forum/leo-editor
-.. _`Leonine`: http://leoeditor.com/leonine-world.html
-.. _`Clones`: http://leoeditor.com/tutorial-pim.html
-.. _`Python API`: http://leoeditor.com/tutorial-scripting.html
-.. _`outline-oriented directives`: http://leoeditor.com/tutorial-programming.html
-.. _`Next`: http://leoeditor.com/testimonials.html
+.. _`Leonine`: leonine-world.html
+.. _`Clones`: tutorial-pim.html
+.. _`Python API`: tutorial-scripting.html
+.. _`outline-oriented directives`: tutorial-programming.html
+.. _`Next`: testimonials.html
 
     "Word outlines are very useful. But Leo makes Word look like a clunky toy."---Joe Orr
 

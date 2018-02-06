@@ -1,4 +1,4 @@
-.. rst3: filename: docs/FAQ.html
+.. rst3: filename: docs\FAQ.html
 
 ####
 FAQ
@@ -62,7 +62,7 @@ Getting Leo
 Where can I get official releases of Leo?
 *****************************************
 
-See `Leo's download page <http://leoeditor.com/download.html>`_.
+See `Leo's download page <download.html>`_.
 
 How do I use git to get the latest sources from Leo's GitHub site?
 ******************************************************************
@@ -84,7 +84,7 @@ And that's it! You can run the launchLeo script (in the top-level branch directo
 How can I get recent snapshots of Leo?
 **************************************
 
-Daily snapshots are available `here <http://leoeditor.com/download.html>`_.
+Daily snapshots are available `here <download.html>`_.
 
 Installing Leo
 ++++++++++++++
@@ -714,26 +714,6 @@ Leo in Shared environments
 
 
 
-How should I use Leo with git, etc.?
-************************************
-
-Use @clean or @auto unless everyone in your work group uses Leo.  In that case, using @file is best.
-
-Leo's repository contains **reference** .leo files. These reference files should contain nothing but @file nodes. Reference files should change only when new external files get added to the project.
-
-Leo's `git repository`_ and Leo distributions contain the following reference files: LeoPyRef.leo, LeoPluginsRef.leo and leoGuiPluginsRef.leo. Developers should use local copies of reference files for their own work. For example, instead of using LeoPyRef.leo directly, I use a copy called LeoPy.leo.
-
-Why do files sometimes change when switching branches?
-******************************************************
-
-Private copies of LeoPyRef.leo, that is, leoPy.leo, are "global".  That is, they persist unchanged when switching branches.  In effect, they act like (sometimes) unwanted caches.
-
-If you change the *structure* of @file nodes in leoPy.leo in one branch, such changes will "propegate" to other branches, even though the contents of each node has remained the same.
-
-You can see such changes clearly using leo --diff.
-
-In short, don't make unnecessary structural changes in leoPy.leo when in branches other than master.
-
 How can I use Leo cooperatively without sentinels?
 **************************************************
 
@@ -750,6 +730,212 @@ What's the recommended way to upgrade Leo?
 4. Enjoy your up-to-date Leo code...
 
 To make this work, it's important to keep your folder containing Leo separate from your .mySettings.leo and any data files.
+
+Leo and Git
++++++++++++
+
+
+
+What is a reference .leo file?
+******************************
+
+Leo's repository contains **reference .leo files**. These reference files should contain nothing but @file nodes. Reference files should change only when new external files get added to the project.
+
+Leo's `git repository`_ and Leo distributions contain the following reference files: LeoPyRef.leo, LeoPluginsRef.leo and leoGuiPluginsRef.leo. Developers should use local copies of reference files for their own work. For example, instead of using LeoPyRef.leo directly, I use a copy called LeoPy.leo.
+
+How should I use Leo with git, etc.?
+************************************
+
+.. _`reference .leo files`: FAQ.html#what-is-a-reference-leo-file
+
+Use @clean or @auto unless everyone in your work group uses Leo.  In that case, using @file is best.  Use local copies of `reference .leo files`_ instead of the reference files themselves.
+
+Why do files sometimes change when switching branches?
+******************************************************
+
+Private copies of LeoPyRef.leo, that is, leoPy.leo, are "global".  That is, they persist unchanged when switching branches.  In effect, they act like (sometimes) unwanted caches.
+
+If you change the *structure* of @file nodes in leoPy.leo in one branch, such changes will "propagate" to other branches, even though the contents of each node has remained the same.
+
+You can see such changes clearly using leo --diff.
+
+In short, don't make unnecessary structural changes in leoPy.leo when in branches other than master.
+
+Leo and Excel
++++++++++++++
+
+
+
+How can I show Leo files with Excel?
+************************************
+
+.. From: http://sourceforge.net/forum/message.php?msg_id=3240374
+
+Using Leo's File-Export-Flatten Outline commands creates a MORE style outline which places all Leo body sections on the left margin. The headlines_ are indented with tabs which Excel will read as a tab delimited format. Once inside Excel there are benefits.
+
+1. The most obvious benefit inside Excel is that the body sections (Excel first column) can be selected easily and highlighted with a different font color. This makes the MORE format very readable. Save a copy of your sheet as HTML and now you have a web page with the body sections highlighted.
+
+2. It is possible to hide columns in Excel. Hiding the first column leaves just the headlines showing.
+
+3. Formulas based on searching for a string can do calculations in Excel. For example if a heading "Current Assets" appears on level 4 then the body formula::
+
+        =INDEX(A:A,MATCH("Current Assets",D:D,0)+1)
+
+will retrieve it. The +1 after match looks down one row below the matched headline. The trick is to place all your headlines in quotes because Excel will see + "Current Assets" from the MORE outline. When Excel tries without the quotes it thinks it is a range name and displays a #N/A error instead of the headline. Also you must place a child node_ below to get the + sign instead of a - sign which would give a MORE headline of -"Current assets" , also is an error.
+
+I think there is some interesting possibility here because of the enforcement of Leo body text being always in the first column. The Leo outline provides additional reference to organizing the problem not typical of spreadsheet models. Beyond scripting in Python, Excel is good at doing interrelated calculations and detecting problems like circular references. In Excel Tools-Options-General is a setting for r1c1 format which then shows numbers instead of letters for column references. Using this would allow entries like this in the leo body::
+
+    1000
+    3500
+    =R[-1]C+R[-2]C
+
+In Excel you would see 4500 below those two numbers. This is completely independent of where the block of three cells exists on the sheet.
+
+Leo and LaTeX
++++++++++++++
+
+
+
+How can I produce PDF output from LaTex input?
+**********************************************
+
+.. _`long discussion`: https://groups.google.com/d/msg/leo-editor/83avo6mgHXY/nIKOpztyAAAJ
+
+From this `long discussion`_ on leo-editor:
+
+From Rob Keeney:
+
+**Typical Use case**
+
+I teach a variety of classes in a business environment and need handouts,
+teaching aids, worksheets and training manuals that are specifically
+customized for each client. These documents are easier to manage, print and
+protect using standard PDFs.
+
+**Workflow Overview**
+
+- Document content comes from a primary resource directory arranged by
+  topic (not client specific).
+- I have a Resources.leo file that helps me keep that directory organized.
+- All of the content files are written in LaTex (I use a .txi file
+  extension of my own invention to indicate the file is an 'input' file
+  only, not the main output file which uses .tex).
+- I have a Client.leo file for each client in their own directory to
+  organize work specific to each client.
+- For each document needed for a client project, I create a Document.tex
+  file from a standard template and change the document properties as
+  needed for the specific client, project and document.
+- The Document.tex file acts as the presentation 'shell' for the document
+  and I simply add \input{"\ResourcePath Content.txi"} after the
+  \begin{document} statement (\ResourcePath is a shortcut command to the
+  location of the content resource). This shell determines such things as
+  the document title, document type, client name, header/footer information
+  and revision date.
+- Since I work primarily in Windows, I use TeXNicCenter to process (typeset) the Document.tex file to create PDF output. (I do not use TeXNicCenter for editing, only file processing).
+
+**Workflow Notes and Shortcuts**
+
+- Years ago, I discovered the incredible exam class for LaTex and now
+  use it almost exclusively. It makes it much easier to create student
+  and teacher versions of the same content (for example, handouts for
+  students and training manual with speaking notes for the teacher).
+- I use \@outline-data tree-abbreviations in Leo to create each new
+  Document.tex file from a template with variables (very cool!)
+- I created many @data abbreviations in Leo to speed up typing of standard
+  LaTex structures (would be happy to share them if anyone is interested).
+- All document content stays in the Resources directory and only 'shell'
+  documents are in the client directories.
+- These shell documents allow for client-specific information to be added
+  to the headers, footers and in some cases as variables inside the content
+  area itself (using \theClient variable that I define).
+
+**Software Needed**
+
+- Leo, and its dependencies.
+- MiKTex for the LaTex distribution and package management (I have it set
+  to auto-update as needed).
+- TeXNicCenter for processing (typesetting) to PDF output.
+
+**Example Leo file**
+
+.. _`example Leo file`: https://github.com/leo-editor/snippets/tree/master/examples/workflow/latex-pdf
+
+See this `example Leo file`_.
+
+**Questions**
+
+Q: Can you control TexNicCenter from Leo - or do you process the file and preview process manually?
+
+A: No, I run processing (typesetting) in TeXNicCenter manually. Typically,
+I create a blank project file and open however many files required for that
+project. That way it's easier to clean up the extra files created during
+the process steps. HTH. There might be a way to invoke the LaTex commands
+through Leo, but that's way above my pay grade.
+
+From Arjan Mossel:
+
+I'm using Leo to organize sections like \chapter, \section and \subsection.
+Since I'm just writing latex in Leo, I need to keep track of the right
+hierarchies, so I can't freely move nodes around in the hierarchy or I end
+up with \subsection at the same level as \section, etc. It would be great
+to be able to let Leo handle this.
+
+MyProject
+  - @clean myproject/myproject.tex
+  - @clean myproject/references.bib
+  - Compile myproject.tex
+
+The compile node has something like this::
+
+    import os
+    import subprocess
+    import sys
+    
+    repository_dir = os.path.abspath(os.curdir)
+    
+    # The system commands should be run from the folder containing the tex/cls/clo/bib files.
+    working_dir = os.path.join(repository_dir, 'myproject')
+    os.chdir(working_dir)
+    
+    # The commands to run.
+    run_xelatex = 'xelatex ' + working_dir + os.sep + 'myproject.tex'
+    run_bibtex =  'bibtex ' + working_dir + os.sep + 'myproject'
+    
+    g.es('Running XeLaTeX and BibTeX')
+    # os.system starts a new subshell
+    # @todo: is it possible to run the below commands in one subshell consecutively?
+    os.system(run_xelatex)
+    os.system(run_bibtex)
+    os.system(run_xelatex)
+    
+    # Platform-independent file opening
+    def open_file(filename):
+        if sys.platform == "win32":
+            os.startfile(filename)
+        else:
+            opener ="xdg-open"
+            subprocess.call([opener, filename])
+    
+    open_file('myproject.pdf')
+
+How can I use BibTeX citations from Leo?
+****************************************
+
+.. _`this posting about BibTeX citations`: http://groups.google.com/group/leo-editor/browse_thread/thread/d36d76174dcd6786/9c2a298049f4f01c
+
+.. _`raw-data`: http://docutils.sourceforge.net/docs/ref/rst/directives.html#raw-data-pass-through
+
+When using LaTeX and BibTeX, I would like to use inside of Leo a kind of LaTeX-inline-markup, that after generation of the RsT file through Sphinx as well as after running of "make latex", generate a LaTeX file containing the citation call of the form \cite{CITBook001} as described in a file \*.bib. Is there a way to have Leo/Sphinx/RsT generate the inline raw latex syntax?
+
+Use the docutils `raw-data`_ syntax. Examples::
+
+    .. role:: raw-role(raw)
+      :format: html latex
+    .. raw:: latex
+      \bibliographystyle{acm}
+      \bibliography{myBibliography}
+      
+For more details, see `this posting about BibTeX citations`_.
 
 Scripting & Testing
 +++++++++++++++++++
@@ -954,7 +1140,9 @@ To see all of Leo's unit testing commands, do::
 
 Leo pre-defines 'c', 'g' and 'p' in unit tests just as in scripts.
 
-For more details about unit testing, see: http://leoeditor.com/unitTesting.html
+.. _`unit testing`: unitTesting.html
+
+For more details about unit testing, the `unit testing`_ page.
 
 **Notes for Leo developers**
 
@@ -1142,6 +1330,129 @@ The Import Files dialog allows you to select multiple files provided you are run
 
 This will import all .py files from aDirectory, which should be a full path to a particular directory. You could use ".c" to import all .c files, etc.
 
+How can I make a screencast?
+****************************
+
+Making screencasts is a lot easier than you probably think. Here are some tips to get you started quickly.
+
+Use a script to open your app
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The primary purpose of this script is to open your app at a fixed, unchanging size. This is surprisingly important:
+
+- It ensures that the window will always render to pixels in the same way.
+- It makes it easier to splice in new video to an existing video.
+- It makes it easier to plan your video to ensure everything will appear as you expect.
+- It provides continuity when making a series of videos.
+
+Here is a script that I use when making Leo's screencasts::
+
+    python launchLeo.py --no-cache --gui=qttabs
+    --window-size=682x1264 <list of .leo files> %*​
+    
+This *particular* --window-size causes Camtasia to create a window whose actual size is 720x1280, the nominal 720p resolution. It may prevent text blur. Or not. I do know that Leo's screencasts look great at 720p.
+
+Debug your workflow with short videos
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Make sure that you can actually upload *excellent quality* videos before doing anything else. This step is crucial. If you skip this step, all of your initial recording an post-production work could be utterly wasted.
+
+Use *short* (10-second) test videos at this step. Their primary purpose verify that you can can get to the *end* of the production process successfully. You *are* going to make lots of mistakes here: using short videos helps you make these mistakes quickly.
+
+Don't even *think* about making longer videos until the answers to all the following questions are clearly "yes":
+
+- Is your camera working?
+- Is your microphone working?
+- Do you know how to record your voice and screen?
+- Can you log into YouTube or screencast.com?
+- Can you upload to YouTube or screencast.com?
+- Is the sound in your *uploaded* video great?
+- Do the pixels in your *uploaded* look great?
+
+This last item is particularly important. Just because pixels look good in your video editor is no guarantee that they will look good when uploaded.
+
+You are ready to try your first "real" take *only* when you can upload a video that looks and sounds great.
+
+Emulate the screencast.com tutorials
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Before rushing right out and making your first video, I recommend watching the tutorial screencasts at screencast.com: http://www.techsmith.com/tutorial-camtasia-8.html
+
+Watch the tutorials to see how the presentations themselves are organized. Watch them until it feels natural to emulate their style.
+
+If you will be using Camtasia, you will also want to watch the tutorials to learn how Camtasia works.
+
+Record your first real take
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Now it's time to go beyond test videos. Even now, though, I recommend keeping your first efforts short: one minute or so. Again, this saves time. You'll ending up throwing away two or three anyway ;-)
+
+Bring up your app using you demo script and run through your presentation.
+
+Here's the **most important tip**: As you narrate your video, audio flubs are inevitable, but they don't matter at all *provided* that you *realize* that you have just flubbed a word or phrase.
+
+When you flub a line, don't panic! Just *pause*, regroup, and repeat the phrase until you get it right. *Pausing is essential*: it simplifies inserting and deleting sound bites during post production.
+
+You'll relax once you realize that flubs don't matter and that pausing makes post-production easier. Once you relax, getting a good take will suddenly become easier.
+
+Correcting flubs *as soon as they happen* is absolutely essential. Don't even *think* about fixing audio flubs in post-production. It simply can't be done. Instead of spending 20 minutes trying (and failing) to correct a flub in post production, it is much faster and better to take 20 seconds during your take to correct the flub.
+
+Similar remarks apply to video, but in my experience it's much easier to get the video right. If you do flub the video, it will be much easier if you just do a complete retake. With Camtasia, you can separate the audio and video tracks, but usually that won't work, especially if there is audio of key clicks.
+
+By retaking audio flubs as they happen, I find it easy to work without a script. It feels more natural to me than reading a script. YMMV. When I get stuck, I just pause. Or just start over. Otoh, it wouldn't be that hard to read a script. Just *pause* before and after each phrase. Never rush your audio!
+
+In short, the key Aha is: insert (audio) pauses *everywhere* as needed. It's easy to edit them out. It's virtually impossible to edit in the middle of words, even with the world's best audio editor.
+
+Edit your raw take
+^^^^^^^^^^^^^^^^^^
+
+Post production should be easy provided that you have corrected all audio flubs as they happen. This keeps the audio and video in sync. Just edit out flubs and reduce overly-long pauses.
+
+I won't discuss production details here because they depend on the editor you are using.
+
+Do a new take if you don't have clean audio. Depending on the complexity of your video, it may be possible to splice a partial take in the middle or end of your video. Similarly, it may be possible to splice in a new take to add material you didn't cover in your first take.
+
+One final word of advice. When editing your video, settle for "good enough". Perfectionism is not your friend.
+
+Summary
+^^^^^^^
+
+Making a screencast is a lot easier than you think :-)
+
+- Create a script that will open your app at a fixed, optimal, size.
+
+- Emulate the style and form of screencast.com tutorials.
+
+- Verify the *entire* production process with short test videos.
+
+  Before making longer videos, make *sure* that the test videos look and sound great *when they have been uploaded*.
+  
+- When doing a take, flubs don't matter, *provided* you correct them *during the take*.  Use pauses.  Make haste slowly!
+
+- Splice in new takes during post-production to fix flubs and add new material.
+
+Additional tips
+^^^^^^^^^^^^^^^
+
+Here are some more tips I've learned from experience:
+
+1. Redo audio tests and video tests every time you start a new session. It's amazing how hum can creep into recordings.
+
+2. The most important step in post production is to get the pacing so it feels right. Beware of editing out pauses. Make sure you give your viewers time to see what you are doing, and to see what you have done.
+   
+3. Don't waste time on callouts or captions until the audio and video work together at a relaxed pace. It's almost as hard to correct pacing mistakes as it is to correct audio flubs.
+
+Tips for improving audio
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. Enable volume leveling and noise removal in Camtasia. This tip, all by itself, makes a big difference.
+
+2. Use a better microphone, preferably one with about a 1-inch diaphragm. This is the kind of microphone that Andrew Price uses. The Audio-technica AT2020 USB is relatively inexpensive.
+  
+3. Use "pop filter" with the microphone. This is a cloth or (better) a metal screen that is placed in front of the microphone. It smooths the sound.
+  
+4. Adjust the sound level for maximum volume without distortion: With the microphone about a foot from your mouth, turn the volume as loud as possible, then turn down until no red is visible in the meter.
+
 How can I organize data so I can find stuff later?
 **************************************************
 
@@ -1169,31 +1480,6 @@ It sometimes happens that the focus gets left in a Leo widget that doesn't suppo
 
 But you don't have to do that.  Instead, use Alt-tab once to change away from Leo, and then use Alt-tab again to change back to Leo.  When you do this, Leo puts focus in the body pane and you are all set.
 
-How can I show Leo files with Excel?
-************************************
-
-.. From: http://sourceforge.net/forum/message.php?msg_id=3240374
-
-Using Leo's File-Export-Flatten Outline commands creates a MORE style outline which places all Leo body sections on the left margin. The headlines_ are indented with tabs which Excel will read as a tab delimited format. Once inside Excel there are benefits.
-
-1. The most obvious benefit inside Excel is that the body sections (Excel first column) can be selected easily and highlighted with a different font color. This makes the MORE format very readable. Save a copy of your sheet as HTML and now you have a web page with the body sections highlighted.
-
-2. It is possible to hide columns in Excel. Hiding the first column leaves just the headlines showing.
-
-3. Formulas based on searching for a string can do calculations in Excel. For example if a heading "Current Assets" appears on level 4 then the body formula::
-
-        =INDEX(A:A,MATCH("Current Assets",D:D,0)+1)
-
-will retrieve it. The +1 after match looks down one row below the matched headline. The trick is to place all your headlines in quotes because Excel will see + "Current Assets" from the MORE outline. When Excel tries without the quotes it thinks it is a range name and displays a #N/A error instead of the headline. Also you must place a child node_ below to get the + sign instead of a - sign which would give a MORE headline of -"Current assets" , also is an error.
-
-I think there is some interesting possibility here because of the enforcement of Leo body text being always in the first column. The Leo outline provides additional reference to organizing the problem not typical of spreadsheet models. Beyond scripting in Python, Excel is good at doing interrelated calculations and detecting problems like circular references. In Excel Tools-Options-General is a setting for r1c1 format which then shows numbers instead of letters for column references. Using this would allow entries like this in the leo body::
-
-    1000
-    3500
-    =R[-1]C+R[-2]C
-
-In Excel you would see 4500 below those two numbers. This is completely independent of where the block of three cells exists on the sheet.
-
 How can I simulate more flexible clones?
 ****************************************
 
@@ -1216,25 +1502,6 @@ http://ss64.com/nt/syntax-args.html
 http://stackoverflow.com/questions/5034076/what-does-dp0-mean-and-how-does-it-work
 
 FYI, this FAQ entry fixes the following bug: https://bugs.launchpad.net/leo-editor/+bug/613153 unable to describe root directory on thumb drive
-
-How can I use BibTeX citations from Leo?
-****************************************
-
-.. _`this posting about BibTeX citations`: http://groups.google.com/group/leo-editor/browse_thread/thread/d36d76174dcd6786/9c2a298049f4f01c
-
-.. _`raw-data`: http://docutils.sourceforge.net/docs/ref/rst/directives.html#raw-data-pass-through
-
-When using LaTeX and BibTeX, I would like to use inside of Leo a kind of LaTeX-inline-markup, that after generation of the RsT file through Sphinx as well as after running of "make latex", generate a LaTeX file containing the citation call of the form \cite{CITBook001} as described in a file \*.bib. Is there a way to have Leo/Sphinx/RsT generate the inline raw latex syntax?
-
-Use the docutils `raw-data`_ syntax. Examples::
-
-    .. role:: raw-role(raw)
-      :format: html latex
-    .. raw:: latex
-      \bibliographystyle{acm}
-      \bibliography{myBibliography}
-      
-For more details, see `this posting about BibTeX citations`_.
 
 How can I use clones to reorganize an outline?
 **********************************************
@@ -1368,129 +1635,6 @@ How can I use two copies of Leo to advantage?
 By Rich Ries. I often rework C code that's already been "Leo-ized"--the first pass was quick and dirty to get it going. When I do subsequent passes, I wind up with subnodes that are out of order with the sequence found in the main node_. It's not a big deal, but I like 'em ordered. With just one editor pane, clicking on the node_ to move would switch focus to that node_. I'd then need to re-focus on the main node_. A minor nuisance, but it does slow you down.
 
 My solution is to open a second editor with its focus on the main node_. Switch to the other editor, and, referring to the first editor pane, move the nodes as you like. The second editor's pane will change focus to the node_ you're moving, but the first editor will stay focused on the main node_. It's a lot easier to do than to describe!
-
-How to make a screencast
-************************
-
-Making screencasts is a lot easier than you probably think. Here are some tips to get you started quickly.
-
-Use a script to open your app
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-The primary purpose of this script is to open your app at a fixed, unchanging size. This is surprisingly important:
-
-- It ensures that the window will always render to pixels in the same way.
-- It makes it easier to splice in new video to an existing video.
-- It makes it easier to plan your video to ensure everything will appear as you expect.
-- It provides continuity when making a series of videos.
-
-Here is a script that I use when making Leo's screencasts::
-
-    python launchLeo.py --no-cache --gui=qttabs
-    --window-size=682x1264 <list of .leo files> %*​
-    
-This *particular* --window-size causes Camtasia to create a window whose actual size is 720x1280, the nominal 720p resolution. It may prevent text blur. Or not. I do know that Leo's screencasts look great at 720p.
-
-Debug your workflow with short videos
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Make sure that you can actually upload *excellent quality* videos before doing anything else. This step is crucial. If you skip this step, all of your initial recording an post-production work could be utterly wasted.
-
-Use *short* (10-second) test videos at this step. Their primary purpose verify that you can can get to the *end* of the production process successfully. You *are* going to make lots of mistakes here: using short videos helps you make these mistakes quickly.
-
-Don't even *think* about making longer videos until the answers to all the following questions are clearly "yes":
-
-- Is your camera working?
-- Is your microphone working?
-- Do you know how to record your voice and screen?
-- Can you log into YouTube or screencast.com?
-- Can you upload to YouTube or screencast.com?
-- Is the sound in your *uploaded* video great?
-- Do the pixels in your *uploaded* look great?
-
-This last item is particularly important. Just because pixels look good in your video editor is no guarantee that they will look good when uploaded.
-
-You are ready to try your first "real" take *only* when you can upload a video that looks and sounds great.
-
-Emulate the screencast.com tutorials
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Before rushing right out and making your first video, I recommend watching the tutorial screencasts at screencast.com: http://www.techsmith.com/tutorial-camtasia-8.html
-
-Watch the tutorials to see how the presentations themselves are organized. Watch them until it feels natural to emulate their style.
-
-If you will be using Camtasia, you will also want to watch the tutorials to learn how Camtasia works.
-
-Record your first real take
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Now it's time to go beyond test videos. Even now, though, I recommend keeping your first efforts short: one minute or so. Again, this saves time. You'll ending up throwing away two or three anyway ;-)
-
-Bring up your app using you demo script and run through your presentation.
-
-Here's the **most important tip**: As you narrate your video, audio flubs are inevitable, but they don't matter at all *provided* that you *realize* that you have just flubbed a word or phrase.
-
-When you flub a line, don't panic! Just *pause*, regroup, and repeat the phrase until you get it right. *Pausing is essential*: it simplifies inserting and deleting sound bites during post production.
-
-You'll relax once you realize that flubs don't matter and that pausing makes post-production easier. Once you relax, getting a good take will suddenly become easier.
-
-Correcting flubs *as soon as they happen* is absolutely essential. Don't even *think* about fixing audio flubs in post-production. It simply can't be done. Instead of spending 20 minutes trying (and failing) to correct a flub in post production, it is much faster and better to take 20 seconds during your take to correct the flub.
-
-Similar remarks apply to video, but in my experience it's much easier to get the video right. If you do flub the video, it will be much easier if you just do a complete retake. With Camtasia, you can separate the audio and video tracks, but usually that won't work, especially if there is audio of key clicks.
-
-By retaking audio flubs as they happen, I find it easy to work without a script. It feels more natural to me than reading a script. YMMV. When I get stuck, I just pause. Or just start over. Otoh, it wouldn't be that hard to read a script. Just *pause* before and after each phrase. Never rush your audio!
-
-In short, the key Aha is: insert (audio) pauses *everywhere* as needed. It's easy to edit them out. It's virtually impossible to edit in the middle of words, even with the world's best audio editor.
-
-Edit your raw take
-^^^^^^^^^^^^^^^^^^
-
-Post production should be easy provided that you have corrected all audio flubs as they happen. This keeps the audio and video in sync. Just edit out flubs and reduce overly-long pauses.
-
-I won't discuss production details here because they depend on the editor you are using.
-
-Do a new take if you don't have clean audio. Depending on the complexity of your video, it may be possible to splice a partial take in the middle or end of your video. Similarly, it may be possible to splice in a new take to add material you didn't cover in your first take.
-
-One final word of advice. When editing your video, settle for "good enough". Perfectionism is not your friend.
-
-Summary
-^^^^^^^
-
-Making a screencast is a lot easier than you think :-)
-
-- Create a script that will open your app at a fixed, optimal, size.
-
-- Emulate the style and form of screencast.com tutorials.
-
-- Verify the *entire* production process with short test videos.
-
-  Before making longer videos, make *sure* that the test videos look and sound great *when they have been uploaded*.
-  
-- When doing a take, flubs don't matter, *provided* you correct them *during the take*.  Use pauses.  Make haste slowly!
-
-- Splice in new takes during post-production to fix flubs and add new material.
-
-Additional tips
-^^^^^^^^^^^^^^^
-
-Here are some more tips I've learned from experience:
-
-1. Redo audio tests and video tests every time you start a new session. It's amazing how hum can creep into recordings.
-
-2. The most important step in post production is to get the pacing so it feels right. Beware of editing out pauses. Make sure you give your viewers time to see what you are doing, and to see what you have done.
-   
-3. Don't waste time on callouts or captions until the audio and video work together at a relaxed pace. It's almost as hard to correct pacing mistakes as it is to correct audio flubs.
-
-Tips for improving audio
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-1. Enable volume leveling and noise removal in Camtasia. This tip, all by itself, makes a big difference.
-
-2. Use a better microphone, preferably one with about a 1-inch diaphragm. This is the kind of microphone that Andrew Price uses. The Audio-technica AT2020 USB is relatively inexpensive.
-  
-3. Use "pop filter" with the microphone. This is a cloth or (better) a metal screen that is placed in front of the microphone. It smooths the sound.
-  
-4. Adjust the sound level for maximum volume without distortion: With the microphone about a foot from your mouth, turn the volume as loud as possible, then turn down until no red is visible in the meter.
 
 What are some useful abbreviations?
 ***********************************
@@ -1884,7 +2028,7 @@ Using external files
 How do I inhibit sentinels in external files?
 *********************************************
 
-.. _`Mulder/Ream update algorithm`: http://leoeditor.com/appendices.html#the-mulder-ream-update-algorithm
+.. _`Mulder/Ream update algorithm`: appendices.html#the-mulder-ream-update-algorithm
 
 Use @clean trees. Files derived from @clean trees contain no sentinels_. However, Leo can update @clean trees from changes made to the corresponding external file.  The `Mulder/Ream update algorithm`_ makes this magic happen.
 

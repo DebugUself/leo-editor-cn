@@ -1,4 +1,4 @@
-.. rst3: filename: docs/leoBridge.html
+.. rst3: filename: docs\leoBridge.html
 
 #######################################
 Embedding Leo with the leoBridge module

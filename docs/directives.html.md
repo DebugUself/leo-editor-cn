@@ -162,12 +162,12 @@ You can also specify importers *explicitly* as follows::
     @auto-vim-outline   vimoutline          1, 4      
     @auto-rst           reStructuredText    1, 5
     
-.. _`org-mode`: http://en.wikipedia.org/wiki/Org-mode
-.. _`Emacs`:    http://leoeditor.com/emacs.html#using-org-mode-org-files-in-leo
-.. _`markdown`:  http://en.wikipedia.org/wiki/Markdown
-.. _`reStructuredText`:     http://docutils.sourceforge.net/rst.html
-.. _`vim outline`:  http://www.vim.org/scripts/script.php?script_id=3515
-.. _`vim`:          http://leoeditor.com/vimBindings.html#using-vimoutline-otl-files-in-leo
+.. _`org-mode`:         http://en.wikipedia.org/wiki/Org-mode
+.. _`Emacs`:            emacs.html#using-org-mode-org-files-in-leo
+.. _`markdown`:         http://en.wikipedia.org/wiki/Markdown
+.. _`reStructuredText`: http://docutils.sourceforge.net/rst.html
+.. _`vim outline`:      http://www.vim.org/scripts/script.php?script_id=3515
+.. _`vim`:              vimBindings.html#using-vimoutline-otl-files-in-leo
 
 **Note 1**: The importers/exporters for markdown, org-mode, reStructuredText and vimoutline files automatically generate section heading of the appropriate level. Body text of the top-level @auto node is ignored.
 
@@ -205,7 +205,7 @@ An **underindented line** is a line of body text that is indented less then the 
 \@clean <path>
 **************
 
-.. _`Mulder/Ream update algorithm`: http://leoeditor.com/appendices.html#the-mulder-ream-update-algorithm
+.. _`Mulder/Ream update algorithm`: appendices.html#the-mulder-ream-update-algorithm
 
 .. index::
     pair: @clean; Reference
@@ -286,7 +286,7 @@ The @nosent directive creates an external file **without** sentinels. When writi
 
 The @shadow directive creates *two* external files, a **public** file without sentinels, and a **private** file containing sentinels.
 
-.. _`Mulder/Ream update algorithm`: http://leoeditor.com/appendices.html#the-mulder-ream-update-algorithm
+.. _`Mulder/Ream update algorithm`: appendices.html#the-mulder-ream-update-algorithm
 
 When reading an @shadow node, Leo uses the `Mulder/Ream update algorithm`_ to compare the public and private files, then updates the outline based on changes to the *public* file.
 
