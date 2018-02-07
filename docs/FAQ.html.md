@@ -5,6 +5,7 @@ FAQ
 ####
 
 This is Leo's Frequently Asked Questions document.
+这是 Leo 常见问题回答
 
 .. index:: FAQ
 

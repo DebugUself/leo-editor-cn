@@ -9,7 +9,7 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="ekr.20050831195449"><vh>** Read me first **</vh></v>
+<v t="ekr.20050831195449"><vh>** 先阅此 **</vh></v>
 <v t="ekr.20070610174018"><vh>Startup</vh>
 <v t="ekr.20050407144417"><vh>@settings</vh>
 <v t="ekr.20150318043636.16"><vh>@bool check_outline_after_read = True</vh></v>
@@ -371,7 +371,7 @@ expanded="omlalala.20180206203511.2,omlalala.20180206203511.6,omlalala.201802062
 </v>
 <v t="ekr.20101115152915.4937"><vh>wikipedia entry</vh></v>
 </v>
-<v t="omlalala.20180206205022.1"><vh>Leo's Documentation</vh>
+<v t="omlalala.20180206205022.1"><vh>Leo 文档</vh>
 <v t="omlalala.20180206205022.2"><vh> Table of contents</vh>
 <v t="omlalala.20180206205022.3"><vh>@rst docs\leo_toc.html</vh></v>
 </v>
@@ -388,14 +388,14 @@ expanded="omlalala.20180206203511.2,omlalala.20180206203511.6,omlalala.201802062
 <v t="omlalala.20180206205022.13"><vh>@rst docs/slides.html</vh></v>
 <v t="omlalala.20180206205022.42"><vh>Technical docs on GitHub</vh></v>
 </v>
-<v t="omlalala.20180206205022.61"><vh>How to...</vh>
-<v t="omlalala.20180206205022.62"><vh>How to generate odt/rtf/pdf files</vh>
+<v t="omlalala.20180206205022.61"><vh>如何...</vh>
+<v t="omlalala.20180206205022.62"><vh>生成 odt/rtf/pdf 文件</vh>
 <v t="omlalala.20180206205022.63"><vh>Post from ville</vh></v>
 <v t="omlalala.20180206205022.64"><vh>@rst c:/test/test.html</vh>
 <v t="omlalala.20180206205022.65"><vh>section 1</vh></v>
 </v>
 </v>
-<v t="omlalala.20180206205022.66"><vh>How to generate these docs</vh></v>
+<v t="omlalala.20180206205022.66"><vh>生成主要文档</vh></v>
 </v>
 <v t="omlalala.20180206205022.67"><vh>Preliminaries</vh>
 <v t="omlalala.20180206205022.68"><vh>@rst docs/preliminaries.html</vh></v>
@@ -2276,13 +2276,14 @@ Removes @ignore, @nocolor, @wrap directives.
 </t>
 <t tx="ekr.20050812123002.7">Used differently.  See rst2_pure_document.
 </t>
-<t tx="ekr.20050831195449">For instruction about installing Leo see:
+<t tx="ekr.20050831195449">Leo 如何安装从此看:
 http://leoeditor.com/installing.html
 
+有关 Leo 任何人都推荐先从此看:
 For everything a beginner needs to know about Leo see:
 http://leoeditor.com/tutorial.html
 
-For help, please ask questions at:
+任何疑问到这来交流:
 http://groups.google.com/group/leo-editor
 </t>
 <t tx="ekr.20051202072010"></t>
@@ -6905,7 +6906,7 @@ This chapter tells how to install and run Leo on Windows, Linux and MacOS.
         @string trace_bindings_filter
         @string trace_bindings_pane_filter
 </t>
-<t tx="omlalala.20180206205022.1029"></t>
+<t tx="omlalala.20180206205022.1029">18.2.7 ZQ 尝试嗯哼</t>
 <t tx="omlalala.20180206205022.103">.. _`Anaconda`:   https://www.anaconda.com/download/
 .. _`Miniconda`:  https://conda.io/miniconda.html
 .. _`Docutils`:   http://docutils.sourceforge.net
@@ -8893,6 +8894,7 @@ FAQ
 ####
 
 This is Leo's Frequently Asked Questions document.
+这是 Leo 常见问题回答
 
 .. index:: FAQ
 
@@ -11714,7 +11716,7 @@ This script creates a node containing today's date in the body text::
 </t>
 <t tx="omlalala.20180206205022.3">.. This is the table of contents for Leo's documentation.
 
-Leo's Documentation Page
+Leo 文档
 ========================
 
 **Important**: the easiest way to search Leo's documentation is to search LeoDocs.leo.
@@ -18676,7 +18678,7 @@ The number of lines that Vim checks at the top and bottom of the buffer is confi
 Issue the ":help modeline" command within Vim for the more information about modelines.
 </t>
 <t tx="omlalala.20180206205022.659"></t>
-<t tx="omlalala.20180206205022.66">- Select the node "Leo's Documentation"
+<t tx="omlalala.20180206205022.66">- Select the node "Leo 文档"
 
 - Run the make-sphinx command or click the make-sphinx button.
 
@@ -19885,7 +19887,7 @@ Executing this kind of code is typically an intolerable security risk. **Importa
 
 This script will introduce a security hole the .leo file without doing anything prohibited by rexec, and without leaving any traces of the perpetrating script behind. The damage will become permanent *outside* this script when the user saves the .leo file.
 </t>
-<t tx="omlalala.20180206205022.714" str_mtime="1376412039.0" str_atime="1376414164.0" str_ctime="1376412039.0">Documenting new plugins is important for users to be able understand and use the features they add. To that effect, there are a few documentation steps that should not be overlooked.
+<t tx="omlalala.20180206205022.714" str_ctime="1376412039.0" str_mtime="1376412039.0" str_atime="1376414164.0">Documenting new plugins is important for users to be able understand and use the features they add. To that effect, there are a few documentation steps that should not be overlooked.
 
 - Document the plugin thoroughly in the plugin's docstring. This allows the documentation to be accessed from the Plugins menu.
   
