@@ -18,5 +18,3 @@
 更多疑问, 前往大会入口.
 
 这边请: [三狮圣殿](https://github.com/DebugUself/leo-editor-cn/wiki/Home).
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>
