@@ -6906,7 +6906,7 @@ This chapter tells how to install and run Leo on Windows, Linux and MacOS.
         @string trace_bindings_filter
         @string trace_bindings_pane_filter
 </t>
-<t tx="omlalala.20180206205022.1029">18.2.7 ZQ 尝试嗯哼</t>
+<t tx="omlalala.20180206205022.1029">- 18.2.7 ZQ 尝试嗯哼</t>
 <t tx="omlalala.20180206205022.103">.. _`Anaconda`:   https://www.anaconda.com/download/
 .. _`Miniconda`:  https://conda.io/miniconda.html
 .. _`Docutils`:   http://docutils.sourceforge.net
