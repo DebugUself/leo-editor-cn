@@ -367,12 +367,12 @@
 <v t="ekr.20101112045055.5065"><vh>@url docs generated from plugin_catalog.py</vh></v>
 <v t="ekr.20131005214621.16088"><vh>Home page</vh>
 <v t="omlalala.20180206203511.1"
-expanded="omlalala.20180206203511.2,omlalala.20180206203511.6,omlalala.20180206203511.11,omlalala.20180206203511.12,"><vh>@file index.html</vh></v>
+expanded="omlalala.20180206203511.6,omlalala.20180206203511.12,"><vh>@file index.html</vh></v>
 </v>
 <v t="ekr.20101115152915.4937"><vh>wikipedia entry</vh></v>
 </v>
 <v t="omlalala.20180206205022.1"><vh>Leo 文档</vh>
-<v t="omlalala.20180206205022.2"><vh> Table of contents</vh>
+<v t="omlalala.20180206205022.2"><vh>Table of contents</vh>
 <v t="omlalala.20180206205022.3"><vh>@rst docs\leo_toc.html</vh></v>
 </v>
 <v t="omlalala.20180206205022.4"><vh>Additonal web pages</vh>
@@ -1268,7 +1268,7 @@ expanded="omlalala.20180206203511.2,omlalala.20180206203511.6,omlalala.201802062
 <v t="omlalala.20180206205022.810"><vh>@rst docs\leonine-world.html</vh></v>
 </v>
 </v>
-<v t="omlalala.20180206205022.811"><vh>Cheat Sheet</vh>
+<v t="omlalala.20180206205022.811"><vh>(ZQ:0%)Cheat Sheet</vh>
 <v t="omlalala.20180206205022.812"><vh>@rst docs\cheatsheet.html</vh>
 <v t="omlalala.20180206205022.813"><vh>Key bindings</vh>
 <v t="omlalala.20180206205022.814"><vh>Selecting outline nodes</vh></v>
@@ -11738,7 +11738,7 @@ Leo 文档
 .. toctree::
    :maxdepth: 1
 
-   Cheat Sheet &lt;cheatsheet&gt;
+   (ZQ:0%)Cheat Sheet &lt;cheatsheet&gt;
    
 .. toctree::
    :maxdepth: 2
@@ -21841,11 +21841,11 @@ The Leonine World
 **Databases**: Leo's clones create new opportunities for scriptable databases. In my brother Speed's outlines, suboutlines *are* SQL queries!
 </t>
 <t tx="omlalala.20180206205022.811"></t>
-<t tx="omlalala.20180206205022.812">#################
-Leo's Cheat Sheet
-#################
+<t tx="omlalala.20180206205022.812">#########################
+Leo 作弊条儿
+#########################
    
-**Important**: The easiest way to find documentation is to search LeoDocs.leo.
+**注意**: The easiest way to find documentation is to search LeoDocs.leo.
 
 .. contents:: Contents
     :depth: 4

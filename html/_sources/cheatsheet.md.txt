@@ -1,10 +1,10 @@
 .. rst3: filename: docs\cheatsheet.html
 
-#################
-Leo's Cheat Sheet
-#################
+#########################
+Leo 作弊条儿
+#########################
    
-**Important**: The easiest way to find documentation is to search LeoDocs.leo.
+**注意**: The easiest way to find documentation is to search LeoDocs.leo.
 
 .. contents:: Contents
     :depth: 4

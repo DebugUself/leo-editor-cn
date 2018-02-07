@@ -24,7 +24,7 @@ Leo 文档
 .. toctree::
    :maxdepth: 1
 
-   Cheat Sheet <cheatsheet>
+   (ZQ:0%)Cheat Sheet <cheatsheet>
    
 .. toctree::
    :maxdepth: 2
