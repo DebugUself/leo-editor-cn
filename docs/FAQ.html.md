@@ -87,8 +87,8 @@ How can I get recent snapshots of Leo?
 
 Daily snapshots are available `here <download.html>`_.
 
-Installing Leo
-++++++++++++++
+安装 Leo
+++++++++++
 
 
 

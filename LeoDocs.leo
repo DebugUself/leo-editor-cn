@@ -476,7 +476,7 @@ expanded="omlalala.20180206203511.2,omlalala.20180206203511.6,omlalala.201802062
 <v t="omlalala.20180206205022.131"><vh>How do I use git to get the latest sources from Leo's GitHub site?</vh></v>
 <v t="omlalala.20180206205022.132"><vh>How can I get recent snapshots of Leo?</vh></v>
 </v>
-<v t="omlalala.20180206205022.133"><vh>Installing Leo</vh>
+<v t="omlalala.20180206205022.133"><vh>安装 Leo</vh>
 <v t="omlalala.20180206205022.134"><vh>Leo's installer failed, what do I do?</vh></v>
 <v t="omlalala.20180206205022.135"><vh>Common problems</vh></v>
 </v>

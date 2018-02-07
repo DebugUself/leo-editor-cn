@@ -2,7 +2,7 @@
 
 .. This is the table of contents for Leo's documentation.
 
-Leo's Documentation Page
+Leo 文档
 ========================
 
 **Important**: the easiest way to search Leo's documentation is to search LeoDocs.leo.
