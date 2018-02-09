@@ -6478,18 +6478,18 @@ write_intermediate_file = True
 .. _`git`:                      https://git-scm.com/
 
 ###############
-Downloading Leo
+下载Leo
 ###############
 
-There are four ways to download Leo:
+有四种下载Leo的方法:
 
-- **New**: Leo 5.7 final will have a `Python wheel`_, so ``pip install leo`` will automatically download *and* install Leo, including all Leo's dependencies. See `Installing Leo with pip`_.
+- **新**: Leo 5.7 最终将有一个 `Python wheel`_，所以 ``pip install leo`` 将自动下载 *和* 安装Leo，包括Leo所有的依赖关系。请参阅 `Installing Leo with pip`_。
 
-- We recommend installing Leo using `git`_, see `Installing Leo with git`_. Git gives you the latest, thoroughly tested code. All of Leo's developers use git.
+- 我们建议使用 `git`_ 安装Leo，请参阅 `Installing Leo with git`_。Git为您提供最新、彻底测试的代码。所有的Leo开发者都使用git。
 
-- If you prefer a new development version, or a version from from 1, 2, 5, 10, 30 or 90 days ago, download a `Nightly snapshot`_.
+- 如果你比较喜欢开发版，或1、2、5、10、30或90天之前的版本，请下载 `Nightly snapshot`_。
 
-- If you want a stable release download from `SourceForge`_. Remember that it *won't* have the latest features and bug fixes.
+- 如果你想要从 `SourceForge`_ 下载稳定的版本。记住，它 *不会* 有最新的功能和错误修复。
 </t>
 <t tx="omlalala.20180206205022.1000">::
 
@@ -6551,21 +6551,21 @@ There are four ways to download Leo:
     Added graphed.py plugin
 </t>
 <t tx="omlalala.20180206205022.1009"></t>
-<t tx="omlalala.20180206205022.101">.zip snapshots can be downloaded directly from `GitHub &lt;https://github.com/leo-editor&gt;`_. No account is required.  The downloaded file will have a name like::
+<t tx="omlalala.20180206205022.101">.zip快照可以直接从 `GitHub &lt;https://github.com/leo-editor&gt;`_ 下载。不需要账号。下载的文件将会有个名称像::
 
   leo-editor-50c070b715b9fec50c31be5853055a0ebc72cad5.zip
 
-where the ``50c0...cad5`` part is the ID or fingerprint of the version you've downloaded.  Except "Latest", which is just ``leo-editor-master.zip``.
+其中 ``50c0...cad5`` 部分是您下载的文件版本的ID或指纹。除了"最新"，这只是 ``leo-editor-master.zip``。
 
-Here are some direct download links:
+这里有一些直接的下载链接:
 
-  - `Latest &lt;https://github.com/leo-editor/leo-editor/archive/master.zip&gt;`_
-  - `1 day ago &lt;https://github.com/leo-editor/leo-editor/archive/master@{1%20day%20ago}.zip&gt;`_
-  - `2 days ago &lt;https://github.com/leo-editor/leo-editor/archive/master@{2%20days%20ago}.zip&gt;`_
-  - `5 days ago &lt;https://github.com/leo-editor/leo-editor/archive/master@{5%20days%20ago}.zip&gt;`_
-  - `10 days ago &lt;https://github.com/leo-editor/leo-editor/archive/master@{10%20days%20ago}.zip&gt;`_
-  - `30 days ago &lt;https://github.com/leo-editor/leo-editor/archive/master@{30%20days%20ago}.zip&gt;`_
-  - `90 days ago &lt;https://github.com/leo-editor/leo-editor/archive/master@{90%20days%20ago}.zip&gt;`_
+  - `最新 &lt;https://github.com/leo-editor/leo-editor/archive/master.zip&gt;`_
+  - `1天前 &lt;https://github.com/leo-editor/leo-editor/archive/master@{1%20day%20ago}.zip&gt;`_
+  - `2天前 &lt;https://github.com/leo-editor/leo-editor/archive/master@{2%20days%20ago}.zip&gt;`_
+  - `5天前 &lt;https://github.com/leo-editor/leo-editor/archive/master@{5%20days%20ago}.zip&gt;`_
+  - `10天前 &lt;https://github.com/leo-editor/leo-editor/archive/master@{10%20days%20ago}.zip&gt;`_
+  - `30天前 &lt;https://github.com/leo-editor/leo-editor/archive/master@{30%20days%20ago}.zip&gt;`_
+  - `90天前 &lt;https://github.com/leo-editor/leo-editor/archive/master@{90%20days%20ago}.zip&gt;`_
 </t>
 <t tx="omlalala.20180206205022.1010">::
 
@@ -19885,7 +19885,7 @@ Executing this kind of code is typically an intolerable security risk. **Importa
 
 This script will introduce a security hole the .leo file without doing anything prohibited by rexec, and without leaving any traces of the perpetrating script behind. The damage will become permanent *outside* this script when the user saves the .leo file.
 </t>
-<t tx="omlalala.20180206205022.714" str_mtime="1376412039.0" str_atime="1376414164.0" str_ctime="1376412039.0">Documenting new plugins is important for users to be able understand and use the features they add. To that effect, there are a few documentation steps that should not be overlooked.
+<t tx="omlalala.20180206205022.714" str_ctime="1376412039.0" str_mtime="1376412039.0" str_atime="1376414164.0">Documenting new plugins is important for users to be able understand and use the features they add. To that effect, there are a few documentation steps that should not be overlooked.
 
 - Document the plugin thoroughly in the plugin's docstring. This allows the documentation to be accessed from the Plugins menu.
   
