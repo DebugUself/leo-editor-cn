@@ -365,11 +365,11 @@
 </v>
 <v t="ekr.20100805171546.4412"><vh>Web pages</vh>
 <v t="ekr.20101112045055.5065"><vh>@url docs generated from plugin_catalog.py</vh></v>
-<v t="ekr.20131005214621.16088"><vh>Home page</vh>
+<v t="ekr.20101115152915.4937"><vh>wikipedia entry</vh></v>
+</v>
+<v t="ekr.20131005214621.16088"><vh>(OM:100%)Home page</vh>
 <v t="omlalala.20180206203511.1"
 expanded="omlalala.20180206203511.6,omlalala.20180206203511.12,"><vh>@file index.html</vh></v>
-</v>
-<v t="ekr.20101115152915.4937"><vh>wikipedia entry</vh></v>
 </v>
 <v t="omlalala.20180206205022.1"><vh>Leo 文档</vh>
 <v t="omlalala.20180206205022.2"><vh>Table of contents</vh>
@@ -432,7 +432,7 @@ expanded="omlalala.20180206203511.6,omlalala.20180206203511.12,"><vh>@file index
 <v t="omlalala.20180206205022.96"><vh>@rst docs/acknowledgements.html</vh></v>
 <v t="omlalala.20180206205022.97"><vh>@rst docs/license.html</vh></v>
 </v>
-<v t="omlalala.20180206205022.98"><vh>Installing &amp; running Leo</vh>
+<v t="omlalala.20180206205022.98"><vh>(LW:0%)安装 &amp; 运行 Leo</vh>
 <v t="omlalala.20180206205022.99"><vh>@rst docs/getting-started.html</vh></v>
 <v t="omlalala.20180206205022.100"><vh>@rst docs/download.html</vh>
 <v t="omlalala.20180206205022.101"><vh>Snapshots</vh></v>
@@ -6906,7 +6906,8 @@ This chapter tells how to install and run Leo on Windows, Linux and MacOS.
         @string trace_bindings_filter
         @string trace_bindings_pane_filter
 </t>
-<t tx="omlalala.20180206205022.1029">- 18.2.7 ZQ 尝试嗯哼</t>
+<t tx="omlalala.20180206205022.1029">- 18.2.7 ZQ 尝试嗯哼
+- 18.2.11 OMlalala 翻译 首页</t>
 <t tx="omlalala.20180206205022.103">.. _`Anaconda`:   https://www.anaconda.com/download/
 .. _`Miniconda`:  https://conda.io/miniconda.html
 .. _`Docutils`:   http://docutils.sourceforge.net
