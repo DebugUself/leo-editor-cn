@@ -1893,7 +1893,7 @@ You could rewrite this as::
 g.angleBrackets(s) returns string s enclosed in angle brackets.
 For instance::
 
-​   headline = g.angleBrackets('abc')
+​    headline = g.angleBrackets('abc')
 
 sets headline to::
 
