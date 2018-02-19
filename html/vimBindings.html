@@ -1,13 +1,16 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
     <title>Using Vim with Leo &#8212; Leo 5.6 documentation</title>
+    
     <link rel="stylesheet" href="_static/classic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
@@ -26,7 +29,7 @@
     <link rel="next" title="Embedding Leo with the leoBridge module" href="leoBridge.html" />
     <link rel="prev" title="Leo and Emacs, including org mode" href="emacs.html" /> 
   </head>
-  <body>
+  <body role="document">
     <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
       <ul>
@@ -53,14 +56,14 @@
 <h1>Using Vim with Leo<a class="headerlink" href="#using-vim-with-leo" title="Permalink to this headline">¶</a></h1>
 <p>This chapter discusses these topics:</p>
 <ul class="simple">
-<li>How to enable and use Leo’s new vim-emulation mode.</li>
-<li>How to import and export vim’s .otl files.</li>
+<li>How to enable and use Leo&#8217;s new vim-emulation mode.</li>
+<li>How to import and export vim&#8217;s .otl files.</li>
 <li>How to install and use stand-alone vim-like bindings.</li>
 </ul>
 <div class="contents local topic" id="contents">
 <p class="topic-title first">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#using-leo-s-native-vim-mode" id="id1">Using Leo’s native vim mode</a><ul>
+<li><a class="reference internal" href="#using-leo-s-native-vim-mode" id="id1">Using Leo&#8217;s native vim mode</a><ul>
 <li><a class="reference internal" href="#supported-commands" id="id2">Supported commands</a></li>
 <li><a class="reference internal" href="#differences-from-the-real-vim" id="id3">Differences from the real vim</a></li>
 <li><a class="reference internal" href="#abbreviations" id="id4">Abbreviations</a></li>
@@ -75,13 +78,13 @@
 <li><a class="reference internal" href="#body-pane-commands" id="id11">Body pane commands</a></li>
 <li><a class="reference internal" href="#outline-commands" id="id12">Outline commands</a></li>
 <li><a class="reference internal" href="#commands-not-supported" id="id13">Commands not supported</a></li>
-<li><a class="reference internal" href="#avoiding-changes-to-tag-files" id="id14">Avoiding changes to ‘tag’ files</a></li>
+<li><a class="reference internal" href="#avoiding-changes-to-tag-files" id="id14">Avoiding changes to &#8216;tag&#8217; files</a></li>
 </ul>
 </li>
 </ul>
 </div>
 <div class="section" id="using-leo-s-native-vim-mode">
-<h2><a class="toc-backref" href="#id1">Using Leo’s native vim mode</a><a class="headerlink" href="#using-leo-s-native-vim-mode" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id1">Using Leo&#8217;s native vim mode</a><a class="headerlink" href="#using-leo-s-native-vim-mode" title="Permalink to this headline">¶</a></h2>
 <p>In general, vim-mode in Leo works much as in the real vim. There are three modes, insert, normal and visual.</p>
 <div class="section" id="supported-commands">
 <h3><a class="toc-backref" href="#id2">Supported commands</a><a class="headerlink" href="#supported-commands" title="Permalink to this headline">¶</a></h3>
@@ -95,7 +98,7 @@
 <li>Insert commands: a,A,i,o,O and switch to insert mode if entered in the outline pane.</li>
 <li>Yank &amp; paste commands: y,p. These act on outlines if entered in the outline pane.</li>
 <li>Search commands: /,?,n,*,#.  These commands are node-only searches.</li>
-<li>The dot command ‘.’ works for motions, but not yet for inserts or searches.</li>
+<li>The dot command &#8216;.&#8217; works for motions, but not yet for inserts or searches.</li>
 <li>v: start/end visual mode.</li>
 </ul>
 <p>Notes:</p>
@@ -112,9 +115,9 @@
 <li>The h,j,k,l commands work on outlines when entered in the outline pane.</li>
 <li>The a,A,i,o,O commands switch to insert mode if entered in the outline pane.</li>
 <li>The y,p commands act on outlines if entered in the outline pane.</li>
-<li>Ending visual mode with ‘v’ retains the selection range.</li>
+<li>Ending visual mode with &#8216;v&#8217; retains the selection range.</li>
 <li>Ctrl-H puts the headline in insert mode.</li>
-<li>Mouse clicks never change vim’s state.</li>
+<li>Mouse clicks never change vim&#8217;s state.</li>
 </ul>
 </div>
 <div class="section" id="abbreviations">
@@ -127,8 +130,8 @@ status of the .leo file.</li>
 </div>
 <div class="section" id="colon-commands">
 <h3><a class="toc-backref" href="#id5">Colon commands</a><a class="headerlink" href="#colon-commands" title="Permalink to this headline">¶</a></h3>
-<p>The ‘:’ command enters Leo’s minibuffer, with ‘:’ pre-inserted. You may
-backspace over the ‘:’. Here are the commands:</p>
+<p>The &#8216;:&#8217; command enters Leo&#8217;s minibuffer, with &#8216;:&#8217; pre-inserted. You may
+backspace over the &#8216;:&#8217;. Here are the commands:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>:! Execute a shell command.
 :e! Revert all changes to a .leo file, prompting if there have been changes.
 :gt cycle-focus
@@ -151,7 +154,7 @@ backspace over the ‘:’. Here are the commands:</p>
 </div>
 <div class="section" id="settings">
 <h3><a class="toc-backref" href="#id6">Settings</a><a class="headerlink" href="#settings" title="Permalink to this headline">¶</a></h3>
-<p><strong>&#64;bool vim-mode = False</strong>: Enables Leo’s vim mode when True.</p>
+<p><strong>&#64;bool vim-mode = False</strong>: Enables Leo&#8217;s vim mode when True.</p>
 <p><strong>&#64;bool vim-crosses-lines = True</strong>: When True the f,F,h,l,t,T,x
 commands may cross line boundaries.</p>
 </div>
@@ -168,16 +171,16 @@ commands may cross line boundaries.</p>
 </div>
 <p>import the .otl as a Leo outline.</p>
 <p>These nodes work like other &#64;auto nodes: when Leo loads an outline, Leo reads the .otl file into the &#64;auto-otl tree. When Leo writes an outline, Leo writes any &#64;auto-otl tree back to the .otl file.</p>
-<p>After creating an &#64;auto-otl node by hand, be sure to use Leo’s refresh-from-disk command to populate the node. Do this <em>before</em> saving the .leo file. If you try to save an empty &#64;auto-otl node Leo will warn you that you are about to overwrite the file.</p>
+<p>After creating an &#64;auto-otl node by hand, be sure to use Leo&#8217;s refresh-from-disk command to populate the node. Do this <em>before</em> saving the .leo file. If you try to save an empty &#64;auto-otl node Leo will warn you that you are about to overwrite the file.</p>
 <p>The refresh-from-disk command creates an &#64;auto-otl node whose <strong>children</strong> represent the contents of the external .otl file. Leo does <em>not</em> write the &#64;auto-otl node itself. This allows you to put Leo directives in the node.</p>
 </div>
 <div class="section" id="using-stand-alone-vim-bindings">
 <h2><a class="toc-backref" href="#id8">Using stand-alone vim bindings</a><a class="headerlink" href="#using-stand-alone-vim-bindings" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="installing-vim-bindings">
 <h3><a class="toc-backref" href="#id9">Installing vim bindings</a><a class="headerlink" href="#installing-vim-bindings" title="Permalink to this headline">¶</a></h3>
-<p>Place a copy of the “&#64;keys Vim bindings” node and its sub-nodes, located in the leoSettings.leo file, under the “&#64;settings” node in the myLeoSettings.leo file</p>
+<p>Place a copy of the &#8220;&#64;keys Vim bindings&#8221; node and its sub-nodes, located in the leoSettings.leo file, under the &#8220;&#64;settings&#8221; node in the myLeoSettings.leo file</p>
 <p>The same procedure is performed to update to a new version.</p>
-<p>Note: Place any local customized key bindings in a separate “&#64;keys My Vi” node in the myLeoSettings.leo file to prevent them from being overwritten when updating to a new version.</p>
+<p>Note: Place any local customized key bindings in a separate &#8220;&#64;keys My Vi&#8221; node in the myLeoSettings.leo file to prevent them from being overwritten when updating to a new version.</p>
 </div>
 <div class="section" id="general-commands">
 <h3><a class="toc-backref" href="#id10">General commands</a><a class="headerlink" href="#general-commands" title="Permalink to this headline">¶</a></h3>
@@ -428,7 +431,7 @@ Note: See &quot;Search options&quot; in General Commands section to change optio
 </div>
 <div class="section" id="outline-commands">
 <h3><a class="toc-backref" href="#id12">Outline commands</a><a class="headerlink" href="#outline-commands" title="Permalink to this headline">¶</a></h3>
-<p>The following commands are supported when in a headline’s command mode.</p>
+<p>The following commands are supported when in a headline&#8217;s command mode.</p>
 <p>State change commands:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">Ctrl</span><span class="o">-</span><span class="n">i</span>      <span class="n">Change</span> <span class="n">state</span> <span class="n">to</span> <span class="n">command</span> <span class="kn">from</span> <span class="nn">grayed</span> <span class="n">state</span>
 <span class="k">return</span>      <span class="n">Change</span> <span class="n">state</span> <span class="n">to</span> <span class="n">command</span> <span class="kn">from</span> <span class="nn">insert</span> <span class="n">state</span>
@@ -588,19 +591,19 @@ z&lt;movement&gt; Slide buffer to put current line at top/middle/bottom of pane
 </div>
 </div>
 <div class="section" id="avoiding-changes-to-tag-files">
-<h3><a class="toc-backref" href="#id14">Avoiding changes to ‘tag’ files</a><a class="headerlink" href="#avoiding-changes-to-tag-files" title="Permalink to this headline">¶</a></h3>
-<p>If you use the open-with command to open a node text in Vim and your Vim’s “tag” file refers to external files then there is a risk that a external file that is initially displayed via the “tag” command” in Vim is accidentally edited and saved from the external Vim editor while your Leo session still contains the external file’s original text that may later recreate the original external file during a Leo save operation (overwriting the changes saved from the Vim editor).</p>
-<p>To prevent this problem, modifications to external files can be avoided by using Vim’s “modeline” feature to disable editing of external files.</p>
-<p>Vim’s “modeline” feature scans each loaded buffer for text at the top or bottom of the file containing ” vim:” followed by a series of Vim options. The text is usually embedded within a comment. The following example prevents modifications to a buffer in a Python file:</p>
+<h3><a class="toc-backref" href="#id14">Avoiding changes to &#8216;tag&#8217; files</a><a class="headerlink" href="#avoiding-changes-to-tag-files" title="Permalink to this headline">¶</a></h3>
+<p>If you use the open-with command to open a node text in Vim and your Vim&#8217;s &#8220;tag&#8221; file refers to external files then there is a risk that a external file that is initially displayed via the &#8220;tag&#8221; command&#8221; in Vim is accidentally edited and saved from the external Vim editor while your Leo session still contains the external file&#8217;s original text that may later recreate the original external file during a Leo save operation (overwriting the changes saved from the Vim editor).</p>
+<p>To prevent this problem, modifications to external files can be avoided by using Vim&#8217;s &#8220;modeline&#8221; feature to disable editing of external files.</p>
+<p>Vim&#8217;s &#8220;modeline&#8221; feature scans each loaded buffer for text at the top or bottom of the file containing &#8221; vim:&#8221; followed by a series of Vim options. The text is usually embedded within a comment. The following example prevents modifications to a buffer in a Python file:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="c1"># vim:noma (A space is required between the &#39;#&#39; and &quot;vim:noma&quot;)</span>
 </pre></div>
 </div>
-<p>If this line is placed in a separate Leo node at the top or bottom of the list of nodes under a external file node (ex: &#64;file) then any external file saved and then later loaded into Vim will, by default, not be modifiable. If a derived file does need to be edited then modifications can be re-enabled on a file-by-file basis by issuing Vim’s “:ma” command while viewing the derived file.</p>
-<p>The number of lines that Vim checks at the top and bottom of the buffer is configurable. The following Vim command must be placed in the vimrc file to allow for Leo’s trailing sentinel lines:</p>
+<p>If this line is placed in a separate Leo node at the top or bottom of the list of nodes under a external file node (ex: &#64;file) then any external file saved and then later loaded into Vim will, by default, not be modifiable. If a derived file does need to be edited then modifications can be re-enabled on a file-by-file basis by issuing Vim&#8217;s &#8221;:ma&#8221; command while viewing the derived file.</p>
+<p>The number of lines that Vim checks at the top and bottom of the buffer is configurable. The following Vim command must be placed in the vimrc file to allow for Leo&#8217;s trailing sentinel lines:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="nb">set</span> <span class="n">modelines</span><span class="o">=</span><span class="mi">8</span>
 </pre></div>
 </div>
-<p>Issue the “:help modeline” command within Vim for the more information about modelines.</p>
+<p>Issue the &#8221;:help modeline&#8221; command within Vim for the more information about modelines.</p>
 </div>
 </div>
 </div>
@@ -652,7 +655,7 @@ z&lt;movement&gt; Slide buffer to put current line at top/middle/bottom of pane
     </div>
     <div class="footer" role="contentinfo">
         &#169; Copyright 1997-2017, Edward K. Ream.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.7.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.5.
     </div>
   </body>
 </html>

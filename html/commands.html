@@ -1,13 +1,16 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
     <title>Leo’s Commands Reference &#8212; Leo 5.6 documentation</title>
+    
     <link rel="stylesheet" href="_static/classic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
@@ -26,7 +29,7 @@
     <link rel="next" title="Directives Reference" href="directives.html" />
     <link rel="prev" title="Plugins" href="plugins.html" /> 
   </head>
-  <body>
+  <body role="document">
     <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
       <ul>
@@ -40,7 +43,7 @@
           <a href="plugins.html" title="Plugins"
              accesskey="P">previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="leo_toc.html">Leo 5.6 documentation</a> &#187;</li>
-          <li class="nav-item nav-item-1"><a href="usersguide.html" accesskey="U">Leo’s Users Guide</a> &#187;</li> 
+          <li class="nav-item nav-item-1"><a href="usersguide.html" accesskey="U">Leo&#8217;s Users Guide</a> &#187;</li> 
       </ul>
     </div>  
 
@@ -50,8 +53,8 @@
           <div class="body" role="main">
             
   <div class="section" id="leo-s-commands-reference">
-<h1>Leo’s Commands Reference<a class="headerlink" href="#leo-s-commands-reference" title="Permalink to this headline">¶</a></h1>
-<p>This chapter lists almost all of Leo’s commands. It starts with a discussion of the Emacs-like minibuffer.</p>
+<h1>Leo&#8217;s Commands Reference<a class="headerlink" href="#leo-s-commands-reference" title="Permalink to this headline">¶</a></h1>
+<p>This chapter lists almost all of Leo&#8217;s commands. It starts with a discussion of the Emacs-like minibuffer.</p>
 <div class="contents local topic" id="contents">
 <p class="topic-title first">Contents</p>
 <ul class="simple">
@@ -151,7 +154,7 @@
 <li><a class="reference internal" href="#settings-commands" id="id92">Settings commands</a></li>
 <li><a class="reference internal" href="#code-beautification-commands" id="id93">Code beautification commands</a><ul>
 <li><a class="reference internal" href="#what-the-python-beautifier-does" id="id94">What the Python beautifier does</a></li>
-<li><a class="reference internal" href="#what-the-python-beautifier-doesn-t-do" id="id95">What the Python beautifier doesn’t do</a></li>
+<li><a class="reference internal" href="#what-the-python-beautifier-doesn-t-do" id="id95">What the Python beautifier doesn&#8217;t do</a></li>
 <li><a class="reference internal" href="#beautifier-directives" id="id96">Beautifier directives</a></li>
 <li><a class="reference internal" href="#beautifier-settings" id="id97">Beautifier settings</a></li>
 <li><a class="reference internal" href="#beautifier-rough-edges" id="id98">Beautifier rough edges</a></li>
@@ -177,7 +180,7 @@
 <h2><a class="toc-backref" href="#id17">Executing commands from the minibuffer</a><a class="headerlink" href="#executing-commands-from-the-minibuffer" title="Permalink to this headline">¶</a></h2>
 <p>Leo’s minibuffer appears at the bottom of Leo’s main window. You use the minibuffer to execute commands by name, and also to accumulate arguments to commands.</p>
 <p>Every Leo command has a <strong>command name</strong>. In this document, keystrokes that invoke a command will be followed by the command name in parentheses. For example, <code class="docutils literal"><span class="pre">Ctrl-S</span> <span class="pre">(save-file)</span></code> saves a Leo file.</p>
-<p><strong>Very Important</strong>: Leo has hundreds of commands, but because of tab completion you do not have to remember, or even <em>know about</em> any of them.  Feel free to ignore commands that you don’t use. The following prefixes help find commands by name:</p>
+<p><strong>Very Important</strong>: Leo has hundreds of commands, but because of tab completion you do not have to remember, or even <em>know about</em> any of them.  Feel free to ignore commands that you don&#8217;t use. The following prefixes help find commands by name:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">clone</span><span class="o">-</span><span class="n">find</span>  <span class="n">clone</span><span class="o">-</span><span class="n">find</span> <span class="n">commands</span>
 <span class="n">file</span><span class="o">-</span>       <span class="n">file</span> <span class="n">commands</span>
 <span class="n">find</span><span class="o">-</span>       <span class="n">find</span> <span class="n">commands</span>
@@ -214,9 +217,9 @@
 </dl>
 <div class="section" id="typing-completion">
 <h3><a class="toc-backref" href="#id18">Typing completion</a><a class="headerlink" href="#typing-completion" title="Permalink to this headline">¶</a></h3>
-<p><strong>Very Important</strong>: Leo has hundreds of commands, but because of tab completion you do not have to remember, or even <em>know about</em> any of them.  Feel free to ignore commands that you don’t use.</p>
+<p><strong>Very Important</strong>: Leo has hundreds of commands, but because of tab completion you do not have to remember, or even <em>know about</em> any of them.  Feel free to ignore commands that you don&#8217;t use.</p>
 <p>You could type the full command name in the minibuffer, followed by the <code class="docutils literal"><span class="pre">&lt;Return&gt;</span></code> key to invoke the command, but that would be <em>way</em> too much work. Instead, you can avoid most typing using <strong>tab completion</strong>. With tab completion, <em>there is no need to remember the exact names of Leo’s commands</em>.</p>
-<p>For example, suppose you want to print out the list of Leo’s commands. You might remember only that there are several related commands and that they all start with “print”. Just type <code class="docutils literal"><span class="pre">&lt;Alt-X&gt;pri&lt;Tab&gt;</span></code></p>
+<p>For example, suppose you want to print out the list of Leo’s commands. You might remember only that there are several related commands and that they all start with &#8220;print&#8221;. Just type <code class="docutils literal"><span class="pre">&lt;Alt-X&gt;pri&lt;Tab&gt;</span></code></p>
 <p>You will see <code class="docutils literal"><span class="pre">print-</span></code> in the minibuffer. This is the longest common prefix of all the command names that start with <code class="docutils literal"><span class="pre">pri</span></code>. The Completion tab in the log pane shows all the commands that start with <code class="docutils literal"><span class="pre">print-</span></code>.</p>
 <p>Now just type <code class="docutils literal"><span class="pre">c&lt;Tab&gt;</span></code> You will see the <code class="docutils literal"><span class="pre">print-commands</span></code> command in the minibuffer.</p>
 <p>Finally, <code class="docutils literal"><span class="pre">&lt;Return&gt;</span></code> executes the <code class="docutils literal"><span class="pre">print-commands</span></code> command. The output of the print-commands command appears in the commands tab, and focus returns to the body pane.</p>
@@ -233,7 +236,7 @@
 <h2><a class="toc-backref" href="#id20">Most important commands</a><a class="headerlink" href="#most-important-commands" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="file-operations-sessions">
 <h3><a class="toc-backref" href="#id21">File operations &amp; sessions</a><a class="headerlink" href="#file-operations-sessions" title="Permalink to this headline">¶</a></h3>
-<p>Here are Leo’s basic file commands:</p>
+<p>Here are Leo&#8217;s basic file commands:</p>
 <dl class="docutils">
 <dt><code class="docutils literal"><span class="pre">Ctrl-N</span> <span class="pre">(new)</span></code></dt>
 <dd>Creates a new outline in a new tab.</dd>
@@ -244,11 +247,11 @@
 <dt><code class="docutils literal"><span class="pre">Ctrl-Q</span> <span class="pre">(exit-leo)</span></code></dt>
 <dd>Exits Leo.  Leo will prompt you to save any unsaved outlines.</dd>
 </dl>
-<p>A <strong>session</strong> specifies a list of tabs (.leo files) that Leo opens automatically when Leo first starts. When the <code class="docutils literal"><span class="pre">--session-save</span></code> and <code class="docutils literal"><span class="pre">--session-restore</span></code> command-line options are in effect, Leo will save session data on exit and will reload outlines when Leo restarts. For full details, see <a class="reference external" href="commands.html#using-sessions">Using sessions</a> in Leo’s <a class="reference external" href="usersguide.html">Users Guide</a>.</p>
+<p>A <strong>session</strong> specifies a list of tabs (.leo files) that Leo opens automatically when Leo first starts. When the <code class="docutils literal"><span class="pre">--session-save</span></code> and <code class="docutils literal"><span class="pre">--session-restore</span></code> command-line options are in effect, Leo will save session data on exit and will reload outlines when Leo restarts. For full details, see <a class="reference external" href="commands.html#using-sessions">Using sessions</a> in Leo&#8217;s <a class="reference external" href="usersguide.html">Users Guide</a>.</p>
 </div>
 <div class="section" id="switching-focus">
 <h3><a class="toc-backref" href="#id22">Switching focus</a><a class="headerlink" href="#switching-focus" title="Permalink to this headline">¶</a></h3>
-<p>Here’s how to switch focus without using the mouse:</p>
+<p>Here&#8217;s how to switch focus without using the mouse:</p>
 <dl class="docutils">
 <dt><code class="docutils literal"><span class="pre">Alt-0</span> <span class="pre">(vr-toggle)</span></code></dt>
 <dd>Hides or shows the viewrendered pane.</dd>
@@ -272,7 +275,7 @@
 <dt><code class="docutils literal"><span class="pre">Return</span></code></dt>
 <dd>When focus is in the outline pane, <code class="docutils literal"><span class="pre">&lt;Return&gt;</span></code> ends editing <code class="docutils literal"><span class="pre">(end-edit-headline)</span></code> or switches focus to the body pane.</dd>
 <dt><code class="docutils literal"><span class="pre">Ctrl-Shift-C</span> <span class="pre">(copy-node)</span></code></dt>
-<dd>Copies the outline and all it’s descendants, placing the node on the clipboard.</dd>
+<dd>Copies the outline and all it&#8217;s descendants, placing the node on the clipboard.</dd>
 <dt><code class="docutils literal"><span class="pre">Ctrl-Shift-X</span> <span class="pre">(cut-node)</span></code></dt>
 <dd>Cuts the outline and all its descendants, placing the node on the clipboard.</dd>
 <dt><code class="docutils literal"><span class="pre">Ctrl-Shift-V</span> <span class="pre">(paste-node)</span></code></dt>
@@ -280,9 +283,9 @@
 <dt><code class="docutils literal"><span class="pre">Ctrl-M</span> <span class="pre">(mark)</span></code></dt>
 <dd>Toggles the mark on a node. Marked nodes have a vertical red bar in their icon area.</dd>
 <dt><code class="docutils literal"><span class="pre">Ctrl-}</span> <span class="pre">(demote)</span></code></dt>
-<dd>Makes all following siblings of a node children of the node. Use <code class="docutils literal"><span class="pre">demote</span></code> to “gather” nodes so they can all be moved with their parent.</dd>
+<dd>Makes all following siblings of a node children of the node. Use <code class="docutils literal"><span class="pre">demote</span></code> to &#8220;gather&#8221; nodes so they can all be moved with their parent.</dd>
 <dt><code class="docutils literal"><span class="pre">Ctrl-{</span> <span class="pre">(promote)</span></code></dt>
-<dd>Makes all the children of a node siblings of the node. Use <code class="docutils literal"><span class="pre">demote</span></code> to “scatter” the nodes after moving their parent.</dd>
+<dd>Makes all the children of a node siblings of the node. Use <code class="docutils literal"><span class="pre">demote</span></code> to &#8220;scatter&#8221; the nodes after moving their parent.</dd>
 </dl>
 </div>
 <div class="section" id="selecting-outline-nodes">
@@ -292,7 +295,7 @@
 <dt><code class="docutils literal"><span class="pre">Right-arrow</span> <span class="pre">(expand-and-go-right)</span></code></dt>
 <dd>Expands a node or selects its first child.</dd>
 <dt><code class="docutils literal"><span class="pre">Left-arrow</span> <span class="pre">(contract-or-go-left)</span></code></dt>
-<dd>Contracts a node if its children are visible, and selects the node’s parent otherwise.</dd>
+<dd>Contracts a node if its children are visible, and selects the node&#8217;s parent otherwise.</dd>
 <dt><code class="docutils literal"><span class="pre">Up-arrow</span> <span class="pre">(goto-prev-visible)</span></code></dt>
 <dd>Selects the previous <em>visible</em> outline node.</dd>
 <dt><code class="docutils literal"><span class="pre">Down-arrow</span> <span class="pre">(goto-next-visible)</span></code></dt>
@@ -310,7 +313,7 @@
 </div>
 <div class="section" id="moving-the-cursor">
 <h3><a class="toc-backref" href="#id25">Moving the cursor</a><a class="headerlink" href="#moving-the-cursor" title="Permalink to this headline">¶</a></h3>
-<p>When focus is in any of Leo’s text panes (body pane, log pane, headlines), Leo works like most text editors:</p>
+<p>When focus is in any of Leo&#8217;s text panes (body pane, log pane, headlines), Leo works like most text editors:</p>
 <ul class="simple">
 <li><code class="docutils literal"><span class="pre">Plain</span> <span class="pre">arrow</span></code> keys move the cursor up, down, left or right.</li>
 <li><code class="docutils literal"><span class="pre">Ctrl-LeftArrow</span></code> and <code class="docutils literal"><span class="pre">Ctrl-RightArrow</span></code> move the cursor by words.</li>
@@ -323,7 +326,7 @@
 </div>
 <div class="section" id="finding-replacing-text">
 <h3><a class="toc-backref" href="#id26">Finding &amp; replacing text</a><a class="headerlink" href="#finding-replacing-text" title="Permalink to this headline">¶</a></h3>
-<p>This section explains how to use Leo’s standard search/replace commands.
+<p>This section explains how to use Leo&#8217;s standard search/replace commands.
 <strong>Note</strong>: you can also use the Nav Tab (in the Log pane) to search for text.</p>
 <p><code class="docutils literal"><span class="pre">Ctrl-F</span> <span class="pre">(start-search)</span></code> shows the Find Tab and puts the focus in the text box labeled <code class="docutils literal"><span class="pre">Find:</span></code>.</p>
 <p><strong>Aside</strong>: You can select radio buttons and toggle check boxes in the Find Tab with <code class="docutils literal"><span class="pre">Ctrl-Alt</span> <span class="pre">keys</span></code>. The capitalized words of the radio buttons or check boxes indicate which key to use.  For example, <code class="docutils literal"><span class="pre">Ctrl-Alt-X</span> <span class="pre">(toggle-find-regex-option)</span></code> toggles the <code class="docutils literal"><span class="pre">regeXp</span></code> checkbox.</p>
@@ -342,7 +345,7 @@
 </div>
 <div class="section" id="undoing-and-redoing-changes">
 <h3><a class="toc-backref" href="#id27">Undoing and redoing changes</a><a class="headerlink" href="#undoing-and-redoing-changes" title="Permalink to this headline">¶</a></h3>
-<p>Leo has unlimited undo–Leo remembers <em>all</em> changes you make to outline structure or the contents of any node since you restarted Leo.</p>
+<p>Leo has unlimited undo&#8211;Leo remembers <em>all</em> changes you make to outline structure or the contents of any node since you restarted Leo.</p>
 <dl class="docutils">
 <dt><code class="docutils literal"><span class="pre">Ctrl-Z</span> <span class="pre">(undo)</span></code></dt>
 <dd>Undoes the last change. Another Ctrl-Z undoes the previous change, etc.</dd>
@@ -372,7 +375,7 @@
 <dt><code class="docutils literal"><span class="pre">F11</span> <span class="pre">(help-for-command)</span></code></dt>
 <dd>Shows the documentation for any Leo command. <code class="docutils literal"><span class="pre">F11</span></code> prompts for the name of a Leo command in the minibuffer. Use tab completion to see the list of all commands that start with a given prefix.</dd>
 <dt><code class="docutils literal"><span class="pre">F12</span> <span class="pre">(help-for-python)</span></code></dt>
-<dd>Shows the documentation from Python’s help system. Typing completion is not available: type the full name of any Python module, class, function or statement.</dd>
+<dd>Shows the documentation from Python&#8217;s help system. Typing completion is not available: type the full name of any Python module, class, function or statement.</dd>
 </dl>
 <p>These commands clarify which settings are in effect, and where they came from:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="o">-</span><span class="n">bindings</span>
@@ -397,12 +400,12 @@
 </div>
 <div class="section" id="operations-on-reference-leo-files">
 <h3><a class="toc-backref" href="#id30">Operations on reference .leo files</a><a class="headerlink" href="#operations-on-reference-leo-files" title="Permalink to this headline">¶</a></h3>
-<p>These commands make it easier to use Leo’s <a class="reference external" href="FAQ.html#what-is-a-reference-leo-file">reference .leo files</a>. From time to time, developers needs to open reference Leo file and copy its content to and from their personal file. These commands use a <strong>separation node</strong>, a top-level node whose headline is:</p>
+<p>These commands make it easier to use Leo&#8217;s <a class="reference external" href="FAQ.html#what-is-a-reference-leo-file">reference .leo files</a>. From time to time, developers needs to open reference Leo file and copy its content to and from their personal file. These commands use a <strong>separation node</strong>, a top-level node whose headline is:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">---</span><span class="n">begin</span><span class="o">-</span><span class="n">private</span><span class="o">-</span><span class="n">area</span><span class="o">---</span>
 </pre></div>
 </div>
 <p>The body of the separation node contains the <strong>.leo reference</strong>, a path to the reference .leo file. Everything above this node is the <strong>public part</strong> of the outline.  Everything below this node is the <strong>private part</strong> of the outline.</p>
-<p><strong>set-reference-file</strong> selects the reference .leo file corresponding to the local .leo file. It creates the separation node if it doesn’t exists, changing the .leo reference as needed.</p>
+<p><strong>set-reference-file</strong> selects the reference .leo file corresponding to the local .leo file. It creates the separation node if it doesn&#8217;t exists, changing the .leo reference as needed.</p>
 <p><strong>read-ref-file</strong> reads the public part of this outline from the reference .leo file given in the separation node. <strong>Warning</strong>: This command <strong>deletes all nodes above separation node</strong>, recreating them from the reference file.</p>
 <p><strong>update-ref-file</strong> saves public part of this outline to reference .leo file.</p>
 <p>Developers will typically execute the read-ref-file command after any git pull that changes any reference .leo file.  Similarly, devs will typically execute the update-ref-file command before doing a git commit that changes a reference .leo file.</p>
@@ -442,14 +445,14 @@
 <dt><code class="docutils literal"><span class="pre">flake8</span></code></dt>
 <dd>Run flake8 on all nodes of the selected tree, or the first ancestor &#64;&lt;file&gt; node.</dd>
 <dt><code class="docutils literal"><span class="pre">pyflakes</span></code></dt>
-<dd>Runs pyflakes on the Python source files in the selected tree, or the first ancestor &#64;&lt;file&gt; node. Prints results in the console window and Leo’s log pane.</dd>
+<dd>Runs pyflakes on the Python source files in the selected tree, or the first ancestor &#64;&lt;file&gt; node. Prints results in the console window and Leo&#8217;s log pane.</dd>
 <dt><code class="docutils literal"><span class="pre">pylint</span></code></dt>
 <dd>Runs pylint on the Python source files in the selected tree, or the first ancestor &#64;&lt;file&gt; node. This command is also available from the popup menus created by the contextmenu plugin.</dd>
 </dl>
 </div>
 <div class="section" id="printing-settings-and-other-data">
 <h4><a class="toc-backref" href="#id110">Printing settings and other data</a><a class="headerlink" href="#printing-settings-and-other-data" title="Permalink to this headline">¶</a></h4>
-<p>The following print information to Leo’s log pane:</p>
+<p>The following print information to Leo&#8217;s log pane:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="o">-</span><span class="n">bindings</span>
 <span class="nb">print</span><span class="o">-</span><span class="n">commands</span>
 <span class="nb">print</span><span class="o">-</span><span class="n">focus</span>
@@ -468,13 +471,13 @@
 <dt><code class="docutils literal"><span class="pre">check-derived-file</span></code></dt>
 <dd>Makes sure an external file written by Leo can be read properly.</dd>
 <dt><code class="docutils literal"><span class="pre">check-leo-file</span></code></dt>
-<dd>Performs a full check of the consistency of a .leo file.  As of Leo 5.1, Leo performs checks of gnx’s and outline structure before writes and after reads, pastes and undo/redo.</dd>
+<dd>Performs a full check of the consistency of a .leo file.  As of Leo 5.1, Leo performs checks of gnx&#8217;s and outline structure before writes and after reads, pastes and undo/redo.</dd>
 <dt><code class="docutils literal"><span class="pre">check-outline</span></code></dt>
 <dd>Checks the outline for consistency. Leo automatically checks the syntax of Python external files when Leo writes the external file.</dd>
 <dt><code class="docutils literal"><span class="pre">clear-all-caches</span></code></dt>
 <dd>Clear all file caches in g.app.leoHomeDir/db</dd>
 <dt><code class="docutils literal"><span class="pre">clear-cache</span></code></dt>
-<dd>Clear the outline’s file cache.</dd>
+<dd>Clear the outline&#8217;s file cache.</dd>
 <dt><code class="docutils literal"><span class="pre">escape</span></code></dt>
 <dd>Enter watch escape mode.</dd>
 <dt><code class="docutils literal"><span class="pre">pdb</span></code></dt>
@@ -482,14 +485,14 @@
 <dt><code class="docutils literal"><span class="pre">print-buttons</span></code></dt>
 <dd>Print all &#64;button and &#64;command commands, their bindings and their source.</dd>
 </dl>
-<p>Dumping Leo’s internal data:</p>
+<p>Dumping Leo&#8217;s internal data:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">dump</span><span class="o">-</span><span class="nb">all</span><span class="o">-</span><span class="n">objects</span>
 <span class="n">dump</span><span class="o">-</span><span class="n">new</span><span class="o">-</span><span class="n">objects</span>
 <span class="n">dump</span><span class="o">-</span><span class="n">outline</span>
 <span class="n">verbose</span><span class="o">-</span><span class="n">dump</span><span class="o">-</span><span class="n">objects</span>
 </pre></div>
 </div>
-<p>Python’s garbage collector:</p>
+<p>Python&#8217;s garbage collector:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">gc</span><span class="o">-</span><span class="n">collect</span><span class="o">-</span><span class="n">garbage</span>
 <span class="n">gc</span><span class="o">-</span><span class="n">dump</span><span class="o">-</span><span class="nb">all</span><span class="o">-</span><span class="n">objects</span>
 <span class="n">gc</span><span class="o">-</span><span class="n">dump</span><span class="o">-</span><span class="n">new</span><span class="o">-</span><span class="n">objects</span>
@@ -595,7 +598,7 @@ In Transient Mark mode, if the region is active, the command operates on the reg
 <dt><code class="docutils literal"><span class="pre">insert-body-time</span></code> and <code class="docutils literal"><span class="pre">insert-headline-time</span></code></dt>
 <dd>Insert formatted time and date into body or headline text. You must be editing a headline to be able to insert the time/date into the headline. The body_time_format_string and headline_time_format_string settings specify the format of the inserted text. These settings are the format string passed to time.strftime.</dd>
 </dl>
-<p><strong>Time format</strong>: For format options see <a class="reference external" href="http://www.python.org/doc/current/lib/module-time.html">Python’s time module</a>. By default, the commands use <code class="docutils literal"><span class="pre">%m/%d/%Y</span> <span class="pre">%H:%M:%S</span></code>, giving timestamps like <code class="docutils literal"><span class="pre">1/30/2003</span> <span class="pre">8:31:55</span></code>.</p>
+<p><strong>Time format</strong>: For format options see <a class="reference external" href="http://www.python.org/doc/current/lib/module-time.html">Python&#8217;s time module</a>. By default, the commands use <code class="docutils literal"><span class="pre">%m/%d/%Y</span> <span class="pre">%H:%M:%S</span></code>, giving timestamps like <code class="docutils literal"><span class="pre">1/30/2003</span> <span class="pre">8:31:55</span></code>.</p>
 <dl class="docutils">
 <dt><code class="docutils literal"><span class="pre">keep-lines</span></code></dt>
 <dd>Deletes each line that does not contain a match for regexp, operating on the text after point. In Transient Mark mode, if the region is active, the command operates on the region instead.</dd>
@@ -647,8 +650,8 @@ In Transient Mark mode, if the region is active, the command operates on the reg
 <li>g is the leoGlobals modules.</li>
 <li>p is c.p, that is, c.currentPosition().</li>
 </ul>
-<p><strong>Important</strong>: Body text may contain Leo directives and section references. You can use all of Leo’s features to organize scripts that you execute interactively. Section definitions must appear in the node containing the script or in descendant nodes.</p>
-<p>Leo preprocesses all scripts by simulating the writing of a external file to a string. The <code class="docutils literal"><span class="pre">execute-script</span></code> command sets app.scriptDict[“script1”] to the value of the script before preprocessing, and sets app.scriptDict[“script2”] to the value of the script after preprocessing. Scripts may examine and change app.scriptDict as they please.</p>
+<p><strong>Important</strong>: Body text may contain Leo directives and section references. You can use all of Leo&#8217;s features to organize scripts that you execute interactively. Section definitions must appear in the node containing the script or in descendant nodes.</p>
+<p>Leo preprocesses all scripts by simulating the writing of a external file to a string. The <code class="docutils literal"><span class="pre">execute-script</span></code> command sets app.scriptDict[&#8220;script1&#8221;] to the value of the script before preprocessing, and sets app.scriptDict[&#8220;script2&#8221;] to the value of the script after preprocessing. Scripts may examine and change app.scriptDict as they please.</p>
 </div>
 <div class="section" id="multiple-body-editors">
 <h4><a class="toc-backref" href="#id119">Multiple body editors</a><a class="headerlink" href="#multiple-body-editors" title="Permalink to this headline">¶</a></h4>
@@ -663,7 +666,7 @@ In Transient Mark mode, if the region is active, the command operates on the reg
 </div>
 <div class="section" id="undoing-changes">
 <h4><a class="toc-backref" href="#id120">Undoing changes</a><a class="headerlink" href="#undoing-changes" title="Permalink to this headline">¶</a></h4>
-<p>Leo supports unlimited undo and redo with the <code class="docutils literal"><span class="pre">undo</span></code> (Ctrl-Z) and <code class="docutils literal"><span class="pre">redo</span></code> (Ctrl-Shift-Z) commands. Think of actions that may be undone or redone as a string of beads. A “bead pointer” points to the present bead. Performing an operation creates a new bead after the present bead and removes all following beads. Undoing an operation moves the bead pointer backwards; redoing an operation moves the bead pointer forwards. The <code class="docutils literal"><span class="pre">undo</span></code> command is disabled when the bead pointer moves in front of the first bead; the <code class="docutils literal"><span class="pre">redo</span></code> command is disabled when the bead pointer points to the last bead.</p>
+<p>Leo supports unlimited undo and redo with the <code class="docutils literal"><span class="pre">undo</span></code> (Ctrl-Z) and <code class="docutils literal"><span class="pre">redo</span></code> (Ctrl-Shift-Z) commands. Think of actions that may be undone or redone as a string of beads. A &#8220;bead pointer&#8221; points to the present bead. Performing an operation creates a new bead after the present bead and removes all following beads. Undoing an operation moves the bead pointer backwards; redoing an operation moves the bead pointer forwards. The <code class="docutils literal"><span class="pre">undo</span></code> command is disabled when the bead pointer moves in front of the first bead; the <code class="docutils literal"><span class="pre">redo</span></code> command is disabled when the bead pointer points to the last bead.</p>
 <p>The &#64;string undo_granularity setting controls the granularity of undo. There are four possible values:</p>
 <dl class="docutils">
 <dt><code class="docutils literal"><span class="pre">node</span></code></dt>
@@ -694,12 +697,12 @@ This wastes lots of computer memory.</dd>
 </div>
 <div class="section" id="abbreviation-commands">
 <h4><a class="toc-backref" href="#id121">Abbreviation commands</a><a class="headerlink" href="#abbreviation-commands" title="Permalink to this headline">¶</a></h4>
-<p><strong>Important</strong>: The following describes Leo’s new abbreviation scheme.  Such abbreviations <em>fire immediately</em> whenever they are completed. You do <em>not</em> have to execute a command!  By convention, abbreviations end with <code class="docutils literal"><span class="pre">;;</span></code>, something you are not likely to type by accident, but you can pick any abbreviation you like.</p>
+<p><strong>Important</strong>: The following describes Leo&#8217;s new abbreviation scheme.  Such abbreviations <em>fire immediately</em> whenever they are completed. You do <em>not</em> have to execute a command!  By convention, abbreviations end with <code class="docutils literal"><span class="pre">;;</span></code>, something you are not likely to type by accident, but you can pick any abbreviation you like.</p>
 <p><strong>Note</strong>:</p>
 <ol class="arabic">
 <li><p class="first">The &#64;data abbreviations-subst-env node contains a script defining the environment in which all abbreviations execute. This allows helper functions to be defined. Very handy.</p>
 </li>
-<li><p class="first">Scripts may span multiple lines. Line starting with “:” (2 characters) continue a script. This allows abbreviations to define multi-line templates.  Helpers defined in &#64;data abbreviations-subst-env can fill in templates with <em>calculated</em> (not predefined) data.</p>
+<li><p class="first">Scripts may span multiple lines. Line starting with &#8221;:&#8221; (2 characters) continue a script. This allows abbreviations to define multi-line templates.  Helpers defined in &#64;data abbreviations-subst-env can fill in templates with <em>calculated</em> (not predefined) data.</p>
 </li>
 <li><p class="first">Templates may contain placeholders that the user can fill in.  By default, the double comma binding selects the next placeholder.</p>
 </li>
@@ -723,7 +726,7 @@ several extremely useful scripts.</li>
 </div>
 <div class="section" id="cursor-movement-commands">
 <h4><a class="toc-backref" href="#id122">Cursor movement commands</a><a class="headerlink" href="#cursor-movement-commands" title="Permalink to this headline">¶</a></h4>
-<p><strong>Smart cursor moves</strong>: Many editors allow you to jump over, select and delete words, especially those containing or surrounded by special characters, in a smarter way than just “going to the beginning of the word before” (back-word) or “going to the end of the next word” (forward-word):</p>
+<p><strong>Smart cursor moves</strong>: Many editors allow you to jump over, select and delete words, especially those containing or surrounded by special characters, in a smarter way than just &#8220;going to the beginning of the word before&#8221; (back-word) or &#8220;going to the end of the next word&#8221; (forward-word):</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">back</span><span class="o">-</span><span class="n">word</span><span class="o">-</span><span class="n">smart</span>
 <span class="n">back</span><span class="o">-</span><span class="n">word</span><span class="o">-</span><span class="n">smart</span><span class="o">-</span><span class="n">extend</span><span class="o">-</span><span class="n">selection</span>
 <span class="n">forward</span><span class="o">-</span><span class="n">word</span><span class="o">-</span><span class="n">smart</span>
@@ -895,7 +898,7 @@ several extremely useful scripts.</li>
 <span class="n">examples</span><span class="p">:</span>
 </pre></div>
 </div>
-<p>Placing the cursor immediately before the first “I”, holding shift and moving it to immediately before the word``examples`` selects a zero width rectangle from the beginning to the end of the selection (zero width because the selection starts and ends in the same column.  Then running <code class="docutils literal"><span class="pre">rectangle-string</span> <span class="pre">[largo]&lt;space&gt;&lt;enter&gt;</span></code> yields:</p>
+<p>Placing the cursor immediately before the first &#8220;I&#8221;, holding shift and moving it to immediately before the word``examples`` selects a zero width rectangle from the beginning to the end of the selection (zero width because the selection starts and ends in the same column.  Then running <code class="docutils literal"><span class="pre">rectangle-string</span> <span class="pre">[largo]&lt;space&gt;&lt;enter&gt;</span></code> yields:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="p">[</span><span class="n">largo</span><span class="p">]</span> <span class="n">I</span><span class="s1">&#39;m really glad the docs are being updated. I know that&#39;</span><span class="n">s</span> <span class="n">a</span>
 <span class="p">[</span><span class="n">largo</span><span class="p">]</span> <span class="n">monumental</span> <span class="n">task</span><span class="o">.</span> <span class="n">I</span> <span class="n">only</span> <span class="n">use</span> <span class="n">a</span> <span class="n">fraction</span> <span class="n">of</span> <span class="n">Leo</span><span class="s1">&#39;s commands, mostly</span>
 <span class="p">[</span><span class="n">largo</span><span class="p">]</span> <span class="n">because</span> <span class="n">I</span> <span class="n">don</span><span class="s1">&#39;t even know what they&#39;</span><span class="n">re</span> <span class="n">supposed</span> <span class="n">to</span> <span class="n">accomplish</span><span class="o">.</span> <span class="n">A</span> <span class="n">few</span>
@@ -986,11 +989,11 @@ several extremely useful scripts.</li>
 <dt><code class="docutils literal"><span class="pre">save-file</span> <span class="pre">or</span> <span class="pre">file-save</span> <span class="pre">(Ctrl-S)</span></code></dt>
 <dd>Saves the Leo window to a file.</dd>
 <dt><code class="docutils literal"><span class="pre">save-file-as</span></code></dt>
-<dd>Saves a copy of the Leo outline, changing outline’s file name.</dd>
+<dd>Saves a copy of the Leo outline, changing outline&#8217;s file name.</dd>
 <dt><code class="docutils literal"><span class="pre">save-file-to</span></code></dt>
-<dd>Saves a copy of the Leo outline, without changing the outline’s file name</dd>
+<dd>Saves a copy of the Leo outline, without changing the outline&#8217;s file name</dd>
 <dt><code class="docutils literal"><span class="pre">save-file-as-zipped</span></code></dt>
-<dd>Same as <code class="docutils literal"><span class="pre">save-file-as</span></code>, compressing the .leo file with Python’s zipfile module.</dd>
+<dd>Same as <code class="docutils literal"><span class="pre">save-file-as</span></code>, compressing the .leo file with Python&#8217;s zipfile module.</dd>
 <dt><code class="docutils literal"><span class="pre">save-file-as-unzipped</span></code></dt>
 <dd>Same as <code class="docutils literal"><span class="pre">save-as</span></code>, suppressing compression.</dd>
 </dl>
@@ -1150,7 +1153,7 @@ several extremely useful scripts.</li>
 <dt><code class="docutils literal"><span class="pre">about-leo</span></code></dt>
 <dd>Puts up a dialog box showing the version of Leo.</dd>
 <dt><code class="docutils literal"><span class="pre">help</span></code></dt>
-<dd>Shows an introduction to Leo’s help system.</dd>
+<dd>Shows an introduction to Leo&#8217;s help system.</dd>
 <dt><code class="docutils literal"><span class="pre">help-for-command</span> <span class="pre">(F11)</span></code></dt>
 <dd>Prompts for a Leo command name in the minibuffer (tab completion is allowed) and shows the docstring for the command.</dd>
 <dt><code class="docutils literal"><span class="pre">help-for-python</span> <span class="pre">(F12)</span></code></dt>
@@ -1172,17 +1175,17 @@ several extremely useful scripts.</li>
 </div>
 </dd>
 <dt><code class="docutils literal"><span class="pre">open-online-home</span></code></dt>
-<dd>Opens Leo’s home page at <a class="reference external" href="http://leoeditor.com">http://leoeditor.com</a>.</dd>
+<dd>Opens Leo&#8217;s home page at <a class="reference external" href="http://leoeditor.com">http://leoeditor.com</a>.</dd>
 <dt><code class="docutils literal"><span class="pre">open-online-toc</span></code></dt>
-<dd>Opens Leo’s table of contents at <a class="reference external" href="http://leoeditor.com/leo_toc.html">http://leoeditor.com/leo_toc.html</a>.</dd>
+<dd>Opens Leo&#8217;s table of contents at <a class="reference external" href="http://leoeditor.com/leo_toc.html">http://leoeditor.com/leo_toc.html</a>.</dd>
 <dt><code class="docutils literal"><span class="pre">open-online-tutorials</span></code></dt>
-<dd>Opens Leo’s tutorials page at <a class="reference external" href="http://leoeditor.com/tutorial.html">http://leoeditor.com/tutorial.html</a>.</dd>
+<dd>Opens Leo&#8217;s tutorials page at <a class="reference external" href="http://leoeditor.com/tutorial.html">http://leoeditor.com/tutorial.html</a>.</dd>
 <dt><code class="docutils literal"><span class="pre">open-online-videos</span></code></dt>
-<dd>Opens Leo’s video page at <a class="reference external" href="http://leoeditor.com/screencasts.html">http://leoeditor.com/screencasts.html</a>.</dd>
+<dd>Opens Leo&#8217;s video page at <a class="reference external" href="http://leoeditor.com/screencasts.html">http://leoeditor.com/screencasts.html</a>.</dd>
 <dt><code class="docutils literal"><span class="pre">open-quickstart-leo</span></code></dt>
-<dd>Opens Leo’s quickstart guide in a new tab or window.</dd>
+<dd>Opens Leo&#8217;s quickstart guide in a new tab or window.</dd>
 <dt><code class="docutils literal"><span class="pre">open-users-guide</span></code></dt>
-<dd>Opens Leo’s Users Guide at <a class="reference external" href="http://leoeditor.com/usersguide.html">http://leoeditor.com/usersguide.html</a>.</dd>
+<dd>Opens Leo&#8217;s Users Guide at <a class="reference external" href="http://leoeditor.com/usersguide.html">http://leoeditor.com/usersguide.html</a>.</dd>
 </dl>
 </div>
 <div class="section" id="language-conversion-commands">
@@ -1392,7 +1395,7 @@ several extremely useful scripts.</li>
 <dt><code class="docutils literal"><span class="pre">contract-node</span></code></dt>
 <dd>Contracts a node.</dd>
 <dt><code class="docutils literal"><span class="pre">contract-or-go-left</span> <span class="pre">(Alt-Left)</span></code></dt>
-<dd>Contract the node if it is expanded.  Otherwise, select the node’s parent.</dd>
+<dd>Contract the node if it is expanded.  Otherwise, select the node&#8217;s parent.</dd>
 <dt><code class="docutils literal"><span class="pre">contract-parent</span></code></dt>
 <dd>Select the parent of the selected node and contract it.</dd>
 <dt><code class="docutils literal"><span class="pre">expand-all</span></code></dt>
@@ -1466,11 +1469,11 @@ several extremely useful scripts.</li>
 <dl class="docutils">
 <dt><code class="docutils literal"><span class="pre">leoscreen-jump-to-error</span></code> (Unix only)</dt>
 <dd><p class="first">Jumps to the python error reported in the shell window, if the
-file’s loaded in the current Leo session. Just looks for a line:</p>
+file&#8217;s loaded in the current Leo session. Just looks for a line:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">File</span> <span class="s2">&quot;somefile.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="n">NNN</span><span class="p">,</span> <span class="ow">in</span> <span class="n">xxx</span>
 </pre></div>
 </div>
-<p class="last">and looks for a node starting with “&#64;” and ending with “somefile.py”,
+<p class="last">and looks for a node starting with &#8220;&#64;&#8221; and ending with &#8220;somefile.py&#8221;,
 then jumps to line NNN in that file.</p>
 </dd>
 </dl>
@@ -1487,7 +1490,7 @@ then jumps to line NNN in that file.</p>
 <dt><code class="docutils literal"><span class="pre">paste-node</span> <span class="pre">(Ctrl-Shift-V)</span></code></dt>
 <dd>Pastes a node and its descendants from the outline. This commands creates <em>copies</em> of nodes, not clones.</dd>
 <dt><code class="docutils literal"><span class="pre">past-retaining-clones</span></code></dt>
-<dd>Pastes a node and its descendants from the outline.  This command preserves the identify (gnx’s) of the pasted nodes, thereby preserving any clone links. This command ensures that no newly-pasted node is an ancestor of itself.</dd>
+<dd>Pastes a node and its descendants from the outline.  This command preserves the identify (gnx&#8217;s) of the pasted nodes, thereby preserving any clone links. This command ensures that no newly-pasted node is an ancestor of itself.</dd>
 </dl>
 <p><strong>Outline representation</strong>: When cutting or copying an outline to the clipboard, Leo writes the outline in the same xml (text) format used in .leo files. You may copy this text representation into a body pane (or into any other text editor) using <code class="docutils literal"><span class="pre">Ctrl-V</span></code>.</p>
 </div>
@@ -1562,7 +1565,7 @@ This is essentially an import of p.b.</dd>
 <dt><code class="docutils literal"><span class="pre">unmark-all</span></code></dt>
 <dd>Unmarks all marked nodes in the outline.</dd>
 </dl>
-<p><strong>Marking groups of nodes</strong>: Leo’s find and change commands mark nodes if the “Mark Changes” and “Mark Finds” checkboxes are checked. You can change these checkboxes with the <code class="docutils literal"><span class="pre">toggle-find-mark-changes-option</span></code> and <code class="docutils literal"><span class="pre">toggle-find-mark-finds-option</span></code> commands.</p>
+<p><strong>Marking groups of nodes</strong>: Leo&#8217;s find and change commands mark nodes if the &#8220;Mark Changes&#8221; and &#8220;Mark Finds&#8221; checkboxes are checked. You can change these checkboxes with the <code class="docutils literal"><span class="pre">toggle-find-mark-changes-option</span></code> and <code class="docutils literal"><span class="pre">toggle-find-mark-finds-option</span></code> commands.</p>
 </div>
 <div class="section" id="operations-on-marked-nodes">
 <h4><a class="toc-backref" href="#id147">Operations on marked nodes</a><a class="headerlink" href="#operations-on-marked-nodes" title="Permalink to this headline">¶</a></h4>
@@ -1712,16 +1715,16 @@ This is essentially an import of p.b.</dd>
 <dt><code class="docutils literal"><span class="pre">find-previous</span> <span class="pre">(F2)</span></code></dt>
 <dd>Searches backwards using the present search options.</dd>
 <dt><code class="docutils literal"><span class="pre">replace</span> <span class="pre">(Ctrl-=)</span></code></dt>
-<dd>Replaces the selected text with the ‘change’ text in the Find tab.</dd>
+<dd>Replaces the selected text with the &#8216;change&#8217; text in the Find tab.</dd>
 <dt><code class="docutils literal"><span class="pre">replace-then-find</span> <span class="pre">(Ctrl--)</span></code></dt>
-<dd>Replaces the selected text with the ‘change’ text in the Find tab, then executes the find command again.</dd>
+<dd>Replaces the selected text with the &#8216;change&#8217; text in the Find tab, then executes the find command again.</dd>
 </dl>
 <p>Batch searches:</p>
 <dl class="docutils">
 <dt><code class="docutils literal"><span class="pre">find-all</span></code></dt>
 <dd>Prints all matches in the log pane.</dd>
 <dt><code class="docutils literal"><span class="pre">replace-all</span></code></dt>
-<dd>Changes all occurrences of the ‘find’ text with the ‘change’ text.</dd>
+<dd>Changes all occurrences of the &#8216;find&#8217; text with the &#8216;change&#8217; text.</dd>
 </dl>
 <p>Searches creating clones:</p>
 <dl class="docutils">
@@ -1737,7 +1740,7 @@ This is essentially an import of p.b.</dd>
 </div>
 <div class="section" id="incremental-find-commands">
 <h4><a class="toc-backref" href="#id151">Incremental find commands</a><a class="headerlink" href="#incremental-find-commands" title="Permalink to this headline">¶</a></h4>
-<p>Incremental find commands move through the text as you type individual characters. Typing <code class="docutils literal"><span class="pre">BackSpace</span></code> backtracks the search. To repeat an incremental search, type the shortcut for that command again. Here are Leo’s incremental find commands:</p>
+<p>Incremental find commands move through the text as you type individual characters. Typing <code class="docutils literal"><span class="pre">BackSpace</span></code> backtracks the search. To repeat an incremental search, type the shortcut for that command again. Here are Leo&#8217;s incremental find commands:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">Alt</span><span class="o">+</span><span class="n">R</span> <span class="n">isearch</span><span class="o">-</span><span class="n">backward</span>
       <span class="n">isearch</span><span class="o">-</span><span class="n">backward</span><span class="o">-</span><span class="n">regexp</span>
 <span class="n">Alt</span><span class="o">+</span><span class="n">S</span> <span class="n">isearch</span><span class="o">-</span><span class="n">forward</span>
@@ -1753,9 +1756,9 @@ This is essentially an import of p.b.</dd>
 <dt><code class="docutils literal"><span class="pre">search-backward</span></code></dt>
 <dd>Searches in the reverse direction.</dd>
 <dt><code class="docutils literal"><span class="pre">word-search-backward</span></code> and <code class="docutils literal"><span class="pre">word-search-forward</span></code></dt>
-<dd>Sets ‘Whole Word’ checkbox to True.</dd>
+<dd>Sets &#8216;Whole Word&#8217; checkbox to True.</dd>
 <dt><code class="docutils literal"><span class="pre">re-search-forward</span></code> and <code class="docutils literal"><span class="pre">re-search-backward</span></code></dt>
-<dd>Set the ‘Regexp’ checkbox to True.</dd>
+<dd>Set the &#8216;Regexp&#8217; checkbox to True.</dd>
 </dl>
 </div>
 <div class="section" id="check-boxes-and-their-commands">
@@ -1848,13 +1851,13 @@ selected headline and its offspring.</p>
 <dt><code class="docutils literal"><span class="pre">focus-to-spell-tab</span></code></dt>
 <dd>Put focus in the Spell tab.</dd>
 <dt><code class="docutils literal"><span class="pre">spell-change</span></code></dt>
-<dd>Same as clicking the “Change” button in the Spell Tab.</dd>
+<dd>Same as clicking the &#8220;Change&#8221; button in the Spell Tab.</dd>
 <dt><code class="docutils literal"><span class="pre">spell-change-then-find</span></code></dt>
-<dd>Same as clicking the “Change, Find” button in the Spell Tab.</dd>
+<dd>Same as clicking the &#8220;Change, Find&#8221; button in the Spell Tab.</dd>
 <dt><code class="docutils literal"><span class="pre">spell-find</span></code></dt>
-<dd>Same as clicking the “Find” button in the Spell Tab.</dd>
+<dd>Same as clicking the &#8220;Find&#8221; button in the Spell Tab.</dd>
 <dt><code class="docutils literal"><span class="pre">spell-ignore</span></code></dt>
-<dd>Same as clicking the “Ignore” button in the Spell Tab.</dd>
+<dd>Same as clicking the &#8220;Ignore&#8221; button in the Spell Tab.</dd>
 <dt><code class="docutils literal"><span class="pre">spell-tab-hide</span></code></dt>
 <dd>Hide the Spell tab.</dd>
 <dt><code class="docutils literal"><span class="pre">spell-tab-open</span></code></dt>
@@ -1914,9 +1917,9 @@ selected headline and its offspring.</p>
 <dd>Reformats all C code in the selected tree.</dd>
 </dl>
 <p>These commands skip any nodes for which &#64;language python (or c) is not in effect.</p>
-<p>The <strong>Python beautifier</strong> (beautify-tree and beautify-node) is <em>safe</em>.  It can never alter the meaning of a program because it compare the parse trees of the original and beautified code. The code remains unchanged if there is a mismatch. Such <strong>beautifier errors</strong> produce debugging dumps. Please report any such errors to Leo’s developers.</p>
+<p>The <strong>Python beautifier</strong> (beautify-tree and beautify-node) is <em>safe</em>.  It can never alter the meaning of a program because it compare the parse trees of the original and beautified code. The code remains unchanged if there is a mismatch. Such <strong>beautifier errors</strong> produce debugging dumps. Please report any such errors to Leo&#8217;s developers.</p>
 <p>The Python beautifier works only on syntactically correct code. It issues a warning and does nothing for syntactically incorrect code.</p>
-<p>The Python beautifier converts <strong>Leonine syntax</strong> (directives, section references and &#64;doc parts) to comments, possibly with a trailing <code class="docutils literal"><span class="pre">pass</span></code> statement.  Usually this produces syntactically correct text.  As discussed below, the trailing <code class="docutils literal"><span class="pre">pass</span></code> can create SyntaxError’s.</p>
+<p>The Python beautifier converts <strong>Leonine syntax</strong> (directives, section references and &#64;doc parts) to comments, possibly with a trailing <code class="docutils literal"><span class="pre">pass</span></code> statement.  Usually this produces syntactically correct text.  As discussed below, the trailing <code class="docutils literal"><span class="pre">pass</span></code> can create SyntaxError&#8217;s.</p>
 <p>The following sections describe how the beautify-tree and beautify-node commands work in more detail.</p>
 <div class="section" id="what-the-python-beautifier-does">
 <h4><a class="toc-backref" href="#id94">What the Python beautifier does</a><a class="headerlink" href="#what-the-python-beautifier-does" title="Permalink to this headline">¶</a></h4>
@@ -1930,14 +1933,14 @@ selected headline and its offspring.</p>
         <span class="o">...</span>
 </pre></div>
 </div>
-<p>Leo follows the <a class="reference external" href="https://www.python.org/dev/peps/pep-0008/#blank-lines">pep 8 recommendations for blank lines</a> <em>between</em> classes and defs, with minor variations due to Leo’s node structure.</p>
+<p>Leo follows the <a class="reference external" href="https://www.python.org/dev/peps/pep-0008/#blank-lines">pep 8 recommendations for blank lines</a> <em>between</em> classes and defs, with minor variations due to Leo&#8217;s node structure.</p>
 <p>Optionally, the beautifier can remove blank lines <em>within</em> classes and defs, controlled by the setting <em>&#64;bool tidy-keep-blank-lines</em>.</p>
 </div>
 <div class="section" id="what-the-python-beautifier-doesn-t-do">
-<h4><a class="toc-backref" href="#id95">What the Python beautifier doesn’t do</a><a class="headerlink" href="#what-the-python-beautifier-doesn-t-do" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id95">What the Python beautifier doesn&#8217;t do</a><a class="headerlink" href="#what-the-python-beautifier-doesn-t-do" title="Permalink to this headline">¶</a></h4>
 <p>The Python beautifier never creates new lines! The beautifier never adds or changes:</p>
 <ul class="simple">
-<li>Line breaks for “long” lines.</li>
+<li>Line breaks for &#8220;long&#8221; lines.</li>
 <li>Line breaks in function argument lists.</li>
 <li>Leading whitespace in continued argument lines.</li>
 <li>Line breaks call arguments.</li>
@@ -1989,7 +1992,7 @@ selected headline and its offspring.</p>
 <span class="nd">@beautify</span>
 </pre></div>
 </div>
-<p>skips beautification of the entire node. Yes, this is less precise than one could imagine, but it’s good enough for now.</p>
+<p>skips beautification of the entire node. Yes, this is less precise than one could imagine, but it&#8217;s good enough for now.</p>
 </div>
 <div class="section" id="beautifier-settings">
 <h4><a class="toc-backref" href="#id97">Beautifier settings</a><a class="headerlink" href="#beautifier-settings" title="Permalink to this headline">¶</a></h4>
@@ -2015,7 +2018,7 @@ selected headline and its offspring.</p>
     <span class="k">pass</span>
 </pre></div>
 </div>
-<p>which is usually, but not always, syntactically correct Python. Here is an example from Leo’s core:</p>
+<p>which is usually, but not always, syntactically correct Python. Here is an example from Leo&#8217;s core:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">patterns</span> <span class="o">=</span> <span class="p">[</span>
     <span class="o">&lt;&lt;</span> <span class="n">Sherlock</span> <span class="n">patterns</span> <span class="k">for</span> <span class="n">pylint</span> <span class="o">&gt;&gt;</span>
 <span class="p">]</span>
@@ -2040,7 +2043,7 @@ selected headline and its offspring.</p>
 <p>The regular expression: <code class="docutils literal"><span class="pre">=([</span> <span class="pre">])*\{([^}])*$</span></code> will discover complex dictionaries that you may want to protect with <code class="docutils literal"><span class="pre">&#64;nobeautify</span></code>.</p>
 <p><strong>3. Operator priority</strong></p>
 <p>Pep 8 suggests considering eliminating blanks around higher-priority operators.  The beautifier puts blank lines about all operators, except unary operators.</p>
-<p>This is a difficult problem of style, for which no approach works in all cases.  Surprisingly, retaining blanks around <code class="docutils literal"><span class="pre">*</span></code> usually looks best in Leo’s own code.</p>
+<p>This is a difficult problem of style, for which no approach works in all cases.  Surprisingly, retaining blanks around <code class="docutils literal"><span class="pre">*</span></code> usually looks best in Leo&#8217;s own code.</p>
 <p><strong>4. &#64;clean &amp; &#64;auto</strong></p>
 <p>Consider adding &#64;nobeautify for all <code class="docutils literal"><span class="pre">&#64;auto</span></code> and <code class="docutils literal"><span class="pre">&#64;clean</span></code> nodes, on the theory that such nodes are not primarily your responsibility.  But adding <code class="docutils literal"><span class="pre">&#64;nobeautify</span></code> is completely up to you.</p>
 <p><strong>5. Extra blank lines</strong></p>
@@ -2080,9 +2083,9 @@ selected headline and its offspring.</p>
 </div>
 <div class="section" id="summary-of-the-beautifier">
 <h4><a class="toc-backref" href="#id101">Summary of the beautifier</a><a class="headerlink" href="#summary-of-the-beautifier" title="Permalink to this headline">¶</a></h4>
-<p>Except for dictionary definitions, the beautifier does what is expected, leaving difficult or idiosyncratic cases completely at the user’s discretion.</p>
+<p>Except for dictionary definitions, the beautifier does what is expected, leaving difficult or idiosyncratic cases completely at the user&#8217;s discretion.</p>
 <ul class="simple">
-<li>For the first time ever, Leo’s beautify commands work properly with Leonine syntax.</li>
+<li>For the first time ever, Leo&#8217;s beautify commands work properly with Leonine syntax.</li>
 <li>All files in leoPy.leo can now be beautified without fuss.</li>
 <li>Except for spacing around operators, the beautifier mostly leaves your code <strong>as it is</strong>.</li>
 <li>The beautifier makes no difficult choices. It preserves your choices.</li>
@@ -2210,7 +2213,7 @@ selected headline and its offspring.</p>
 </div>
 <div class="section" id="id16">
 <h3><a class="toc-backref" href="#id158">Moving the cursor</a><a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h3>
-<p>When focus is in any of Leo’s text panes (body pane, log pane, headlines):</p>
+<p>When focus is in any of Leo&#8217;s text panes (body pane, log pane, headlines):</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">Arrows</span>            <span class="n">move</span> <span class="n">one</span> <span class="n">character</span>
 <span class="n">Ctrl</span><span class="o">-</span><span class="n">LeftArrow</span>    <span class="n">back</span> <span class="n">one</span> <span class="n">word</span>
 <span class="n">Ctrl</span><span class="o">-</span><span class="n">RightArrow</span>   <span class="n">forward</span> <span class="n">one</span> <span class="n">word</span>
@@ -2269,12 +2272,12 @@ selected headline and its offspring.</p>
           <a href="plugins.html" title="Plugins"
              >previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="leo_toc.html">Leo 5.6 documentation</a> &#187;</li>
-          <li class="nav-item nav-item-1"><a href="usersguide.html" >Leo’s Users Guide</a> &#187;</li> 
+          <li class="nav-item nav-item-1"><a href="usersguide.html" >Leo&#8217;s Users Guide</a> &#187;</li> 
       </ul>
     </div>
     <div class="footer" role="contentinfo">
         &#169; Copyright 1997-2017, Edward K. Ream.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.7.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.5.
     </div>
   </body>
 </html>
