@@ -1,13 +1,16 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
     <title>Exploring Leo’s Code Base &#8212; Leo 5.6 documentation</title>
+    
     <link rel="stylesheet" href="_static/classic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
@@ -26,7 +29,7 @@
     <link rel="next" title="Vim Mode: Theory of Operation" href="vim-theory.html" />
     <link rel="prev" title="A Miscellany of Leo Scripting" href="scripting-miscellany.html" /> 
   </head>
-  <body>
+  <body role="document">
     <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
       <ul>
@@ -50,19 +53,19 @@
           <div class="body" role="main">
             
   <div class="section" id="exploring-leo-s-code-base">
-<h1>Exploring Leo’s Code Base<a class="headerlink" href="#exploring-leo-s-code-base" title="Permalink to this headline">¶</a></h1>
-<p>This chapter is for anyone who wants to understand Leo’s code base,
-including those who want to be one of Leo’s implementors.</p>
-<p>You already know that leoFind.py and leoUndo.py implement Leo’s find and
+<h1>Exploring Leo&#8217;s Code Base<a class="headerlink" href="#exploring-leo-s-code-base" title="Permalink to this headline">¶</a></h1>
+<p>This chapter is for anyone who wants to understand Leo&#8217;s code base,
+including those who want to be one of Leo&#8217;s implementors.</p>
+<p>You already know that leoFind.py and leoUndo.py implement Leo&#8217;s find and
 undo command, and so on.</p>
-<p>This chapter focuses on the <em>process</em> of finding your way around Leo’s
-code, not the myriad details you will find within Leo’s code.</p>
-<p>It’s actually very easy! Try it. You’ll see.</p>
+<p>This chapter focuses on the <em>process</em> of finding your way around Leo&#8217;s
+code, not the myriad details you will find within Leo&#8217;s code.</p>
+<p>It&#8217;s actually very easy! Try it. You&#8217;ll see.</p>
 <p>Reading this chapter should take about 20 minutes.</p>
 <div class="contents local topic" id="contents">
 <p class="topic-title first">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#how-to-explore-leo-s-sources" id="id1">How to explore Leo’s sources</a><ul>
+<li><a class="reference internal" href="#how-to-explore-leo-s-sources" id="id1">How to explore Leo&#8217;s sources</a><ul>
 <li><a class="reference internal" href="#finding-commands" id="id2">Finding commands</a></li>
 <li><a class="reference internal" href="#finding-key-handling-code" id="id3">Finding key-handling code</a></li>
 <li><a class="reference internal" href="#finding-redraw-and-refocus-code" id="id4">Finding redraw and refocus code</a></li>
@@ -70,7 +73,7 @@ code, not the myriad details you will find within Leo’s code.</p>
 <li><a class="reference internal" href="#debugging-with-g-trace-g-callers-g-pdb" id="id6">Debugging with g.trace, g.callers &amp; g.pdb</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#the-design-of-leo-s-classes" id="id7">The design of Leo’s classes</a></li>
+<li><a class="reference internal" href="#the-design-of-leo-s-classes" id="id7">The design of Leo&#8217;s classes</a></li>
 <li><a class="reference internal" href="#fragile-methods" id="id8">Fragile methods</a></li>
 <li><a class="reference internal" href="#read-long-comments-with-caution" id="id9">Read long comments with caution</a></li>
 <li><a class="reference internal" href="#startup" id="id10">Startup</a></li>
@@ -81,14 +84,14 @@ code, not the myriad details you will find within Leo’s code.</p>
 </ul>
 </div>
 <div class="section" id="how-to-explore-leo-s-sources">
-<h2><a class="toc-backref" href="#id1">How to explore Leo’s sources</a><a class="headerlink" href="#how-to-explore-leo-s-sources" title="Permalink to this headline">¶</a></h2>
-<p>You can learn <em>anything</em> about Leo, provided that you can cause Leo to execute the relevant code. That’s usually very easy!</p>
+<h2><a class="toc-backref" href="#id1">How to explore Leo&#8217;s sources</a><a class="headerlink" href="#how-to-explore-leo-s-sources" title="Permalink to this headline">¶</a></h2>
+<p>You can learn <em>anything</em> about Leo, provided that you can cause Leo to execute the relevant code. That&#8217;s usually very easy!</p>
 <ul class="simple">
 <li>It should be straightforward to isolate the module or modules involved.</li>
 <li>The next several sections give hints about finding interesting code.</li>
 <li>Once you find a bit of interesting code, use g.pdb or g.trace to study it.</li>
 </ul>
-<p>The following sections provide more details…</p>
+<p>The following sections provide more details...</p>
 <div class="section" id="finding-commands">
 <h3><a class="toc-backref" href="#id2">Finding commands</a><a class="headerlink" href="#finding-commands" title="Permalink to this headline">¶</a></h3>
 <p>Leo creates commands in two ways:</p>
@@ -101,7 +104,7 @@ sort-lines. You will find:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="s1">&#39;sort-lines&#39;</span><span class="p">:</span>    <span class="bp">self</span><span class="o">.</span><span class="n">sortLines</span><span class="p">,</span>
 </pre></div>
 </div>
-<p>Now search for “def sortLines” and you have arrived.</p>
+<p>Now search for &#8220;def sortLines&#8221; and you have arrived.</p>
 </div>
 <div class="section" id="finding-key-handling-code">
 <h3><a class="toc-backref" href="#id3">Finding key-handling code</a><a class="headerlink" href="#finding-key-handling-code" title="Permalink to this headline">¶</a></h3>
@@ -110,7 +113,7 @@ sort-lines. You will find:</p>
 <li>leoQtEventFilter.eventFilter (qtGui.py) and helpers create keystrokes
 (LeoKeyEvents) from QKeyEvent events.</li>
 <li>k.masterKeyHandler (leoKeys.py) receives LeoKeyEvents from eventFilter
-and invokes one of Leo’s commands based on the users bindings.</li>
+and invokes one of Leo&#8217;s commands based on the users bindings.</li>
 <li>k.getArg handles commands like Ctrl-F (search-with-present-options)
 that prompt the user for input.</li>
 </ul>
@@ -148,19 +151,19 @@ g.pdb. I recommend always running Leo from a console.</p>
 </div>
 </div>
 <div class="section" id="the-design-of-leo-s-classes">
-<h2><a class="toc-backref" href="#id7">The design of Leo’s classes</a><a class="headerlink" href="#the-design-of-leo-s-classes" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id7">The design of Leo&#8217;s classes</a><a class="headerlink" href="#the-design-of-leo-s-classes" title="Permalink to this headline">¶</a></h2>
 <p>Leo uses a model/view/controller architecture.</p>
 <ul class="simple">
 <li>Controller: The Commands class and its helpers in leoCommands.py and leoEditCommands.py.</li>
 <li>Model (data): The VNode and Position classes in leoNodes.py.</li>
-<li>View: The gui-independent base classes are in the node “Gui Base Classes”. The Qt-Specific subclasses are in the node “Qt gui”.</li>
+<li>View: The gui-independent base classes are in the node &#8220;Gui Base Classes&#8221;. The Qt-Specific subclasses are in the node &#8220;Qt gui&#8221;.</li>
 </ul>
-<p>In Leo, each class hides (encapsulates) the details of its internal workings from user (client) classes. This design principle has been spectacularly successful. Leo’s overall design has remained remarkably stable for 20 years, even as the internal details of many classes have radically changed. Two computer scientists influenced my thinking greatly: <a class="reference external" href="http://en.wikipedia.org/wiki/David_Parnas">David Parnas</a> and <a class="reference external" href="http://en.wikipedia.org/wiki/Glenford_Myers">Glenford Myers</a>.</p>
-<p>The distinction between gui-dependent and gui-independent is important. Almost all gui-dependent code resides in the plugins folder. Leo’s core code is almost completely gui independent.</p>
-<p>Leo’s core typically assumes that w (an abstract widget) is a subclass of the baseTextWidget class. This class implements the DummyHighLevelInterface interface. Actually, w is usually a LeoQTextBrowser or leoQtBaseTextWidget object, defined in qtGui.py. These classes provide thin wrappers for corresponding Qt widgets.</p>
+<p>In Leo, each class hides (encapsulates) the details of its internal workings from user (client) classes. This design principle has been spectacularly successful. Leo&#8217;s overall design has remained remarkably stable for 20 years, even as the internal details of many classes have radically changed. Two computer scientists influenced my thinking greatly: <a class="reference external" href="http://en.wikipedia.org/wiki/David_Parnas">David Parnas</a> and <a class="reference external" href="http://en.wikipedia.org/wiki/Glenford_Myers">Glenford Myers</a>.</p>
+<p>The distinction between gui-dependent and gui-independent is important. Almost all gui-dependent code resides in the plugins folder. Leo&#8217;s core code is almost completely gui independent.</p>
+<p>Leo&#8217;s core typically assumes that w (an abstract widget) is a subclass of the baseTextWidget class. This class implements the DummyHighLevelInterface interface. Actually, w is usually a LeoQTextBrowser or leoQtBaseTextWidget object, defined in qtGui.py. These classes provide thin wrappers for corresponding Qt widgets.</p>
 <p>Wrapper classes are useful, regardless of gui independence:</p>
 <ul class="simple">
-<li>Wrapper classes often simplify the corresponding code in Leo’s code.</li>
+<li>Wrapper classes often simplify the corresponding code in Leo&#8217;s code.</li>
 <li>Wrapper classes provide convenient methods for debugging and tracing.</li>
 </ul>
 </div>
@@ -179,7 +182,7 @@ g.pdb. I recommend always running Leo from a console.</p>
 which is not used.</p>
 </li>
 </ul>
-<p>In addition, <em>all</em> event handling in baseNativeTree.py is extremely fragile. Don’t even think about changing this code unless you know exactly what you are doing.</p>
+<p>In addition, <em>all</em> event handling in baseNativeTree.py is extremely fragile. Don&#8217;t even think about changing this code unless you know exactly what you are doing.</p>
 </div>
 <div class="section" id="read-long-comments-with-caution">
 <h2><a class="toc-backref" href="#id9">Read long comments with caution</a><a class="headerlink" href="#read-long-comments-with-caution" title="Permalink to this headline">¶</a></h2>
@@ -203,12 +206,12 @@ which is not used.</p>
 <p>The LoadManager (LM) class (in leoApp.py) is responsible for initing all objects and settings. This is a complex process. Here is the big picture:</p>
 <ul class="simple">
 <li>The LM reads each local (non-settings) file twice. The first load discovers the settings to be used in the second load. This ensures that proper settings are <em>available</em> during the second load.</li>
-<li>Ctors init settings “early”, before calling the ctors for subsidiary objects. This ensures that proper settings are <em>in effect</em> for subsidiary ctors.</li>
+<li>Ctors init settings &#8220;early&#8221;, before calling the ctors for subsidiary objects. This ensures that proper settings are <em>in effect</em> for subsidiary ctors.</li>
 </ul>
 </div>
 <div class="section" id="unicode">
 <h2><a class="toc-backref" href="#id11">Unicode</a><a class="headerlink" href="#unicode" title="Permalink to this headline">¶</a></h2>
-<p>Leo’s grand strategy for handling text is as follows:</p>
+<p>Leo&#8217;s grand strategy for handling text is as follows:</p>
 <ol class="arabic simple">
 <li>Internally, Leo uses unicode objects for all text.</li>
 <li>When reading files or user input, Leo converts all plain (encoded)
@@ -222,7 +225,7 @@ strings.</li>
 </div>
 <div class="section" id="why-key-handling-is-complex">
 <h2><a class="toc-backref" href="#id12">Why key handling is complex</a><a class="headerlink" href="#why-key-handling-is-complex" title="Permalink to this headline">¶</a></h2>
-<p>Leo’s key handling is complex because it does inherently complex things:</p>
+<p>Leo&#8217;s key handling is complex because it does inherently complex things:</p>
 <ul class="simple">
 <li>Code in various places translate user key bindings to dictionaries.</li>
 <li>eventFilter and its helpers translates incoming QKeyEvents to LeoKeyEvents.</li>
@@ -235,15 +238,15 @@ mode-and-pane-dependent bindings.</li>
 <h2><a class="toc-backref" href="#id13">Leo must have sentinels, even without clones</a><a class="headerlink" href="#leo-must-have-sentinels-even-without-clones" title="Permalink to this headline">¶</a></h2>
 <p>Sentinels are necessary for clones, but sentinels would still be necessary if clones did not exist.</p>
 <p>Sentinels create <strong>identity</strong>, the notion that a particular nodes starts at <em>this</em> place in the external file and extends to <em>this other</em> place. Identity is a persistent, invariant attribute of a file: Leo recreates all the nodes of the external files when re-reading the file.</p>
-<p>It’s really that simple, but here are some consequences:</p>
+<p>It&#8217;s really that simple, but here are some consequences:</p>
 <ol class="arabic simple">
 <li>Identity remains even when the contents of a node changes. Thus, there is <em>no way</em> to use content-related mechanisms to recreate identity. Git can never help recover identity.</li>
-<li>Leo’s sentinels mark an <em>arbitrary</em> range of text within the external file. &#64;auto files can never be as flexible as &#64;file nodes.</li>
+<li>Leo&#8217;s sentinels mark an <em>arbitrary</em> range of text within the external file. &#64;auto files can never be as flexible as &#64;file nodes.</li>
 </ol>
 </div>
 <div class="section" id="setting-focus">
 <h2><a class="toc-backref" href="#id14">Setting focus</a><a class="headerlink" href="#setting-focus" title="Permalink to this headline">¶</a></h2>
-<p>Leo’s handling of focus is complicated in order to reduce unwanted screen flash. The following methods queue <em>requests</em> for focus:</p>
+<p>Leo&#8217;s handling of focus is complicated in order to reduce unwanted screen flash. The following methods queue <em>requests</em> for focus:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">c</span><span class="o">.</span><span class="n">bodyWantsFocus</span><span class="p">()</span>
 <span class="n">c</span><span class="o">.</span><span class="n">logWantsFocus</span><span class="p">()</span>
 <span class="n">c</span><span class="o">.</span><span class="n">minibufferWantsFocus</span><span class="p">()</span>
@@ -313,7 +316,7 @@ mode-and-pane-dependent bindings.</li>
     </div>
     <div class="footer" role="contentinfo">
         &#169; Copyright 1997-2017, Edward K. Ream.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.7.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.5.
     </div>
   </body>
 </html>

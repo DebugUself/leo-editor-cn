@@ -1,13 +1,16 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
     <title>Using ZODB with Leo &#8212; Leo 5.6 documentation</title>
+    
     <link rel="stylesheet" href="_static/classic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
@@ -26,7 +29,7 @@
     <link rel="next" title="Advanced Topics" href="intermediatetopics.html" />
     <link rel="prev" title="ILeo: Leo’s IPython Bridge" href="IPythonBridge.html" /> 
   </head>
-  <body>
+  <body role="document">
     <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
       <ul>
@@ -71,11 +74,11 @@
 <div class="section" id="configuring-leo-to-use-zodb">
 <h2><a class="toc-backref" href="#id1">Configuring Leo to use zodb</a><a class="headerlink" href="#configuring-leo-to-use-zodb" title="Permalink to this headline">¶</a></h2>
 <p>To enable zodb scripting within Leo, you must set use_zodb = True in the root node of leoNodes.py. You must also install ZODB itself.  See <a class="reference external" href="http://www.zope.org/Wikis/ZODB/guide/node3.html#SECTION000310000000000000000">Installing ZODB</a> for details.</p>
-<p>When ZODB is installed and use_zodb is True, Leo’s vnode class becomes a subclass of ZODB.Persistence.Persistent. This is all that is needed to save/retrieve vnodes or tnodes to/from the ZODB.</p>
+<p>When ZODB is installed and use_zodb is True, Leo&#8217;s vnode class becomes a subclass of ZODB.Persistence.Persistent. This is all that is needed to save/retrieve vnodes or tnodes to/from the ZODB.</p>
 <p><strong>Important notes</strong>:</p>
 <ul class="simple">
-<li>Scripts <strong>should not</strong> store or retrieve positions using the ZODB! Doing so makes sense neither from Leo’s point of view nor from ZODB’s point of view.</li>
-<li>The examples below show how to store or retrieve Leo data by accessing the so-called root of a ZODB connection. However, these are only examples. Scripts are free to do with Leo’s vnodes <em>anything</em> that can be done with ZODB.Persistence.Persistent objects.</li>
+<li>Scripts <strong>should not</strong> store or retrieve positions using the ZODB! Doing so makes sense neither from Leo&#8217;s point of view nor from ZODB&#8217;s point of view.</li>
+<li>The examples below show how to store or retrieve Leo data by accessing the so-called root of a ZODB connection. However, these are only examples. Scripts are free to do with Leo&#8217;s vnodes <em>anything</em> that can be done with ZODB.Persistence.Persistent objects.</li>
 </ul>
 </div>
 <div class="section" id="initing-zodb">
@@ -136,7 +139,7 @@ For example:</p>
 </div>
 </li>
 <li><p class="first">When saving a single vnode or tree of vnodes, say v,
-a good choice would be to use v’s gnx, namely:</p>
+a good choice would be to use v&#8217;s gnx, namely:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">aKey</span> <span class="o">=</span> <span class="n">g</span><span class="o">.</span><span class="n">app</span><span class="o">.</span><span class="n">nodeIndices</span><span class="o">.</span><span class="n">toString</span><span class="p">(</span><span class="n">v</span><span class="o">.</span><span class="n">fileIndex</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -218,7 +221,7 @@ so when writing a detached node you would typically do the following:</p>
             </a></p>
   <h4>Previous topic</h4>
   <p class="topless"><a href="IPythonBridge.html"
-                        title="previous chapter">ILeo: Leo’s IPython Bridge</a></p>
+                        title="previous chapter">ILeo: Leo&#8217;s IPython Bridge</a></p>
   <h4>Next topic</h4>
   <p class="topless"><a href="intermediatetopics.html"
                         title="next chapter">Advanced Topics</a></p>
@@ -254,7 +257,7 @@ so when writing a detached node you would typically do the following:</p>
     </div>
     <div class="footer" role="contentinfo">
         &#169; Copyright 1997-2017, Edward K. Ream.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.7.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.5.
     </div>
   </body>
 </html>

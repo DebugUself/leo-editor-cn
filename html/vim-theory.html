@@ -1,13 +1,16 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
     <title>Vim Mode: Theory of Operation &#8212; Leo 5.6 documentation</title>
+    
     <link rel="stylesheet" href="_static/classic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
@@ -26,7 +29,7 @@
     <link rel="next" title="The Leonine World" href="leonine-world.html" />
     <link rel="prev" title="Exploring Leo’s Code Base" href="theory.html" /> 
   </head>
-  <body>
+  <body role="document">
     <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
       <ul>
@@ -51,7 +54,7 @@
             
   <div class="section" id="vim-mode-theory-of-operation">
 <h1>Vim Mode: Theory of Operation<a class="headerlink" href="#vim-mode-theory-of-operation" title="Permalink to this headline">¶</a></h1>
-<p>This is the theory of operation of Leo’s vim mode, contained in
+<p>This is the theory of operation of Leo&#8217;s vim mode, contained in
 leo/core/leoVim.py. It discusses everything you need to understand the code
 and to add new vim commands.</p>
 <div class="contents local topic" id="contents">
@@ -72,7 +75,7 @@ and to add new vim commands.</p>
 <li><a class="reference internal" href="#about-key-handlers" id="id11">About key handlers</a></li>
 <li><a class="reference internal" href="#ivars-for-key-handlers" id="id12">Ivars for key handlers</a></li>
 <li><a class="reference internal" href="#handling-tabs" id="id13">Handling tabs</a></li>
-<li><a class="reference internal" href="#api-s-for-key-handlers" id="id14">API’s for key handlers</a></li>
+<li><a class="reference internal" href="#api-s-for-key-handlers" id="id14">API&#8217;s for key handlers</a></li>
 <li><a class="reference internal" href="#vc-return-value-and-internal-error-checking" id="id15">vc.return_value and internal error checking</a></li>
 </ul>
 </li>
@@ -80,7 +83,7 @@ and to add new vim commands.</p>
 </div>
 <div class="section" id="the-big-picture">
 <h2><a class="toc-backref" href="#id1">The big picture</a><a class="headerlink" href="#the-big-picture" title="Permalink to this headline">¶</a></h2>
-<p>Leo’s vim mode dispatches keystrokes sent to it from k.masterKeyHandler to <strong>key handlers</strong>.</p>
+<p>Leo&#8217;s vim mode dispatches keystrokes sent to it from k.masterKeyHandler to <strong>key handlers</strong>.</p>
 <p>Each key handler handles the incoming key and then calls either vc.accept(), vc.done(), vc.ignore() or vc.quit(). These methods tell k.masterKeyHandler whether vim-mode has completely handled the key. If so, k.masterKeyHandler simply returns. Otherwise, k.masterKeyHandler handles the key as usual.</p>
 </div>
 <div class="section" id="a-simple-key-handler">
@@ -102,7 +105,7 @@ and to add new vim commands.</p>
 </div>
 <div class="section" id="a-more-complex-key-handler">
 <h2><a class="toc-backref" href="#id3">A more complex key handler</a><a class="headerlink" href="#a-more-complex-key-handler" title="Permalink to this headline">¶</a></h2>
-<p>The vc.vim_d method and its follow-on methods handle vim’s d commands.</p>
+<p>The vc.vim_d method and its follow-on methods handle vim&#8217;s d commands.</p>
 <p>The vc.vis_d method handles the d keystroke that ends visual mode.</p>
 <p>The following sections examine each piece of the code in detail. If you understand how it works you should know everything you need to write any other key handler.</p>
 <div class="section" id="vim-d">
@@ -119,8 +122,8 @@ and to add new vim commands.</p>
         <span class="n">vc</span><span class="o">.</span><span class="n">quit</span><span class="p">()</span>
 </pre></div>
 </div>
-<p>This is the key handler for the ‘d’ key in normal mode.</p>
-<p>The entry in vc.normal_dispatch_d for ‘d’ is: ‘d’:vc.vim_d.</p>
+<p>This is the key handler for the &#8216;d&#8217; key in normal mode.</p>
+<p>The entry in vc.normal_dispatch_d for &#8216;d&#8217; is: &#8216;d&#8217;:vc.vim_d.</p>
 <p>Because this command changes text, vc.is_text_widget(vc.w) must be True. If
 so, this handler simply calls vc.accept(handler=vc.vim_d2) to queue up the
 follow-on handler. Otherwise, the handler calls vc.quit() to end the
@@ -150,16 +153,16 @@ command.</p>
         <span class="n">vc</span><span class="o">.</span><span class="n">quit</span><span class="p">()</span>
 </pre></div>
 </div>
-<p>This is the follow-on handler for the ‘d’ command. It will be called when
-the user types a <em>second</em> character following the ‘d’ command in normal
+<p>This is the follow-on handler for the &#8216;d&#8217; command. It will be called when
+the user types a <em>second</em> character following the &#8216;d&#8217; command in normal
 mode.</p>
-<p>All forms of the ‘d’ command alter text, so this handler calls vc.quit if
+<p>All forms of the &#8216;d&#8217; command alter text, so this handler calls vc.quit if
 vc.w is not a text widget.</p>
-<p>If the second character is another ‘d’, we have the ‘dd’ command. The code
+<p>If the second character is another &#8216;d&#8217;, we have the &#8216;dd&#8217; command. The code
 uses the high-level interface to delete a line, then calls vc.done() to end
 the command.</p>
-<p>If the second character is <em>not</em> a ‘d’, it should be a following motion,
-such as “2j” in “d2j”.</p>
+<p>If the second character is <em>not</em> a &#8216;d&#8217;, it should be a following motion,
+such as &#8220;2j&#8221; in &#8220;d2j&#8221;.</p>
 <p>vc.vim_d2 remembers the character that started the motion in a <strong>scratch
 ivar</strong>, vc.d_stroke. Such ivars are not inited or touched outside of vim_d
 and its follow-on key handlers. This code must remember this character so
@@ -167,11 +170,11 @@ that the vim_d3 handler will know whether to expand the deleted text to a
 line.</p>
 <p>Finally, vc.vim_d2 calls vc.begin_motion, which does the following:</p>
 <ul class="simple">
-<li>Calls vc.ignore if the second character doesn’t really start a motion.</li>
+<li>Calls vc.ignore if the second character doesn&#8217;t really start a motion.</li>
 <li>Sets vc.handler to vc.do_inner_motion.  This handles the motion.</li>
 <li>Sets the vc.after_motion to the next follow-on handler: vc.vim_d3.
 vc.vim_d3 will be called when the motion is complete. The details are
-complicated, but happily the key handlers don’t have to know about them!</li>
+complicated, but happily the key handlers don&#8217;t have to know about them!</li>
 </ul>
 </div>
 <div class="section" id="vim-d3">
@@ -214,7 +217,7 @@ motions <strong>have actually happened</strong>.</p>
 vc.quit() if not.</p>
 <p>Next, the code compares the present insertion point, w,getInsertPoint(),
 with the insertion point before the motion happened, vc.motion_i. It
-extends the selection range if the scratch ivar, vc.d_stroke, is in (‘jk’).
+extends the selection range if the scratch ivar, vc.d_stroke, is in (&#8216;jk&#8217;).
 The code then deletes the selected text.</p>
 <p>Finally, this method calls vc.done().</p>
 </div>
@@ -233,19 +236,19 @@ The code then deletes the selected text.</p>
         <span class="n">vc</span><span class="o">.</span><span class="n">quit</span><span class="p">()</span>
 </pre></div>
 </div>
-<p>This is the key handler for the ‘d’ key in normal mode.</p>
+<p>This is the key handler for the &#8216;d&#8217; key in normal mode.</p>
 <p>It is <em>not</em> a follow-on method of vim_d. The dispatcher calls this method
-after visual mode has highlighted text. Here is the entry for ‘d’ in
-vc.visual_dispatch_d: ‘d’:vc.vis_d.</p>
+after visual mode has highlighted text. Here is the entry for &#8216;d&#8217; in
+vc.visual_dispatch_d: &#8216;d&#8217;:vc.vis_d.</p>
 <p>Visual mode has already highlighted the text to be deleted, so this code
 simply deletes the highlighted text and calls vc.done().</p>
 </div>
 </div>
 <div class="section" id="code-level-details">
 <h2><a class="toc-backref" href="#id8">Code level details</a><a class="headerlink" href="#code-level-details" title="Permalink to this headline">¶</a></h2>
-<p>The VimCommands class in leoVim.py implements Leo’s vim mode. Vim mode is active only if &#64;bool vim-mode = True.</p>
-<p>The following sections will be of interest only to those seeking a deep knowledge of how vim mode’s dispatchers work. Such knowledge should rarely be required because dispatchers and key handlers are completely unaware of each other. Dispatch dicts and acceptance methods shield dispatchers and key handlers of all knowledge of each other. In particular, acceptance methods handle the sometimes tricky details of ending a key handler.</p>
-<p>Leo’s vim code is spectacularly different from the real vim’s code. Wherever possible, Leo uses methods to hide implementation details.</p>
+<p>The VimCommands class in leoVim.py implements Leo&#8217;s vim mode. Vim mode is active only if &#64;bool vim-mode = True.</p>
+<p>The following sections will be of interest only to those seeking a deep knowledge of how vim mode&#8217;s dispatchers work. Such knowledge should rarely be required because dispatchers and key handlers are completely unaware of each other. Dispatch dicts and acceptance methods shield dispatchers and key handlers of all knowledge of each other. In particular, acceptance methods handle the sometimes tricky details of ending a key handler.</p>
+<p>Leo&#8217;s vim code is spectacularly different from the real vim&#8217;s code. Wherever possible, Leo uses methods to hide implementation details.</p>
 <p>Ironically, now that everything is hard coded in tables, it would be easy for plugins to customize the workings of vim-mode.</p>
 <div class="section" id="initialization">
 <h3><a class="toc-backref" href="#id9">Initialization</a><a class="headerlink" href="#initialization" title="Permalink to this headline">¶</a></h3>
@@ -277,7 +280,7 @@ simply deletes the highlighted text and calls vc.done().</p>
 <div class="section" id="about-key-handlers">
 <h3><a class="toc-backref" href="#id11">About key handlers</a><a class="headerlink" href="#about-key-handlers" title="Permalink to this headline">¶</a></h3>
 <p>Key handlers handle a single key during the parsing of a vim command. Key handlers can either complete a command, thereby actually doing something, or change state so as to be able to parse (and possibly complete) the next incoming keystroke.</p>
-<p>For example, the key handler for the G command handles the command completely. In contrast, two key handlers are needed to handle the gg command. The first handler, vc.vim_g, simply calls vc.accept(handler=vc.vim_g2). This call changes the vc.handler ivar to point to the <strong>follow-on handler</strong>, vim_g2. vim_g2 handles all commands after the user has typed ‘g’ in normal mode.</p>
+<p>For example, the key handler for the G command handles the command completely. In contrast, two key handlers are needed to handle the gg command. The first handler, vc.vim_g, simply calls vc.accept(handler=vc.vim_g2). This call changes the vc.handler ivar to point to the <strong>follow-on handler</strong>, vim_g2. vim_g2 handles all commands after the user has typed &#8216;g&#8217; in normal mode.</p>
 <p>Each key handler must end with a call to an <strong>acceptance method</strong>. vc.accept is one such method. Acceptance methods prepare for the next keystroke by setting internal state ivars used by the various dispatchers.</p>
 <p>Many key handlers simply call vc.done(). This method handles all the details of completing a key handler: it hides the details of parsing vim command.</p>
 <p><strong>Important</strong>: Any key handler that wants to change vc.state should set vc.state <em>before</em> calling vc.done()</p>
@@ -297,7 +300,7 @@ simply deletes the highlighted text and calls vc.done().</p>
 </div>
 <div class="section" id="handling-tabs">
 <h3><a class="toc-backref" href="#id13">Handling tabs</a><a class="headerlink" href="#handling-tabs" title="Permalink to this headline">¶</a></h3>
-<p>Various vim commands advertise, just by having a tab_callback method, that they want to handle a tab that follows their name. ga.do_tab then defers to the vim command. Vim’s tab handler no longer knows <em>anything</em> about colon commands, or what any command intends to do with the tab. If the command handler has a tab_callback attribute, vim’s tab handler just calls it.</p>
+<p>Various vim commands advertise, just by having a tab_callback method, that they want to handle a tab that follows their name. ga.do_tab then defers to the vim command. Vim&#8217;s tab handler no longer knows <em>anything</em> about colon commands, or what any command intends to do with the tab. If the command handler has a tab_callback attribute, vim&#8217;s tab handler just calls it.</p>
 <p>Here is the flattened form of the class that handles the :tabnew command. Note that the __call__ and tab_callback methods are trivial:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Tabnew</span><span class="p">:</span>
     <span class="sd">&#39;&#39;&#39;</span>
@@ -337,7 +340,7 @@ simply deletes the highlighted text and calls vc.done().</p>
 </div>
 </div>
 <div class="section" id="api-s-for-key-handlers">
-<h3><a class="toc-backref" href="#id14">API’s for key handlers</a><a class="headerlink" href="#api-s-for-key-handlers" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id14">API&#8217;s for key handlers</a><a class="headerlink" href="#api-s-for-key-handlers" title="Permalink to this headline">¶</a></h3>
 <p>The simplest way of moving the cursor or changing text is to use the vc.do method, a thin wrapper for c.k.simulateCommand.  For example:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">if</span> <span class="n">vc</span><span class="o">.</span><span class="n">state</span> <span class="o">==</span> <span class="s1">&#39;visual&#39;</span><span class="p">:</span>
     <span class="n">vc</span><span class="o">.</span><span class="n">do</span><span class="p">(</span><span class="s1">&#39;end-of-buffer-extend-selection&#39;</span><span class="p">)</span>
@@ -345,7 +348,7 @@ simply deletes the highlighted text and calls vc.done().</p>
     <span class="n">vc</span><span class="o">.</span><span class="n">do</span><span class="p">(</span><span class="s1">&#39;end-of-buffer&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>Key handlers may also use the <strong>high-level interface</strong>. This is the API used throughout Leo’s core. For details, see the HighLevelInterface class in leoFrame.py and various subclasses in qtGui.py.</p>
+<p>Key handlers may also use the <strong>high-level interface</strong>. This is the API used throughout Leo&#8217;s core. For details, see the HighLevelInterface class in leoFrame.py and various subclasses in qtGui.py.</p>
 </div>
 <div class="section" id="vc-return-value-and-internal-error-checking">
 <h3><a class="toc-backref" href="#id15">vc.return_value and internal error checking</a><a class="headerlink" href="#vc-return-value-and-internal-error-checking" title="Permalink to this headline">¶</a></h3>
@@ -366,7 +369,7 @@ simply deletes the highlighted text and calls vc.done().</p>
             </a></p>
   <h4>Previous topic</h4>
   <p class="topless"><a href="theory.html"
-                        title="previous chapter">Exploring Leo’s Code Base</a></p>
+                        title="previous chapter">Exploring Leo&#8217;s Code Base</a></p>
   <h4>Next topic</h4>
   <p class="topless"><a href="leonine-world.html"
                         title="next chapter">The Leonine World</a></p>
@@ -402,7 +405,7 @@ simply deletes the highlighted text and calls vc.done().</p>
     </div>
     <div class="footer" role="contentinfo">
         &#169; Copyright 1997-2017, Edward K. Ream.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.7.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.5.
     </div>
   </body>
 </html>
