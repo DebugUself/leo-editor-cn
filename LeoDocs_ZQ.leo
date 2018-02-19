@@ -2285,7 +2285,11 @@ http://leoeditor.com/tutorial.html
 
 任何疑问到这来交流:
 http://groups.google.com/group/leo-editor
-</t>
+
+
+
+#1 检验.
+成员在相同 node 中的可 merge 冲突?</t>
 <t tx="ekr.20051202072010"></t>
 <t tx="ekr.20060211140947.1">try:
     theId = os.getenv('USER')
