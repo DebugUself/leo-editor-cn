@@ -469,144 +469,7 @@ expanded="omlalala.20180206203511.6,omlalala.20180206203511.12,"><vh>@file index
 </v>
 </v>
 <v t="omlalala.20180206205022.126"><vh>FAQ</vh>
-<v t="omlalala.20180206205022.127"><vh>@rst docs\FAQ.html</vh>
-<v t="omlalala.20180206205022.128"><vh>@rst-no-head Links (FAQ)</vh></v>
-<v t="omlalala.20180206205022.129"><vh>Getting Leo</vh>
-<v t="omlalala.20180206205022.130"><vh>Where can I get official releases of Leo?</vh></v>
-<v t="omlalala.20180206205022.131"><vh>How do I use git to get the latest sources from Leo's GitHub site?</vh></v>
-<v t="omlalala.20180206205022.132"><vh>How can I get recent snapshots of Leo?</vh></v>
-</v>
-<v t="omlalala.20180206205022.133"><vh>安装 Leo</vh>
-<v t="omlalala.20180206205022.134"><vh>Leo's installer failed, what do I do?</vh></v>
-<v t="omlalala.20180206205022.135"><vh>Common problems</vh></v>
-</v>
-<v t="omlalala.20180206205022.136"><vh>Customizing Leo</vh>
-<v t="omlalala.20180206205022.137"><vh>How can I add support for a new language?</vh></v>
-<v t="omlalala.20180206205022.138"><vh>How can I create a pane for matplotlib charts?</vh></v>
-<v t="omlalala.20180206205022.139"><vh>How can I enable and disable support for psyco?</vh></v>
-<v t="omlalala.20180206205022.140"><vh>How can I put background images in the body pane?</vh></v>
-<v t="omlalala.20180206205022.141"><vh>How can I use a dark theme in Leo?</vh></v>
-<v t="omlalala.20180206205022.142"><vh>How can I use Leo's legacy key bindings?</vh></v>
-<v t="omlalala.20180206205022.143"><vh>How do I add a new menu item from a plugin?</vh></v>
-<v t="omlalala.20180206205022.144"><vh>How do I set selection colors?</vh></v>
-<v t="omlalala.20180206205022.145"><vh>How do I specify qt fonts?</vh></v>
-<v t="omlalala.20180206205022.146"><vh>How do I submit a plugin?</vh></v>
-</v>
-<v t="omlalala.20180206205022.147"><vh>Developing Leo's own code</vh>
-<v t="omlalala.20180206205022.148"><vh>How can I use dev nodes to develop and test Leo's own code?</vh></v>
-<v t="omlalala.20180206205022.149"><vh>What is the Stupendous Aha and why does it matter?</vh></v>
-</v>
-<v t="omlalala.20180206205022.150"><vh>Learning to use Leo</vh>
-<v t="omlalala.20180206205022.151"><vh>How can I learn Leo, or python, or anything</vh></v>
-<v t="omlalala.20180206205022.152"><vh>How does EKR (Leo's developer) use Leo?</vh></v>
-<v t="omlalala.20180206205022.153"><vh>How does EKR use clones?</vh></v>
-<v t="omlalala.20180206205022.154"><vh>How does Leo handle clone conflicts?</vh></v>
-<v t="omlalala.20180206205022.155"><vh>What's the best way to learn to use Leo?</vh></v>
-<v t="omlalala.20180206205022.156"><vh>When is deleting a node dangerous?</vh></v>
-<v t="omlalala.20180206205022.157"><vh>When is using a section better than using a method?</vh></v>
-<v t="omlalala.20180206205022.158"><vh>When may I delete clones safely?</vh></v>
-<v t="omlalala.20180206205022.159"><vh>Why doesn't Leo support cross-file clones?</vh></v>
-<v t="omlalala.20180206205022.160"><vh>Why should I use clones?</vh></v>
-</v>
-<v t="omlalala.20180206205022.161"><vh>Leo in Shared environments</vh>
-<v t="omlalala.20180206205022.162"><vh>How can I use Leo cooperatively without sentinels?</vh></v>
-<v t="omlalala.20180206205022.163"><vh>What's the recommended way to upgrade Leo?</vh></v>
-</v>
-<v t="omlalala.20180206205022.164"><vh>Leo and Git</vh>
-<v t="omlalala.20180206205022.165"><vh>What is a reference .leo file?</vh></v>
-<v t="omlalala.20180206205022.166"><vh>How should I use Leo with git, etc.?</vh></v>
-<v t="omlalala.20180206205022.167"><vh>Why do files sometimes change when switching branches?</vh></v>
-</v>
-<v t="omlalala.20180206205022.168"><vh>Leo and Excel</vh>
-<v t="omlalala.20180206205022.169"><vh>How can I show Leo files with Excel?</vh></v>
-</v>
-<v t="omlalala.20180206205022.170"><vh>Leo and LaTeX</vh>
-<v t="omlalala.20180206205022.171"><vh>How can I produce PDF output from LaTex input?</vh></v>
-<v t="omlalala.20180206205022.172"><vh>How can I use BibTeX citations from Leo?</vh></v>
-</v>
-<v t="omlalala.20180206205022.173"><vh>Scripting &amp; Testing</vh>
-<v t="omlalala.20180206205022.174"><vh>How can I create buttons with dropdown menus?</vh></v>
-<v t="omlalala.20180206205022.175"><vh>How can I make commonly-used scripts widely accessible?</vh></v>
-<v t="omlalala.20180206205022.176"><vh>How can I organize large docstrings?</vh></v>
-<v t="omlalala.20180206205022.177"><vh>How can I run pylint outside of Leo?</vh></v>
-<v t="omlalala.20180206205022.178"><vh>How can I test settings easily?</vh></v>
-<v t="omlalala.20180206205022.179"><vh>How can I use setuptools instead of .bat files?</vh></v>
-<v t="omlalala.20180206205022.180"><vh>How can scripts call functions from Leo's core?</vh></v>
-<v t="omlalala.20180206205022.181"><vh>How do I choose between @others and section references?</vh></v>
-<v t="omlalala.20180206205022.182"><vh>How do I run unit tests from Leo?</vh></v>
-<v t="omlalala.20180206205022.183"><vh>How to use leo to make mathematical notes?</vh></v>
-<v t="omlalala.20180206205022.184"><vh>Tip: run unit tests locally using clones</vh></v>
-<v t="omlalala.20180206205022.185"><vh>What is an easy way to profile code?</vh></v>
-</v>
-<v t="omlalala.20180206205022.186"><vh>Tips and techniques</vh>
-<v t="omlalala.20180206205022.187"><vh>How can I create a template .leo file?</vh></v>
-<v t="omlalala.20180206205022.188"><vh>How can I create and use markdown files?</vh></v>
-<v t="omlalala.20180206205022.189"><vh>How can I customize the clone-find-all commands?</vh></v>
-<v t="omlalala.20180206205022.190"><vh>How can I display graphics in Leo?</vh></v>
-<v t="omlalala.20180206205022.191"><vh>How can I eliminate clone wars?</vh></v>
-<v t="omlalala.20180206205022.192"><vh>How can I import many files at once?</vh></v>
-<v t="omlalala.20180206205022.193"><vh>How can I make a screencast?</vh>
-<v t="omlalala.20180206205022.194"><vh>Use a script to open your app</vh></v>
-<v t="omlalala.20180206205022.195"><vh>Debug your workflow with short videos</vh></v>
-<v t="omlalala.20180206205022.196"><vh>Emulate the screencast.com tutorials</vh></v>
-<v t="omlalala.20180206205022.197"><vh>Record your first real take</vh></v>
-<v t="omlalala.20180206205022.198"><vh>Edit your raw take</vh></v>
-<v t="omlalala.20180206205022.199"><vh>Summary</vh></v>
-<v t="omlalala.20180206205022.200"><vh>Additional tips</vh></v>
-<v t="omlalala.20180206205022.201"><vh>Tips for improving audio</vh></v>
-</v>
-<v t="omlalala.20180206205022.202"><vh>How can I organize data so I can find stuff later?</vh></v>
-<v t="omlalala.20180206205022.203"><vh>How can I restore focus without using the mouse</vh></v>
-<v t="omlalala.20180206205022.204"><vh>How can I simulate more flexible clones?</vh></v>
-<v t="omlalala.20180206205022.205"><vh>How can I specify the root directory of a thumb drive?</vh></v>
-<v t="omlalala.20180206205022.206"><vh>How can I use clones to reorganize an outline?</vh></v>
-<v t="omlalala.20180206205022.207"><vh>How can I use git to check Leo's importers?</vh></v>
-<v t="omlalala.20180206205022.208"><vh>How can I use Leo in virtualenv?</vh></v>
-<v t="omlalala.20180206205022.209"><vh>How can I use Leo to develop Leo itself?</vh></v>
-<v t="omlalala.20180206205022.210"><vh>How can I use Leo with git?</vh></v>
-<v t="omlalala.20180206205022.211"><vh>How can I use the GTD workflow in Leo?</vh></v>
-<v t="omlalala.20180206205022.212"><vh>How can I use two copies of Leo to advantage?</vh></v>
-<v t="omlalala.20180206205022.213"><vh>What are some useful abbreviations?</vh></v>
-<v t="omlalala.20180206205022.214"><vh>Why is Alt-N (goto-next-clone) important?</vh></v>
-</v>
-<v t="omlalala.20180206205022.215"><vh>Trouble shooting</vh>
-<v t="omlalala.20180206205022.216"><vh>Error messages from the rst3 plugin aren't helpful. What can I do?</vh></v>
-<v t="omlalala.20180206205022.217"><vh>How can I run Leo from a console window?</vh></v>
-<v t="omlalala.20180206205022.218"><vh>How can I use Python's pdb debugger with Leo?</vh></v>
-<v t="omlalala.20180206205022.219"><vh>How do I get help?</vh></v>
-<v t="omlalala.20180206205022.220"><vh>How do I make Ctrl-Shift-0 work on Windows 8 or 10?</vh></v>
-<v t="omlalala.20180206205022.221"><vh>How do I report bugs?</vh></v>
-<v t="omlalala.20180206205022.222"><vh>I am having trouble installing Leo on MacOS. What should I do?</vh></v>
-<v t="omlalala.20180206205022.223"><vh>I can't run the LeoBridge module outside of leo/core.  What should I do?</vh></v>
-<v t="omlalala.20180206205022.224"><vh>I can't write Imported files.  What's going on?</vh></v>
-<v t="omlalala.20180206205022.225"><vh>My old .leo files won't load using Leo 4.5 or later. What should I do?</vh></v>
-<v t="omlalala.20180206205022.226"><vh>Nothing (or almost nothing) happens when I start Leo.  What should I do?</vh></v>
-<v t="omlalala.20180206205022.227"><vh>Running Python setup.py install from the leo directory doesn't work.  Why not?</vh></v>
-<v t="omlalala.20180206205022.228"><vh>The new Python decorator syntax causes problems.  What can I do?</vh></v>
-<v t="omlalala.20180206205022.229"><vh>What about code that looks like a section reference?</vh></v>
-<v t="omlalala.20180206205022.230"><vh>Why didn't Leo update my @clean outline as expected?</vh></v>
-<v t="omlalala.20180206205022.231"><vh>Why do Qt windows disappear in my scripts?</vh></v>
-</v>
-<v t="omlalala.20180206205022.232"><vh>Unicode issues</vh>
-<v t="omlalala.20180206205022.233"><vh>I can not enter non-ascii characters.  What can I do?</vh></v>
-<v t="omlalala.20180206205022.234"><vh>Some characters in external files look funny. What can I do?</vh></v>
-<v t="omlalala.20180206205022.235"><vh>I get weird results when defining unicode strings in scripts.  What is going on?</vh></v>
-<v t="omlalala.20180206205022.236"><vh>Some characters are garbled when importing files. What can I do?</vh></v>
-<v t="omlalala.20180206205022.237"><vh>Python's print statement shows 'byte hash' for unicode characters.  What can I do?</vh></v>
-</v>
-<v t="omlalala.20180206205022.238"><vh>Using external files</vh>
-<v t="omlalala.20180206205022.239"><vh>How do I inhibit sentinels in external files?</vh></v>
-<v t="omlalala.20180206205022.240"><vh>How do I prevent Leo from expanding sections?</vh></v>
-<v t="omlalala.20180206205022.241"><vh>How can I create Javascript comments?</vh></v>
-<v t="omlalala.20180206205022.242"><vh>How can I disable PHP comments?</vh></v>
-<v t="omlalala.20180206205022.243"><vh>How can I use Leo with unsupported languages?</vh></v>
-<v t="omlalala.20180206205022.244"><vh>How do I make external files start with a shebang line?</vh></v>
-<v t="omlalala.20180206205022.245"><vh>Can @file trees contain material not in the external file?</vh></v>
-<v t="omlalala.20180206205022.246"><vh>How can I use Leo with older C compilers</vh></v>
-<v t="omlalala.20180206205022.247"><vh>Why can't I use @ignore directives in @file trees?</vh></v>
-<v t="omlalala.20180206205022.248"><vh>How can I avoid getting long lines in external files?</vh></v>
-</v>
-</v>
+<v t="omlalala.20180206205022.127"><vh>@clean docs\FAQ.html.md</vh></v>
 </v>
 <v t="omlalala.20180206205022.249"><vh>Tutorials</vh>
 <v t="omlalala.20180206205022.250"><vh>@rst docs\tutorial.html</vh></v>
@@ -8893,12 +8756,15 @@ You will get something like the following::
 When Leo closes, it stores session state in ``~/.leo/leo.session``. Session state consists of the list of open files and the selected node in each file. The next time Leo starts with those options, Leo will open these files and will select the appropriate nodes.
 </t>
 <t tx="omlalala.20180206205022.126"></t>
-<t tx="omlalala.20180206205022.127">####
+<t tx="omlalala.20180206205022.127">.. rst3: filename: docs\FAQ.html
+
+####
 FAQ
 ####
 
 This is Leo's Frequently Asked Questions document.
-这是 Leo 常见问题回答
+这是 Leo 常见问题回答???
+
 
 .. index:: FAQ
 
@@ -8906,8 +8772,7 @@ This is Leo's Frequently Asked Questions document.
     :depth: 4
     :local:
 
-</t>
-<t tx="omlalala.20180206205022.128">.. Links used in this document...
+.. Links used in this document...
 
 .. External links
 
@@ -8949,49 +8814,20 @@ This is Leo's Frequently Asked Questions document.
 .. _`History of Leo`:       appendices.html#history-of-leo
 .. _`Leo 4.0: Eliminating error 'recovery'`: appendices.html#leo-4-0-eliminating-error-recovery
 
-</t>
-<t tx="omlalala.20180206205022.129"></t>
-<t tx="omlalala.20180206205022.13">@ @rst-options
-call_docutils=False
-stylesheet_path=..\doc
-write_intermediate_file = True
-@c
+Getting Leo
++++++++++++
 
-######
-Slides
-######
 
-This is the front page for various slide shows about Leo.
 
-.. links
-.. _`Clones and views`:         slides/clones-and-views/slide-001.html
-.. _`External files`:           slides/external-files/slide-005.html
-.. _`Installation`:             slides/installation/slide-001.html
-.. _`Leo Basics Step By Step`:  slides/leo-basics-step-by-step/slide-001.html
-.. _`Scripting Leo`:            slides/scripting-leo/slide-001.html
-.. _`Using Leo's Minibuffer`:   slides/using-leos-minibuffer/slide-001.html
+Where can I get official releases of Leo?
+*****************************************
 
-Basic slide shows
------------------
+See `Leo's download page &lt;download.html&gt;`_.
 
-`Installation`_  tells how to install Leo.
+How do I use git to get the latest sources from Leo's GitHub site?
+******************************************************************
 
-`Leo Basics Step By Step`_  explains the basics of Leo outlines.
-
-`External Files`_ discusses creating external files with @file, @clean and @edit.
-
-`Clones and views`_ illustrates how clones work and show how they create views.
-
-`Using Leo's Minibuffer`_ tells how to execute Leo's commands by name.
-
-Intermediate slide shows
-------------------------
-
-`Scripting Leo`_ explains how to use Python scripting in Leo.
-</t>
-<t tx="omlalala.20180206205022.130">See `Leo's download page &lt;download.html&gt;`_.
-</t>
-<t tx="omlalala.20180206205022.131">Many users will want to track the development version of Leo, in order to stay on top of the latest features and bug fixes. Running the development version is quite safe and easy, and it's also a requirement if you want to contribute to Leo.
+Many users will want to track the development version of Leo, in order to stay on top of the latest features and bug fixes. Running the development version is quite safe and easy, and it's also a requirement if you want to contribute to Leo.
 
 1. First, you need to get git from http://git-scm.com/.
 
@@ -9004,11 +8840,21 @@ Intermediate slide shows
         git clone git@github.com:leo-editor/leo-editor.git (ssh access)
 
 And that's it! You can run the launchLeo script (in the top-level branch directory) directly. When you want to refresh the code with latest modifications from GitHub, 'run git pull'.
-</t>
-<t tx="omlalala.20180206205022.132">Daily snapshots are available `here &lt;download.html&gt;`_.
-</t>
-<t tx="omlalala.20180206205022.133"></t>
-<t tx="omlalala.20180206205022.134">You can simply unpack Leo anywhere and run from there.  You don't need the installer.
+
+How can I get recent snapshots of Leo?
+**************************************
+
+Daily snapshots are available `here &lt;download.html&gt;`_.
+
+安装 Leo
+++++++++++
+
+
+
+Leo's installer failed, what do I do?
+*************************************
+
+You can simply unpack Leo anywhere and run from there.  You don't need the installer.
 
 From a console window, cd to the top-level leo folder.  Run Leo as follows::
 
@@ -9021,19 +8867,29 @@ To run Leo with Qt look and feel, use the --gui=qt option::
 To load Leo's source, load leoPyRef.leo::
 
     python launchLeo.py --gui=qt leo\\core\\leoPyRef.leo
-</t>
-<t tx="omlalala.20180206205022.135">Missing modules can cause installation problems. If the installer doesn't work (or puts up a dialog containing no text), you may install Leo from the .zip file as described at `How to install Leo on Windows`_. However you are installing Leo, be sure to `run Leo in a console`_. because as a last resort Leo prints error messages to the console.
+
+Common problems
+***************
+
+Missing modules can cause installation problems. If the installer doesn't work (or puts up a dialog containing no text), you may install Leo from the .zip file as described at `How to install Leo on Windows`_. However you are installing Leo, be sure to `run Leo in a console`_. because as a last resort Leo prints error messages to the console.
+
+Customizing Leo
++++++++++++++++
 
 
-</t>
-<t tx="omlalala.20180206205022.136" str_atime="1376412984.0"></t>
-<t tx="omlalala.20180206205022.137">See the instructions are in LeoPy.leo in::
+
+How can I add support for a new language?
+*****************************************
+
+See the instructions are in LeoPy.leo in::
 
     Notes:How To:How to add support for a new language section.
 
 This section contains clones of all relevant parts of Leo that you will change. Coming in Leo 4.4: Leo will use JEdit's language description files to drive the syntax colorer. To add support for a new language, just add another such description file.
-</t>
-<t tx="omlalala.20180206205022.138">@language rest
+
+How can I create a pane for matplotlib charts?
+**********************************************
+
 
 I'm trying to create a interactive chart in a embedded in a new leo pane using matplotlib. However, I am not sure about the the best way to implement this. I would appreciate some guidance on this please? The questions I would like answered are:
 
@@ -9098,13 +8954,11 @@ Detail: the above is just using Qt's QObject.findChildren(), the nested_splitter
 
 Here I have created a self.mat in your MatplotPaneProvider class to make the windget accessible but it doesn't feel like the correct way to do this.
 
-@language python
 
     mat = MatplotPaneProvider(c)
     mat.mat.someMethod()
     mat.mat.someOtherMethod()
     
-@language rest
  
 2. I would also like to make the widget accessible from any script within leo. What's the leo way of doing this?
 
@@ -9117,14 +8971,20 @@ See above
 4. Running this script more than once creates multiple items for Add Matplot when pressing the Action button. How do I stop this from happening? I have already tried returning a unique integer in * ns_provider_id *but that did not work.*
  
 The value returned by ns_provider_id should be unique for the provider class, but constant. So it can just return something like "matplotlib provider ver 1"
-</t>
-<t tx="omlalala.20180206205022.139">Find the @file leoApp.py node in leoPy.leo. In the ctor for the LeoApp class set self.use_psyco to True or False. You will find this ctor in the node::
+
+How can I enable and disable support for psyco?
+***********************************************
+
+Find the @file leoApp.py node in leoPy.leo. In the ctor for the LeoApp class set self.use_psyco to True or False. You will find this ctor in the node::
 
     Code--&gt;Core classes...--&gt;@file leoApp.py--&gt;app.__init__
 
 Note that this ivar can not be set using settings in leoSettings.leo because Leo uses g.app.use_psyco before processing configuration settings.
-</t>
-<t tx="omlalala.20180206205022.140">Put the following in the style-sheet:
+
+How can I put background images in the body pane?
+*************************************************
+
+Put the following in the style-sheet:
 
     QTextEdit#richTextEdit { background-image: url('/home/tbrown/Desktop/cow2.jpg'); }
 
@@ -9133,15 +8993,21 @@ If you wanted node specific backgrounds Leo would have to start setting an attri
     QTextEdit#richTextEdit[leo_gnx='tbrown.20130430222443.19340'] { 
         background-image: url('/home/tbrown/Desktop/cow2.jpg'); 
     }
-</t>
-<t tx="omlalala.20180206205022.141">To enable a theme:
+
+How can I use a dark theme in Leo?
+**********************************
+
+To enable a theme:
 
 - *Select* one of the @theme trees in leoSettings.leo.
 - *Copy* the entire @theme tree to myLeoSettings.leo.
 - *Move* the copied tree to the *end* of the @settings tree.
 - *Test* by restarting Leo.
-</t>
-<t tx="omlalala.20180206205022.142">You can 'revert' to old key bindings as follows:
+
+How can I use Leo's legacy key bindings?
+****************************************
+
+You can 'revert' to old key bindings as follows:
 
 1. Open leoSettings.leo.
 
@@ -9156,8 +9022,11 @@ If you wanted node specific backgrounds Leo would have to start setting an attri
    - '@keys Legacy Leo bindings'.
 
 5. Move **one** of these two legacy nodes up one level so that it is a child of the node 'Keyboard shortcuts'. It should **not** be a child of the node '@ignore Unused key bindings'.
-</t>
-<t tx="omlalala.20180206205022.143" str_atime="1376412842.0">c.frame.menu.createMenuItemsFromTable will append items to the end of an existing menu. For example, the following script will add a new item at the end of the 'File' menu::
+
+How do I add a new menu item from a plugin?
+*******************************************
+
+c.frame.menu.createMenuItemsFromTable will append items to the end of an existing menu. For example, the following script will add a new item at the end of the 'File' menu::
 
     def callback(*args,**keys):
         g.trace()
@@ -9176,8 +9045,11 @@ Plugins can do anything with menus using c.frame.menu.getMenu. For example, here
 # 3 is the position in the menu.  Other kinds of indices are possible::
 
     fileMenu.insert(3,'command',label='Test2',command=callback)
-</t>
-<t tx="omlalala.20180206205022.144">You set most colors in the following settings node::
+
+How do I set selection colors?
+******************************
+
+You set most colors in the following settings node::
 
     @data qt-gui-plugin-style-sheet
     
@@ -9200,21 +9072,34 @@ These settings are as follows, with the defaults as shown::
     @color overwrite_mode_fg_color = black
     @color unselected_body_bg_color = #ffffef
     @color unselected_body_fg_color = black
-</t>
-<t tx="omlalala.20180206205022.145">When using the Qt gui, you specify fonts using the node in leoSettings.leo called::
+
+How do I specify qt fonts?
+**************************
+
+When using the Qt gui, you specify fonts using the node in leoSettings.leo called::
 
     @data qt-gui-plugin-style-sheet
 
 As usual, you will probably want to put this node in your myLeoSettings.leo file.
-</t>
-<t tx="omlalala.20180206205022.146" str_atime="1376412828.0">You have two options: 
+
+How do I submit a plugin?
+*************************
+
+You have two options: 
 
 - Get git write access, and add the @file file to the plugins directory.
 
 - Just send the @file file to me at edreamleo@gmail.com.
-</t>
-<t tx="omlalala.20180206205022.147"></t>
-<t tx="omlalala.20180206205022.148">Here are step-by-step instructions for developing code in Leo without having to reload Leo.
+
+Developing Leo's own code
++++++++++++++++++++++++++
+
+
+
+How can I use dev nodes to develop and test Leo's own code?
+***********************************************************
+
+Here are step-by-step instructions for developing code in Leo without having to reload Leo.
 
 1. Create a **dev node** as a test harness.
 
@@ -9263,8 +9148,11 @@ Dev scripts have many advantages.  They can:
 - use outlines to organize the code under development.
 - form a permanent record of completed work.
 - can morph into unit tests.
-</t>
-<t tx="omlalala.20180206205022.149">The name "Stupendous Aha" is a bit ironical.  From one point of view it may seem obvious. Nevertheless, it was a true Aha for me.
+
+What is the Stupendous Aha and why does it matter?
+**************************************************
+
+The name "Stupendous Aha" is a bit ironical.  From one point of view it may seem obvious. Nevertheless, it was a true Aha for me.
 
 Unit tests permanent check of the correctness of a piece of code. Test Driven Development expands this view. But unit tests are much more important.  In fact, unit tests are *general-purpose helper scripts* that can be run at any time.
 
@@ -9277,9 +9165,16 @@ Unit tests permanent check of the correctness of a piece of code. Test Driven De
 In short, unit tests are a *master tool* for any programmer or designer.
 
 Leo's @test nodes are one way to run unit tests.  You can also use @button to encapsulate your tests.  After running an @button script, you can quickly re-run @button scripts with Ctrl-P, repeat-complex-command.
-</t>
-<t tx="omlalala.20180206205022.150"></t>
-<t tx="omlalala.20180206205022.151">Let us think of lessons not as explanations, but as puzzles to be solved by the student. The puzzles themselves need no lengthy explanations. They can even be cryptic. This attitude arises from two principles:
+
+Learning to use Leo
++++++++++++++++++++
+
+
+
+How can I learn Leo, or python, or anything
+*******************************************
+
+Let us think of lessons not as explanations, but as puzzles to be solved by the student. The puzzles themselves need no lengthy explanations. They can even be cryptic. This attitude arises from two principles:
 
 1. The less said, the better.
 2. Invite people to learn for themselves.
@@ -9329,8 +9224,12 @@ There is no other way! How many times have we given up just because things were 
 
 **That which we learn, we learn by doing**
 
-Reading about (and thinking about) are useful, but not good enough. That is why students must have a project that is important to them.  The project will put them into action.</t>
-<t tx="omlalala.20180206205022.152">.. _`This FAQ entry`: FAQ.html#how-can-i-use-leo-to-develop-leo-itself
+Reading about (and thinking about) are useful, but not good enough. That is why students must have a project that is important to them.  The project will put them into action.
+
+How does EKR (Leo's developer) use Leo?
+***************************************
+
+.. _`This FAQ entry`: FAQ.html#how-can-i-use-leo-to-develop-leo-itself
 
 Here is the workflow I use to develop Leo. The intention is to help present and potential developers use Leo effectively.
 
@@ -9383,8 +9282,11 @@ Administrative tips:
 - Never rely on memory. A project like this contains thousands and thousands of details. Everything eventually goes into a Leo node somewhere. If it doesn't it surely *will* be forgotten.
 
 - Do easy items first. This keeps to-do lists short, which keeps energy high.
-</t>
-<t tx="omlalala.20180206205022.153">.. https://groups.google.com/d/msg/leo-editor/4s44H9cUJGY/ewRBDBSw-A8J
+
+How does EKR use clones?
+************************
+
+.. https://groups.google.com/d/msg/leo-editor/4s44H9cUJGY/ewRBDBSw-A8J
 
 For the last several weeks I've used clones in a new, more effective way, inspired by git's stash/unstash commands. Here are the main ideas.
 
@@ -9439,8 +9341,11 @@ This workflow has big advantages:
 2. All recent data is easily available.
 3. Task nodes and stashed-task nodes provide natural places for proto-documentation.
 4. Banning clones from leoProjects.txt forces me to complete the first draft of the documentation before committing the fix.
-</t>
-<t tx="omlalala.20180206205022.154">Some people seem to think that it is difficult to understand how Leo handles "clone wars": differing values for a cloned nodes that appear in several external files. That's not true. The rule is::
+
+How does Leo handle clone conflicts?
+************************************
+
+Some people seem to think that it is difficult to understand how Leo handles "clone wars": differing values for a cloned nodes that appear in several external files. That's not true. The rule is::
 
     **The last clone that Leo reads wins.**
 
@@ -9454,8 +9359,10 @@ Thus, if C appears in x.leo, y.py and z.py, Leo will choose the value for C in x
 
 **Note**: Whenever Leo detects multiple values for C when opening an outline, Leo creates a "Recovered nodes" tree. This tree contains all the various values for C, nicely formatted so that it is easy to determine where the differences are.
 
-</t>
-<t tx="omlalala.20180206205022.155">First, read `Leo's tutorials`_. This will be enough to get you started if you just want to use Leo as an outliner_. If you intend to use Leo for programming, read the `scripting tutorial`_, then look at Leo's source code in the file LeoPy.leo. Spend 5 or 10 minutes browsing through the outline. Don't worry about details; just look for the following common usage patterns:
+What's the best way to learn to use Leo?
+****************************************
+
+First, read `Leo's tutorials`_. This will be enough to get you started if you just want to use Leo as an outliner_. If you intend to use Leo for programming, read the `scripting tutorial`_, then look at Leo's source code in the file LeoPy.leo. Spend 5 or 10 minutes browsing through the outline. Don't worry about details; just look for the following common usage patterns:
 
 - The (Projects) tree shows how to use clones to represent tasks.
 
@@ -9464,8 +9371,11 @@ Thus, if C appears in x.leo, y.py and z.py, Leo will choose the value for C in x
 - Most other files show how to use a single @others directive to define one class.
 
 - Most methods are defined using @others, *not* section definition nodes.
-</t>
-<t tx="omlalala.20180206205022.156">A **dangerous** delete is a deletion of a node so that all the data in the node is deleted *everywhere* in an outline. The data is gone, to be retrieved only via undo or via backups. It may not be obvious which deletes are dangerous in an outline containing clones. Happily, there is a very simple rule of thumb::
+
+When is deleting a node dangerous?
+**********************************
+
+A **dangerous** delete is a deletion of a node so that all the data in the node is deleted *everywhere* in an outline. The data is gone, to be retrieved only via undo or via backups. It may not be obvious which deletes are dangerous in an outline containing clones. Happily, there is a very simple rule of thumb::
 
     Deleting a non-cloned node is *always* dangerous.
     Deleting a cloned node is *never* dangerous.
@@ -9498,8 +9408,11 @@ If (maybe much later), we eliminate B' as a child of A will get::
         - B
 
 B has not been destroyed, but B is gone from @file spam.py! So in this sense deleting a clone node can also be called dangerous.
-</t>
-<t tx="omlalala.20180206205022.157">Use methods for any code that is used (called or referenced) more than once.
+
+When is using a section better than using a method?
+***************************************************
+
+Use methods for any code that is used (called or referenced) more than once.
 
 Sections_ are convenient in the following circumstances:
 
@@ -9517,8 +9430,11 @@ Sections_ are convenient in the following circumstances:
     &lt;&lt; init ivars for writing &gt;&gt;
 
 In short, I create sections when convenient, and convert them to functions or methods if they need to be used in several places.
-</t>
-<t tx="omlalala.20180206205022.158">Q: When can I delete a clone safely?
+
+When may I delete clones safely?
+********************************
+
+Q: When can I delete a clone safely?
 
 A: Any time! The only time you can "lose" data is when you delete a non-cloned node, save your work and exit Leo.
 
@@ -9530,8 +9446,12 @@ Q: Anything else I should be careful about concerning clones?
 
 Not really.  If you move any node out "underneath" an @file (@clean, etc) node, the contents of that node disappears from the external file.
 
-I hope this encourages more people to use clones.  Leo's clone-find commands are something that every Leo programmers should be using every day.</t>
-<t tx="omlalala.20180206205022.159">Cross-file clones are cloned nodes in one outline that refer to data in another outline. This is a frequently requested feature. For example::
+I hope this encourages more people to use clones.  Leo's clone-find commands are something that every Leo programmers should be using every day.
+
+Why doesn't Leo support cross-file clones?
+******************************************
+
+Cross-file clones are cloned nodes in one outline that refer to data in another outline. This is a frequently requested feature. For example::
 
     I would absolutely love to have the leo files in different project
     directories, and a "master" leo file to rule them all.
@@ -9543,13 +9463,26 @@ The problem is fundamental. If the *same* (cloned) data were "owned" by two diff
 To make such a scheme workable and safe, one would have to devise a scheme that would keep the data in "component" .leo files consistent even when the component .leo files changed "randomly", without the "master" .leo file being in *any* way in "control" of the changes. Good luck :-)
 
 Let us be clear: it's no good having a scheme that works *most* of the time, it must work *all* the time, even with unexpected or even pathological file updates. If it doesn't you are asking for, and will eventually get, catastrophic data loss, without being aware of the loss for an arbitrarily long period of time. Even with a source code control system this would be an intolerable situation.
-</t>
-<t tx="omlalala.20180206205022.160">You will lose much of Leo's power if you don't use clones. See `Clones`_ and `Views`_ for full details.
-</t>
-<t tx="omlalala.20180206205022.161"></t>
-<t tx="omlalala.20180206205022.162">Most people will find using @clean trees to be most useful. Use @auto-rst, @auto-vimoutline or @auto-org when using rST, vimoutline or Emacs org mode files.
-</t>
-<t tx="omlalala.20180206205022.163">.. .. http://groups.google.com/group/leo-editor/browse_thread/thread/61019e45d75a6f18/71ee770ee4421222
+
+Why should I use clones?
+************************
+
+You will lose much of Leo's power if you don't use clones. See `Clones`_ and `Views`_ for full details.
+
+Leo in Shared environments
+++++++++++++++++++++++++++
+
+
+
+How can I use Leo cooperatively without sentinels?
+**************************************************
+
+Most people will find using @clean trees to be most useful. Use @auto-rst, @auto-vimoutline or @auto-org when using rST, vimoutline or Emacs org mode files.
+
+What's the recommended way to upgrade Leo?
+******************************************
+
+.. .. http://groups.google.com/group/leo-editor/browse_thread/thread/61019e45d75a6f18/71ee770ee4421222
 
 1. Archive and remove the previous version of Leo.
 2. Download the nightly snapshot zip file.
@@ -9557,24 +9490,46 @@ Let us be clear: it's no good having a scheme that works *most* of the time, it 
 4. Enjoy your up-to-date Leo code...
 
 To make this work, it's important to keep your folder containing Leo separate from your .mySettings.leo and any data files.
-</t>
-<t tx="omlalala.20180206205022.164"></t>
-<t tx="omlalala.20180206205022.165">Leo's repository contains **reference .leo files**. These reference files should contain nothing but @file nodes. Reference files should change only when new external files get added to the project.
 
-Leo's `git repository`_ and Leo distributions contain the following reference files: LeoPyRef.leo, LeoPluginsRef.leo and leoGuiPluginsRef.leo. Developers should use local copies of reference files for their own work. For example, instead of using LeoPyRef.leo directly, I use a copy called LeoPy.leo.</t>
-<t tx="omlalala.20180206205022.166">.. _`reference .leo files`: FAQ.html#what-is-a-reference-leo-file
+Leo and Git
++++++++++++
+
+
+
+What is a reference .leo file?
+******************************
+
+Leo's repository contains **reference .leo files**. These reference files should contain nothing but @file nodes. Reference files should change only when new external files get added to the project.
+
+Leo's `git repository`_ and Leo distributions contain the following reference files: LeoPyRef.leo, LeoPluginsRef.leo and leoGuiPluginsRef.leo. Developers should use local copies of reference files for their own work. For example, instead of using LeoPyRef.leo directly, I use a copy called LeoPy.leo.
+
+How should I use Leo with git, etc.?
+************************************
+
+.. _`reference .leo files`: FAQ.html#what-is-a-reference-leo-file
 
 Use @clean or @auto unless everyone in your work group uses Leo.  In that case, using @file is best.  Use local copies of `reference .leo files`_ instead of the reference files themselves.
-</t>
-<t tx="omlalala.20180206205022.167">Private copies of LeoPyRef.leo, that is, leoPy.leo, are "global".  That is, they persist unchanged when switching branches.  In effect, they act like (sometimes) unwanted caches.
+
+Why do files sometimes change when switching branches?
+******************************************************
+
+Private copies of LeoPyRef.leo, that is, leoPy.leo, are "global".  That is, they persist unchanged when switching branches.  In effect, they act like (sometimes) unwanted caches.
 
 If you change the *structure* of @file nodes in leoPy.leo in one branch, such changes will "propagate" to other branches, even though the contents of each node has remained the same.
 
 You can see such changes clearly using leo --diff.
 
-In short, don't make unnecessary structural changes in leoPy.leo when in branches other than master.</t>
-<t tx="omlalala.20180206205022.168"></t>
-<t tx="omlalala.20180206205022.169">.. From: http://sourceforge.net/forum/message.php?msg_id=3240374
+In short, don't make unnecessary structural changes in leoPy.leo when in branches other than master.
+
+Leo and Excel
++++++++++++++
+
+
+
+How can I show Leo files with Excel?
+************************************
+
+.. From: http://sourceforge.net/forum/message.php?msg_id=3240374
 
 Using Leo's File-Export-Flatten Outline commands creates a MORE style outline which places all Leo body sections on the left margin. The headlines_ are indented with tabs which Excel will read as a tab delimited format. Once inside Excel there are benefits.
 
@@ -9595,9 +9550,16 @@ I think there is some interesting possibility here because of the enforcement of
     =R[-1]C+R[-2]C
 
 In Excel you would see 4500 below those two numbers. This is completely independent of where the block of three cells exists on the sheet.
-</t>
-<t tx="omlalala.20180206205022.170"></t>
-<t tx="omlalala.20180206205022.171">.. _`long discussion`: https://groups.google.com/d/msg/leo-editor/83avo6mgHXY/nIKOpztyAAAJ
+
+Leo and LaTeX
++++++++++++++
+
+
+
+How can I produce PDF output from LaTex input?
+**********************************************
+
+.. _`long discussion`: https://groups.google.com/d/msg/leo-editor/83avo6mgHXY/nIKOpztyAAAJ
 
 From this `long discussion`_ on leo-editor:
 
@@ -9715,8 +9677,11 @@ The compile node has something like this::
             subprocess.call([opener, filename])
     
     open_file('myproject.pdf')
-</t>
-<t tx="omlalala.20180206205022.172">.. _`this posting about BibTeX citations`: http://groups.google.com/group/leo-editor/browse_thread/thread/d36d76174dcd6786/9c2a298049f4f01c
+
+How can I use BibTeX citations from Leo?
+****************************************
+
+.. _`this posting about BibTeX citations`: http://groups.google.com/group/leo-editor/browse_thread/thread/d36d76174dcd6786/9c2a298049f4f01c
 
 .. _`raw-data`: http://docutils.sourceforge.net/docs/ref/rst/directives.html#raw-data-pass-through
 
@@ -9731,9 +9696,16 @@ Use the docutils `raw-data`_ syntax. Examples::
       \bibliography{myBibliography}
       
 For more details, see `this posting about BibTeX citations`_.
-</t>
-<t tx="omlalala.20180206205022.173"></t>
-<t tx="omlalala.20180206205022.174">The code that handles the rclick menu is in the QtIconBarClass class in qt_frame.py.
+
+Scripting &amp; Testing
++++++++++++++++++++
+
+
+
+How can I create buttons with dropdown menus?
+*********************************************
+
+The code that handles the rclick menu is in the QtIconBarClass class in qt_frame.py.
 
 Show that the  top-level button contains structure, do this::
 
@@ -9742,8 +9714,11 @@ Show that the  top-level button contains structure, do this::
 An alternative: ▼ U=25BC: Black Down-Pointing Triangle.
 
 It's reasonable to have the top-level button just be a placeholder for subsidiary @rclick nodes. To do that without getting a warning when clicking the top-level button, set its script to "empty string".
-</t>
-<t tx="omlalala.20180206205022.175">Put @command nodes as children of an @commands node in myLeoSettings.leo. This makes the the @command nodes available to all opened .leo files.
+
+How can I make commonly-used scripts widely accessible?
+*******************************************************
+
+Put @command nodes as children of an @commands node in myLeoSettings.leo. This makes the the @command nodes available to all opened .leo files.
 
 Using @command rather than @button means that there is never any need to disable scripts. There is no need for @button. To see the list of your @command nodes, type::
 
@@ -9752,8 +9727,11 @@ Using @command rather than @button means that there is never any need to disable
 Similarly to see the list of your @command nodes, type::
 
     &lt;alt-x&gt;@b&lt;tab&gt;
-</t>
-<t tx="omlalala.20180206205022.176">Start your file with::
+
+How can I organize large docstrings?
+************************************
+
+Start your file with::
 
     '''
     &lt;&lt; docstring &gt;&gt;
@@ -9769,8 +9747,11 @@ This allows the "interior" of the docstring to be colored using rST (or markdown
 The children of the &lt;&lt; docstring &gt;&gt; node form the actual docstring. No section names are required!
 
 This pattern organizes large docstrings in a Leonine way. The only drawback is that the actual external file contains sentinel lines separating the parts of the docstring. In practice, it's no big deal, especially if each child starts with a blank line.
-</t>
-<t tx="omlalala.20180206205022.177">Leo's pylint command hangs Leo while it is running. The top-level leo-editor folder contains pylint-leo.py and pylint-leo-rc.txt. To run pylint outside of Leo, create a .bat or .sh file to run leo-editor/pylint-leo.py. On Windows, I use this pylint.bat file::
+
+How can I run pylint outside of Leo?
+************************************
+
+Leo's pylint command hangs Leo while it is running. The top-level leo-editor folder contains pylint-leo.py and pylint-leo-rc.txt. To run pylint outside of Leo, create a .bat or .sh file to run leo-editor/pylint-leo.py. On Windows, I use this pylint.bat file::
 
     python2 c:\leo.repo\leo-editor\pylint-leo.py ^
     rc=c:\leo.repo\leo-editor\leo\test\pylint-leo-rc.txt %*
@@ -9793,14 +9774,19 @@ The -h option produces this::
       -v           report pylint version
 
 My typical usage is pylint -a -s
-</t>
-<t tx="omlalala.20180206205022.178">Use .leo files to test settings rather than to contain data. These files would typically contain just an @settings tree, and one or two nodes illustrating their effect. Opening such files limits the effects of experimental/non-standard/risky settings. This is a great tip to know.
+
+How can I test settings easily?
+*******************************
+
+Use .leo files to test settings rather than to contain data. These files would typically contain just an @settings tree, and one or two nodes illustrating their effect. Opening such files limits the effects of experimental/non-standard/risky settings. This is a great tip to know.
 
 For example, the files leo10pt.leo, leo12pt.leo, leo14-12pt.leo and leo14pt.leo in the leo/config folder make it easy to compare different font settings.
 
 As another example, when starting the vim-mode project I created a .leo file containing @bool vim-mode = True. By opening this file I test vim mode without interfering with my normal work flow.
-</t>
-<t tx="omlalala.20180206205022.179">@language rest
+
+How can I use setuptools instead of .bat files?
+***********************************************
+
 
 File under things-I-didn't-know-but-should-have:
 
@@ -9808,7 +9794,6 @@ Instead of creating batch files all over the place to fire up python programs, a
 
 in same folder as foo.py create setup.py, populate like so::
 
-@language python
 
     from setuptools import setup
     
@@ -9822,7 +9807,6 @@ in same folder as foo.py create setup.py, populate like so::
             '''
         )
     
-@language rest
 
 Then run "pip --editable install . " in the same folder. Foo.exe will be created in C:\pythonxx\Scripts. As long as that folder is in path you can use foo like any other command line program. Furthermore the "editable" parameter means we can continue to edit and change foo.py and the changes are always live.
 
@@ -9830,8 +9814,11 @@ Yeah! No more "pushd ..\path\to\data\folder &amp;&amp; python ..\path\to\code\fo
 --do-stuff-here ..." for me. :)
 
 Works for Leo too -- with the existing setup.py. It creates leo.exe and leoc.exe for Windowed mode (no log messages to console) and console mode respectively.
-</t>
-<t tx="omlalala.20180206205022.180">.. in FAQ
+
+How can scripts call functions from Leo's core?
+***********************************************
+
+.. in FAQ
 
 Leo executes scripts with c and g predefined.
 
@@ -9873,8 +9860,12 @@ c is the Commander object for the present outline. Commander objects define **su
     c.rectangleCommands
     c.spellCommands
 
-Scripts can gain access to all of the code in these files via these subcommanders. For example, c.k is an instance of the LeoKeys class in leo/core/leoKeys.py.</t>
-<t tx="omlalala.20180206205022.181">Use @others unless the contents of a node must appear in a certain spot, or in a certain order. For examples, most of Leo's source files start like this::
+Scripts can gain access to all of the code in these files via these subcommanders. For example, c.k is an instance of the LeoKeys class in leo/core/leoKeys.py.
+
+How do I choose between @others and section references?
+*******************************************************
+
+Use @others unless the contents of a node must appear in a certain spot, or in a certain order. For examples, most of Leo's source files start like this::
 
     @first # -*- coding: utf-8 -*-
     &lt;&lt; imports &gt;&gt;
@@ -9888,8 +9879,11 @@ The &lt;&lt; imports &gt;&gt; section reference ensures that imports appear firs
     @others
     
 This ensures that base classes are defined before their subclasses.
-</t>
-<t tx="omlalala.20180206205022.182">Leo makes it easy to create and run unit tests from individual outline nodes or trees. A node whose headline starts with @test defines a unit test. The body text of the @test node contains a **self-contained** unit test. For example, this creates a complete unit test::
+
+How do I run unit tests from Leo?
+*********************************
+
+Leo makes it easy to create and run unit tests from individual outline nodes or trees. A node whose headline starts with @test defines a unit test. The body text of the @test node contains a **self-contained** unit test. For example, this creates a complete unit test::
 
     @test fails  (headline)
     assert False (body text)
@@ -9921,8 +9915,11 @@ Running all tests is not necessary.  Just select::
 and then do Alt-4 (run-selected-unit-tests-locally).
 
 **Note**: Some tests will likely fail on machines other than EKR's. You only need to be concerned about unit tests that start failing after you make your changes.
-</t>
-<t tx="omlalala.20180206205022.183">If I want to use leo to make mathematical notes, how can I type in some special mathematical symbols? Or is there a good way to make mathematical notes using leo?
+
+How to use leo to make mathematical notes?
+******************************************
+
+If I want to use leo to make mathematical notes, how can I type in some special mathematical symbols? Or is there a good way to make mathematical notes using leo?
 
 ===== Terry
 
@@ -9949,8 +9946,11 @@ I forgot to mention that the viewrendered plug-in doesn't display math correctly
 Is not properly Leo, but is python related, tailored for math and with a web interface and has leo bindings, check IPython: http://ipython.org/
 
 I'm using it for all my math related writing and I think that point the future of interactive writing in Python. I dream of a body pane on leo with the features of the python qt console.
-</t>
-<t tx="omlalala.20180206205022.184">Running a unit test locally, without exiting Leo, saves a lots of time.  It's much faster than having to load unitTest.leo or even a small .leo file.
+
+Tip: run unit tests locally using clones
+****************************************
+
+Running a unit test locally, without exiting Leo, saves a lots of time.  It's much faster than having to load unitTest.leo or even a small .leo file.
 
 The question is, how to use the newest code?  imp.reload often doesn't work. But there is a trick that does work.  Clone the code under development and put it under an @test node.  The script in the @test node uses @others to gain access to the code, not an import.
 
@@ -9980,8 +9980,12 @@ For instance, here is the @test node I use to develop the new javascript importe
     c.redraw()
     print('done')
 
-To repeat, the code under test is a child of this node, so the script uses @others to gain access to it.  It's super fast.</t>
-<t tx="omlalala.20180206205022.185">I had a need to figure out why a part of some python code I had written was taking too long. I pulled the code into Leo and the relevant part of the outline looked something like this::
+To repeat, the code under test is a child of this node, so the script uses @others to gain access to it.  It's super fast.
+
+What is an easy way to profile code?
+************************************
+
+I had a need to figure out why a part of some python code I had written was taking too long. I pulled the code into Leo and the relevant part of the outline looked something like this::
 
     + Main module
     -- Generate cryptographic key
@@ -10009,9 +10013,16 @@ And in the body of the "Profiling experiment", I used this code::
 And then I hit Control-B to execute the Profiling Experiment body. This let me make adjustments to the code in the clone body and keep hitting Control-B to execute the code with the timeit module to see immediately if what I had done was making a difference.
 
 The great thing about this was that I just used the Leo @others construct to create a wrapper around the code and did not need to litter my code with debug or profiling statements.---Kayvan
-</t>
-<t tx="omlalala.20180206205022.186"></t>
-<t tx="omlalala.20180206205022.187">**Question**: It would be nice if Leo could open empty files. I tend to be "document oriented" rather than "application oriented" in my thinking and prefer "create empty file at location -&gt; open it with program" to "start program -&gt; create new file -&gt; save it at location".
+
+Tips and techniques
++++++++++++++++++++
+
+
+
+How can I create a template .leo file?
+**************************************
+
+**Question**: It would be nice if Leo could open empty files. I tend to be "document oriented" rather than "application oriented" in my thinking and prefer "create empty file at location -&gt; open it with program" to "start program -&gt; create new file -&gt; save it at location".
 
 **Answer** by Paul Paterson: If you are on Windows 98/2000/XP then the procedure is as follows...
 
@@ -10029,50 +10040,65 @@ The great thing about this was that I just used the Leo @others construct to cre
 12. Exit the registry editor and restart Windows Explorer (you may need to reboot on Windows 98)
 
 Now you should have a New:Leo File option in Explorer. This creates a duplicate of the file you saved. This can be useful because you could make a template Leo file containing some standard nodes_ that you always have and then save this.
-</t>
-<t tx="omlalala.20180206205022.188">Here are some tips:
+
+How can I create and use markdown files?
+****************************************
+
+Here are some tips:
 
 - Use @auto-md to create your file.
 - Optional: change @language md to @language rest.
   At present, syntax coloring for markdown is feeble.
 - Use @button make-md-toc in LeoDocs.leo to generate a table of contents from the selected outline.
-</t>
-<t tx="omlalala.20180206205022.189">The c.cloneFindAllAtNode and c.cloneFindAllFlattenedAtNode methods start the clone-find-all and clone-find-all-flattened commands at a particular node. For example, here is the body of ``@button cfa-code @args add`` in leoPy.leo::
+
+How can I customize the clone-find-all commands?
+************************************************
+
+The c.cloneFindAllAtNode and c.cloneFindAllFlattenedAtNode methods start the clone-find-all and clone-find-all-flattened commands at a particular node. For example, here is the body of ``@button cfa-code @args add`` in leoPy.leo::
 
     c.cloneFindAllFlattenedAtNode('Code',top_level=True)
     
-The ``@args add`` part of the headline causes Leo to add the ``cfa-code`` command to Leo's history list, so there is no urgent need to use a separate key binding for this command.</t>
-<t tx="omlalala.20180206205022.190">One way is to link directly to the media file from a Leo node_ (with @url) and write a script button to wrap all URL-nodes under the current node_ in a single HTML page. Then, you can view your media in two ways:
+The ``@args add`` part of the headline causes Leo to add the ``cfa-code`` command to Leo's history list, so there is no urgent need to use a separate key binding for this command.
+
+How can I display graphics in Leo?
+**********************************
+
+One way is to link directly to the media file from a Leo node_ (with @url) and write a script button to wrap all URL-nodes under the current node_ in a single HTML page. Then, you can view your media in two ways:
 
 - Individually. You can directly click on the @url link to display the media in the browser (assuming you have your MIME/filetype associations set up correctly for your browser).
 
 - In a group. You can click on a script button (you have to code this yourself, very simple) which should collect all @url nodes_ under the current node_ and dynamically generate a HTML page displaying either links to or embedded versions of the media (using the HTML trick described above to invoke the browser). This way, you can create collections of @url nodes under a single node_ (like a bookmark folder), and press a single button to view the @url collection as a single entity in the browser (with all browser capabilities like displaying the media).
 
 You could probably generalize this idea of "collect all @url nodes under current node_ and display as HTML in browser" into a general-purpose plugin. However, the plugin would have to be somewhat smart in mapping a link to its corresponding HTML code (e.g. an image link gets mapped to an &lt;img&gt; HTML tag, a link to a Flash file gets mapped to an &lt;embed&gt; tag, etc).
-</t>
-<t tx="omlalala.20180206205022.191">Clone wars can be most annoying. The solution is simple::
+
+How can I eliminate clone wars?
+*******************************
+
+Clone wars can be most annoying. The solution is simple::
 
     **Keep clones only in the outline and in one other external file**
 
 In particular, catchall files like leo/doc/leoProjects.txt or leo/doc/leoToDo.txt should never contain clones.
-</t>
-<t tx="omlalala.20180206205022.192">The Import Files dialog allows you to select multiple files provided you are running Python 2.3 or above. There is also an importFiles script in LeoPy.leo.  You can use that script as follows::
+
+How can I import many files at once?
+************************************
+
+The Import Files dialog allows you to select multiple files provided you are running Python 2.3 or above. There is also an importFiles script in LeoPy.leo.  You can use that script as follows::
 
     import leo.core.leoImport as leoImport
     leoImport.importFiles(aDirectory, ".py")
 
 This will import all .py files from aDirectory, which should be a full path to a particular directory. You could use ".c" to import all .c files, etc.
-</t>
-<t tx="omlalala.20180206205022.193">Making screencasts is a lot easier than you probably think. Here are some tips to get you started quickly.
 
+How can I make a screencast?
+****************************
 
+Making screencasts is a lot easier than you probably think. Here are some tips to get you started quickly.
 
+Use a script to open your app
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-
-
-
-</t>
-<t tx="omlalala.20180206205022.194">The primary purpose of this script is to open your app at a fixed, unchanging size. This is surprisingly important:
+The primary purpose of this script is to open your app at a fixed, unchanging size. This is surprisingly important:
 
 - It ensures that the window will always render to pixels in the same way.
 - It makes it easier to splice in new video to an existing video.
@@ -10085,8 +10111,11 @@ Here is a script that I use when making Leo's screencasts::
     --window-size=682x1264 &lt;list of .leo files&gt; %*​
     
 This *particular* --window-size causes Camtasia to create a window whose actual size is 720x1280, the nominal 720p resolution. It may prevent text blur. Or not. I do know that Leo's screencasts look great at 720p.
-</t>
-<t tx="omlalala.20180206205022.195">Make sure that you can actually upload *excellent quality* videos before doing anything else. This step is crucial. If you skip this step, all of your initial recording an post-production work could be utterly wasted.
+
+Debug your workflow with short videos
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Make sure that you can actually upload *excellent quality* videos before doing anything else. This step is crucial. If you skip this step, all of your initial recording an post-production work could be utterly wasted.
 
 Use *short* (10-second) test videos at this step. Their primary purpose verify that you can can get to the *end* of the production process successfully. You *are* going to make lots of mistakes here: using short videos helps you make these mistakes quickly.
 
@@ -10103,14 +10132,20 @@ Don't even *think* about making longer videos until the answers to all the follo
 This last item is particularly important. Just because pixels look good in your video editor is no guarantee that they will look good when uploaded.
 
 You are ready to try your first "real" take *only* when you can upload a video that looks and sounds great.
-</t>
-<t tx="omlalala.20180206205022.196">Before rushing right out and making your first video, I recommend watching the tutorial screencasts at screencast.com: http://www.techsmith.com/tutorial-camtasia-8.html
+
+Emulate the screencast.com tutorials
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Before rushing right out and making your first video, I recommend watching the tutorial screencasts at screencast.com: http://www.techsmith.com/tutorial-camtasia-8.html
 
 Watch the tutorials to see how the presentations themselves are organized. Watch them until it feels natural to emulate their style.
 
 If you will be using Camtasia, you will also want to watch the tutorials to learn how Camtasia works.
-</t>
-<t tx="omlalala.20180206205022.197">Now it's time to go beyond test videos. Even now, though, I recommend keeping your first efforts short: one minute or so. Again, this saves time. You'll ending up throwing away two or three anyway ;-)
+
+Record your first real take
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Now it's time to go beyond test videos. Even now, though, I recommend keeping your first efforts short: one minute or so. Again, this saves time. You'll ending up throwing away two or three anyway ;-)
 
 Bring up your app using you demo script and run through your presentation.
 
@@ -10127,16 +10162,22 @@ Similar remarks apply to video, but in my experience it's much easier to get the
 By retaking audio flubs as they happen, I find it easy to work without a script. It feels more natural to me than reading a script. YMMV. When I get stuck, I just pause. Or just start over. Otoh, it wouldn't be that hard to read a script. Just *pause* before and after each phrase. Never rush your audio!
 
 In short, the key Aha is: insert (audio) pauses *everywhere* as needed. It's easy to edit them out. It's virtually impossible to edit in the middle of words, even with the world's best audio editor.
-</t>
-<t tx="omlalala.20180206205022.198">Post production should be easy provided that you have corrected all audio flubs as they happen. This keeps the audio and video in sync. Just edit out flubs and reduce overly-long pauses.
+
+Edit your raw take
+^^^^^^^^^^^^^^^^^^
+
+Post production should be easy provided that you have corrected all audio flubs as they happen. This keeps the audio and video in sync. Just edit out flubs and reduce overly-long pauses.
 
 I won't discuss production details here because they depend on the editor you are using.
 
 Do a new take if you don't have clean audio. Depending on the complexity of your video, it may be possible to splice a partial take in the middle or end of your video. Similarly, it may be possible to splice in a new take to add material you didn't cover in your first take.
 
 One final word of advice. When editing your video, settle for "good enough". Perfectionism is not your friend.
-</t>
-<t tx="omlalala.20180206205022.199">Making a screencast is a lot easier than you think :-)
+
+Summary
+^^^^^^^
+
+Making a screencast is a lot easier than you think :-)
 
 - Create a script that will open your app at a fixed, optimal, size.
 
@@ -10149,25 +10190,33 @@ One final word of advice. When editing your video, settle for "good enough". Per
 - When doing a take, flubs don't matter, *provided* you correct them *during the take*.  Use pauses.  Make haste slowly!
 
 - Splice in new takes during post-production to fix flubs and add new material.
-</t>
-<t tx="omlalala.20180206205022.2"></t>
-<t tx="omlalala.20180206205022.200">Here are some more tips I've learned from experience:
+
+Additional tips
+^^^^^^^^^^^^^^^
+
+Here are some more tips I've learned from experience:
 
 1. Redo audio tests and video tests every time you start a new session. It's amazing how hum can creep into recordings.
 
 2. The most important step in post production is to get the pacing so it feels right. Beware of editing out pauses. Make sure you give your viewers time to see what you are doing, and to see what you have done.
    
 3. Don't waste time on callouts or captions until the audio and video work together at a relaxed pace. It's almost as hard to correct pacing mistakes as it is to correct audio flubs.
-</t>
-<t tx="omlalala.20180206205022.201">1. Enable volume leveling and noise removal in Camtasia. This tip, all by itself, makes a big difference.
+
+Tips for improving audio
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. Enable volume leveling and noise removal in Camtasia. This tip, all by itself, makes a big difference.
 
 2. Use a better microphone, preferably one with about a 1-inch diaphragm. This is the kind of microphone that Andrew Price uses. The Audio-technica AT2020 USB is relatively inexpensive.
   
 3. Use "pop filter" with the microphone. This is a cloth or (better) a metal screen that is placed in front of the microphone. It smooths the sound.
   
 4. Adjust the sound level for maximum volume without distortion: With the microphone about a foot from your mouth, turn the volume as loud as possible, then turn down until no red is visible in the meter.
-</t>
-<t tx="omlalala.20180206205022.202">When organizing data into nodes, **every item should clearly belong to exactly one top-level category**. In other words, avoid top-level *aggregate* categories.
+
+How can I organize data so I can find stuff later?
+**************************************************
+
+When organizing data into nodes, **every item should clearly belong to exactly one top-level category**. In other words, avoid top-level *aggregate* categories.
 
 For example, the following are poor top-level categories. They are poor because any item in them could be placed in a more explicit category:
 
@@ -10183,12 +10232,18 @@ For example, the following are poor top-level categories. They are poor because 
 We all have had bad experiences with the dreaded "Others" category. The Aha! is that all aggregate categories are just as bad as "Others".
 
 **Note**: I have been talking only about top-level categories.  Within a single category aggregate categories may be useful.  However, when possible I prefer to mark items rather than create subcategories. For example, ``*`` now marks all "Important" items in leoToDo.txt and scripts.leo.  This makes it easy to find important items in a particular category.  To find *all* important items one could do a regex search for ``^\*`` in headlines.
-</t>
-<t tx="omlalala.20180206205022.203">It sometimes happens that the focus gets left in a Leo widget that doesn't support Leo's key bindings. You would think that you would have to use the mouse to click in, say, the body pane so that you can use Leo's key bindings again.
+
+How can I restore focus without using the mouse
+***********************************************
+
+It sometimes happens that the focus gets left in a Leo widget that doesn't support Leo's key bindings. You would think that you would have to use the mouse to click in, say, the body pane so that you can use Leo's key bindings again.
 
 But you don't have to do that.  Instead, use Alt-tab once to change away from Leo, and then use Alt-tab again to change back to Leo.  When you do this, Leo puts focus in the body pane and you are all set.
-</t>
-<t tx="omlalala.20180206205022.204">A frequently requested feature is for clones that don't share children. The typical use case is to gather data from one place to be used in another. For instance, we might want to document a function by special-cloning only its node excluding its children. A **gathering script** can provide most of the benefits of detached clone:
+
+How can I simulate more flexible clones?
+****************************************
+
+A frequently requested feature is for clones that don't share children. The typical use case is to gather data from one place to be used in another. For instance, we might want to document a function by special-cloning only its node excluding its children. A **gathering script** can provide most of the benefits of detached clone:
 
 1. The script has complete flexibility to find a desired positions anywhere, including other .leo files.  This moots the need for cross-file clones.
 
@@ -10196,9 +10251,10 @@ But you don't have to do that.  Instead, use Alt-tab once to change away from Le
 
 For example, a documentation script might "scrape" one or more .leo files for data, and then create nodes that reference the scraped data.
 
+How can I specify the root directory of a thumb drive?
+******************************************************
 
-</t>
-<t tx="omlalala.20180206205022.205">Use the %~dp0 syntax.  Example::
+Use the %~dp0 syntax.  Example::
   
   %~dp0\Python27\python.exe %~dp0\Leo-editor\launchLeo.py
 
@@ -10206,10 +10262,16 @@ http://ss64.com/nt/syntax-args.html
 http://stackoverflow.com/questions/5034076/what-does-dp0-mean-and-how-does-it-work
 
 FYI, this FAQ entry fixes the following bug: https://bugs.launchpad.net/leo-editor/+bug/613153 unable to describe root directory on thumb drive
-</t>
-<t tx="omlalala.20180206205022.206">Clones make reorganizing an outline significantly easier and faster.  Simply make top-level clones of the nodes you keep encountering during the reorg. This makes moving a node a snap: just move it from one clone to another.
-</t>
-<t tx="omlalala.20180206205022.207">When I study a program, I like to import it into Leo. I have several scripts that do this: some create @auto nodes; others create @file nodes. Whatever the method used, the import process has the potential to change many files. Usually, I just change @auto and @file to @@auto or @@file, so that any changes I make while studying the code won't affect the originals.
+
+How can I use clones to reorganize an outline?
+**********************************************
+
+Clones make reorganizing an outline significantly easier and faster.  Simply make top-level clones of the nodes you keep encountering during the reorg. This makes moving a node a snap: just move it from one clone to another.
+
+How can I use git to check Leo's importers?
+*******************************************
+
+When I study a program, I like to import it into Leo. I have several scripts that do this: some create @auto nodes; others create @file nodes. Whatever the method used, the import process has the potential to change many files. Usually, I just change @auto and @file to @@auto or @@file, so that any changes I make while studying the code won't affect the originals.
 
 But this "safety first" approach means that I can't actually use Leo to insert tracing statements (or for any other changes.) Happily, there is a way to import "live" code into Leo safely::
 
@@ -10221,8 +10283,11 @@ say, python/Lib/site-packages.
 - git diff ensures that import hasn't significantly altered the code,
 
 This is exactly what I need:  I can make changes to important tools *safely* within Leo.
-</t>
-<t tx="omlalala.20180206205022.208">https://groups.google.com/d/msg/leo-editor/LePOMe_ckeg/_UasKCKP6NMJ
+
+How can I use Leo in virtualenv?
+********************************
+
+https://groups.google.com/d/msg/leo-editor/LePOMe_ckeg/_UasKCKP6NMJ
 
 Some time ago there were a discussion about Leo in virtualenv.
 
@@ -10262,8 +10327,12 @@ py3-pyqt5/bin/pip install Sphinx
 
 In my case:
 
-/leo/py3-pyqt5/bin/python launchLeo.py</t>
-<t tx="omlalala.20180206205022.209">The trick is to create a workflow that separates editing from testing. Putting test code in LeoPy.leo would waste a lot of time. To run tests you would have to exit Leo and reload LeoPy.leo. A much quicker way is to put all test code in a test.leo file. So to change and test code, do the following:
+/leo/py3-pyqt5/bin/python launchLeo.py
+
+How can I use Leo to develop Leo itself?
+****************************************
+
+The trick is to create a workflow that separates editing from testing. Putting test code in LeoPy.leo would waste a lot of time. To run tests you would have to exit Leo and reload LeoPy.leo. A much quicker way is to put all test code in a test.leo file. So to change and test code, do the following:
 
 1. Save LeoPy.leo but do **not** exit Leo.
 
@@ -10284,8 +10353,11 @@ The benefits of the new workflow:
 - LeoPy.leo runs with the *old* code, so it is much easier to fix syntax errors or exceptions in the *new* code: just fix the problem and save LeoPy.leo *without* closing LeoPy.leo, then restart test.leo. You run your tests on the new code, but you edit the new code with the old, stable code.
 
 - test.leo is the perfect place to develop test. I can create and organize those tests and when I am done, ''test.leo'' is a log of my work.
-</t>
-<t tx="omlalala.20180206205022.210">Imo, git rivals python as the greatest productivity tool ever devised for programmers.
+
+How can I use Leo with git?
+***************************
+
+Imo, git rivals python as the greatest productivity tool ever devised for programmers.
 
 My workflow on Ubuntu and Windows is essentially identical. Simple aliases (Ubuntu) and .bat files (Windows) support the following console commands::
 
@@ -10301,8 +10373,11 @@ My workflow on Ubuntu and Windows is essentially identical. Simple aliases (Ubun
 I use gitk on both platforms to review commits.
 
 And that's about it. I use "git help" and "git help command" as needed.
-</t>
-<t tx="omlalala.20180206205022.211">GTD (Getting Things Done) http://www.amazon.com/Getting-Things-Done-Stress-Free-Productivity/dp/0142000280 is, by far, the best productivity book I have ever read. Many aspects of Leo are idea for putting GTD into practice.
+
+How can I use the GTD workflow in Leo?
+**************************************
+
+GTD (Getting Things Done) http://www.amazon.com/Getting-Things-Done-Stress-Free-Productivity/dp/0142000280 is, by far, the best productivity book I have ever read. Many aspects of Leo are idea for putting GTD into practice.
 
 Here is a surprisingly useful workflow tip related to GTD.
 
@@ -10313,12 +10388,18 @@ Ideas often "intrude" when I am busy with something else. When that happens, I c
 Now I can continue what I was doing! This is such a simple idea, but it's really really important: it means I never have to put off getting my ideas into Leo. The "**" draws my attention to the new to-do item. Later, when I am not fully immersed in the previous task, I can put the "**" node somewhere else.
 
 It's super important to deal with new ideas *instantly* but *without* greatly interrupting the task at hand. Creating "**" nodes does that. This new workflow has been a big improvement to my GTD practice.
-</t>
-<t tx="omlalala.20180206205022.212">By Rich Ries. I often rework C code that's already been "Leo-ized"--the first pass was quick and dirty to get it going. When I do subsequent passes, I wind up with subnodes that are out of order with the sequence found in the main node_. It's not a big deal, but I like 'em ordered. With just one editor pane, clicking on the node_ to move would switch focus to that node_. I'd then need to re-focus on the main node_. A minor nuisance, but it does slow you down.
+
+How can I use two copies of Leo to advantage?
+*********************************************
+
+By Rich Ries. I often rework C code that's already been "Leo-ized"--the first pass was quick and dirty to get it going. When I do subsequent passes, I wind up with subnodes that are out of order with the sequence found in the main node_. It's not a big deal, but I like 'em ordered. With just one editor pane, clicking on the node_ to move would switch focus to that node_. I'd then need to re-focus on the main node_. A minor nuisance, but it does slow you down.
 
 My solution is to open a second editor with its focus on the main node_. Switch to the other editor, and, referring to the first editor pane, move the nodes as you like. The second editor's pane will change focus to the node_ you're moving, but the first editor will stay focused on the main node_. It's a lot easier to do than to describe!
-</t>
-<t tx="omlalala.20180206205022.213">Edward Ream::
+
+What are some useful abbreviations?
+***********************************
+
+Edward Ream::
 
     alp;;=@language python\n
     alr;;=@language rest\n@wrap\n
@@ -10337,17 +10418,26 @@ Rob (Largo84)::
     li;;=&lt;li&gt;&lt;|ITEM|&gt;&lt;/li&gt;
     link;;=&lt;a href="&lt;|URL|&gt;" target="_blank"&gt;&lt;|TEXT|&gt;&lt;/a&gt;
     enum;;=\begin{enumerate}\n    \item &lt;|item|&gt;\n\end{enumerate}
-</t>
-<t tx="omlalala.20180206205022.214">clone-find-all-flattened often includes clones of nodes whose location is unclear.  No problem! Just select the mysterious node and do Alt-N (goto-next-clone). Leo will select the next clone of that node, wrapping the search as necessary.  One or two Alt-N takes me to the "real" node, the node having an ancestor @&lt;file&gt; node.
+
+Why is Alt-N (goto-next-clone) important?
+*****************************************
+
+clone-find-all-flattened often includes clones of nodes whose location is unclear.  No problem! Just select the mysterious node and do Alt-N (goto-next-clone). Leo will select the next clone of that node, wrapping the search as necessary.  One or two Alt-N takes me to the "real" node, the node having an ancestor @&lt;file&gt; node.
 
 Ideally, the meaning of all nodes would be clear from their headlines.  I typically use the following conventions. For section definitions, the headline should contain file or class name.  Examples::
 
     &lt;&lt; imports &gt;&gt; (leoCommands.py)
     &lt;&lt; docstring &gt;&gt; (LeoApp)
 
-</t>
-<t tx="omlalala.20180206205022.215" str_atime="1376412985.0"></t>
-<t tx="omlalala.20180206205022.216" str_atime="1376412852.0">For the most part, docutils_ does a good job of reporting errors. docutils_ prints a message to the console and inserts an unmistakable error message in the generated .html file. **Important**: On Windows it is helpful to `run Leo in a console`_.
+Trouble shooting
+++++++++++++++++
+
+
+
+Error messages from the rst3 plugin aren't helpful. What can I do?
+******************************************************************
+
+For the most part, docutils_ does a good job of reporting errors. docutils_ prints a message to the console and inserts an unmistakable error message in the generated .html file. **Important**: On Windows it is helpful to `run Leo in a console`_.
 
 However, in some cases, docutils_ crashes instead of properly reporting the problem. There are several workarounds:
 
@@ -10379,10 +10469,16 @@ However, in some cases, docutils_ crashes instead of properly reporting the prob
 This will cause a traceback whenever docutils_ crashes. I have found that such tracebacks are generally enough to locate the general area of the problem. **Note**: These tracebacks go to the console window, so you should `run Leo in a console`_.
 
 3.  As a last resort, you can isolate syntax errors by reducing your input files until they work again, then adding sections until you get a crash. This is easy enough to do (when using the rst3 plugin) by change a headline 'x' to @rst-ignore-tree x.
-</t>
-<t tx="omlalala.20180206205022.217">Leo (and other programs) often send more detailed error messages to stderr, the output stream that goes to the console window. In Linux and MacOS environments, python programs normally execute with the console window visible. On Windows, can run Leo with the console window visible by associating .leo files with python.exe *not* pythonw.exe.
-</t>
-<t tx="omlalala.20180206205022.218">Just `run Leo in a console`_. At the point you want to drop into the debugger, execute this line::
+
+How can I run Leo from a console window?
+****************************************
+
+Leo (and other programs) often send more detailed error messages to stderr, the output stream that goes to the console window. In Linux and MacOS environments, python programs normally execute with the console window visible. On Windows, can run Leo with the console window visible by associating .leo files with python.exe *not* pythonw.exe.
+
+How can I use Python's pdb debugger with Leo?
+*********************************************
+
+Just `run Leo in a console`_. At the point you want to drop into the debugger, execute this line::
 
     g.pdb()
 
@@ -10399,10 +10495,16 @@ returns the last 5 entries of the call stack. For example::
     g.trace(x,g.callers(5))
 
 Used this way, g.trace shows you patterns that will be invisible using pdb.
-</t>
-<t tx="omlalala.20180206205022.219">All questions are welcome at http://groups.google.com/group/leo-editor
-</t>
-<t tx="omlalala.20180206205022.220">This key is normally bound to delete-comments. It is annoying not to have it work.
+
+How do I get help?
+******************
+
+All questions are welcome at http://groups.google.com/group/leo-editor
+
+How do I make Ctrl-Shift-0 work on Windows 8 or 10?
+***************************************************
+
+This key is normally bound to delete-comments. It is annoying not to have it work.
 
 For Windows 10, do the following (it may be a bit different for Windows 8):
 
@@ -10419,8 +10521,12 @@ For Windows 10, do the following (it may be a bit different for Windows 8):
     Select that item and click the "Change Key Sequence" button.
     This brings up the "Change Key Sequence" panel.
 
-5. Set both radio buttons to "Not Assigned" and click OK.</t>
-<t tx="omlalala.20180206205022.221">Please consider *asking for help* at http://groups.google.com/group/leo-editor before filing bug reports.
+5. Set both radio buttons to "Not Assigned" and click OK.
+
+How do I report bugs?
+*********************
+
+Please consider *asking for help* at http://groups.google.com/group/leo-editor before filing bug reports.
 
 Please report bugs at http://bugs.launchpad.net/leo-editor
 
@@ -10433,8 +10539,11 @@ When reporting a bug, please include *all* of the following:
 - Information sufficient to recreate the problem.
 
 It's polite to make the bug report self contained, so that six weeks later somebody will be able to understand the report as it stands.
-</t>
-<t tx="omlalala.20180206205022.222">Installing PyQt on MacOS using::
+
+I am having trouble installing Leo on MacOS. What should I do?
+**************************************************************
+
+Installing PyQt on MacOS using::
 
     brew install qt sip pyqt
     
@@ -10456,8 +10565,12 @@ For anyone with similar problem the homebrew instruction for adding PyQT to the 
     
     export PATH="/usr/local/lib/python2.7/site-packages:${PATH}"
     
-After this leo editor will open with using the default python installation provided by MacOS.</t>
-<t tx="omlalala.20180206205022.223">Question and answer from plumloco.
+After this leo editor will open with using the default python installation provided by MacOS.
+
+I can't run the LeoBridge module outside of leo/core.  What should I do?
+************************************************************************
+
+Question and answer from plumloco.
 
 Add the equivalent of::
 
@@ -10483,10 +10596,16 @@ Afraid so, at least the rst3 plugin. The solution I am using now is to place::
 in leoBridge after import leo.core.leoGlobals as leoGlobals
 
 This allows my scripts to be portable over the several computers/platforms I need to use them on, and makes testing scripts against multiple leo versions easy. It does mean that my scripts are not portable to other leo users but that is not likely to be a problem.
-</t>
-<t tx="omlalala.20180206205022.224">The import commands insert @ignore directives_ in the top-level node_. Leo does this so that you won't accidentally overwrite your files after importing them. Change the filename following @file (or @file) as desired, then remove the @ignore directive_. Saving the outline will then create the external file.
-</t>
-<t tx="omlalala.20180206205022.225">In version 4.5, Leo changed to using a sax parser for .leo files. This can cause problems if your .leo file contains invalid characters. Bugs in previous versions of Leo permitted these bad characters to appear.
+
+I can't write Imported files.  What's going on?
+***********************************************
+
+The import commands insert @ignore directives_ in the top-level node_. Leo does this so that you won't accidentally overwrite your files after importing them. Change the filename following @file (or @file) as desired, then remove the @ignore directive_. Saving the outline will then create the external file.
+
+My old .leo files won't load using Leo 4.5 or later. What should I do?
+**********************************************************************
+
+In version 4.5, Leo changed to using a sax parser for .leo files. This can cause problems if your .leo file contains invalid characters. Bugs in previous versions of Leo permitted these bad characters to appear.
 
 The sax parser complains that these characters are not valid in .xml files. Remove these invalid characters as follows:
 
@@ -10499,17 +10618,29 @@ This line reports a bad character at character 25 of line 123.
 2. Open the .leo file in an external editor. The Scite editor, http://www.scintilla.org/SciTE.html, is a good choice because it clearly shows non-printing characters. Remove the invalid character, save the .leo file.
 
 Repeat steps 1 and 2 until all invalid characters are gone.
-</t>
-<t tx="omlalala.20180206205022.226">Missing modules can cause installation problems. If the installer doesn't work (or puts up a dialog containing no text), you may install Leo from the .zip file as described at `How to install Leo on Windows`_. However you are installing Leo, be sure to `run Leo in a console`_. because as a last resort Leo prints error messages to the console.
-</t>
-<t tx="omlalala.20180206205022.227">Leo's setup.py script is intended only to create source distributions. It can't be used to install Leo because Leo is not a Python package.
-</t>
-<t tx="omlalala.20180206205022.228">This syntax file hack works well enough to work with Leo '@' markup::
+
+Nothing (or almost nothing) happens when I start Leo.  What should I do?
+************************************************************************
+
+Missing modules can cause installation problems. If the installer doesn't work (or puts up a dialog containing no text), you may install Leo from the .zip file as described at `How to install Leo on Windows`_. However you are installing Leo, be sure to `run Leo in a console`_. because as a last resort Leo prints error messages to the console.
+
+Running Python setup.py install from the leo directory doesn't work.  Why not?
+******************************************************************************
+
+Leo's setup.py script is intended only to create source distributions. It can't be used to install Leo because Leo is not a Python package.
+
+The new Python decorator syntax causes problems.  What can I do?
+****************************************************************
+
+This syntax file hack works well enough to work with Leo '@' markup::
 
     syn region leoComment start="^@\\s*" end="^@c\\s*$"
     syn match   pythonDecorator	"@\\S\\S+" display nextgroup=pythonFunction skipwhite
-</t>
-<t tx="omlalala.20180206205022.229">Leo recognizes section references *everywhere*, even inside strings or comments. If a source code line contains &lt;&lt; followed by &gt;&gt; on the same line, you must rewrite the line.  For example, suppose your C code contains::
+
+What about code that looks like a section reference?
+****************************************************
+
+Leo recognizes section references *everywhere*, even inside strings or comments. If a source code line contains &lt;&lt; followed by &gt;&gt; on the same line, you must rewrite the line.  For example, suppose your C code contains::
 
     a = 1 &lt;&lt; 5 + 2 &gt;&gt; 3;
     
@@ -10526,12 +10657,17 @@ For instance::
 sets headline to::
 
     &lt;&lt;abc&gt;&gt;
-</t>
-<t tx="omlalala.20180206205022.230">The update algorithm guarantees *only* that writing an updated @clean outline will generate the updated **public** file.  **Ambiguous lines** could be placed either at the end of one node or the beginning of the following nodes. The update algorithm *guesses* that such lines should be placed at the end of the previous node.
+
+Why didn't Leo update my @clean outline as expected?
+****************************************************
+
+The update algorithm guarantees *only* that writing an updated @clean outline will generate the updated **public** file.  **Ambiguous lines** could be placed either at the end of one node or the beginning of the following nodes. The update algorithm *guesses* that such lines should be placed at the end of the previous node.
 
 Happily, guesses are not serious. Once you move an ambiguous node and save the Leo file, the update algorithm will not have to guess where the line belongs the next time Leo reads the @clean files.
-</t>
-<t tx="omlalala.20180206205022.231">@pagewidth 75
+
+Why do Qt windows disappear in my scripts?
+******************************************
+
 
 Q. When I run the following script I see a window appear and then immediately disappear::
 
@@ -10551,11 +10687,21 @@ A. When the script exits the sole reference to the window, w, ceases to exist, s
 This reference will persist until the next time you run the execute-script. If you want something even more permanent, you can do something like::
 
     g.app.my_script_w = w
-</t>
-<t tx="omlalala.20180206205022.232"></t>
-<t tx="omlalala.20180206205022.233">Set @bool ignore_unbound_non_ascii_keys = False in LeoSettings.leo or myLeoSettings.leo.
-</t>
-<t tx="omlalala.20180206205022.234">Internally, Leo represents all strings as unicode. Leo translates from a particular encoding to Unicode_ when reading .leo files or external files. Leo translates from Unicode_ to a particular encoding when writing external files. You may see strange looking characters if your text editor is expecting a different encoding. The encoding used in any external file is shown in the #@+leo sentinel line like this::
+
+Unicode issues
+++++++++++++++
+
+
+
+I can not enter non-ascii characters.  What can I do?
+*****************************************************
+
+Set @bool ignore_unbound_non_ascii_keys = False in LeoSettings.leo or myLeoSettings.leo.
+
+Some characters in external files look funny. What can I do?
+************************************************************
+
+Internally, Leo represents all strings as unicode. Leo translates from a particular encoding to Unicode_ when reading .leo files or external files. Leo translates from Unicode_ to a particular encoding when writing external files. You may see strange looking characters if your text editor is expecting a different encoding. The encoding used in any external file is shown in the #@+leo sentinel line like this::
 
     #@+leo-encoding=iso-8859-1.
 
@@ -10572,8 +10718,11 @@ new_leo_file_encoding
         &lt;?xml version="1.0" encoding="UTF-8"&gt;
 
     The default is UTF-8 (upper case for compatibility for old versions of Leo).
-</t>
-<t tx="omlalala.20180206205022.235">Add the following as the *very first line* of your scripts::
+
+I get weird results when defining unicode strings in scripts.  What is going on?
+********************************************************************************
+
+Add the following as the *very first line* of your scripts::
 
     @first # -*- coding: utf-8 -*-
 
@@ -10591,10 +10740,16 @@ which is certainly *not* what the script writer intended! Rather than defining s
 
     u = u'a-\\u0233-\\u8ce2-z'
     u = 'a-\\u0233-\\u8ce2-z'
-</t>
-<t tx="omlalala.20180206205022.236">The encoding used in the file being imported doesn't match the encoding in effect for Leo. Use the @encoding directive_ in an ancestor of the node_ selected when doing the Import command_ to specify the encoding of file to be imported.
-</t>
-<t tx="omlalala.20180206205022.237">First, you must change Python's default encoding to something other than 'ascii'.  To do this, put the following in your sitecustomize.py file in Python's Lib folder::
+
+Some characters are garbled when importing files. What can I do?
+****************************************************************
+
+The encoding used in the file being imported doesn't match the encoding in effect for Leo. Use the @encoding directive_ in an ancestor of the node_ selected when doing the Import command_ to specify the encoding of file to be imported.
+
+Python's print statement shows 'byte hash' for unicode characters.  What can I do?
+**********************************************************************************
+
+First, you must change Python's default encoding to something other than 'ascii'.  To do this, put the following in your sitecustomize.py file in Python's Lib folder::
 
     import sys 
     sys.setdefaultencoding('utf-8') # 'iso-8859-1' is another choice.
@@ -10624,15 +10779,28 @@ Leo's g.es_print and g.pr functions attempts to convert incoming arguments to un
         print 'repr(s)   ',repr(s)
 
 For still more details, see: http://www.diveintopython.org/xml_processing/unicode.html
-</t>
-<t tx="omlalala.20180206205022.238"></t>
-<t tx="omlalala.20180206205022.239">.. _`Mulder/Ream update algorithm`: appendices.html#the-mulder-ream-update-algorithm
+
+Using external files
+++++++++++++++++++++
+
+
+
+How do I inhibit sentinels in external files?
+*********************************************
+
+.. _`Mulder/Ream update algorithm`: appendices.html#the-mulder-ream-update-algorithm
 
 Use @clean trees. Files derived from @clean trees contain no sentinels_. However, Leo can update @clean trees from changes made to the corresponding external file.  The `Mulder/Ream update algorithm`_ makes this magic happen.
-</t>
-<t tx="omlalala.20180206205022.240">Use @asis trees. Files derived from @asis trees contain no sentinels. Leo creates the external file simply by writing all body text in outline order. Leo can't update the outline unless the external file contains sentinels, so Leo does not update @asis trees automatically when you change the external file in an external editor.
-</t>
-<t tx="omlalala.20180206205022.241">**Question**: I'm writing a Windows Script Component, which is an XML file with a CData section containing javascript. I can get the XML as I want it by using @language html, but how can I get the tangling comments inside the CData section to be java-style comments rather than html ones?
+
+How do I prevent Leo from expanding sections?
+*********************************************
+
+Use @asis trees. Files derived from @asis trees contain no sentinels. Leo creates the external file simply by writing all body text in outline order. Leo can't update the outline unless the external file contains sentinels, so Leo does not update @asis trees automatically when you change the external file in an external editor.
+
+How can I create Javascript comments?
+*************************************
+
+**Question**: I'm writing a Windows Script Component, which is an XML file with a CData section containing javascript. I can get the XML as I want it by using @language html, but how can I get the tangling comments inside the CData section to be java-style comments rather than html ones?
 
 **Answer**: In @file trees you use the @delims directive to change comment delimiters. For example::
 
@@ -10642,8 +10810,11 @@ Use @clean trees. Files derived from @clean trees contain no sentinels_. However
     HTML stuff
 
 **Important**: Leo can not revert to previous delimiters automatically; you must change back to previous delimiters using another @delims directive_.
-</t>
-<t tx="omlalala.20180206205022.242">By Zvi Boshernitzan: I was having trouble disabling '&lt;?php' with comments (and couldn't override the comment character for the start of the page). Finally, I found a solution that worked, using php's heredoc string syntax::
+
+How can I disable PHP comments?
+*******************************
+
+By Zvi Boshernitzan: I was having trouble disabling '&lt;?php' with comments (and couldn't override the comment character for the start of the page). Finally, I found a solution that worked, using php's heredoc string syntax::
 
     @first &lt;?php
     @first $comment = &lt;&lt;&lt;EOD
@@ -10666,8 +10837,11 @@ or::
 
     @delims /* */
     @last ?&gt;
-</t>
-<t tx="omlalala.20180206205022.243">Here is a posting which might be helpful: http://sourceforge.net/forum/message.php?msg_id=2300457 The @first directive_ is the key to output usable code in unsupported languages. For example, to use Leo with the Basic language, use the following::
+
+How can I use Leo with unsupported languages?
+*********************************************
+
+Here is a posting which might be helpful: http://sourceforge.net/forum/message.php?msg_id=2300457 The @first directive_ is the key to output usable code in unsupported languages. For example, to use Leo with the Basic language, use the following::
 
     @first $IFDEF LEOHEADER
     @delims '
@@ -10686,8 +10860,11 @@ So this would enable a basic compiler to "jump" over the "true" Leo-header-lines
     &lt;rest of derived code file ... &gt;
 
 This changes the comment symbol the apostrophe, making comments parseable by a BASIC (or other language.)
-</t>
-<t tx="omlalala.20180206205022.244">Use the @first directive_ in @file or @clean trees. The @first directive puts lines at the very start of files derived from @file. For example, the body text of @file spam.py might be::
+
+How do I make external files start with a shebang line?
+*******************************************************
+
+Use the @first directive_ in @file or @clean trees. The @first directive puts lines at the very start of files derived from @file. For example, the body text of @file spam.py might be::
 
     @first #! /usr/bin/env python
 
@@ -10699,16 +10876,22 @@ The body text of @file foo.pl might be::
 
     @first #! /usr/bin/env python
     @first # more comments.
-</t>
-<t tx="omlalala.20180206205022.245">No. Everything in an @file trees must be part of the external file: orphan and @ignore nodes are invalid in @file trees. This restriction should not be troublesome. For example, you can organize your outline like this::
+
+Can @file trees contain material not in the external file?
+**********************************************************
+
+No. Everything in an @file trees must be part of the external file: orphan and @ignore nodes are invalid in @file trees. This restriction should not be troublesome. For example, you can organize your outline like this::
 
     + myClass
     ..+ ignored stuff
     ..+ @file myClass
 
 (As usual, + denotes a headline.) So you simply create a new node_, called myClass, that holds your @file trees and stuff you don't want in the @file trees.
-</t>
-<t tx="omlalala.20180206205022.246">By Rich Ries. Some older C compilers don't understand the "//" comment symbol, so using @language C won't work. Moreover, the following does not always work either::
+
+How can I use Leo with older C compilers
+****************************************
+
+By Rich Ries. Some older C compilers don't understand the "//" comment symbol, so using @language C won't work. Moreover, the following does not always work either::
 
     @comment /* */
 
@@ -10723,8 +10906,10 @@ in the output file, and not all C compilers allow nested comments, so the last \
     #endif
 
 Leo is happy: it recognizes the @comment directive_. The C compiler is happy: the C preprocessor strips out the offending line before the C compiler gets it.
-</t>
-<t tx="omlalala.20180206205022.247">@ignore can only be used in the root node of @file trees.  It tells Leo to ignore the tree.
+
+Why can't I use @ignore directives in @file trees?
+**************************************************
+
 
 The @ignore directive can not be used elsewhere in @file trees because of the way Leo recreates outlines from external files. This is an absolutely crucial restriction and will never go away. For a few more details, see `Leo 4.0: Eliminating error 'recovery'`_ in `History of Leo`_.
 
@@ -10733,11 +10918,54 @@ There are several workaround, as shown in LeoPy.leo:
 - keep notes in the outline outside of any external file.
 
 - Use @all to gather notes in a external file, as in done in @file leoProjects.txt.
-</t>
-<t tx="omlalala.20180206205022.248">**Question**: I must follow a coding standard when writing source code. It includes a maximum line length restriction. How can I know the length of a line when it gets written to the external file?
+
+How can I avoid getting long lines in external files?
+*****************************************************
+
+**Question**: I must follow a coding standard when writing source code. It includes a maximum line length restriction. How can I know the length of a line when it gets written to the external file?
 
 **Answer**: If a node belongs to a external file hierarchy, its body might get indented when it is written to the external file. It happens when an @others directive or a section name appears indented in a higher-level node body. While (**line**, **col**) in status area show the line and column containing the body text's cursor, **fcol** shows the cursor coordinate relative to the external file, not to the current node. The relation **fcol &gt;= col** is always true.
+
 </t>
+<t tx="omlalala.20180206205022.13">@ @rst-options
+call_docutils=False
+stylesheet_path=..\doc
+write_intermediate_file = True
+@c
+
+######
+Slides
+######
+
+This is the front page for various slide shows about Leo.
+
+.. links
+.. _`Clones and views`:         slides/clones-and-views/slide-001.html
+.. _`External files`:           slides/external-files/slide-005.html
+.. _`Installation`:             slides/installation/slide-001.html
+.. _`Leo Basics Step By Step`:  slides/leo-basics-step-by-step/slide-001.html
+.. _`Scripting Leo`:            slides/scripting-leo/slide-001.html
+.. _`Using Leo's Minibuffer`:   slides/using-leos-minibuffer/slide-001.html
+
+Basic slide shows
+-----------------
+
+`Installation`_  tells how to install Leo.
+
+`Leo Basics Step By Step`_  explains the basics of Leo outlines.
+
+`External Files`_ discusses creating external files with @file, @clean and @edit.
+
+`Clones and views`_ illustrates how clones work and show how they create views.
+
+`Using Leo's Minibuffer`_ tells how to execute Leo's commands by name.
+
+Intermediate slide shows
+------------------------
+
+`Scripting Leo`_ explains how to use Python scripting in Leo.
+</t>
+<t tx="omlalala.20180206205022.2"></t>
 <t tx="omlalala.20180206205022.249"></t>
 <t tx="omlalala.20180206205022.250">.. |---| unicode:: U+02015 .. for quotes
    :trim:
