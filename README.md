@@ -10,11 +10,26 @@
 
 欢迎来到: 释狮大会.
 
-## 三狮圣殿
-茫茫库海, 有缘于此.
+## 翻译进展
+目前参与翻译的贡献者为
+- @zoomquiet
+- @livingworld
+- @OMlalala
 
-这是哪, 你是谁, 啥玩法.
+各贡献者认领翻译章节及明细, 请见 [翻译进展](https://github.com/DebugUself/leo-editor-cn/wiki/translate-log)
 
-更多疑问, 前往大会入口.
-
-这边请: [三狮圣殿](https://github.com/DebugUself/leo-editor-cn/wiki/Home).
+## 文件说明
+```
+./
+README
+├── .github      
+├── _static
+├── docs         生成网页的中间文件
+├── html         生成网页的最终文件
+LeoDocs.leo      翻译 主文档
+LeoDocs_ZQ.leo   @zoomquiet 翻译文档
+LeoDocs_lw.leo   @livingworld 翻译文档
+LeoDocs_OM.leo   @OMlalala 翻译文档
+OBP.leo          翻译 协同文档, 含 翻译进展/译文词典 等
+index.html       主页
+```
