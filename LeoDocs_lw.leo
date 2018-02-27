@@ -364,11 +364,14 @@
 </v>
 </v>
 <v t="ekr.20100805171546.4412"><vh>Web pages</vh>
-<v t="ekr.20131005214621.16088"><vh>(OM:0%)Home page</vh>
-<v t="omlalala.20180206203511.1"><vh>@file index.html</vh></v>
+<v t="ekr.20101112045055.5065"><vh>@url docs generated from plugin_catalog.py</vh></v>
+<v t="ekr.20131005214621.16088"><vh>Home page</vh>
+<v t="omlalala.20180206203511.1"
+expanded="omlalala.20180206203511.6,omlalala.20180206203511.12,"><vh>@file index.html</vh></v>
 </v>
+<v t="ekr.20101115152915.4937"><vh>wikipedia entry</vh></v>
 </v>
-<v t="omlalala.20180206205022.1"><vh>翻译进展</vh>
+<v t="omlalala.20180206205022.1"><vh>Leo 文档</vh>
 <v t="omlalala.20180206205022.2"><vh>Table of contents</vh>
 <v t="omlalala.20180206205022.3"><vh>@rst docs\leo_toc.html</vh></v>
 </v>
@@ -396,8 +399,8 @@
 </v>
 <v t="omlalala.20180206205022.67"><vh>Preliminaries</vh>
 <v t="omlalala.20180206205022.68"><vh>@rst docs/preliminaries.html</vh></v>
-<v t="omlalala.20180206205022.69"><vh>(LW:0%)@rst docs/preface.html</vh></v>
-<v t="omlalala.20180206205022.70"><vh>(LW:0%)@rst docs/testimonials.html</vh>
+<v t="omlalala.20180206205022.69"><vh>@rst docs/preface.html</vh></v>
+<v t="omlalala.20180206205022.70"><vh>@rst docs/testimonials.html</vh>
 <v t="omlalala.20180206205022.71"><vh>Leo is revolutionary</vh></v>
 <v t="omlalala.20180206205022.72"><vh>Leo is a showcase Python application</vh></v>
 <v t="omlalala.20180206205022.73"><vh>Leo is fun, even addicting</vh></v>
@@ -429,40 +432,40 @@
 <v t="omlalala.20180206205022.96"><vh>@rst docs/acknowledgements.html</vh></v>
 <v t="omlalala.20180206205022.97"><vh>@rst docs/license.html</vh></v>
 </v>
-<v t="omlalala.20180206205022.98"><vh>(lw:100%)Installing &amp; running Leo</vh>
-<v t="omlalala.20180206205022.99"><vh>@rst docs/getting-started.html</vh></v>
-<v t="omlalala.20180206205022.100"><vh>@rst docs/download.html</vh>
-<v t="omlalala.20180206205022.101"><vh>Snapshots</vh></v>
+<v t="livingworld.20180227131055.1"><vh>Installing &amp; running Leo</vh>
+<v t="livingworld.20180227131055.2"><vh>@rst docs/getting-started.html</vh></v>
+<v t="livingworld.20180227131055.3"><vh>@rst docs/download.html</vh>
+<v t="livingworld.20180227131055.4"><vh>Snapshots</vh></v>
 </v>
-<v t="omlalala.20180206205022.102"><vh>@rst docs/installing.html</vh>
-<v t="omlalala.20180206205022.103"><vh>Dependencies</vh></v>
-<v t="omlalala.20180206205022.104"><vh>Installing Leo with pip</vh></v>
-<v t="omlalala.20180206205022.105"><vh>Installing packages</vh></v>
-<v t="omlalala.20180206205022.106"><vh>Installing Leo itself</vh>
-<v t="omlalala.20180206205022.107"><vh>Installing Leo on Windows</vh>
-<v t="omlalala.20180206205022.108"><vh>Using the single-click installer</vh></v>
-<v t="omlalala.20180206205022.109"><vh>Installing from sources (Windows)</vh></v>
-<v t="omlalala.20180206205022.110"><vh>Creating Windows file associations</vh></v>
+<v t="livingworld.20180227131055.5"><vh>@rst docs/installing.html</vh>
+<v t="livingworld.20180227131055.6"><vh>Dependencies</vh></v>
+<v t="livingworld.20180227131055.7"><vh>Installing Leo with pip</vh></v>
+<v t="livingworld.20180227131055.8"><vh>Installing packages</vh></v>
+<v t="livingworld.20180227131055.9"><vh>Installing Leo itself</vh>
+<v t="livingworld.20180227131055.10"><vh>Installing Leo on Windows</vh>
+<v t="livingworld.20180227131055.11"><vh>Using the single-click installer</vh></v>
+<v t="livingworld.20180227131055.12"><vh>Installing from sources (Windows)</vh></v>
+<v t="livingworld.20180227131055.13"><vh>Creating Windows file associations</vh></v>
 </v>
-<v t="omlalala.20180206205022.111"><vh>Installing Leo with git</vh></v>
-<v t="omlalala.20180206205022.112"><vh>Installing Leo on Linux</vh>
-<v t="omlalala.20180206205022.113"><vh>Installing from a debian package</vh></v>
-<v t="omlalala.20180206205022.114"><vh>Installing from sources (Linux)</vh></v>
+<v t="livingworld.20180227131055.14"><vh>Installing Leo with git</vh></v>
+<v t="livingworld.20180227131055.15"><vh>Installing Leo on Linux</vh>
+<v t="livingworld.20180227131055.16"><vh>Installing from a debian package</vh></v>
+<v t="livingworld.20180227131055.17"><vh>Installing from sources (Linux)</vh></v>
 </v>
-<v t="omlalala.20180206205022.115"><vh>Installing Leo on MacOs 10.7 (Lion) and later</vh></v>
+<v t="livingworld.20180227131055.18"><vh>Installing Leo on MacOs 10.7 (Lion) and later</vh></v>
 </v>
-<v t="omlalala.20180206205022.116"><vh>Installing everything with Anaconda or Miniconda</vh></v>
+<v t="livingworld.20180227131055.19"><vh>Installing everything with Anaconda or Miniconda</vh></v>
 </v>
-<v t="omlalala.20180206205022.117"><vh>@rst docs/running.html</vh>
-<v t="omlalala.20180206205022.118"><vh>Running Leo</vh>
-<v t="omlalala.20180206205022.119"><vh>Running Leo the first time</vh></v>
-<v t="omlalala.20180206205022.120"><vh>Running Leo in batch mode</vh></v>
-<v t="omlalala.20180206205022.121"><vh>Running Leo from a console window</vh></v>
-<v t="omlalala.20180206205022.122"><vh>The .leo directory</vh></v>
+<v t="livingworld.20180227131055.20"><vh>@rst docs/running.html</vh>
+<v t="livingworld.20180227131055.21"><vh>Running Leo</vh>
+<v t="livingworld.20180227131055.22"><vh>Running Leo the first time</vh></v>
+<v t="livingworld.20180227131055.23"><vh>Running Leo in batch mode</vh></v>
+<v t="livingworld.20180227131055.24"><vh>Running Leo from a console window</vh></v>
+<v t="livingworld.20180227131055.25"><vh>The .leo directory</vh></v>
 </v>
-<v t="omlalala.20180206205022.123"><vh>Leo's command-line options</vh></v>
-<v t="omlalala.20180206205022.124"><vh>Leo's workbook file</vh></v>
-<v t="omlalala.20180206205022.125"><vh>Using sessions</vh></v>
+<v t="livingworld.20180227131055.26"><vh>Leo's command-line options</vh></v>
+<v t="livingworld.20180227131055.27"><vh>Leo's workbook file</vh></v>
+<v t="livingworld.20180227131055.28"><vh>Using sessions</vh></v>
 </v>
 </v>
 <v t="omlalala.20180206205022.126"><vh>FAQ</vh>
@@ -1745,13 +1748,6 @@
 </v>
 </v>
 </v>
-<v t="omlalala.20180223235313.1"><vh>译文词典</vh>
-<v t="omlalala.20180223235503.1"><vh>ABCDE</vh></v>
-<v t="omlalala.20180223235519.1"><vh>FGHIJ</vh></v>
-<v t="omlalala.20180223235530.1"><vh>KLMNO</vh></v>
-<v t="omlalala.20180223235538.1"><vh>PQRST</vh></v>
-<v t="omlalala.20180223235620.1"><vh>UVWXYZ</vh></v>
-</v>
 </vnodes>
 <tnodes>
 <t tx="ekr.20031218072017.1416">def __init__(self):
@@ -2280,9 +2276,16 @@ Removes @ignore, @nocolor, @wrap directives.
 </t>
 <t tx="ekr.20050812123002.7">Used differently.  See rst2_pure_document.
 </t>
-<t tx="ekr.20050831195449">文档各章节认领翻译明细及进度, 请见节点: 翻译进展
+<t tx="ekr.20050831195449">Leo 如何安装从此看:
+http://leoeditor.com/installing.html
 
-关键词翻译对照表, 请见节点: 译文词典</t>
+有关 Leo 任何人都推荐先从此看:
+For everything a beginner needs to know about Leo see:
+http://leoeditor.com/tutorial.html
+
+任何疑问到这来交流:
+http://groups.google.com/group/leo-editor
+</t>
 <t tx="ekr.20051202072010"></t>
 <t tx="ekr.20060211140947.1">try:
     theId = os.getenv('USER')
@@ -2573,6 +2576,7 @@ controller(c).run()
             break
     return ''.join(result)
 </t>
+<t tx="ekr.20101112045055.5065" str_atime="1376412774.0">http://www.greygreen.org/tmp/plugins.html</t>
 <t tx="ekr.20101112222250.5322">def allowFile (self,p):
 
     '''Return True if we should allow scan of a file at p.'''
@@ -2595,6 +2599,97 @@ controller(c).run()
         r'@file trees\test.py',
     )
     return p.h not in aList and p.isAnyAtFileNode() and p.h.endswith('.py')
+</t>
+<t tx="ekr.20101115152915.4937">@nocolor-node
+
+{{Infobox software
+| name = Leo: Leonine Editor with Outlines
+| screenshot = [http://sourceforge.net/project/screenshots.php?group_id=3458&amp;ssid=22298 Screenshots]
+| caption =
+| developer = Edward K. Ream
+| latest_release_version = 5.6b1
+| latest_release_date = {{release date and age|2017|09|11}}
+| operating_system = [[Cross-platform]]
+| genre = [[Text editor]], [[Outliner]], [[Integrated development environment|IDE]]
+| license = [[Python (programming language)|Python]] License
+| website = http://leoeditor.com
+}}
+
+'''Leo''' ('''L'''eonine '''E'''ditor with '''O'''utlines) is a [[text editor]]
+that features [[outliner|outlines]] with clones as its central tool of
+organization, navigation, customization and scripting.
+
+==Language==
+
+Leo is written in [[Python (programming language)|Python]] and uses the [[Qt
+(toolkit)|Qt]]. It is fully scriptable using Python and can be extended with
+plugins. In Leo, outlines are hierarchical data structures that people use to
+work with and manage text files—including code.
+
+==Trees, clones and views==
+
+Leo is an [[outliner]]. Leo's outline pane shows a [[tree (data structure)]] of data nodes.
+Nodes contain headlines, body text, and other information.
+Headlines naturally serve as descriptions of the body text.
+For example, @file nodes are nodes whose headline starts with @file.
+
+Leo trees are in fact [[directed acyclic graph|directed acyclic graphs]];
+nodes may have more than one parent.
+Leo calls such nodes clones.
+Clones appear in several places in the outline pane.
+
+Views are simply nodes whose children contain clones. A single outline may contain
+arbitrarily many views of the nodes contained therein.
+Views and clones turn Leo into a supremely flexible filing cabinet: any node may be filed
+in arbitrarily many places.
+&lt;ref&gt;[http://leoeditor.com/nutshell.html Leo documentation: Leo in a Nutshell]&lt;/ref&gt;
+
+==External files==
+
+@file nodes represent external files, files on the computer's file system.
+When saving an outline Leo automatically writes all changed @file
+trees back to the external files.
+Comments, called sentinel lines, in external files represent the outline structure.
+When reading an outline, these comments allows Leo to recreate
+@file trees using only the data in the external file.
+
+@auto nodes represent external files without using sentinel comments.
+When reading @auto nodes, Leo uses the program structure of the external file
+to create the @auto tree.
+
+==Scripting==
+
+Leo's scripting environment takes full advantage of outline structure:
+
+* The body text of any node may contain a Leo script, a Python script executed in the context of a Leo outline.
+
+* A simple [[API]] &lt;ref&gt;[http://leoeditor.com/scripting.html Leo documentation: Scripting Leo with Python]&lt;/ref&gt; gives Leo scripts full access to all data in loaded outlines, as well as full access to Leo's own source code. The API includes Python [[iterators]] that allow scripts to traverse outlines easily.
+
+* Scripts may be composed of any tree of nodes.
+  A [[markup language]] similar to [[noweb]] &lt;ref&gt;[http://leoeditor.com/tutorial.html#section-references Leo documentation: Tutorial]&lt;/ref&gt; tells Leo how to create scripts from (parts of) an outline.
+
+* Headlines naturally control and guide scripts.
+
+** @test nodes represent unit tests. Leo can execute the body of an @test node as unit test, without the body having to create an explicit subclass of Python's UnitTest.TestCase class. &lt;ref&gt;[
+
+** @button nodes contain scripts that can be applied to other nodes.  In effect, @button nodes create user-defined commands. &lt;ref&gt;
+
+==External links==
+{{Portal|Free software}}
+*[http://leoeditor.com Leo's homepage]
+*[http://sourceforge.net/projects/leo/ Leo at SourceForge],[http://sourceforge.net/project/screenshots.php?group_id=3458&amp;ssid=22298 screenshots]
+*[http://groups.google.com/group/leo-editor leo-editor Google Group]
+*{{cite web | title=Literate Programming and Leo | publisher = [[Slashdot]] | date=2002-08-28 | url=http://developers.slashdot.org/article.pl?sid=02/08/28/1655207 }}
+*{{cite web |author=[[James Tauber]] |title=Using the Leo Outliner as a PIM | date=2004-05-15 |url=http://jtauber.com/blog/2004/05/15/using_the_leo_outliner_as_a_pim/ }}
+*{{cite book | author = Vreda Pieterse, Derrick G. Kourie, Andrew Boake | title=ACM International Conference Proceeding Series; Vol. 75. Proceedings of the 2004 annual research conference of the South African institute of computer scientists and information technologists on IT research in developing countries | chapter=A case for contemporary literate programming | editor=[[Association for Computing Machinery|ACM]] | pages=2–9 | url=http://portal.acm.org/citation.cfm?id=1035054}} (cited in references)
+
+==References==
+&lt;references/&gt;
+
+{{DEFAULTSORT:Leo (Text Editor)}}
+[[Category:Free text editors]]
+[[Category:Free software programmed in Python]]
+[[Category:Outliners]]
 </t>
 <t tx="ekr.20111017085134.16158"></t>
 <t tx="ekr.20111017085134.16159">'''
@@ -6324,6 +6419,434 @@ def main():
 
 if __name__ == '__main__':
     main()</t>
+<t tx="livingworld.20180227131055.1"></t>
+<t tx="livingworld.20180227131055.10">安装Python和Qt,如上所述(`Installing Packages`_).
+
+现在你有一个选择.你可以使用Leo的二进制 (single-click) 安装程序或直接下载Leo的源文件.
+</t>
+<t tx="livingworld.20180227131055.11">.. _`SourceForge 下载页面`: http://sourceforge.net/projects/leo/files/Leo/
+.. _`Running Leo`: running.html
+
+Leo有一个用于Windows的二进制安装程序,可以在 `SourceForge 下载页面`_ 找到.二进制安装程序安装Leo并设置Windows文件关联.现在,请参阅 `Running Leo`_ 在安装后如何运行Leo.</t>
+<t tx="livingworld.20180227131055.12">.. _`Leo 的下载页面`: download.html
+
+您可以用三种方式下载Leo的源文件,正如 `Leo 的下载页面`_ 所描述的那样.如果源文件被压缩,则将其解压到临时文件夹.您可以将源文件放在您喜欢的任何地方,包括Python的 *site-packages* 文件夹,例如  C:\\Python26\\Lib\\site-packages.
+
+接下来,您将发现为.leo文件创建Windows文件关联非常方便,正如下一节所述.
+</t>
+<t tx="livingworld.20180227131055.13">*要点*: Leo的二进制Windows安装程序会自动设置文件关联,所以只有当您从一个.zip文件或其他来源中安装Leo时,才需要这个部分.
+
+有两种办法将.leo文件与Leo关联起来.第一种使用的是Windows控制面板,第二种是Windows控制台.
+
+**方法 1：使用Windows控制面板**
+
+目标是您希望用以下命令关联.leo文件::
+
+    "&lt;path to python&gt;\python.exe" "&lt;path to launchLeo.py&gt;\launchLeo.py" "%1"
+    
+在Windows 7之前,你可以使用文件夹选项控制面板来完成这个操作.在Windows 7中,你可以使用默认程序控制面板来完成这个操作.
+
+*注意:* "%1" 只传递被点击的文件,引用空格等.需要使用引号来处理包含空格的文件路径.
+
+*警告:* 在批处理文件中,1%只传递第一个命令行参数.在批处理文件中,期望 %* 为文件关联工作是合乎逻辑的.唉,它没有.
+
+**方法2：使用Windows控制台**
+
+打开带有管理员权限的Windows控制台,然后键入::
+
+    ftype LeoFile="&lt;path to python&gt;\pythonw.exe" "&lt;path to launchLeo.py&gt;\launchLeo.py" "%1" %*
+    assoc .leo=LeoFile
+
+并把leo.bat放到%PATH%::
+
+    @start /b "Leo" "&lt;path to python&gt;\python.exe" "&lt;path to launchLeo.py&gt;\launchLeo.py" %*
+    
+如果你想要为Leo创建一个单独的控制台窗口,你可以省略/b选项.</t>
+<t tx="livingworld.20180227131055.14">.. _`git`: https://git-scm.com/
+
+**要点**: 本节讲述如何设置 `git`_ 以便您可以使用 ``git clone``获取最新的源文件.
+
+许多用户希望跟踪Leo的开发版本,以保持最新的特性和bug修复.运行开发版是相当安全和简单的,而且如果您想要给Leo做贡献,这也是一个要求.
+
+1. 首先,你需要获得从 http://git-scm.com/ 获得git.
+2. 从Github中获得Leo::
+
+        git clone https://github.com/leo-editor/leo-editor (http access)
+    
+   or::
+   
+        git clone git@github.com:leo-editor/leo-editor.git (ssh access)
+
+就是这样！你可以直接运行launchLeo.py.当你想要从GitHub上刷新最新修改的代码,运行git pull.
+</t>
+<t tx="livingworld.20180227131055.15">.. _`从debian软件包中安装Leo`: installing.html#installing-from-a-debian-package
+.. _`从源文件中安装Leo`: installing.html#installing-from-sources-linux
+
+如果你正在使用Debian/Ubuntu,最好 `从debian软件包中安装Leo`_, 如下所述.这提供了文件关联、图标、启动项等.而且,你可以 `从源文件中安装Leo`_.
+</t>
+<t tx="livingworld.20180227131055.16">将这些文件添加到 `/etc/apt/sources.list`::
+
+    deb http://ppa.launchpad.net/villemvainio/ppa/ubuntu jaunty main
+    deb-src http://ppa.launchpad.net/villemvainio/ppa/ubuntu jaunty main
+
+然后运行::
+
+    sudo apt-get update
+    sudo apt-get install leo
+</t>
+<t tx="livingworld.20180227131055.17">.. _`下载Leo源文件`: download.html
+
+你可以通过以下三种方法之一 `下载Leo源文件`_ .如果源文件压缩了,将它们解压到主目录的文件夹中,比如~/leo-5.7.
+
+您现在有几个选择.
+
+1. 您可以从主目录运行Leo.只需要将 ~/leo-5.7 添加到您的路径.
+
+2. 你可以使用以下命令将leo安装到 /usr/local/lib 和 /usr/local/bin 中:
+
+    cd ~/leo-5.7
+    sudo python setup.py install
+
+请参阅 `Running Leo`_ 了解如何在安装后运行Leo.
+</t>
+<t tx="livingworld.20180227131055.18">.. .. http://groups.google.com/group/leo-editor/browse_thread/thread/92ae059cc5213ad3
+
+非常感谢Ludwig Schwardt提供的以下安装指导.使用HomeBrew方法比以前 *容易多了*.
+
+**EKR注意事项**: 升级MacOS,首先卸载pyqt、sip和qt可能是个好注意::
+
+    brew remove pyqt sip qt
+    brew install qt sip pyqt
+
+我(Ludwig)最近收到了一台新的MacBook Pro,并对Mac OS 10.7(Lion)进行了全新升级.然后我利用这个机会在一个干净系统上测试了各种软件的安装程序.我的主要的发现是,优秀的Homebrew(mxcl.github.com/homebrew/)这些天使事情容易多了.
+
+为什么选择Homebrew？它并不会尝试用自己的版本,比如Macports或fink来替换Mac上的每一个功能.它尽可能重复使用现有的库.例如,无需重新安装Python(当人们试图在Mac上安装新软件时,是我的一个宠物抱怨,以及许多混乱和痛苦的来源).它安装到 /usr/local, 这是找到第三方库和标题的标准的位置,而不是隐藏的 /opt 或 /sw.使用和扩展都很简单.
+
+此处是我的安装记录:
+
+- 阅读 http://brew.sh/ 上的Homebrew安装说明
+
+- 确保您已经安装了Xcode(通过确认"gcc"运行在终端来测试).只需要较小的命令行工具；没有必要获得完整的Xcode beast.
+
+- 在准备Homebrew时,我认为最好的选择是通过以下方式删除 /usr/local ::
+
+    sudo rm -rf /usr/local
+
+  并通过HomeBrew代替安装任何软件.
+  
+  HomeBrew软件包管理器非常易于使用,你会发现快速替换已删除的软件包.
+  
+  如果删除 /usr/local 让您满意(您不希望失去您心爱的第三方软件), 次优选择是确保您已经通过以下方式为目录写了权限::
+
+    sudo chown -R &lt;your user name&gt;:admin /usr/local
+
+  如果您不知道自己的用户名,请运行 "whoami". :-) 这是很有用的,因为homebrew实际上不鼓励你以超级用户的身份安装第三方软件(对于这种情况,应用程序中的常用Mac应用程序也以普通的用户身份安装).
+
+-通过在终端中运行以下命令安装Homebrew (http://mxcl.github.com/homebrew/)::
+    
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+- 运行 "brew doctor" 并检查任何进一步改善您的系统的建议.
+
+  EKR注意：我认为在安装XCode 页面后已经安装了命令行工具.我没有,而"brew doctor"告诉我.
+
+- 运行"brew update"来获取最新的公式
+
+- 安装sip并注意警告::
+
+    brew install sip
+
+  这会警告将本地python目录添加到您的PYTHONPATH中.记下这是什么(特别是如果你不在Lion上！).
+
+- 将以下行添加到~/.bash_profile中
+  (或 ~/.profile 在Leopard上). 这是LION的默认设置::
+
+      export PATH=/usr/local/bin:$PATH
+      # 这是由Homebrew所建议的SIP(和PyQt)
+      export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
+
+- 安装 PyQt::
+
+    brew install pyqt
+ 
+- 打开新的终端选项卡/窗口,以使上述设置生效,并安装Leo.我下载了Leo-4.9-final-a.zip, 将其解压缩,然后在Leo目录中运行 "python launchLeo.py".
+
+得到一个Leo公式适用于Homebrew真的很棒.如前所述,主要问题是将所有Leo文件放在 /usr/local 层次结构的何处.</t>
+<t tx="livingworld.20180227131055.19">`Anaconda`_ 的科学计算环境包括 Python、NumPy、SciPy、PyQt和其他上千种工具、软件包和库.这是一个500多MB的下载,但是你保证有所需要的东西.
+
+要安装Leo,可以从控制台进行操作::
+
+    pip install leo
+
+`Miniconda`_ 环境仅包含Python和 `conda` 软件包管理工具.从完整的Anaconda生态系统中挑选并选择.
+
+要安装Leo,可以从控制台进行操作::
+
+    conda install pyqt5
+    pip install leo
+</t>
+<t tx="livingworld.20180227131055.2">#####################
+下载,安装 &amp; 运行 Leo
+#####################
+
+.. _`Python`:                   https://www.python.org/
+.. _`Leo的依赖关系`:       installing.html#dependencies
+.. _`Installing Leo using pip`:    installing.html#installing-leo-with-pip
+
+**概述**: Leo 是一个 `Python`_ 程序.您必须安装Python本身,`Leo的依赖关系`_,然后下载并安装Leo自身.
+
+.. toctree::
+   :maxdepth: 4
+
+   download
+   installing
+   running
+</t>
+<t tx="livingworld.20180227131055.20">##############
+运行 Leo
+##############
+
+.. index:: 运行 Leo
+
+本章讲述如何运行 Leo 并讨论 Leo 的命令行选项.
+
+.. contents:: 内容
+    :depth: 3
+    :local:
+
+    
+</t>
+<t tx="livingworld.20180227131055.21">你可以按照如下方式从Python解释器中运行Leo::
+
+    import leo
+    leo.run() # 运行 Leo, 打开一个新的提纲,或,
+    leo.run(fileName=aFileName) # 运行 Leo, 打开给定的文本名.
+
+运行 Leo 的另一种方式如下::
+
+    cd &lt;path-to-launchLeo.py&gt;
+    python launchLeo.py %*
+
+这里有一些提示会让 Leo 更容易运行:
+
+**Linux**
+    
+接下来的shell脚本将允许你通过键入leo foo打开foo.leo文件::
+
+    #!/bin/sh 
+    python &lt;leopath&gt;launchLeo.py $1
+
+其中 &lt;leopath&gt; 是指向包含leo目录的目录的路径. 
+
+**Windows**
+
+你可以使用批处理文件将Leo和.leo文件相关联.将下列.bat文件放在c:\\Windows中::
+
+    &lt;path-to-python&gt;/python &lt;path-to-leo&gt;/launchLeo.py %*
+
+这里 &lt;path-to-leo&gt; 是指向 *包含* leo目录的目录的路径,即包含launchLeo.py的目录.
+</t>
+<t tx="livingworld.20180227131055.22">第一次启动Leo时,对话框会要求您输入唯一的标识符.如果您使用的是git等源文件控制系统,请使用您的的git登录名.否则您的姓名首字母就行了.
+
+Leo将此标识符存储在 .leoID.txt文件中.Leo尝试在您的主目录下的.leo子目录中创建leoID.txt,然后在Leo的配置目录中,最后在Leo的核心目录中.您可以随时通过编辑 .leoID.txt来更改此标识符.</t>
+<t tx="livingworld.20180227131055.23" rst_http_attribute="5d71002858460000003c6120636c6173733d22746172676574222069643d22687474702d6e6f64652d6d61726b65722d333722206e616d653d22687474702d6e6f64652d6d61726b65722d3337223e710158040000003c2f613e71025d71032858260000003c64697620636c6173733d2273656374696f6e222069643d22672d726566696e64616c6c223e710458060000003c2f6469763e71055d710628584f0000003c64697620636c6173733d2273656374696f6e222069643d2266756e6374696f6e732d666f722d66696e64696e672d616e642d6368616e67696e672d746578742d66726f6d2d73637269707473223e710758060000003c2f6469763e71085d710928583f0000003c64697620636c6173733d22646f63756d656e74222069643d22636861707465722d372d736372697074696e672d6c656f2d776974682d707974686f6e223e710a58060000003c2f6469763e710b5d710c2858060000003c626f64793e710d58070000003c2f626f64793e710e5d710f2858430000003c68746d6c20786d6c6e733d22687474703a2f2f7777772e77332e6f72672f313939392f7868746d6c2220786d6c3a6c616e673d22656e22206c616e673d22656e223e711058070000003c2f68746d6c3e71114e656565656558070000003c2f6469763e0a711258070000003c2f6469763e0a711358350000003c64697620636c6173733d2273656374696f6e222069643d2272756e6e696e672d6c656f2d696e2d62617463682d6d6f6465223e0a7114586c0000003c68313e3c6120636c6173733d22746f632d6261636b7265662220687265663d22236964313922206e616d653d2272756e6e696e672d6c656f2d696e2d62617463682d6d6f6465223e52756e6e696e67204c656f20696e206261746368206d6f64653c2f613e3c2f68313e0a7115652e">在启动时,Leo查找表单中的两个参数::
+
+    --script scriptFile
+
+如果发现,Leo进入批处理模式.在批处理模式下,Leo不显示任何窗口.Leo假定scriptFile包含一个Python脚本并使用Leo的执行脚本命令执行该文件的内容.默认情况下,Leo将所有的输出发送到控制台窗口.scriptFile中的脚本通过调用app.log.disable或app.log.enable来禁用或启用此输出.
+
+scriptFile中的脚本能够执行任何除了编辑正文和编辑标题命令外的任何Leo命令.这些命令需要与用户交互.例如,下面的批处理脚本读取一个Leo文件并打印该文件中的所有标题::
+
+    path = r"&lt;path-to-folder-containing-the-leo-folder&gt;\\leo\\test\\test.leo"
+
+    g.app.log.disable() # 打开文件时禁用读取消息
+    flag,newFrame = g.openWithFileName(path,None)
+    g.app.log.enable() # 重新启用日志.
+
+    for p in newFrame.c.all_positions():
+        g.es(g.toEncodedString(p.h,"utf-8"))
+</t>
+<t tx="livingworld.20180227131055.24">.. _`python.exe`: installing.html#creating-windows-file-associations
+
+Leo将更详细的错误消息发送到stderr,即输出到控制台窗口的流.在Linux和MacOS环境中,python程序通过使用可见的控制台窗口执行.
+
+在Windows中,你可以通过用 `python.exe`_ 而 *不是* pythonw.exe关联.leo文件,在可见的控制台窗口运行Leo.</t>
+<t tx="livingworld.20180227131055.25">如果不存在HOME环境变量,则Leo使用 os.expanduser('~') 来确定HOME目录.
+
+Leo将几个文件放在您的HOME/.leo目录: .leoID.txt、.leoRecentFiles.txt和myLeoSettings.leo.</t>
+<t tx="livingworld.20180227131055.26">Leo支持下面的命令行选项.像往常一样,你可以通过在控制台窗口键入以下内容查看列表::
+
+    leo -h
+
+或::
+
+    leo --help
+
+你将会得到如下内容::
+
+    Usage: launchLeo.py [options] file1, file2, ...
+
+    Options:
+      -h, --help            显示帮助信息并退出
+      --debug               启用调试模式
+      --diff                使用 Leo 作为外部 git diff
+      --fullscreen          开始全屏
+      --ipython             启用ipython支持
+      --fail-fast           在第一次失败后停止单元测试
+      --gui=GUI             gui使用 (qt/qttabs/console/null)
+      --listen-to-log       启动时启动log_listener.py
+      --load-type=LOAD_TYPE @&lt;file&gt; 类型用于从命令行加载非提纲
+      --maximized           开始最大化
+      --minimized           开始最小化
+      --no-cache            禁用对缓存文件的读取
+      --no-plugins          禁用所有插件
+      --no-splash           禁用启动屏幕
+      --screen-shot=SCREENSHOT_FN
+                            拍屏幕快照然后退出
+      --script=SCRIPT       执行一个脚本然后退出
+      --script-window=SCRIPT_WINDOW
+                            打开一个脚本窗口
+      --select=SELECT       标题或GNX节点选择
+      --session-restore     在启动时恢复先前保存的会话选项卡
+      --session-save        退出时保存会话选项卡
+      --silent              禁用所有日志消息
+      --trace-binding=BINDING
+                            跟踪密钥绑定
+      --trace-focus         跟踪焦点的变化
+      --trace-plugins       跟踪插件的导入
+      --trace-setting=SETTING
+                            跟踪设置的位置
+      --trace-shutdown      跟踪关闭逻辑
+      -v, --version         打印版本号并退出
+      --window-size=WINDOW_SIZE
+                            初始窗口大小 (高 x 宽)</t>
+<t tx="livingworld.20180227131055.27">如果您在命令行中没有提供任何文件参数,则Leo将打开 ``~/.leo/workbook.leo``.起初,这个文件包含Leo的备忘单和来自rst3教程的一个例子.
+</t>
+<t tx="livingworld.20180227131055.28">当Leo第一次启动时,Leo会自动打开**会话** 指定的.Leo文件列表.这样地::
+
+    leo --session-save --session-restore &lt;list of .leo files&gt;
+
+当Leo关闭时,它将会话状态存储在`~/.leo/leo.session`中.会话状态由打开的文件列表和每个文件中选定的节点组成.下一次Leo开始使用这些选项时,Leo将打开这些文件并选择合适的节点.</t>
+<t tx="livingworld.20180227131055.3">@pagewidth 75
+
+@ @rst-options
+call_docutils=False
+stylesheet_path=..\doc
+write_intermediate_file = True
+@c
+
+.. _`用git安装Leo`:  installing.html#installing-leo-with-git
+.. _`用pip安装Leo`:  installing.html#installing-leo-with-pip
+.. _`每夜快照`:         download.html#snapshots       
+.. _`Python wheel`:             https://pythonwheels.com/
+.. _`SourceForge`:              https://sourceforge.net/projects/leo/files/Leo/
+.. _`git`:                      https://git-scm.com/
+
+###############
+下载Leo
+###############
+
+有四种下载Leo的方法:
+
+- **新**: Leo 5.7 最终将有一个 `Python wheel`_,所以 ``pip install leo`` 将自动下载 *和* 安装Leo,包括Leo所有的依赖关系,请参阅 `用pip安装Leo`_.
+
+- 我们建议使用 `git`_ 安装Leo,请参阅 `用git安装Leo`_.Git为您提供最新、彻底测试的代码.所有的Leo开发者都使用git.
+
+- 如果您比较喜欢开发版,或1、2、5、10、30或90天之前的版本,请下载 `每夜快照`_.
+
+- 如果您想要从 `SourceForge`_ 下载稳定的版本.记住,它 *不会* 有最新的功能和错误修复.
+</t>
+<t tx="livingworld.20180227131055.4">.zip快照可以直接从 `GitHub &lt;https://github.com/leo-editor&gt;`_ 下载.不需要账号.下载的文件将会有个名称像::
+
+  leo-editor-50c070b715b9fec50c31be5853055a0ebc72cad5.zip
+
+其中 ``50c0...cad5`` 部分是您下载的文件版本的ID或指纹.除了"最新",这只是 ``leo-editor-master.zip``.
+
+这里有一些直接的下载链接:
+
+  - `最新 &lt;https://github.com/leo-editor/leo-editor/archive/master.zip&gt;`_
+  - `1天前 &lt;https://github.com/leo-editor/leo-editor/archive/master@{1%20day%20ago}.zip&gt;`_
+  - `2天前 &lt;https://github.com/leo-editor/leo-editor/archive/master@{2%20days%20ago}.zip&gt;`_
+  - `5天前 &lt;https://github.com/leo-editor/leo-editor/archive/master@{5%20days%20ago}.zip&gt;`_
+  - `10天前 &lt;https://github.com/leo-editor/leo-editor/archive/master@{10%20days%20ago}.zip&gt;`_
+  - `30天前 &lt;https://github.com/leo-editor/leo-editor/archive/master@{30%20days%20ago}.zip&gt;`_
+  - `90天前 &lt;https://github.com/leo-editor/leo-editor/archive/master@{90%20days%20ago}.zip&gt;`_
+</t>
+<t tx="livingworld.20180227131055.5">##############
+安装 Leo
+##############
+
+.. index:: 安装 Leo
+
+.. _`Leo's help forum`: http://groups.google.com/group/leo-editor
+
+本章讲述了如何安装和运行Leo在Windows、Linux和MacOS.
+
+**要点**: 如果你安装Leo有 *任何* 问题,请向 `Leo's help forum`_ 寻求帮助.
+
+.. contents:: Contents
+    :depth: 4
+    :local:
+
+    
+</t>
+<t tx="livingworld.20180227131055.6">.. _`Anaconda`:   https://www.anaconda.com/download/
+.. _`Miniconda`:  https://conda.io/miniconda.html
+.. _`Docutils`:   http://docutils.sourceforge.net
+.. _`feedparser`: https://pypi.python.org/pypi/feedparser
+.. _`Markdown`:   http://daringfireball.net/projects/markdown/syntax
+.. _`Python`:     https://www.python.org/
+.. _`PyEnchant`:  http://pythonhosted.org/pyenchant/download.html
+.. _`PythonTidy`: https://pypi.python.org/pypi/PythonTidy/
+.. _`PyQt`:       http://www.riverbankcomputing.co.uk/software/pyqt/intro
+.. _`PyQt4`:      http://www.riverbankcomputing.com/software/pyqt/download
+.. _`PyQt5`:      http://www.riverbankcomputing.com/software/pyqt/download5
+.. _`Sphinx`:     http://www.sphinx-doc.org/en/stable/
+
+Leo的最小依赖项是:
+
+* `Python`_ 2.6或更高版本,包括所有Python 3.x版本.
+* `PyQt4`_ 或 `PyQt5`_ .
+
+下列安装包是可选的,但建议:
+
+* `Docutils`_ :rst3命令和viewrendered插件所需的文件.
+* `Sphinx`_ :需要重新生成Leo的文档.
+* `PyEnchant`_ :拼写检查需要.
+
+插件可能需要其他软件包.例如,如果想要使用markdown渲染时,viewrendered需要 `Markdown`_ ,但它是可选的.没有 `feedparser`_ ,rss.py将不能正常工作.等.</t>
+<t tx="livingworld.20180227131055.7">.. _`Install pip`:      https://pip.pypa.io/en/stable/installing/               
+.. _`Install Python`:   http://python.org.
+.. _`pip`:              https://pypi.python.org/pypi/pip
+
+Python的 `pip`_ 工具将自动下载 *并* 安装Leo和Leo的所有依赖项:
+
+1. 如果需要的话,先 `安装Python` .如果您是Python新手,请安装Python 3 ,而不是Python 2.Python3自动安装pip.
+
+2. (仅限Python 2) 如果需要的话,`安装pip` 本身.要检查是否安装了pip,打开终端窗口并键入::
+
+    pip --version
+   
+3. (仅限Python 2) 从终端,安装 `PyQt`_ ::
+
+    pip install pyqt
+
+4. 安装Leo用::
+
+    pip install leo
+    
+这将下载并安装所需的软件包(PyQt除外).</t>
+<t tx="livingworld.20180227131055.8">**Python**:Leo可以在任何支持Python2.6或以上的平台工作,包括Python3.0和以上版本.要安装Python,请参阅 http://python.org.
+
+**PyQt**:  `PyQt`_ 提供了 Leo的小部件:
+
+* 从 http://www.riverbankcomputing.com/software/pyqt/download 下载PyQt4.
+* 从 http://www.riverbankcomputing.com/software/pyqt/download5 下载PyQt5.
+
+**要点:** PyQt版本必须与您安装的Python版本相匹配.记住,Leo需要Python 2.6或更高版本,或者Python 3.0或更高版本.
+
+**PyEnchant:** 如果你想要使用Leo的拼音选项卡,你必须安装 `PyEnchant`_ .对于Windows用户,有一个可执行的安装程序.</t>
+<t tx="livingworld.20180227131055.9"></t>
 <t tx="omlalala.20180206205022.1" str_atime="1376411963.0">@pagewidth 70
 @tabwidth -4
 
@@ -6367,35 +6890,6 @@ The rendering pane can also render svg sources contained in the body pane:
 The rendering pane can show pictures, music and movies.  Here we see Leo's splash screen:
 
 |renderSplash|
-</t>
-<t tx="omlalala.20180206205022.100">@pagewidth 75
-
-@ @rst-options
-call_docutils=False
-stylesheet_path=..\doc
-write_intermediate_file = True
-@c
-
-.. _`Installing Leo with git`:  installing.html#installing-leo-with-git
-.. _`Installing Leo with pip`:  installing.html#installing-leo-with-pip
-.. _`Nightly snapshot`:         download.html#snapshots       
-.. _`Python wheel`:             https://pythonwheels.com/
-.. _`SourceForge`:              https://sourceforge.net/projects/leo/files/Leo/
-.. _`git`:                      https://git-scm.com/
-
-###############
-Downloading Leo
-###############
-
-There are four ways to download Leo:
-
-- **New**: Leo 5.7 final will have a `Python wheel`_, so ``pip install leo`` will automatically download *and* install Leo, including all Leo's dependencies. See `Installing Leo with pip`_.
-
-- We recommend installing Leo using `git`_, see `Installing Leo with git`_. Git gives you the latest, thoroughly tested code. All of Leo's developers use git.
-
-- If you prefer a new development version, or a version from from 1, 2, 5, 10, 30 or 90 days ago, download a `Nightly snapshot`_.
-
-- If you want a stable release download from `SourceForge`_. Remember that it *won't* have the latest features and bug fixes.
 </t>
 <t tx="omlalala.20180206205022.1000">::
 
@@ -6457,22 +6951,6 @@ There are four ways to download Leo:
     Added graphed.py plugin
 </t>
 <t tx="omlalala.20180206205022.1009"></t>
-<t tx="omlalala.20180206205022.101">.zip snapshots can be downloaded directly from `GitHub &lt;https://github.com/leo-editor&gt;`_. No account is required.  The downloaded file will have a name like::
-
-  leo-editor-50c070b715b9fec50c31be5853055a0ebc72cad5.zip
-
-where the ``50c0...cad5`` part is the ID or fingerprint of the version you've downloaded.  Except "Latest", which is just ``leo-editor-master.zip``.
-
-Here are some direct download links:
-
-  - `Latest &lt;https://github.com/leo-editor/leo-editor/archive/master.zip&gt;`_
-  - `1 day ago &lt;https://github.com/leo-editor/leo-editor/archive/master@{1%20day%20ago}.zip&gt;`_
-  - `2 days ago &lt;https://github.com/leo-editor/leo-editor/archive/master@{2%20days%20ago}.zip&gt;`_
-  - `5 days ago &lt;https://github.com/leo-editor/leo-editor/archive/master@{5%20days%20ago}.zip&gt;`_
-  - `10 days ago &lt;https://github.com/leo-editor/leo-editor/archive/master@{10%20days%20ago}.zip&gt;`_
-  - `30 days ago &lt;https://github.com/leo-editor/leo-editor/archive/master@{30%20days%20ago}.zip&gt;`_
-  - `90 days ago &lt;https://github.com/leo-editor/leo-editor/archive/master@{90%20days%20ago}.zip&gt;`_
-</t>
 <t tx="omlalala.20180206205022.1010">::
 
     Leo 4.4.3 final released June 26, 2006
@@ -6562,24 +7040,6 @@ Here are some direct download links:
     toggle-autocompleter
     toggle-calltips
     toggle-invisibles
-</t>
-<t tx="omlalala.20180206205022.102">##############
-Installing Leo
-##############
-
-.. index:: Installing Leo
-
-.. _`Leo's help forum`: http://groups.google.com/group/leo-editor
-
-This chapter tells how to install and run Leo on Windows, Linux and MacOS.
-
-**Important**: If you have *any* problems installing Leo, please ask for help on `Leo's help forum`_.
-
-.. contents:: Contents
-    :depth: 4
-    :local:
-
-    
 </t>
 <t tx="omlalala.20180206205022.1020">::
 
@@ -6812,32 +7272,6 @@ This chapter tells how to install and run Leo on Windows, Linux and MacOS.
         @string trace_bindings_pane_filter
 </t>
 <t tx="omlalala.20180206205022.1029">- 18.2.7 ZQ 尝试嗯哼</t>
-<t tx="omlalala.20180206205022.103">.. _`Anaconda`:   https://www.anaconda.com/download/
-.. _`Miniconda`:  https://conda.io/miniconda.html
-.. _`Docutils`:   http://docutils.sourceforge.net
-.. _`feedparser`: https://pypi.python.org/pypi/feedparser
-.. _`Markdown`:   http://daringfireball.net/projects/markdown/syntax
-.. _`Python`:     https://www.python.org/
-.. _`PyEnchant`:  http://pythonhosted.org/pyenchant/download.html
-.. _`PythonTidy`: https://pypi.python.org/pypi/PythonTidy/
-.. _`PyQt`:       http://www.riverbankcomputing.co.uk/software/pyqt/intro
-.. _`PyQt4`:      http://www.riverbankcomputing.com/software/pyqt/download
-.. _`PyQt5`:      http://www.riverbankcomputing.com/software/pyqt/download5
-.. _`Sphinx`:     http://www.sphinx-doc.org/en/stable/
-
-Leo's minimal dependencies are:
-
-* `Python`_ 2.6 or later, including all Python 3.x versions.
-* `PyQt4`_ or `PyQt5`_.
-
-The following packages are optional, but recommended:
-
-* `Docutils`_: required for the rst3 command and the viewrendered plugins.
-* `Sphinx`_: required to regenerate Leo's documentation.
-* `PyEnchant`_: required for spell checking.
-
-Plugins may require other packages.  For example, viewrendered requires `Markdown`_ if one wishes to use markdown rendering, but it is optional. rss.py will not function without `feedparser`_. Etc.
-</t>
 <t tx="omlalala.20180206205022.1030">Leo 5.5 March 23, 2017
 
 [Leo](http://leoeditor.com/) 5.5 is now available on [SourceForge](http://sourceforge.net/projects/leo/files/Leo/) and on [GitHub](https://github.com/leo-editor/leo-editor).
@@ -7012,28 +7446,6 @@ stroke=None:        The incoming key stroke.
 useMinibuffer=True: True: put focus in the minibuffer while accumulating arguments.
                     False allows sort-lines, for example, to show the selection range.
 </t>
-<t tx="omlalala.20180206205022.104">.. _`Install pip`:      https://pip.pypa.io/en/stable/installing/               
-.. _`Install Python`:   http://python.org.
-.. _`pip`:              https://pypi.python.org/pypi/pip
-
-Python's `pip`_ tool will download *and* install Leo and all of Leo's dependencies automatically:
-
-1. `Install Python`_ first, if necessary. If you are new to Python, install Python 3, not Python 2. Python 3 installs pip automatically.
-
-2. (Python 2 only) `Install pip`_ itself, if necessary.  To check whether pip has been installed, open a terminal window and type::
-
-    pip --version
-   
-3. (Python 2 only) From a terminal, install `PyQt`_ with::
-
-    pip install pyqt
-
-4. Install Leo with::
-
-    pip install leo
-    
-This will download and install all required packages (except PyQt).
-</t>
 <t tx="omlalala.20180206205022.1040"></t>
 <t tx="omlalala.20180206205022.1041">https://github.com/leo-editor/leo-editor/issues/325
 </t>
@@ -7080,17 +7492,6 @@ So the focus problem is pretty strange.
 
 The fix was to extractExecutableString
 </t>
-<t tx="omlalala.20180206205022.105">**Python**: Leo will work on any platform that supports Python 2.6 or above, including Python 3.0 and above. To install Python, see http://python.org.
-
-**PyQt**: `PyQt`_ provides Leo's widgets:
-
-* Download PyQt4 from http://www.riverbankcomputing.com/software/pyqt/download.
-* Download PyQt5 from http://www.riverbankcomputing.com/software/pyqt/download5.
-
-**Important**: The PyQt version must match your installed Python version. Remember that Leo requires Python 2.6 or later, or Python 3.0 or later.
-
-**PyEnchant**: You must install `PyEnchant`_ if you want to use Leo's Spell tab. There is an executable installer for Windows users.
-</t>
 <t tx="omlalala.20180206205022.1050">https://github.com/leo-editor/leo-editor/issues/374
 This caused problems in the importers.</t>
 <t tx="omlalala.20180206205022.1051">https://github.com/leo-editor/leo-editor/issues/375
@@ -7130,7 +7531,6 @@ See the checkin log for details.
 <t tx="omlalala.20180206205022.1058">https://github.com/leo-editor/leo-editor/issues/392
 </t>
 <t tx="omlalala.20180206205022.1059">https://github.com/leo-editor/leo-editor/issues/395</t>
-<t tx="omlalala.20180206205022.106"></t>
 <t tx="omlalala.20180206205022.1060">https://github.com/leo-editor/leo-editor/issues/396
 
 http://stackoverflow.com/questions/3254652/
@@ -7179,11 +7579,6 @@ Also fixed several tree-drawing problems:
 <t tx="omlalala.20180206205022.1069">https://github.com/leo-editor/leo-editor/issues/430
 rst import: titles with different underline characters on same level.
 </t>
-<t tx="omlalala.20180206205022.107">Install Python and Qt, as described above (`Installing Packages`_).
-
-Now you have a choice.  You can use Leo's binary (single-click) installer
-or download Leo's sources directly.
-</t>
 <t tx="omlalala.20180206205022.1070">https://github.com/leo-editor/leo-editor/issues/431
 
 Create importer/writer tables only once, during startup. All tests pass.
@@ -7229,11 +7624,6 @@ TypeError: putStatusLine() got an unexpected keyword argument 'color'
 <t tx="omlalala.20180206205022.1077"></t>
 <t tx="omlalala.20180206205022.1078">It can now import demo-it.el.</t>
 <t tx="omlalala.20180206205022.1079"></t>
-<t tx="omlalala.20180206205022.108">.. _`SourceForge download page`: http://sourceforge.net/projects/leo/files/Leo/
-.. _`Running Leo`: running.html
-
-Leo has a binary installer for Windows, available at the `SourceForge download page`_. The binary installer installs Leo and sets Windows file associations. Now see `Running Leo`_ for how to run Leo after installing it.
-</t>
 <t tx="omlalala.20180206205022.1080">Changed LM.openEmptyWorkBook and LM.computeWorkbookFileName.</t>
 <t tx="omlalala.20180206205022.1081">The new code uses the new importer code to clean nodes.</t>
 <t tx="omlalala.20180206205022.1082">- Passing parent=None to ic.createOutline puts the imported node as the last top-level node.
@@ -7333,12 +7723,6 @@ def findRootsWithPredicate(c, root, predicate):
                     if p2.v in clones:
                         return [p.copy()]
     return []</t>
-<t tx="omlalala.20180206205022.109">.. _`Leo's download page`: download.html
-
-You may download Leo's sources in one of three ways, as described at `Leo's download page`_. If the sources are zipped, unpack them into a temp folder. You may place the sources anywhere you like, including Python's \*site-packages* folder, for example, C:\\Python26\\Lib\\site-packages.
-
-Next, you will find it convenient to create Windows files associations for .leo files, as described in the next section.
-</t>
 <t tx="omlalala.20180206205022.1090">https://groups.google.com/d/msg/leo-editor/hJWv-nL-9s0/2QbaGBgtBQAJ
 
 leoApp.py now contains the IdleTimeManager (ITM) class, with a singleton instance, g.app.idleTimeManager. This class handles all details of running code at idle time, including running 'idle' hooks.
@@ -7489,42 +7873,6 @@ Commands and directives
 
 |leo-thesis|
 </t>
-<t tx="omlalala.20180206205022.110">*Important*: Leo's binary Windows installer sets file associations
-automatically, so this section is needed only if you are installing Leo
-from a .zip file or other sources.
-
-There are two ways of associating .leo files with Leo. The first uses the
-Windows control panel, the second, the Windows console.
-
-**Method 1: Using the Windows Control Panel**
-
-The goal is that you want to associate .leo files with the following command::
-
-    "&lt;path to python&gt;\python.exe" "&lt;path to launchLeo.py&gt;\launchLeo.py" "%1"
-    
-Before Windows 7, you do this with using the Folder Options control panel.
-In Windows 7, you do this with the Default Programs control panel.
-
-*Note*: "%1" passes just the file being clicked on, quoted for spaces etc.
-The quotation marks are needed to handle file paths containing spaces.
-
-*Warning:* In a batch file, %1 passes just the first command line parameter.
-It is logical to expect %* to work for file associations just as in batch
-files. Alas, it does not.
-
-**Method 2: Using the Windows Console**
-
-Open a Windows console with administrator privileges, then type::
-
-    ftype LeoFile="&lt;path to python&gt;\pythonw.exe" "&lt;path to launchLeo.py&gt;\launchLeo.py" "%1" %*
-    assoc .leo=LeoFile
-
-And put this leo.bat in %PATH%::
-
-    @start /b "Leo" "&lt;path to python&gt;\python.exe" "&lt;path to launchLeo.py&gt;\launchLeo.py" %*
-    
-You may omit the /b option if you want to create a separate console window for Leo.
-</t>
 <t tx="omlalala.20180206205022.1100">https://github.com/leo-editor/leo-editor/pull/349
 Command line option to select type of @&lt;file&gt; node to when opening non-outline files</t>
 <t tx="omlalala.20180206205022.1101">The scripting tutorial contains a few more examples before jumping into the details.</t>
@@ -7598,28 +7946,6 @@ https://github.com/leo-editor/leo-editor/issues/14</t>
 <t tx="omlalala.20180206205022.1108">It opens leo/config/themes.leo.
 </t>
 <t tx="omlalala.20180206205022.1109">See The "What's new in this file" node in scripts.leo for details.</t>
-<t tx="omlalala.20180206205022.111">.. _`git`: https://git-scm.com/
-
-**Important**: This section tells how to set up `git`_ so that you can grab
-the latest sources using ``git clone``.
-
-Many users will want to track the development version of Leo, in order to stay
-on top of the latest features and bug fixes. Running the development version is
-quite safe and easy, and it's also a requirement if you want to contribute to
-Leo.
-
-1. First, you need to get git from http://git-scm.com/.
-2. Get Leo from GitHub by doing::
-
-        git clone https://github.com/leo-editor/leo-editor (http access)
-    
-   or::
-   
-        git clone git@github.com:leo-editor/leo-editor.git (ssh access)
-
-And that's it! You can run launchLeo.py directly. When you want to refresh the
-code with latest modifications from GitHub, run git pull.
-</t>
 <t tx="omlalala.20180206205022.1110"></t>
 <t tx="omlalala.20180206205022.1111"></t>
 <t tx="omlalala.20180206205022.1112">Ctrl-click on UNL's goes to the UNL. This already existed, as an Easter Egg for file:// url's.
@@ -7724,14 +8050,6 @@ Simulating Leo's features in Vim, Emacs or Eclipse is possible, just as it is po
 </t>
 <t tx="omlalala.20180206205022.1119">For a list of all enhancements added in Leo 5.6, see this page:
 https://github.com/leo-editor/leo-editor/issues?utf8=%E2%9C%93&amp;q=is%3Aissue%20label%3AEnhancement%20is%3Aclosed%20milestone%3A5.6%20-label%3AWon%27tDo%20</t>
-<t tx="omlalala.20180206205022.112">.. _`install Leo from a debian package`: installing.html#installing-from-a-debian-package
-.. _`install Leo from sources`: installing.html#installing-from-sources-linux
-
-If you are using Debian/Ubuntu, it's best to
-`install Leo from a debian package`_, as described next.
-This provides file associations, icons, launcher items, etc.
-Otherwise, you may `install Leo from sources`_.
-</t>
 <t tx="omlalala.20180206205022.1120">A new chapter in Leo's documentation: http://leoeditor.com/console-gui.html
 
 https://github.com/leo-editor/leo-editor/issues/488
@@ -7826,16 +8144,6 @@ https://github.com/leo-editor/leo-editor/issues?q=is%3Aissue+is%3Aclosed+milesto
 </t>
 <t tx="omlalala.20180206205022.1129">https://github.com/leo-editor/leo-editor/issues/385
 </t>
-<t tx="omlalala.20180206205022.113">Add these files to `/etc/apt/sources.list`::
-
-    deb http://ppa.launchpad.net/villemvainio/ppa/ubuntu jaunty main
-    deb-src http://ppa.launchpad.net/villemvainio/ppa/ubuntu jaunty main
-
-Then run::
-
-    sudo apt-get update
-    sudo apt-get install leo
-</t>
 <t tx="omlalala.20180206205022.1130">https://github.com/leo-editor/leo-editor/issues/386
 All changes made to leo/modes/md.py
 </t>
@@ -7896,23 +8204,6 @@ leoColorizer.py:
 leoCommands.py:
 - Replaced c.updateSyntaxColor(p) with c.recolor_now(p) in 4 move commands.
 - Lines 4629, 4661, 4689, 4759, etc.
-</t>
-<t tx="omlalala.20180206205022.114">.. _`download Leo's sources`: download.html
-
-You may `download Leo's sources`_ in one of three ways. If the sources
-are zipped, unzip them into a folder in your home directory, say
-~/leo-5.7.
-
-You now have several choices.
-
-1. You can run Leo from your home directory. Just add  ~/leo-5.7 to your path.
-
-2. You can install leo into /usr/local/lib and /usr/local/bin with:
-
-    cd ~/leo-5.7
-    sudo python setup.py install
-
-See `Running Leo`_ for how to run Leo after installing it.
 </t>
 <t tx="omlalala.20180206205022.1140">UnicodeDecodeError in writeRecentFilesFileHelper
 https://github.com/leo-editor/leo-editor/issues/471
@@ -7976,72 +8267,6 @@ Leo now has two new command-line options. These provide more detail than the pri
         # command name
     --trace-binding=shift-ctrl-f
         # key binding
-</t>
-<t tx="omlalala.20180206205022.115">.. .. http://groups.google.com/group/leo-editor/browse_thread/thread/92ae059cc5213ad3
-
-Many thanks to Ludwig Schwardt for the following installation instructions. Using the HomeBrew installation method is *much* easier than before.
-
-**Note from EKR**: When upgrading MacOS, it's probably a good idea to uninstall pyqt, sip and qt first::
-
-    brew remove pyqt sip qt
-    brew install qt sip pyqt
-
-I (Ludwig) recently received a new MacBook Pro and did a fresh upgrade to Mac OS 10.7 (Lion). I then used the opportunity to test out installation procedures of various software on a clean system. My main finding is that the excellent Homebrew (mxcl.github.com/homebrew/) makes things much easier these days.
-
-Why Homebrew? It does not try to replace every single bit of functionality on your Mac with their own version, like Macports or fink. It reuses the existing libraries as far as possible. No need to reinstall Python, for example (one of my pet gripes when people try to install new software on their Macs, and the source of much confusion and pain). It installs to /usr/local, the standard place to find third-party libraries and headers, instead of the obscure /opt or /sw. It's simple to use and to extend.
-
-Here is my installation write-up:
-
-- Read the Homebrew installation instructions at http://brew.sh/
-
-- Make sure you have Xcode installed (test it by confirming that "gcc" runs in the Terminal). Only the smaller command-line tools are required; there is no need to get the full Xcode beast.
-
-- In preparation for Homebrew, the best option in my opinion is to delete /usr/local via::
-
-    sudo rm -rf /usr/local
-
-  and install any software in it via HomeBrew instead.
-  
-  The HomeBrew package manager is so easy to use that you will find replacing deleted packages a snap.
-  
-  If deleting /usr/local fills you with dread (you do not want to lose your beloved third-party software), the second-best option is to make sure you have write permission for the directory via::
-
-    sudo chown -R &lt;your user name&gt;:admin /usr/local
-
-  If you don't know your username, run "whoami". :-) This is useful because homebrew actually discourages you from installing third-party software as the superuser (the usual Mac apps in /Applications are also installed as the normal user, for that matter).
-
-- Install Homebrew (http://mxcl.github.com/homebrew/) by running the
-  following command in the Terminal::
-    
-    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
-- Run "brew doctor" and check any further suggestions to improve your system.
-
-  EKR note: I thought I had installed command-line tools after installing the XCode page. I hadn't, and "brew doctor" told me so.
-
-- Run "brew update" to get the latest formulas
-
-- Install sip and note the caveat::
-
-    brew install sip
-
-  This warns you to add the local python directory to your PYTHONPATH.
-  Make a note of what this is (especially if you are not on Lion!).
-
-- Add the following lines to your ~/.bash_profile
-  (or ~/.profile on Leopard). This is the default for LION::
-
-      export PATH=/usr/local/bin:$PATH
-      # This is for SIP (and PyQt) as suggested by Homebrew
-      export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
-
-- Install PyQt::
-
-    brew install pyqt
- 
-- Open a new Terminal tab / window so that the above settings take effect, and install Leo. I downloaded the Leo-4.9-final-a.zip, unzipped it, and ran "python launchLeo.py" inside the Leo directory.
-
-It would really be great to get a Leo formula going for Homebrew. As mentioned before, the main question is just where to place all the Leo files in the /usr/local hierarchy.
 </t>
 <t tx="omlalala.20180206205022.1150">https://github.com/leo-editor/leo-editor/issues/516
 </t>
@@ -8167,19 +8392,6 @@ https://stackoverflow.com/questions/14109024
         print('toUnicode: returns %s' % s)
     return s
 </t>
-<t tx="omlalala.20180206205022.116">The `Anaconda`_ scientific computing environment includes Python, NumPy, SciPy, PyQt, and over a thousand other tools, packages and libraries. It's a 500+ MB download but you're guaranteed to have everything needed.
-
-To install Leo do this from a console::
-
-    pip install leo
-
-The `Miniconda`_ environment includes just Python and the `conda` package management tool. Pick and choose from the full Anaconda ecosystem.
-
-To install Leo do this from a console::
-
-    conda install pyqt5
-    pip install leo
-</t>
 <t tx="omlalala.20180206205022.1160">def computeSignon(self):
     import leo.core.leoVersion as leoVersion
     app = self
@@ -8258,20 +8470,6 @@ The fix was in xml_i.scan_tag &amp; helper
 <t tx="omlalala.20180206205022.1168">It must return True if g.app.externalFilesController is None.
 </t>
 <t tx="omlalala.20180206205022.1169"></t>
-<t tx="omlalala.20180206205022.117">##############
-Running Leo
-##############
-
-.. index:: Running Leo
-
-This chapter tells how to run Leo and discusses Leo's command-line options.
-
-.. contents:: Contents
-    :depth: 3
-    :local:
-
-    
-</t>
 <t tx="omlalala.20180206205022.1170">The change was to pylint.run_pylint.
 
 This removes a major source of confusion.
@@ -8333,38 +8531,6 @@ As a happy side effect, these methods completely collapse the complexity of leoV
 <t tx="omlalala.20180206205022.1178">This makes explicit which importers actually generate section reference. At present, only the javascript importer sets this arg.
 </t>
 <t tx="omlalala.20180206205022.1179">These traces detected nothing unusual and have been disabled.
-</t>
-<t tx="omlalala.20180206205022.118">You can run Leo from a Python interpreter as follows::
-
-    import leo
-    leo.run() # runs Leo, opening a new outline or,
-    leo.run(fileName=aFileName) # runs Leo, opening the given file name.
-
-Another way to run Leo is as follows::
-
-    cd &lt;path-to-launchLeo.py&gt;
-    python launchLeo.py %*
-
-Here are some tips that may make running Leo easier:
-
-**Linux**
-    
-The following shell script will allow you to open foo.leo files by typing leo foo::
-
-    #!/bin/sh 
-    python &lt;leopath&gt;launchLeo.py $1
-
-where &lt;leopath&gt; is the path to the directory containing the leo directory. 
-
-**Windows**
-
-You can associate Leo with .leo files using a batch file. Put the
-following .bat file in c:\\Windows::
-
-    &lt;path-to-python&gt;/python &lt;path-to-leo&gt;/launchLeo.py %*
-
-Here &lt;path-to-leo&gt; is the path to the directory *containing* the leo directory,
-that is, the directory containing launchLeo.py.
 </t>
 <t tx="omlalala.20180206205022.1180">- Removed the allow_at_auto_section switch in leoAtFile.py.
 
@@ -8443,15 +8609,6 @@ def toggleAtAutoAtEdit(self, event):
     c.setChanged()
     c.redraw()
     c.bodyWantsFocus()
-</t>
-<t tx="omlalala.20180206205022.119">The first time you start Leo, a dialog will ask you for a unique identifier. If
-you are using a source code control system such as git, use your git login name.
-Otherwise your initials will do.
-
-Leo stores this identifier in the file .leoID.txt. Leo attempts to create
-leoID.txt in the .leo sub-directory of your home directory, then in Leo's config
-directory, and finally in Leo's core directory. You can change this identifier
-at any time by editing .leoID.txt.
 </t>
 <t tx="omlalala.20180206205022.1190">def toAtEdit(self, p):
     '''Convert p from @auto to @edit.'''
@@ -8608,30 +8765,6 @@ This page links to videos about Leo.  **Important notes**:
      -
      - `regular &lt;http://www.youtube.com/watch?v=bnj0NQuljQo&gt;`__
 </t>
-<t tx="omlalala.20180206205022.120" rst_http_attribute="5d71002858460000003c6120636c6173733d22746172676574222069643d22687474702d6e6f64652d6d61726b65722d333722206e616d653d22687474702d6e6f64652d6d61726b65722d3337223e710158040000003c2f613e71025d71032858260000003c64697620636c6173733d2273656374696f6e222069643d22672d726566696e64616c6c223e710458060000003c2f6469763e71055d710628584f0000003c64697620636c6173733d2273656374696f6e222069643d2266756e6374696f6e732d666f722d66696e64696e672d616e642d6368616e67696e672d746578742d66726f6d2d73637269707473223e710758060000003c2f6469763e71085d710928583f0000003c64697620636c6173733d22646f63756d656e74222069643d22636861707465722d372d736372697074696e672d6c656f2d776974682d707974686f6e223e710a58060000003c2f6469763e710b5d710c2858060000003c626f64793e710d58070000003c2f626f64793e710e5d710f2858430000003c68746d6c20786d6c6e733d22687474703a2f2f7777772e77332e6f72672f313939392f7868746d6c2220786d6c3a6c616e673d22656e22206c616e673d22656e223e711058070000003c2f68746d6c3e71114e656565656558070000003c2f6469763e0a711258070000003c2f6469763e0a711358350000003c64697620636c6173733d2273656374696f6e222069643d2272756e6e696e672d6c656f2d696e2d62617463682d6d6f6465223e0a7114586c0000003c68313e3c6120636c6173733d22746f632d6261636b7265662220687265663d22236964313922206e616d653d2272756e6e696e672d6c656f2d696e2d62617463682d6d6f6465223e52756e6e696e67204c656f20696e206261746368206d6f64653c2f613e3c2f68313e0a7115652e">On startup, Leo looks for two arguments of the form::
-
-    --script scriptFile
-
-If found, Leo enters batch mode. In batch mode Leo does not show any windows.
-Leo assumes the scriptFile contains a Python script and executes the contents of
-that file using Leo's Execute Script command. By default, Leo sends all
-output to the console window. Scripts in the scriptFile may disable or enable
-this output by calling app.log.disable or app.log.enable
-
-Scripts in the scriptFile may execute any of Leo's commands except the Edit Body
-and Edit Headline commands. Those commands require interaction with the user.
-For example, the following batch script reads a Leo file and prints all the
-headlines in that file::
-
-    path = r"&lt;path-to-folder-containing-the-leo-folder&gt;\\leo\\test\\test.leo"
-
-    g.app.log.disable() # disable reading messages while opening the file
-    flag,newFrame = g.openWithFileName(path,None)
-    g.app.log.enable() # re-enable the log.
-
-    for p in newFrame.c.all_positions():
-        g.es(g.toEncodedString(p.h,"utf-8"))
-</t>
 <t tx="omlalala.20180206205022.1200">These commands (bound to ctrl-up/down by default) now work at the top or bottom of the body pane. The move-lines-up command inserts a new line below the moved line/lines when the lines are at the top of the body text.  Similarly, the move-lines-down command inserts a line before the moved lines when at the bottom of the body text. Imo, this is a natural and useful.
 </t>
 <t tx="omlalala.20180206205022.1201"></t>
@@ -8653,14 +8786,6 @@ If the expansion of an abbreviation is a command name, that command will be exec
 This took only a few lines of code in abbrev.expandAbbrev.
 </t>
 <t tx="omlalala.20180206205022.1209">https://github.com/leo-editor/leo-editor/issues/478
-</t>
-<t tx="omlalala.20180206205022.121">.. _`associating .leo files with python.exe`: installing.html#creating-windows-file-associations
-
-Leo sends more detailed error messages to stderr,
-the output stream that goes to the console window. In Linux and MacOS
-environments, python programs normally execute with the console window visible.
-
-On Windows, you can run Leo with the console window visible by `associating .leo files with python.exe`_ *not* pythonw.exe.
 </t>
 <t tx="omlalala.20180206205022.1210">https://github.com/leo-editor/leo-editor/issues/484
 
@@ -8700,10 +8825,6 @@ Restored the abbreviation from f10fa02b8cb681, the previous commit.
 </t>
 <t tx="omlalala.20180206205022.1219">https://groups.google.com/d/msg/leo-editor/sBGJr_oHeyk/3eUjoBC0CQAJ
 </t>
-<t tx="omlalala.20180206205022.122">Leo uses os.expanduser('~') to determine the HOME directory if no HOME environment variable exists.
-
-Leo puts several files in your HOME/.leo directory: .leoID.txt, .leoRecentFiles.txt, and myLeoSettings.leo.
-</t>
 <t tx="omlalala.20180206205022.1220"></t>
 <t tx="omlalala.20180206205022.1221">https://github.com/leo-editor/leo-editor/issues/518
 
@@ -8739,60 +8860,6 @@ Leo puts several files in your HOME/.leo directory: .leoID.txt, .leoRecentFiles.
     reference but isn't.
 </t>
 <t tx="omlalala.20180206205022.1229"></t>
-<t tx="omlalala.20180206205022.123">Leo supports the following command-line options. As usual, you can see the list by typing the following in a console window::
-
-    leo -h
-
-or::
-
-    leo --help
-
-You will get something like the following::
-
-    Usage: launchLeo.py [options] file1, file2, ...
-
-    Options:
-      -h, --help            show this help message and exit
-      --debug               enable debug mode
-      --diff                use Leo as an external git diff
-      --fullscreen          start fullscreen
-      --ipython             enable ipython support
-      --fail-fast           stop unit tests after the first failure
-      --gui=GUI             gui to use (qt/qttabs/console/null)
-      --listen-to-log       start log_listener.py on startup
-      --load-type=LOAD_TYPE @&lt;file&gt; type for loading non-outlines from command line
-      --maximized           start maximized
-      --minimized           start minimized
-      --no-cache            disable reading of cached files
-      --no-plugins          disable all plugins
-      --no-splash           disable the splash screen
-      --screen-shot=SCREENSHOT_FN
-                            take a screen shot and then exit
-      --script=SCRIPT       execute a script and then exit
-      --script-window=SCRIPT_WINDOW
-                            open a window for scripts
-      --select=SELECT       headline or gnx of node to select
-      --session-restore     restore previously saved session tabs at startup
-      --session-save        save session tabs on exit
-      --silent              disable all log messages
-      --trace-binding=BINDING
-                            trace key bindings
-      --trace-focus         trace changes of focus
-      --trace-plugins       trace imports of plugins
-      --trace-setting=SETTING
-                            trace where setting is set
-      --trace-shutdown      trace shutdown logic
-      -v, --version         print version number and exit
-      --window-size=WINDOW_SIZE
-                            initial window size (height x width)</t>
-<t tx="omlalala.20180206205022.124">If you give no file arguments on the command line Leo will open ``~/.leo/workbook.leo``.  Initially, this file contains Leo's cheat sheet and an example from the rst3 tutorial.
-</t>
-<t tx="omlalala.20180206205022.125">A **session** specifies a list of .leo files that Leo opens automatically when Leo first starts. Like this::
-
-    leo --session-save --session-restore &lt;list of .leo files&gt;
-    
-When Leo closes, it stores session state in ``~/.leo/leo.session``. Session state consists of the list of open files and the selected node in each file. The next time Leo starts with those options, Leo will open these files and will select the appropriate nodes.
-</t>
 <t tx="omlalala.20180206205022.126"></t>
 <t tx="omlalala.20180206205022.127">####
 FAQ
@@ -24973,7 +25040,6 @@ The above copyright notice and this permission notice shall be included in all c
         toggle-abbrev-mode
         toggle-case-region
 </t>
-<t tx="omlalala.20180206205022.98"></t>
 <t tx="omlalala.20180206205022.980">::
 
     Added --no-splash, --script and --silent command-line options
@@ -25029,23 +25095,6 @@ The above copyright notice and this permission notice shall be included in all c
     clear-cache
 </t>
 <t tx="omlalala.20180206205022.989"></t>
-<t tx="omlalala.20180206205022.99">#####################################
-Downloading, Installing &amp; Running Leo
-#####################################
-
-.. _`Python`:                   https://www.python.org/
-.. _`Leo's dependencies`:       installing.html#dependencies
-.. _`Installing Leo using pip`:    installing.html#installing-leo-with-pip
-
-**Overview**: Leo is a `Python`_ program.  You must install Python itself, `Leo's dependencies`_, and then download and install Leo itself.
-
-.. toctree::
-   :maxdepth: 4
-
-   download
-   installing
-   running
-</t>
 <t tx="omlalala.20180206205022.990">::
 
     Leo 4.6 final released July 15, 2009
@@ -25104,23 +25153,6 @@ Downloading, Installing &amp; Running Leo
     The IPython bridge (ipython plugin)
 </t>
 <t tx="omlalala.20180206205022.999"></t>
-<t tx="omlalala.20180223235313.1"></t>
-<t tx="omlalala.20180223235503.1">body: 正文
-clone: 克隆
-command: 命令
-dependencies: 依赖项
-directive: 指令</t>
-<t tx="omlalala.20180223235519.1">icon box: 图标框
-identifier: 标识符</t>
-<t tx="omlalala.20180223235530.1">note: 注意
-node: 节点
-outline: 提纲
-</t>
-<t tx="omlalala.20180223235538.1">pane: 面板
-package: 软件包
-sentinel comments: 结构注释
-type: 键入</t>
-<t tx="omlalala.20180223235620.1"></t>
 <t tx="sps.20100708203040.19008">@language python
 import os
 pos = c.find_h("Users Guide")[0]
