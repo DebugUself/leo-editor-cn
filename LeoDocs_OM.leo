@@ -364,11 +364,14 @@
 </v>
 </v>
 <v t="ekr.20100805171546.4412"><vh>Web pages</vh>
+<v t="ekr.20101112045055.5065"><vh>@url docs generated from plugin_catalog.py</vh></v>
 <v t="ekr.20131005214621.16088"><vh>(OM:10%)Home page</vh>
-<v t="omlalala.20180206203511.1"><vh>@file index.html</vh></v>
+<v t="omlalala.20180206203511.1"
+expanded="omlalala.20180206203511.6,omlalala.20180206203511.12,"><vh>@file index.html</vh></v>
 </v>
+<v t="ekr.20101115152915.4937"><vh>wikipedia entry</vh></v>
 </v>
-<v t="omlalala.20180206205022.1"><vh>翻译进展</vh>
+<v t="omlalala.20180206205022.1"><vh>Leo 文档</vh>
 <v t="omlalala.20180206205022.2"><vh>Table of contents</vh>
 <v t="omlalala.20180206205022.3"><vh>@rst docs\leo_toc.html</vh></v>
 </v>
@@ -396,8 +399,8 @@
 </v>
 <v t="omlalala.20180206205022.67"><vh>Preliminaries</vh>
 <v t="omlalala.20180206205022.68"><vh>@rst docs/preliminaries.html</vh></v>
-<v t="omlalala.20180206205022.69"><vh>(LW:0%)@rst docs/preface.html</vh></v>
-<v t="omlalala.20180206205022.70"><vh>(LW:0%)@rst docs/testimonials.html</vh>
+<v t="omlalala.20180206205022.69"><vh>@rst docs/preface.html</vh></v>
+<v t="omlalala.20180206205022.70"><vh>@rst docs/testimonials.html</vh>
 <v t="omlalala.20180206205022.71"><vh>Leo is revolutionary</vh></v>
 <v t="omlalala.20180206205022.72"><vh>Leo is a showcase Python application</vh></v>
 <v t="omlalala.20180206205022.73"><vh>Leo is fun, even addicting</vh></v>
@@ -429,7 +432,7 @@
 <v t="omlalala.20180206205022.96"><vh>@rst docs/acknowledgements.html</vh></v>
 <v t="omlalala.20180206205022.97"><vh>@rst docs/license.html</vh></v>
 </v>
-<v t="omlalala.20180206205022.98"><vh>(lw:100%)Installing &amp; running Leo</vh>
+<v t="omlalala.20180206205022.98"><vh>Installing &amp; running Leo</vh>
 <v t="omlalala.20180206205022.99"><vh>@rst docs/getting-started.html</vh></v>
 <v t="omlalala.20180206205022.100"><vh>@rst docs/download.html</vh>
 <v t="omlalala.20180206205022.101"><vh>Snapshots</vh></v>
@@ -1745,15 +1748,6 @@
 </v>
 </v>
 </v>
-<v t="omlalala.20180302001110.1"><vh>翻译规范</vh></v>
-<v t="omlalala.20180223235313.1"><vh>译文词典</vh>
-<v t="omlalala.20180223235503.1"><vh>ABCDE</vh></v>
-<v t="omlalala.20180223235519.1"><vh>FGHIJ</vh></v>
-<v t="omlalala.20180223235530.1"><vh>KLMNO</vh></v>
-<v t="omlalala.20180223235538.1"><vh>PQRST</vh></v>
-<v t="omlalala.20180223235620.1"><vh>UVWXYZ</vh></v>
-</v>
-<v t="omlalala.20180301235830.1"><vh>章节词典</vh></v>
 </vnodes>
 <tnodes>
 <t tx="ekr.20031218072017.1416">def __init__(self):
@@ -2282,9 +2276,16 @@ Removes @ignore, @nocolor, @wrap directives.
 </t>
 <t tx="ekr.20050812123002.7">Used differently.  See rst2_pure_document.
 </t>
-<t tx="ekr.20050831195449">文档各章节认领翻译明细及进度, 请见节点: 翻译进展
+<t tx="ekr.20050831195449">Leo 如何安装从此看:
+http://leoeditor.com/installing.html
 
-关键词翻译对照表, 请见节点: 译文词典</t>
+有关 Leo 任何人都推荐先从此看:
+For everything a beginner needs to know about Leo see:
+http://leoeditor.com/tutorial.html
+
+任何疑问到这来交流:
+http://groups.google.com/group/leo-editor
+</t>
 <t tx="ekr.20051202072010"></t>
 <t tx="ekr.20060211140947.1">try:
     theId = os.getenv('USER')
@@ -2575,6 +2576,7 @@ controller(c).run()
             break
     return ''.join(result)
 </t>
+<t tx="ekr.20101112045055.5065" str_atime="1376412774.0">http://www.greygreen.org/tmp/plugins.html</t>
 <t tx="ekr.20101112222250.5322">def allowFile (self,p):
 
     '''Return True if we should allow scan of a file at p.'''
@@ -2597,6 +2599,97 @@ controller(c).run()
         r'@file trees\test.py',
     )
     return p.h not in aList and p.isAnyAtFileNode() and p.h.endswith('.py')
+</t>
+<t tx="ekr.20101115152915.4937">@nocolor-node
+
+{{Infobox software
+| name = Leo: Leonine Editor with Outlines
+| screenshot = [http://sourceforge.net/project/screenshots.php?group_id=3458&amp;ssid=22298 Screenshots]
+| caption =
+| developer = Edward K. Ream
+| latest_release_version = 5.6b1
+| latest_release_date = {{release date and age|2017|09|11}}
+| operating_system = [[Cross-platform]]
+| genre = [[Text editor]], [[Outliner]], [[Integrated development environment|IDE]]
+| license = [[Python (programming language)|Python]] License
+| website = http://leoeditor.com
+}}
+
+'''Leo''' ('''L'''eonine '''E'''ditor with '''O'''utlines) is a [[text editor]]
+that features [[outliner|outlines]] with clones as its central tool of
+organization, navigation, customization and scripting.
+
+==Language==
+
+Leo is written in [[Python (programming language)|Python]] and uses the [[Qt
+(toolkit)|Qt]]. It is fully scriptable using Python and can be extended with
+plugins. In Leo, outlines are hierarchical data structures that people use to
+work with and manage text files—including code.
+
+==Trees, clones and views==
+
+Leo is an [[outliner]]. Leo's outline pane shows a [[tree (data structure)]] of data nodes.
+Nodes contain headlines, body text, and other information.
+Headlines naturally serve as descriptions of the body text.
+For example, @file nodes are nodes whose headline starts with @file.
+
+Leo trees are in fact [[directed acyclic graph|directed acyclic graphs]];
+nodes may have more than one parent.
+Leo calls such nodes clones.
+Clones appear in several places in the outline pane.
+
+Views are simply nodes whose children contain clones. A single outline may contain
+arbitrarily many views of the nodes contained therein.
+Views and clones turn Leo into a supremely flexible filing cabinet: any node may be filed
+in arbitrarily many places.
+&lt;ref&gt;[http://leoeditor.com/nutshell.html Leo documentation: Leo in a Nutshell]&lt;/ref&gt;
+
+==External files==
+
+@file nodes represent external files, files on the computer's file system.
+When saving an outline Leo automatically writes all changed @file
+trees back to the external files.
+Comments, called sentinel lines, in external files represent the outline structure.
+When reading an outline, these comments allows Leo to recreate
+@file trees using only the data in the external file.
+
+@auto nodes represent external files without using sentinel comments.
+When reading @auto nodes, Leo uses the program structure of the external file
+to create the @auto tree.
+
+==Scripting==
+
+Leo's scripting environment takes full advantage of outline structure:
+
+* The body text of any node may contain a Leo script, a Python script executed in the context of a Leo outline.
+
+* A simple [[API]] &lt;ref&gt;[http://leoeditor.com/scripting.html Leo documentation: Scripting Leo with Python]&lt;/ref&gt; gives Leo scripts full access to all data in loaded outlines, as well as full access to Leo's own source code. The API includes Python [[iterators]] that allow scripts to traverse outlines easily.
+
+* Scripts may be composed of any tree of nodes.
+  A [[markup language]] similar to [[noweb]] &lt;ref&gt;[http://leoeditor.com/tutorial.html#section-references Leo documentation: Tutorial]&lt;/ref&gt; tells Leo how to create scripts from (parts of) an outline.
+
+* Headlines naturally control and guide scripts.
+
+** @test nodes represent unit tests. Leo can execute the body of an @test node as unit test, without the body having to create an explicit subclass of Python's UnitTest.TestCase class. &lt;ref&gt;[
+
+** @button nodes contain scripts that can be applied to other nodes.  In effect, @button nodes create user-defined commands. &lt;ref&gt;
+
+==External links==
+{{Portal|Free software}}
+*[http://leoeditor.com Leo's homepage]
+*[http://sourceforge.net/projects/leo/ Leo at SourceForge],[http://sourceforge.net/project/screenshots.php?group_id=3458&amp;ssid=22298 screenshots]
+*[http://groups.google.com/group/leo-editor leo-editor Google Group]
+*{{cite web | title=Literate Programming and Leo | publisher = [[Slashdot]] | date=2002-08-28 | url=http://developers.slashdot.org/article.pl?sid=02/08/28/1655207 }}
+*{{cite web |author=[[James Tauber]] |title=Using the Leo Outliner as a PIM | date=2004-05-15 |url=http://jtauber.com/blog/2004/05/15/using_the_leo_outliner_as_a_pim/ }}
+*{{cite book | author = Vreda Pieterse, Derrick G. Kourie, Andrew Boake | title=ACM International Conference Proceeding Series; Vol. 75. Proceedings of the 2004 annual research conference of the South African institute of computer scientists and information technologists on IT research in developing countries | chapter=A case for contemporary literate programming | editor=[[Association for Computing Machinery|ACM]] | pages=2–9 | url=http://portal.acm.org/citation.cfm?id=1035054}} (cited in references)
+
+==References==
+&lt;references/&gt;
+
+{{DEFAULTSORT:Leo (Text Editor)}}
+[[Category:Free text editors]]
+[[Category:Free software programmed in Python]]
+[[Category:Outliners]]
 </t>
 <t tx="ekr.20111017085134.16158"></t>
 <t tx="ekr.20111017085134.16159">'''
@@ -25106,30 +25199,6 @@ Downloading, Installing &amp; Running Leo
     The IPython bridge (ipython plugin)
 </t>
 <t tx="omlalala.20180206205022.999"></t>
-<t tx="omlalala.20180223235313.1"></t>
-<t tx="omlalala.20180223235503.1">body: 正文
-clone: 克隆
-command: 命令
-dependencies: 依赖项
-directive: 指令</t>
-<t tx="omlalala.20180223235519.1">icon box: 图标框
-identifier: 标识符</t>
-<t tx="omlalala.20180223235530.1">note: 注意
-node: 节点
-outline: 提纲
-</t>
-<t tx="omlalala.20180223235538.1">pane: 面板
-package: 软件包
-sentinel comments: 结构注释
-type: 键入</t>
-<t tx="omlalala.20180223235620.1"></t>
-<t tx="omlalala.20180301235830.1">- A brief summary of Leo
-Leo 简介
-- What people are saying about Leo
-Leo 评述</t>
-<t tx="omlalala.20180302001110.1">- 替换原英文翻译, 不保留原英文
-- 中英文之间空格, 通过 搜狗输入法 实现
-- 原文是英文半角标点, 切换为中文全角标点. 实现方式待研究</t>
 <t tx="sps.20100708203040.19008">@language python
 import os
 pos = c.find_h("Users Guide")[0]
