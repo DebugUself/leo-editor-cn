@@ -364,7 +364,7 @@
 </v>
 </v>
 <v t="ekr.20100805171546.4412"><vh>Web pages</vh>
-<v t="ekr.20131005214621.16088"><vh>(OM:10%)Home page</vh>
+<v t="ekr.20131005214621.16088"><vh>(OM:100%)Home page</vh>
 <v t="omlalala.20180206203511.1"><vh>@file index.html</vh></v>
 </v>
 </v>
@@ -1745,7 +1745,6 @@
 </v>
 </v>
 </v>
-<v t="omlalala.20180302001110.1"><vh>翻译规范</vh></v>
 <v t="omlalala.20180223235313.1"><vh>译文词典</vh>
 <v t="omlalala.20180223235503.1"><vh>ABCDE</vh></v>
 <v t="omlalala.20180223235519.1"><vh>FGHIJ</vh></v>
@@ -1753,7 +1752,9 @@
 <v t="omlalala.20180223235538.1"><vh>PQRST</vh></v>
 <v t="omlalala.20180223235620.1"><vh>UVWXYZ</vh></v>
 </v>
-<v t="omlalala.20180301235830.1"><vh>章节词典</vh></v>
+<v t="omlalala.20180301235830.1"><vh>章节词典</vh>
+<v t="omlalala.20180302193610.1"><vh>文档链接</vh></v>
+</v>
 </vnodes>
 <tnodes>
 <t tx="ekr.20031218072017.1416">def __init__(self):
@@ -25123,13 +25124,30 @@ package: 软件包
 sentinel comments: 结构注释
 type: 键入</t>
 <t tx="omlalala.20180223235620.1"></t>
-<t tx="omlalala.20180301235830.1">- A brief summary of Leo
-Leo 简介
-- What people are saying about Leo
-Leo 评述</t>
-<t tx="omlalala.20180302001110.1">- 替换原英文翻译, 不保留原英文
-- 中英文之间空格, 通过 搜狗输入法 实现
-- 原文是英文半角标点, 切换为中文全角标点. 实现方式待研究</t>
+<t tx="omlalala.20180301235830.1">- 链接形式
+    - 首页链接
+        - 出现在首页中的链接, 使用 HTML 标签形式
+            - 如: &lt;a href="html/preface.html"&gt;&lt;strong&gt;A brief summary of Leo&lt;/strong&gt;&lt;/a&gt;
+    - 文档链接
+        - 出现在文档中的链接, 使用 rst 语法
+            - 如: .. _`Installing Leo with git`:  installing.html#installing-leo-with-git
+- 处理方式
+    - 为简化, 只备注 原链接名称, 及 建议翻译链接名称, 不备注全部链接代码. 
+        - 正确: A brief summary of Leo: Leo 简介
+        - 错误: &lt;a href="html/preface.html"&gt;&lt;strong&gt;A brief summary of Leo&lt;/strong&gt;&lt;/a&gt; Leo 简介
+        - 正确: Installing Leo with git: 使用 git 安装 Leo
+        - 错误: .. _`Installing Leo with git`:  installing.html#installing-leo-with-git 使用 git 安装 Leo
+</t>
+<t tx="omlalala.20180302193610.1">- A brief summary of Leo: Leo 简介
+- What people are saying about Leo: Leo 评述
+- Learn about Leo in 20 minutes: 快速上手
+- Tutorial: 教程
+- Documentation: 文档
+- Screen shots: 截屏
+- Videos: 视频
+- Tutorial Slide Shows: 教程幻灯
+- Code Snippets: 代码片段
+- More links: 更多链接</t>
 <t tx="sps.20100708203040.19008">@language python
 import os
 pos = c.find_h("Users Guide")[0]
