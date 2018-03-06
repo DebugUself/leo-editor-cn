@@ -605,7 +605,7 @@
 </v>
 </v>
 </v>
-<v t="omlalala.20180206205022.249"><vh>Tutorials</vh>
+<v t="omlalala.20180206205022.249"><vh>教程</vh>
 <v t="omlalala.20180206205022.250"><vh>@rst docs\tutorial.html</vh></v>
 <v t="omlalala.20180206205022.251"><vh>@rst docs\tutorial-basics.html</vh>
 <v t="omlalala.20180206205022.252"><vh>Leo's main window</vh></v>
@@ -638,7 +638,7 @@
 <v t="omlalala.20180206205022.276"><vh>Using Chapters</vh></v>
 <v t="omlalala.20180206205022.277"><vh>Summary</vh></v>
 </v>
-<v t="omlalala.20180206205022.278"><vh>@rst docs\tutorial-rst3.html</vh>
+<v t="omlalala.20180206205022.278"><vh>(OM:100%)@rst docs\tutorial-rst3.html</vh>
 <v t="omlalala.20180206205022.279"><vh>@rst-ignore notes</vh></v>
 <v t="omlalala.20180206205022.280"><vh>Install docutils and (optional) sphinx</vh></v>
 <v t="omlalala.20180206205022.281"><vh>Create the @rst node</vh></v>
