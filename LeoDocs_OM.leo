@@ -11375,8 +11375,7 @@ Ctrl-left-clicking any URL opens the URL.
 
 @chapter trees denote chapters. Activating a chapter shows only the nodes in that chapter.
 </t>
-<t tx="omlalala.20180206205022.278">.. |---| unicode:: U+02015 .. for quotes
-   :trim:
+<t tx="omlalala.20180206205022.278">   :trim:
    
 .. |br| raw:: html
 
@@ -11483,13 +11482,13 @@ myDocument.html.txt 是 shpinx 的 **输入** 文件.
     
 rST 标记使用 上/下划线(over/underlining) 表示单元标题. 在标题(战争与和平)上, 输入井号组成的 **上划线**, 在其下方输入同样 的 **下划线**. rST 对单元标题的标记有点麻烦. 
 
-- 上/下划线必须包含4个字符
-- 上/下划线必须至少与标题等长
-- 上划线与下划线必须完全一样
+- 上/下划线必须包含 4 个字符
+- 上/下划线所含字符数, 必须不少于标题所含字符数
+- 上划线符号与下划线符号必须相同
 
 另外, rst3 命令要求单元标题的上/下划线使用 "#" 字符.
 </t>
-<t tx="omlalala.20180206205022.286">在 @rst 节点中, 输入正文:
+<t tx="omlalala.20180206205022.286">在 @rst 节点本身的正文中, 输入开篇语:
 
     "Well, Prince, so Genoa and Lucca are now just family estates of the
     Buonapartes. But I warn you, if you don't tell me that this means war,
@@ -11513,7 +11512,7 @@ rST 标记使用 上/下划线(over/underlining) 表示单元标题. 在标题(�
 
 2. **新节点的标题成为章节的标题.**
 
-3. 在节点的内容文本中, 输入章节的内容.
+3. 在节点的正文中, 输入章节的内容.
 
 这就是全部:
 
@@ -11521,7 +11520,7 @@ rST 标记使用 上/下划线(over/underlining) 表示单元标题. 在标题(�
 
 - **你通过重组节点, 重组你的文档.**
 
-重组文档时, *没有* 必要修改标记, 相比海量输入 "原始" rST, 这是一个巨大的进步.
+重组文档时, *没有* 必要修改标记, 相比编写 "原始" rST, 这是一个巨大的进步.
 </t>
 <t tx="omlalala.20180206205022.288">现在你写了小说, 短小故事, 文档等. 总是这样组织你的工作:
 
@@ -11535,7 +11534,7 @@ rST 标记使用 上/下划线(over/underlining) 表示单元标题. 在标题(�
 
 - 如果当前节点是一个 @rst 节点, 或 @rst 节点的后代节点, rst3 命令适用于最近的祖先(ancestor) @rst 节点.
 
-- 其他情况, rst3 命令适用于所有后代 @rst 树.
+- 否则, rst3 命令应用于所有后代 @rst 树.
 
 如果 @bool rst_call_docutils 为 True, rst3 命令将自动调用 doctils 生成输出文件. 更多关于 Leo 设置, 请见 `此章 &lt;tutorial-basics.html#configuring-leo&gt;`_.
 
@@ -11547,7 +11546,7 @@ rST 标记使用 上/下划线(over/underlining) 表示单元标题. 在标题(�
 
     writeToDocutils: docutils not present
     
-2. Leo 有一个默认的样式表, 可以加大加粗标题, 所以你可以忽视如下信息::
+2. Leo 有一个默认的样式表, 可以居中, 并加大加粗标题, 所以你可以忽视如下信息::
     
     stylesheet not found &lt;path-to&gt;default.css
 </t>
@@ -11600,13 +11599,13 @@ rST ``|`` 标记分拆文本为指定行, 但是有些场景无法使用. 在文
 
 - 生成的 rST 的章节层级, 对应 Leo 中的提纲层级.
 
-- 你通过重组对应的 @rst 树来重组你 rST 文档.
+- 你只需要通过重组对应的 @rst 树来重组你 rST 文档.
 
-- rst3 命令作用于最近的祖先 @rst 节点, 或所有 @rst 节点的所有后代.
+- rst3 命令作用于最近的祖先 @rst 节点, 如果有的话, 或所有 @rst 节点的所有后代.
 
 - @rst-no-head 节点插入文本(或标记) , 无需 rST 标题.
 
-- rst3 命令将忽视 @rst-ignore 节点和 @rst-ignore-tree 节点.
+- rst3 命令将忽视 @rst-ignore 节点和 @rst-ignore-tree 树.
 
 - LeoDocs.leo 中的 @button make-sphinx 节点, 自动调用 sphinx.
 
@@ -11623,6 +11622,11 @@ rST ``|`` 标记分拆文本为指定行, 但是有些场景无法使用. 在文
 - 创建你自己的 @rst 节点. 运行 rst3 命令, 观察结果.
 
 - 如果你遇到问题, 可求助于 https://groups.google.com/forum/#!forum/leo-editor.
+
+翻译贡献者: `OMlalala &lt;https://github.com/OMlalala&gt;`_
+ 
+校对贡献者: `hetao &lt;https://github.com/livingworld&gt;`_
+
 </t>
 <t tx="omlalala.20180206205022.296">@ @rst-options
 .. A very cool option: doc parts will be rendered properly,

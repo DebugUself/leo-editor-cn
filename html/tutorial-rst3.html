@@ -158,15 +158,15 @@
 </div>
 <p>rST 标记使用 上/下划线(over/underlining) 表示单元标题. 在标题(战争与和平)上, 输入井号组成的 <strong>上划线</strong>, 在其下方输入同样 的 <strong>下划线</strong>. rST 对单元标题的标记有点麻烦.</p>
 <ul class="simple">
-<li>上/下划线必须包含4个字符</li>
-<li>上/下划线必须至少与标题等长</li>
-<li>上划线与下划线必须完全一样</li>
+<li>上/下划线必须包含 4 个字符</li>
+<li>上/下划线所含字符数, 必须不少于标题所含字符数</li>
+<li>上划线符号与下划线符号必须相同</li>
 </ul>
 <p>另外, rst3 命令要求单元标题的上/下划线使用 “#” 字符.</p>
 </div>
 <div class="section" id="chapter">
 <h2><a class="toc-backref" href="#id23">开始单元(chapter)</a><a class="headerlink" href="#chapter" title="Permalink to this headline">¶</a></h2>
-<p>在 &#64;rst 节点中, 输入正文:</p>
+<p>在 &#64;rst 节点本身的正文中, 输入开篇语:</p>
 <blockquote>
 <div><p>“Well, Prince, so Genoa and Lucca are now just family estates of the
 Buonapartes. But I warn you, if you don’t tell me that this means war,
@@ -190,14 +190,14 @@ only by the elite.</p>
 <ol class="arabic simple">
 <li>创建一个新的提纲节点, 作为 &#64;rst 节点的后代.</li>
 <li><strong>新节点的标题成为章节的标题.</strong></li>
-<li>在节点的内容文本中, 输入章节的内容.</li>
+<li>在节点的正文中, 输入章节的内容.</li>
 </ol>
 <p>这就是全部:</p>
 <ul class="simple">
 <li><strong>rst3 命令自动生成 rST 下划线</strong>.</li>
 <li><strong>你通过重组节点, 重组你的文档.</strong></li>
 </ul>
-<p>重组文档时, <em>没有</em> 必要修改标记, 相比海量输入 “原始” rST, 这是一个巨大的进步.</p>
+<p>重组文档时, <em>没有</em> 必要修改标记, 相比编写 “原始” rST, 这是一个巨大的进步.</p>
 </div>
 <div class="section" id="id9">
 <h2><a class="toc-backref" href="#id25">书写你的文档</a><a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h2>
@@ -212,7 +212,7 @@ only by the elite.</p>
 <p id="index-1"><code class="docutils literal"><span class="pre">&lt;Alt-X&gt;rst3&lt;Return&gt;</span></code> 运行 rst3 命令.</p>
 <ul class="simple">
 <li>如果当前节点是一个 &#64;rst 节点, 或 &#64;rst 节点的后代节点, rst3 命令适用于最近的祖先(ancestor) &#64;rst 节点.</li>
-<li>其他情况, rst3 命令适用于所有后代 &#64;rst 树.</li>
+<li>否则, rst3 命令应用于所有后代 &#64;rst 树.</li>
 </ul>
 <p>如果 &#64;bool rst_call_docutils 为 True, rst3 命令将自动调用 doctils 生成输出文件. 更多关于 Leo 设置, 请见 <a class="reference external" href="tutorial-basics.html#configuring-leo">此章</a>.</p>
 <p>使用 sphinx 时, 在运行 rst3 命令后, 运行 sphinx 的 “make” 工具, 创建最后的输出文件.</p>
@@ -223,7 +223,7 @@ only by the elite.</p>
 </pre></div>
 </div>
 </li>
-<li><p class="first">Leo 有一个默认的样式表, 可以加大加粗标题, 所以你可以忽视如下信息:</p>
+<li><p class="first">Leo 有一个默认的样式表, 可以居中, 并加大加粗标题, 所以你可以忽视如下信息:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">stylesheet</span> <span class="ow">not</span> <span class="n">found</span> <span class="o">&lt;</span><span class="n">path</span><span class="o">-</span><span class="n">to</span><span class="o">&gt;</span><span class="n">default</span><span class="o">.</span><span class="n">css</span>
 </pre></div>
 </div>
@@ -286,10 +286,10 @@ only by the elite.</p>
 <li>以 “rst3” 开头的设置, 控制 rst3 命令的运行.</li>
 <li>在 &#64;rst 树中, 标题将成为 rST 的章节.</li>
 <li>生成的 rST 的章节层级, 对应 Leo 中的提纲层级.</li>
-<li>你通过重组对应的 &#64;rst 树来重组你 rST 文档.</li>
-<li>rst3 命令作用于最近的祖先 &#64;rst 节点, 或所有 &#64;rst 节点的所有后代.</li>
+<li>你只需要通过重组对应的 &#64;rst 树来重组你 rST 文档.</li>
+<li>rst3 命令作用于最近的祖先 &#64;rst 节点, 如果有的话, 或所有 &#64;rst 节点的所有后代.</li>
 <li>&#64;rst-no-head 节点插入文本(或标记) , 无需 rST 标题.</li>
-<li>rst3 命令将忽视 &#64;rst-ignore 节点和 &#64;rst-ignore-tree 节点.</li>
+<li>rst3 命令将忽视 &#64;rst-ignore 节点和 &#64;rst-ignore-tree 树.</li>
 <li>LeoDocs.leo 中的 &#64;button make-sphinx 节点, 自动调用 sphinx.</li>
 <li>CheatSheet.leo 包含了教程示例的扩展版本. 你可以从 Leo 的帮助菜单打开 CheatSheet.leo</li>
 <li>rst3 命令提供了 <em>很多</em> 其他功能. 具体细节, 请见 <a class="reference external" href="rstplugin3.html">rst3 单元</a>.</li>
@@ -304,6 +304,8 @@ only by the elite.</p>
 <li>创建你自己的 &#64;rst 节点. 运行 rst3 命令, 观察结果.</li>
 <li>如果你遇到问题, 可求助于 <a class="reference external" href="https://groups.google.com/forum/#!forum/leo-editor">https://groups.google.com/forum/#!forum/leo-editor</a>.</li>
 </ul>
+<p>翻译贡献者: <a class="reference external" href="https://github.com/OMlalala">OMlalala</a></p>
+<p>校对贡献者: <a class="reference external" href="https://github.com/livingworld">hetao</a></p>
 </div>
 </div>
 
