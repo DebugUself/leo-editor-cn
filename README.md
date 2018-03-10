@@ -11,12 +11,12 @@
 欢迎来到: 释狮大会.
 
 ## 翻译进展
-Leo 文档共 6.2 万字, 截止 180305, 完成进度: 0.4%
+Leo 文档共 6.2 万字, 截止 180310, 完成进度: 2.9%
 
 参与翻译的贡献者为
-- @zoomquiet
-- @livingworld
-- @OMlalala
+- [ZoomQuiet](https://github.com/ZoomQuiet)
+- [hetao](https://github.com/livingworld)
+- [OMlalala](https://github.com/OMlalala)
 
 各贡献者认领翻译章节及明细, 请见 [翻译进展](https://github.com/DebugUself/leo-editor-cn/wiki/translate-log)
 
