@@ -366,8 +366,7 @@
 <v t="ekr.20100805171546.4412"><vh>Web pages</vh>
 <v t="ekr.20101112045055.5065"><vh>@url docs generated from plugin_catalog.py</vh></v>
 <v t="ekr.20131005214621.16088"><vh>(OM:100%)Home page</vh>
-<v t="omlalala.20180206203511.1"
-expanded="omlalala.20180206203511.6,omlalala.20180206203511.11,omlalala.20180206203511.12,"><vh>@file index.html</vh></v>
+<v t="omlalala.20180206203511.1"><vh>@file index.html</vh></v>
 </v>
 <v t="ekr.20101115152915.4937"><vh>wikipedia entry</vh></v>
 </v>
@@ -608,7 +607,7 @@ expanded="omlalala.20180206203511.6,omlalala.20180206203511.11,omlalala.20180206
 </v>
 </v>
 </v>
-<v t="omlalala.20180206205022.249"><vh>Tutorials</vh>
+<v t="omlalala.20180206205022.249"><vh>教程</vh>
 <v t="omlalala.20180206205022.250"><vh>@rst docs\tutorial.html</vh></v>
 <v t="omlalala.20180206205022.251"><vh>@rst docs\tutorial-basics.html</vh>
 <v t="omlalala.20180206205022.252"><vh>Leo's main window</vh></v>
@@ -643,24 +642,24 @@ expanded="omlalala.20180206203511.6,omlalala.20180206203511.11,omlalala.20180206
 </v>
 <v t="omlalala.20180206205022.278"><vh>@rst docs\tutorial-rst3.html</vh>
 <v t="omlalala.20180206205022.279"><vh>@rst-ignore notes</vh></v>
-<v t="omlalala.20180206205022.280"><vh>Install docutils and (optional) sphinx</vh></v>
-<v t="omlalala.20180206205022.281"><vh>Create the @rst node</vh></v>
-<v t="omlalala.20180206205022.282"><vh>The output and intermediate files</vh></v>
-<v t="omlalala.20180206205022.283"><vh>Choose docutils or sphinx</vh>
-<v t="omlalala.20180206205022.284"><vh>Setting up conf.py for sphinx</vh></v>
+<v t="omlalala.20180206205022.280"><vh>安装 docutils 和 (可选) sphinx</vh></v>
+<v t="omlalala.20180206205022.281"><vh>创建 @rst 节点</vh></v>
+<v t="omlalala.20180206205022.282"><vh>输出文件和中间文件</vh></v>
+<v t="omlalala.20180206205022.283"><vh>选择 docutils 或 sphinx</vh>
+<v t="omlalala.20180206205022.284"><vh>设置 sphinx 的 conf.py</vh></v>
 </v>
-<v t="omlalala.20180206205022.285"><vh>Put a title in the @rst node </vh></v>
-<v t="omlalala.20180206205022.286"><vh>Start the chapter</vh></v>
-<v t="omlalala.20180206205022.287"><vh>Create sections and subsections</vh></v>
-<v t="omlalala.20180206205022.288"><vh>Write your document</vh></v>
-<v t="omlalala.20180206205022.289"><vh>Run the rst3 command</vh></v>
-<v t="omlalala.20180206205022.290"><vh>Other topics</vh>
-<v t="omlalala.20180206205022.291"><vh>\@rst-no-head suppresses sections</vh></v>
-<v t="omlalala.20180206205022.292"><vh>\@rst-ignore &amp; @rst-ignore-tree ignore text</vh></v>
-<v t="omlalala.20180206205022.293"><vh>Inserting raw markup</vh></v>
+<v t="omlalala.20180206205022.285"><vh>在 @rst 节点输入标题</vh></v>
+<v t="omlalala.20180206205022.286"><vh>开始单元(chapter)</vh></v>
+<v t="omlalala.20180206205022.287"><vh>创建章节(sections) 和子章节(subsections)</vh></v>
+<v t="omlalala.20180206205022.288"><vh>书写你的文档</vh></v>
+<v t="omlalala.20180206205022.289"><vh>运行 rst3 命令</vh></v>
+<v t="omlalala.20180206205022.290"><vh>其他主题</vh>
+<v t="omlalala.20180206205022.291"><vh>\@rst-no-head 覆盖章节</vh></v>
+<v t="omlalala.20180206205022.292"><vh>\@rst-ignore &amp; @rst-ignore-tree 忽视内容</vh></v>
+<v t="omlalala.20180206205022.293"><vh>插入原始标记</vh></v>
 </v>
-<v t="omlalala.20180206205022.294"><vh>Summary</vh></v>
-<v t="omlalala.20180206205022.295"><vh>Further study</vh></v>
+<v t="omlalala.20180206205022.294"><vh>总结</vh></v>
+<v t="omlalala.20180206205022.295"><vh>进阶学习</vh></v>
 </v>
 <v t="omlalala.20180206205022.296"><vh>@rst docs\tutorial-scripting.html</vh>
 <v t="omlalala.20180206205022.297"><vh>Hello world</vh></v>
@@ -11376,42 +11375,41 @@ Ctrl-left-clicking any URL opens the URL.
 
 @chapter trees denote chapters. Activating a chapter shows only the nodes in that chapter.
 </t>
-<t tx="omlalala.20180206205022.278">.. |---| unicode:: U+02015 .. for quotes
-   :trim:
+<t tx="omlalala.20180206205022.278">   :trim:
    
 .. |br| raw:: html
 
    &lt;br /&gt;
 
 ########################################
-Creating Documents from Outlines
+使用提纲创建文档
 ########################################
 
 .. _`LaTeX`:    http://www.latex-project.org/
-.. _`Python's`: http://www.python.org/
+.. _`Python`: http://www.python.org/
 .. _`Sphinx`:   http://sphinx-doc.org/
-.. _`Sphinx documentation`: http://sphinx-doc.org/contents.html
+.. _`Sphinx 文档`: http://sphinx-doc.org/contents.html
 .. _`docutils`: http://docutils.sourceforge.net
 .. _`reStructuredText`: http://docutils.sourceforge.net/rst.html
-.. _`rST primer`: http://sphinx-doc.org/rest.html
-.. _`first tutorial`: tutorial-basics.html
+.. _`rST 入门`: http://sphinx-doc.org/rest.html
+.. _`第一篇教程`: tutorial-basics.html
 
 ..  "I am a huge fan of Leo. I think it's quite possibly the most
 ..  revolutionary programming tool I have ever used and it (along with the
 ..  Python language) has utterly changed my view of programming (indeed of
 ..  writing) forever."---Shakeeb Alireza
     
-Leo's rst3 command converts Leo trees containing `reStructuredText`_ (rST) or `Sphinx`_ markup to HTML, PDF, `LaTeX`_ and other kinds of output files. This tutorial gives step-by-step instructions for using the rst3 command.
+Leo 的 rst3 命令, 可将包含 `reStructuredText`_ (rST) 或 `Sphinx`_ 标记的 Leo 树转化为 HTML, PDF, `LaTeX`_ 以及其他输出文件格式. 本教程提供了使用 rst3 命令的分步指导.
 
-**Prerequisites**: Please make sure you have read the `first tutorial`_ before reading this one. If you are new to rST, please read the `rST primer`_. For full information about Sphinx, please read the `Sphinx documentation`_.
+**前提条件**: 请确保你已提前阅读 `第一篇教程`_. 如果你初次接触 rST, 请阅读 `rST 入门`_. 关于 Sphinx 的全部信息, 请阅读 `Sphinx 文档`_.
 
-The rst3 command makes using rST or Sphinx *much* easier by automatically creating underlining for rST sections. To reorganize a document, just reorganize the corresponding Leo outline: you don't have to change underlining characters by hand.
+rst3 命令, 可自动创建 rST 部分的下划线, *极大* 简化 rST 或 Sphinx 的使用. 想重新组织一个文档, 只需重新组织 Leo 的对应提纲: 你无需手动修改下划线字符.
 
-The tutorial covers only the basic features of the rst3 command. This is enough to generate all of Leo's documentation!
+本教程仅包含 rst3 命令的基本特性. 这足以生成所有 Leo 文档! 
 
-CheatSheet.leo contains an expanded version of the example used in this tutorial. You can open CheatSheet.leo from Leo's help menu.
+CheatSheet.leo 包含本教程示例的拓展版本. 你可以从 Leo 的帮助菜单打开 CheatSheet.leo.
 
-.. contents:: Contents
+.. contents:: 目录
     :depth: 3
     :local:
 
@@ -11420,74 +11418,77 @@ CheatSheet.leo contains an expanded version of the example used in this tutorial
 
 For most of the purposes that a programmer would use rst, i.e., documentation or a web page, the tutorial goes far enough. But for those who have different output goals, highlighting the flexibility that Leo with rst should be a primary goal. There are literally hundreds of writers in the world for every programmer. If you want Leo to become popular, this is a critical understanding.
 </t>
-<t tx="omlalala.20180206205022.280">The rst3 command requires the `docutils`_ Python package. You must also install the `Sphinx`_ package if you use sphinx markup. Sphinx gives Leo's and `Python's`_ web sites their distinctive appearance and features. After installing docutils or sphinx, you must restart Leo so that the new installation will take effect.
+<t tx="omlalala.20180206205022.280">rst3 命令需要 `docutils`_ Python 包. 如果你使用 sphinx 标记, 你必须同样安装 `Sphinx`_ 包. Sphinx 给予 Leo 和 `Python`_ 网站独特的外观和特性. 安装 docutils 或 sphinx 后, 你必须重启 Leo, 以使新安装生效.
 </t>
 <t tx="omlalala.20180206205022.281">.. index::
     pair: @rst Node; Tutorial
     
-1. Create a node someplace in your outline.
+1. 在你的提纲中创建一个节点.
 
-2. Type this in the headline::
+2. 输入标题::
 
         @rst myDocument.html
-        
-The @rst node, and all its descendants, represents your document.</t>
-<t tx="omlalala.20180206205022.282">The rst3 command applied to::
+
+@rst 节点及其后代(descendants)节点, 代表了你的文档. </t>
+<t tx="omlalala.20180206205022.282">用于::
 
     @rst myDocument.html
     
-will generate an **output file**, myDocument.html, from this node and its children, grand-children, etc. The rst3 command creates the output file in the same directory as the .leo file containing the @rst node. You can specify other directories using absolute or relative paths. Examples::
+的 rst3 命令, 将从这个节点和它的子节点, 孙节点等, 生成一个 **输出文件 (output file)**, myDocument.html. 由于 .leo 文件包含 @rst 节点, 所以 rst3 命令将在同一文件夹中创建输出文件. 你可以使用绝对或相对路径, 指定其他文件夹. 例如::
 
-    @rst myDocument.html        # in same folder as the .leo file
-    @rst docs/myDocument.html   # in a subfolder
-    @rst ~/docs/myDocument.html # an absolute path to the folder
+    @rst myDocument.html        # 与 .leo 文件在同一文件夹
+    @rst docs/myDocument.html   # 在子文件夹
+    @rst ~/docs/myDocument.html # 文件夹的绝对路径
     
-The rst3 command writes an **intermediate file** in the same directory as the output file. This intermediate file contains the reStructuredText markup generated by the rst3 command. It has the suffix .txt::
+rst3 命令在输出文件的同一目录下生成 **中间文件 (intermediate file)**, 其包含由 rst3 命令生成的 reStructuredText 标记, 为 .txt 后缀::
 
     myDocument.html.txt
 
 </t>
-<t tx="omlalala.20180206205022.283">Put the rst3_call_docutils setting in the @settings tree in the .leo file containing the @rst node. This setting determines whether to use plain rST markup or full sphinx markup. To use plain reStructuredText markup::
+<t tx="omlalala.20180206205022.283">在包含 @rst 节点的 .leo 文件的 @settings 树中, 设置 rst3_call_docutils, 以决定是使用纯 rST 标记, 还是全部 sphinx 标记. 
+
+使用纯 reStructuredText 标记::
 
     @bool rst3_call_docutils = True
     
-To use sphinx markup::
-
+使用 sphinx 标记::
+    
     @bool rst3_call_docutils = False
 </t>
-<t tx="omlalala.20180206205022.284">When using sphinx you must ensure that sphinx's conf.py file is configured so that it will find the intermediate files created by the rst3 command. For example, the conf.py file for Leo's docs contains the following::
+<t tx="omlalala.20180206205022.284">使用 sphinx, 你必须配置 sphinx 的 conf.py 文件, 以发现由 rst3 命令创建的中间文件.
+例如, Leo 文档的 conf.py 包含如下内容::
 
     source_suffix = '.html.txt'
     
-This "matches" the form of the intermediate files.  For example, given::
+其 "匹配" 中间文件的形式. 例如, 提供::
 
     @rst myDocument.html
     
-and the default value for the rst3_write_intermediate_extension setting::
+设置 rst3_intermediate_extension 的默认取值::
 
     @string rst3_write_intermediate_extension = .txt
     
-the name of intermediate file will be::
+中间文件的名称将是::
 
     myDocument.html.txt
 
-myDocument.html.txt is the **input** file for sphinx.
+myDocument.html.txt 是 shpinx 的 **输入** 文件.
 </t>
-<t tx="omlalala.20180206205022.285">Put something like this in the body of the @rst node::
+<t tx="omlalala.20180206205022.285">在 @rst 节点的内容文本中, 输入::
 
     #############
-    War and Peace
+    战争与和平
     #############
     
-rST markup uses over/underlining to indicate chapter titles. Put a **overline** consisting of pounds signs above the title (War and Peace), and an identical **underline** of pound signs below as shown. rST markup for chapter titles is a bit picky:
+rST 标记使用 上/下划线(over/underlining) 表示单元标题. 在标题(战争与和平)上, 输入井号组成的 **上划线**, 在其下方输入同样 的 **下划线**. rST 对单元标题的标记有点麻烦. 
 
-- under/overlines must be at least 4 characters long
-- under/overlines must be at least as long as the title.
-- The overline and underline must be identical.
+- 上/下划线必须包含 4 个字符
+- 上/下划线所含字符数, 必须不少于标题所含字符数
+- 上划线符号与下划线符号必须相同
 
-In addition, the rst3 command requires that the "#" character be used in the over/underlines for chapter titles.
+另外, rst3 命令要求单元标题的上/下划线使用 "#" 字符.
 </t>
-<t tx="omlalala.20180206205022.286">Put introductory words in the body of the @rst node itself:
+<t tx="omlalala.20180206205022.286">在 @rst 节点本身的正文中, 输入开篇语:
 
     "Well, Prince, so Genoa and Lucca are now just family estates of the
     Buonapartes. But I warn you, if you don't tell me that this means war,
@@ -11505,121 +11506,127 @@ In addition, the rst3 command requires that the "#" character be used in the ove
     from la grippe; grippe being then a new word in St. Petersburg, used
     only by the elite.
 </t>
-<t tx="omlalala.20180206205022.287">To create a new section, subsection, etc., in the output file:
+<t tx="omlalala.20180206205022.287">要想创建一个新的章节, 子章节等, 需在输出文件中:
 
-1. Create a new outline node, as some descendant of the @rst node.
+1. 创建一个新的提纲节点, 作为 @rst 节点的后代.
 
-2. **The new node's headline becomes the section's title**.
+2. **新节点的标题成为章节的标题.**
 
-3. Type the contents of the section in the body text of the node.
+3. 在节点的正文中, 输入章节的内容.
 
-That's all there is to it:
+这就是全部:
 
-- **The rst3 command generates rST underlining automatically**.
+- **rst3 命令自动生成 rST 下划线**.
 
-- **You reorganize your document by reorganizing nodes**.
+- **你通过重组节点, 重组你的文档.**
 
-There is *no* need to change markup when reorganizing your document, a huge improvement over writing "raw" rST.
+重组文档时, *没有* 必要修改标记, 相比编写 "原始" rST, 这是一个巨大的进步.
 </t>
-<t tx="omlalala.20180206205022.288">Now you write your novel, short story, documentation or whatever. Organize your work as always:
+<t tx="omlalala.20180206205022.288">现在你写了小说, 短小故事, 文档等. 总是这样组织你的工作:
 
-| **nodes create sections, subsections, sub-sub-sections, etc.**
-| **depending on their position in the outline**.
+| **节点创建章节, 子章节, 子子章节等.**
+| **依赖它们在提纲中的位置.**
 </t>
 <t tx="omlalala.20180206205022.289">.. index::
     pair: rst3 Command; Tutorial
 
-``&lt;Alt-X&gt;rst3&lt;Return&gt;`` runs the rst3 command.
+``&lt;Alt-X&gt;rst3&lt;Return&gt;`` 运行 rst3 命令.
 
-- If the present node is an @rst node, or a descendant node of an @rst node, the rst3 command applies to the nearest ancestor @rst node.
+- 如果当前节点是一个 @rst 节点, 或 @rst 节点的后代节点, rst3 命令适用于最近的祖先(ancestor) @rst 节点.
 
-- Otherwise, the rst3 command applies to all descendant @rst trees.
+- 否则, rst3 命令应用于所有后代 @rst 树.
 
-If @bool rst3_call_docutils is True, the rst3 command will call docutils automatically to create the output files. For more information about Leo settings, see `this section &lt;tutorial-basics.html#configuring-leo&gt;`_.
+如果 @bool rst_call_docutils 为 True, rst3 命令将自动调用 doctils 生成输出文件. 更多关于 Leo 设置, 请见 `此章 &lt;tutorial-basics.html#configuring-leo&gt;`_.
 
-When using sphinx, run sphinx's "make" utility after running the rst3 command to create the final output files.
+使用 sphinx 时, 在运行 rst3 命令后, 运行 sphinx 的 "make" 工具, 创建最后的输出文件.
 
-**Errors and warnings**:
-
-1. Install docutils and then restart Leo if you see this error::
+**错误和警告**:   
+ 
+1. 安装 docutils 时, 如果看见下面错误, 重启 Leo::
 
     writeToDocutils: docutils not present
     
-2. ​Leo has a default stylesheet ​​that centers titles and makes them big and bold, so you can disregard messages such as::
-
+2. Leo 有一个默认的样式表, 可以居中, 并加大加粗标题, 所以你可以忽视如下信息::
+    
     stylesheet not found &lt;path-to&gt;default.css
 </t>
 <t tx="omlalala.20180206205022.290"></t>
-<t tx="omlalala.20180206205022.291">Sometimes you want to organize text without creating sections:
+<t tx="omlalala.20180206205022.291">有时, 你想组织文本, 而无需创建章节:
 
-1. Create an outline node to organize your text.
+1. 创建一个提纲节点, 组织你的文本.
 
-2. Type the following in the headline::
+2. 输入标题::
 
-    @rst-no-head &lt;any text: it is ignored&gt;
+    @rst-no-head &lt;任意文本: 将被忽视&gt;
     
-The rst3 command adds the body text of this node to the previous section:
+rst3 命令会在之前的章节, 增加这个节点的正文:
 
-- The headline is ignored.
-- The @rst-no-head node does not change the rST section structure in any way.
+- 标题会被忽视
+- @rst-no-head 节点怎么都不会改变 rST 的章节结构
 </t>
-<t tx="omlalala.20180206205022.292">It is often useful to put reference material in your @rst tree that will *not* be included in the actual output. To have the rst3 command ignore a single node, type this in the node's headline::
+<t tx="omlalala.20180206205022.292">有时将参考资料放在你的 @rst 树中也很有用, 其 *不会* 出现在实际的输出中. 要想让 rst3 命令忽略单个节点, 可在节点标题输入::
 
     @rst-ignore &lt;ignored-text&gt;
     
-Neither the headline nor body text will be part of the output file.
-    
-To have the rst3 command ignore a node and all its descendants, type this in the node's headline::
+如此, 标题和正文均不会出现在输出文件中.
+
+要想让 rst3 命令忽略一个节点及它的所有后代, 可在标题输入::
 
     @rst-ignore-tree &lt;ignored-text&gt;
 </t>
-<t tx="omlalala.20180206205022.293">The `rST manual &lt;http://docutils.sourceforge.net/docs/user/rst/quickref.html#directives&gt;`_ tells how to insert "raw" markup into the output. For example, Leo's documentation defines the following::
+<t tx="omlalala.20180206205022.293">`rST 手册 &lt;http://docutils.sourceforge.net/docs/user/rst/quickref.html#directives&gt;`_ 介绍了如何将 "原始" 标记插入至输出中. 例如, Leo 的文档定义如下::
     
     .. |---| unicode:: U+02015 .. for quotes
        :trim:
 
-Now ``---`` inserts ---, the unicode "quotation dash" used to indicate the author of quotations. Note that rST automatically turns ``--`` into a dash: --.
+现在, ``---`` 插入了 ---, unicode "引号" 表明引用的作者. 注意 rST 自动转换 `--` 为 --.
 
-The rST ``|`` markup breaks text into specific lines, but there are times when it can't be used.  The following inserts a line break into text::
+
+rST ``|`` 标记分拆文本为指定行, 但是有些场景无法使用. 在文本中插入行结束符的方式如下::
+
 
     .. |br| raw:: html
     
        &lt;br /&gt;
 </t>
-<t tx="omlalala.20180206205022.294">- The rst3 command converts an @rst tree to an output file and an intermediate file.
-
-- docutils uses the output file; sphinx uses the intermediate file.
-
-- Settings starting with "rst3" control how the rst3 command works.
-
-- Within @rst trees, headlines become rST sections.
-
-- Sections levels in the generated rST correspond to outline levels in Leo.
-
-- You reorganize your rST documents just by reorganizing the corresponding @rst tree.
+<t tx="omlalala.20180206205022.294">- rst3 命令会转换 @rst 树为一个输出文件和中间文件.
   
-- The rst3 command works acts on the nearest ancestor @rst node, if any, or on all descendant @rst nodes.
-  
-- @rst-no-head nodes insert text (or markup) without an rST headline.
+- docutils 使用输出文件; sphinx 使用中间文件.
 
-- The rst3 command ignores @rst-ignore nodes and @rst-ignore-tree trees.
+- 以 "rst3" 开头的设置, 控制 rst3 命令的运行.
 
-- The @button make-sphinx node in LeoDocs.leo calls sphinx automatically.
+- 在 @rst 树中, 标题将成为 rST 的章节.
 
-- CheatSheet.leo contains an expanded version of the example used in this tutorial. |br|
-  You can open CheatSheet.leo from Leo's help menu.
-  
-- The rst3 command provides *many* other capabilities. For details, see `the rst3 chapter &lt;rstplugin3.html&gt;`_.
+- 生成的 rST 的章节层级, 对应 Leo 中的提纲层级.
+
+- 你只需要通过重组对应的 @rst 树来重组你 rST 文档.
+
+- rst3 命令作用于最近的祖先 @rst 节点, 如果有的话, 或所有 @rst 节点的所有后代.
+
+- @rst-no-head 节点插入文本(或标记) , 无需 rST 标题.
+
+- rst3 命令将忽视 @rst-ignore 节点和 @rst-ignore-tree 树.
+
+- LeoDocs.leo 中的 @button make-sphinx 节点, 自动调用 sphinx.
+
+- CheatSheet.leo 包含了教程示例的扩展版本. 你可以从 Leo 的帮助菜单打开 CheatSheet.leo
+
+- rst3 命令提供了 *很多* 其他功能. 具体细节, 请见 `rst3 单元 &lt;rstplugin3.html&gt;`_.
   </t>
-<t tx="omlalala.20180206205022.295">You now know enough to get started with the rst3 command. Some possible next steps are:
+<t tx="omlalala.20180206205022.295">现在你已具备足够知识, 可开始使用 rst3 命令. 可能的下一步行动:
 
-- Look at Leo's own documentation in LeoDocs.leo. Discover how the nodes in this tree correspond to the documentation you see before you.
-   
-- LeoDocs.leo has an @button make-sphinx script that calls sphinx automatically.
+- 在 LeoDocs.leo 中, 阅读 Leo 自己的文档. 探索树中的节点, 与你面前的网页文档如何对应.
 
-- Create your own @rst nodes. Run the rst3 command on them and see what happens.
+- LeoDocs.leo 有一个 @button make-sphinx 脚本, 可自动调用 sphinx.
 
-- If you get stuck, please ask for help at https://groups.google.com/forum/#!forum/leo-editor.
+- 创建你自己的 @rst 节点. 运行 rst3 命令, 观察结果.
+
+- 如果你遇到问题, 可求助于 https://groups.google.com/forum/#!forum/leo-editor.
+
+翻译贡献者: `OMlalala &lt;https://github.com/OMlalala&gt;`_
+ 
+校对贡献者: `hetao &lt;https://github.com/livingworld&gt;`_
+
 </t>
 <t tx="omlalala.20180206205022.296">@ @rst-options
 .. A very cool option: doc parts will be rendered properly,
