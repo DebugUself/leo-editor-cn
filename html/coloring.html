@@ -1,16 +1,13 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
     <title>Controlling Syntax Coloring &#8212; Leo 5.6 documentation</title>
-    
     <link rel="stylesheet" href="_static/classic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
@@ -29,7 +26,7 @@
     <link rel="next" title="Writing Plugins" href="writingPlugins.html" />
     <link rel="prev" title="Advanced Topics" href="intermediatetopics.html" /> 
   </head>
-  <body role="document">
+  <body>
     <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
       <ul>
@@ -54,13 +51,13 @@
             
   <div class="section" id="controlling-syntax-coloring">
 <h1>Controlling Syntax Coloring<a class="headerlink" href="#controlling-syntax-coloring" title="Permalink to this headline">¶</a></h1>
-<p>This chapter discusses the settings to control Leo&#8217;s syntax colorer. This chapter also discusses how to extend Leo&#8217;s colorizer by creating xml language descriptions files and corresponding Python files. <strong>Important</strong>: this material is for those who want to support Leo&#8217;s colorizing code. To use Leo&#8217;s colorizers you only need to know about syntax-coloring settings.</p>
+<p>This chapter discusses the settings to control Leo’s syntax colorer. This chapter also discusses how to extend Leo’s colorizer by creating xml language descriptions files and corresponding Python files. <strong>Important</strong>: this material is for those who want to support Leo’s colorizing code. To use Leo’s colorizers you only need to know about syntax-coloring settings.</p>
 <div class="contents local topic" id="contents">
 <p class="topic-title first">Contents</p>
 <ul class="simple">
 <li><a class="reference internal" href="#syntax-coloring-settings" id="id1">Syntax coloring settings</a></li>
 <li><a class="reference internal" href="#files" id="id2">Files</a></li>
-<li><a class="reference internal" href="#the-colorizer-s-inner-loop" id="id3">The colorizer&#8217;s inner loop</a></li>
+<li><a class="reference internal" href="#the-colorizer-s-inner-loop" id="id3">The colorizer’s inner loop</a></li>
 <li><a class="reference internal" href="#format-of-colorizer-control-files" id="id4">Format of colorizer control files</a><ul>
 <li><a class="reference internal" href="#ruleset-names" id="id5">Ruleset names</a></li>
 <li><a class="reference internal" href="#x-properties" id="id6">x.properties</a></li>
@@ -88,8 +85,8 @@
 </div>
 <div class="section" id="syntax-coloring-settings">
 <h2><a class="toc-backref" href="#id1">Syntax coloring settings</a><a class="headerlink" href="#syntax-coloring-settings" title="Permalink to this headline">¶</a></h2>
-<p>This section discusses only those settings that affect syntax coloring. See <a class="reference external" href="customizing.html">Customizing Leo</a> for a general discussion of Leo&#8217;s settings.</p>
-<p>Both the old colorizer (in Leo&#8217;s core) and the new colorizer (the threading_colorizer and qtGui plugins) now support &#64;color and &#64;font settings for colorizing options. The settings for the old colorizer are:</p>
+<p>This section discusses only those settings that affect syntax coloring. See <a class="reference external" href="customizing.html">Customizing Leo</a> for a general discussion of Leo’s settings.</p>
+<p>Both the old colorizer (in Leo’s core) and the new colorizer (the threading_colorizer and qtGui plugins) now support &#64;color and &#64;font settings for colorizing options. The settings for the old colorizer are:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">comment_font</span><span class="p">,</span> <span class="n">cweb_section_name_font</span><span class="p">,</span> <span class="n">directive_font</span><span class="p">,</span>
 <span class="n">doc_part_font</span><span class="p">,</span> <span class="n">keyword_font</span><span class="p">,</span> <span class="n">leo_keyword_font</span><span class="p">,</span> <span class="n">section_name_font</span><span class="p">,</span>
 <span class="n">section_name_brackets_font</span><span class="p">,</span> <span class="n">string_font</span><span class="p">,</span> <span class="n">undefined_section_name_font</span><span class="p">,</span>
@@ -135,22 +132,22 @@ with the language name.  For example:</p>
 <div class="section" id="files">
 <h2><a class="toc-backref" href="#id2">Files</a><a class="headerlink" href="#files" title="Permalink to this headline">¶</a></h2>
 <p>The <a class="reference external" href="http://www.jedit.org/">jEdit</a> editor drives its syntax colorer using xml <strong>language description files.</strong> Rather than using the xml language description files directly, Leo uses Python <strong>colorer control files</strong>, created automatically from the xml files by a script called jEdit2Py.  All these files reside in the leo/modes directory.</p>
-<p>These Python files contain all the information in the jEdit&#8217;s xml files, so we can (loosely) speak of modes, rulesets, rules, properties and attributes in the Python colorer control files. Later sections of this documentation will make this loose correspondence exact.</p>
-<p><a class="reference external" href="http://www.jedit.org/42docs/users-guide/writing-modes-part.html">jEdit&#8217;s documentation</a> contain a complete description of these xml files. Each xml file describes one <strong>colorizing mode</strong>. A mode consists of one or more <strong>rulesets</strong>, and each ruleset consists of a list of <strong>colorizing rules</strong>. In addition, modes, rulesets and rules may have associated <strong>properties</strong> and <strong>attributes</strong>. Various rules may specify that the colorizer uses another ruleset (either in the same mode or another mode).</p>
-<p><strong>Important</strong>: jEdit&#8217;s xml language description files contain no explicit &lt;RULE&gt; elements Rules are simply sub-elements of an enclosing &lt;RULES&gt; element. The element indicates the kind of rule that is specified, for example, &lt;SPAN&gt;, &lt;SEQ&gt;, etc. By the term <strong>rule element</strong> we shall mean any sub-element of the &lt;RULES&gt; element.</p>
+<p>These Python files contain all the information in the jEdit’s xml files, so we can (loosely) speak of modes, rulesets, rules, properties and attributes in the Python colorer control files. Later sections of this documentation will make this loose correspondence exact.</p>
+<p><a class="reference external" href="http://www.jedit.org/42docs/users-guide/writing-modes-part.html">jEdit’s documentation</a> contain a complete description of these xml files. Each xml file describes one <strong>colorizing mode</strong>. A mode consists of one or more <strong>rulesets</strong>, and each ruleset consists of a list of <strong>colorizing rules</strong>. In addition, modes, rulesets and rules may have associated <strong>properties</strong> and <strong>attributes</strong>. Various rules may specify that the colorizer uses another ruleset (either in the same mode or another mode).</p>
+<p><strong>Important</strong>: jEdit’s xml language description files contain no explicit &lt;RULE&gt; elements Rules are simply sub-elements of an enclosing &lt;RULES&gt; element. The element indicates the kind of rule that is specified, for example, &lt;SPAN&gt;, &lt;SEQ&gt;, etc. By the term <strong>rule element</strong> we shall mean any sub-element of the &lt;RULES&gt; element.</p>
 <p><strong>Important</strong>: throughout this documentation, <strong>x.py</strong> will refer to the Python colorer for language x, and <strong>x.xml</strong> will refer to the corresponding xml language-description file.</p>
 <p>Using Python colorer control files has the following advantages:</p>
 <ul class="simple">
-<li>Running jEdit2Py need only be done when x.xml changes, and the speed of the xml parser in jEdit2Py does not affect the speed of Leo&#8217;s colorizer in any way. Moreover, the jEdit2Py script can contain debugging traces and checks.</li>
-<li>Colorer control files are valid .py files, so all of Python&#8217;s import optimizations work as usual. In particular, all the data in colorer control files is immediately accessible to Leo&#8217;s colorer.</li>
+<li>Running jEdit2Py need only be done when x.xml changes, and the speed of the xml parser in jEdit2Py does not affect the speed of Leo’s colorizer in any way. Moreover, the jEdit2Py script can contain debugging traces and checks.</li>
+<li>Colorer control files are valid .py files, so all of Python’s import optimizations work as usual. In particular, all the data in colorer control files is immediately accessible to Leo’s colorer.</li>
 <li>Colorer control files are easier for humans to understand and modify than the equivalent xml file. Furthermore, it is easy to insert debugging information into Python colorer control files.</li>
-<li>It is easy to modify the Python colorer control files &#8216;by hand&#8217; without changing the corresponding xml file. In particular, it would be easy to define entirely new kinds of pattern-matching rules in Python merely by creating functions in a colorer control file.</li>
+<li>It is easy to modify the Python colorer control files ‘by hand’ without changing the corresponding xml file. In particular, it would be easy to define entirely new kinds of pattern-matching rules in Python merely by creating functions in a colorer control file.</li>
 </ul>
 </div>
 <div class="section" id="the-colorizer-s-inner-loop">
-<h2><a class="toc-backref" href="#id3">The colorizer&#8217;s inner loop</a><a class="headerlink" href="#the-colorizer-s-inner-loop" title="Permalink to this headline">¶</a></h2>
-<p>When Leo&#8217;s syntax colorer sees the <a class="reference external" href="mailto:'&#37;&#52;&#48;language">'<span>&#64;</span>language</a> x&#8217; directive, it will import x.py from Leo&#8217;s modes folder. The colorer can then access any module-level object obj in x.py as x.obj.</p>
-<p>Colorizer control files contain <strong>rules functions</strong> corresponding to rule elements in x.xml. The colorizer can call these functions as if they were members of the colorizer class by passing &#8216;self&#8217; as the first argument of these functions. I call these rules <em>functions</em> to distinguish them from the corresponding <strong>rules methods</strong> which are actual methods of the colorizer class. Rules <em>functions</em> merely call corresponding rules <em>methods</em>. Indeed, rules functions are simply a way of binding values to keyword arguments of rules methods. These keywords arguments correspond to the xml attributes of rule elements in x.xml.</p>
+<h2><a class="toc-backref" href="#id3">The colorizer’s inner loop</a><a class="headerlink" href="#the-colorizer-s-inner-loop" title="Permalink to this headline">¶</a></h2>
+<p>When Leo’s syntax colorer sees the <a class="reference external" href="mailto:'&#37;&#52;&#48;language">‘<span>&#64;</span>language</a> x’ directive, it will import x.py from Leo’s modes folder. The colorer can then access any module-level object obj in x.py as x.obj.</p>
+<p>Colorizer control files contain <strong>rules functions</strong> corresponding to rule elements in x.xml. The colorizer can call these functions as if they were members of the colorizer class by passing ‘self’ as the first argument of these functions. I call these rules <em>functions</em> to distinguish them from the corresponding <strong>rules methods</strong> which are actual methods of the colorizer class. Rules <em>functions</em> merely call corresponding rules <em>methods</em>. Indeed, rules functions are simply a way of binding values to keyword arguments of rules methods. These keywords arguments correspond to the xml attributes of rule elements in x.xml.</p>
 <p>The colorizer calls rules functions until one matches, at which point a range of text gets colored and the process repeats. The inner loop of the colorizer is this code:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">rulesDict</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="n">i</span><span class="p">],[]):</span>
     <span class="n">n</span> <span class="o">=</span> <span class="n">f</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">s</span><span class="p">,</span><span class="n">i</span><span class="p">)</span>
@@ -173,7 +170,7 @@ the list of rules that can start with that character.</li>
 <p>The following sections describe the top-level data in x.py.</p>
 <div class="section" id="ruleset-names">
 <h3><a class="toc-backref" href="#id5">Ruleset names</a><a class="headerlink" href="#ruleset-names" title="Permalink to this headline">¶</a></h3>
-<p>A <strong>ruleset name</strong> is a Python string having the form &#8216;x_setname&#8217;, where setname is the value of the SET attribute of the &lt;RULES&gt; element in x.xml. For example, the ruleset name of the ruleset whose SET attribute is JAVASCRIPT in php.xml is &#8216;php_JAVASCRIPT&#8217;. <strong>Important</strong>: by convention, the ruleset name of the default &lt;RULES&gt; element is &#8216;x_main&#8217;; note that default &lt;RULES&gt; element have no SET attributes.</p>
+<p>A <strong>ruleset name</strong> is a Python string having the form ‘x_setname’, where setname is the value of the SET attribute of the &lt;RULES&gt; element in x.xml. For example, the ruleset name of the ruleset whose SET attribute is JAVASCRIPT in php.xml is ‘php_JAVASCRIPT’. <strong>Important</strong>: by convention, the ruleset name of the default &lt;RULES&gt; element is ‘x_main’; note that default &lt;RULES&gt; element have no SET attributes.</p>
 <p>The colorizer uses ruleset names to gain access to all data structures in x.py. To anticipate a bit, ruleset names are keys into two standard dictionaries, x.rulesDict and x.keywordsDictDict, from which the colorizer can get all other information in x.py:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="c1"># The rules list for the &#39;JAVASCRIPT&#39; ruleset in php.xml.</span>
 <span class="n">rules</span> <span class="o">=</span> <span class="n">x</span><span class="o">.</span><span class="n">rulesDict</span><span class="p">(</span><span class="s1">&#39;php_JAVASCRIPT&#39;</span><span class="p">)</span>
@@ -202,12 +199,12 @@ the list of rules that can start with that character.</li>
 <h3><a class="toc-backref" href="#id7">Attribute dictionaries and x.attributesDictDict</a><a class="headerlink" href="#attribute-dictionaries-and-x-attributesdictdict" title="Permalink to this headline">¶</a></h3>
 <p>x.py contains a <strong>attribute dictionary</strong> for each ruleset in x.xml. Keys are attribute names, values strings representing the values of the attributes. This dictionary is empty if a ruleset contains no attributes. The valid keys are:</p>
 <ul class="simple">
-<li>&#8216;default&#8217;: the default token type.  &#8216;null&#8217; is the default.</li>
-<li>&#8216;digit_re&#8217;: a regular expression.
+<li>‘default’: the default token type.  ‘null’ is the default.</li>
+<li>‘digit_re’: a regular expression.
 Words matching this regular expression are colored with the digit token type.</li>
-<li>&#8216;ignore_case&#8217;: &#8216;true&#8217; or &#8216;false&#8217;.  Default is &#8216;true&#8217;.</li>
-<li>&#8216;highlight_digits&#8217;: &#8216;true&#8217; or &#8216;false&#8217;.  Default is &#8216;true&#8217;.</li>
-<li>&#8216;no_word_sep&#8217;: A list of characters treated as &#8216;alphabetic&#8217; characters when matching keywords.</li>
+<li>‘ignore_case’: ‘true’ or ‘false’.  Default is ‘true’.</li>
+<li>‘highlight_digits’: ‘true’ or ‘false’.  Default is ‘true’.</li>
+<li>‘no_word_sep’: A list of characters treated as ‘alphabetic’ characters when matching keywords.</li>
 </ul>
 <p>For example, here is one attribute dictionary in php.py:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="c1"># Attributes dict for php_javascript ruleset.</span>
@@ -234,7 +231,7 @@ Words matching this regular expression are colored with the digit token type.</l
 <span class="p">}</span>
 </pre></div>
 </div>
-<p><strong>Note</strong>: The jEdit2Py script creates &#8216;friendly&#8217; names for attribute dictionaries <em>solely</em> as an aid for people reading the code. Leo&#8217;s colorer uses only the name x.attributeDictDict; Leo&#8217;s colorer never uses the actual names of attribute dictionaries.</p>
+<p><strong>Note</strong>: The jEdit2Py script creates ‘friendly’ names for attribute dictionaries <em>solely</em> as an aid for people reading the code. Leo’s colorer uses only the name x.attributeDictDict; Leo’s colorer never uses the actual names of attribute dictionaries.</p>
 </div>
 <div class="section" id="keyword-dictionaries-and-x-keywordsdictdict">
 <h3><a class="toc-backref" href="#id8">Keyword dictionaries and x.keywordsDictDict</a><a class="headerlink" href="#keyword-dictionaries-and-x-keywordsdictdict" title="Permalink to this headline">¶</a></h3>
@@ -285,12 +282,12 @@ Words matching this regular expression are colored with the digit token type.</l
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">keywordsDict</span> <span class="o">=</span> <span class="n">x</span><span class="o">.</span><span class="n">keywordsDictDict</span><span class="p">(</span><span class="n">rulesetName</span><span class="p">)</span>
 </pre></div>
 </div>
-<p><strong>Note</strong>: The jEdit2Py script creates &#8216;friendly&#8217; names for keyword dictionaries <em>solely</em> as an aid for people reading the code. Leo&#8217;s colorer uses only the name x.keywordsDictDict; Leo&#8217;s colorer never uses the actual names of keywords dictionaries such as php_PHPDOC_keywords_dict.</p>
+<p><strong>Note</strong>: The jEdit2Py script creates ‘friendly’ names for keyword dictionaries <em>solely</em> as an aid for people reading the code. Leo’s colorer uses only the name x.keywordsDictDict; Leo’s colorer never uses the actual names of keywords dictionaries such as php_PHPDOC_keywords_dict.</p>
 </div>
 <div class="section" id="rules-rules-dictionaries-and-x-rulesdictdict">
 <h3><a class="toc-backref" href="#id9">Rules, rules dictionaries and x.rulesDictDict</a><a class="headerlink" href="#rules-rules-dictionaries-and-x-rulesdictdict" title="Permalink to this headline">¶</a></h3>
 <p>x.py contains one <strong>rule function</strong> for every rule in every ruleset (&lt;RULES&gt; element) in x.xml. These rules have names rule1 through  ruleN, where N is the total number of rules in all rulesets in x.xml.</p>
-<p>Each rules <em>function</em> merely calls a rules <em>method</em> in Leo&#8217;s colorizer. Which method gets called depends on the corresponding element in <cite>x.xml</cite>. For example, the first rule in php.xml is:</p>
+<p>Each rules <em>function</em> merely calls a rules <em>method</em> in Leo’s colorizer. Which method gets called depends on the corresponding element in <cite>x.xml</cite>. For example, the first rule in php.xml is:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>&lt;SPAN TYPE=&quot;MARKUP&quot; DELEGATE=&quot;PHP&quot;&gt;
             &lt;BEGIN&gt;&amp;lt;?php&lt;/BEGIN&gt;
             &lt;END&gt;?&amp;gt;&lt;/END&gt;
@@ -360,7 +357,7 @@ Words matching this regular expression are colored with the digit token type.</l
 <span class="p">}</span>
 </pre></div>
 </div>
-<p><strong>Note</strong>: The jEdit2Py script creates &#8216;friendly&#8217; names for rules lists <em>solely</em> as an aid for people reading the code. Leo&#8217;s colorer uses only the name x.rulesDictDict; Leo&#8217;s colorer never uses the actual names of rules lists such as rulesDict8, and Leo&#8217;s colorer never uses the actual names of rules functions such as rule64.</p>
+<p><strong>Note</strong>: The jEdit2Py script creates ‘friendly’ names for rules lists <em>solely</em> as an aid for people reading the code. Leo’s colorer uses only the name x.rulesDictDict; Leo’s colorer never uses the actual names of rules lists such as rulesDict8, and Leo’s colorer never uses the actual names of rules functions such as rule64.</p>
 </div>
 <div class="section" id="x-importdict-and-imported-versus-delegated-rulesets">
 <h3><a class="toc-backref" href="#id10">x.importDict and imported versus delegated rulesets</a><a class="headerlink" href="#x-importdict-and-imported-versus-delegated-rulesets" title="Permalink to this headline">¶</a></h3>
@@ -371,9 +368,9 @@ Words matching this regular expression are colored with the digit token type.</l
 <span class="p">}</span>
 </pre></div>
 </div>
-<p>For any ruleset R whose ruleset name is N, x.importDict.get(N) is the list of rulesets names whose rulesets appear in a DELEGATE attribute of an &lt;IMPORT&gt; rule element in R&#8217;s ruleset. Such <strong>imported</strong> ruleset are copied to the end of the R&#8217;s rules list. Leo&#8217;s colorizer does this copying only once, when loading ruleset R for the first time.</p>
-<p><strong>Note 1</strong>: Loading imported rulesets must be done at &#8216;run time&#8217;. It should definitely not be done by jEdit2Py at &#8216;compile time&#8217;; that would require running jEdit2Py on <em>all</em> .xml files whenever any such file changed.</p>
-<p><strong>Note 2</strong>:  Multiple &lt;IMPORT&gt; rule elements in a single ruleset are allowed: delegated rules are copied to the end of N&#8217;s rules list in the order they appear in the ruleset.</p>
+<p>For any ruleset R whose ruleset name is N, x.importDict.get(N) is the list of rulesets names whose rulesets appear in a DELEGATE attribute of an &lt;IMPORT&gt; rule element in R’s ruleset. Such <strong>imported</strong> ruleset are copied to the end of the R’s rules list. Leo’s colorizer does this copying only once, when loading ruleset R for the first time.</p>
+<p><strong>Note 1</strong>: Loading imported rulesets must be done at ‘run time’. It should definitely not be done by jEdit2Py at ‘compile time’; that would require running jEdit2Py on <em>all</em> .xml files whenever any such file changed.</p>
+<p><strong>Note 2</strong>:  Multiple &lt;IMPORT&gt; rule elements in a single ruleset are allowed: delegated rules are copied to the end of N’s rules list in the order they appear in the ruleset.</p>
 <p><strong>Note 3</strong>: The DELEGATE attribute of &lt;IMPORT&gt; elements is, in fact, completely separate from the DELEGATE attributes of other rules as discussed in <a class="reference internal" href="#arguments-to-rule-methods">Arguments to rule methods</a>. Indeed, the DELEGATE attribute of &lt;IMPORT&gt; elements creates entries in x.importDict, which in turn causes the colorizer to append the rules of the imported ruleset to the end of the present rules list. In contrast, the DELEGATE attributes of other rules sets the delegate argument to rules methods, which in tern causes the colorizer to recursively color the matched text with the <strong>delegated</strong> ruleset. In short:</p>
 <ul class="simple">
 <li>The rules of <strong>imported</strong> rulesets are appended to the end of another rules list; the rules of <strong>delegated</strong> rulesets never are.</li>
@@ -383,14 +380,14 @@ Words matching this regular expression are colored with the digit token type.</l
 </div>
 <div class="section" id="rule-methods">
 <h2><a class="toc-backref" href="#id11">Rule methods</a><a class="headerlink" href="#rule-methods" title="Permalink to this headline">¶</a></h2>
-<p>This section describes each rules method in Leo&#8217;s new colorizer. Rules methods are called by rules functions in colorizer control file; they correspond directly to rules elements in jEdit&#8217;s language description files. In fact, this documentation is a &#8216;refactoring&#8217; of <a class="reference external" href="http://www.jedit.org/42docs/users-guide/writing-modes-part.html">jEdit&#8217;s documentation</a>.</p>
+<p>This section describes each rules method in Leo’s new colorizer. Rules methods are called by rules functions in colorizer control file; they correspond directly to rules elements in jEdit’s language description files. In fact, this documentation is a ‘refactoring’ of <a class="reference external" href="http://www.jedit.org/42docs/users-guide/writing-modes-part.html">jEdit’s documentation</a>.</p>
 <p>All rule methods attempt to match a pattern at a particular spot in a string. These methods all return True if the match succeeds.</p>
 <div class="section" id="arguments-to-rule-methods">
 <h3><a class="toc-backref" href="#id12">Arguments to rule methods</a><a class="headerlink" href="#arguments-to-rule-methods" title="Permalink to this headline">¶</a></h3>
 <p>All rule methods take three required arguments and zero or more optional keyword arguments.</p>
 <p>Here is a list of the required arguments and their meaning:</p>
 <ul class="simple">
-<li><strong>self</strong>: An instance of Leo&#8217;s colorizer.</li>
+<li><strong>self</strong>: An instance of Leo’s colorizer.</li>
 <li><strong>s</strong>: The string in which matches may be found.</li>
 <li><strong>i</strong>: The location within the string at which the rule method looks for a match.</li>
 </ul>
@@ -410,12 +407,12 @@ If True, the actual text that matched will not be colored.
 The meaning of this argument varies slightly depending on whether one or two sequences are matched.
 See the individual rule methods for details.</li>
 <li><strong>kind</strong>: A string representing a class of tokens, i.e., one of:
-&#8216;comment1&#8217;, &#8216;comment2&#8217;, &#8216;comment3&#8217;, &#8216;comment4&#8217;, &#8216;function&#8217;,
-&#8216;keyword1&#8217;, &#8216;keyword2&#8217;, &#8216;keyword3&#8217;, &#8216;keyword4&#8217;,
-&#8216;label&#8217;, &#8216;literal1&#8217;, &#8216;literal2&#8217;, &#8216;literal3&#8217;, &#8216;literal4&#8217;,
-&#8216;markup&#8217;, &#8216;null&#8217; and &#8216;operator&#8217;.</li>
+‘comment1’, ‘comment2’, ‘comment3’, ‘comment4’, ‘function’,
+‘keyword1’, ‘keyword2’, ‘keyword3’, ‘keyword4’,
+‘label’, ‘literal1’, ‘literal2’, ‘literal3’, ‘literal4’,
+‘markup’, ‘null’ and ‘operator’.</li>
 <li><strong>no_escape</strong>:
-If True, the ruleset&#8217;s escape character will have no effect before the end argument to match_span.
+If True, the ruleset’s escape character will have no effect before the end argument to match_span.
 Otherwise, the presence of the escape character will cause that occurrence of the end string to be ignored.</li>
 <li><strong>no_line_break</strong>:
 If True, the match will not succeed across line breaks.</li>
@@ -460,7 +457,7 @@ because such matchers are called only if the present search pattern starts with 
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">match_keywords</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">s</span><span class="p">,</span><span class="n">i</span><span class="p">):</span>
 </pre></div>
 </div>
-<p>match_keywords succeeds if s[i:] starts with an identifier contained in the mode&#8217;s keywords dictionary d.</p>
+<p>match_keywords succeeds if s[i:] starts with an identifier contained in the mode’s keywords dictionary d.</p>
 <p>If successful, match_keywords colors the keyword. match_keywords does not take a kind keyword argument. Instead, the keyword is colored as specified by d.get(theKeyword).</p>
 </div>
 <div class="section" id="match-mark-following">
@@ -611,7 +608,7 @@ no_escape, no_line_break and no_word_break conditions are all satisfied.</li>
     </div>
     <div class="footer" role="contentinfo">
         &#169; Copyright 1997-2017, Edward K. Ream.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.5.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.5.
     </div>
   </body>
 </html>

@@ -1,16 +1,13 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
     <title>A Miscellany of Leo Scripting &#8212; Leo 5.6 documentation</title>
-    
     <link rel="stylesheet" href="_static/classic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
@@ -29,7 +26,7 @@
     <link rel="next" title="Exploring Leo’s Code Base" href="theory.html" />
     <link rel="prev" title="Leo’s Console Gui" href="console-gui.html" /> 
   </head>
-  <body role="document">
+  <body>
     <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
       <ul>
@@ -55,7 +52,7 @@
   <div class="section" id="a-miscellany-of-leo-scripting">
 <h1>A Miscellany of Leo Scripting<a class="headerlink" href="#a-miscellany-of-leo-scripting" title="Permalink to this headline">¶</a></h1>
 <p>This chapter covers miscellaneous topics related to Leo scripts.</p>
-<p>You might call this a FAQ for scripts...</p>
+<p>You might call this a FAQ for scripts…</p>
 <div class="contents local topic" id="contents">
 <p class="topic-title first">Contents</p>
 <ul class="simple">
@@ -86,7 +83,7 @@
 </div>
 <div class="section" id="button-example">
 <h2><a class="toc-backref" href="#id1">&#64;button example</a><a class="headerlink" href="#button-example" title="Permalink to this headline">¶</a></h2>
-<p>The .leo files in Leo&#8217;s distribution contain many &#64;button nodes (many disabled), that do repetitive chores. Here is one, &#64;button promote-child-bodies, from LeoDocs.leo:</p>
+<p>The .leo files in Leo’s distribution contain many &#64;button nodes (many disabled), that do repetitive chores. Here is one, &#64;button promote-child-bodies, from LeoDocs.leo:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="sd">&#39;&#39;&#39;Copy the body text of all children to the parent&#39;s body text.&#39;&#39;&#39;</span>
 
 <span class="c1"># Great for creating what&#39;s new nodes.</span>
@@ -106,7 +103,7 @@
 <div class="section" id="comparing-two-similar-outlines">
 <h2><a class="toc-backref" href="#id2">Comparing two similar outlines</a><a class="headerlink" href="#comparing-two-similar-outlines" title="Permalink to this headline">¶</a></h2>
 <p>efc.compareTrees does most of the work of comparing two similar outlines.
-For example, here is &#8220;&#64;button compare vr-controller&#8221; in leoPluginsRef.leo:</p>
+For example, here is “&#64;button compare vr-controller” in leoPluginsRef.leo:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">p1</span> <span class="o">=</span> <span class="n">g</span><span class="o">.</span><span class="n">findNodeAnywhere</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="s1">&#39;class ViewRenderedController (QWidget) (vr)&#39;</span><span class="p">)</span>
 <span class="n">p2</span> <span class="o">=</span> <span class="n">g</span><span class="o">.</span><span class="n">findNodeAnywhere</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="s1">&#39;class ViewRenderedController (QWidget) (vr2)&#39;</span><span class="p">)</span>
 <span class="k">assert</span> <span class="n">p1</span> <span class="ow">and</span> <span class="n">p2</span>
@@ -114,11 +111,11 @@ For example, here is &#8220;&#64;button compare vr-controller&#8221; in leoPlugi
 <span class="n">c</span><span class="o">.</span><span class="n">editFileCommands</span><span class="o">.</span><span class="n">compareTrees</span><span class="p">(</span><span class="n">p1</span><span class="p">,</span> <span class="n">p2</span><span class="p">,</span> <span class="n">tag</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>This script will compare the trees whose roots are p1 and p2 and show the results like &#8220;Recovered nodes&#8221;.  That is, the script creates a node called &#8220;compare vr1 &amp; vr2&#8221;.  This top-level node contains one child node for every node that is different.  Each child node contains a diff of the node.  The grand children are one or two clones of the changed or inserted node.</p>
+<p>This script will compare the trees whose roots are p1 and p2 and show the results like “Recovered nodes”.  That is, the script creates a node called “compare vr1 &amp; vr2”.  This top-level node contains one child node for every node that is different.  Each child node contains a diff of the node.  The grand children are one or two clones of the changed or inserted node.</p>
 </div>
 <div class="section" id="creating-code-that-will-run-on-both-python-2-and-3">
 <h2><a class="toc-backref" href="#id3">Creating code that will run on both Python 2 and 3</a><a class="headerlink" href="#creating-code-that-will-run-on-both-python-2-and-3" title="Permalink to this headline">¶</a></h2>
-<p>Leo uses constants and functions defined in leoGlobals.py to ensure that Leo&#8217;s code works on both Python 2.7+ and Python 3.x.</p>
+<p>Leo uses constants and functions defined in leoGlobals.py to ensure that Leo’s code works on both Python 2.7+ and Python 3.x.</p>
 <ul class="simple">
 <li>g.isPython3: True if Leo is running Python 3.x.  False otherwise.</li>
 </ul>
@@ -135,7 +132,7 @@ For example, here is &#8220;&#64;button compare vr-controller&#8221; in leoPlugi
 <li>s, e = g.readFileIntoString</li>
 <li>g.stripBOM</li>
 </ul>
-<p>There may be cases where direct tests against g.isPython3 seem the clearest. That&#8217;s fine, but usually you can avoid direct tests.</p>
+<p>There may be cases where direct tests against g.isPython3 seem the clearest. That’s fine, but usually you can avoid direct tests.</p>
 <p><strong>Important</strong>: g.u and g.toUnicode are not always interchangeable. You should always use g.u to convert Qt QStrings to unicode. Here is an example from quicksearch.py:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">t</span> <span class="o">=</span> <span class="n">g</span><span class="o">.</span><span class="n">u</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">ui</span><span class="o">.</span><span class="n">lineEdit</span><span class="o">.</span><span class="n">text</span><span class="p">())</span>
 </pre></div>
@@ -148,7 +145,7 @@ For example, here is &#8220;&#64;button compare vr-controller&#8221; in leoPlugi
 </pre></div>
 </div>
 <p>Actually, the above code is dubious, because it will break if the mode of the open command changes.</p>
-<p><strong>Note</strong>: Leo&#8217;s code sometimes does s = g.u(&#8216;aString&#8217;), but this isn&#8217;t needed since Python 2.7 which supports unicode literals.</p>
+<p><strong>Note</strong>: Leo’s code sometimes does s = g.u(‘aString’), but this isn’t needed since Python 2.7 which supports unicode literals.</p>
 </div>
 <div class="section" id="creating-minimal-outlines">
 <h2><a class="toc-backref" href="#id4">Creating minimal outlines</a><a class="headerlink" href="#creating-minimal-outlines" title="Permalink to this headline">¶</a></h2>
@@ -185,7 +182,7 @@ For example, here is &#8220;&#64;button compare vr-controller&#8221; in leoPlugi
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">c</span><span class="o">.</span><span class="n">my_test</span> <span class="o">=</span> <span class="n">w</span>
 </pre></div>
 </div>
-<p>creates a permanent reference to the window so the window won&#8217;t be garbage collected after the Leo script exits.</p>
+<p>creates a permanent reference to the window so the window won’t be garbage collected after the Leo script exits.</p>
 </div>
 <div class="section" id="cutting-and-pasting-text">
 <h2><a class="toc-backref" href="#id6">Cutting and pasting text</a><a class="headerlink" href="#cutting-and-pasting-text" title="Permalink to this headline">¶</a></h2>
@@ -207,13 +204,13 @@ For example, here is &#8220;&#64;button compare vr-controller&#8221; in leoPlugi
 <span class="n">g</span><span class="o">.</span><span class="n">app</span><span class="o">.</span><span class="n">gui</span><span class="o">.</span><span class="n">runAskYesNoDialog</span><span class="p">(</span><span class="n">c</span><span class="p">,</span><span class="n">title</span><span class="p">,</span><span class="n">message</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>The values returned are in (&#8216;ok&#8217;,&#8217;yes&#8217;,&#8217;no&#8217;,&#8217;cancel&#8217;), as indicated by the method names. Some dialogs also return strings or numbers, again as indicated by their names.</p>
+<p>The values returned are in (‘ok’,’yes’,’no’,’cancel’), as indicated by the method names. Some dialogs also return strings or numbers, again as indicated by their names.</p>
 <p>Scripts can run File Open and Save dialogs with these methods:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">g</span><span class="o">.</span><span class="n">app</span><span class="o">.</span><span class="n">gui</span><span class="o">.</span><span class="n">runOpenFileDialog</span><span class="p">(</span><span class="n">title</span><span class="p">,</span><span class="n">filetypes</span><span class="p">,</span><span class="n">defaultextension</span><span class="p">,</span><span class="n">multiple</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 <span class="n">g</span><span class="o">.</span><span class="n">app</span><span class="o">.</span><span class="n">gui</span><span class="o">.</span><span class="n">runSaveFileDialog</span><span class="p">(</span><span class="n">initialfile</span><span class="p">,</span><span class="n">title</span><span class="p">,</span><span class="n">filetypes</span><span class="p">,</span><span class="n">defaultextension</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>For details about how to use these file dialogs, look for examples in Leo&#8217;s own source code. The runOpenFileDialog returns a list of file names.</p>
+<p>For details about how to use these file dialogs, look for examples in Leo’s own source code. The runOpenFileDialog returns a list of file names.</p>
 </div>
 <div class="section" id="getting-commander-preferences">
 <h2><a class="toc-backref" href="#id8">Getting commander preferences</a><a class="headerlink" href="#getting-commander-preferences" title="Permalink to this headline">¶</a></h2>
@@ -254,14 +251,14 @@ For example, here is &#8220;&#64;button compare vr-controller&#8221; in leoPlugi
 <li>c.config.getString(settingName)</li>
 </ul>
 <p>These methods return None if no setting exists.</p>
-<p>The getBool &#8216;default&#8217; argument to getBool specifies the value to be returned if the setting does not exist.</p>
+<p>The getBool ‘default’ argument to getBool specifies the value to be returned if the setting does not exist.</p>
 </div>
 <div class="section" id="getting-interactive-input-in-scripts-and-commands">
 <h2><a class="toc-backref" href="#id10">Getting interactive input in scripts and commands</a><a class="headerlink" href="#getting-interactive-input-in-scripts-and-commands" title="Permalink to this headline">¶</a></h2>
 <p>k.get1Arg handles the next character the user types when accumulating a user argument from the minibuffer.  k.get1Arg handles details such as tab completion, backspacing, Ctrl-G etc.</p>
 <p>Commands should use k.get1Arg to get the first minibuffer argument and k.getNextArg to get all other arguments.</p>
-<p>k.get1Arg is a state machine. It has to be because it&#8217;s almost always waiting for the user to type the next character. The handle keyword arg specifies the next state in the machine.</p>
-<p>The following examples will work in any class having a &#8216;c&#8217; ivar bound to a commander.</p>
+<p>k.get1Arg is a state machine. It has to be because it’s almost always waiting for the user to type the next character. The handle keyword arg specifies the next state in the machine.</p>
+<p>The following examples will work in any class having a ‘c’ ivar bound to a commander.</p>
 <p>Example 1: get one argument from the user:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="nd">@cmd</span><span class="p">(</span><span class="s1">&#39;my-command&#39;</span><span class="p">)</span>
 <span class="k">def</span> <span class="nf">myCommand</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">event</span><span class="p">):</span>
@@ -332,7 +329,7 @@ For example, here is &#8220;&#64;button compare vr-controller&#8221; in leoPlugi
 </div>
 <div class="section" id="invoking-commands-from-scripts">
 <h2><a class="toc-backref" href="#id12">Invoking commands from scripts</a><a class="headerlink" href="#invoking-commands-from-scripts" title="Permalink to this headline">¶</a></h2>
-<p>Leo dispatches commands using c.doCommand, which calls the &#8220;command1&#8221; and &#8220;command2&#8221; hook routines for the given label. c.doCommand catches all exceptions thrown by the command:</p>
+<p>Leo dispatches commands using c.doCommand, which calls the “command1” and “command2” hook routines for the given label. c.doCommand catches all exceptions thrown by the command:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">c</span><span class="o">.</span><span class="n">doCommand</span><span class="p">(</span><span class="n">c</span><span class="o">.</span><span class="n">markHeadline</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s2">&quot;markheadline&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -344,15 +341,15 @@ For example, here is &#8220;&#64;button compare vr-controller&#8221; in leoPlugi
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">c</span><span class="o">.</span><span class="n">executeMinibufferCommand</span><span class="p">(</span><span class="s1">&#39;open-outline&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>c.keyHandler.funcReturn contains the value returned from the command. In many cases, as above, this value is simply &#8216;break&#8217;.</p>
+<p>c.keyHandler.funcReturn contains the value returned from the command. In many cases, as above, this value is simply ‘break’.</p>
 </div>
 <div class="section" id="making-operations-undoable">
 <h2><a class="toc-backref" href="#id13">Making operations undoable</a><a class="headerlink" href="#making-operations-undoable" title="Permalink to this headline">¶</a></h2>
-<p>Plugins and scripts should call u.beforeX and u.afterX methods to describe the operation that is being performed. <strong>Note</strong>: u is shorthand for c.undoer. Most u.beforeX methods return undoData that the client code merely passes to the corresponding u.afterX method. This data contains the &#8216;before&#8217; snapshot. The u.afterX methods then create a bead containing both the &#8216;before&#8217; and &#8216;after&#8217; snapshots.</p>
+<p>Plugins and scripts should call u.beforeX and u.afterX methods to describe the operation that is being performed. <strong>Note</strong>: u is shorthand for c.undoer. Most u.beforeX methods return undoData that the client code merely passes to the corresponding u.afterX method. This data contains the ‘before’ snapshot. The u.afterX methods then create a bead containing both the ‘before’ and ‘after’ snapshots.</p>
 <p>u.beforeChangeGroup and u.afterChangeGroup allow multiple calls to u.beforeX and u.afterX methods to be treated as a single undoable entry. See the code for the Replace All, Sort, Promote and Demote commands for examples. The u.beforeChangeGroup and u.afterChangeGroup methods substantially reduce the number of u.beforeX and afterX methods needed.</p>
 <p>Plugins and scripts may define their own u.beforeX and afterX methods. Indeed, u.afterX merely needs to set the bunch.undoHelper and bunch.redoHelper ivars to the methods used to undo and redo the operation. See the code for the various u.beforeX and afterX methods for guidance.</p>
 <p>p.setDirty and p.setAllAncestorAtFileNodesDirty now return a dirtyVnodeList that all vnodes that became dirty as the result of an operation. More than one list may be generated: client code is responsible for merging lists using the pattern dirtyVnodeList.extend(dirtyVnodeList2)</p>
-<p>See the section &lt;&lt; How Leo implements unlimited undo &gt;&gt; in leoUndo.py for more details. In general, the best way to see how to implement undo is to see how Leo&#8217;s core calls the u.beforeX and afterX methods.</p>
+<p>See the section &lt;&lt; How Leo implements unlimited undo &gt;&gt; in leoUndo.py for more details. In general, the best way to see how to implement undo is to see how Leo’s core calls the u.beforeX and afterX methods.</p>
 </div>
 <div class="section" id="modifying-plugins-with-script-scripts">
 <h2><a class="toc-backref" href="#id14">Modifying plugins with &#64;script scripts</a><a class="headerlink" href="#modifying-plugins-with-script-scripts" title="Permalink to this headline">¶</a></h2>
@@ -408,7 +405,7 @@ For example, here is &#8220;&#64;button compare vr-controller&#8221; in leoPlugi
 </div>
 <p><strong>Notes</strong>:</p>
 <ul class="simple">
-<li>These are only the most commonly-used methods. For more information, consult Leo&#8217;s source code.</li>
+<li>These are only the most commonly-used methods. For more information, consult Leo’s source code.</li>
 <li>i and j are zero-based indices into the the text. When j is not specified, it defaults to i. When the sort parameter is in effect, getSelectionRange ensures i &lt;= j.</li>
 <li>color is a Tk color name, even when using the Gt gui.</li>
 </ul>
@@ -441,13 +438,13 @@ For example, here is &#8220;&#64;button compare vr-controller&#8221; in leoPlugi
 </div>
 <div class="section" id="retaining-pointers-to-qt-windows">
 <h2><a class="toc-backref" href="#id18">Retaining pointers to Qt windows</a><a class="headerlink" href="#retaining-pointers-to-qt-windows" title="Permalink to this headline">¶</a></h2>
-<p>The following script won&#8217;t work as intended:</p>
+<p>The following script won’t work as intended:</p>
 <blockquote>
 <div>from PyQt4 import QtGui
 w = QtGui.QWidget()
 w.resize(250, 150)
 w.move(300, 300)
-w.setWindowTitle(&#8216;Simple test&#8217;)
+w.setWindowTitle(‘Simple test’)
 w.show()</div></blockquote>
 <p>When the script exits the sole reference to the window, w, ceases to exist, so the window is destroyed (garbage collected). To keep the window open, add the following code as the last line to keep the reference alive:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">g</span><span class="o">.</span><span class="n">app</span><span class="o">.</span><span class="n">scriptsDict</span><span class="p">[</span><span class="s1">&#39;my-script_w&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">w</span>
@@ -468,7 +465,7 @@ the callback to be called at idle time forever. This should suffice for most pur
 <span class="n">g</span><span class="o">.</span><span class="n">app</span><span class="o">.</span><span class="n">idleTimeManager</span><span class="o">.</span><span class="n">add_callback</span><span class="p">(</span><span class="n">print_hi</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>For greater control, g.IdleTime is a thin wrapper for the Leo&#8217;s IdleTime class. The IdleTime class executes a handler with a given delay at idle time. The handler takes a single argument, the IdleTime instance:</p>
+<p>For greater control, g.IdleTime is a thin wrapper for the Leo’s IdleTime class. The IdleTime class executes a handler with a given delay at idle time. The handler takes a single argument, the IdleTime instance:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">handler</span><span class="p">(</span><span class="n">it</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;IdleTime handler.  it is an IdleTime instance.&quot;&quot;&quot;</span>
     <span class="n">delta_t</span> <span class="o">=</span> <span class="n">it</span><span class="o">.</span><span class="n">time</span><span class="o">-</span><span class="n">it</span><span class="o">.</span><span class="n">starting_time</span>
@@ -534,7 +531,7 @@ the callback to be called at idle time forever. This should suffice for most pur
 </pre></div>
 </div>
 <p><strong>Recycling timers</strong></p>
-<p>The g.app.idle_timers list retrains references to all timers so they <em>won&#8217;t</em> be recycled after being stopped.  This allows timers to be restarted safely.</p>
+<p>The g.app.idle_timers list retrains references to all timers so they <em>won’t</em> be recycled after being stopped.  This allows timers to be restarted safely.</p>
 <p>There is seldom a need to recycle a timer, but if you must, you can call its destroySelf method. This removes the reference to the timer in g.app.idle_timers. <strong>Warning</strong>: Accessing a timer after calling its destroySelf method can lead to a hard crash.</p>
 </div>
 <div class="section" id="running-code-in-separate-processes">
@@ -545,12 +542,12 @@ the callback to be called at idle time forever. This should suffice for most pur
 <span class="n">bpm</span><span class="o">.</span><span class="n">start_process</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">command</span><span class="o">=</span><span class="s1">&#39;ls&#39;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s1">&#39;ls&#39;</span><span class="p">,</span> <span class="n">shell</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>BM.kill(kind=None) kills all process with the given kind. If kind is None or &#8216;all&#8217;, all processes are killed.</p>
-<p>You can add processes to the queue at any time. For example, you can rerun the &#8216;pylint&#8217; command while a background process is running.</p>
+<p>BM.kill(kind=None) kills all process with the given kind. If kind is None or ‘all’, all processes are killed.</p>
+<p>You can add processes to the queue at any time. For example, you can rerun the ‘pylint’ command while a background process is running.</p>
 <p>The BackgroundProcessManager is completely safe: all of its code runs in the main process.</p>
 <p><strong>Running multiple processes simultaneously</strong></p>
 <p>Only one process at a time should be producing output. All processes that <em>do</em> produce output should be managed by the singleton BPM instance.</p>
-<p>To run processes that <em>don&#8217;t</em> produce output, just call subprocess.Popen:</p>
+<p>To run processes that <em>don’t</em> produce output, just call subprocess.Popen:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">subprocess</span>
 <span class="n">subprocess</span><span class="o">.</span><span class="n">Popen</span><span class="p">(</span><span class="s1">&#39;ls&#39;</span><span class="p">,</span> <span class="n">shell</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </pre></div>
@@ -563,8 +560,8 @@ the callback to be called at idle time forever. This should suffice for most pur
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">--</span><span class="n">script</span> <span class="n">scriptFile</span>
 </pre></div>
 </div>
-<p>If found, Leo enters batch mode. In batch mode Leo does not show any windows. Leo assumes the scriptFile contains a Python script and executes the contents of that file using Leo&#8217;s Execute Script command. By default, Leo sends all output to the console window. Scripts in the scriptFile may disable or enable this output by calling app.log.disable or app.log.enable</p>
-<p>Scripts in the scriptFile may execute any of Leo&#8217;s commands except the Edit Body and Edit Headline commands. Those commands require interaction with the user. For example, the following batch script reads a Leo file and prints all the headlines in that file:</p>
+<p>If found, Leo enters batch mode. In batch mode Leo does not show any windows. Leo assumes the scriptFile contains a Python script and executes the contents of that file using Leo’s Execute Script command. By default, Leo sends all output to the console window. Scripts in the scriptFile may disable or enable this output by calling app.log.disable or app.log.enable</p>
+<p>Scripts in the scriptFile may execute any of Leo’s commands except the Edit Body and Edit Headline commands. Those commands require interaction with the user. For example, the following batch script reads a Leo file and prints all the headlines in that file:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">path</span> <span class="o">=</span> <span class="n">g</span><span class="o">.</span><span class="n">os_path_finalize_join</span><span class="p">(</span><span class="n">g</span><span class="o">.</span><span class="n">app</span><span class="o">.</span><span class="n">loadDir</span><span class="p">,</span><span class="s1">&#39;..&#39;</span><span class="p">,</span><span class="s1">&#39;test&#39;</span><span class="p">,</span><span class="s1">&#39;test.leo&#39;</span><span class="p">)</span>
 <span class="k">assert</span> <span class="n">g</span><span class="o">.</span><span class="n">os_path_exists</span><span class="p">(</span><span class="n">path</span><span class="p">),</span><span class="n">path</span>
 
@@ -583,7 +580,7 @@ the callback to be called at idle time forever. This should suffice for most pur
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">d</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">scanAllDirectives</span><span class="p">(</span><span class="n">p</span><span class="p">)</span> <span class="n">g</span><span class="o">.</span><span class="n">es</span><span class="p">(</span><span class="n">g</span><span class="o">.</span><span class="n">dictToString</span><span class="p">(</span><span class="n">d</span><span class="p">))</span>
 </pre></div>
 </div>
-<p>In particular, d.get(&#8216;path&#8217;) returns the full, absolute path created by all &#64;path directives that are in ancestors of node p. If p is any kind of &#64;file node (including &#64;file, &#64;auto, &#64;clean, etc.), the following script will print the full path to the created file:</p>
+<p>In particular, d.get(‘path’) returns the full, absolute path created by all &#64;path directives that are in ancestors of node p. If p is any kind of &#64;file node (including &#64;file, &#64;auto, &#64;clean, etc.), the following script will print the full path to the created file:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">path</span> <span class="o">=</span> <span class="n">d</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;path&#39;</span><span class="p">)</span>
 <span class="n">name</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">anyAtFileNodeName</span><span class="p">()</span>
 <span class="k">if</span> <span class="n">name</span><span class="p">:</span>
@@ -594,7 +591,7 @@ the callback to be called at idle time forever. This should suffice for most pur
 </div>
 <div class="section" id="writing-g-es-output-to-other-tabs">
 <h2><a class="toc-backref" href="#id23">Writing g.es output to other tabs</a><a class="headerlink" href="#writing-g-es-output-to-other-tabs" title="Permalink to this headline">¶</a></h2>
-<p>g.es can send it&#8217;s output to tabs other than the log tab:</p>
+<p>g.es can send it’s output to tabs other than the log tab:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">c</span><span class="o">.</span><span class="n">frame</span><span class="o">.</span><span class="n">log</span><span class="o">.</span><span class="n">selectTab</span><span class="p">(</span><span class="s1">&#39;Test&#39;</span><span class="p">)</span>
     <span class="c1"># Create Test or make it visible.</span>
 
@@ -625,10 +622,10 @@ the callback to be called at idle time forever. This should suffice for most pur
             </a></p>
   <h4>Previous topic</h4>
   <p class="topless"><a href="console-gui.html"
-                        title="previous chapter">Leo&#8217;s Console Gui</a></p>
+                        title="previous chapter">Leo’s Console Gui</a></p>
   <h4>Next topic</h4>
   <p class="topless"><a href="theory.html"
-                        title="next chapter">Exploring Leo&#8217;s Code Base</a></p>
+                        title="next chapter">Exploring Leo’s Code Base</a></p>
 <div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
     <form class="search" action="search.html" method="get">
@@ -661,7 +658,7 @@ the callback to be called at idle time forever. This should suffice for most pur
     </div>
     <div class="footer" role="contentinfo">
         &#169; Copyright 1997-2017, Edward K. Ream.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.5.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.5.
     </div>
   </body>
 </html>
