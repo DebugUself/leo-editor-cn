@@ -434,37 +434,37 @@
 <v t="omlalala.20180206205022.98"><vh>Installing &amp; running Leo</vh>
 <v t="omlalala.20180206205022.99"><vh>@rst docs/getting-started.html</vh></v>
 <v t="omlalala.20180206205022.100"><vh>@rst docs/download.html</vh>
-<v t="omlalala.20180206205022.101"><vh>Snapshots</vh></v>
+<v t="omlalala.20180206205022.101"><vh>快照</vh></v>
 </v>
 <v t="omlalala.20180206205022.102"><vh>@rst docs/installing.html</vh>
-<v t="omlalala.20180206205022.103"><vh>Dependencies</vh></v>
-<v t="omlalala.20180206205022.104"><vh>Installing Leo with pip</vh></v>
-<v t="omlalala.20180206205022.105"><vh>Installing packages</vh></v>
-<v t="omlalala.20180206205022.106"><vh>Installing Leo itself</vh>
-<v t="omlalala.20180206205022.107"><vh>Installing Leo on Windows</vh>
-<v t="omlalala.20180206205022.108"><vh>Using the single-click installer</vh></v>
-<v t="omlalala.20180206205022.109"><vh>Installing from sources (Windows)</vh></v>
-<v t="omlalala.20180206205022.110"><vh>Creating Windows file associations</vh></v>
+<v t="omlalala.20180206205022.103"><vh>依赖项</vh></v>
+<v t="omlalala.20180206205022.104"><vh>用 pip 安装 Leo</vh></v>
+<v t="omlalala.20180206205022.105"><vh>安装软件包</vh></v>
+<v t="omlalala.20180206205022.106"><vh>安装 Leo 本身</vh>
+<v t="omlalala.20180206205022.107"><vh>在 Windows 上安装 Leo</vh>
+<v t="omlalala.20180206205022.108"><vh>使用单击安装程序</vh></v>
+<v t="omlalala.20180206205022.109"><vh>从源安装 (Windows)</vh></v>
+<v t="omlalala.20180206205022.110"><vh>创建 Windows 文件关联</vh></v>
 </v>
-<v t="omlalala.20180206205022.111"><vh>Installing Leo with git</vh></v>
-<v t="omlalala.20180206205022.112"><vh>Installing Leo on Linux</vh>
-<v t="omlalala.20180206205022.113"><vh>Installing from a debian package</vh></v>
-<v t="omlalala.20180206205022.114"><vh>Installing from sources (Linux)</vh></v>
+<v t="omlalala.20180206205022.111"><vh>用 git 安装 Leo</vh></v>
+<v t="omlalala.20180206205022.112"><vh>在 Linux 上安装 Leo</vh>
+<v t="omlalala.20180206205022.113"><vh>从 debian 软件包安装</vh></v>
+<v t="omlalala.20180206205022.114"><vh>从源安装 (Linux)</vh></v>
 </v>
-<v t="omlalala.20180206205022.115"><vh>Installing Leo on MacOs 10.7 (Lion) and later</vh></v>
+<v t="omlalala.20180206205022.115"><vh>在 MacOs 10.7 (Lion) 或更高版本上安装 Leo</vh></v>
 </v>
-<v t="omlalala.20180206205022.116"><vh>Installing everything with Anaconda or Miniconda</vh></v>
+<v t="omlalala.20180206205022.116"><vh>用 Anaconda 或 Miniconda 安装任何东西</vh></v>
 </v>
 <v t="omlalala.20180206205022.117"><vh>@rst docs/running.html</vh>
-<v t="omlalala.20180206205022.118"><vh>Running Leo</vh>
-<v t="omlalala.20180206205022.119"><vh>Running Leo the first time</vh></v>
-<v t="omlalala.20180206205022.120"><vh>Running Leo in batch mode</vh></v>
-<v t="omlalala.20180206205022.121"><vh>Running Leo from a console window</vh></v>
-<v t="omlalala.20180206205022.122"><vh>The .leo directory</vh></v>
+<v t="omlalala.20180206205022.118"><vh>运行 Leo</vh>
+<v t="omlalala.20180206205022.119"><vh>第一次运行 Leo</vh></v>
+<v t="omlalala.20180206205022.120"><vh>在批处理模式下运行 Leo</vh></v>
+<v t="omlalala.20180206205022.121"><vh>从控制台窗口运行 Leo</vh></v>
+<v t="omlalala.20180206205022.122"><vh>.leo 目录</vh></v>
 </v>
-<v t="omlalala.20180206205022.123"><vh>Leo's command-line options</vh></v>
-<v t="omlalala.20180206205022.124"><vh>Leo's workbook file</vh></v>
-<v t="omlalala.20180206205022.125"><vh>Using sessions</vh></v>
+<v t="omlalala.20180206205022.123"><vh>Leo 的命令行选项</vh></v>
+<v t="omlalala.20180206205022.124"><vh>Leo 的工作簿文件</vh></v>
+<v t="omlalala.20180206205022.125"><vh>使用会话</vh></v>
 </v>
 </v>
 <v t="omlalala.20180206205022.126"><vh>FAQ</vh>
@@ -6470,9 +6470,9 @@ stylesheet_path=..\doc
 write_intermediate_file = True
 @c
 
-.. _`用 git 安装 Leo`:  installing.html#installing-leo-with-git
-.. _`用 pip 安装 Leo`:  installing.html#installing-leo-with-pip
-.. _`每夜快照`:         download.html#snapshots       
+.. _`用 git 安装 Leo`:  installing.html#用-git-安装-Leo
+.. _`用 pip 安装 Leo`:  installing.html#用-pip-安装-Leo
+.. _`每夜快照`:         download.html#快照       
 .. _`Python wheel`:             https://pythonwheels.com/
 .. _`SourceForge`:              https://sourceforge.net/projects/leo/files/Leo/
 .. _`git`:                      https://git-scm.com/
@@ -6662,11 +6662,11 @@ write_intermediate_file = True
 
 .. index:: 安装 Leo
 
-.. _`Leo's help forum`: http://groups.google.com/group/leo-editor
+.. _`Leo 的帮助论坛`: http://groups.google.com/group/leo-editor
 
 本章讲述了如何安装和运行 Leo 在 Windows, Linux 和 MacOS. 
 
-**要点**: 如果你安装Leo有 *任何* 问题, 请向 `Leo's help forum`_ 寻求帮助. 
+**要点**: 如果你安装Leo有 *任何* 问题, 请向 `Leo 的帮助论坛`_ 寻求帮助. 
 
 .. contents:: Contents
     :depth: 4
@@ -7105,15 +7105,15 @@ stroke=None:        The incoming key stroke.
 useMinibuffer=True: True: put focus in the minibuffer while accumulating arguments.
                     False allows sort-lines, for example, to show the selection range.
 </t>
-<t tx="omlalala.20180206205022.104">.. _`Install pip`:      https://pip.pypa.io/en/stable/installing/               
-.. _`Install Python`:   http://python.org.
+<t tx="omlalala.20180206205022.104">.. _`安装 pip`:      https://pip.pypa.io/en/stable/installing/               
+.. _`安装 Python`:   http://python.org.
 .. _`pip`:              https://pypi.python.org/pypi/pip
 
 Python 的 `pip`_ 工具将自动下载 *并* 安装 Leo 和 Leo 的所有依赖项:
 
-1. 如果需要的话, 先 `安装Python` . 如果您是 Python 新手, 请安装 Python 3 , 而不是 Python 2. Python3 自动安装 pip. 
+1. 如果需要的话, 先 `安装 Python` . 如果您是 Python 新手, 请安装 Python 3 , 而不是 Python 2. Python3 自动安装 pip. 
 
-2. (仅限Python 2) 如果需要的话, `安装pip` 本身. 要检查是否安装了 pip, 打开终端窗口并键入::
+2. (仅限Python 2) 如果需要的话, `安装 pip` 本身. 要检查是否安装了 pip, 打开终端窗口并键入::
 
     pip --version
    
@@ -7272,7 +7272,7 @@ Also fixed several tree-drawing problems:
 <t tx="omlalala.20180206205022.1069">https://github.com/leo-editor/leo-editor/issues/430
 rst import: titles with different underline characters on same level.
 </t>
-<t tx="omlalala.20180206205022.107">安装Python和Qt, 如上所述(`Installing Packages`_).
+<t tx="omlalala.20180206205022.107">安装Python和Qt, 如上所述(`安装软件包`_).
 
 现在你有一个选择. 你可以使用Leo的二进制 (single-click) 安装程序
 或直接下载Leo的源文件. 
@@ -7323,9 +7323,9 @@ TypeError: putStatusLine() got an unexpected keyword argument 'color'
 <t tx="omlalala.20180206205022.1078">It can now import demo-it.el.</t>
 <t tx="omlalala.20180206205022.1079"></t>
 <t tx="omlalala.20180206205022.108">.. _`SourceForge 下载页面`: http://sourceforge.net/projects/leo/files/Leo/
-.. _`Running Leo`: running.html
+.. _`运行 Leo`: running.html
 
-Leo 有一个用于 Windows 的二进制安装程序, 可以在 `SourceForge 下载页面`_ 找到. 二进制安装程序安装 Leo 并设置 Windows 文件关联. 现在, 请参阅 `Running Leo`_ 在安装后如何运行 Leo. 
+Leo 有一个用于 Windows 的二进制安装程序, 可以在 `SourceForge 下载页面`_ 找到. 二进制安装程序安装 Leo 并设置 Windows 文件关联. 现在, 请参阅 `运行 Leo`_ 在安装后如何运行 Leo. 
 </t>
 <t tx="omlalala.20180206205022.1080">Changed LM.openEmptyWorkBook and LM.computeWorkbookFileName.</t>
 <t tx="omlalala.20180206205022.1081">The new code uses the new importer code to clean nodes.</t>
@@ -7582,13 +7582,13 @@ Commands and directives
 
 |leo-thesis|
 </t>
-<t tx="omlalala.20180206205022.110">*要点*: Leo的二进制Windows安装程序会自动设置文件关联, 所以只有当您从一个.zip文件或其他来源中安装Leo时, 才需要这个部分. 
+<t tx="omlalala.20180206205022.110">*要点*: Leo 的二进制 Windows 安装程序会自动设置文件关联, 所以只有当您从一个 .zip 文件或其他来源中安装 Leo 时, 才需要这个部分. 
 
-有两种办法将.leo文件与Leo关联起来. 第一种使用的是Windows控制面板, 第二种是Windows控制台. 
+有两种办法将 .leo 文件与 Leo 关联起来. 第一种使用的是 Windows 控制面板, 第二种是 Windows 控制台. 
 
-**方法 1：使用Windows控制面板**
+**方法 1：使用 Windows 控制面板**
 
-目标是您希望用以下命令关联.leo文件::
+目标是您希望用以下命令关联 .leo 文件::
 
     "&lt;path to python&gt;\python.exe" "&lt;path to launchLeo.py&gt;\launchLeo.py" "%1"
     
@@ -7804,8 +7804,8 @@ Simulating Leo's features in Vim, Emacs or Eclipse is possible, just as it is po
 </t>
 <t tx="omlalala.20180206205022.1119">For a list of all enhancements added in Leo 5.6, see this page:
 https://github.com/leo-editor/leo-editor/issues?utf8=%E2%9C%93&amp;q=is%3Aissue%20label%3AEnhancement%20is%3Aclosed%20milestone%3A5.6%20-label%3AWon%27tDo%20</t>
-<t tx="omlalala.20180206205022.112">.. _`从 debian 软件包中安装 Leo`: installing.html#installing-from-a-debian-package
-.. _`从源文件中安装 Leo`: installing.html#installing-from-sources-linux
+<t tx="omlalala.20180206205022.112">.. _`从 debian 软件包中安装 Leo`: installing.html#从-debian-软件包安装
+.. _`从源文件中安装 Leo`: installing.html#从源安装-linux
 
 如果你正在使用 Debian/Ubuntu, 最好 `从 debian 软件包中安装 Leo`_, 如下所述. 这提供了文件关联、图标、启动项等. 而且, 你可以 `从源文件中安装 Leo`_. 
 </t>
@@ -7987,7 +7987,7 @@ leoCommands.py:
     cd ~/leo-5.7
     sudo python setup.py install
 
-请参阅 `Running Leo`_ 了解如何在安装后运行 Leo. 
+请参阅 `运行 Leo`_ 了解如何在安装后运行 Leo. 
 </t>
 <t tx="omlalala.20180206205022.1140">UnicodeDecodeError in writeRecentFilesFileHelper
 https://github.com/leo-editor/leo-editor/issues/471
@@ -8712,7 +8712,7 @@ This took only a few lines of code in abbrev.expandAbbrev.
 </t>
 <t tx="omlalala.20180206205022.1209">https://github.com/leo-editor/leo-editor/issues/478
 </t>
-<t tx="omlalala.20180206205022.121">.. _`python.exe`: installing.html#creating-windows-file-associations
+<t tx="omlalala.20180206205022.121">.. _`python.exe`: installing.html#创建-windows-文件关联
 
 Leo 将更详细的错误消息发送到 stderr, 即输出到控制台窗口的流. 在 Linux 和 MacOS 环境中, python 程序通过使用可见的控制台窗口执行. 
 
@@ -25090,8 +25090,8 @@ The above copyright notice and this permission notice shall be included in all c
 #####################
 
 .. _`Python`:                   https://www.python.org/
-.. _`Leo的依赖关系`:       installing.html#dependencies
-.. _`Installing Leo using pip`:    installing.html#installing-leo-with-pip
+.. _`Leo的依赖关系`:       installing.html#依赖项
+.. _`Installing Leo using pip`:    installing.html#用-pip-安装-Leo
 
 **概述**: Leo 是一个 `Python`_ 程序. 您必须安装Python本身, `Leo的依赖关系`_, 然后下载并安装Leo自身. 
 
