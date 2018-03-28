@@ -1,16 +1,13 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
     <title>Using Leo as a Personal Information Manager &#8212; Leo 5.6 documentation</title>
-    
     <link rel="stylesheet" href="_static/classic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
@@ -26,10 +23,10 @@
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Creating Documents from Outlines" href="tutorial-rst3.html" />
+    <link rel="next" title="使用提纲创建文档" href="tutorial-rst3.html" />
     <link rel="prev" title="Leo in 10 Minutes" href="tutorial-basics.html" /> 
   </head>
-  <body role="document">
+  <body>
     <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
       <ul>
@@ -37,13 +34,13 @@
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
         <li class="right" >
-          <a href="tutorial-rst3.html" title="Creating Documents from Outlines"
+          <a href="tutorial-rst3.html" title="使用提纲创建文档"
              accesskey="N">next</a> |</li>
         <li class="right" >
           <a href="tutorial-basics.html" title="Leo in 10 Minutes"
              accesskey="P">previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="leo_toc.html">Leo 5.6 documentation</a> &#187;</li>
-          <li class="nav-item nav-item-1"><a href="tutorial.html" accesskey="U">Leo&#8217;s Tutorials</a> &#187;</li> 
+          <li class="nav-item nav-item-1"><a href="tutorial.html" accesskey="U">Leo’s Tutorials</a> &#187;</li> 
       </ul>
     </div>  
 
@@ -54,7 +51,7 @@
             
   <div class="section" id="using-leo-as-a-personal-information-manager">
 <h1>Using Leo as a Personal Information Manager<a class="headerlink" href="#using-leo-as-a-personal-information-manager" title="Permalink to this headline">¶</a></h1>
-<p>This chapter tells how you can use Leo as a Personal Information Manager. It introduces <a class="reference internal" href="#clones">clones</a>: one of Leo&#8217;s most unusual and powerful features for organizing data.</p>
+<p>This chapter tells how you can use Leo as a Personal Information Manager. It introduces <a class="reference internal" href="#clones">clones</a>: one of Leo’s most unusual and powerful features for organizing data.</p>
 <div class="contents local topic" id="contents">
 <p class="topic-title first">Contents</p>
 <ul class="simple">
@@ -88,7 +85,7 @@
 <li>Notice that <em>all</em> the A nodes now have a B child.</li>
 <li>See what happens if you clone B.</li>
 <li>See what happens if you insert, delete or move nodes that are children of A.</li>
-<li>When you delete a node&#8217;s penultimate clone, the node becomes a regular node again.</li>
+<li>When you delete a node’s penultimate clone, the node becomes a regular node again.</li>
 </ul>
 </div>
 <div class="section" id="clones-accelerate-work-flow-by-creating-views">
@@ -96,13 +93,13 @@
 <p>Clones can greatly accelerate your work flow. To start a project, clone nodes related to the project and drag them at or near the top level, where you can get at them easily. When the project is complete, just delete the clones. This work flow is surprisingly effective:</p>
 <ul class="simple">
 <li>The original nodes never move, but they change whenever their clones do.</li>
-<li>There is nothing to &#8220;put back in place&#8221; when you are done. Just delete the clones.</li>
+<li>There is nothing to “put back in place” when you are done. Just delete the clones.</li>
 </ul>
 <p>Used this way, <strong>clones create views</strong>: when you gather cloned nodes together for a project, you are, in effect, creating a project-oriented view of the outline. This view <strong>focuses your attention</strong> on only those nodes that are relevant to the task at hand.</p>
 </div>
 <div class="section" id="using-abbreviations-and-templates">
 <h2><a class="toc-backref" href="#id3">Using abbreviations and templates</a><a class="headerlink" href="#using-abbreviations-and-templates" title="Permalink to this headline">¶</a></h2>
-<p id="index-1">Leo optionally expands abbreviations as you type. Abbreviations typically end with something like <code class="docutils literal"><span class="pre">;;</span></code> so they won&#8217;t trigger by accident.</p>
+<p id="index-1">Leo optionally expands abbreviations as you type. Abbreviations typically end with something like <code class="docutils literal"><span class="pre">;;</span></code> so they won’t trigger by accident.</p>
 <p>To use abbreviations, you must enable them in myLeoSettings.leo:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="nd">@bool</span> <span class="n">enable</span><span class="o">-</span><span class="n">abbreviations</span> <span class="o">=</span> <span class="kc">True</span>
 </pre></div>
@@ -138,7 +135,7 @@
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="mi">20131009171117</span>
 </pre></div>
 </div>
-<p>It&#8217;s even possible to define a context in which abbreviation scripts execute. See leoSettings.leo for full details.</p>
+<p>It’s even possible to define a context in which abbreviation scripts execute. See leoSettings.leo for full details.</p>
 </div>
 <div class="section" id="using-urls">
 <h2><a class="toc-backref" href="#id4">Using URLs</a><a class="headerlink" href="#using-urls" title="Permalink to this headline">¶</a></h2>
@@ -154,7 +151,7 @@
 <li>Leo opens URLs that look like file names using os.startfile.</li>
 <li>Leo opens all other URLs with your default web browser.</li>
 <li>Any scheme (http, mailto, ftp, file, etc.) supported by your browser is valid.</li>
-<li>URL&#8217;s should contain no spaces: use <code class="docutils literal"><span class="pre">%20</span></code> instead of spaces.</li>
+<li>URL’s should contain no spaces: use <code class="docutils literal"><span class="pre">%20</span></code> instead of spaces.</li>
 </ul>
 <p><a class="reference external" href="appendices.html#valid-url-s">See the Appendix</a> for a complete description of valid URLs.</p>
 </div>
@@ -206,7 +203,7 @@
                         title="previous chapter">Leo in 10 Minutes</a></p>
   <h4>Next topic</h4>
   <p class="topless"><a href="tutorial-rst3.html"
-                        title="next chapter">Creating Documents from Outlines</a></p>
+                        title="next chapter">使用提纲创建文档</a></p>
 <div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
     <form class="search" action="search.html" method="get">
@@ -228,18 +225,18 @@
           <a href="genindex.html" title="General Index"
              >index</a></li>
         <li class="right" >
-          <a href="tutorial-rst3.html" title="Creating Documents from Outlines"
+          <a href="tutorial-rst3.html" title="使用提纲创建文档"
              >next</a> |</li>
         <li class="right" >
           <a href="tutorial-basics.html" title="Leo in 10 Minutes"
              >previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="leo_toc.html">Leo 5.6 documentation</a> &#187;</li>
-          <li class="nav-item nav-item-1"><a href="tutorial.html" >Leo&#8217;s Tutorials</a> &#187;</li> 
+          <li class="nav-item nav-item-1"><a href="tutorial.html" >Leo’s Tutorials</a> &#187;</li> 
       </ul>
     </div>
     <div class="footer" role="contentinfo">
         &#169; Copyright 1997-2017, Edward K. Ream.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.5.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.5.
     </div>
   </body>
 </html>

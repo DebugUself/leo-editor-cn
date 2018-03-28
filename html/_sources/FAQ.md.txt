@@ -5,7 +5,8 @@ FAQ
 ####
 
 This is Leo's Frequently Asked Questions document.
-这是 Leo 常见问题回答?
+这是 Leo 常见问题回答???
+
 
 .. index:: FAQ
 
@@ -1893,7 +1894,7 @@ You could rewrite this as::
 g.angleBrackets(s) returns string s enclosed in angle brackets.
 For instance::
 
-​    headline = g.angleBrackets('abc')
+​   headline = g.angleBrackets('abc')
 
 sets headline to::
 

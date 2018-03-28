@@ -47,7 +47,7 @@
 <v t="ekr.20131009050634.17623"><vh>@bool rst3_write_intermediate_file = True</vh></v>
 <v t="ekr.20051202072010"><vh>@string rst3_default_path =</vh></v>
 <v t="ekr.20131009050634.17616"><vh>@string rst3_stylesheet_path = ..\doc</vh></v>
-<v t="ekr.20131027064821.18685"><vh>@string rst3_write_intermediate_extension = .md</vh></v>
+<v t="ekr.20131027064821.18685"><vh>@string rst3_write_intermediate_extension = .rst</vh></v>
 <v t="ekr.20050812123002.1"><vh>Http options...</vh>
 <v t="ekr.20050812123002.2"><vh>@bool rst3_clear_http_attributes = False</vh></v>
 <v t="ekr.20050812123002.3"><vh>@string rst3_http_attributename = rst_http_attribute</vh></v>
@@ -10789,7 +10789,7 @@ Ask for help at `leo-editor &lt;https://groups.google.com/forum/#!forum/leo-edit
    &lt;br /&gt;
 
 ##################
-Leo in 10 Minutes
+10 分钟快速上手
 ##################
 
 ..  "Edward...you've come up with perhaps the most powerful new concept in
@@ -10802,7 +10802,7 @@ This chapter introduces Leo's most important features and terminology.
     :local:
 
 </t>
-<t tx="omlalala.20180206205022.252">Here is a screenshot of Leo's main window:
+<t tx="omlalala.20180206205022.252">下面是 Leo 主界面的截屏:
 
 .. image:: screen-shots/leo-workbook.png
    :alt: Screenshot
