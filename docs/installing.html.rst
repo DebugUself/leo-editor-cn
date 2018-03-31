@@ -1,23 +1,23 @@
 .. rst3: filename: docs/installing.html
 
 ##############
-Installing Leo
+安装 Leo
 ##############
 
-.. index:: Installing Leo
+.. index:: 安装 Leo
 
-.. _`Leo's help forum`: http://groups.google.com/group/leo-editor
+.. _`Leo 的帮助论坛`: http://groups.google.com/group/leo-editor
 
-This chapter tells how to install and run Leo on Windows, Linux and MacOS.
+本章讲述了如何安装和运行 Leo 在 Windows, Linux 和 MacOS. 
 
-**Important**: If you have *any* problems installing Leo, please ask for help on `Leo's help forum`_.
+**要点**: 如果你安装Leo有 *任何* 问题, 请向 `Leo 的帮助论坛`_ 寻求帮助. 
 
 .. contents:: Contents
     :depth: 4
     :local:
 
-Dependencies
-++++++++++++
+依赖项
++++++++++
 
 .. _`Anaconda`:   https://www.anaconda.com/download/
 .. _`Miniconda`:  https://conda.io/miniconda.html
@@ -32,142 +32,131 @@ Dependencies
 .. _`PyQt5`:      http://www.riverbankcomputing.com/software/pyqt/download5
 .. _`Sphinx`:     http://www.sphinx-doc.org/en/stable/
 
-Leo's minimal dependencies are:
+Leo 的最小依赖项是:
 
-* `Python`_ 2.6 or later, including all Python 3.x versions.
-* `PyQt4`_ or `PyQt5`_.
+* `Python`_ 2.6 或更高版本, 包括所有 Python 3.x 版本. 
+* `PyQt4`_ 或 `PyQt5`_ . 
 
-The following packages are optional, but recommended:
+下列安装包是可选的, 但建议:
 
-* `Docutils`_: required for the rst3 command and the viewrendered plugins.
-* `Sphinx`_: required to regenerate Leo's documentation.
-* `PyEnchant`_: required for spell checking.
+* `Docutils`_ :rst3 命令和 viewrendered 插件所需的文件. 
+* `Sphinx`_ :需要重新生成 Leo 的文档. 
+* `PyEnchant`_ :拼写检查需要. 
 
-Plugins may require other packages.  For example, viewrendered requires `Markdown`_ if one wishes to use markdown rendering, but it is optional. rss.py will not function without `feedparser`_. Etc.
+插件可能需要其他软件包. 例如, 如果想要使用 markdown 渲染时, viewrendered 需要 `Markdown`_ , 但它是可选的. 没有 `feedparser`_ , rss.py 将不能正常工作等.
 
-Installing Leo with pip
-+++++++++++++++++++++++
+用 pip 安装 Leo
+++++++++++++++++++
 
-.. _`Install pip`:      https://pip.pypa.io/en/stable/installing/               
-.. _`Install Python`:   http://python.org.
+.. _`安装 pip`:      https://pip.pypa.io/en/stable/installing/               
+.. _`安装 Python`:   http://python.org.
 .. _`pip`:              https://pypi.python.org/pypi/pip
 
-Python's `pip`_ tool will download *and* install Leo and all of Leo's dependencies automatically:
+Python 的 `pip`_ 工具将自动下载 *并* 安装 Leo 和 Leo 的所有依赖项:
 
-1. `Install Python`_ first, if necessary. If you are new to Python, install Python 3, not Python 2. Python 3 installs pip automatically.
+1. 如果需要的话, 先 `安装 Python` . 如果您是 Python 新手, 请安装 Python 3 , 而不是 Python 2. Python3 自动安装 pip. 
 
-2. (Python 2 only) `Install pip`_ itself, if necessary.  To check whether pip has been installed, open a terminal window and type::
+2. (仅限Python 2) 如果需要的话, `安装 pip` 本身. 要检查是否安装了 pip, 打开终端窗口并键入::
 
     pip --version
    
-3. (Python 2 only) From a terminal, install `PyQt`_ with::
+3. (仅限Python 2) 从终端, 安装 `PyQt`_ ::
 
     pip install pyqt
 
-4. Install Leo with::
+4. 安装 Leo 用::
 
     pip install leo
     
-This will download and install all required packages (except PyQt).
+这将下载并安装所需的软件包(PyQt 除外).
 
-Installing packages
-+++++++++++++++++++
+安装软件包
++++++++++++++++
 
-**Python**: Leo will work on any platform that supports Python 2.6 or above, including Python 3.0 and above. To install Python, see http://python.org.
+**Python**:Leo 可以在任何支持 Python2.6 或以上的平台工作, 包括 Python3.0 和以上版本. 要安装 Python , 请参阅 http://python.org.
 
-**PyQt**: `PyQt`_ provides Leo's widgets:
+**PyQt**:  `PyQt`_ 提供了 Leo 的小部件:
 
-* Download PyQt4 from http://www.riverbankcomputing.com/software/pyqt/download.
-* Download PyQt5 from http://www.riverbankcomputing.com/software/pyqt/download5.
+* 从 http://www.riverbankcomputing.com/software/pyqt/download 下载 PyQt4. 
+* 从 http://www.riverbankcomputing.com/software/pyqt/download5 下载 PyQt5. 
 
-**Important**: The PyQt version must match your installed Python version. Remember that Leo requires Python 2.6 or later, or Python 3.0 or later.
+**要点:** PyQt 版本必须与您安装的 Python 版本相匹配. 记住, Leo 需要 Python 2.6 或更高版本, 或者 Python 3.0 或更高版本. 
 
-**PyEnchant**: You must install `PyEnchant`_ if you want to use Leo's Spell tab. There is an executable installer for Windows users.
+**PyEnchant:** 如果你想要使用 Leo 的拼音选项卡, 你必须安装 `PyEnchant`_ . 对于 Windows 用户, 有一个可执行的安装程序.
 
-Installing Leo itself
-+++++++++++++++++++++
+安装 Leo 本身
++++++++++++++++++
 
 
 
-Installing Leo on Windows
+在 Windows 上安装 Leo
 *************************
 
-Install Python and Qt, as described above (`Installing Packages`_).
+安装Python和Qt, 如上所述(`安装软件包`_).
 
-Now you have a choice.  You can use Leo's binary (single-click) installer
-or download Leo's sources directly.
+现在你有一个选择. 你可以使用Leo的二进制 (single-click) 安装程序
+或直接下载Leo的源文件.
 
-Using the single-click installer
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+使用单击安装程序
+^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. _`SourceForge download page`: http://sourceforge.net/projects/leo/files/Leo/
-.. _`Running Leo`: running.html
+.. _`SourceForge 下载页面`: http://sourceforge.net/projects/leo/files/Leo/
+.. _`运行 Leo`: running.html
 
-Leo has a binary installer for Windows, available at the `SourceForge download page`_. The binary installer installs Leo and sets Windows file associations. Now see `Running Leo`_ for how to run Leo after installing it.
+Leo 有一个用于 Windows 的二进制安装程序, 可以在 `SourceForge 下载页面`_ 找到. 二进制安装程序安装 Leo 并设置 Windows 文件关联. 现在, 请参阅 `运行 Leo`_ 在安装后如何运行 Leo.
 
-Installing from sources (Windows)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+从源安装 (Windows)
+^^^^^^^^^^^^^^^^^^^^^^
 
-.. _`Leo's download page`: download.html
+.. _`Leo 的下载页面`: download.html
 
-You may download Leo's sources in one of three ways, as described at `Leo's download page`_. If the sources are zipped, unpack them into a temp folder. You may place the sources anywhere you like, including Python's \*site-packages* folder, for example, C:\\Python26\\Lib\\site-packages.
+您可以用三种方式下载 Leo 的源文件, 正如 `Leo 的下载页面`_ 所描述的那样. 如果源文件被压缩, 则将其解压到临时文件夹. 您可以将源文件放在您喜欢的任何地方, 包括 Python 的 *site-packages* 文件夹, 例如  C:\\Python26\\Lib\\site-packages.
 
-Next, you will find it convenient to create Windows files associations for .leo files, as described in the next section.
+接下来, 您将发现为 .leo 文件创建 Windows 文件关联非常方便, 正如下一节所述.
 
-Creating Windows file associations
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+创建 Windows 文件关联
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-*Important*: Leo's binary Windows installer sets file associations
-automatically, so this section is needed only if you are installing Leo
-from a .zip file or other sources.
+*要点*: Leo 的二进制 Windows 安装程序会自动设置文件关联, 所以只有当您从一个 .zip 文件或其他来源中安装 Leo 时, 才需要这个部分. 
 
-There are two ways of associating .leo files with Leo. The first uses the
-Windows control panel, the second, the Windows console.
+有两种办法将 .leo 文件与 Leo 关联起来. 第一种使用的是 Windows 控制面板, 第二种是 Windows 控制台. 
 
-**Method 1: Using the Windows Control Panel**
+**方法 1：使用 Windows 控制面板**
 
-The goal is that you want to associate .leo files with the following command::
+目标是您希望用以下命令关联 .leo 文件::
 
     "<path to python>\python.exe" "<path to launchLeo.py>\launchLeo.py" "%1"
     
-Before Windows 7, you do this with using the Folder Options control panel.
-In Windows 7, you do this with the Default Programs control panel.
+在Windows 7之前, 你可以使用文件夹选项控制面板来完成这个操作. 在Windows 7中, 你可以使用默认程序控制面板来完成这个操作. 
 
-*Note*: "%1" passes just the file being clicked on, quoted for spaces etc.
-The quotation marks are needed to handle file paths containing spaces.
+*注意:* "%1" 只传递被点击的文件, 引用空格等. 需要使用引号来处理包含空格的文件路径. 
 
-*Warning:* In a batch file, %1 passes just the first command line parameter.
-It is logical to expect %* to work for file associations just as in batch
-files. Alas, it does not.
+*警告:* 在批处理文件中, 1%只传递第一个命令行参数. 在批处理文件中, 期望 %* 为文件关联工作是合乎逻辑的. 唉, 它没有. 
 
-**Method 2: Using the Windows Console**
+**方法2：使用Windows控制台**
 
-Open a Windows console with administrator privileges, then type::
+打开带有管理员权限的 Windows 控制台, 然后键入::
 
     ftype LeoFile="<path to python>\pythonw.exe" "<path to launchLeo.py>\launchLeo.py" "%1" %*
     assoc .leo=LeoFile
 
-And put this leo.bat in %PATH%::
+并把 leo.bat 放到 %PATH%::
 
     @start /b "Leo" "<path to python>\python.exe" "<path to launchLeo.py>\launchLeo.py" %*
     
-You may omit the /b option if you want to create a separate console window for Leo.
+如果你想要为 Leo 创建一个单独的控制台窗口, 你可以省略 /b 选项.
 
-Installing Leo with git
-***********************
+用 git 安装 Leo
+******************
 
 .. _`git`: https://git-scm.com/
 
-**Important**: This section tells how to set up `git`_ so that you can grab
-the latest sources using ``git clone``.
+**要点**: 本节讲述如何设置 `git`_ 以便您可以使用 ``git clone``获取最新的源文件. 
 
-Many users will want to track the development version of Leo, in order to stay
-on top of the latest features and bug fixes. Running the development version is
-quite safe and easy, and it's also a requirement if you want to contribute to
-Leo.
+许多用户希望跟踪 Leo 的开发版本, 以保持最新的特性和 bug 修复. 运行开发版是相当安全和简单的, 而且如果您想要给 Leo 做贡献, 这也是一个要求. 
 
-1. First, you need to get git from http://git-scm.com/.
-2. Get Leo from GitHub by doing::
+1. 首先, 你需要获得从 http://git-scm.com/ 获得 git. 
+2. 从 Github 中获得 Leo::
 
         git clone https://github.com/leo-editor/leo-editor (http access)
     
@@ -175,134 +164,126 @@ Leo.
    
         git clone git@github.com:leo-editor/leo-editor.git (ssh access)
 
-And that's it! You can run launchLeo.py directly. When you want to refresh the
-code with latest modifications from GitHub, run git pull.
+就是这样! 你可以直接运行 launchLeo.py. 当你想要从 GitHub 上刷新最新修改的代码, 运行 git pull.
 
-Installing Leo on Linux
+在 Linux 上安装 Leo
 ***********************
 
-.. _`install Leo from a debian package`: installing.html#installing-from-a-debian-package
-.. _`install Leo from sources`: installing.html#installing-from-sources-linux
+.. _`从 debian 软件包中安装 Leo`: installing.html#从-debian-软件包安装
+.. _`从源文件中安装 Leo`: installing.html#从源安装-linux
 
-If you are using Debian/Ubuntu, it's best to
-`install Leo from a debian package`_, as described next.
-This provides file associations, icons, launcher items, etc.
-Otherwise, you may `install Leo from sources`_.
+如果你正在使用 Debian/Ubuntu, 最好 `从 debian 软件包中安装 Leo`_, 如下所述. 这提供了文件关联、图标、启动项等. 而且, 你可以 `从源文件中安装 Leo`_.
 
-Installing from a debian package
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+从 debian 软件包安装
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Add these files to `/etc/apt/sources.list`::
+将这些文件添加到 `/etc/apt/sources.list`::
 
     deb http://ppa.launchpad.net/villemvainio/ppa/ubuntu jaunty main
     deb-src http://ppa.launchpad.net/villemvainio/ppa/ubuntu jaunty main
 
-Then run::
+然后运行::
 
     sudo apt-get update
     sudo apt-get install leo
 
-Installing from sources (Linux)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+从源安装 (Linux)
+^^^^^^^^^^^^^^^^^^^^
 
-.. _`download Leo's sources`: download.html
+.. _`下载 Leo 源文件`: download.html
 
-You may `download Leo's sources`_ in one of three ways. If the sources
-are zipped, unzip them into a folder in your home directory, say
-~/leo-5.7.
+你可以通过以下三种方法之一 `下载 Leo 源文件`_ . 如果源文件压缩了, 将它们解压到主目录的文件夹中, 比如 ~/leo-5.7. 
 
-You now have several choices.
+您现在有几个选择. 
 
-1. You can run Leo from your home directory. Just add  ~/leo-5.7 to your path.
+1. 您可以从主目录运行 Leo. 只需要将 ~/leo-5.7 添加到您的路径. 
 
-2. You can install leo into /usr/local/lib and /usr/local/bin with:
+2. 你可以使用以下命令将 leo 安装到 /usr/local/lib 和 /usr/local/bin 中:
 
     cd ~/leo-5.7
     sudo python setup.py install
 
-See `Running Leo`_ for how to run Leo after installing it.
+请参阅 `运行 Leo`_ 了解如何在安装后运行 Leo.
 
-Installing Leo on MacOs 10.7 (Lion) and later
-*********************************************
+在 MacOs 10.7 (Lion) 或更高版本上安装 Leo
+**************************************************
 
 .. .. http://groups.google.com/group/leo-editor/browse_thread/thread/92ae059cc5213ad3
 
-Many thanks to Ludwig Schwardt for the following installation instructions. Using the HomeBrew installation method is *much* easier than before.
+非常感谢 Ludwig Schwardt 提供的以下安装指导. 使用 HomeBrew 方法比以前 *容易多了*. 
 
-**Note from EKR**: When upgrading MacOS, it's probably a good idea to uninstall pyqt, sip and qt first::
+**EKR注意事项**: 升级 MacOS, 首先卸载 pyqt, sip 和 qt 可能是个好注意::
 
     brew remove pyqt sip qt
     brew install qt sip pyqt
 
-I (Ludwig) recently received a new MacBook Pro and did a fresh upgrade to Mac OS 10.7 (Lion). I then used the opportunity to test out installation procedures of various software on a clean system. My main finding is that the excellent Homebrew (mxcl.github.com/homebrew/) makes things much easier these days.
+我(Ludwig)最近收到了一台新的 MacBook Pro, 并对 Mac OS 10.7(Lion) 进行了全新升级. 然后我利用这个机会在一个干净系统上测试了各种软件的安装程序. 我的主要的发现是, 优秀的 Homebrew(mxcl.github.com/homebrew/) 这些天使事情容易多了. 
 
-Why Homebrew? It does not try to replace every single bit of functionality on your Mac with their own version, like Macports or fink. It reuses the existing libraries as far as possible. No need to reinstall Python, for example (one of my pet gripes when people try to install new software on their Macs, and the source of much confusion and pain). It installs to /usr/local, the standard place to find third-party libraries and headers, instead of the obscure /opt or /sw. It's simple to use and to extend.
+为什么选择 Homebrew？它并不会尝试用自己的版本, 比如 Macports 或 fink 来替换 Mac 上的每一个功能. 它尽可能重复使用现有的库. 例如, 无需重新安装 Python(当人们试图在 Mac 上安装新软件时, 是我的一个宠物抱怨, 以及许多混乱和痛苦的来源). 它安装到 /usr/local, 这是找到第三方库和标题的标准的位置, 而不是隐藏的 /opt 或 /sw. 使用和扩展都很简单. 
 
-Here is my installation write-up:
+此处是我的安装记录:
 
-- Read the Homebrew installation instructions at http://brew.sh/
+- 阅读 http://brew.sh/ 上的 Homebrew 安装说明
 
-- Make sure you have Xcode installed (test it by confirming that "gcc" runs in the Terminal). Only the smaller command-line tools are required; there is no need to get the full Xcode beast.
+- 确保您已经安装了 Xcode(通过确认"gcc"运行在终端来测试). 只需要较小的命令行工具；没有必要获得完整的 Xcode beast. 
 
-- In preparation for Homebrew, the best option in my opinion is to delete /usr/local via::
+- 在准备 Homebrew 时, 我认为最好的选择是通过以下方式删除 /usr/local ::
 
     sudo rm -rf /usr/local
 
-  and install any software in it via HomeBrew instead.
+  并通过 HomeBrew 代替安装任何软件. 
   
-  The HomeBrew package manager is so easy to use that you will find replacing deleted packages a snap.
+  HomeBrew 软件包管理器非常易于使用, 你会发现快速替换已删除的软件包. 
   
-  If deleting /usr/local fills you with dread (you do not want to lose your beloved third-party software), the second-best option is to make sure you have write permission for the directory via::
+  如果删除 /usr/local 让您满意(您不希望失去您心爱的第三方软件), 次优选择是确保您已经通过以下方式为目录写了权限::
 
     sudo chown -R <your user name>:admin /usr/local
 
-  If you don't know your username, run "whoami". :-) This is useful because homebrew actually discourages you from installing third-party software as the superuser (the usual Mac apps in /Applications are also installed as the normal user, for that matter).
+  如果您不知道自己的用户名, 请运行 "whoami".  :-) 这是很有用的, 因为 homebrew 实际上不鼓励你以超级用户的身份安装第三方软件(对于这种情况, 应用程序中的常用 Mac 应用程序也以普通的用户身份安装). 
 
-- Install Homebrew (http://mxcl.github.com/homebrew/) by running the
-  following command in the Terminal::
+-通过在终端中运行以下命令安装 Homebrew (http://mxcl.github.com/homebrew/)::
     
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-- Run "brew doctor" and check any further suggestions to improve your system.
+- 运行 "brew doctor" 并检查任何进一步改善您的系统的建议. 
 
-  EKR note: I thought I had installed command-line tools after installing the XCode page. I hadn't, and "brew doctor" told me so.
+  EKR注意：我认为在安装 XCode 页面后已经安装了命令行工具. 我没有, 而 "brew doctor" 告诉我. 
 
-- Run "brew update" to get the latest formulas
+- 运行 "brew update" 来获取最新的公式
 
-- Install sip and note the caveat::
+- 安装 sip 并注意警告::
 
     brew install sip
 
-  This warns you to add the local python directory to your PYTHONPATH.
-  Make a note of what this is (especially if you are not on Lion!).
+  这会警告将本地 python 目录添加到您的 PYTHONPATH 中. 记下这是什么(特别是如果你不在 Lion 上! ).
 
-- Add the following lines to your ~/.bash_profile
-  (or ~/.profile on Leopard). This is the default for LION::
+- 将以下行添加到 ~/.bash_profile中
+  (或 ~/.profile 在 Leopard 上).  这是 LION 的默认设置::
 
       export PATH=/usr/local/bin:$PATH
-      # This is for SIP (and PyQt) as suggested by Homebrew
+      # 这是由 Homebrew 所建议的 SIP(和PyQt)
       export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
 
-- Install PyQt::
+- 安装 PyQt::
 
     brew install pyqt
  
-- Open a new Terminal tab / window so that the above settings take effect, and install Leo. I downloaded the Leo-4.9-final-a.zip, unzipped it, and ran "python launchLeo.py" inside the Leo directory.
+- 打开新的终端选项卡/窗口, 以使上述设置生效, 并安装 Leo. 我下载了 Leo-4.9-final-a.zip, 将其解压缩, 然后在 Leo 目录中运行 "python launchLeo.py". 
 
-It would really be great to get a Leo formula going for Homebrew. As mentioned before, the main question is just where to place all the Leo files in the /usr/local hierarchy.
+得到一个 Leo 公式适用于 Homebrew 真的很棒. 如前所述, 主要问题是将所有 Leo 文件放在 /usr/local 层次结构的何处.
 
-Installing everything with Anaconda or Miniconda
-++++++++++++++++++++++++++++++++++++++++++++++++
+用 Anaconda 或 Miniconda 安装任何东西
++++++++++++++++++++++++++++++++++++++++++++++
 
-The `Anaconda`_ scientific computing environment includes Python, NumPy, SciPy, PyQt, and over a thousand other tools, packages and libraries. It's a 500+ MB download but you're guaranteed to have everything needed.
+`Anaconda`_ 的科学计算环境包括 Python, NumPy, SciPy, PyQt 和其他上千种工具、软件包和库. 这是一个 500 多 MB 的下载, 但是你保证有所需要的东西. 
 
-To install Leo do this from a console::
+要安装 Leo, 可以从控制台进行操作::
 
     pip install leo
 
-The `Miniconda`_ environment includes just Python and the `conda` package management tool. Pick and choose from the full Anaconda ecosystem.
+`Miniconda`_ 环境仅包含 Python 和 `conda` 软件包管理工具. 从完整的 Anaconda 生态系统中挑选并选择. 
 
-To install Leo do this from a console::
+要安装Leo, 可以从控制台进行操作::
 
     conda install pyqt5
     pip install leo
