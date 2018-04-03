@@ -1,16 +1,13 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
     <title>Plugins &#8212; Leo 5.6 documentation</title>
-    
     <link rel="stylesheet" href="_static/classic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
@@ -29,7 +26,7 @@
     <link rel="next" title="Leo’s Commands Reference" href="commands.html" />
     <link rel="prev" title="rst3 Command Reference" href="rstplugin3.html" /> 
   </head>
-  <body role="document">
+  <body>
     <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
       <ul>
@@ -43,7 +40,7 @@
           <a href="rstplugin3.html" title="rst3 Command Reference"
              accesskey="P">previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="leo_toc.html">Leo 5.6 documentation</a> &#187;</li>
-          <li class="nav-item nav-item-1"><a href="usersguide.html" accesskey="U">Leo&#8217;s Users Guide</a> &#187;</li> 
+          <li class="nav-item nav-item-1"><a href="usersguide.html" accesskey="U">Leo’s Users Guide</a> &#187;</li> 
       </ul>
     </div>  
 
@@ -54,7 +51,7 @@
             
   <div class="section" id="plugins">
 <h1>Plugins<a class="headerlink" href="#plugins" title="Permalink to this headline">¶</a></h1>
-<p>This chapter discusses the plugins contained in leoPlugins.leo. These plugins are part of Leo&#8217;s official distribution. The next chapter, <a class="reference external" href="writingPlugins.html">Writing Plugins</a>, tells how to write plugins.</p>
+<p>This chapter discusses the plugins contained in leoPlugins.leo. These plugins are part of Leo’s official distribution. The next chapter, <a class="reference external" href="writingPlugins.html">Writing Plugins</a>, tells how to write plugins.</p>
 <p>The scripting plugin (mod_scripting.py) deserves special mention. This plugin lets you create <strong>script buttons</strong> in a matter of seconds. See <a class="reference external" href="tutorial-scripting#using-button-nodes">Using &#64;button nodes</a>. Script buttons are extraordinarily useful.</p>
 <div class="contents local topic" id="contents">
 <p class="topic-title first">Contents</p>
@@ -218,7 +215,7 @@
 <p>The body text of the &#64;enabled-plugins node contains a list of enabled plugins. Notes:</p>
 <ul class="simple">
 <li>Leo attempts to load all plugins every time an &#64;enabled-plugins node is seen. If the plugin has already been loaded, Leo silently ignores the request to re-enable the plugin. Leo never attempts to disable a plugin while processing enabled plugin strings. Thus, plugins enabled in an &#64;enabled-plugins node in leoSettings.leo <em>will</em> be enabled regardless of the contents of any other &#64;enabled-plugins node.</li>
-<li>You can enable plugins by file name or by module name.  File names end in .py and are resolved relative to the leo/plugins directory.  Module names do <em>not</em> end in .py and are found using Python&#8217;s import mechanism&#8211;the module name must be on PYTHONPATH.</li>
+<li>You can enable plugins by file name or by module name.  File names end in .py and are resolved relative to the leo/plugins directory.  Module names do <em>not</em> end in .py and are found using Python’s import mechanism–the module name must be on PYTHONPATH.</li>
 <li>g.app.gui.getEnabledPlugins contains the last processed &#64;enabled-plugins node.</li>
 </ul>
 </div>
@@ -279,7 +276,7 @@ interface. Bzr is invoked based on the path of the current node.</dd>
 <dt><code class="docutils literal"><span class="pre">empty_leo_file.py</span></code></dt>
 <dd>Allows Leo to open any empty file as a minimal .leo file.</dd>
 <dt><code class="docutils literal"><span class="pre">enable_gc.py</span></code></dt>
-<dd>Enables debugging and tracing for Python&#8217;s garbage collector.</dd>
+<dd>Enables debugging and tracing for Python’s garbage collector.</dd>
 <dt><code class="docutils literal"><span class="pre">expfolder.py</span></code></dt>
 <dd>Adds &#64;expfolder nodes that represent folders in the file system.</dd>
 <dt><code class="docutils literal"><span class="pre">FileActions.py</span></code></dt>
@@ -324,7 +321,7 @@ attributes from nodes.</dd>
 <dt><code class="docutils literal"><span class="pre">leomail.py</span></code></dt>
 <dd>Sync local mailbox files over to Leo.</dd>
 <dt><code class="docutils literal"><span class="pre">leomylyn.py</span></code></dt>
-<dd>Provides a &#8220;Mylyn&#8221; like experience for Leo.</dd>
+<dd>Provides a “Mylyn” like experience for Leo.</dd>
 <dt><code class="docutils literal"><span class="pre">leoOPML.py</span></code></dt>
 <dd>Read and write .leo files in OPML.</dd>
 <dt><code class="docutils literal"><span class="pre">leoremote.py</span></code></dt>
@@ -359,7 +356,7 @@ directories into headlines and puts the list of file names into bodies.</dd>
 <dt><code class="docutils literal"><span class="pre">multifile.py</span></code></dt>
 <dd>Allows Leo to write a file to multiple locations.</dd>
 <dt><code class="docutils literal"><span class="pre">nav_qt.py</span></code></dt>
-<dd>Adds &#8220;Back&#8221; and &#8220;Forward&#8221; buttons (Qt only).</dd>
+<dd>Adds “Back” and “Forward” buttons (Qt only).</dd>
 <dt><code class="docutils literal"><span class="pre">niceNosent.py</span></code></dt>
 <dd>Ensures that all descendants of &#64;file-nosent nodes end
 with exactly one newline, replaces all tabs with spaces, and
@@ -375,7 +372,7 @@ adds a newline before class and functions in the derived file.</dd>
 <dt><code class="docutils literal"><span class="pre">notebook.py</span></code></dt>
 <dd>Adds a QML notebook.</dd>
 <dt><code class="docutils literal"><span class="pre">open_shell.py</span></code></dt>
-<dd>Creates an &#8216;Extensions&#8217; menu containing two commands:
+<dd>Creates an ‘Extensions’ menu containing two commands:
 Open Console Window and Open Explorer.</dd>
 <dt><code class="docutils literal"><span class="pre">outline_export.py</span></code></dt>
 <dd>Modifies the way exported outlines are written.</dd>
@@ -388,13 +385,13 @@ Open Console Window and Open Explorer.</dd>
 <dt><code class="docutils literal"><span class="pre">projectwizard.py</span></code></dt>
 <dd>Creates a wizard that creates &#64;auto nodes.</dd>
 <dt><code class="docutils literal"><span class="pre">python_terminal.py</span></code></dt>
-<dd>Embeds an python interpreter in Leo&#8217;s log pane.</dd>
+<dd>Embeds an python interpreter in Leo’s log pane.</dd>
 <dt><code class="docutils literal"><span class="pre">QNCalendarWidgets.py</span></code></dt>
 <dd>Adds a calendar widget.</dd>
 <dt><code class="docutils literal"><span class="pre">quickMove.py</span></code></dt>
 <dd>Creates buttons to move nodes quickly to other nodes.</dd>
 <dt><code class="docutils literal"><span class="pre">quicksearch.py</span></code></dt>
-<dd>Adds a fast-to-use search widget, like the &#8220;Find in files&#8221; feature of many editors.</dd>
+<dd>Adds a fast-to-use search widget, like the “Find in files” feature of many editors.</dd>
 <dt><code class="docutils literal"><span class="pre">quit_leo.py</span></code></dt>
 <dd>Shows how to force Leo to quit.</dd>
 <dt><code class="docutils literal"><span class="pre">read_only_nodes.py</span></code></dt>
@@ -427,7 +424,7 @@ See <a class="reference external" href="http://packages.python.org/spyder/">http
 <dt><code class="docutils literal"><span class="pre">startfile.py</span></code></dt>
 <dd>Launches (starts) a file given by a headline when double-clicking the icon.</dd>
 <dt><code class="docutils literal"><span class="pre">stickynotes.py</span></code></dt>
-<dd>Adds simple &#8220;sticky notes&#8221; feature (popout editors) for Qt gui.</dd>
+<dd>Adds simple “sticky notes” feature (popout editors) for Qt gui.</dd>
 <dt><code class="docutils literal"><span class="pre">systray.py</span></code></dt>
 <dd>Adds Leo to the system tray.</dd>
 <dt><code class="docutils literal"><span class="pre">threadutil.py</span></code></dt>
@@ -439,7 +436,7 @@ See <a class="reference external" href="http://packages.python.org/spyder/">http
 <dt><code class="docutils literal"><span class="pre">tomboy_import.py</span></code></dt>
 <dd>Allows imports of notes created in Tomboy / gnote.</dd>
 <dt><code class="docutils literal"><span class="pre">trace_gc_plugin.py</span></code></dt>
-<dd>Traces changes to Leo&#8217;s objects at idle time.</dd>
+<dd>Traces changes to Leo’s objects at idle time.</dd>
 <dt><code class="docutils literal"><span class="pre">trace_keys.py</span></code></dt>
 <dd>Traces keystrokes in the outline and body panes.</dd>
 <dt><code class="docutils literal"><span class="pre">trace_tags.py</span></code></dt>
@@ -469,7 +466,7 @@ the selected outline to a Word document, starting Word if necessary.</dd>
 <dt><code class="docutils literal"><span class="pre">xsltWithNodes.py</span></code></dt>
 <dd>Adds the Outline:XSLT menu containing XSLT-related commands.</dd>
 <dt><code class="docutils literal"><span class="pre">zenity_file_dialogs.py</span></code></dt>
-<dd>Replaces Leo&#8217;s file dialogs on Linux with external
+<dd>Replaces Leo’s file dialogs on Linux with external
 calls to the zenity gtk dialog package.</dd>
 </dl>
 </div>
@@ -508,12 +505,12 @@ calls to the zenity gtk dialog package.</dd>
 <div class="section" id="import-cisco-config-py">
 <h4><a class="toc-backref" href="#id13">import_cisco_config.py</a><a class="headerlink" href="#import-cisco-config-py" title="Permalink to this headline">¶</a></h4>
 <p>Allows the user to import Cisco configuration files.</p>
-<p>Adds the &#8220;<a class="reference external" href="File:Import:Import">File:Import:Import</a> Cisco Configuration&#8221; menu item. The plugin will:</p>
+<p>Adds the “<a class="reference external" href="File:Import:Import">File:Import:Import</a> Cisco Configuration” menu item. The plugin will:</p>
 <ol class="arabic simple">
 <li>Create a new node, under the current node, where the configuration will be written. This node will typically have references to several sections (see below).</li>
-<li>Create sections (child nodes) for the indented blocks present in the original config file. These child nodes will have sub-nodes grouping similar blocks (e.g. there will be an &#8216;interface&#8217; child node, with as many sub-nodes as there are real interfaces in the configuration file).</li>
-<li>Create sections for the custom keywords specified in the customBlocks[] list in importCiscoConfig(). You can modify this list to specify different keywords. DO NOT put keywords that are followed by indented blocks (these are taken care of by point 2 above). The negated form of the keywords (for example, if the keyword is &#8216;service&#8217;, the negated form is &#8216;no service&#8217;) is also included in the sections.</li>
-<li>Not display consecutive empty comment lines (lines with only a &#8216;!&#8217;).</li>
+<li>Create sections (child nodes) for the indented blocks present in the original config file. These child nodes will have sub-nodes grouping similar blocks (e.g. there will be an ‘interface’ child node, with as many sub-nodes as there are real interfaces in the configuration file).</li>
+<li>Create sections for the custom keywords specified in the customBlocks[] list in importCiscoConfig(). You can modify this list to specify different keywords. DO NOT put keywords that are followed by indented blocks (these are taken care of by point 2 above). The negated form of the keywords (for example, if the keyword is ‘service’, the negated form is ‘no service’) is also included in the sections.</li>
+<li>Not display consecutive empty comment lines (lines with only a ‘!’).</li>
 </ol>
 <p>All created sections are alphabetically ordered.</p>
 </div>
@@ -544,13 +541,13 @@ calls to the zenity gtk dialog package.</dd>
 <div class="section" id="macros-py">
 <h4><a class="toc-backref" href="#id19">macros.py</a><a class="headerlink" href="#macros-py" title="Permalink to this headline">¶</a></h4>
 <p>Creates new nodes containing parameterized section reference.</p>
-<p>This plugin adds nodes under the currently selected tree that are to act as section references. To do so, go the Outline menu and select the &#8216;Parameterize Section Reference&#8217; command. This plugin looks for a top level node called &#8216;Parameterized Nodes&#8217;. If it finds a headline that matches the section reference it adds a node/nodes to the current tree.</p>
+<p>This plugin adds nodes under the currently selected tree that are to act as section references. To do so, go the Outline menu and select the ‘Parameterize Section Reference’ command. This plugin looks for a top level node called ‘Parameterized Nodes’. If it finds a headline that matches the section reference it adds a node/nodes to the current tree.</p>
 <p>To see this in action, do the following:</p>
 <ol class="arabic" start="0">
 <li><p class="first"><strong>Important</strong>: in the examples below, type &lt;&lt; instead of &lt; &lt; and
 type &gt;&gt; instead of &gt; &gt;.  Docstrings can not contain section references!</p>
 </li>
-<li><p class="first">Create a node called &#8216;Parameterized Nodes&#8217;, with a sub-node called  &lt; &lt; Meow &gt;&gt;.
+<li><p class="first">Create a node called ‘Parameterized Nodes’, with a sub-node called  &lt; &lt; Meow &gt;&gt;.
 The body of &lt; &lt; Meow &gt; &gt; should have the text:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>I mmmm sooo happy I could  &lt; &lt; 1$  &gt; &gt;.
 But I don&#39;t know if I have all the  &lt; &lt; 2$  &gt; &gt;
@@ -575,7 +572,7 @@ money in the world.
 <li><p class="first">Go to Outline and select Parameterize Section Reference.</p>
 </li>
 </ol>
-<p>The plugin searches the outline, goes to level one and finds a Node with the Headline, &#8220;Parameterized Nodes&#8221;. It looks for nodes under that headline with the the headline &lt;&lt; meow &gt;&gt;. It then creates this node structure under Node A:</p>
+<p>The plugin searches the outline, goes to level one and finds a Node with the Headline, “Parameterized Nodes”. It looks for nodes under that headline with the the headline &lt;&lt; meow &gt;&gt;. It then creates this node structure under Node A:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>&lt; &lt; meow ( purrrrrr, zzooot ) &gt; &gt;
     &lt; &lt;2$&gt; &gt;
     &lt; &lt;1$&gt; &gt;
@@ -596,7 +593,7 @@ money in the world.
 <ol class="arabic simple" start="8">
 <li>Examine the new subnodes of Node B.</li>
 </ol>
-<p>It&#8217;s a lot easier to use than to explain!</p>
+<p>It’s a lot easier to use than to explain!</p>
 </div>
 <div class="section" id="markup-inline-py">
 <h4><a class="toc-backref" href="#id20">markup_inline.py</a><a class="headerlink" href="#markup-inline-py" title="Permalink to this headline">¶</a></h4>
@@ -617,7 +614,7 @@ money in the world.
 <div class="section" id="mod-read-dir-outline-py">
 <h4><a class="toc-backref" href="#id22">mod_read_dir_outline.py</a><a class="headerlink" href="#mod-read-dir-outline-py" title="Permalink to this headline">¶</a></h4>
 <p>Allows Leo to read a complete directory tree into a Leo outline. Converts directories into headlines and puts the list of file names into bodies.</p>
-<p>Ce plug-in permet de traduire l&#8217;arborescence d&#8217;un répertoire en une arborescence Leo : Chaque dossier est converti en noeud dans Leo ; son nom est placé dans l&#8217;entête du noeud et chaque nom de fichier qu&#8217;il contient est listé dans son contenu.</p>
+<p>Ce plug-in permet de traduire l’arborescence d’un répertoire en une arborescence Leo : Chaque dossier est converti en noeud dans Leo ; son nom est placé dans l’entête du noeud et chaque nom de fichier qu’il contient est listé dans son contenu.</p>
 <p>Feedback on this plugin can be sent to:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">Frédéric</span> <span class="n">Momméja</span>
 <span class="o">&lt;</span><span class="n">frederic</span> <span class="p">[</span><span class="n">point</span><span class="p">]</span> <span class="n">mommeja</span> <span class="p">[</span><span class="n">at</span><span class="p">]</span> <span class="n">laposte</span> <span class="p">[</span><span class="n">point</span><span class="p">]</span> <span class="n">net</span><span class="o">&gt;</span>
@@ -631,9 +628,9 @@ money in the world.
 <div class="section" id="nodeactions-py">
 <h4><a class="toc-backref" href="#id24">nodeActions.py</a><a class="headerlink" href="#nodeactions-py" title="Permalink to this headline">¶</a></h4>
 <p>Allows the definition of double-click actions.</p>
-<p>When the user double-clicks a node this plugin checks for a match of the clicked node&#8217;s headline text with a list of patterns. If a match occurs, the plugin executes the associated script.</p>
+<p>When the user double-clicks a node this plugin checks for a match of the clicked node’s headline text with a list of patterns. If a match occurs, the plugin executes the associated script.</p>
 <p><strong>nodeAction</strong> nodes may be located anywhere in the outline. Such nodes should contain one or more <strong>pattern nodes</strong> as children. The headline of each pattern node contains the pattern; the body text contains the script to be executed when the pattern matches the double-clicked node.</p>
-<p>For example, the &#8220;nodeActions&#8221; node containing a &#8220;launch URL&#8221; pattern node and a &#8220;pre-process python code&#8221; node could be placed under an &#8220;&#64;settings&#8221; node:</p>
+<p>For example, the “nodeActions” node containing a “launch URL” pattern node and a “pre-process python code” node could be placed under an “&#64;settings” node:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="nd">@settings</span>
 <span class="o">|</span>
 <span class="o">+-</span> <span class="n">nodeActions</span>
@@ -644,7 +641,7 @@ money in the world.
 </pre></div>
 </div>
 <p><strong>Configuration</strong></p>
-<p>The nodeActions plugin supports the following global configurations using Leo&#8217;s support for setting global variables within an &#64;settings node&#8217;s sub-nodes in the leoSettings.leo, myLeoSettings.leo, and the project Leo file:</p>
+<p>The nodeActions plugin supports the following global configurations using Leo’s support for setting global variables within an &#64;settings node’s sub-nodes in the leoSettings.leo, myLeoSettings.leo, and the project Leo file:</p>
 <p>&#64;bool nodeActions_save_atFile_nodes = False</p>
 <blockquote>
 <div><table class="docutils field-list" frame="void" rules="none">
@@ -674,7 +671,7 @@ The following integer values are supported:</p>
 </div>
 </div></blockquote>
 <p><strong>Patterns</strong></p>
-<p>Pattern matching is performed using python&#8217;s support for Unix shell-style patterns unless overwritten by the &#8220;X&#8221; pattern directive. The following pattern elements are supported:</p>
+<p>Pattern matching is performed using python’s support for Unix shell-style patterns unless overwritten by the “X” pattern directive. The following pattern elements are supported:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>*           matches everything
 ?           matches any single character
 [&lt;seq&gt;]     matches any character in &lt;seq&gt;
@@ -711,10 +708,10 @@ The following integer values are supported:</p>
 </tbody>
 </table>
 </div></blockquote>
-<p>To enable a script to run on any type of &#64;file node (&#64;thin, &#64;shadow, ...), the pattern can start with &#8220;&#64;files&#8221; to match on any external file type.  For example, the pattern &#8220;&#64;files *.py&#8221; will match a node with the headline &#8220;&#64;file abcd.py&#8221;.</p>
-<p>The headline of the double-clicked node is matched against the patterns starting from the first sub-node under the &#8220;nodeActions&#8221; node to the last sub-node.</p>
-<p>Only the script associated with the first matching pattern is invoked unless overwritten by the &#8220;V&#8221; pattern directive.</p>
-<p>Using the &#8220;V&#8221; pattern directive allows a broad pattern such as &#8220;&#64;files *.py&#8221; to be invoked, and then, by placing a more restrictive pattern above it, such as &#8220;&#64;files *_test.py&#8221;, a different script can be executed for those files requiring pre-processing:</p>
+<p>To enable a script to run on any type of &#64;file node (&#64;thin, &#64;shadow, …), the pattern can start with “&#64;files” to match on any external file type.  For example, the pattern “&#64;files *.py” will match a node with the headline “&#64;file abcd.py”.</p>
+<p>The headline of the double-clicked node is matched against the patterns starting from the first sub-node under the “nodeActions” node to the last sub-node.</p>
+<p>Only the script associated with the first matching pattern is invoked unless overwritten by the “V” pattern directive.</p>
+<p>Using the “V” pattern directive allows a broad pattern such as “&#64;files *.py” to be invoked, and then, by placing a more restrictive pattern above it, such as “&#64;files *_test.py”, a different script can be executed for those files requiring pre-processing:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">+-</span> <span class="n">nodeActions</span>
    <span class="o">|</span>
    <span class="o">+-</span> <span class="nd">@files</span> <span class="o">*</span><span class="n">_test</span><span class="o">.</span><span class="n">py</span>
@@ -722,8 +719,8 @@ The following integer values are supported:</p>
    <span class="o">+-</span> <span class="nd">@files</span> <span class="o">*.</span><span class="n">py</span>
 </pre></div>
 </div>
-<p><strong>Note</strong>: To prevent Leo from trying to save patterns that begin with a derived file directive (&#64;file, &#64;auto, ...) to disk, such as &#8220;&#64;file *.py&#8221;, place the &#8220;&#64;ignore&#8221; directive in the body of the &#8220;nodeActions&#8221; node.</p>
-<p>Pattern nodes can be placed at any level under the &#8220;nodeActions&#8221; node. Only nodes with no child nodes are considered pattern nodes. This allows patterns that are to be used in multiple Leo files to be read from a file.  For example, the following structure reads the pattern definition from the &#8220;C:\Leo\nodeActions_Patterns.txt&#8221; file:</p>
+<p><strong>Note</strong>: To prevent Leo from trying to save patterns that begin with a derived file directive (&#64;file, &#64;auto, …) to disk, such as “&#64;file *.py”, place the “&#64;ignore” directive in the body of the “nodeActions” node.</p>
+<p>Pattern nodes can be placed at any level under the “nodeActions” node. Only nodes with no child nodes are considered pattern nodes. This allows patterns that are to be used in multiple Leo files to be read from a file.  For example, the following structure reads the pattern definition from the “C:\Leo\nodeActions_Patterns.txt” file:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">+-</span> <span class="n">nodeActions</span>
 <span class="o">|</span>
 <span class="o">+-</span> <span class="nd">@files</span> <span class="n">C</span><span class="p">:</span>\\<span class="n">Leo</span>\\<span class="n">nodeActions_Patterns</span><span class="o">.</span><span class="n">txt</span>
@@ -734,12 +731,12 @@ The following integer values are supported:</p>
 </pre></div>
 </div>
 <p><strong>Pattern directives</strong></p>
-<p>The following pattern specific directives can be appended to the end of a pattern (do not include the &#8216;:&#8217;):</p>
+<p>The following pattern specific directives can be appended to the end of a pattern (do not include the ‘:’):</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">[X]:</th><td class="field-body"><p class="first">Use python&#8217;s regular expression type patterns instead of the Unix
+<tr class="field-odd field"><th class="field-name">[X]:</th><td class="field-body"><p class="first">Use python’s regular expression type patterns instead of the Unix
 shell-style pattern syntax.</p>
 <p>For example, the following patterns will match the same headline string:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>Unix shell-style pattern:
@@ -753,11 +750,11 @@ Regular Expression pattern:
 </tr>
 <tr class="field-even field"><th class="field-name">[V]:</th><td class="field-body"><p class="first">Matching the pattern will not block the double-click event from
 being passed to the remaining patterns.
-The &#8220;V&#8221; represents a down arrow that symbolizes the passing of the event
+The “V” represents a down arrow that symbolizes the passing of the event
 to the next pattern below it.</p>
-<p>For example, adding the &#8220;[V]&#8221; directive to the &#8220;&#64;files *_test.py&#8221; in
-the Patterns section above, changes its script from being &#8216;an
-alternate to&#8217; to being &#8216;a pre-processor for&#8217; the &#8220;&#64;files *.py&#8221; script:</p>
+<p>For example, adding the “[V]” directive to the “&#64;files *_test.py” in
+the Patterns section above, changes its script from being ‘an
+alternate to’ to being ‘a pre-processor for’ the “&#64;files *.py” script:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">+-</span> <span class="n">nodeActions</span>
    <span class="o">|</span>
    <span class="o">+-</span> <span class="nd">@files</span> <span class="o">*</span><span class="n">_test</span><span class="o">.</span><span class="n">py</span> <span class="p">[</span><span class="n">V</span><span class="p">]</span>
@@ -769,7 +766,7 @@ alternate to&#8217; to being &#8216;a pre-processor for&#8217; the &#8220;&#64;f
 </tr>
 <tr class="field-odd field"><th class="field-name">[&gt;]:</th><td class="field-body"><p class="first">Matching the pattern will not block the double-click event from being
 passed to other plugins.
-The &#8220;&gt;&#8221; represents a right arrow that
+The “&gt;” represents a right arrow that
 symbolizes the passing of the event to the next plugin.</p>
 <p class="last">If the headline matched more than one headline,
 the double-click event will be passed to the next plugin if the
@@ -783,7 +780,7 @@ directive is associated with any of the matched patterns.</p>
 </pre></div>
 </div>
 <p><strong>Scripts</strong></p>
-<p>The script for a pattern is located in the body of the pattern&#8217;s node. The following global variables are available to the script:</p>
+<p>The script for a pattern is located in the body of the pattern’s node. The following global variables are available to the script:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">c</span>
 <span class="n">g</span>
 <span class="n">pClicked</span> <span class="o">-</span> <span class="n">node</span> <span class="n">position</span> <span class="n">of</span> <span class="n">the</span> <span class="n">double</span><span class="o">-</span><span class="n">clicked</span> <span class="n">node</span>
@@ -791,13 +788,13 @@ directive is associated with any of the matched patterns.</p>
 </pre></div>
 </div>
 <p><strong>Examples</strong></p>
-<p>Double-clicking on a node with a &#8220;http:\\www.google.com&#8221; headline will invoke the script associated with the &#8220;http:\\*&#8221; pattern.  The following script in the body of the pattern&#8217;s node displays the URL in a browser:</p>
+<p>Double-clicking on a node with a “http:\www.google.com” headline will invoke the script associated with the “http:\*” pattern.  The following script in the body of the pattern’s node displays the URL in a browser:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">webbrowser</span>
 <span class="n">hClicked</span> <span class="o">=</span> <span class="n">pClicked</span><span class="o">.</span><span class="n">h</span>     <span class="c1">#Clicked node&#39;s Headline text</span>
 <span class="n">webbrowser</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">hClicked</span><span class="p">)</span> <span class="c1">#Invoke browser</span>
 </pre></div>
 </div>
-<p>The following script can be placed in the body of a pattern&#8217;s node to execute a command in the first line of the body of a double-clicked node:</p>
+<p>The following script can be placed in the body of a pattern’s node to execute a command in the first line of the body of a double-clicked node:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">g</span><span class="o">.</span><span class="n">os</span><span class="o">.</span><span class="n">system</span><span class="p">(</span><span class="s1">&#39;&quot;Start /b &#39;</span> <span class="o">+</span> <span class="n">pClicked</span><span class="o">.</span><span class="n">bodyString</span><span class="p">()</span> <span class="o">+</span> <span class="s1">&#39;&quot;&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -813,7 +810,7 @@ directive is associated with any of the matched patterns.</p>
 <div class="section" id="paste-as-headlines-py">
 <h4><a class="toc-backref" href="#id27">paste_as_headlines.py</a><a class="headerlink" href="#paste-as-headlines-py" title="Permalink to this headline">¶</a></h4>
 <p>Creates new headlines from clipboard text.</p>
-<p>If the pasted text would be greater than 50 characters in length, the plugin truncates the headline to 50 characters and pastes the entire line into the body text of that node. Creates a &#8220;Paste as Headlines&#8221; option the Edit menu directly under the existing Paste option.</p>
+<p>If the pasted text would be greater than 50 characters in length, the plugin truncates the headline to 50 characters and pastes the entire line into the body text of that node. Creates a “Paste as Headlines” option the Edit menu directly under the existing Paste option.</p>
 </div>
 <div class="section" id="pretty-print-py">
 <h4><a class="toc-backref" href="#id28">pretty_print.py</a><a class="headerlink" href="#pretty-print-py" title="Permalink to this headline">¶</a></h4>
@@ -824,8 +821,8 @@ directive is associated with any of the matched patterns.</p>
 <h4><a class="toc-backref" href="#id29">quickMove.py</a><a class="headerlink" href="#quickmove-py" title="Permalink to this headline">¶</a></h4>
 <p>Creates buttons to move nodes quickly to other nodes.</p>
 <p>Quickly move/copy/clone nodes from around the tree to one or more target nodes. It can also create bookmark and tagging functionality in an outline (see <cite>Set Parent Notes</cite> below).</p>
-<p>Adds <cite>Move/Clone/Copy To Last Child Button</cite> and <cite>Move/Clone/Copy To First Child Button</cite>, <cite>Link To/From</cite> and <cite>Jump To</cite> commands to the Move sub-menu on the Outline menu, and each node&#8217;s context menu, if the <cite>contextmenu</cite> plugin is enabled.</p>
-<p>Select a node <code class="docutils literal"><span class="pre">Foo</span></code> and then use the <cite>Move To Last Child Button</cite> command. This adds a &#8216;to Foo&#8217; button to the button bar. Now select another node and click the &#8216;to Foo&#8217; button. The selected node will be moved to the last child of the node &#8216;Foo&#8217;.</p>
+<p>Adds <cite>Move/Clone/Copy To Last Child Button</cite> and <cite>Move/Clone/Copy To First Child Button</cite>, <cite>Link To/From</cite> and <cite>Jump To</cite> commands to the Move sub-menu on the Outline menu, and each node’s context menu, if the <cite>contextmenu</cite> plugin is enabled.</p>
+<p>Select a node <code class="docutils literal"><span class="pre">Foo</span></code> and then use the <cite>Move To Last Child Button</cite> command. This adds a ‘to Foo’ button to the button bar. Now select another node and click the ‘to Foo’ button. The selected node will be moved to the last child of the node ‘Foo’.</p>
 <p><cite>To First Child Button</cite> works the same way, except that moved nodes are inserted as the first child of the target node.</p>
 <p><cite>Clone</cite> and <cite>Copy</cite> variants are like <cite>Move</cite>, but clone or copy instead of moving.</p>
 <p><cite>Link</cite> works in conjunction with the <cite>backlink</cite> plugin (and also the <cite>graphcanvas</cite> plugin) creating a link to/from the target and current nodes.</p>
@@ -849,7 +846,7 @@ removes the button for the rest of the current session.</dd>
 </div></blockquote>
 <dl class="docutils">
 <dt>Set Parent Notes</dt>
-<dd><cite>Set Parent</cite> doesn&#8217;t allow you to do anything with <cite>quickMove</cite> you couldn&#8217;t
+<dd><cite>Set Parent</cite> doesn’t allow you to do anything with <cite>quickMove</cite> you couldn’t
 do with a long strip of separate buttons, but it collects quickMove buttons
 as sub-menu items of one quickMove button, saving a lot of toolbar space.</dd>
 <dt>Bookmarks</dt>
@@ -868,7 +865,7 @@ tag nodes.   The <cite>backlinks</cite> plugin adds a <cite>Links</cite> tab to 
 <p>Create somewhere in your outline a node called <cite>Tags</cite>. Use the quickMove menu
 to make it a <cite>Jump To</cite> button, and use its context menu to make it permanent.
 Clicking on it will jump you to your tag list. Now create a node under the
-<cite>Tags</cite> node for each tag you want. The node&#8217;s name will be the tag name, and
+<cite>Tags</cite> node for each tag you want. The node’s name will be the tag name, and
 can be changed later. Then use the quickMove menu to make each of these nodes
 a <cite>Link To</cite> button, and then use the context menu on the button to set its
 parent to your <cite>Tags</cite> button. It becomes a sub-menu item of the <cite>Tags</cite> button.</p>
@@ -895,7 +892,7 @@ interest.  The nodes with that tag will be listed in th <cite>Links</cite> tab i
 <div class="section" id="word-count-py">
 <h4><a class="toc-backref" href="#id33">word_count.py</a><a class="headerlink" href="#word-count-py" title="Permalink to this headline">¶</a></h4>
 <p>Counts characters, words, lines, and paragraphs in the body pane.</p>
-<p>It adds a &#8220;Word Count...&#8221; option to the bottom of the Edit menu that will activate the command.</p>
+<p>It adds a “Word Count…” option to the bottom of the Edit menu that will activate the command.</p>
 </div>
 <div class="section" id="xml-edit">
 <h4><a class="toc-backref" href="#id34">xml_edit</a><a class="headerlink" href="#xml-edit" title="Permalink to this headline">¶</a></h4>
@@ -915,7 +912,7 @@ interest.  The nodes with that tag will be listed in th <cite>Links</cite> tab i
 </div>
 <div class="section" id="enable-gc-py">
 <h4><a class="toc-backref" href="#id38">enable_gc.py</a><a class="headerlink" href="#enable-gc-py" title="Permalink to this headline">¶</a></h4>
-<p>Enables debugging and tracing for Python&#8217;s garbage collector.</p>
+<p>Enables debugging and tracing for Python’s garbage collector.</p>
 </div>
 <div class="section" id="quit-leo-py">
 <h4><a class="toc-backref" href="#id39">quit_leo.py</a><a class="headerlink" href="#quit-leo-py" title="Permalink to this headline">¶</a></h4>
@@ -923,7 +920,7 @@ interest.  The nodes with that tag will be listed in th <cite>Links</cite> tab i
 </div>
 <div class="section" id="trace-gc-plugin-py">
 <h4><a class="toc-backref" href="#id40">trace_gc_plugin.py</a><a class="headerlink" href="#trace-gc-plugin-py" title="Permalink to this headline">¶</a></h4>
-<p>Traces changes to Leo&#8217;s objects at idle time.</p>
+<p>Traces changes to Leo’s objects at idle time.</p>
 </div>
 <div class="section" id="trace-keys-py">
 <h4><a class="toc-backref" href="#id41">trace_keys.py</a><a class="headerlink" href="#trace-keys-py" title="Permalink to this headline">¶</a></h4>
@@ -944,12 +941,12 @@ interest.  The nodes with that tag will be listed in th <cite>Links</cite> tab i
 </div>
 <div class="section" id="open-shell-py">
 <h4><a class="toc-backref" href="#id45">open_shell.py</a><a class="headerlink" href="#open-shell-py" title="Permalink to this headline">¶</a></h4>
-<p>Creates an &#8216;Extensions&#8217; menu containing two commands: Open Console Window and Open Explorer.</p>
+<p>Creates an ‘Extensions’ menu containing two commands: Open Console Window and Open Explorer.</p>
 <p>The Open Console Window command opens xterm on Linux. The Open Explorer command Opens a Windows explorer window.</p>
 <p>This allows quick navigation to facilitate testing and navigating large systems with complex directories.</p>
 <p>Please submit bugs / feature requests to <a class="reference external" href="mailto:etaekema&#37;&#52;&#48;earthlink&#46;net">etaekema<span>&#64;</span>earthlink<span>&#46;</span>net</a></p>
 <p>Current limitations:
-- Not tested on Mac OS X ...
+- Not tested on Mac OS X …
 - On Linux, xterm must be in your path.</p>
 </div>
 <div class="section" id="tomboy-import-py">
@@ -957,11 +954,11 @@ interest.  The nodes with that tag will be listed in th <cite>Links</cite> tab i
 <p>Allows imports of notes created in Tomboy / gnote.</p>
 <p>Usage:</p>
 <ul class="simple">
-<li>Create a node with the headline &#8216;tomboy&#8217;</li>
+<li>Create a node with the headline ‘tomboy’</li>
 <li>Select the node, and do alt+x act-on-node</li>
-<li>The notes will appear as children of &#8216;tomboy&#8217; node</li>
-<li>The next time you do act-on-node, existing notes will be updated (they don&#8217;t need to
-be under &#8216;tomboy&#8217; node anymore) and new notes added.</li>
+<li>The notes will appear as children of ‘tomboy’ node</li>
+<li>The next time you do act-on-node, existing notes will be updated (they don’t need to
+be under ‘tomboy’ node anymore) and new notes added.</li>
 </ul>
 </div>
 <div class="section" id="vim-py">
@@ -991,25 +988,25 @@ when you save the file in vim.</dd>
 <div class="section" id="active-path-py">
 <h4><a class="toc-backref" href="#id51">active_path.py</a><a class="headerlink" href="#active-path-py" title="Permalink to this headline">¶</a></h4>
 <p>Synchronizes &#64;path nodes with folders.</p>
-<p>If a node is named <a class="reference external" href="mailto:'&#37;&#52;&#48;path">'<span>&#64;</span>path</a> path_to_folder&#8217;, the content (file and folder names) of the folder and the children of that node will synchronized whenever the node&#8217;s status-iconbox is double clicked.</p>
+<p>If a node is named <a class="reference external" href="mailto:'&#37;&#52;&#48;path">‘<span>&#64;</span>path</a> path_to_folder’, the content (file and folder names) of the folder and the children of that node will synchronized whenever the node’s status-iconbox is double clicked.</p>
 <p>For files not previously seen in a folder a new node will appear on top of the children list (with a mark).</p>
-<p>Folders appear in the list as /foldername/. If you double click on the icon-box of the folder node, it will have children added to it based on the contents of the folder on disk. These folders have the <a class="reference external" href="mailto:'&#37;&#52;&#48;path">'<span>&#64;</span>path</a>&#8216; directive as the first line of their body text.</p>
+<p>Folders appear in the list as /foldername/. If you double click on the icon-box of the folder node, it will have children added to it based on the contents of the folder on disk. These folders have the <a class="reference external" href="mailto:'&#37;&#52;&#48;path">‘<span>&#64;</span>path</a>’ directive as the first line of their body text.</p>
 <p>When files are deleted from the folder and the list is updated by double clicking the files will appear in the list as <em>filename</em> (or <em>/foldername/</em>).</p>
 <p>You can describe files and directories in the body of the nodes.</p>
-<p>You can organize files and directories with organizer nodes, an organizer node name cannot contain with &#8216;/&#8217;.</p>
-<p>Files and folders can be created by entering a node with the required name as its headline (must start and/or end with &#8220;/&#8221; for a folder) and then double clicking on the node&#8217;s status-iconbox.</p>
-<p>&#64;auto nodes can be set up for existing files can be loaded by double clicking on the node&#8217;s status-iconbox. If you prefer &#64;shadow or something else use the &#8220;active_path_attype&#8221; setting, without the &#8220;&#64;&#8221;.</p>
+<p>You can organize files and directories with organizer nodes, an organizer node name cannot contain with ‘/’.</p>
+<p>Files and folders can be created by entering a node with the required name as its headline (must start and/or end with “/” for a folder) and then double clicking on the node’s status-iconbox.</p>
+<p>&#64;auto nodes can be set up for existing files can be loaded by double clicking on the node’s status-iconbox. If you prefer &#64;shadow or something else use the “active_path_attype” setting, without the “&#64;”.</p>
 <p>There are commands on the Plugins active_path submenu:</p>
 <ul class="simple">
 <li>show path - show the current path</li>
-<li>set absolute path - changes a node &#8220;/dirname/&#8221; to &#8220;&#64;path /absolute/path/to/dirname&#8221;.</li>
+<li>set absolute path - changes a node “/dirname/” to “&#64;path /absolute/path/to/dirname”.</li>
 <li>purge vanished (recursive) - remove <em>entries</em></li>
 <li>update recursive - recursive load of directories, use with caution on large
 file systems</li>
 </ul>
-<p>If you want to use an input other than double clicking a node&#8217;s status-iconbox set active_path_event to a value like &#8216;iconrclick1&#8217; or &#8216;iconclick1&#8217;.</p>
+<p>If you want to use an input other than double clicking a node’s status-iconbox set active_path_event to a value like ‘iconrclick1’ or ‘iconclick1’.</p>
 <p>There are &#64;settings for ignoring directory entries and automatically loading files.  <code class="docutils literal"><span class="pre">re.search</span></code> is used, rather than <code class="docutils literal"><span class="pre">re.match</span></code>, so patterns need only match part of the filename, not the whole filename.</p>
-<p>The body of the &#64;setting <code class="docutils literal"><span class="pre">&#64;data</span> <span class="pre">active_path_ignore</span></code> is a list of regex patterns, one per line.  Directory entries matching any pattern in the list will be ignored.  The names of directories used for matching will have forward slashes around them (&#8216;/dirname/&#8217;), so patterns can use this to distinguish between directories and files.</p>
+<p>The body of the &#64;setting <code class="docutils literal"><span class="pre">&#64;data</span> <span class="pre">active_path_ignore</span></code> is a list of regex patterns, one per line.  Directory entries matching any pattern in the list will be ignored.  The names of directories used for matching will have forward slashes around them (‘/dirname/’), so patterns can use this to distinguish between directories and files.</p>
 <p>The body of the &#64;setting <code class="docutils literal"><span class="pre">&#64;data</span> <span class="pre">active_path_autoload</span></code> is a list of regex patterns, one per line.  File entries matching any pattern in the list will be loaded automatically.  This works only with files, not directories (but you can load directories recursively anyway).</p>
 <p>Set <code class="docutils literal"><span class="pre">&#64;bool</span> <span class="pre">active_path_load_docstring</span> <span class="pre">=</span> <span class="pre">True</span></code> to have active_path load the docstring of .py files automatically.  These nodes start with the special string:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="nd">@language</span> <span class="n">rest</span> <span class="c1"># AUTOLOADED DOCSTRING</span>
@@ -1023,7 +1020,7 @@ file systems</li>
 <div class="section" id="at-folder-py">
 <h4><a class="toc-backref" href="#id52">at_folder.py</a><a class="headerlink" href="#at-folder-py" title="Permalink to this headline">¶</a></h4>
 <p>Synchronizes &#64;folder nodes with folders.</p>
-<p>If a node is named <a class="reference external" href="mailto:'&#37;&#52;&#48;folder">'<span>&#64;</span>folder</a> path_to_folder&#8217;, the content (filenames) of the folder and the children of that node will be sync. Whenever a new file is put there, a new node will appear on top of the children list (with mark). So that I can put my description (i.e. annotation) as the content of that node. In this way, I can find any files much easier from leo.</p>
+<p>If a node is named <a class="reference external" href="mailto:'&#37;&#52;&#48;folder">‘<span>&#64;</span>folder</a> path_to_folder’, the content (filenames) of the folder and the children of that node will be sync. Whenever a new file is put there, a new node will appear on top of the children list (with mark). So that I can put my description (i.e. annotation) as the content of that node. In this way, I can find any files much easier from leo.</p>
 <p>Moreover, I add another feature to allow you to group files(in leo) into children of another group. This will help when there are many files in that folder. You can logically group it in leo (or even clone it to many groups), while keep every files in a flat/single directory on your computer.</p>
 </div>
 <div class="section" id="at-produce-py">
@@ -1062,9 +1059,9 @@ sentinels removed.</li>
 <div class="section" id="datenodes-py">
 <h4><a class="toc-backref" href="#id56">datenodes.py</a><a class="headerlink" href="#datenodes-py" title="Permalink to this headline">¶</a></h4>
 <p>Allows users to insert headlines containing dates.</p>
-<p>&#8216;Date nodes&#8217; are nodes that have dates in their headlines. They may be added to the outline one at a time, a month&#8217;s-worth at a time, or a year&#8217;s-worth at a time. The format of the labels (headlines) is configurable.</p>
+<p>‘Date nodes’ are nodes that have dates in their headlines. They may be added to the outline one at a time, a month’s-worth at a time, or a year’s-worth at a time. The format of the labels (headlines) is configurable.</p>
 <p>There are options to omit Saturdays and Sundays.</p>
-<p>An &#8216;Insert Date Nodes ...&#8217; submenu will be created (by default) in the &#8216;Outline&#8217; menu.  This menu can be suppressed by using either of the following settings:</p>
+<p>An ‘Insert Date Nodes …’ submenu will be created (by default) in the ‘Outline’ menu.  This menu can be suppressed by using either of the following settings:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">-</span> <span class="nd">@bool</span> <span class="n">suppress</span><span class="o">-</span><span class="n">datenodes</span><span class="o">-</span><span class="n">menus</span>
 <span class="o">-</span> <span class="nd">@bool</span> <span class="n">suppress</span><span class="o">-</span><span class="nb">all</span><span class="o">-</span><span class="n">plugins</span><span class="o">-</span><span class="n">menus</span>
 </pre></div>
@@ -1081,7 +1078,7 @@ sentinels removed.</li>
 <p>Adds &#64;expfolder nodes that represent folders in the file system.</p>
 <p>Double clicking on the icon of an &#64;expfolder heading reads the files in the directory at the path specified and creates child nodes for each file in the subfolder. Subdirectories are made into child &#64;expfolder nodes so the tree can be easily traversed. If files have extensions specified in the expfolder.ini file they are made into &#64;text nodes so the content of the files can be easily loaded into leo and edited. Double clicking a second time will delete all child nodes and refresh the directory listing. If there are any changed &#64;text nodes contained inside you will be prompted about saving them.</p>
 <p>The textextensions field on the expfolder Properties page contains a list of extensions which will be made into &#64;text nodes, separated by spaces.</p>
-<p>For the &#64;text and &#64;expfolder nodes to interact correctly, the textnode plugin must load before the expfolder plugin. This can be set using the Plugin Manager&#8217;s Plugin Load Order pane.</p>
+<p>For the &#64;text and &#64;expfolder nodes to interact correctly, the textnode plugin must load before the expfolder plugin. This can be set using the Plugin Manager’s Plugin Load Order pane.</p>
 </div>
 <div class="section" id="fileactions-py">
 <h4><a class="toc-backref" href="#id58">FileActions.py</a><a class="headerlink" href="#fileactions-py" title="Permalink to this headline">¶</a></h4>
@@ -1089,11 +1086,11 @@ sentinels removed.</li>
 <p>Double-clicking any kind of &#64;&lt;file&gt; node writes out the file if changes have been made since the last save, and then runs a script on it, which is retrieved from the outline.</p>
 <p>Scripts are located in a node whose headline is FileActions. This node can be anywhere in the outline. If there is more than one such node, the first one in outline order is used.</p>
 <p>The children of that node are expected to contain a file pattern in the headline and the script to be executed in the body. The file name is matched against the patterns (which are Unix-style shell patterns), and the first matching node is selected. If the filename is a path, only the last item is matched.</p>
-<p>Execution of the scripts is similar to the &#8220;Execute Script&#8221; command in Leo. The main difference is that the namespace in which the scripts are run contains these elements:</p>
+<p>Execution of the scripts is similar to the “Execute Script” command in Leo. The main difference is that the namespace in which the scripts are run contains these elements:</p>
 <ul class="simple">
-<li>&#8216;c&#8217; and &#8216;g&#8217; and &#8216;p&#8217;: as in the regular execute script command.</li>
-<li>&#8216;filename&#8217;: the filename from the &#64;file directive.</li>
-<li>&#8216;shellScriptInWindow&#8217;, a utility function that runs a shell script in an external windows, thus permitting programs to be called that require user interaction</li>
+<li>‘c’ and ‘g’ and ‘p’: as in the regular execute script command.</li>
+<li>‘filename’: the filename from the &#64;file directive.</li>
+<li>‘shellScriptInWindow’, a utility function that runs a shell script in an external windows, thus permitting programs to be called that require user interaction</li>
 </ul>
 <p>File actions are implemented for all kinds &#64;&lt;file&gt; nodes. There is also a new node type &#64;file-ref for referring to files purely for the purpose of file actions, Leo does not do anything with or to such files.</p>
 </div>
@@ -1109,7 +1106,7 @@ sentinels removed.</li>
 <h4><a class="toc-backref" href="#id61">leocursor.py</a><a class="headerlink" href="#leocursor-py" title="Permalink to this headline">¶</a></h4>
 <p>Creates a LeoCursor object that can walk around a Leo outline and decode attributes from nodes.</p>
 <p>Node names can be used through . (dot) notation so <code class="docutils literal"><span class="pre">cursor.Data.Name._B</span></code> for example returns the body text of the Name node which is a child of the Data node which is a child of the cursors current location.</p>
-<p>See .../plugins/examples/leocursorexample.leo for application.</p>
+<p>See …/plugins/examples/leocursorexample.leo for application.</p>
 </div>
 <div class="section" id="leoopml-py">
 <h4><a class="toc-backref" href="#id62">leoOPML.py</a><a class="headerlink" href="#leoopml-py" title="Permalink to this headline">¶</a></h4>
@@ -1122,17 +1119,17 @@ sentinels removed.</li>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="nd">@mime</span> <span class="n">foodir</span><span class="o">/</span><span class="n">document</span><span class="o">.</span><span class="n">pdf</span>
 </pre></div>
 </div>
-<p>The string setting &#8216;mime_open_cmd&#8217; allows specifying a program to handle opening files:</p>
+<p>The string setting ‘mime_open_cmd’ allows specifying a program to handle opening files:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="nd">@settings</span>
     <span class="nd">@string</span> <span class="n">mime_open_cmd</span> <span class="o">=</span> <span class="n">see</span>
     <span class="o">..</span> <span class="ow">or</span> <span class="o">..</span>
     <span class="nd">@string</span> <span class="n">mime_open_cmd</span> <span class="o">=</span> <span class="n">see</span> <span class="o">%</span><span class="n">s</span>
 </pre></div>
 </div>
-<p>Where &#8216;%s&#8217; is replaced with the full pathname.</p>
-<p><strong>Note</strong>: This plugin terminates handling of the &#8216;icondclick1&#8217; event by returning True. If another plugin using this event (e.g. vim.py) is also enabled, the order in &#64;enabled-plugins matters. For example: if vim.py is enabled before mime.py, double-clicking on an &#64;mime node will both open the body text in [g]vim AND call the mime_open_cmd.</p>
-<p>This plugin is complementary to the UNL.py plugin&#8217;s &#64;url nodes. Use &#64;url for opening either URLs or Uniform Node Locators in &#8220;*.leo&#8221; files and use &#64;mime nodes for opening files on the local file system. It also replaces the startfile.py plugin, where here the headline must start with &#64;mime to activate this plugin.</p>
-<p>For other sys.platform&#8217;s, add an elif case to the section &#8220;guess file association handler&#8221; and either define a default _mime_open_cmd string, where &#8220;%s&#8221; will be replaced with the filename, or define a function taking the filename string as its only argument and set as open_func.</p>
+<p>Where ‘%s’ is replaced with the full pathname.</p>
+<p><strong>Note</strong>: This plugin terminates handling of the ‘icondclick1’ event by returning True. If another plugin using this event (e.g. vim.py) is also enabled, the order in &#64;enabled-plugins matters. For example: if vim.py is enabled before mime.py, double-clicking on an &#64;mime node will both open the body text in [g]vim AND call the mime_open_cmd.</p>
+<p>This plugin is complementary to the UNL.py plugin’s &#64;url nodes. Use &#64;url for opening either URLs or Uniform Node Locators in “*.leo” files and use &#64;mime nodes for opening files on the local file system. It also replaces the startfile.py plugin, where here the headline must start with &#64;mime to activate this plugin.</p>
+<p>For other sys.platform’s, add an elif case to the section “guess file association handler” and either define a default _mime_open_cmd string, where “%s” will be replaced with the filename, or define a function taking the filename string as its only argument and set as open_func.</p>
 </div>
 <div class="section" id="multifile-py">
 <h4><a class="toc-backref" href="#id64">multifile.py</a><a class="headerlink" href="#multifile-py" title="Permalink to this headline">¶</a></h4>
@@ -1142,7 +1139,7 @@ sentinels removed.</li>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="nd">@multipath</span> <span class="o">/</span><span class="n">machine</span><span class="o">/</span><span class="n">unit</span><span class="o">/</span><span class="p">:</span><span class="o">/</span><span class="n">machine</span><span class="o">/</span><span class="n">robot</span><span class="o">/</span><span class="p">:</span><span class="o">/</span><span class="n">machine</span><span class="o">/</span>
 </pre></div>
 </div>
-<p>New in version 0.6 of this plugin: the separator used above is &#8216;;&#8217; not &#8216;:&#8217;, for example:</p>
+<p>New in version 0.6 of this plugin: the separator used above is ‘;’ not ‘:’, for example:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="nd">@multipath</span> <span class="n">c</span><span class="p">:</span>\<span class="n">prog</span>\<span class="n">test</span><span class="p">;</span><span class="n">c</span><span class="p">:</span>\<span class="n">prog</span>\<span class="n">unittest</span>
 </pre></div>
 </div>
@@ -1160,7 +1157,7 @@ directive. For example:</p>
 </pre></div>
 </div>
 <p>copies a file to /leo/plugins /leo/fungus /leo/drain.</p>
-<p><strong>Note</strong>: I put # in front of the directives here because I don&#8217;t want someone browsing this file to accidentally save multiple copies of this file to their system!</p>
+<p><strong>Note</strong>: I put # in front of the directives here because I don’t want someone browsing this file to accidentally save multiple copies of this file to their system!</p>
 <p>The &#64;multiprefix stays in effect for the entire tree until reset with another
 &#64;multiprefix directive. &#64;multipath is cumulative, in that for each &#64;multipath in
 an ancestor a copy of the file is created. These directives must at the beginning of the line and by themselves.</p>
@@ -1171,19 +1168,19 @@ an ancestor a copy of the file is created. These directives must at the beginnin
 </div>
 <div class="section" id="notebook-py">
 <h4><a class="toc-backref" href="#id66">notebook.py</a><a class="headerlink" href="#notebook-py" title="Permalink to this headline">¶</a></h4>
-<p>Edit several nodes at once, in a pannable &#8220;notebook&#8221; view.</p>
+<p>Edit several nodes at once, in a pannable “notebook” view.</p>
 </div>
 <div class="section" id="read-only-nodes-py">
 <h4><a class="toc-backref" href="#id67">read_only_nodes.py</a><a class="headerlink" href="#read-only-nodes-py" title="Permalink to this headline">¶</a></h4>
 <p>Creates and updates &#64;read-only nodes.</p>
-<p>Here&#8217;s my first attempt at customizing leo. I wanted to have the ability to import files in &#8220;read-only&#8221; mode, that is, in a mode where files could only be read by leo (not tangled), and also kept in sync with the content on the drive.</p>
-<p>The reason for this is for example that I have external programs that generate resource files. I want these files to be part of a leo outline, but I don&#8217;t want leo to tangle or in any way modify them. At the same time, I want them to be up-to-date in the leo outline.</p>
+<p>Here’s my first attempt at customizing leo. I wanted to have the ability to import files in “read-only” mode, that is, in a mode where files could only be read by leo (not tangled), and also kept in sync with the content on the drive.</p>
+<p>The reason for this is for example that I have external programs that generate resource files. I want these files to be part of a leo outline, but I don’t want leo to tangle or in any way modify them. At the same time, I want them to be up-to-date in the leo outline.</p>
 <p>So I coded the directive plugin. It has the following characteristics:</p>
 <ul class="simple">
 <li>It reads the specified file and puts it into the node content.</li>
-<li>If the &#64;read-only directive was in the leo outline already, and the file content on disk has changed from what is stored in the outline, it marks the node as changed and prints a &#8220;changed&#8221; message to the log window; if, on the other hand, the file content has _not_ changed, the file is simply read and the node is not marked as changed.</li>
+<li>If the &#64;read-only directive was in the leo outline already, and the file content on disk has changed from what is stored in the outline, it marks the node as changed and prints a “changed” message to the log window; if, on the other hand, the file content has _not_ changed, the file is simply read and the node is not marked as changed.</li>
 <li>When you write a &#64;read-only directive, the file content is added to the node immediately, i.e. as soon as you press Enter (no need to call a menu entry to import the content).</li>
-<li>If you want to refresh/update the content of the file, just edit the headline and press Enter. The file is reloaded, and if in the meantime it has changed, a &#8220;change&#8221; message is sent to the log window.</li>
+<li>If you want to refresh/update the content of the file, just edit the headline and press Enter. The file is reloaded, and if in the meantime it has changed, a “change” message is sent to the log window.</li>
 <li>The body text of a &#64;read-only file cannot be modified in leo.</li>
 </ul>
 <p>The syntax to access files in &#64;read-only via ftp/http is the following:</p>
@@ -1201,19 +1198,19 @@ an ancestor a copy of the file is created. These directives must at the beginnin
 <div class="section" id="run-nodes-py">
 <h4><a class="toc-backref" href="#id68">run_nodes.py</a><a class="headerlink" href="#run-nodes-py" title="Permalink to this headline">¶</a></h4>
 <p>Runs a program and interface Leos through its input/output/error streams.</p>
-<p>Double clicking the icon box whose headlines are &#64;run &#8216;cmd args&#8217; will execute the command. There are several other features, including &#64;arg and &#64;input nodes.</p>
+<p>Double clicking the icon box whose headlines are &#64;run ‘cmd args’ will execute the command. There are several other features, including &#64;arg and &#64;input nodes.</p>
 <p>The run_nodes.py plugin introduce two new nodes that transform leo into a terminal. It was mostly intended to run compilers and debuggers while having the possibility to send messages to the program.</p>
 <p>Double clicking on the icon of an node whose headline is &#64;run &lt;command&gt; &lt;args&gt; will launch &lt;command&gt; with the given arguments. It will also mark the node. # Terminates the argument list. &#64;run # &lt;comment&gt; is also valid.</p>
 <p>&#64;in nodes are used to send input to the running process. Double clicking on
-the icon of an &#64;in &lt;message&gt; node will append a &#8220;n&#8221; to &lt;message&gt; and write it to the program, no matter where the node is placed. If no &#64;run node is active, nothing happens.</p>
-<p>The body text of every child, in which the headlines do not begin with <a class="reference external" href="mailto:'&#37;&#52;&#48;run">'<span>&#64;</span>run</a>&#8216; or <a class="reference external" href="mailto:'&#37;&#52;&#48;in">'<span>&#64;</span>in</a>&#8216;, will be appended to &lt;command&gt;, allowing you to add an unlimited number of arguments to &lt;command&gt;.</p>
-<p>The output of the program is written in the log pane (Error output in red). When the program exit the node is set unmarked and the return value is displayed... When the enter key is pressed in the body pane of an active &#64;run node the content of it body pane is written to the program and then emptied ready for another line of input. If the node have &#64;run nodes in its descendants, they will be launched successively. (Unless one returned an exit code other than 0, then it will stop there)</p>
+the icon of an &#64;in &lt;message&gt; node will append a “n” to &lt;message&gt; and write it to the program, no matter where the node is placed. If no &#64;run node is active, nothing happens.</p>
+<p>The body text of every child, in which the headlines do not begin with <a class="reference external" href="mailto:'&#37;&#52;&#48;run">‘<span>&#64;</span>run</a>’ or <a class="reference external" href="mailto:'&#37;&#52;&#48;in">‘<span>&#64;</span>in</a>’, will be appended to &lt;command&gt;, allowing you to add an unlimited number of arguments to &lt;command&gt;.</p>
+<p>The output of the program is written in the log pane (Error output in red). When the program exit the node is set unmarked and the return value is displayed… When the enter key is pressed in the body pane of an active &#64;run node the content of it body pane is written to the program and then emptied ready for another line of input. If the node have &#64;run nodes in its descendants, they will be launched successively. (Unless one returned an exit code other than 0, then it will stop there)</p>
 <p>By Alexis Gendron Paquette. Please send comments to the Leo forums.</p>
 </div>
 <div class="section" id="startfile-py">
 <h4><a class="toc-backref" href="#id69">startfile.py</a><a class="headerlink" href="#startfile-py" title="Permalink to this headline">¶</a></h4>
 <p>Launches (starts) a file given by a headline when double-clicking the icon.</p>
-<p>This plugin ignores headlines starting with an &#8216;&#64;&#8217;. Uses the &#64;folder path if the headline is under an &#64;folder headline. Otherwise the path is relative to the Leo file.</p>
+<p>This plugin ignores headlines starting with an ‘&#64;’. Uses the &#64;folder path if the headline is under an &#64;folder headline. Otherwise the path is relative to the Leo file.</p>
 </div>
 <div class="section" id="timestamp-py">
 <h4><a class="toc-backref" href="#id70">timestamp.py</a><a class="headerlink" href="#timestamp-py" title="Permalink to this headline">¶</a></h4>
@@ -1256,7 +1253,7 @@ resolving section references and Leo directives.</li>
 <h3><a class="toc-backref" href="#id72">Scripting</a><a class="headerlink" href="#scripting" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="dyna-menu">
 <h4><a class="toc-backref" href="#id73">dyna_menu</a><a class="headerlink" href="#dyna-menu" title="Permalink to this headline">¶</a></h4>
-<p>The dyna_menu plugin is a remarkable body of work by &#8216;e&#8217;. This plugin creates a dyna_menu menu from which you can execute commands. You may download the latest version at: <a class="reference external" href="http://rclick.netfirms.com/dyna_menu.py.html">http://rclick.netfirms.com/dyna_menu.py.html</a></p>
+<p>The dyna_menu plugin is a remarkable body of work by ‘e’. This plugin creates a dyna_menu menu from which you can execute commands. You may download the latest version at: <a class="reference external" href="http://rclick.netfirms.com/dyna_menu.py.html">http://rclick.netfirms.com/dyna_menu.py.html</a></p>
 </div>
 <div class="section" id="leoscreen-py">
 <h4><a class="toc-backref" href="#id74">leoscreen.py</a><a class="headerlink" href="#leoscreen-py" title="Permalink to this headline">¶</a></h4>
@@ -1266,15 +1263,15 @@ resolving section references and Leo directives.</li>
 <p><strong>Commands</strong></p>
 <dl class="docutils">
 <dt>leoscreen-run-text</dt>
-<dd>Send the text selected in Leo&#8217;s body text to the shell app.
+<dd>Send the text selected in Leo’s body text to the shell app.
 Selects the next line for your convenience.</dd>
 <dt>leoscreen-get-line</dt>
-<dd>Insert a line of the last result from the shell into Leo&#8217;s body text
+<dd>Insert a line of the last result from the shell into Leo’s body text
 at the current insert point.  Lines are pulled one at a time starting
 from the end of the output.  Can be used repeatedly to get the
 output you want into Leo.</dd>
 <dt>leoscreen-get-all</dt>
-<dd>Insert all of the last result from the shell into Leo&#8217;s body text
+<dd>Insert all of the last result from the shell into Leo’s body text
 at the current insert point.</dd>
 <dt>leoscreen-get-note</dt>
 <dd>Insert all of the last result from the shell into a new child node of
@@ -1293,7 +1290,7 @@ plugin).</dd>
 <dt>leoscreen-other</dt>
 <dd>Switch screen session to last window displayed.</dd>
 <dt>leoscreen-get-prefix</dt>
-<dd><p class="first">Interactively get prefix for inserting text into body (#, &#8211;, //, etc/)
+<dd><p class="first">Interactively get prefix for inserting text into body (#, –, //, etc/)
 Can also set using:</p>
 <div class="last highlight-default"><div class="highlight"><pre><span></span><span class="n">c</span><span class="o">.</span><span class="n">leo_screen</span><span class="o">.</span><span class="n">get_line_prefix</span> <span class="o">=</span> <span class="s1">&#39;#&#39;</span>
 </pre></div>
@@ -1332,15 +1329,15 @@ be useful in <code class="docutils literal"><span class="pre">&#64;button</span>
     <span class="n">c</span><span class="o">.</span><span class="n">leo_screen</span><span class="o">.</span><span class="n">insert_line</span><span class="p">(</span><span class="n">cmd</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>which creates a button to rollback messed up queries, another to commit (requiring additional action to supply the newline as a safeguard) and sets the prefix to &#8220;&#8211; &#8221; for text pulled back from the SQL session into Leo.</p>
-<p><strong>Implementation note</strong>: screen behaves differently if screen -X is executed with the same stdout as the target screen, vs. a different stdout. Although stdout is ignored, Popen() needs to ensure it&#8217;s not just inherited.</p>
+<p>which creates a button to rollback messed up queries, another to commit (requiring additional action to supply the newline as a safeguard) and sets the prefix to “– ” for text pulled back from the SQL session into Leo.</p>
+<p><strong>Implementation note</strong>: screen behaves differently if screen -X is executed with the same stdout as the target screen, vs. a different stdout. Although stdout is ignored, Popen() needs to ensure it’s not just inherited.</p>
 </div>
 <div class="section" id="mod-scripting-py">
 <h4><a class="toc-backref" href="#id75">mod_scripting.py</a><a class="headerlink" href="#mod-scripting-py" title="Permalink to this headline">¶</a></h4>
 <p>Creates script buttons and &#64;button, &#64;command, &#64;plugin and &#64;script nodes.</p>
-<p>This plugin puts buttons in the icon area. Depending on settings the plugin will create the &#8216;Run Script&#8217;, the &#8216;Script Button&#8217; and the &#8216;Debug Script&#8217; buttons.</p>
-<p>The &#8216;Run Script&#8217; button is simply another way of doing the Execute Script command: it executes the selected text of the presently selected node, or the entire text if no text is selected.</p>
-<p>The &#8216;Script Button&#8217; button creates <em>another</em> button in the icon area every time you push it. The name of the button is the headline of the presently selected node. Hitting this <em>newly created</em> button executes the button&#8217;s script.</p>
+<p>This plugin puts buttons in the icon area. Depending on settings the plugin will create the ‘Run Script’, the ‘Script Button’ and the ‘Debug Script’ buttons.</p>
+<p>The ‘Run Script’ button is simply another way of doing the Execute Script command: it executes the selected text of the presently selected node, or the entire text if no text is selected.</p>
+<p>The ‘Script Button’ button creates <em>another</em> button in the icon area every time you push it. The name of the button is the headline of the presently selected node. Hitting this <em>newly created</em> button executes the button’s script.</p>
 <p>For example, to run a script on any part of an outline do the following:</p>
 <ol class="arabic simple">
 <li>Select the node containing the script.</li>
@@ -1348,19 +1345,19 @@ be useful in <code class="docutils literal"><span class="pre">&#64;button</span>
 <li>Select the node on which you want to run the script.</li>
 <li>Push the <em>new</em> button.</li>
 </ol>
-<p>That&#8217;s all.</p>
-<p>For every &#64;button node, this plugin creates two new minibuffer commands: x and delete-x-button, where x is the &#8216;cleaned&#8217; name of the button. The &#8216;x&#8217; command is equivalent to pushing the script button.</p>
+<p>That’s all.</p>
+<p>For every &#64;button node, this plugin creates two new minibuffer commands: x and delete-x-button, where x is the ‘cleaned’ name of the button. The ‘x’ command is equivalent to pushing the script button.</p>
 <p>You can specify <strong>global buttons</strong> in leoSettings.leo or myLeoSettings.leo by putting &#64;button nodes as children of an &#64;buttons node in an &#64;settings trees. Such buttons are included in all open .leo (in a slightly different color). Actually, you can specify global buttons in any .leo file, but &#64;buttons nodes affect all later opened .leo files so usually you would define global buttons in leoSettings.leo or myLeoSettings.leo.</p>
 <p>The cleaned name of an &#64;button node is the headline text of the button with:</p>
 <ul class="simple">
 <li>Leading &#64;button or &#64;command removed,</li>
 <li>&#64;key and all following text removed,</li>
 <li>&#64;args and all following text removed,</li>
-<li>all non-alphanumeric characters converted to a single &#8216;-&#8216; characters.</li>
+<li>all non-alphanumeric characters converted to a single ‘-‘ characters.</li>
 </ul>
 <p>Thus, cleaning headline text converts it to a valid minibuffer command name.</p>
 <p>You can delete a script button by right-clicking on it, or by executing the delete-x-button command.</p>
-<p>The &#8216;Debug Script&#8217; button runs a script using an external debugger.</p>
+<p>The ‘Debug Script’ button runs a script using an external debugger.</p>
 <p>This plugin optionally scans for &#64;button nodes, &#64;command, &#64;plugin nodes and
 &#64;script nodes whenever a .leo file is opened.</p>
 <ul class="simple">
@@ -1371,7 +1368,7 @@ be useful in <code class="docutils literal"><span class="pre">&#64;button</span>
 </ul>
 <p>Such nodes may be security risks. This plugin scans for such nodes only if the corresponding atButtonNodes, atPluginNodes, and atScriptNodes constants are set to True in this plugin.</p>
 <p>You can specify the following options in leoSettings.leo.  See the node:
-&#64;settings&#8211;&gt;Plugins&#8211;&gt;scripting plugin.  Recommended defaults are shown:</p>
+&#64;settings–&gt;Plugins–&gt;scripting plugin.  Recommended defaults are shown:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>@bool scripting-at-button-nodes = True
 True: adds a button for every @button node.
 
@@ -1404,19 +1401,19 @@ The maximum length of button names: longer names are truncated.
 <p>You can bind key shortcuts to &#64;button and &#64;command nodes as follows.</p>
 <p>&#64;button name &#64;key=shortcut</p>
 <blockquote>
-<div>Binds the shortcut to the script in the script button. The button&#8217;s name is
-&#8216;name&#8217;, but you can see the full headline in the status line when you move the
+<div>Binds the shortcut to the script in the script button. The button’s name is
+‘name’, but you can see the full headline in the status line when you move the
 mouse over the button.</div></blockquote>
 <p>&#64;command name &#64;key=shortcut</p>
 <blockquote>
 <div>Creates a new minibuffer command and binds shortcut to it. As with &#64;buffer
 nodes, the name of the command is the cleaned name of the headline.</div></blockquote>
-<p>This plugin is based on ideas from e&#8217;s dynabutton plugin, quite possibly the most brilliant idea in Leo&#8217;s history.</p>
+<p>This plugin is based on ideas from e’s dynabutton plugin, quite possibly the most brilliant idea in Leo’s history.</p>
 <p>You can run the script with sys.argv initialized to string values using &#64;args. For example:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="nd">@button</span> <span class="n">test</span><span class="o">-</span><span class="n">args</span> <span class="nd">@args</span> <span class="o">=</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span>
 </pre></div>
 </div>
-<p>will set sys.argv to [u&#8217;a&#8217;,u&#8217;b&#8217;,u&#8217;c&#8217;]</p>
+<p>will set sys.argv to [u’a’,u’b’,u’c’]</p>
 </div>
 <div class="section" id="script-io-to-body-py">
 <h4><a class="toc-backref" href="#id76">script_io_to_body.py</a><a class="headerlink" href="#script-io-to-body-py" title="Permalink to this headline">¶</a></h4>
@@ -1463,8 +1460,8 @@ nodes, the name of the command is the cleaned name of the headline.</div></block
 <li><p class="first">Start a web browser, and enter the following url: <a class="reference external" href="http://localhost:8130/">http://localhost:8130/</a></p>
 </li>
 </ol>
-<p>You will see a a &#8220;top&#8221; level page containing one link for every open .leo file. Start clicking :-)</p>
-<p>You can use the browser&#8217;s refresh button to update the top-level view in the browser after you have opened or closed files.</p>
+<p>You will see a a “top” level page containing one link for every open .leo file. Start clicking :-)</p>
+<p>You can use the browser’s refresh button to update the top-level view in the browser after you have opened or closed files.</p>
 <p>To enable this plugin put this into your file:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="nd">@settings</span>
 <span class="nd">@bool</span> <span class="n">http_active</span> <span class="o">=</span> <span class="kc">True</span>
@@ -1484,7 +1481,7 @@ nodes, the name of the command is the cleaned name of the headline.</div></block
 <div class="section" id="screenshots-py">
 <h4><a class="toc-backref" href="#id83">screenshots.py</a><a class="headerlink" href="#screenshots-py" title="Permalink to this headline">¶</a></h4>
 <p>Creates stand-alone slideshows containing screenshots.</p>
-<p>This plugin defines five commands. The <strong>apropos-slides</strong> command prints this message to Leo&#8217;s log pane. The <strong>slide-show-info</strong> command prints the settings in effect.</p>
+<p>This plugin defines five commands. The <strong>apropos-slides</strong> command prints this message to Leo’s log pane. The <strong>slide-show-info</strong> command prints the settings in effect.</p>
 <p>The <strong>make-slide</strong> and <strong>make-slide-show</strong> commands, collectively called <strong>slide commands</strong>, create collections of slides from <strong>&#64;slideshow</strong> trees containing <strong>&#64;slide</strong> nodes.</p>
 <p>Slides may link to screenshots. The slide commands can generate screenshots from <strong>&#64;screenshot-tree</strong> nodes, but this feature has proven to be clumsy and inflexible. It is usually more convenient to use screenshots taken with a program such as Wink. The <strong>meld-slides</strong> command creates references to externally-generated screenshots within &#64;slide nodes.</p>
 <p>&#64;slide nodes may contain <strong>&#64;url nodes</strong>. These &#64;url nodes serve two purposes. First, they allow you to see various files (slides, initial screenshots, working files and final screenshots). Second, these &#64;url nodes guide the meld script and the four commands defined by this plugin (see below). By inserting or deleting these &#64;url nodes you (or your scripts) can customize how the commands (and meld) work. In effect, the &#64;url nodes become per-slide settings.</p>
@@ -1610,7 +1607,7 @@ file.</div></blockquote>
 </ol>
 <blockquote>
 <div>After making all files, the plugins runs Sphinx
-by running &#8216;make html&#8217; in the slideshow folder.
+by running ‘make html’ in the slideshow folder.
 This command creates the final .html files in the
 _build/html subfolder of the slideshow folder.</div></blockquote>
 <ol class="arabic simple" start="4">
@@ -1635,8 +1632,8 @@ commands may create one or more of the following
 <dl class="docutils">
 <dt>&#64;sphinx_path = &lt;path&gt;</dt>
 <dd>This directory contains the slides directory,
-and the following files: &#8216;conf.py&#8217;,
-&#8216;Leo4-80-border.jpg&#8217;, &#8216;Makefile&#8217; and &#8216;make.bat&#8217;.</dd>
+and the following files: ‘conf.py’,
+‘Leo4-80-border.jpg’, ‘Makefile’ and ‘make.bat’.</dd>
 <dt>&#64;screenshot_height = &lt;int&gt;</dt>
 <dd>The height in pixels of screenshots.</dd>
 <dt>&#64;screenshot_width = &lt;int&gt;</dt>
@@ -1684,7 +1681,7 @@ An &#64;slide node may have several &#64;callout children.</dd>
 Inkscape interactively after taking a
 screenshot.</dd>
 <dt>&#64;markers = &lt;list of integers&gt;</dt>
-<dd>Generates &#8216;numbered balls&#8217; in the working .svg file.</dd>
+<dd>Generates ‘numbered balls’ in the working .svg file.</dd>
 <dt>&#64;pause = True/False</dt>
 <dd><p class="first">If True (or true or 1) the user must take the
 screenshot manually. Otherwise, the plugin takes
@@ -1697,7 +1694,7 @@ shot.</p>
 example by selecting menus or showing dialogs.
 The <em>user</em> must then take the screen shot
 manually. <strong>Important</strong>: the screenshot need not
-be of Leo&#8211;it could be a screenshot of anything
+be of Leo–it could be a screenshot of anything
 on the screen.</p>
 <p class="last">As soon as the user closes the target
 outline, the slide commands look for the screen
@@ -1719,7 +1716,7 @@ outline to be selected before taking the screenshot.</dd>
 <dd>The full path to the Inkscape program.</dd>
 </dl>
 <p><strong>File names</strong></p>
-<p>Suppose the &#64;slide node is the n&#8217;th &#64;slide node in the &#64;slideshow tree whose sanitized name is &#8216;name&#8217;. The following files will be created in (relative to) the slideshow directory:</p>
+<p>Suppose the &#64;slide node is the n’th &#64;slide node in the &#64;slideshow tree whose sanitized name is ‘name’. The following files will be created in (relative to) the slideshow directory:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">slide</span><span class="o">-</span><span class="n">n</span><span class="o">.</span><span class="n">html</span><span class="o">.</span><span class="n">txt</span><span class="p">:</span>   <span class="n">the</span> <span class="n">slide</span><span class="s1">&#39;s rST source.</span>
 <span class="n">screenshot</span><span class="o">-</span><span class="n">n</span><span class="o">.</span><span class="n">png</span><span class="p">:</span>   <span class="n">the</span> <span class="n">original</span> <span class="n">screenshot</span><span class="o">.</span>
 <span class="n">screenshot</span><span class="o">-</span><span class="n">n</span><span class="o">.</span><span class="n">svg</span><span class="p">:</span>   <span class="n">the</span> <span class="n">working</span> <span class="n">file</span><span class="o">.</span>
@@ -1749,7 +1746,7 @@ or the first slide show if no slide show has been seen yet.</li>
 <div class="section" id="bibtex-py">
 <h4><a class="toc-backref" href="#id86">bibtex.py</a><a class="headerlink" href="#bibtex-py" title="Permalink to this headline">¶</a></h4>
 <p>Manages BibTeX files with Leo.</p>
-<p>Create a bibliographic database by putting <a class="reference external" href="mailto:'&#37;&#52;&#48;bibtex">'<span>&#64;</span>bibtex</a> filename&#8217; in a headline. Entries are added as nodes, with <a class="reference external" href="mailto:'&#37;&#52;&#48;entrytype">'<span>&#64;</span>entrytype</a> key&#8217; as the headline, and the contents of the entry in body text. The plugin will automatically insert a template for the entry in the body pane when a new entry is created (hooked to pressing enter when typing the headline text). The templates are defined in dictionary &#8216;templates&#8217; in the &lt;&lt;globals&gt;&gt; section, by default containing all required fields for every entry.</p>
+<p>Create a bibliographic database by putting <a class="reference external" href="mailto:'&#37;&#52;&#48;bibtex">‘<span>&#64;</span>bibtex</a> filename’ in a headline. Entries are added as nodes, with <a class="reference external" href="mailto:'&#37;&#52;&#48;entrytype">‘<span>&#64;</span>entrytype</a> key’ as the headline, and the contents of the entry in body text. The plugin will automatically insert a template for the entry in the body pane when a new entry is created (hooked to pressing enter when typing the headline text). The templates are defined in dictionary ‘templates’ in the &lt;&lt;globals&gt;&gt; section, by default containing all required fields for every entry.</p>
 <p>The file is written by double-clicking the node. Thus the following outline:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">-</span><span class="nd">@bibtex</span> <span class="n">biblio</span><span class="o">.</span><span class="n">bib</span>
  <span class="o">+</span><span class="nd">@book</span> <span class="n">key</span>
@@ -1757,7 +1754,7 @@ or the first slide show if no slide show has been seen yet.</li>
   <span class="n">year</span> <span class="o">=</span> <span class="mi">1999</span>
 </pre></div>
 </div>
-<p>will be written in the file &#8216;biblio.bib&#8217; as:</p>
+<p>will be written in the file ‘biblio.bib’ as:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="nd">@book</span><span class="p">{</span><span class="n">key</span><span class="p">,</span>
 <span class="n">author</span> <span class="o">=</span> <span class="p">{</span><span class="n">A</span><span class="o">.</span> <span class="n">Uthor</span><span class="p">},</span>
 <span class="n">year</span><span class="o">=</span> <span class="mi">1999</span><span class="p">}</span>
@@ -1785,8 +1782,8 @@ or the first slide show if no slide show has been seen yet.</li>
 <span class="n">journal</span> <span class="o">=</span> <span class="n">j1</span><span class="p">}</span>
 </pre></div>
 </div>
-<p>No error checking is made on the syntax. The entries can be organized under nodes &#8212; if the headline doesn&#8217;t start with &#8216;&#64;&#8217;, the headline and body text are ignored, but the child nodes are parsed as usual.</p>
-<p>BibTeX files can be imported by creating an empty node with <a class="reference external" href="mailto:'&#37;&#52;&#48;bibtex">'<span>&#64;</span>bibtex</a> filename&#8217; in the headline. Double-clicking it will read the file &#8216;filename&#8217; and parse it into a &#64;bibtex tree. No syntax checking is made, &#8216;filename&#8217; is expected to be a valid BibTeX file.</p>
+<p>No error checking is made on the syntax. The entries can be organized under nodes — if the headline doesn’t start with ‘&#64;’, the headline and body text are ignored, but the child nodes are parsed as usual.</p>
+<p>BibTeX files can be imported by creating an empty node with <a class="reference external" href="mailto:'&#37;&#52;&#48;bibtex">‘<span>&#64;</span>bibtex</a> filename’ in the headline. Double-clicking it will read the file ‘filename’ and parse it into a &#64;bibtex tree. No syntax checking is made, ‘filename’ is expected to be a valid BibTeX file.</p>
 </div>
 <div class="section" id="dtest-py">
 <h4><a class="toc-backref" href="#id87">dtest.py</a><a class="headerlink" href="#dtest-py" title="Permalink to this headline">¶</a></h4>
@@ -1796,7 +1793,7 @@ Typing:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">Alt</span><span class="o">-</span><span class="n">X</span> <span class="n">dtest</span>
 </pre></div>
 </div>
-<p>will run doctest on a file consisting of the current node and it&#8217;s children. If text is selected only the selection is tested.</p>
+<p>will run doctest on a file consisting of the current node and it’s children. If text is selected only the selection is tested.</p>
 <p>From Wikipedia:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="s1">&#39;Doctest&#39;</span> <span class="ow">is</span> <span class="n">a</span> <span class="n">module</span> <span class="n">included</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">Python</span> <span class="n">programming</span> <span class="n">language</span><span class="s1">&#39;s</span>
 <span class="n">standard</span> <span class="n">library</span> <span class="n">that</span> <span class="n">allows</span> <span class="k">for</span> <span class="n">easy</span> <span class="n">generation</span> <span class="n">of</span> <span class="n">tests</span> <span class="n">based</span> <span class="n">on</span>
@@ -1804,7 +1801,7 @@ Typing:</p>
 </pre></div>
 </div>
 <p><a class="reference external" href="http://tinyurl.com/cqh53">http://tinyurl.com/cqh53</a> - Python.org doctest page</p>
-<p><a class="reference external" href="http://tinyurl.com/pxhlq">http://tinyurl.com/pxhlq</a> - Jim Fulton&#8217;s presentation:</p>
+<p><a class="reference external" href="http://tinyurl.com/pxhlq">http://tinyurl.com/pxhlq</a> - Jim Fulton’s presentation:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">Literate</span> <span class="n">Testing</span><span class="p">:</span>
 <span class="n">Automated</span> <span class="n">Testing</span> <span class="k">with</span> <span class="n">doctest</span>
 </pre></div>
@@ -1819,7 +1816,7 @@ Typing:</p>
 <p>An xhtml header may be included in the output, in which case the code will be valid XHTML 1.0 Strict.</p>
 <p>The plugin is fully scriptable as all its functionality is available through a Leo_to_HTML object which can be imported and used in scripts.</p>
 <p><strong>Menu items and &#64;settings</strong></p>
-<p>If this plugin loads properly, the following menu items should appear in your File &gt; Export... menu in Leo:</p>
+<p>If this plugin loads properly, the following menu items should appear in your File &gt; Export… menu in Leo:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">Save</span> <span class="n">Outline</span> <span class="k">as</span> <span class="n">HTML</span>  <span class="p">(</span><span class="n">equivalent</span> <span class="n">to</span> <span class="n">export</span><span class="o">-</span><span class="n">html</span><span class="p">)</span>
 <span class="n">Save</span> <span class="n">Node</span> <span class="k">as</span> <span class="n">HTML</span>     <span class="p">(</span><span class="n">equivalent</span> <span class="n">to</span> <span class="n">export</span><span class="o">-</span><span class="n">html</span><span class="o">-</span><span class="n">node</span><span class="p">)</span>
 <span class="n">Show</span> <span class="n">Outline</span> <span class="k">as</span> <span class="n">HTML</span>  <span class="p">(</span><span class="n">equivalent</span> <span class="n">to</span> <span class="n">show</span><span class="o">-</span><span class="n">html</span><span class="p">)</span>
@@ -1837,7 +1834,7 @@ Typing:</p>
 <dt>export-html</dt>
 <dd>will export to a file according to current settings.</dd>
 <dt>export-html-*</dt>
-<dd>will export to a file using bullet type &#8216;*&#8217; which can be
+<dd>will export to a file using bullet type ‘*’ which can be
 <strong>number</strong>, <strong>bullet</strong> or <strong>head</strong>.</dd>
 </dl>
 <p>The following commands will start a browser showing the html.</p>
@@ -1845,7 +1842,7 @@ Typing:</p>
 <dt>show-html</dt>
 <dd>will show the outline according to current settings.</dd>
 <dt>show-html-*</dt>
-<dd>will show the outline using bullet type &#8216;*&#8217; which can be
+<dd>will show the outline using bullet type ‘*’ which can be
 <strong>number</strong>, <strong>bullet</strong> or <strong>head</strong>.</dd>
 </dl>
 <p>The following commands are the same as above except only the current node is converted:</p>
@@ -1856,24 +1853,24 @@ Typing:</p>
 </pre></div>
 </div>
 <p><strong>Properties</strong></p>
-<p>There are several settings that can appear in the leo_to_html.ini properties file in leo&#8217;s plugins folder or be set via the Plugins &gt; leo_to_html &gt; Properties... menu. These are:</p>
+<p>There are several settings that can appear in the leo_to_html.ini properties file in leo’s plugins folder or be set via the Plugins &gt; leo_to_html &gt; Properties… menu. These are:</p>
 <dl class="docutils">
 <dt>exportpath:</dt>
 <dd>The path to the folder where you want to store the generated html file.
 Default: c:\</dd>
 <dt>flagjustheadlines:</dt>
-<dd>Default: &#8216;Yes&#8217; to include only headlines in the output.</dd>
+<dd>Default: ‘Yes’ to include only headlines in the output.</dd>
 <dt>flagignorefiles:</dt>
-<dd>Default: &#8216;Yes&#8217; to ignore &#64;file nodes.</dd>
+<dd>Default: ‘Yes’ to ignore &#64;file nodes.</dd>
 <dt>use_xhtml:</dt>
 <dd>Yes to include xhtml doctype declarations and make the file valid XHTML 1.0 Strict.
 Otherwise only a simple &lt;html&gt; tag is used although the output will be xhtml
 compliant otherwise. Default: Yes</dd>
 <dt>bullet_type:</dt>
-<dd><p class="first">If this is &#8216;bullet&#8217; then the output will be in the form of a bulleted list.
-If this is &#8216;number&#8217; then the output will be in the form of a numbered list.
-If this is &#8216;heading&#8217; then the output will use &lt;h?&gt; style headers.</p>
-<p class="last">Anything else will result in &lt;h?&gt; type tags being used where &#8216;?&#8217; will be a
+<dd><p class="first">If this is ‘bullet’ then the output will be in the form of a bulleted list.
+If this is ‘number’ then the output will be in the form of a numbered list.
+If this is ‘heading’ then the output will use &lt;h?&gt; style headers.</p>
+<p class="last">Anything else will result in &lt;h?&gt; type tags being used where ‘?’ will be a
 digit starting at 1 and increasing up to a maximum of six depending on depth
 of nesting. Default: number</p>
 </dd>
@@ -1881,20 +1878,20 @@ of nesting. Default: number</p>
 <dd><p class="first">Set this to the command needed to launch a browser on your system or leave it blank
 to use your systems default browser.</p>
 <p class="last">If this is an empty string or the browser can not be launched using this command then
-python&#8217;s <cite>webbrowser</cite> module will be tried. Using a bad command here will slow down the
+python’s <cite>webbrowser</cite> module will be tried. Using a bad command here will slow down the
 launch of the default browser, better to leave it blank.
 Default: empty string</p>
 </dd>
 </dl>
 <p><strong>Configuration</strong></p>
-<p>At present, the file leo/plugins/leo_to_html.ini contains configuration settings. In particular, the default export path, &#8220;c:&#8221; must be changed for *nix systems.</p>
+<p>At present, the file leo/plugins/leo_to_html.ini contains configuration settings. In particular, the default export path, “c:” must be changed for *nix systems.</p>
 </div>
 <div class="section" id="leo-to-rtf-py">
 <h4><a class="toc-backref" href="#id89">leo_to_rtf.py</a><a class="headerlink" href="#leo-to-rtf-py" title="Permalink to this headline">¶</a></h4>
 <p>Outputs a Leo outline as a numbered list to an RTF file. The RTF file can be loaded into Microsoft Word and formatted as a proper outline.</p>
-<p>If this plug-in loads properly, you should have an &#8220;Outline to Microsoft RTF&#8221; option added to your File &gt; Export... menu in Leo.</p>
+<p>If this plug-in loads properly, you should have an “Outline to Microsoft RTF” option added to your File &gt; Export… menu in Leo.</p>
 <p>Settings such as outputting just the headlines (vs. headlines &amp; body text) and whether to include or ignore the contents of &#64;file nodes are stored in the rtf_export.ini file in your Leoplugins folder.</p>
-<p>The default export path is also stored in the INI file. By default, it&#8217;s set to c:so you may need to modify it depending on your system.</p>
+<p>The default export path is also stored in the INI file. By default, it’s set to c:so you may need to modify it depending on your system.</p>
 </div>
 </div>
 <div class="section" id="user-interface">
@@ -1902,7 +1899,7 @@ Default: empty string</p>
 <div class="section" id="chapter-hoist-py">
 <h4><a class="toc-backref" href="#id91">chapter_hoist.py</a><a class="headerlink" href="#chapter-hoist-py" title="Permalink to this headline">¶</a></h4>
 <p>Creates hoist buttons.</p>
-<p>This plugin puts two buttons in the icon area: a button called &#8216;Save Hoist&#8217; and a button called &#8216;Dehoist&#8217;. The &#8216;Save Hoist&#8217; button hoists the presently selected node and creates a button which can later rehoist the same node. The &#8216;Dehoist&#8217; button performs one level of dehoisting</p>
+<p>This plugin puts two buttons in the icon area: a button called ‘Save Hoist’ and a button called ‘Dehoist’. The ‘Save Hoist’ button hoists the presently selected node and creates a button which can later rehoist the same node. The ‘Dehoist’ button performs one level of dehoisting</p>
 <p>Requires at least version 0.19 of mod_scripting.</p>
 </div>
 <div class="section" id="editattributes-py">
@@ -1926,7 +1923,7 @@ Default: empty string</p>
 <p>The output from the command is <strong>always</strong> stored in a new node added as the first child of the command node.  For multi-line commands this new node is selected.  For single-line command this new node is not shown, instead the body text of the command node is updated to reflect the most recent output.  Comment delimiter magic is used to allow single-line and multi-line commands to maintain their single-line and multi-line flavors.</p>
 <p>Both the new child nodes and the updated body text of single-line commands are timestamped.</p>
 <p>For the <cite>bash</cite> button the execution directory is either the directory containing the <cite>.leo</cite> file, or any other path as specified by ancestor <cite>&#64;path</cite> nodes.</p>
-<p>Currently the <cite>psql</cite> button just connects to the default database.  &#8221;;&#8221; is required at the end of SQL statements.</p>
+<p>Currently the <cite>psql</cite> button just connects to the default database.  “;” is required at the end of SQL statements.</p>
 <p>Requires <cite>pexpect</cite> module.</p>
 </div>
 <div class="section" id="maximizenewwindows-py">
@@ -1941,7 +1938,7 @@ Default: empty string</p>
 <div class="section" id="plugins-menu-py">
 <h4><a class="toc-backref" href="#id96">plugins_menu.py</a><a class="headerlink" href="#plugins-menu-py" title="Permalink to this headline">¶</a></h4>
 <p>Creates a Plugins menu and adds all actives plugins to it.</p>
-<p>Selecting these menu items will bring up a short <strong>About Plugin</strong> dialog with the details of the plugin. In some circumstances a submenu will be created instead and an &#8216;About&#8217; menu entry will be created in this.</p>
+<p>Selecting these menu items will bring up a short <strong>About Plugin</strong> dialog with the details of the plugin. In some circumstances a submenu will be created instead and an ‘About’ menu entry will be created in this.</p>
 <p><strong>INI files and the Properties Dialog</strong></p>
 <p>If a file exists in the plugins directory with the same file name as the plugin but with a .ini extension instead of .py, then a <strong>Properties</strong> item will be created in a submenu. Selecting this item will pop up a Properties Dialog which will allow the contents of this file to be edited.</p>
 <p>The .ini file should be formated for use by the python ConfigParser class.</p>
@@ -1986,33 +1983,33 @@ is used internally for sorting alphabetically. Properties and INI files.</dd>
 </div>
 <div class="section" id="unl-py">
 <h4><a class="toc-backref" href="#id99">UNL.py</a><a class="headerlink" href="#unl-py" title="Permalink to this headline">¶</a></h4>
-<p>Supports Uniform Node Locators (UNL&#8217;s) for linking to nodes in any Leo file.</p>
-<p>UNL&#8217;s specify nodes within any Leo file. You can use them to create cross-Leo-file links! UNL</p>
+<p>Supports Uniform Node Locators (UNL’s) for linking to nodes in any Leo file.</p>
+<p>UNL’s specify nodes within any Leo file. You can use them to create cross-Leo-file links! UNL</p>
 <p>This plugin consists of two parts:</p>
 <ol class="arabic simple">
 <li>Selecting a node shows the UNL in the status line at the bottom of the Leo window. You can copy from the status line and paste it into headlines, emails, whatever.</li>
-<li>Double-clicking &#64;url nodes containing UNL&#8217;s select the node specified in the UNL. If the UNL species in another Leo file, the other file will be opened.</li>
+<li>Double-clicking &#64;url nodes containing UNL’s select the node specified in the UNL. If the UNL species in another Leo file, the other file will be opened.</li>
 </ol>
-<p>Format of UNL&#8217;s:</p>
-<p>UNL&#8217;s referring to nodes within the present outline have the form:</p>
+<p>Format of UNL’s:</p>
+<p>UNL’s referring to nodes within the present outline have the form:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">headline1</span><span class="o">--&gt;</span><span class="n">headline2</span><span class="o">--&gt;...--&gt;</span><span class="n">headlineN</span>
 </pre></div>
 </div>
 <p>headline1 is the headline of a top-level node, and each successive headline is the headline of a child node.</p>
-<p>UNL&#8217;s of the form:</p>
+<p>UNL’s of the form:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">file</span><span class="p">:</span><span class="o">&lt;</span><span class="n">path</span><span class="o">&gt;</span><span class="c1">#headline1--&gt;...--&gt;headlineN</span>
 </pre></div>
 </div>
-<p>refer to a node specified in &lt;path&gt; For example, double clicking the following headline will take you to Chapter 8 of Leo&#8217;s Users Guide:</p>
+<p>refer to a node specified in &lt;path&gt; For example, double clicking the following headline will take you to Chapter 8 of Leo’s Users Guide:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="nd">@url</span> <span class="n">file</span><span class="p">:</span><span class="n">c</span><span class="p">:</span><span class="o">/</span><span class="n">prog</span><span class="o">/</span><span class="n">leoCvs</span><span class="o">/</span><span class="n">leo</span><span class="o">/</span><span class="n">doc</span><span class="o">/</span><span class="n">leoDocs</span><span class="o">.</span><span class="n">leo</span><span class="c1">#Users Guide--&gt;Chapter 8: Customizing Leo</span>
 </pre></div>
 </div>
-<p>For example, suppose you want to email someone with comments about a Leo file. Create a comments.leo file containing &#64;url UNL nodes. That is, headlines are &#64;url followed by a UNL. The body text contains your comments about the nodes in the _other_ Leo file! Send the comments.leo to your friend, who can use the comments.leo file to quickly navigate to the various nodes you are talking about. As another example, you can copy UNL&#8217;s into emails. The recipient can navigate to the nodes &#8216;by hand&#8217; by following the arrows in the UNL.</p>
+<p>For example, suppose you want to email someone with comments about a Leo file. Create a comments.leo file containing &#64;url UNL nodes. That is, headlines are &#64;url followed by a UNL. The body text contains your comments about the nodes in the _other_ Leo file! Send the comments.leo to your friend, who can use the comments.leo file to quickly navigate to the various nodes you are talking about. As another example, you can copy UNL’s into emails. The recipient can navigate to the nodes ‘by hand’ by following the arrows in the UNL.</p>
 <p><strong>Notes</strong>:</p>
 <ul class="simple">
-<li>At present, UNL&#8217;s refer to nodes by their position in the outline. Moving a node will break the link.</li>
-<li>Don&#8217;t refer to nodes that contain UNL&#8217;s in the headline. Instead, refer to the parent or child of such nodes.</li>
-<li>You don&#8217;t have to replace spaces in URL&#8217;s or UNL&#8217;s by &#8216;%20&#8217;.</li>
+<li>At present, UNL’s refer to nodes by their position in the outline. Moving a node will break the link.</li>
+<li>Don’t refer to nodes that contain UNL’s in the headline. Instead, refer to the parent or child of such nodes.</li>
+<li>You don’t have to replace spaces in URL’s or UNL’s by ‘%20’.</li>
 </ul>
 </div>
 <div class="section" id="zenity-file-dialogs-py">
@@ -2038,17 +2035,17 @@ is used internally for sorting alphabetically. Properties and INI files.</dd>
 <p>The attributes can be stored in different ways, three modes are implemented currently:</p>
 <dl class="docutils">
 <dt>v.u mode</dt>
-<dd>These attributes are stored in the &#8220;unknownAttributes&#8221; (uA) data for
+<dd>These attributes are stored in the “unknownAttributes” (uA) data for
 each node, accessed via v.u.</dd>
 <dt>Field:</dt>
-<dd>Attributes are lines starting (no whitespace) with &#8220;AttributeName:&#8221; in
+<dd>Attributes are lines starting (no whitespace) with “AttributeName:” in
 the body text.</dd>
 <dt>&#64;Child</dt>
 <dd>Attributes are the head strings of child nodes when the head string
-starts with <a class="reference external" href="mailto:'&#37;&#52;&#48;AttributeName">'<span>&#64;</span>AttributeName</a>&#8216; where the first letter (second character)
+starts with <a class="reference external" href="mailto:'&#37;&#52;&#48;AttributeName">‘<span>&#64;</span>AttributeName</a>’ where the first letter (second character)
 must be capitalized.</dd>
 </dl>
-<p>The plugin defines the following commands, available either in the plugin&#8217;s sub-menu in the Plugins menu, or as <code class="docutils literal"><span class="pre">Alt-X</span> <span class="pre">attrib-edit-*</span></code>.</p>
+<p>The plugin defines the following commands, available either in the plugin’s sub-menu in the Plugins menu, or as <code class="docutils literal"><span class="pre">Alt-X</span> <span class="pre">attrib-edit-*</span></code>.</p>
 <dl class="docutils">
 <dt>attrib-edit-modes</dt>
 <dd><p class="first">Select which attribute setting / getting modes to use.  More than one mode
@@ -2060,7 +2057,7 @@ with the &#64;data attrib_edit_active_modes setting.  For example:</p>
 <span class="c1"># v.u mode</span>
 </pre></div>
 </div>
-<p class="last">would cause only the &#8220;Field:&#8221; and &#8220;&#64;Child&#8221; modes to be active be default.</p>
+<p class="last">would cause only the “Field:” and “&#64;Child” modes to be active be default.</p>
 </dd>
 <dt>attrib-edit-manage</dt>
 <dd>Select which attributes, from all attributes seen so
@@ -2071,12 +2068,12 @@ has the complete list.</dd>
 <dt>attrib-edit-create</dt>
 <dd><p class="first">Create a new attribute on the current node.  If Field: or &#64;Child modes
 are active, they simply remind you how to create an attribute in the log pane.
-If the &#8220;v.u mode&#8221; mode is active, you&#8217;re prompted for a path for the attribute.
+If the “v.u mode” mode is active, you’re prompted for a path for the attribute.
 For example:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">addressbook</span> <span class="n">First</span>
 </pre></div>
 </div>
-<p>to store the attribute in v.u[&#8216;addressbook&#8217;][&#8216;_edit&#8217;][&#8216;First&#8217;]</p>
+<p>to store the attribute in v.u[‘addressbook’][‘_edit’][‘First’]</p>
 <p>As a convenience, entering a path like:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">todo</span> <span class="n">metadata</span> <span class="n">created</span><span class="o">|</span><span class="n">creator</span><span class="o">|</span><span class="n">revised</span>
 </pre></div>
@@ -2092,15 +2089,15 @@ For example:</p>
 <p><strong>Technical details</strong></p>
 <p>See the source for complete documentation for use with other plugins. Here are some points of interest:</p>
 <ul class="simple">
-<li>In addition to <code class="docutils literal"><span class="pre">v.u['addressbook']['_edit']['first']</span></code>, paths like <code class="docutils literal"><span class="pre">v.u['addressbook']['_edit']['_int']['age']</span></code> may be used to identify type, although currently there&#8217;s no difference in the edit widget.</li>
-<li>In the future the plugin may allow other plugins to register to provide attribute path information, instead of just scanning for [&#8216;_edit&#8217;] entries in v.u.</li>
-<li>Currently there&#8217;s no sorting of the attributes in &#8220;v.u mode&#8221;, which is a problem for some applications.  It&#8217;s unclear where the desired order would be stored, without even more repetition in v.u.  When other plugins can register to manipulate the attribute list each plugin could address this, with unordered presentation in the absence of the client plugin.</li>
-<li>There&#8217;s code to have the editor appear in a tab instead of its own area under the body editor, but (a) this is always being buried by output in the log window, and (b) there&#8217;s a bug which leaves some (harmless) ghost widgets in the background.  Enable by &#64;setting <code class="docutils literal"><span class="pre">attrib_edit_placement</span></code> to &#8216;tab&#8217;.</li>
+<li>In addition to <code class="docutils literal"><span class="pre">v.u['addressbook']['_edit']['first']</span></code>, paths like <code class="docutils literal"><span class="pre">v.u['addressbook']['_edit']['_int']['age']</span></code> may be used to identify type, although currently there’s no difference in the edit widget.</li>
+<li>In the future the plugin may allow other plugins to register to provide attribute path information, instead of just scanning for [‘_edit’] entries in v.u.</li>
+<li>Currently there’s no sorting of the attributes in “v.u mode”, which is a problem for some applications.  It’s unclear where the desired order would be stored, without even more repetition in v.u.  When other plugins can register to manipulate the attribute list each plugin could address this, with unordered presentation in the absence of the client plugin.</li>
+<li>There’s code to have the editor appear in a tab instead of its own area under the body editor, but (a) this is always being buried by output in the log window, and (b) there’s a bug which leaves some (harmless) ghost widgets in the background.  Enable by &#64;setting <code class="docutils literal"><span class="pre">attrib_edit_placement</span></code> to ‘tab’.</li>
 </ul>
 </div>
 <div class="section" id="bigdash-py">
 <h3><a class="toc-backref" href="#id103">bigdash.py</a><a class="headerlink" href="#bigdash-py" title="Permalink to this headline">¶</a></h3>
-<p>Creates a global search window. Use the global-search command to show this window. To restore the original appearance of the window, type help. Requires the whoosh library (&#8216;easy_install whoosh&#8217;) to do full text searches.</p>
+<p>Creates a global search window. Use the global-search command to show this window. To restore the original appearance of the window, type help. Requires the whoosh library (‘easy_install whoosh’) to do full text searches.</p>
 </div>
 <div class="section" id="bookmarks-py">
 <h3><a class="toc-backref" href="#id104">bookmarks.py</a><a class="headerlink" href="#bookmarks-py" title="Permalink to this headline">¶</a></h3>
@@ -2117,11 +2114,11 @@ For example:</p>
 <p>Examples are:</p>
 <ul class="simple">
 <li>Edit in $EDITOR</li>
-<li>Edit &#64;thin node in $EDITOR (remember to do &#8220;refresh&#8221; after this!)</li>
+<li>Edit &#64;thin node in $EDITOR (remember to do “refresh” after this!)</li>
 <li>Refresh &#64;thin node from disk (e.g. after editing it in external editor)</li>
 <li>Go to clone</li>
 </ul>
-<p>Here&#8217;s an example on how to implement your own context menu items in your plugins:</p>
+<p>Here’s an example on how to implement your own context menu items in your plugins:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">nextclone_rclick</span><span class="p">(</span><span class="n">c</span><span class="p">,</span><span class="n">p</span><span class="p">,</span> <span class="n">menu</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot; Go to next clone &quot;&quot;&quot;</span>
 
@@ -2157,10 +2154,10 @@ For example:</p>
 <h3><a class="toc-backref" href="#id109">leomylyn.py</a><a class="headerlink" href="#leomylyn-py" title="Permalink to this headline">¶</a></h3>
 <p>By Ville M. Vainio
 See: <a class="reference external" href="http://en.wikipedia.org/wiki/Mylyn">http://en.wikipedia.org/wiki/Mylyn</a></p>
-<p>I went on to start a &#8220;leo mylyn&#8221; plugin to exercise using the childrenModified and contentModified signals.</p>
+<p>I went on to start a “leo mylyn” plugin to exercise using the childrenModified and contentModified signals.</p>
 <p>If you want to play with it, enable leomylyn.py, modify stuff around the tree and do alt-x mylyn-scores.</p>
-<p>Of course as it is useless in this state, but becomes useful when it has a proper gui (maybe in Nav pane), where you would then have a list of &#8220;most interesting&#8221; nodes.</p>
-<p>In the future, this could be able to remember the scores through the sessions, degrade the old scores by time, etc. Also, a scoreset would be associated with a &#8220;project&#8221; (e.g.&#8221;own research&#8221;, &#8220;work project foo&#8221;), each of them having their own typical node working set.</p>
+<p>Of course as it is useless in this state, but becomes useful when it has a proper gui (maybe in Nav pane), where you would then have a list of “most interesting” nodes.</p>
+<p>In the future, this could be able to remember the scores through the sessions, degrade the old scores by time, etc. Also, a scoreset would be associated with a “project” (e.g.”own research”, “work project foo”), each of them having their own typical node working set.</p>
 <p>Mylyn was a nice boost back in the eclipse days, it could work for Leo too. My main motivation right now was to demonstrate the signals with something that is much simpler than using them in qmlnotebook.</p>
 </div>
 <div class="section" id="livecode-py">
@@ -2170,7 +2167,7 @@ See: <a class="reference external" href="http://en.wikipedia.org/wiki/Mylyn">htt
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">meta</span>
 </pre></div>
 </div>
-<p>The dependency on <cite>meta</cite> is for recursively turning AST node trees back into printable identifiers like &#8220;m[m[5]]&#8221;.  For example:</p>
+<p>The dependency on <cite>meta</cite> is for recursively turning AST node trees back into printable identifiers like “m[m[5]]”.  For example:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="mi">7</span>
 </pre></div>
 </div>
@@ -2182,8 +2179,8 @@ See: <a class="reference external" href="http://en.wikipedia.org/wiki/Mylyn">htt
 </div>
 <div class="section" id="nav-qt-py">
 <h3><a class="toc-backref" href="#id111">nav_qt.py</a><a class="headerlink" href="#nav-qt-py" title="Permalink to this headline">¶</a></h3>
-<p>Adds &#8220;Back&#8221; and &#8220;Forward&#8221; buttons (Qt only).</p>
-<p>Creates &#8220;back&#8221; and &#8220;forward&#8221; buttons on button bar. These navigate
+<p>Adds “Back” and “Forward” buttons (Qt only).</p>
+<p>Creates “back” and “forward” buttons on button bar. These navigate
 the node history.</p>
 <p>This plugin does not need specific setup. If the plugin is loaded, the buttons
 will be available. The buttons use the icon specified in the active Qt style</p>
@@ -2201,11 +2198,11 @@ Written by Jacob M. Peck.</p>
 <h3><a class="toc-backref" href="#id114">projectwizard.py</a><a class="headerlink" href="#projectwizard-py" title="Permalink to this headline">¶</a></h3>
 <p>Creates a wizard that creates &#64;auto nodes.</p>
 <p>Opens a file dialog and recursively creates &#64;auto &amp; &#64;path nodes from the path
-where the selected file is (the selected file itself doesn&#8217;t matter.)</p>
+where the selected file is (the selected file itself doesn’t matter.)</p>
 </div>
 <div class="section" id="python-terminal-py">
 <h3><a class="toc-backref" href="#id115">python_terminal.py</a><a class="headerlink" href="#python-terminal-py" title="Permalink to this headline">¶</a></h3>
-<p>Embeds an python interpreter in Leo&#8217;s log pane.</p>
+<p>Embeds an python interpreter in Leo’s log pane.</p>
 </div>
 <div class="section" id="qncalendarwidgets">
 <h3><a class="toc-backref" href="#id116">QNCalendarWidgets</a><a class="headerlink" href="#qncalendarwidgets" title="Permalink to this headline">¶</a></h3>
@@ -2213,14 +2210,14 @@ where the selected file is (the selected file itself doesn&#8217;t matter.)</p>
 </div>
 <div class="section" id="quicksearch-py">
 <h3><a class="toc-backref" href="#id117">quicksearch.py</a><a class="headerlink" href="#quicksearch-py" title="Permalink to this headline">¶</a></h3>
-<p>Adds a fast-to-use search widget, like the &#8220;Find in files&#8221; feature of many editors.</p>
-<p>Just load the plugin, activate &#8220;Nav&#8221; tab, enter search text and press enter.</p>
+<p>Adds a fast-to-use search widget, like the “Find in files” feature of many editors.</p>
+<p>Just load the plugin, activate “Nav” tab, enter search text and press enter.</p>
 <p>The pattern to search for is, by default, a case <em>insensitive</em> fnmatch pattern
 (e.g. foo*bar), because they are typically easier to type than regexps. If you
-want to search for a regexp, use &#8216;r:&#8217; prefix, e.g. r:foo.*bar.</p>
+want to search for a regexp, use ‘r:’ prefix, e.g. r:foo.*bar.</p>
 <p>Regexp matching is case sensitive; if you want to do a case-insensitive regular
 expression search (or any kind of case-sensitive search in the first place), do it
-by searching for &#8220;r:(?i)Foo&#8221;. (?i) is a standard feature of Python regular expression
+by searching for “r:(?i)Foo”. (?i) is a standard feature of Python regular expression
 syntax, as documented in</p>
 <p><a class="reference external" href="http://docs.python.org/library/re.html#regular-expression-syntax">http://docs.python.org/library/re.html#regular-expression-syntax</a></p>
 </div>
@@ -2240,7 +2237,7 @@ the captured image.</p>
 <h3><a class="toc-backref" href="#id120">screencast.py</a><a class="headerlink" href="#screencast-py" title="Permalink to this headline">¶</a></h3>
 <p>Screencasts promise to be easy to be <em>much</em> easier to create than slideshows, while also being more interesting, informative and flashy.  It is <em>so</em> much easier to write a screencast script than it is to lay out a slide, take a screenshot, and then manage resulting slide.</p>
 <p>In particular, there are few continuity problems with screencasts. Continuity is a <em>huge</em> problem with slideshows!  If I change one slide, I am likely to want to change all following slides.  Which means I have to retake all the slides, and file the new versions in the proper places.  In contrast, any changes to screencasts naturally propagate forward.  There might be an effect on following screencasts scenes, but this will happen rarely with a reasonable scene design, and any problems should be easy to fix.</p>
-<p>With screencasts, the <em>movie</em> script is also the <em>python</em> script!  There is no &#8220;translation&#8221; from one to the other.  Furthermore, all the work to produce a screencast is done (naturally!) within Leo.  No need to create and manage external data.  This is another huge advantage and it make producing screencasts much faster than producing slideshows.</p>
+<p>With screencasts, the <em>movie</em> script is also the <em>python</em> script!  There is no “translation” from one to the other.  Furthermore, all the work to produce a screencast is done (naturally!) within Leo.  No need to create and manage external data.  This is another huge advantage and it make producing screencasts much faster than producing slideshows.</p>
 <p>Screencasts may be the long-awaited tools that will allow me to show Leo in action so that other will finally be able to understand it easily.</p>
 </div>
 <div class="section" id="scrolledmessage-py">
@@ -2270,18 +2267,18 @@ named and output directed to a dialog with a specific name.</p>
 <dl class="docutils">
 <dt>msg:</dt>
 <dd><p class="first">The text to be displayed (html, rst, plain).</p>
-<p class="last">If the text starts with &#8216;rst:&#8217; it is assumed to be rst text and
+<p class="last">If the text starts with ‘rst:’ it is assumed to be rst text and
 is converted to html for display after the rst: prefix has been removed.
-If the text starts with &#8216;&lt;&#8217; it is assumed to be html.
-These auto detection features can be overridden by &#8216;flags&#8217;.</p>
+If the text starts with ‘&lt;’ it is assumed to be html.
+These auto detection features can be overridden by ‘flags’.</p>
 </dd>
 <dt>label:</dt>
-<dd>The text to appear in a label above the display. If it is &#8216;&#8217;, the label is hidden.</dd>
+<dd>The text to appear in a label above the display. If it is ‘’, the label is hidden.</dd>
 <dt>title:</dt>
 <dd>The title to appear on the window or dock.</dd>
 <dt>flags:</dt>
-<dd><p class="first">Says what kind of message: &#8216;rst&#8217;, &#8216;text&#8217;, &#8216;html&#8217;. This overrides auto-detection.</p>
-<p class="last">Flags can be combined, for example, &#8216;rst html&#8217; causes the message
+<dd><p class="first">Says what kind of message: ‘rst’, ‘text’, ‘html’. This overrides auto-detection.</p>
+<p class="last">Flags can be combined, for example, ‘rst html’ causes the message
 to be interpreted as rst and displayed as html.</p>
 </dd>
 </dl>
@@ -2300,7 +2297,7 @@ if it was closed before.</p>
 </div>
 <div class="section" id="stickynotes-py">
 <h3><a class="toc-backref" href="#id124">stickynotes.py</a><a class="headerlink" href="#stickynotes-py" title="Permalink to this headline">¶</a></h3>
-<p>Adds simple &#8220;sticky notes&#8221; feature (popout editors) for Qt gui.</p>
+<p>Adds simple “sticky notes” feature (popout editors) for Qt gui.</p>
 <p>Adds the following (<code class="docutils literal"><span class="pre">Alt-X</span></code>) commands:</p>
 <dl class="docutils">
 <dt><code class="docutils literal"><span class="pre">stickynote</span></code></dt>
@@ -2323,11 +2320,11 @@ sticky note dock window, and show the window</dd>
 </dl>
 <p>Sticky notes are synchronized (both ways) with their parent Leo node.</p>
 <p>Encrypted mode requires the python-crypto module.</p>
-<p>The first time you open a note in encrypted mode you&#8217;ll be asked for a pass
+<p>The first time you open a note in encrypted mode you’ll be asked for a pass
 phrase. That phrase will be used for the rest of the session, you can change it
-with <code class="docutils literal"><span class="pre">Alt-X</span></code> <code class="docutils literal"><span class="pre">stickynoteenckey</span></code>, but probably won&#8217;t need to.</p>
+with <code class="docutils literal"><span class="pre">Alt-X</span></code> <code class="docutils literal"><span class="pre">stickynoteenckey</span></code>, but probably won’t need to.</p>
 <p>The encrypted note is stored in base64 encoded <em>encrypted</em> text in the parent
-Leo node, if you forget the pass phrase there&#8217;s no way to un-encrypt it again.
+Leo node, if you forget the pass phrase there’s no way to un-encrypt it again.
 Also, you must not edit the text in the Leo node.</p>
 <p>When <strong>creating an encrypted note</strong>, you should <strong>start with an empty node</strong>.
 If you want to encrypt text that already exists in a node, select-all cut it to
@@ -2355,7 +2352,7 @@ hierarchical updates.</p>
 Supports &#64;graphics-script, &#64;image, &#64;html, &#64;movie and &#64;svg nodes.</p>
 <p>viewrendered.py creates a single <code class="docutils literal"><span class="pre">Alt-X</span></code> style command, <code class="docutils literal"><span class="pre">viewrendered</span></code>,
 which opens a new window where the current body text is rendered as HTML
-(if it starts with &#8216;&lt;&#8217;), or otherwise reStructuredText.  reStructuredText
+(if it starts with ‘&lt;’), or otherwise reStructuredText.  reStructuredText
 errors and warnings may be shown.  For example, both:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>Heading
 -------
@@ -2375,7 +2372,7 @@ errors and warnings may be shown.  For example, both:</p>
 </div>
 <div class="section" id="viewrendered2-py">
 <h3><a class="toc-backref" href="#id129">viewrendered2.py</a><a class="headerlink" href="#viewrendered2-py" title="Permalink to this headline">¶</a></h3>
-<p>An alternative to the viewrendered plugin.  See the plugin&#8217;s docstring for details, as well as these two posts:</p>
+<p>An alternative to the viewrendered plugin.  See the plugin’s docstring for details, as well as these two posts:</p>
 <p><a class="reference external" href="https://groups.google.com/d/msg/leo-editor/3dH_NSQ4TsQ/ueVewAn50ZcJ">https://groups.google.com/d/msg/leo-editor/3dH_NSQ4TsQ/ueVewAn50ZcJ</a></p>
 <p><a class="reference external" href="https://groups.google.com/d/msg/leo-editor/BDzmytlSegw/C0IbSz0US54J">https://groups.google.com/d/msg/leo-editor/BDzmytlSegw/C0IbSz0US54J</a></p>
 </div>
@@ -2400,7 +2397,7 @@ errors and warnings may be shown.  For example, both:</p>
                         title="previous chapter">rst3 Command Reference</a></p>
   <h4>Next topic</h4>
   <p class="topless"><a href="commands.html"
-                        title="next chapter">Leo&#8217;s Commands Reference</a></p>
+                        title="next chapter">Leo’s Commands Reference</a></p>
 <div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
     <form class="search" action="search.html" method="get">
@@ -2428,12 +2425,12 @@ errors and warnings may be shown.  For example, both:</p>
           <a href="rstplugin3.html" title="rst3 Command Reference"
              >previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="leo_toc.html">Leo 5.6 documentation</a> &#187;</li>
-          <li class="nav-item nav-item-1"><a href="usersguide.html" >Leo&#8217;s Users Guide</a> &#187;</li> 
+          <li class="nav-item nav-item-1"><a href="usersguide.html" >Leo’s Users Guide</a> &#187;</li> 
       </ul>
     </div>
     <div class="footer" role="contentinfo">
         &#169; Copyright 1997-2017, Edward K. Ream.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.5.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.5.
     </div>
   </body>
 </html>

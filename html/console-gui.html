@@ -1,16 +1,13 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
     <title>Leo’s Console Gui &#8212; Leo 5.6 documentation</title>
-    
     <link rel="stylesheet" href="_static/classic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
@@ -29,7 +26,7 @@
     <link rel="next" title="A Miscellany of Leo Scripting" href="scripting-miscellany.html" />
     <link rel="prev" title="Debugging with Leo" href="debuggers.html" /> 
   </head>
-  <body role="document">
+  <body>
     <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
       <ul>
@@ -53,8 +50,8 @@
           <div class="body" role="main">
             
   <div class="section" id="leo-s-console-gui">
-<h1>Leo&#8217;s Console Gui<a class="headerlink" href="#leo-s-console-gui" title="Permalink to this headline">¶</a></h1>
-<p>This chapter describes Leo&#8217;s console gui. This allows Leo to be run remotely.</p>
+<h1>Leo’s Console Gui<a class="headerlink" href="#leo-s-console-gui" title="Permalink to this headline">¶</a></h1>
+<p>This chapter describes Leo’s console gui. This allows Leo to be run remotely.</p>
 <div class="contents local topic" id="contents">
 <p class="topic-title first">Contents</p>
 <ul class="simple">
@@ -80,7 +77,7 @@
 </div>
 <p>Here is a screen shot:</p>
 <p><img alt="ConsoleWindow" src="_images/console-window.png" /></p>
-<p>The area between colons in the Tree pane corresponds to Leo&#8217;s icon box:</p>
+<p>The area between colons in the Tree pane corresponds to Leo’s icon box:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">+</span><span class="p">:</span>    <span class="p">:</span> <span class="n">node</span> <span class="n">has</span> <span class="n">unexpanded</span> <span class="n">children</span><span class="o">.</span>
 <span class="o">-</span><span class="p">:</span>    <span class="p">:</span> <span class="n">node</span> <span class="ow">is</span> <span class="n">expanded</span><span class="o">.</span>
  <span class="p">:</span>    <span class="p">:</span> <span class="n">node</span> <span class="n">has</span> <span class="n">no</span> <span class="n">children</span><span class="o">.</span>
@@ -92,7 +89,7 @@
 </div>
 <div class="section" id="system-requirements">
 <h2><a class="toc-backref" href="#id1">System requirements</a><a class="headerlink" href="#system-requirements" title="Permalink to this headline">¶</a></h2>
-<p>Leo&#8217;s Console minimal dependencies are:</p>
+<p>Leo’s Console minimal dependencies are:</p>
 <ul class="simple">
 <li>Python 2.6 or later, including all Python 3.x versions.</li>
 <li>Curses
@@ -114,12 +111,12 @@ For Linux use your system package manager, e.g. <cite>sudo apt install python-tk
 </div>
 </li>
 </ol>
-<p>If no .leo file is given, Leo will open ~/.leo/workbook.leo (Leo&#8217;s workbook file). Initially, this file contains Leo’s cheat sheet and an example from the rst3 tutorial.</p>
+<p>If no .leo file is given, Leo will open ~/.leo/workbook.leo (Leo’s workbook file). Initially, this file contains Leo’s cheat sheet and an example from the rst3 tutorial.</p>
 <p><strong>Only one outline can be open at a time</strong>. The only way to load .leo files is from the command line. (There are no menus).</p>
 </div>
 <div class="section" id="exiting-leo-saving-files">
 <h2><a class="toc-backref" href="#id3">Exiting Leo &amp; saving files</a><a class="headerlink" href="#exiting-leo-saving-files" title="Permalink to this headline">¶</a></h2>
-<p>To exit Leo: click &#8220;Quit Leo&#8221; button and &lt;Enter&gt;. Ctrl-Q also works. <strong>There is no way to cancel Ctrl-Q</strong>. A dialog box will appear. Press Enter to select &#8220;No&#8221;. Press arrow keys to move between &#8220;Yes&#8221; and &#8220;No&#8221;. &#8220;Yes&#8221; saves, then exits. &#8220;No&#8221; Exits without saving.</p>
+<p>To exit Leo: click “Quit Leo” button and &lt;Enter&gt;. Ctrl-Q also works. <strong>There is no way to cancel Ctrl-Q</strong>. A dialog box will appear. Press Enter to select “No”. Press arrow keys to move between “Yes” and “No”. “Yes” saves, then exits. “No” Exits without saving.</p>
 </div>
 <div class="section" id="navigation-and-editing">
 <h2><a class="toc-backref" href="#id4">Navigation and editing</a><a class="headerlink" href="#navigation-and-editing" title="Permalink to this headline">¶</a></h2>
@@ -161,7 +158,7 @@ For Linux use your system package manager, e.g. <cite>sudo apt install python-tk
 </div>
 <div class="section" id="limitations">
 <h2><a class="toc-backref" href="#id6">Limitations</a><a class="headerlink" href="#limitations" title="Permalink to this headline">¶</a></h2>
-<p>This plugin suffers from fundamental limitations, as discussed in the following sections...</p>
+<p>This plugin suffers from fundamental limitations, as discussed in the following sections…</p>
 <div class="section" id="curses-limitations">
 <h3><a class="toc-backref" href="#id7">Curses limitations</a><a class="headerlink" href="#curses-limitations" title="Permalink to this headline">¶</a></h3>
 <p><strong>The curses module supports only simple control characters</strong>. Ctrl-S will work, Alt-S, Ctrl-Shift-S etc. will not. These limitations can not be fixed.</p>
@@ -175,10 +172,10 @@ For Linux use your system package manager, e.g. <cite>sudo apt install python-tk
 <li><p class="first">Shift arrows are not supported, because there are no selection ranges.</p>
 </li>
 <li><p class="first">Cut/paste is theoretically supported, but in the absence of selections
-only paste might work. And paste may work only in limited contexts...</p>
+only paste might work. And paste may work only in limited contexts…</p>
 </li>
 <li><p class="first">Editing the log or body pane is a bit strange. You switch between tabs
-with tab or shift-tab. Type &#8216;e&#8217; to edit edit mode, as shown on the
+with tab or shift-tab. Type ‘e’ to edit edit mode, as shown on the
 on-screen prompts.</p>
 <p>Edit mode defines a <em>range</em> of lines that are being edited. Hitting
 return extends the range. Initially, the range consists of a single line,
@@ -186,7 +183,7 @@ with the cursor at the end of the line. Moving outside the range with
 up/down arrow keys ends editing. Doing a more Leonine job would require a
 complete rewrite of the base classes.</p>
 </li>
-<li><p class="first">Deleting a line is not possible in edit mode. Use &#8216;d&#8217; outside of edit
+<li><p class="first">Deleting a line is not possible in edit mode. Use ‘d’ outside of edit
 mode to delete a line in the log or body panes.</p>
 </li>
 <li><p class="first">The body text is not syntax colored.</p>
@@ -197,7 +194,7 @@ mode to delete a line in the log or body panes.</p>
 <h3><a class="toc-backref" href="#id9">Unfixed bugs</a><a class="headerlink" href="#unfixed-bugs" title="Permalink to this headline">¶</a></h3>
 <p>The following bugs have resisted serious efforts to fix them. I will work on them further only if they cause <em>serious</em> difficulties to those who use the console gui.</p>
 <ul class="simple">
-<li>Shifting focus to the minibuffer after Ctrl-F works initially, but thereafter Tab and Shift-Tab don&#8217;t work as expected until all widgets have been visited.  A workaround is to navigate to the minibuffer <em>before</em> using Ctrl-F, but this is not a perfect fix either.</li>
+<li>Shifting focus to the minibuffer after Ctrl-F works initially, but thereafter Tab and Shift-Tab don’t work as expected until all widgets have been visited.  A workaround is to navigate to the minibuffer <em>before</em> using Ctrl-F, but this is not a perfect fix either.</li>
 <li>After startup, the output from g.es correctly goes to the log widget, but it is scrolled out of view!</li>
 </ul>
 </div>
@@ -210,23 +207,23 @@ mode to delete a line in the log or body panes.</p>
 </div>
 <p>To set this up:</p>
 <ol class="arabic simple">
-<li>In the <strong>listener console</strong>, start a regular Leo Qt session with the <code class="docutils literal"><span class="pre">--listen-to-log</span></code> command-line option. You can start a listener at any time with Leo&#8217;s <code class="docutils literal"><span class="pre">listen-to-log</span></code> command. The <code class="docutils literal"><span class="pre">kill-log-listener</span></code> command kills the listener, if it exists.</li>
+<li>In the <strong>listener console</strong>, start a regular Leo Qt session with the <code class="docutils literal"><span class="pre">--listen-to-log</span></code> command-line option. You can start a listener at any time with Leo’s <code class="docutils literal"><span class="pre">listen-to-log</span></code> command. The <code class="docutils literal"><span class="pre">kill-log-listener</span></code> command kills the listener, if it exists.</li>
 <li>In the <strong>broadcast console</strong>, start Leo with the console gui using the <code class="docutils literal"><span class="pre">--gui=console</span></code> command-line option. This automatically starts the broadcaster.</li>
 </ol>
-<p>If the listener is active, the log output from the curses gui console will be displayed in the listener&#8217;s console.</p>
+<p>If the listener is active, the log output from the curses gui console will be displayed in the listener’s console.</p>
 </div>
 <div class="section" id="developing-the-cursesgui2-plugin">
 <h2><a class="toc-backref" href="#id11">Developing the cursesGui2 plugin</a><a class="headerlink" href="#developing-the-cursesgui2-plugin" title="Permalink to this headline">¶</a></h2>
 <p>The following sections discuss will be of interest <em>only</em> to those who want to enhance the cursesGui2.py plugin. All others can safely ignore this discussion.</p>
-<p>The post: <a class="reference external" href="https://groups.google.com/forum/#!topic/npyscreen/nk2pjj71bok">Debugging npyscreen apps using two consoles</a> discusses the strategy used to bootstrap this plugin. It&#8217;s easier to develop now that so much is working, but developing this code will always be difficult.</p>
-<p>The console gui code stands &#8220;between&#8221; the npyscreen code and Leo&#8217;s core code. With only very minor exceptions, <strong>Leo&#8217;s core and the npyscreen code must remain completely unchanged</strong>.  Thus, the console gui wraps just about everything. This makes the plugin&#8217;s code inherently complex, but this complexity can not be helped.</p>
-<p><strong>Important</strong>: It would pointless to describe the code in detail. Devs must come up to speed on their own by studying traces. Don&#8217;t even <em>think</em> of trying to remember details. Instead, use cff to study the code.</p>
+<p>The post: <a class="reference external" href="https://groups.google.com/forum/#!topic/npyscreen/nk2pjj71bok">Debugging npyscreen apps using two consoles</a> discusses the strategy used to bootstrap this plugin. It’s easier to develop now that so much is working, but developing this code will always be difficult.</p>
+<p>The console gui code stands “between” the npyscreen code and Leo’s core code. With only very minor exceptions, <strong>Leo’s core and the npyscreen code must remain completely unchanged</strong>.  Thus, the console gui wraps just about everything. This makes the plugin’s code inherently complex, but this complexity can not be helped.</p>
+<p><strong>Important</strong>: It would pointless to describe the code in detail. Devs must come up to speed on their own by studying traces. Don’t even <em>think</em> of trying to remember details. Instead, use cff to study the code.</p>
 <div class="section" id="tracing-is-essential">
 <h3><a class="toc-backref" href="#id12">Tracing is essential</a><a class="headerlink" href="#tracing-is-essential" title="Permalink to this headline">¶</a></h3>
 <p>You <em>can not</em> use g.pdb to debug cursesGui2.py, for two reasons:</p>
 <ul class="simple">
-<li>g.pdb&#8217;s output would overwrite the screen.
-Writing to the second console would not help because...</li>
+<li>g.pdb’s output would overwrite the screen.
+Writing to the second console would not help because…</li>
 <li>There would be no way to get input to pdb.</li>
 </ul>
 <p>As a result, <strong>devs must uses traces</strong> to figure out what is happening. The
@@ -238,7 +235,7 @@ section tells how to send traces to a <em>second</em> console. Use only g.pr and
 <p>The following methods contain crucial traces:</p>
 <ul class="simple">
 <li><strong>IH.handle_input</strong> (external/npyscreen/wgwidget.py) shows the raw input to npyscreen.</li>
-<li><strong>k.masterKeyHandler</strong> (leoKeys.py) shows the keys passed to Leo&#8217;s core.</li>
+<li><strong>k.masterKeyHandler</strong> (leoKeys.py) shows the keys passed to Leo’s core.</li>
 <li><strong>k.masterCommand</strong> (leoKeys.py) shows the Leo command (if any) bound to the raw key.</li>
 </ul>
 <p>Other noteworthy methods and functions, all in cursesGui2.py:</p>
@@ -246,7 +243,7 @@ section tells how to send traces to a <em>second</em> console. Use only g.pr and
 <li><strong>CGui.createCursesTop</strong> creates the main window by calling a helper for each part of the main window. The helpers handle the <em>extremely complex</em> details of setting and/or injecting ivars into various classes. Getting these ivars right is the heart of the plugin.</li>
 <li><strong>LeoMiniBuffer.h_return</strong> contains a crucial hack that allows the minibuffer to be used both to enter commands and to enter find strings.</li>
 <li>The top-level <strong>es, pr and trace functions</strong> replace g.es, g.pr and g.trace functions so that they send their results to the second console.</li>
-<li><strong>CGui.monkeyPatch</strong> contains some hacks needed to make the &#8216;start-find&#8217; command work.</li>
+<li><strong>CGui.monkeyPatch</strong> contains some hacks needed to make the ‘start-find’ command work.</li>
 </ul>
 <p>To enable tracing for these methods, and many others, set the trace variable at the start of the method.  Feel free to add your own traces in consoleGui2.py.</p>
 </div>
@@ -304,7 +301,7 @@ section tells how to send traces to a <em>second</em> console. Use only g.pr and
     </div>
     <div class="footer" role="contentinfo">
         &#169; Copyright 1997-2017, Edward K. Ream.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.5.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.5.
     </div>
   </body>
 </html>

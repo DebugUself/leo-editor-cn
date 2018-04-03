@@ -1,16 +1,13 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
     <title>Appendices &#8212; Leo 5.6 documentation</title>
-    
     <link rel="stylesheet" href="_static/classic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
@@ -29,7 +26,7 @@
     <link rel="next" title="History of Leo" href="history.html" />
     <link rel="prev" title="The Leonine World" href="leonine-world.html" /> 
   </head>
-  <body role="document">
+  <body>
     <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
       <ul>
@@ -59,10 +56,10 @@
 <li><a class="reference internal" href="#format-of-leo-files" id="id1">Format of .leo files</a></li>
 <li><a class="reference internal" href="#format-of-external-files" id="id2">Format of external files</a></li>
 <li><a class="reference internal" href="#unicode-reference" id="id3">Unicode reference</a></li>
-<li><a class="reference internal" href="#valid-url-s" id="id4">Valid URL&#8217;s</a></li>
+<li><a class="reference internal" href="#valid-url-s" id="id4">Valid URL’s</a></li>
 <li><a class="reference internal" href="#the-mulder-ream-update-algorithm" id="id5">The Mulder/Ream update algorithm</a><ul>
 <li><a class="reference internal" href="#what-the-algorithm-does" id="id6">What the algorithm does</a></li>
-<li><a class="reference internal" href="#guesses-don-t-matter" id="id7">Guesses don&#8217;t matter</a></li>
+<li><a class="reference internal" href="#guesses-don-t-matter" id="id7">Guesses don’t matter</a></li>
 <li><a class="reference internal" href="#background-of-the-code" id="id8">Background of the code</a></li>
 <li><a class="reference internal" href="#aha-the-x-sentinels-array" id="id9">Aha: the x.sentinels array</a></li>
 <li><a class="reference internal" href="#strategy-proof-of-correctness" id="id10">Strategy &amp; proof of correctness</a></li>
@@ -104,8 +101,8 @@ that affects how Leo parses the file.  For example:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">leo_header</span> <span class="n">file_format</span><span class="o">=</span><span class="s2">&quot;2&quot;</span> <span class="n">tnodes</span><span class="o">=</span><span class="s2">&quot;0&quot;</span> <span class="n">max_tnode_index</span><span class="o">=</span><span class="s2">&quot;5725&quot;</span> <span class="n">clone_windows</span><span class="o">=</span><span class="s2">&quot;0&quot;</span><span class="o">/&gt;</span>
 </pre></div>
 </div>
-<p class="last">The file_format attribute gives the &#8216;major&#8217; format number.
-It is &#8216;2&#8217; for all 4.x versions of Leo.
+<p class="last">The file_format attribute gives the ‘major’ format number.
+It is ‘2’ for all 4.x versions of Leo.
 The tnodes and clone_windows attributes are no longer used.
 The max_tnode_index attribute is the largest tnode index.</p>
 </dd>
@@ -156,8 +153,8 @@ Zero or more of the following attributes may appear in &lt;v&gt; elements:</p>
 <span class="n">a</span><span class="o">=</span><span class="s2">&quot;xxx&quot;</span>
 </pre></div>
 </div>
-<p>The t=&#8221;Tnnn&#8221; attribute specifies the &lt;t&gt; element associated with a &lt;v&gt; element.
-The a=&#8221;xxx&#8221; attribute specifies vnode attributes.
+<p>The t=”Tnnn” attribute specifies the &lt;t&gt; element associated with a &lt;v&gt; element.
+The a=”xxx” attribute specifies vnode attributes.
 The xxx denotes one or more upper-case letters whose meanings are as follows:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">C</span>       <span class="n">The</span> <span class="n">vnode</span> <span class="ow">is</span> <span class="n">a</span> <span class="n">clone</span><span class="o">.</span> <span class="p">(</span><span class="n">Not</span> <span class="n">used</span> <span class="ow">in</span> <span class="mf">4.</span><span class="n">x</span><span class="p">)</span>
 <span class="n">E</span>       <span class="n">The</span> <span class="n">vnode</span> <span class="ow">is</span> <span class="n">expanded</span> <span class="n">so</span> <span class="n">its</span> <span class="n">children</span> <span class="n">are</span> <span class="n">visible</span><span class="o">.</span>
@@ -166,14 +163,14 @@ The xxx denotes one or more upper-case letters whose meanings are as follows:</p
 <span class="n">V</span>       <span class="n">The</span> <span class="n">vnode</span> <span class="ow">is</span> <span class="n">the</span> <span class="n">current</span> <span class="n">vnode</span><span class="o">.</span>
 </pre></div>
 </div>
-<p>For example, a=&#8221;EM&#8221;  specifies that the vnode is expanded and is marked.</p>
+<p>For example, a=”EM”  specifies that the vnode is expanded and is marked.</p>
 <p><strong>New in 4.0</strong>:</p>
 <ul class="last simple">
 <li>&lt;v&gt; elements corresponding to &#64;file nodes now contain tnodeList attributes.
 The tnodeList attribute allows Leo to recreate the order in which nodes should
 appear in the outline.
-The tnodeList attribute is a list of gnx&#8217;s: global node indices.
-See Format of external files (4.x) for the format of gnx&#8217;s.</li>
+The tnodeList attribute is a list of gnx’s: global node indices.
+See Format of external files (4.x) for the format of gnx’s.</li>
 <li>Plugins and scripts may add attributes to &lt;v&gt; and &lt;t&gt; elements.
 See <a class="reference external" href="writingPlugins.html">Writing plugins</a> for details.</li>
 </ul>
@@ -196,16 +193,16 @@ elements. See <a class="reference external" href="writingPlugins.html">Writing p
 </div>
 <div class="section" id="format-of-external-files">
 <h2><a class="toc-backref" href="#id2">Format of external files</a><a class="headerlink" href="#format-of-external-files" title="Permalink to this headline">¶</a></h2>
-<p>This section describe the format of external files. Leo&#8217;s <a class="reference external" href="glossary.html#sentinel-lines">sentinel lines</a> are comments, and this section describes those comments.</p>
-<p id="index-0">External files created by &#64;file use gnx&#8217;s in &#64;+node sentinels. Such gnx&#8217;s permanently and uniquely identify nodes. Gnx&#8217;s have the form:</p>
+<p>This section describe the format of external files. Leo’s <a class="reference external" href="glossary.html#sentinel-lines">sentinel lines</a> are comments, and this section describes those comments.</p>
+<p id="index-0">External files created by &#64;file use gnx’s in &#64;+node sentinels. Such gnx’s permanently and uniquely identify nodes. Gnx’s have the form:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="nb">id</span><span class="o">.</span><span class="n">yyyymmddhhmmss</span>
 <span class="nb">id</span><span class="o">.</span><span class="n">yyyymmddhhmmss</span><span class="o">.</span><span class="n">n</span>
 </pre></div>
 </div>
-<p>The second form is used if two gnx&#8217;s would otherwise be identical.</p>
+<p>The second form is used if two gnx’s would otherwise be identical.</p>
 <ul class="simple">
 <li>id is a string unique to a developer, e.g., a git id.</li>
-<li>yyyymmddhhmmss is the node&#8217;s creation date.</li>
+<li>yyyymmddhhmmss is the node’s creation date.</li>
 <li>n is an integer.</li>
 </ul>
 <p>Closing sentinels are required for section references and the &#64;all and &#64;others directives, collectively known as <strong>embedding constructs.</strong> Proof: These constructs do not terminate the node in which they appear. Without a closing sentinel there would be no way to know where the construct ended and the following lines of the enclosing node began.</p>
@@ -245,8 +242,8 @@ determine where putDocPart has inserted line breaks:</p>
 <span class="k">if</span> <span class="ow">and</span> <span class="n">only</span> <span class="k">if</span> <span class="n">the</span> <span class="n">newline</span> <span class="k">if</span> <span class="n">preceded</span> <span class="n">by</span> <span class="n">whitespace</span><span class="o">.</span>
 </pre></div>
 </div>
-<p>To make this convention work, Leo&#8217;s write code deletes the trailing
-whitespace of all lines that are followed by a &#8220;real&#8221; newline.</p>
+<p>To make this convention work, Leo’s write code deletes the trailing
+whitespace of all lines that are followed by a “real” newline.</p>
 </div></blockquote>
 <dl class="docutils">
 <dt>&#64;+body <strong>(Leo 3.x only)</strong></dt>
@@ -258,7 +255,7 @@ whitespace of all lines that are followed by a &#8220;real&#8221; newline.</p>
 external file. The new delimiter strings continue in effect until
 the next &#64;&#64;delims sentinel <em>in the external file</em> or until the
 end of the external file. Adding, deleting or changing &#64;&#64;delim
-<em>sentinels</em> will destroy Leo&#8217;s ability to read the external file.
+<em>sentinels</em> will destroy Leo’s ability to read the external file.
 Mistakes in using the &#64;delims <em>directives</em> have no effect on Leo,
 though such mistakes will thoroughly mess up a external file as
 far as compilers, HTML renderers, etc. are concerned.</dd>
@@ -316,7 +313,7 @@ otherwise be treated as a sentinel. In Python code, an example would be:</p>
 <h2><a class="toc-backref" href="#id3">Unicode reference</a><a class="headerlink" href="#unicode-reference" title="Permalink to this headline">¶</a></h2>
 <p>Leo uses unicode internally for all strings.</p>
 <ol class="arabic">
-<li><p class="first">Leo converts headline and body text to unicode when reading .leo files and external files. Both .leo files and external files may specify their encoding.  The default is utf-8. If the encoding used in a external file is not &#8220;utf-8&#8221; it is represented in the &#64;+leo sentinel line. For example:</p>
+<li><p class="first">Leo converts headline and body text to unicode when reading .leo files and external files. Both .leo files and external files may specify their encoding.  The default is utf-8. If the encoding used in a external file is not “utf-8” it is represented in the &#64;+leo sentinel line. For example:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>    <span class="c1">#@+leo-encoding=iso-8859-1.</span>
 
 <span class="n">The</span> <span class="n">utf</span><span class="o">-</span><span class="mi">8</span> <span class="n">encoding</span> <span class="ow">is</span> <span class="n">a</span> <span class="s2">&quot;lossless&quot;</span> <span class="n">encoding</span> <span class="p">(</span><span class="n">it</span> <span class="n">can</span> <span class="n">represent</span> <span class="nb">all</span>
@@ -341,12 +338,12 @@ otherwise be treated as a sentinel. In Python code, an example would be:</p>
 </pre></div>
 </div>
 </li>
-<li><p class="first">The &#64;encoding directive specifies the encoding used in a external file. You can&#8217;t mix encodings in a single external file.</p>
+<li><p class="first">The &#64;encoding directive specifies the encoding used in a external file. You can’t mix encodings in a single external file.</p>
 </li>
 </ol>
 </div>
 <div class="section" id="valid-url-s">
-<h2><a class="toc-backref" href="#id4">Valid URL&#8217;s</a><a class="headerlink" href="#valid-url-s" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">Valid URL’s</a><a class="headerlink" href="#valid-url-s" title="Permalink to this headline">¶</a></h2>
 <p>Leo checks that the URL is valid before attempting to open it. A valid URL is:</p>
 <ul class="simple">
 <li>3 or more lowercase alphas</li>
@@ -356,14 +353,14 @@ otherwise be treated as a sentinel. In Python code, an example would be:</p>
 <li>followed by one of: <code class="docutils literal"><span class="pre">$%&amp;'()*+/0-9:=?&#64;A-Z_a-z}~</span></code></li>
 </ul>
 <p>That is, a comma, hyphen and open curly brace may not be the last character.</p>
-<p>URL&#8217;s in Leo should contain no spaces: use %20 to indicate spaces.</p>
+<p>URL’s in Leo should contain no spaces: use %20 to indicate spaces.</p>
 <p>You may use any type of URL that your browser supports: http, mailto, ftp, file, etc.</p>
 </div>
 <div class="section" id="the-mulder-ream-update-algorithm">
 <h2><a class="toc-backref" href="#id5">The Mulder/Ream update algorithm</a><a class="headerlink" href="#the-mulder-ream-update-algorithm" title="Permalink to this headline">¶</a></h2>
 <p>This appendix documents the Mulder/Ream update algorithm in detail, with an informal proof of its correctness.</p>
-<p>Prior to Leo 5.1, Leo used Bernhard Mulder&#8217;s original algorithm to read &#64;shadow files. Starting with Leo 5.1, Leo uses this algorithm to read both &#64;clean and &#64;shadow files. Conceptually, both algorithms work as described in the next section.</p>
-<p>In February 2015 EKR realized that the &#64;shadow algorithm could be used to update &#64;clean (&#64;nosent) files. Simplifying the algorithm instantly became a top priority. The new code emerged several days later, made possible by the x.sentinels array. It is an important milestone in Leo&#8217;s history.</p>
+<p>Prior to Leo 5.1, Leo used Bernhard Mulder’s original algorithm to read &#64;shadow files. Starting with Leo 5.1, Leo uses this algorithm to read both &#64;clean and &#64;shadow files. Conceptually, both algorithms work as described in the next section.</p>
+<p>In February 2015 EKR realized that the &#64;shadow algorithm could be used to update &#64;clean (&#64;nosent) files. Simplifying the algorithm instantly became a top priority. The new code emerged several days later, made possible by the x.sentinels array. It is an important milestone in Leo’s history.</p>
 <div class="section" id="what-the-algorithm-does">
 <h3><a class="toc-backref" href="#id6">What the algorithm does</a><a class="headerlink" href="#what-the-algorithm-does" title="Permalink to this headline">¶</a></h3>
 <p>For simplicity, this discussion will assume that we are updating an
@@ -380,7 +377,7 @@ the following:</p>
 outline again.</p>
 </li>
 <li><p class="first">Recreates all the lines of x <em>with</em> sentinels by writing the &#64;clean x
-<em>outline</em> into a string, as if it was writing an &#64;file node! Let&#8217;s call
+<em>outline</em> into a string, as if it was writing an &#64;file node! Let’s call
 these lines the <strong>old sentinels</strong> lines.</p>
 </li>
 <li><p class="first">Uses difflib.SequenceMatcher to create a set of diffs between the
@@ -391,7 +388,7 @@ version of x, <strong>b</strong> is the set of lines in the new version of x.</p
 </li>
 <li><p class="first">Creates a set of lines, the <strong>new sentinels lines</strong> using the old
 sentinels lines, the a and b lines and the diffs.</p>
-<p>This is the magic. Bernhard Mulder&#8217;s genius was conceiving that a
+<p>This is the magic. Bernhard Mulder’s genius was conceiving that a
 three-way merge of lines could produce the new outline, <em>with</em>
 sentinels. The code is in x.propagate_changed_lines and its helpers.</p>
 </li>
@@ -405,15 +402,15 @@ hold new lines, or for deleting nodes that become empty as the result of
 deleting lines.</p>
 </div>
 <div class="section" id="guesses-don-t-matter">
-<h3><a class="toc-backref" href="#id7">Guesses don&#8217;t matter</a><a class="headerlink" href="#guesses-don-t-matter" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id7">Guesses don’t matter</a><a class="headerlink" href="#guesses-don-t-matter" title="Permalink to this headline">¶</a></h3>
 <p>There are several boundary cases that the update algorithm can not resolve.
 For example, if a line is inserted between nodes, the algorithm can not
 determine whether the line should be inserted at the end of one node or the
 start of the next node. Let us call such lines <strong>ambiguous lines</strong>.</p>
 <p>The algorithm <em>guesses</em> that ambiguous lines belongs at the end of a node
 rather than at the start of the next node. This is usually what is
-wanted&#8211;we usually insert lines at the end of a node.</p>
-<p>Happily, <strong>guesses don&#8217;t matter</strong>, for the following reasons:</p>
+wanted–we usually insert lines at the end of a node.</p>
+<p>Happily, <strong>guesses don’t matter</strong>, for the following reasons:</p>
 <ol class="arabic simple">
 <li>The external file that results from writing the &#64;clean x tree will be
 the same as the updated external file <em>no matter where</em> ambiguous lines
@@ -435,7 +432,7 @@ SequenceMatcher.opcodes. See
 <a class="reference external" href="https://docs.python.org/2/library/difflib.html#sequencematcher-examples">https://docs.python.org/2/library/difflib.html#sequencematcher-examples</a></p>
 <p><strong>Fact 1</strong>: The opcodes tell how to turn x.a (a list of lines) into x.b
 (another list of lines).</p>
-<p>The code uses the a and b terminology. It&#8217;s concise and easy to remember.</p>
+<p>The code uses the a and b terminology. It’s concise and easy to remember.</p>
 <p><strong>Fact 2</strong>: The opcode indices ai, aj, bi, bj <em>never</em> change because
 neither x.a nor x.b changes.</p>
 <p>Plain lines of the result can be built up by copying lines from x.b to x.results:</p>
@@ -460,7 +457,7 @@ from the previous tuple).</li>
 </div>
 <div class="section" id="aha-the-x-sentinels-array">
 <h3><a class="toc-backref" href="#id9">Aha: the x.sentinels array</a><a class="headerlink" href="#aha-the-x-sentinels-array" title="Permalink to this headline">¶</a></h3>
-<p>Mulder&#8217;s original algorithm was hard to understand or to change. The
+<p>Mulder’s original algorithm was hard to understand or to change. The
 culprit was the x.mapping array, which mapped indices into arrays of lines
 <em>with</em> sentinels to indices into arrays of lines <em>without</em> sentinels.</p>
 <p>The new algorithm replaces the x.mapping array with the x.sentinels array.
@@ -480,7 +477,7 @@ simple. Given indices ai, aj, bi, bj from an opcode, the algorithm:</p>
 <li>Writes sentinels from x.sentinels[i], for i in range(ai,aj).</li>
 <li>Writes plain lines from b[i], for i in range(bi,bj).</li>
 </ul>
-<p>This &#8220;just works&#8221; because the indices cover both a and b.</p>
+<p>This “just works” because the indices cover both a and b.</p>
 <ul class="simple">
 <li>The algorithm writes sentinels exactly once (in order) because each
 sentinel appears in x.sentinels[i] for some i in range(len(x.a)).</li>
@@ -515,29 +512,29 @@ as it goes.</p>
 <p>The algorithm gets all needed data directly from opcode indices into
 x.sentinels and x.b. Using opcode indices requires neither reader
 classes nor auxiliary indices.</p>
-<p>The algorithm is simple enough to be understood at first reading. I&#8217;ll
+<p>The algorithm is simple enough to be understood at first reading. I’ll
 remember its details for the rest of my life.</p>
 </div>
 </div>
 <div class="section" id="why-i-like-python">
 <h2><a class="toc-backref" href="#id12">Why I like Python</a><a class="headerlink" href="#why-i-like-python" title="Permalink to this headline">¶</a></h2>
 <p>I wrote this soon after discovering Python in 2001. The conclusions are still valid today.</p>
-<p>I&#8217;ve known for a while that Python was interesting; I attended a Python conference last year and added Python support to Leo. But last week I got that Python is something truly remarkable. I wanted to convert Leo from wxWindows to wxPython, so I began work on c2py, a Python script that would help convert from C++ syntax to Python. While doing so, I had an Aha experience. Python is more than an incremental improvement over Smalltalk or C++ or objective-C; it is &#8220;something completely different&#8221;. The rest of this post tries to explain this difference.</p>
+<p>I’ve known for a while that Python was interesting; I attended a Python conference last year and added Python support to Leo. But last week I got that Python is something truly remarkable. I wanted to convert Leo from wxWindows to wxPython, so I began work on c2py, a Python script that would help convert from C++ syntax to Python. While doing so, I had an Aha experience. Python is more than an incremental improvement over Smalltalk or C++ or objective-C; it is “something completely different”. The rest of this post tries to explain this difference.</p>
 <div class="section" id="clarity">
 <h3><a class="toc-backref" href="#id13">Clarity</a><a class="headerlink" href="#clarity" title="Permalink to this headline">¶</a></h3>
 <p>What struck me first as I converted C++ code to Python is how much less blah, blah, blah there is in Python. No braces, no stupid semicolons and most importantly, <em>no declarations</em>. No more pointless distinctions between const, char *, char const *, char * and wxString. No more wondering whether a variable should be signed, unsigned, short or long.</p>
-<p>Declarations add clutter, declarations are never obviously right and declarations don&#8217;t prevent memory allocation tragedies. Declarations also hinder prototyping. In C++, if I change the type of something I must change all related declarations; this can be a huge and dangerous task. With Python, I can change the type of an object without changing the code at all! It&#8217;s no accident that Leo&#8217;s new log pane was created first in Python.</p>
-<p>Functions returning tuples are a &#8220;minor&#8221; feature with a huge impact on code clarity. No more passing pointers to data, no more defining (and allocating and deallocating) temporary structs to hold multiple values.</p>
-<p>Python can&#8217;t check declarations because there aren&#8217;t any. However, there is a really nifty tool called <a class="reference external" href="http://www.logilab.org/857">pylint</a> that does many of the checks typically done by compilers.</p>
+<p>Declarations add clutter, declarations are never obviously right and declarations don’t prevent memory allocation tragedies. Declarations also hinder prototyping. In C++, if I change the type of something I must change all related declarations; this can be a huge and dangerous task. With Python, I can change the type of an object without changing the code at all! It’s no accident that Leo’s new log pane was created first in Python.</p>
+<p>Functions returning tuples are a “minor” feature with a huge impact on code clarity. No more passing pointers to data, no more defining (and allocating and deallocating) temporary structs to hold multiple values.</p>
+<p>Python can’t check declarations because there aren’t any. However, there is a really nifty tool called <a class="reference external" href="http://www.logilab.org/857">pylint</a> that does many of the checks typically done by compilers.</p>
 </div>
 <div class="section" id="power">
 <h3><a class="toc-backref" href="#id14">Power</a><a class="headerlink" href="#power" title="Permalink to this headline">¶</a></h3>
 <p>Python is much more powerful than C++, not because Python has more features, but because Python needs <em>less</em> features. Some examples:</p>
 <ul class="simple">
 <li>Python does everything that the C++ Standard Template Library (STL) does, without any of the blah, blah, blah needed by STL. No fuss, no muss, no code bloat.</li>
-<li>Python&#8217;s slicing mechanism is very powerful and applies to any sequence (string, list or tuple). Python&#8217;s string library does more with far less functions because slices replace many functions typically found in other string libraries.</li>
+<li>Python’s slicing mechanism is very powerful and applies to any sequence (string, list or tuple). Python’s string library does more with far less functions because slices replace many functions typically found in other string libraries.</li>
 <li>Writing dict = {} creates a dictionary (hash table). Hash tables can contain anything, including lists and other hash tables.</li>
-<li>Python&#8217;s special functions,  __init__, __del__, __repr__, __cmp__, etc. are an elegant way to handle any special need that might arise.</li>
+<li>Python’s special functions,  __init__, __del__, __repr__, __cmp__, etc. are an elegant way to handle any special need that might arise.</li>
 </ul>
 </div>
 <div class="section" id="safety">
@@ -547,16 +544,16 @@ remember its details for the rest of my life.</p>
 </pre></div>
 </div>
 <p>in C.  You will write about 20 lines of C code. Any error in this code will create a memory allocation crash or leak.</p>
-<p>Python is fundamentally safe. C++ is fundamentally unsafe. When I am using Python I am free from worry and anxiety. When I am using C++ I must be constantly &#8220;on guard.&#8221; A momentary lapse can create a hard-to-find pointer bug. With Python, almost nothing serious can ever go wrong, so I can work late at night, or after a beer. The Python debugger is always available. If an exception occurs, the debugger/interpreter tells me just what went wrong. I don&#8217;t have to plan a debugging strategy! Finally, Python recovers from exceptions, so Leo can keep right on going even after a crash!</p>
+<p>Python is fundamentally safe. C++ is fundamentally unsafe. When I am using Python I am free from worry and anxiety. When I am using C++ I must be constantly “on guard.” A momentary lapse can create a hard-to-find pointer bug. With Python, almost nothing serious can ever go wrong, so I can work late at night, or after a beer. The Python debugger is always available. If an exception occurs, the debugger/interpreter tells me just what went wrong. I don’t have to plan a debugging strategy! Finally, Python recovers from exceptions, so Leo can keep right on going even after a crash!</p>
 </div>
 <div class="section" id="speed">
 <h3><a class="toc-backref" href="#id16">Speed</a><a class="headerlink" href="#speed" title="Permalink to this headline">¶</a></h3>
 <p>Python has almost all the speed of C. Other interpretive environments such as icon and Smalltalk have clarity, power and safety similar to Python. What makes Python unique is its seamless way of making C code look like Python code. Python executes at essentially the speed of C code because most Python modules are written in C. The overhead in calling such modules is negligible. Moreover, if code is too slow, one can always create a C module to do the job.</p>
-<p>In fact, Python encourages optimization by moving to higher levels of expression. For example, Leo&#8217;s Open command reads an XML file. If this command is too slow I can use Python&#8217;s XML parser module. This will speed up Leo while at the same time raising the level of the code.</p>
+<p>In fact, Python encourages optimization by moving to higher levels of expression. For example, Leo’s Open command reads an XML file. If this command is too slow I can use Python’s XML parser module. This will speed up Leo while at the same time raising the level of the code.</p>
 </div>
 <div class="section" id="conclusions">
 <h3><a class="toc-backref" href="#id17">Conclusions</a><a class="headerlink" href="#conclusions" title="Permalink to this headline">¶</a></h3>
-<p>Little of Python is completely new. What stands out is the superb engineering judgment evident in Python&#8217;s design. Python is extremely powerful, yet small, simple and elegant. Python allows me to express my intentions clearly and at the highest possible level.</p>
+<p>Little of Python is completely new. What stands out is the superb engineering judgment evident in Python’s design. Python is extremely powerful, yet small, simple and elegant. Python allows me to express my intentions clearly and at the highest possible level.</p>
 <p>The only hope of making Leo all it can be is to use the best possible tools. I believe Python will allow me to add, at long last, the new features that Leo should have.</p>
 <p>Edward K. Ream, October 25, 2001.  P.S., September, 2005:</p>
 <p>Four years of experience have only added to my admiration for Python. Leo could
@@ -611,7 +608,7 @@ not possibly be what it is today without Python.</p>
     </div>
     <div class="footer" role="contentinfo">
         &#169; Copyright 1997-2017, Edward K. Ream.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.5.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.5.
     </div>
   </body>
 </html>
