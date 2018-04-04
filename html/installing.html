@@ -4,29 +4,20 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Installing Leo &#8212; Leo 5.6 documentation</title>
+    <title>安装 Leo &#8212; Leo 5.6 documentation</title>
     <link rel="stylesheet" href="_static/classic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    './',
-        VERSION:     '5.6',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true,
-        SOURCELINK_SUFFIX: '.txt'
-      };
-    </script>
+    <script type="text/javascript" src="_static/documentation_options.js"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Running Leo" href="running.html" />
-    <link rel="prev" title="Downloading Leo" href="download.html" /> 
-  </head>
-  <body>
+    <link rel="prev" title="下载 Leo" href="download.html" /> 
+  </head><body>
     <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
       <ul>
@@ -37,10 +28,10 @@
           <a href="running.html" title="Running Leo"
              accesskey="N">next</a> |</li>
         <li class="right" >
-          <a href="download.html" title="Downloading Leo"
+          <a href="download.html" title="下载 Leo"
              accesskey="P">previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="leo_toc.html">Leo 5.6 documentation</a> &#187;</li>
-          <li class="nav-item nav-item-1"><a href="getting-started.html" accesskey="U">Downloading, Installing &amp; Running Leo</a> &#187;</li> 
+          <li class="nav-item nav-item-1"><a href="getting-started.html" accesskey="U">下载, 安装 &amp; 运行 Leo</a> &#187;</li> 
       </ul>
     </div>  
 
@@ -49,270 +40,252 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="installing-leo">
-<h1>Installing Leo<a class="headerlink" href="#installing-leo" title="Permalink to this headline">¶</a></h1>
-<p>This chapter tells how to install and run Leo on Windows, Linux and MacOS.</p>
-<p><strong>Important</strong>: If you have <em>any</em> problems installing Leo, please ask for help on <a class="reference external" href="http://groups.google.com/group/leo-editor">Leo’s help forum</a>.</p>
+  <div class="section" id="leo">
+<h1>安装 Leo<a class="headerlink" href="#leo" title="Permalink to this headline">¶</a></h1>
+<p>本章介绍在 Windows, Linux 和 MacOS 中, 如何安装和运行 Leo .</p>
+<p><strong>要点</strong>: 如果你安装Leo有 <em>任何</em> 问题, 请向 <a class="reference external" href="http://groups.google.com/group/leo-editor">Leo 的帮助论坛</a> 寻求帮助.</p>
 <div class="contents local topic" id="contents">
 <p class="topic-title first">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#dependencies" id="id1">Dependencies</a></li>
-<li><a class="reference internal" href="#installing-leo-with-pip" id="id2">Installing Leo with pip</a></li>
-<li><a class="reference internal" href="#installing-packages" id="id3">Installing packages</a></li>
-<li><a class="reference internal" href="#installing-leo-itself" id="id4">Installing Leo itself</a><ul>
-<li><a class="reference internal" href="#installing-leo-on-windows" id="id5">Installing Leo on Windows</a><ul>
-<li><a class="reference internal" href="#using-the-single-click-installer" id="id6">Using the single-click installer</a></li>
-<li><a class="reference internal" href="#installing-from-sources-windows" id="id7">Installing from sources (Windows)</a></li>
-<li><a class="reference internal" href="#creating-windows-file-associations" id="id8">Creating Windows file associations</a></li>
+<li><a class="reference internal" href="#id2" id="id15">依赖项</a></li>
+<li><a class="reference internal" href="#pip-leo" id="id16">用 pip 安装 Leo</a></li>
+<li><a class="reference internal" href="#id5" id="id17">安装软件包</a></li>
+<li><a class="reference internal" href="#id6" id="id18">安装 Leo 本身</a><ul>
+<li><a class="reference internal" href="#windows-leo" id="id19">在 Windows 上安装 Leo</a><ul>
+<li><a class="reference internal" href="#id7" id="id20">使用单击安装程序</a></li>
+<li><a class="reference internal" href="#windows" id="id21">从源安装 (Windows)</a></li>
+<li><a class="reference internal" href="#id10" id="id22">创建 Windows 文件关联</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#installing-leo-with-git" id="id9">Installing Leo with git</a></li>
-<li><a class="reference internal" href="#installing-leo-on-linux" id="id10">Installing Leo on Linux</a><ul>
-<li><a class="reference internal" href="#installing-from-a-debian-package" id="id11">Installing from a debian package</a></li>
-<li><a class="reference internal" href="#installing-from-sources-linux" id="id12">Installing from sources (Linux)</a></li>
+<li><a class="reference internal" href="#git-leo" id="id23">用 git 安装 Leo</a></li>
+<li><a class="reference internal" href="#linux-leo" id="id24">在 Linux 上安装 Leo</a><ul>
+<li><a class="reference internal" href="#debian" id="id25">从 debian 软件包安装</a></li>
+<li><a class="reference internal" href="#linux" id="id26">从源安装 (Linux)</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#installing-leo-on-macos-10-7-lion-and-later" id="id13">Installing Leo on MacOs 10.7 (Lion) and later</a></li>
+<li><a class="reference internal" href="#macos-10-7-lion-leo" id="id27">在 MacOs 10.7 (Lion) 或更高版本上安装 Leo</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#installing-everything-with-anaconda-or-miniconda" id="id14">Installing everything with Anaconda or Miniconda</a></li>
+<li><a class="reference internal" href="#anaconda-miniconda" id="id28">用 Anaconda 或 Miniconda 安装任何东西</a></li>
 </ul>
 </div>
-<div class="section" id="dependencies">
-<h2><a class="toc-backref" href="#id1">Dependencies</a><a class="headerlink" href="#dependencies" title="Permalink to this headline">¶</a></h2>
-<p>Leo’s minimal dependencies are:</p>
+<div class="section" id="id2">
+<h2><a class="toc-backref" href="#id15">依赖项</a><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p>Leo 的最小依赖项是:</p>
 <ul class="simple">
-<li><a class="reference external" href="https://www.python.org/">Python</a> 2.6 or later, including all Python 3.x versions.</li>
-<li><a class="reference external" href="http://www.riverbankcomputing.com/software/pyqt/download">PyQt4</a> or <a class="reference external" href="http://www.riverbankcomputing.com/software/pyqt/download5">PyQt5</a>.</li>
+<li><a class="reference external" href="https://www.python.org/">Python</a> 2.6 或更高版本, 包括所有 Python 3.x 版本.</li>
+<li><a class="reference external" href="http://www.riverbankcomputing.com/software/pyqt/download">PyQt4</a> 或 <a class="reference external" href="http://www.riverbankcomputing.com/software/pyqt/download5">PyQt5</a> .</li>
 </ul>
-<p>The following packages are optional, but recommended:</p>
+<p>下列安装包是可选的, 但建议:</p>
 <ul class="simple">
-<li><a class="reference external" href="http://docutils.sourceforge.net">Docutils</a>: required for the rst3 command and the viewrendered plugins.</li>
-<li><a class="reference external" href="http://www.sphinx-doc.org/en/stable/">Sphinx</a>: required to regenerate Leo’s documentation.</li>
-<li><a class="reference external" href="http://pythonhosted.org/pyenchant/download.html">PyEnchant</a>: required for spell checking.</li>
+<li><a class="reference external" href="http://docutils.sourceforge.net">Docutils</a> :rst3 命令和 viewrendered 插件所需的文件.</li>
+<li><a class="reference external" href="http://www.sphinx-doc.org/en/stable/">Sphinx</a> :需要重新生成 Leo 的文档.</li>
+<li><a class="reference external" href="http://pythonhosted.org/pyenchant/download.html">PyEnchant</a> :拼写检查需要.</li>
 </ul>
-<p>Plugins may require other packages.  For example, viewrendered requires <a class="reference external" href="http://daringfireball.net/projects/markdown/syntax">Markdown</a> if one wishes to use markdown rendering, but it is optional. rss.py will not function without <a class="reference external" href="https://pypi.python.org/pypi/feedparser">feedparser</a>. Etc.</p>
+<p>插件可能需要其他软件包. 例如, 如果想要使用 markdown 渲染时, viewrendered 需要 <a class="reference external" href="http://daringfireball.net/projects/markdown/syntax">Markdown</a> , 但它是可选的. 没有 <a class="reference external" href="https://pypi.python.org/pypi/feedparser">feedparser</a> , rss.py 将不能正常工作等.</p>
 </div>
-<div class="section" id="installing-leo-with-pip">
-<h2><a class="toc-backref" href="#id2">Installing Leo with pip</a><a class="headerlink" href="#installing-leo-with-pip" title="Permalink to this headline">¶</a></h2>
-<p>Python’s <a class="reference external" href="https://pypi.python.org/pypi/pip">pip</a> tool will download <em>and</em> install Leo and all of Leo’s dependencies automatically:</p>
+<div class="section" id="pip-leo">
+<h2><a class="toc-backref" href="#id16">用 pip 安装 Leo</a><a class="headerlink" href="#pip-leo" title="Permalink to this headline">¶</a></h2>
+<p>Python 的 <a class="reference external" href="https://pypi.python.org/pypi/pip">pip</a> 工具将自动下载 <em>并</em> 安装 Leo 和 Leo 的所有依赖项:</p>
 <ol class="arabic">
-<li><p class="first"><a class="reference external" href="http://python.org.">Install Python</a> first, if necessary. If you are new to Python, install Python 3, not Python 2. Python 3 installs pip automatically.</p>
+<li><p class="first">如果需要的话, 先 <cite>安装 Python</cite> . 如果您是 Python 新手, 请安装 Python 3 , 而不是 Python 2. Python3 自动安装 pip.</p>
 </li>
-<li><p class="first">(Python 2 only) <a class="reference external" href="https://pip.pypa.io/en/stable/installing/">Install pip</a> itself, if necessary.  To check whether pip has been installed, open a terminal window and type:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="o">--</span><span class="n">version</span>
+<li><p class="first">(仅限Python 2) 如果需要的话, <cite>安装 pip</cite> 本身. 要检查是否安装了 pip, 打开终端窗口并键入:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="o">--</span><span class="n">version</span>
 </pre></div>
 </div>
 </li>
-<li><p class="first">(Python 2 only) From a terminal, install <a class="reference external" href="http://www.riverbankcomputing.co.uk/software/pyqt/intro">PyQt</a> with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">pyqt</span>
+<li><p class="first">(仅限Python 2) 从终端, 安装 <a class="reference external" href="http://www.riverbankcomputing.co.uk/software/pyqt/intro">PyQt</a></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">pyqt</span>
 </pre></div>
 </div>
 </li>
-<li><p class="first">Install Leo with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">leo</span>
+<li><p class="first">安装 Leo:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">leo</span>
 </pre></div>
 </div>
 </li>
 </ol>
-<p>This will download and install all required packages (except PyQt).</p>
+<p>这将下载并安装所需的软件包(PyQt 除外).</p>
 </div>
-<div class="section" id="installing-packages">
-<h2><a class="toc-backref" href="#id3">Installing packages</a><a class="headerlink" href="#installing-packages" title="Permalink to this headline">¶</a></h2>
-<p><strong>Python</strong>: Leo will work on any platform that supports Python 2.6 or above, including Python 3.0 and above. To install Python, see <a class="reference external" href="http://python.org">http://python.org</a>.</p>
-<p><strong>PyQt</strong>: <a class="reference external" href="http://www.riverbankcomputing.co.uk/software/pyqt/intro">PyQt</a> provides Leo’s widgets:</p>
+<div class="section" id="id5">
+<h2><a class="toc-backref" href="#id17">安装软件包</a><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<p><strong>Python</strong>:Leo 可以在任何支持 Python2.6 或以上的平台工作, 包括 Python3.0 和以上版本. 要安装 Python , 请参阅 <a class="reference external" href="http://python.org">http://python.org</a>.</p>
+<p><strong>PyQt</strong>:  <a class="reference external" href="http://www.riverbankcomputing.co.uk/software/pyqt/intro">PyQt</a> 提供了 Leo 的小部件:</p>
 <ul class="simple">
-<li>Download PyQt4 from <a class="reference external" href="http://www.riverbankcomputing.com/software/pyqt/download">http://www.riverbankcomputing.com/software/pyqt/download</a>.</li>
-<li>Download PyQt5 from <a class="reference external" href="http://www.riverbankcomputing.com/software/pyqt/download5">http://www.riverbankcomputing.com/software/pyqt/download5</a>.</li>
+<li>从 <a class="reference external" href="http://www.riverbankcomputing.com/software/pyqt/download">http://www.riverbankcomputing.com/software/pyqt/download</a> 下载 PyQt4.</li>
+<li>从 <a class="reference external" href="http://www.riverbankcomputing.com/software/pyqt/download5">http://www.riverbankcomputing.com/software/pyqt/download5</a> 下载 PyQt5.</li>
 </ul>
-<p><strong>Important</strong>: The PyQt version must match your installed Python version. Remember that Leo requires Python 2.6 or later, or Python 3.0 or later.</p>
-<p><strong>PyEnchant</strong>: You must install <a class="reference external" href="http://pythonhosted.org/pyenchant/download.html">PyEnchant</a> if you want to use Leo’s Spell tab. There is an executable installer for Windows users.</p>
+<p><strong>要点:</strong> PyQt 版本必须与您安装的 Python 版本相匹配. 记住, Leo 需要 Python 2.6 或更高版本, 或者 Python 3.0 或更高版本.</p>
+<p><strong>PyEnchant:</strong> 如果你想要使用 Leo 的拼音选项卡, 你必须安装 <a class="reference external" href="http://pythonhosted.org/pyenchant/download.html">PyEnchant</a> . 对于 Windows 用户, 有一个可执行的安装程序.</p>
 </div>
-<div class="section" id="installing-leo-itself">
-<h2><a class="toc-backref" href="#id4">Installing Leo itself</a><a class="headerlink" href="#installing-leo-itself" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="installing-leo-on-windows">
-<h3><a class="toc-backref" href="#id5">Installing Leo on Windows</a><a class="headerlink" href="#installing-leo-on-windows" title="Permalink to this headline">¶</a></h3>
-<p>Install Python and Qt, as described above (<a class="reference internal" href="#installing-packages">Installing Packages</a>).</p>
-<p>Now you have a choice.  You can use Leo’s binary (single-click) installer
-or download Leo’s sources directly.</p>
-<div class="section" id="using-the-single-click-installer">
-<h4><a class="toc-backref" href="#id6">Using the single-click installer</a><a class="headerlink" href="#using-the-single-click-installer" title="Permalink to this headline">¶</a></h4>
-<p>Leo has a binary installer for Windows, available at the <a class="reference external" href="http://sourceforge.net/projects/leo/files/Leo/">SourceForge download page</a>. The binary installer installs Leo and sets Windows file associations. Now see <a class="reference external" href="running.html">Running Leo</a> for how to run Leo after installing it.</p>
+<div class="section" id="id6">
+<h2><a class="toc-backref" href="#id18">安装 Leo 本身</a><a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="windows-leo">
+<h3><a class="toc-backref" href="#id19">在 Windows 上安装 Leo</a><a class="headerlink" href="#windows-leo" title="Permalink to this headline">¶</a></h3>
+<p>安装Python和Qt, 如上所述(<a class="reference internal" href="#id5">安装软件包</a>).</p>
+<p>现在你有一个选择. 你可以使用Leo的二进制 (single-click) 安装程序
+或直接下载Leo的源文件.</p>
+<div class="section" id="id7">
+<h4><a class="toc-backref" href="#id20">使用单击安装程序</a><a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h4>
+<p>Leo 有一个用于 Windows 的二进制安装程序, 可以在 <a class="reference external" href="http://sourceforge.net/projects/leo/files/Leo/">SourceForge 下载页面</a> 找到. 二进制安装程序安装 Leo 并设置 Windows 文件关联. 现在, 请参阅 <a class="reference external" href="running.html">运行 Leo</a> 在安装后如何运行 Leo.</p>
 </div>
-<div class="section" id="installing-from-sources-windows">
-<h4><a class="toc-backref" href="#id7">Installing from sources (Windows)</a><a class="headerlink" href="#installing-from-sources-windows" title="Permalink to this headline">¶</a></h4>
-<p>You may download Leo’s sources in one of three ways, as described at <a class="reference external" href="download.html">Leo’s download page</a>. If the sources are zipped, unpack them into a temp folder. You may place the sources anywhere you like, including Python’s *site-packages* folder, for example, C:\Python26\Lib\site-packages.</p>
-<p>Next, you will find it convenient to create Windows files associations for .leo files, as described in the next section.</p>
+<div class="section" id="windows">
+<h4><a class="toc-backref" href="#id21">从源安装 (Windows)</a><a class="headerlink" href="#windows" title="Permalink to this headline">¶</a></h4>
+<p>您可以用三种方式下载 Leo 的源文件, 正如 <a class="reference external" href="download.html">Leo 的下载页面</a> 所描述的那样. 如果源文件被压缩, 则将其解压到临时文件夹. 您可以将源文件放在您喜欢的任何地方, 包括 Python 的 <em>site-packages</em> 文件夹, 例如  C:\Python26\Lib\site-packages.</p>
+<p>接下来, 您将发现为 .leo 文件创建 Windows 文件关联非常方便, 正如下一节所述.</p>
 </div>
-<div class="section" id="creating-windows-file-associations">
-<h4><a class="toc-backref" href="#id8">Creating Windows file associations</a><a class="headerlink" href="#creating-windows-file-associations" title="Permalink to this headline">¶</a></h4>
-<p><em>Important</em>: Leo’s binary Windows installer sets file associations
-automatically, so this section is needed only if you are installing Leo
-from a .zip file or other sources.</p>
-<p>There are two ways of associating .leo files with Leo. The first uses the
-Windows control panel, the second, the Windows console.</p>
-<p><strong>Method 1: Using the Windows Control Panel</strong></p>
-<p>The goal is that you want to associate .leo files with the following command:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="s2">&quot;&lt;path to python&gt;\python.exe&quot;</span> <span class="s2">&quot;&lt;path to launchLeo.py&gt;\launchLeo.py&quot;</span> <span class="s2">&quot;%1&quot;</span>
+<div class="section" id="id10">
+<h4><a class="toc-backref" href="#id22">创建 Windows 文件关联</a><a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h4>
+<p><em>要点</em>: Leo 的二进制 Windows 安装程序会自动设置文件关联, 所以只有当您从一个 .zip 文件或其他来源中安装 Leo 时, 才需要这个部分.</p>
+<p>有两种办法将 .leo 文件与 Leo 关联起来. 第一种使用的是 Windows 控制面板, 第二种是 Windows 控制台.</p>
+<p><strong>方法 1：使用 Windows 控制面板</strong></p>
+<p>目标是您希望用以下命令关联 .leo 文件:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;&lt;path to python&gt;\python.exe&quot;</span> <span class="s2">&quot;&lt;path to launchLeo.py&gt;\launchLeo.py&quot;</span> <span class="s2">&quot;%1&quot;</span>
 </pre></div>
 </div>
-<p>Before Windows 7, you do this with using the Folder Options control panel.
-In Windows 7, you do this with the Default Programs control panel.</p>
-<p><em>Note</em>: “%1” passes just the file being clicked on, quoted for spaces etc.
-The quotation marks are needed to handle file paths containing spaces.</p>
-<p><em>Warning:</em> In a batch file, %1 passes just the first command line parameter.
-It is logical to expect %* to work for file associations just as in batch
-files. Alas, it does not.</p>
-<p><strong>Method 2: Using the Windows Console</strong></p>
-<p>Open a Windows console with administrator privileges, then type:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">ftype</span> <span class="n">LeoFile</span><span class="o">=</span><span class="s2">&quot;&lt;path to python&gt;\pythonw.exe&quot;</span> <span class="s2">&quot;&lt;path to launchLeo.py&gt;\launchLeo.py&quot;</span> <span class="s2">&quot;%1&quot;</span> <span class="o">%*</span>
+<p>在Windows 7之前, 你可以使用文件夹选项控制面板来完成这个操作. 在Windows 7中, 你可以使用默认程序控制面板来完成这个操作.</p>
+<p><em>注意:</em> “%1” 只传递被点击的文件, 引用空格等. 需要使用引号来处理包含空格的文件路径.</p>
+<p><em>警告:</em> 在批处理文件中, 1%只传递第一个命令行参数. 在批处理文件中, 期望 %* 为文件关联工作是合乎逻辑的. 唉, 它没有.</p>
+<p><strong>方法2：使用Windows控制台</strong></p>
+<p>打开带有管理员权限的 Windows 控制台, 然后键入:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ftype</span> <span class="n">LeoFile</span><span class="o">=</span><span class="s2">&quot;&lt;path to python&gt;\pythonw.exe&quot;</span> <span class="s2">&quot;&lt;path to launchLeo.py&gt;\launchLeo.py&quot;</span> <span class="s2">&quot;%1&quot;</span> <span class="o">%*</span>
 <span class="n">assoc</span> <span class="o">.</span><span class="n">leo</span><span class="o">=</span><span class="n">LeoFile</span>
 </pre></div>
 </div>
-<p>And put this leo.bat in %PATH%:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="nd">@start</span> <span class="o">/</span><span class="n">b</span> <span class="s2">&quot;Leo&quot;</span> <span class="s2">&quot;&lt;path to python&gt;\python.exe&quot;</span> <span class="s2">&quot;&lt;path to launchLeo.py&gt;\launchLeo.py&quot;</span> <span class="o">%*</span>
+<p>并把 leo.bat 放到 %PATH%:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@start</span> <span class="o">/</span><span class="n">b</span> <span class="s2">&quot;Leo&quot;</span> <span class="s2">&quot;&lt;path to python&gt;\python.exe&quot;</span> <span class="s2">&quot;&lt;path to launchLeo.py&gt;\launchLeo.py&quot;</span> <span class="o">%*</span>
 </pre></div>
 </div>
-<p>You may omit the /b option if you want to create a separate console window for Leo.</p>
+<p>如果你想要为 Leo 创建一个单独的控制台窗口, 你可以省略 /b 选项.</p>
 </div>
 </div>
-<div class="section" id="installing-leo-with-git">
-<h3><a class="toc-backref" href="#id9">Installing Leo with git</a><a class="headerlink" href="#installing-leo-with-git" title="Permalink to this headline">¶</a></h3>
-<p><strong>Important</strong>: This section tells how to set up <a class="reference external" href="https://git-scm.com/">git</a> so that you can grab
-the latest sources using <code class="docutils literal"><span class="pre">git</span> <span class="pre">clone</span></code>.</p>
-<p>Many users will want to track the development version of Leo, in order to stay
-on top of the latest features and bug fixes. Running the development version is
-quite safe and easy, and it’s also a requirement if you want to contribute to
-Leo.</p>
+<div class="section" id="git-leo">
+<h3><a class="toc-backref" href="#id23">用 git 安装 Leo</a><a class="headerlink" href="#git-leo" title="Permalink to this headline">¶</a></h3>
+<p><strong>要点</strong>: 本节讲述如何设置 <a class="reference external" href="https://git-scm.com/">git</a> 以便您可以使用 <a href="#id11"><span class="problematic" id="id12">``</span></a>git clone``获取最新的源文件.</p>
+<p>许多用户希望跟踪 Leo 的开发版本, 以保持最新的特性和 bug 修复. 运行开发版是相当安全和简单的, 而且如果您想要给 Leo 做贡献, 这也是一个要求.</p>
 <ol class="arabic">
-<li><p class="first">First, you need to get git from <a class="reference external" href="http://git-scm.com/">http://git-scm.com/</a>.</p>
+<li><p class="first">首先, 你需要获得从 <a class="reference external" href="http://git-scm.com/">http://git-scm.com/</a> 获得 git.</p>
 </li>
-<li><p class="first">Get Leo from GitHub by doing:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">leo</span><span class="o">-</span><span class="n">editor</span><span class="o">/</span><span class="n">leo</span><span class="o">-</span><span class="n">editor</span> <span class="p">(</span><span class="n">http</span> <span class="n">access</span><span class="p">)</span>
+<li><p class="first">从 Github 中获得 Leo:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">leo</span><span class="o">-</span><span class="n">editor</span><span class="o">/</span><span class="n">leo</span><span class="o">-</span><span class="n">editor</span> <span class="p">(</span><span class="n">http</span> <span class="n">access</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>or:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">git</span><span class="nd">@github</span><span class="o">.</span><span class="n">com</span><span class="p">:</span><span class="n">leo</span><span class="o">-</span><span class="n">editor</span><span class="o">/</span><span class="n">leo</span><span class="o">-</span><span class="n">editor</span><span class="o">.</span><span class="n">git</span> <span class="p">(</span><span class="n">ssh</span> <span class="n">access</span><span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">git</span><span class="nd">@github</span><span class="o">.</span><span class="n">com</span><span class="p">:</span><span class="n">leo</span><span class="o">-</span><span class="n">editor</span><span class="o">/</span><span class="n">leo</span><span class="o">-</span><span class="n">editor</span><span class="o">.</span><span class="n">git</span> <span class="p">(</span><span class="n">ssh</span> <span class="n">access</span><span class="p">)</span>
 </pre></div>
 </div>
 </li>
 </ol>
-<p>And that’s it! You can run launchLeo.py directly. When you want to refresh the
-code with latest modifications from GitHub, run git pull.</p>
+<p>就是这样! 你可以直接运行 launchLeo.py. 当你想要从 GitHub 上刷新最新修改的代码, 运行 git pull.</p>
 </div>
-<div class="section" id="installing-leo-on-linux">
-<h3><a class="toc-backref" href="#id10">Installing Leo on Linux</a><a class="headerlink" href="#installing-leo-on-linux" title="Permalink to this headline">¶</a></h3>
-<p>If you are using Debian/Ubuntu, it’s best to
-<a class="reference external" href="installing.html#installing-from-a-debian-package">install Leo from a debian package</a>, as described next.
-This provides file associations, icons, launcher items, etc.
-Otherwise, you may <a class="reference external" href="installing.html#installing-from-sources-linux">install Leo from sources</a>.</p>
-<div class="section" id="installing-from-a-debian-package">
-<h4><a class="toc-backref" href="#id11">Installing from a debian package</a><a class="headerlink" href="#installing-from-a-debian-package" title="Permalink to this headline">¶</a></h4>
-<p>Add these files to <cite>/etc/apt/sources.list</cite>:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">deb</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">ppa</span><span class="o">.</span><span class="n">launchpad</span><span class="o">.</span><span class="n">net</span><span class="o">/</span><span class="n">villemvainio</span><span class="o">/</span><span class="n">ppa</span><span class="o">/</span><span class="n">ubuntu</span> <span class="n">jaunty</span> <span class="n">main</span>
+<div class="section" id="linux-leo">
+<h3><a class="toc-backref" href="#id24">在 Linux 上安装 Leo</a><a class="headerlink" href="#linux-leo" title="Permalink to this headline">¶</a></h3>
+<p>如果你正在使用 Debian/Ubuntu, 最好 <a class="reference external" href="installing.html#从-debian-软件包安装">从 debian 软件包中安装 Leo</a>, 如下所述. 这提供了文件关联、图标、启动项等. 而且, 你可以 <a class="reference external" href="installing.html#从源安装-linux">从源文件中安装 Leo</a>.</p>
+<div class="section" id="debian">
+<h4><a class="toc-backref" href="#id25">从 debian 软件包安装</a><a class="headerlink" href="#debian" title="Permalink to this headline">¶</a></h4>
+<p>将这些文件添加到 <cite>/etc/apt/sources.list</cite>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">deb</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">ppa</span><span class="o">.</span><span class="n">launchpad</span><span class="o">.</span><span class="n">net</span><span class="o">/</span><span class="n">villemvainio</span><span class="o">/</span><span class="n">ppa</span><span class="o">/</span><span class="n">ubuntu</span> <span class="n">jaunty</span> <span class="n">main</span>
 <span class="n">deb</span><span class="o">-</span><span class="n">src</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">ppa</span><span class="o">.</span><span class="n">launchpad</span><span class="o">.</span><span class="n">net</span><span class="o">/</span><span class="n">villemvainio</span><span class="o">/</span><span class="n">ppa</span><span class="o">/</span><span class="n">ubuntu</span> <span class="n">jaunty</span> <span class="n">main</span>
 </pre></div>
 </div>
-<p>Then run:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">update</span>
+<p>然后运行:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">update</span>
 <span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">leo</span>
 </pre></div>
 </div>
 </div>
-<div class="section" id="installing-from-sources-linux">
-<h4><a class="toc-backref" href="#id12">Installing from sources (Linux)</a><a class="headerlink" href="#installing-from-sources-linux" title="Permalink to this headline">¶</a></h4>
-<p>You may <a class="reference external" href="download.html">download Leo’s sources</a> in one of three ways. If the sources
-are zipped, unzip them into a folder in your home directory, say
-~/leo-5.7.</p>
-<p>You now have several choices.</p>
+<div class="section" id="linux">
+<h4><a class="toc-backref" href="#id26">从源安装 (Linux)</a><a class="headerlink" href="#linux" title="Permalink to this headline">¶</a></h4>
+<p>你可以通过以下三种方法之一 <a class="reference external" href="download.html">下载 Leo 源文件</a> . 如果源文件压缩了, 将它们解压到主目录的文件夹中, 比如 ~/leo-5.7.</p>
+<p>您现在有几个选择.</p>
 <ol class="arabic">
-<li><p class="first">You can run Leo from your home directory. Just add  ~/leo-5.7 to your path.</p>
+<li><p class="first">您可以从主目录运行 Leo. 只需要将 ~/leo-5.7 添加到您的路径.</p>
 </li>
-<li><p class="first">You can install leo into /usr/local/lib and /usr/local/bin with:</p>
+<li><p class="first">你可以使用以下命令将 leo 安装到 /usr/local/lib 和 /usr/local/bin 中:</p>
 <blockquote>
 <div><p>cd ~/leo-5.7
 sudo python setup.py install</p>
 </div></blockquote>
 </li>
 </ol>
-<p>See <a class="reference external" href="running.html">Running Leo</a> for how to run Leo after installing it.</p>
+<p>请参阅 <a class="reference external" href="running.html">运行 Leo</a> 了解如何在安装后运行 Leo.</p>
 </div>
 </div>
-<div class="section" id="installing-leo-on-macos-10-7-lion-and-later">
-<h3><a class="toc-backref" href="#id13">Installing Leo on MacOs 10.7 (Lion) and later</a><a class="headerlink" href="#installing-leo-on-macos-10-7-lion-and-later" title="Permalink to this headline">¶</a></h3>
-<p>Many thanks to Ludwig Schwardt for the following installation instructions. Using the HomeBrew installation method is <em>much</em> easier than before.</p>
-<p><strong>Note from EKR</strong>: When upgrading MacOS, it’s probably a good idea to uninstall pyqt, sip and qt first:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">brew</span> <span class="n">remove</span> <span class="n">pyqt</span> <span class="n">sip</span> <span class="n">qt</span>
+<div class="section" id="macos-10-7-lion-leo">
+<h3><a class="toc-backref" href="#id27">在 MacOs 10.7 (Lion) 或更高版本上安装 Leo</a><a class="headerlink" href="#macos-10-7-lion-leo" title="Permalink to this headline">¶</a></h3>
+<p>非常感谢 Ludwig Schwardt 提供的以下安装指导. 使用 HomeBrew 方法比以前 <em>容易多了</em>.</p>
+<p><strong>EKR注意事项</strong>: 升级 MacOS, 首先卸载 pyqt, sip 和 qt 可能是个好注意:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">brew</span> <span class="n">remove</span> <span class="n">pyqt</span> <span class="n">sip</span> <span class="n">qt</span>
 <span class="n">brew</span> <span class="n">install</span> <span class="n">qt</span> <span class="n">sip</span> <span class="n">pyqt</span>
 </pre></div>
 </div>
-<p>I (Ludwig) recently received a new MacBook Pro and did a fresh upgrade to Mac OS 10.7 (Lion). I then used the opportunity to test out installation procedures of various software on a clean system. My main finding is that the excellent Homebrew (mxcl.github.com/homebrew/) makes things much easier these days.</p>
-<p>Why Homebrew? It does not try to replace every single bit of functionality on your Mac with their own version, like Macports or fink. It reuses the existing libraries as far as possible. No need to reinstall Python, for example (one of my pet gripes when people try to install new software on their Macs, and the source of much confusion and pain). It installs to /usr/local, the standard place to find third-party libraries and headers, instead of the obscure /opt or /sw. It’s simple to use and to extend.</p>
-<p>Here is my installation write-up:</p>
+<p>我(Ludwig)最近收到了一台新的 MacBook Pro, 并对 Mac OS 10.7(Lion) 进行了全新升级. 然后我利用这个机会在一个干净系统上测试了各种软件的安装程序. 我主要的发现是, 优秀的 Homebrew(mxcl.github.com/homebrew/) 使事情容易多了.</p>
+<p>为什么选择 Homebrew？它并不会尝试用自己的版本, 比如 Macports 或 fink 来替换 Mac 上的每一个功能. 它尽可能重复使用现有的库. 例如, 无需重新安装 Python(当人们试图在 Mac 上安装新软件时, 是我的一个宠物抱怨, 以及许多混乱和痛苦的来源). 它安装到 /usr/local, 这是找到第三方库和标题的标准的位置, 而不是隐藏的 /opt 或 /sw. 使用和扩展都很简单.</p>
+<p>此处是我的安装记录:</p>
 <ul>
-<li><p class="first">Read the Homebrew installation instructions at <a class="reference external" href="http://brew.sh/">http://brew.sh/</a></p>
+<li><p class="first">阅读 <a class="reference external" href="http://brew.sh/">http://brew.sh/</a> 上的 Homebrew 安装说明</p>
 </li>
-<li><p class="first">Make sure you have Xcode installed (test it by confirming that “gcc” runs in the Terminal). Only the smaller command-line tools are required; there is no need to get the full Xcode beast.</p>
+<li><p class="first">确保您已经安装了 Xcode(通过确认”gcc”运行在终端来测试). 只需要较小的命令行工具；没有必要获得完整的 Xcode beast.</p>
 </li>
-<li><p class="first">In preparation for Homebrew, the best option in my opinion is to delete /usr/local via:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">rm</span> <span class="o">-</span><span class="n">rf</span> <span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">local</span>
+<li><p class="first">在准备 Homebrew 时, 我认为最好的选择是通过以下方式删除 /usr/local</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">rm</span> <span class="o">-</span><span class="n">rf</span> <span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">local</span>
 </pre></div>
 </div>
-<p>and install any software in it via HomeBrew instead.</p>
-<p>The HomeBrew package manager is so easy to use that you will find replacing deleted packages a snap.</p>
-<p>If deleting /usr/local fills you with dread (you do not want to lose your beloved third-party software), the second-best option is to make sure you have write permission for the directory via:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">chown</span> <span class="o">-</span><span class="n">R</span> <span class="o">&lt;</span><span class="n">your</span> <span class="n">user</span> <span class="n">name</span><span class="o">&gt;</span><span class="p">:</span><span class="n">admin</span> <span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">local</span>
+<p>并通过 HomeBrew 代替安装任何软件.</p>
+<p>HomeBrew 软件包管理器非常易于使用, 你会发现快速替换已删除的软件包.</p>
+<p>如果删除 /usr/local 让您满意(您不希望失去您心爱的第三方软件), 次优选择是确保您已经通过以下方式为目录写了权限:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">chown</span> <span class="o">-</span><span class="n">R</span> <span class="o">&lt;</span><span class="n">your</span> <span class="n">user</span> <span class="n">name</span><span class="o">&gt;</span><span class="p">:</span><span class="n">admin</span> <span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">local</span>
 </pre></div>
 </div>
-<p>If you don’t know your username, run “whoami”. :-) This is useful because homebrew actually discourages you from installing third-party software as the superuser (the usual Mac apps in /Applications are also installed as the normal user, for that matter).</p>
+<p>如果您不知道自己的用户名, 请运行 “whoami”.  :-) 这是很有用的, 因为 homebrew 实际上不鼓励你以超级用户的身份安装第三方软件(对于这种情况, 应用程序中的常用 Mac 应用程序也以普通的用户身份安装).</p>
 </li>
-<li><p class="first">Install Homebrew (<a class="reference external" href="http://mxcl.github.com/homebrew/">http://mxcl.github.com/homebrew/</a>) by running the
-following command in the Terminal:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">ruby</span> <span class="o">-</span><span class="n">e</span> <span class="s2">&quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</span>
+</ul>
+<p>-通过在终端中运行以下命令安装 Homebrew (<a class="reference external" href="http://mxcl.github.com/homebrew/">http://mxcl.github.com/homebrew/</a>):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ruby</span> <span class="o">-</span><span class="n">e</span> <span class="s2">&quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</span>
 </pre></div>
 </div>
+<ul>
+<li><p class="first">运行 “brew doctor” 并检查任何进一步改善您的系统的建议.</p>
+<p>EKR注意：我认为在安装 XCode 页面后已经安装了命令行工具. 我没有, 而 “brew doctor” 告诉我.</p>
 </li>
-<li><p class="first">Run “brew doctor” and check any further suggestions to improve your system.</p>
-<p>EKR note: I thought I had installed command-line tools after installing the XCode page. I hadn’t, and “brew doctor” told me so.</p>
+<li><p class="first">运行 “brew update” 来获取最新的公式</p>
 </li>
-<li><p class="first">Run “brew update” to get the latest formulas</p>
-</li>
-<li><p class="first">Install sip and note the caveat:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">brew</span> <span class="n">install</span> <span class="n">sip</span>
+<li><p class="first">安装 sip 并注意警告:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">brew</span> <span class="n">install</span> <span class="n">sip</span>
 </pre></div>
 </div>
-<p>This warns you to add the local python directory to your PYTHONPATH.
-Make a note of what this is (especially if you are not on Lion!).</p>
+<p>这会警告将本地 python 目录添加到您的 PYTHONPATH 中. 记下这是什么(特别是如果你不在 Lion 上! ).</p>
 </li>
-<li><p class="first">Add the following lines to your ~/.bash_profile
-(or ~/.profile on Leopard). This is the default for LION:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>export PATH=/usr/local/bin:$PATH
-# This is for SIP (and PyQt) as suggested by Homebrew
+<li><p class="first">将以下行添加到 ~/.bash_profile中
+(或 ~/.profile 在 Leopard 上).  这是 LION 的默认设置:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>export PATH=/usr/local/bin:$PATH
+# 这是由 Homebrew 所建议的 SIP(和PyQt)
 export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
 </pre></div>
 </div>
 </li>
-<li><p class="first">Install PyQt:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">brew</span> <span class="n">install</span> <span class="n">pyqt</span>
+<li><p class="first">安装 PyQt:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">brew</span> <span class="n">install</span> <span class="n">pyqt</span>
 </pre></div>
 </div>
 </li>
-<li><p class="first">Open a new Terminal tab / window so that the above settings take effect, and install Leo. I downloaded the Leo-4.9-final-a.zip, unzipped it, and ran “python launchLeo.py” inside the Leo directory.</p>
+<li><p class="first">打开新的终端选项卡/窗口, 以使上述设置生效, 并安装 Leo. 我下载了 Leo-4.9-final-a.zip, 将其解压缩, 然后在 Leo 目录中运行 “python launchLeo.py”.</p>
 </li>
 </ul>
-<p>It would really be great to get a Leo formula going for Homebrew. As mentioned before, the main question is just where to place all the Leo files in the /usr/local hierarchy.</p>
+<p>得到一个 Leo 公式适用于 Homebrew 真的很棒. 如前所述, 主要问题是将所有 Leo 文件放在 /usr/local 层次结构的何处.</p>
 </div>
 </div>
-<div class="section" id="installing-everything-with-anaconda-or-miniconda">
-<h2><a class="toc-backref" href="#id14">Installing everything with Anaconda or Miniconda</a><a class="headerlink" href="#installing-everything-with-anaconda-or-miniconda" title="Permalink to this headline">¶</a></h2>
-<p>The <a class="reference external" href="https://www.anaconda.com/download/">Anaconda</a> scientific computing environment includes Python, NumPy, SciPy, PyQt, and over a thousand other tools, packages and libraries. It’s a 500+ MB download but you’re guaranteed to have everything needed.</p>
-<p>To install Leo do this from a console:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">leo</span>
+<div class="section" id="anaconda-miniconda">
+<h2><a class="toc-backref" href="#id28">用 Anaconda 或 Miniconda 安装任何东西</a><a class="headerlink" href="#anaconda-miniconda" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://www.anaconda.com/download/">Anaconda</a> 的科学计算环境包括 Python, NumPy, SciPy, PyQt 和其他上千种工具、软件包和库. 它下载后有 500 +MB, 但物有所值.</p>
+<p>要安装 Leo, 可以从控制台进行操作:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">leo</span>
 </pre></div>
 </div>
-<p>The <a class="reference external" href="https://conda.io/miniconda.html">Miniconda</a> environment includes just Python and the <cite>conda</cite> package management tool. Pick and choose from the full Anaconda ecosystem.</p>
-<p>To install Leo do this from a console:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">pyqt5</span>
+<p><a class="reference external" href="https://conda.io/miniconda.html">Miniconda</a> 环境仅包含 Python 和 <cite>conda</cite> 软件包管理工具. 从完整的 Anaconda 生态系统中挑选并选择.</p>
+<p>要安装Leo, 可以从控制台进行操作:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">pyqt5</span>
 <span class="n">pip</span> <span class="n">install</span> <span class="n">leo</span>
 </pre></div>
 </div>
@@ -330,18 +303,20 @@ export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
             </a></p>
   <h4>Previous topic</h4>
   <p class="topless"><a href="download.html"
-                        title="previous chapter">Downloading Leo</a></p>
+                        title="previous chapter">下载 Leo</a></p>
   <h4>Next topic</h4>
   <p class="topless"><a href="running.html"
                         title="next chapter">Running Leo</a></p>
 <div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
+    <div class="searchformwrapper">
     <form class="search" action="search.html" method="get">
-      <div><input type="text" name="q" /></div>
-      <div><input type="submit" value="Go" /></div>
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
       <input type="hidden" name="check_keywords" value="yes" />
       <input type="hidden" name="area" value="default" />
     </form>
+    </div>
 </div>
 <script type="text/javascript">$('#searchbox').show(0);</script>
         </div>
@@ -358,15 +333,15 @@ export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
           <a href="running.html" title="Running Leo"
              >next</a> |</li>
         <li class="right" >
-          <a href="download.html" title="Downloading Leo"
+          <a href="download.html" title="下载 Leo"
              >previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="leo_toc.html">Leo 5.6 documentation</a> &#187;</li>
-          <li class="nav-item nav-item-1"><a href="getting-started.html" >Downloading, Installing &amp; Running Leo</a> &#187;</li> 
+          <li class="nav-item nav-item-1"><a href="getting-started.html" >下载, 安装 &amp; 运行 Leo</a> &#187;</li> 
       </ul>
     </div>
     <div class="footer" role="contentinfo">
         &#169; Copyright 1997-2017, Edward K. Ream.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.5.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.2.
     </div>
   </body>
 </html>

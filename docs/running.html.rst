@@ -12,159 +12,143 @@ This chapter tells how to run Leo and discusses Leo's command-line options.
     :depth: 3
     :local:
 
-Running Leo
-+++++++++++
+运行 Leo
+++++++++++
 
-You can run Leo from a Python interpreter as follows::
+你可以按照如下方式从 Python 解释器中运行 Leo::
 
     import leo
-    leo.run() # runs Leo, opening a new outline or,
-    leo.run(fileName=aFileName) # runs Leo, opening the given file name.
+    leo.run() # 运行 Leo, 打开一个新的提纲, 或,
+    leo.run(fileName=aFileName) # 运行 Leo, 打开给定的文本名. 
 
-Another way to run Leo is as follows::
+运行 Leo 的另一种方式如下::
 
     cd <path-to-launchLeo.py>
     python launchLeo.py %*
 
-Here are some tips that may make running Leo easier:
+这里有一些提示会让 Leo 更容易运行:
 
 **Linux**
     
-The following shell script will allow you to open foo.leo files by typing leo foo::
+接下来的 shell 脚本将允许你通过键入 leo foo 打开 foo.leo 文件::
 
     #!/bin/sh 
     python <leopath>launchLeo.py $1
 
-where <leopath> is the path to the directory containing the leo directory. 
+其中 <leopath> 是指向包含 Leo 文件夹的文件夹路径.  
 
 **Windows**
 
-You can associate Leo with .leo files using a batch file. Put the
-following .bat file in c:\\Windows::
+你可以使用批处理文件将 Leo 和 .leo 文件相关联. 将下列 .bat 文件放在 c:\\Windows中::
 
     <path-to-python>/python <path-to-leo>/launchLeo.py %*
 
-Here <path-to-leo> is the path to the directory *containing* the leo directory,
-that is, the directory containing launchLeo.py.
+这里 <path-to-leo> 是指向 *包含* leo 文件夹的文件夹路径, 即包含 launchLeo.py 的文件夹.
 
-Running Leo the first time
-**************************
+第一次运行 Leo
+*******************
 
-The first time you start Leo, a dialog will ask you for a unique identifier. If
-you are using a source code control system such as git, use your git login name.
-Otherwise your initials will do.
+第一次启动 Leo 时, 对话框会要求您输入唯一的标识符. 如果您使用的是git等源文件控制系统, 请使用您的的 git 登录名. 否则您的姓名首字母就行了. 
 
-Leo stores this identifier in the file .leoID.txt. Leo attempts to create
-leoID.txt in the .leo sub-directory of your home directory, then in Leo's config
-directory, and finally in Leo's core directory. You can change this identifier
-at any time by editing .leoID.txt.
+Leo 将此标识符存储在 .leoID.txt 文件中 . Leo 尝试在您的主目录下的 .leo 子目录中创建 leoID.txt, 然后在 Leo 的配置目录中, 最后在 Leo 的核心目录中. 您可以随时通过编辑 .leoID.txt 来更改此标识符.
 
-Running Leo in batch mode
-*************************
+在批处理模式下运行 Leo
+*******************************
 
-On startup, Leo looks for two arguments of the form::
+在启动时, Leo 查找表单中的两个参数::
 
     --script scriptFile
 
-If found, Leo enters batch mode. In batch mode Leo does not show any windows.
-Leo assumes the scriptFile contains a Python script and executes the contents of
-that file using Leo's Execute Script command. By default, Leo sends all
-output to the console window. Scripts in the scriptFile may disable or enable
-this output by calling app.log.disable or app.log.enable
+如果发现, Leo 进入批处理模式. 在批处理模式下, Leo 不显示任何窗口. Leo 假定 scriptFile 包含一个 Python 脚本并使用 Leo 的执行脚本命令执行该文件的内容. 默认情况下, Leo 将所有的输出发送到控制台窗口. scriptFile 中的脚本通过调用 app.log.disable 或 app.log.enable 来禁用或启用此输出. 
 
-Scripts in the scriptFile may execute any of Leo's commands except the Edit Body
-and Edit Headline commands. Those commands require interaction with the user.
-For example, the following batch script reads a Leo file and prints all the
-headlines in that file::
+scriptFile 中的脚本能够执行任何除了编辑正文和编辑标题命令外的任何 Leo 命令. 这些命令需要与用户交互. 例如, 下面的批处理脚本读取一个 Leo 文件并打印该文件中的所有标题::
 
     path = r"<path-to-folder-containing-the-leo-folder>\\leo\\test\\test.leo"
 
-    g.app.log.disable() # disable reading messages while opening the file
+    g.app.log.disable() # 打开文件时禁用读取消息
     flag,newFrame = g.openWithFileName(path,None)
-    g.app.log.enable() # re-enable the log.
+    g.app.log.enable() # 重新启用日志. 
 
     for p in newFrame.c.all_positions():
         g.es(g.toEncodedString(p.h,"utf-8"))
 
-Running Leo from a console window
-*********************************
+从控制台窗口运行 Leo
+****************************
 
-.. _`associating .leo files with python.exe`: installing.html#creating-windows-file-associations
+.. _`python.exe`: installing.html#创建-windows-文件关联
 
-Leo sends more detailed error messages to stderr,
-the output stream that goes to the console window. In Linux and MacOS
-environments, python programs normally execute with the console window visible.
+Leo 将更详细的错误消息发送到 stderr, 即输出到控制台窗口的流. 在 Linux 和 MacOS 环境中, python 程序通过使用可见的控制台窗口执行. 
 
-On Windows, you can run Leo with the console window visible by `associating .leo files with python.exe`_ *not* pythonw.exe.
+在 Windows 中, 你可以通过用 `python.exe`_ 而 *不是* pythonw.exe 关联 .leo 文件, 在可见的控制台窗口运行 Leo.
 
-The .leo directory
-******************
+.leo 目录
+***********
 
-Leo uses os.expanduser('~') to determine the HOME directory if no HOME environment variable exists.
+如果不存在 HOME 环境变量, 则 Leo 使用 os.expanduser('~') 来确定 HOME 目录. 
 
-Leo puts several files in your HOME/.leo directory: .leoID.txt, .leoRecentFiles.txt, and myLeoSettings.leo.
+Leo 将几个文件放在您的 HOME/.leo 目录: .leoID.txt, .leoRecentFiles.txt 和 myLeoSettings.leo.
 
-Leo's command-line options
-++++++++++++++++++++++++++
+Leo 的命令行选项
+++++++++++++++++++++++
 
-Leo supports the following command-line options. As usual, you can see the list by typing the following in a console window::
+Leo 支持下面的命令行选项. 像往常一样, 你可以通过在控制台窗口键入以下内容查看列表::
 
     leo -h
 
-or::
+或::
 
     leo --help
 
-You will get something like the following::
+你将会得到如下内容::
 
     Usage: launchLeo.py [options] file1, file2, ...
 
     Options:
-      -h, --help            show this help message and exit
-      --debug               enable debug mode
-      --diff                use Leo as an external git diff
-      --fullscreen          start fullscreen
-      --ipython             enable ipython support
-      --fail-fast           stop unit tests after the first failure
-      --gui=GUI             gui to use (qt/qttabs/console/null)
-      --listen-to-log       start log_listener.py on startup
-      --load-type=LOAD_TYPE @<file> type for loading non-outlines from command line
-      --maximized           start maximized
-      --minimized           start minimized
-      --no-cache            disable reading of cached files
-      --no-plugins          disable all plugins
-      --no-splash           disable the splash screen
+      -h, --help            显示帮助信息并退出
+      --debug               启用调试模式
+      --diff                使用 Leo 作为外部 git diff
+      --fullscreen          开始全屏
+      --ipython             启用 ipython 支持
+      --fail-fast           在第一次失败后停止单元测试
+      --gui=GUI             gui 使用 (qt/qttabs/console/null)
+      --listen-to-log       启动时启动 log_listener.py
+      --load-type=LOAD_TYPE @<file> 类型用于从命令行加载非提纲
+      --maximized           开始最大化
+      --minimized           开始最小化
+      --no-cache            禁用对缓存文件的读取
+      --no-plugins          禁用所有插件
+      --no-splash           禁用启动屏幕
       --screen-shot=SCREENSHOT_FN
-                            take a screen shot and then exit
-      --script=SCRIPT       execute a script and then exit
+                            拍屏幕快照然后退出
+      --script=SCRIPT       执行一个脚本然后退出
       --script-window=SCRIPT_WINDOW
-                            open a window for scripts
-      --select=SELECT       headline or gnx of node to select
-      --session-restore     restore previously saved session tabs at startup
-      --session-save        save session tabs on exit
-      --silent              disable all log messages
+                            打开一个脚本窗口
+      --select=SELECT       标题或GNX节点选择
+      --session-restore     在启动时恢复先前保存的会话选项卡
+      --session-save        退出时保存会话选项卡
+      --silent              禁用所有日志消息
       --trace-binding=BINDING
-                            trace key bindings
-      --trace-focus         trace changes of focus
-      --trace-plugins       trace imports of plugins
+                            跟踪密钥绑定
+      --trace-focus         跟踪焦点的变化
+      --trace-plugins       跟踪插件的导入
       --trace-setting=SETTING
-                            trace where setting is set
-      --trace-shutdown      trace shutdown logic
-      -v, --version         print version number and exit
+                            跟踪设置的位置
+      --trace-shutdown      跟踪关闭逻辑
+      -v, --version         打印版本号并退出
       --window-size=WINDOW_SIZE
-                            initial window size (height x width)
+                            初始窗口大小 (高 x 宽)
 
-Leo's workbook file
-+++++++++++++++++++
+Leo 的工作簿文件
+++++++++++++++++++++++
 
-If you give no file arguments on the command line Leo will open ``~/.leo/workbook.leo``.  Initially, this file contains Leo's cheat sheet and an example from the rst3 tutorial.
+如果您在命令行中没有提供任何文件参数, 则Leo将打开 ``~/.leo/workbook.leo``. 起初, 这个文件包含 Leo 的备忘单和来自 rst3 教程的一个例子.
 
-Using sessions
-++++++++++++++
+使用会话
+++++++++++++
 
-A **session** specifies a list of .leo files that Leo opens automatically when Leo first starts. Like this::
+当 Leo 第一次启动时, Leo 会自动打开**会话** 指定的 .Leo 文件列表. 这样地::
 
     leo --session-save --session-restore <list of .leo files>
-    
-When Leo closes, it stores session state in ``~/.leo/leo.session``. Session state consists of the list of open files and the selected node in each file. The next time Leo starts with those options, Leo will open these files and will select the appropriate nodes.
+
+当 Leo 关闭时, 它将会话状态存储在 `~/.leo/leo.session` 中. 会话状态由打开的文件列表和每个文件中选定的节点组成. 下一次 Leo 开始使用这些选项时, Leo 将打开这些文件并选择合适的节点.
 
