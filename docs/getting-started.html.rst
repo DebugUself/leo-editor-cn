@@ -1,14 +1,14 @@
 .. rst3: filename: docs/getting-started.html
 
-#####################################
-Downloading, Installing & Running Leo
-#####################################
+#####################
+下载, 安装 & 运行 Leo
+#####################
 
 .. _`Python`:                   https://www.python.org/
-.. _`Leo's dependencies`:       installing.html#dependencies
-.. _`Installing Leo using pip`:    installing.html#installing-leo-with-pip
+.. _`Leo的依赖项`:       installing.html#依赖项
+.. _`Installing Leo using pip`:    installing.html#用-pip-安装-Leo
 
-**Overview**: Leo is a `Python`_ program.  You must install Python itself, `Leo's dependencies`_, and then download and install Leo itself.
+**概述**: Leo 是一个 `Python`_ 程序. 您必须安装Python本身, `Leo的依赖项`_, 然后下载并安装Leo自身. 
 
 .. toctree::
    :maxdepth: 4
