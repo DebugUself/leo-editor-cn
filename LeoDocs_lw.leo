@@ -396,40 +396,47 @@
 </v>
 <v t="omlalala.20180206205022.66"><vh>生成主要文档</vh></v>
 </v>
-<v t="omlalala.20180206205022.67"><vh>Preliminaries</vh>
-<v t="omlalala.20180206205022.68"><vh>@rst docs/preliminaries.html</vh></v>
-<v t="omlalala.20180206205022.69"><vh>@rst docs/preface.html</vh></v>
-<v t="omlalala.20180206205022.70"><vh>@rst docs/testimonials.html</vh>
-<v t="omlalala.20180206205022.71"><vh>Leo is revolutionary</vh></v>
-<v t="omlalala.20180206205022.72"><vh>Leo is a showcase Python application</vh></v>
-<v t="omlalala.20180206205022.73"><vh>Leo is fun, even addicting</vh></v>
-<v t="omlalala.20180206205022.74"><vh>Leo is a flexible, powerful IDE</vh></v>
-<v t="omlalala.20180206205022.75"><vh>Leo is a superb outliner</vh></v>
-<v t="omlalala.20180206205022.76"><vh>Leo is an excellent PIM</vh></v>
-<v t="omlalala.20180206205022.77"><vh>Leo is a superb documentation tool</vh></v>
-<v t="omlalala.20180206205022.78"><vh>Leo simplifies the understanding of complex systems</vh></v>
-<v t="omlalala.20180206205022.79"><vh>Leo is stable, well designed and well supported</vh></v>
-<v t="omlalala.20180206205022.80"><vh>Steve Zatz explains why @clean changes everything</vh></v>
-<v t="omlalala.20180206205022.81"><vh>Quotes from Leo's developers</vh></v>
-<v t="omlalala.20180206205022.82"><vh>Longer quotes...</vh>
-<v t="omlalala.20180206205022.83"><vh> Speed Ream's slashdot article</vh></v>
-<v t="omlalala.20180206205022.84"><vh>Joe Orr</vh></v>
-<v t="omlalala.20180206205022.85"><vh>Dan Winkler</vh></v>
-<v t="omlalala.20180206205022.86"><vh>Dan Winkler 2</vh></v>
-<v t="omlalala.20180206205022.87"><vh>Dan Winkler 3</vh></v>
-<v t="omlalala.20180206205022.88"><vh>Steve Litt</vh></v>
-<v t="omlalala.20180206205022.89"><vh>Dave Williams</vh></v>
-<v t="omlalala.20180206205022.90"><vh>John Lunzer</vh></v>
-<v t="omlalala.20180206205022.91"><vh>John Lunzer 2</vh></v>
-<v t="omlalala.20180206205022.92"><vh>Adrian Calvin</vh></v>
+<v t="livingworld.20180404222150.1"><vh>前言</vh>
+<v t="livingworld.20180404222150.2"><vh>@rst docs/preliminaries.html</vh></v>
+<v t="livingworld.20180404222150.3"><vh>@rst docs/preface.html</vh></v>
+<v t="livingworld.20180404222150.4"><vh>@rst docs/testimonials.html</vh>
+<v t="livingworld.20180404222150.5"><vh>Leo 是革命性的</vh></v>
+<v t="livingworld.20180404222150.6"><vh>Leo 是一个典型的 Python 应用程序</vh></v>
+<v t="livingworld.20180404222150.7"><vh>Leo 很有趣, 甚至上瘾</vh></v>
+<v t="livingworld.20180404222150.8"><vh>Leo 是一个灵活, 功能强大的IDE</vh></v>
+<v t="livingworld.20180404222150.9"><vh>Leo 是一个极好的提纲</vh></v>
+<v t="livingworld.20180404222150.10"><vh>Leo 是一个优秀的 PIM</vh></v>
+<v t="livingworld.20180404222150.11"><vh>Leo 是一个极好的文档管理工具</vh></v>
+<v t="livingworld.20180404222150.12"><vh>Leo 简化了对复杂系统的理解</vh></v>
+<v t="livingworld.20180404222150.13"><vh>Leo 是稳定的, 精心设计的, 支持良好的</vh></v>
+<v t="livingworld.20180404222150.14"><vh>Steve Zatz 解释了为什么 @clean 改变了一切</vh></v>
+<v t="livingworld.20180404222150.15"><vh>来自 Leo 的开发者引用</vh></v>
+<v t="livingworld.20180404222150.16"><vh>更长的引用...</vh>
+<v t="livingworld.20180404222150.17"><vh>Speed Ream’s slashdot article</vh></v>
+<v t="livingworld.20180404222150.18"><vh>Joe Orr</vh></v>
+<v t="livingworld.20180404222150.19"><vh>Dan Winkler</vh></v>
+<v t="livingworld.20180404222150.20"><vh>Dan Winkler 2</vh></v>
+<v t="livingworld.20180404222150.21"><vh>Dan Winkler 3</vh></v>
+<v t="livingworld.20180404222150.22"><vh>Steve Litt</vh></v>
+<v t="livingworld.20180404222150.23"><vh>Dave Williams</vh></v>
+<v t="livingworld.20180404222150.24"><vh>John Lunzer</vh></v>
+<v t="livingworld.20180404222150.25"><vh>John Lunzer 2</vh></v>
+<v t="livingworld.20180404222150.26"><vh>Adrian Calvin</vh></v>
 </v>
-<v t="omlalala.20180206205022.93"><vh>Why Leo is noteworthy</vh>
-<v t="omlalala.20180206205022.94"><vh>Offray Luna Cárdenas</vh></v>
-<v t="omlalala.20180206205022.95"><vh>Speed's comments</vh></v>
+<v t="livingworld.20180404222150.27"><vh>为什么 Leo 值得注意</vh>
+<v t="livingworld.20180404222150.28"><vh>Offray Luna Cárdenas</vh></v>
+<v t="livingworld.20180404222150.29"><vh>Speed's comments</vh></v>
+</v>
+<v t="livingworld.20180404222150.30"><vh>我是如何发现 Leo 的</vh>
+<v t="livingworld.20180404222150.31"><vh>Satish Goda</vh></v>
+<v t="livingworld.20180404222150.32"><vh>Rob Keeney</vh></v>
+<v t="livingworld.20180404222150.33"><vh>Chris George</vh></v>
+<v t="livingworld.20180404222150.34"><vh>Terry Brown</vh></v>
+<v t="livingworld.20180404222150.35"><vh>Kent Tenney</vh></v>
 </v>
 </v>
-<v t="omlalala.20180206205022.96"><vh>@rst docs/acknowledgements.html</vh></v>
-<v t="omlalala.20180206205022.97"><vh>@rst docs/license.html</vh></v>
+<v t="livingworld.20180404222150.36"><vh>@rst docs/acknowledgements.html</vh></v>
+<v t="livingworld.20180404222150.37"><vh>@rst docs/license.html</vh></v>
 </v>
 <v t="omlalala.20180206205022.98"><vh>Installing &amp; running Leo</vh>
 <v t="omlalala.20180206205022.99"><vh>@rst docs/getting-started.html</vh></v>
@@ -6734,6 +6741,576 @@ Leo 将几个文件放在您的 HOME/.leo 目录: .leoID.txt, .leoRecentFiles.tx
 
 当 Leo 关闭时, 它将会话状态存储在 `~/.leo/leo.session` 中. 会话状态由打开的文件列表和每个文件中选定的节点组成. 下一次 Leo 开始使用这些选项时, Leo 将打开这些文件并选择合适的节点. 
 </t>
+<t tx="livingworld.20180404222150.1"></t>
+<t tx="livingworld.20180404222150.10">"如果你像我一样, 你有一种随着时间的推移收集到的基础知识库. 而且你有项目, 在那里使用这些信息. 现在, 用传统的提纲, 你开始将这些信息加倍, 因为你希望为项目提供项目所需的信息. 你也可以用 Leo 做这个, 但是如果你在一个地方更改文本, 它也会在其它地方更新! 这是我在其它提纲从没有看到的功能 (我尝试过一些). 太神了! Leo 直接支持我工作的方式!" ---F. Geiger
+
+"又一天, 使用 Leo 的另一个突破-现在我意识到 Leo 是最佳地 URL 书籍管理器. 在我的浏览器中没有书签菜单或收藏列表. 通过 @url 指令, 我可以只需要双击 URL 即可在我的浏览器中来打开它. Leo 让我在一个层次结构 (或多个层次结构) 安排URL, 附加注释, 保存我在网站阅读的东西的剪报. 它远胜于浏览器内置的任何东西, 它让我在不同的平台和不同的机器上轻松使用不同的浏览器 (尝试用浏览器的内置书签管理器)." ---Dan Winkler
+
+"我是一个业余的摄像师. 我使用普通的 35 mm 胶片拍摄我的照片. 整个周末, 我使用 Leo 来组织我的照片清单. 这相当有帮助-我可以为我放大的图片和提交到当地的相机俱乐部的图片分别设置节点. 谢谢!"---Rich Reis
+
+"克隆是纯粹的天才!...Leo 的克隆工具, 让我可以在 CFA 课程资料上创建数个视图. 我的主要视图遵循规定的学习指南. 另一个视图像教科书一样组织. 还有一个给我一个术语表. 而且当我完成后, 我会有一些不错的库...我可以之后在其他项目中复用." ---Michael Manti
+
+尽管我不是程序员, 但我用 Leo 作为我的 "智能 PIM ”已经有好几年了-我用 Leo 组织我的 (复杂) 生活. 非常感谢 Edward 等人的伟大应用程序 – vili &lt;viljem.tisnikar@gmail.com&gt;
+
+我曾长时间将 Leo 用作 PIM 来追踪我的工作, 但由于其明确的议程和工作追踪的能力而转移到 emacs org 模式一段时间. 但是我回到了Leo, 因为在查看项目的各个方面时它看上去更加灵活. 对于最近一些性能数据收集工作, 在一个提纲下是项目背后的原则, 项目代码 (生成), 项目网页 (从一个 @rst 节点树生成)和项目部署 (只需要点击按钮). 人们可以快速地将焦点从一个方面转移到另一个面, 并在需要时使用克隆来真正地深入到一个区域 (对我来说通常的是代码). Leo 是一个令人印象深刻的工具, 我只抓住了表面--Robert Shanley.</t>
+<t tx="livingworld.20180404222150.11">"我已经在 WordPerfert, Ventura, Word, PageMaker 和 FrameMaker 中编写了文档, 即使它们创建了极好的外观和有用的文档, 但它们从来都无法做到我一直在寻找的东西. HTML, 编译的帮助文件和更高版本的 PDF 越来越近, 但仍然没有达到我在寻找的...我认为我在 Leo 中找到了它, 这是一种制作 "活" 文档的方式. 一个由离散部分构建的文档, 可以随时重新组织, 以满足不同观众的需求...我已经开始将 IT 程序手册从 Open Office 转换为 Leo, 因为我知道它对我和其他人将是非常有用的. 仅仅是在 IT 手册中保留系统维护脚本的可能性就是令人难以置信的." ---David Nichols
+
+"在 rst2 插件的帮助下, [Leo 是] 我在撰写学术论文的早期阶段遇到的最好的提纲."
+
+"Leo 是一个理想的文档工具, 收集各种 readme.txt 文件, 源文件的评论...以及配置文件本身." ---Kent Tenney</t>
+<t tx="livingworld.20180404222150.12">"就像结构化程序设计揭示和规范程序的流程控制一样, [Leo] 允许设计者同时在多个层次上揭示和规范结构: 数据结构, 对象结构, 实体关系结构, 客户端-服务器结构, 设计模式结构, 时间结构, 项目管理结构, 以及任何与系统相关的其他结构." ---Steven P. Schaefer
+
+"使用 Leo 的一个有趣观察是, 当我 'Leo-ise' 其他人的代码时, Leo 使代码的结构如此透明, 设计缺陷变得非常明显. 例如, 由于缺乏因式分解引起的维护痛苦."---David McNab
+
+"Leo 是一个强大的工具, 可以将文本组织到树结构中的, 从树的角度来讲, 它通常会攻击很多问题." ---Joe Orr
+
+"我发现这篇博客的入口是由某人 (实际上是一位才华横溢的同事) 抱怨她不得不维护的一些糟糕的代码: http://snippy.ceejbot.com/wiki/show/start/2003/01/29/001 她说:'你需要一台推土机开始重构它'. 这就是我的提示, 来写很长一段留言, 解释确实有这样推土机, 它被称作 Leo. (你可以在那里看到我的留言, 回复她原来的帖子). 我给了她我的诀窍, 如何将将别人混乱, 可怕的代码放入 Leo , 以及如何将其分解成可管理的块." ---Dan Winkler
+
+"Ed, 你继续挑战极限. 令人惊奇的是, 它占用的空间不会像其他设计师手中那样每几个月就翻一番. 通过删除约束来增加功能, 在添加单元测试时进行热重构. 忘了这本书, 我会付钱看电影."</t>
+<t tx="livingworld.20180404222150.13">"我对 Leo 表现出的稳定性和实用性印象深刻."---Marcus A. Martin
+
+"Leo 非常稳定. 开源软件的文档通常很弱. Leo 不是这样的: Leo 的记录非常好."---F. Geiger
+
+"Leo 是无法想象的有用. 而且我经常从已经知道 (!) 如何去做的东西上发现新事物. 事实上, 我被 Edward 投入在 Leo 及其用户社区的永无止境的资源和耐心所惊讶. 太棒了!" ---Gil Shwartz
+
+我强烈感受到, Ed Ream, 我们永远有耐心的, 高产的 Leo 架构师值得提名 [ActiveState 开源奖]. 其他原因包括:
+    - 提供第一个可用的可视化文字编程工具.
+    - 添加大量的新功能.
+    - 在代码编辑器中, 实现以前难以想象的杠杆量.
+    - 消除了大量琐碎的编程劳动.
+    - 不懈地和耐心地支持用户, 并满足各种各样的功能需求.
+---David McNab
+</t>
+<t tx="livingworld.20180404222150.14">我只是想提供我自己关于 @clean 重要性的看法. 我看过这个小组相当多的帖子, 因为我觉得讨论很有趣, 但是我已经放弃了 Leo 作为日常工具, 主要是因为 @file 节点中的 sentinel. 即使是单独的项目, 我也发现他们在视觉上没有吸引力, 而且当我使用外部编辑器编辑文件时偶尔会感到困惑. 我有时在 Leo 中会开启一个项目, 特别是如果它是基于我过去使用 Leo 开发的代码, 然后使用旧的 @nosent 来保存没有结构注释的代码版本, 然后使用我外部选择的编辑器而根本不使用 Leo. 我丢失了许多 Leo 特性但就是无法客服结构注释问题. 
+
+@clean 似乎真的解决了我的所有问题. 尤其是-并且不知怎地这点对我来讲并未充分的强调-它似乎完全支持组织节点. 它们是 Leo 最伟大的事情之一-它很乐意初步构想你的程序结构, 但完全取决于你来决定这个结构和做事情的能力, 比如分解长方法, 方法组, GUI 代码中的菜单操作组, 等等, 都是 Leo 非常酷的事情之一. 我对 @clean 处理外部变化的有限但不断增长的经验, 主要是与增量代码的更改有关, 并且新行的分配是合理的, 如果你不喜欢外部更改的处理方式, 你可以随时快速地修改它们.
+
+已经有一些关于恢复节点的帖子, 对比有外部变化的新旧节点. 我认为这是天才之举. 相对于希望 Leo 能够正确引入外部变化, 如果你想要仔细观察的话, 它就在那里了. 没有这点, 我对外部的改变被正确的应用不会有信心, 当然你可以经常做一个 git diff, 但我并不希望每次在外部更改文件都这样做, 尤其是不在将要做一个 commit 的位置. 
+
+有一些关于 @auto v. @clean 的讨论. 偏好显然是一种品味的问题. 我想说的是, 对我来说, 节点标题不受外部文件行为的影响是一个特性, 而不是问题, 因为我在标题中标注了我想要在外部编辑文件时保存的内容. 是的, 如果节点标题是方法名, 那么如果外部编辑更改方法名称, 它们将不会更新, 但这对 @file 也是如此. 
+
+在项目上与不用 Leo 的人一起工作的能力是显而易见的; 一个也许没有结构注释的稍微不明显的好处是, 我怀疑当存储库的代码充斥着 Leo 结构注释, 则人们克隆一个 git 仓库的可能性将会降低(除非潜在的克隆者是 Leo 的忠诚者). 没有结构注释的一个缺点是-没有证据表明 Leo 正在被使用, 但是我认为这引发了更广泛的 Leo 营销问题, 我相信, 如果能够在外部文件中没有结构注释的情况下利用 Leo , 将会得到极大的帮助. --- Steve Zatz</t>
+<t tx="livingworld.20180404222150.15">"如果没有 Leo, 我永远不再愿意编程. "---Edward K. Ream
+
+来自 Terry Brown:
+
+    如果你正在寻找一个包含良好编辑器和提纲以及在 Python 中完全脚本化/交互式/"实时代码" 的 *环境*, 那么 Leo 会胜出. 当然, 就我所知, 它在这个领域是独一无二的, 但我确信即使不是这样, 它也会做得很好 :-). 除去 Python 部分, 也许有其他的一些在那, 但是谁会想要除去 Python 部分 :) 我猜测 Emacs 就像这样的环境, 只是在 Lisp 中使用了一个史前的GUI系统. 
+
+    有时候我会想为什么 Leo 似乎吸引了对 Python 不太熟悉的人, 我想现在是因为他们不断地认识到 *环境* 的价值, 而且在这个领域没有太多的东西. 
+    
+    我的感觉是, 一般来讲, 而不是特别关于 Leo, 虽然不是每个人都需要成为一名 "程序员" , 但是每个使用计算机的人都会从中受益, 因为他们甚至能够用相当简单的 "脚本" 就能更加灵活和高效的交互, 并且减少了被其他计算环境的供应者推送的视图 "购买我们最新的产品并且通过点击你就能够做任何你想做的事儿" 的限制.
+
+来自 Jacob Peck:
+
+    自从一月份发现 Leo 以来, Leo 对我的生活的影响一直很大. 
+
+    Leo 允许我在很大程度上使我的生活自动化. 它是我的待办事项清单, 我的私人助手, 我的通讯录, 我的密码日志, 我的食谱档案, 我的 RSS 提要阅读器(由 rss.py 提供)以及我喜爱的编辑器. 它部分地为我的博客 (伴随 git, ruby 和 heroku) 提供了一些功能, 允许我通过一次点击和一点点儿的编辑来创建一个新的博客条目. 视图渲染(使用 markdown 支持!)已经改变了我编写 README 和博客帖子的方式. 除此之外, 它允许我组织几个不同的桌面游戏设计项目, 以及我的众多写作项目. 更不用说它对我理解和解码大型 python 项目的能力的影响了!
+
+    但是, 真正让我着迷的是的,可扩展的 Leo 是多么的疯狂. 尤其是脚本按钮是我日常工作流程不可或缺的一部分, 可以让我在过去的一个月里转变我的生产力...我现在是一个事情拿起就能完成的人 (thing-getter-doner), 并且我发现其中很大一部分是由于 Leo 强大的核心, 加上 scripting.py 和 todo.py. 
+    
+来自Ville M. Vainio:
+    
+    提纲格式帮助我逐渐地组织/再组织我的想法, 而不是从一开始将所有东西放在正确的位置, 我用很少的标题写了很多正文, 而 Leo 的方法为正文文本留下了很多空间, 因此适合我的工作流程. 我发现我最终重新浏览在 Leo 上组成的笔记, 要比浏览随便地放置在像 Evernote 的笔记或文件系统的随机文件频繁. 
+    
+    使用Leo, 我可以插入 "笔记" (大部分的内容), 生成的文件, 甚至是随机数据和操作这些数据的 python 脚本. 我用各种工具来操作这些数据, 但是 Leo 帮助我将它们组合在 "项目特定" Leo文件中. 
+
+    我知道如何为提纲编写脚本, 因此我可以根据自己的需求轻松调出不同的工具, 直接处理标题结构.
+    
+来自Terry Brown:
+
+    为什么是Leo? 因为我有两个最初相同但现在不同的节点, 而且我想要查看它们之间的差异. 
+        
+    我的提纲加载了一个名为 ~/.leo/t/gen 的 @file 节点, 其中包含了一个 @buttons 节点和多个用于常用任务的 @rclick 子节点. 我添加了一个新的 @rclick diff 节点::
+    
+        selected = c.getSelectedPositions()
+        open('/tmp/a_diff', 'w').write(selected[0].b)
+        open('/tmp/b_diff', 'w').write(selected[1].b)
+        import os
+        os.system("xxdiff /tmp/a_diff /tmp/b_diff &amp;")
+    
+    由于还多原因, 这很可怕, 但也只花了很短的时间写出来. 现在, 这个 Leo 会话不仅具有可视化节点差异功能, 而且每个未来的会话都有加载 ~/.leo/t/gen. 
+    
+    当你想要在短时间内拥有一个功能, 而不是写一封邮件的时候 - 那么, 这就是 "为什么是 Leo". </t>
+<t tx="livingworld.20180404222150.16"></t>
+<t tx="livingworld.20180404222150.17">.. _`slashdot`: http://slashdot.org/comments.pl?sid=38848&amp;amp;cid=4171478
+
+2002年8月28日, 在 `slashdot`_. 
+
+您好, 我的全名是 David Speed Ream. 我以 Speed to friends and enemies alike 而闻名, 但是我很乐意回答 David 或其他任何事情. 我是 Leo 的忠实粉丝, 实际上它是由我的兄弟 Edward编写的, 只是对我已经着色的眼镜稍微着了色. 我已经在软件产品中测试和使用 Leo 超过4年了. 我的公司目前有 50,000 多行代码在 100 多个源文件中使用了 Leo. 
+
+我的评论来自两个观点, 第一个是作为一个复杂的, 多模块的软件产品的项目管理器, 第二个是作为一个产品线的代码器. 对我来说, Leo 的最大的缺陷是学习曲线. 如果需要的只是使用 Leo 写代码, 那么这个学习曲线可能很浅. 然而, 在我们公司, 我们在正常编码负荷的基础上分配了 40 到 80 个小时, 以便有人加快 Leo 的速度. ROI (投资回报) 由我计算为 3 个月左右. 所以如果我聘请了一位不到 3 个月的顾问, 即使我们公司所有的源代码都必须放在 Leo 文件中, 我也不会教他 Leo, 因为我现在不会这样做. 
+
+我考虑到我的程序员在日常操作中比我的竞争对手的效率高出 15% 到 30%. 我的这个无法辩驳的主张是基于我的生产力的变化, 因为 Leo 从测试文档生产工具发展为我们所有的汇编, c 和 cpp 源代码的主要生产方式. 
+
+就个人而言, 我讨厌在编写代码时处理文档, 除了:
+
+1) 当我第一次坐下了解决新问题时. 于是文档变得相当冗长和讽刺, 就好像我是地球上唯一能解决问题的人 - 或. 
+
+2) 当我回头编写自己或别人已经写好代码时, 发现文档不足以理解没有研究的代码(似乎是大多数时候). 
+
+所以并不要求我的工程师或我自己去做庞大的文档工作, 也不需要我使用 Leo 来达到这个目的. 更确切的说, 是 Leo 的提纲和组织能力, 以及 Leo 从提纲中创建源文件的能力, 我认为这是一个巨大的竞争优势. 我公司的每一款产品运行都运行在 windows 从 Win 3.1 到 X 的所有版本上. 在我们的旗舰软件中, 有 10 个主要模块, 每个模块由单个 Leo 文件维护. 在 CODEC 模块中, 一个名为 compress.leo 的文件组织并创建了 7 个 .asm 文件, 44 个 .c 文件, 20个 .h 文件, 2 个 .def 文件, 4 个 .mak 文件, 等等. 这个文件可以从源代码控制中检查出, 并交给工程师来添加新的功能. 
+
+其中包含了 CODEC 已知的问题, 每个问题都安排在自己的克隆章节. 一个克隆章节将每个例程, 变量或类型定义组合在一起, 这些定义必须在不同的 Windows 版本间更改. 这些章节可能来自六个不同的 c 源文件, 两个汇编文件和八个 .h 文件, 另一个克隆章节将与存储有关的问题组合在一起, 这些章节根据存储配置和 TSR 配置(或缺少) 而改变. 如果在可怕的‘中断时刻’期间意外的运行了该例程, 那么另一个克隆部分将会失败(或不会失败). 另一个克隆章节是一个包含克隆的章节, 每个章节都是在工程师将 bug 分组为一堆例程, 定义等一起修复 bug 时, 在主要的 bug 被解决后命名. 
+
+上面没有哪个克隆章节被‘克隆’到文档中. 仅恰恰相反, 当解码器第一次写入时, 每个 c 例程或汇编模块只有一个单独文件有一些章节. 随着产品不断增加并在不同平台进行测试, 每次修复故障时, 模块的每个故障都会组织成克隆. 这就是我所说的 "自我记录代码". 这与我坐下了记录某些东西没有任何关系. 它只是一个 bug 修复 (或产品增强) 的结构在编码完成后很长时间内存在, 只要没有人愚蠢到删除 "文档" 所发生的克隆章节
+
+在实际的实践中, 这个组织的 "历史" 是如此强大, 以至于我无法开始描述它. 当工程师获得一个 Leo 文件, 而该文件已经有了由最后一个不得不在上面工作的不幸的灵魂组合在一起的 "中断时间敏感" 例程时, "反向学习曲线发生了". 可能没有更多书写的文档, 但包含在结构中的知识可能会令人惊叹. 这当然是节省时间. 我发现这在我的情况下尤其如此. 通常我会看一些看起来完全不熟悉的代码, 并想 "这是哪个白痴写的这些废话". 然后我会看看版本控制的评论, 并意识到我写了这些废话. 当然, 我肯定知道文档是不存在的, 但是我用来开发的克隆仍然存在, 它们总是以一种难以描述的方式来更新我的记忆.
+
+这篇评论足够多了, 我只看了一下钟. 对任何愿意尝试 Leo 一周的人致以最良好的祝愿. 我希望你会为你做的感到高兴.
+</t>
+<t tx="livingworld.20180404222150.18">Word 提纲非常有用. 但是 Leo 让 Word 看起来像一个笨重的玩具.
+
+# 理由可能是克隆节点. 一个节点可以指向另一个节点. 另一种说法是一片叶子可以放在多颗树上. 例如, 假设你有一份食谱清单. 你同时将单个食谱放在多个类别甚至多个层级下. 你可以同时将 "3 bean enchilada" 放在 Recipes-Mexican 和 Food-Gas 下. 另一个例子是, 如果你是一个试图决定在哪个类下面放置一个新物种的生物学家, 你可以同时将这个物种放在这两个类下面. 实际上, 你可以构建一个三维树.
+
+
+#2 理由可能是 Leo 提纲可以嵌入到外部文本文件中. 所以,Leo 提纲不仅仅是一个提纲, 它也是一个元结构, 可以在不改变文本的情况下添加到其他文本中, 更确切的说, 是为外部文件提供一个路径图. Microsoft Word 有一个带有注释约定的文本 (xml) 版本, 所以 Leo 甚至可以用于为 Word 文档添加提纲, 尽管它现在还没有设置. 例如, 详见 http://www.3dtree.com/ev/e/sbooks/leo/sbframetoc_ie.htm . 在这种情况下, Leo 的上部窗口是元结构, 底部窗口是元结构被应用的文件, 一次查看一个节点. 
+
+我可能没有让 #2 非常清楚, 在看到所有的可能性之前, 需要慢慢习惯. 一种可以考虑的方式是 Leo 允许你将外部文档丢放入你能的提纲中, 但外部文档仍然是独立的, 并且仍然可以单独编辑.
+
+关于 Leo 的其他一些很酷的事情, 而 Word 不具备的是:
+1. 纯 xml 输出很容易转换成其他格式 (Word 的下一个版本将具有真正的 XML 格式, 但不容易操作). 这样做的后果是 Leo 文件可以很容易的转换成具有完成提纲功能的网页.
+2. 易于添加功能, 因为它是用 Python 和开源编程的. 也许你的普通用户无法开始修改它, 但可以加入一个令人惊讶的数量...
+3. 免费, 开源, 多平台
+4. Leo 用 Python 编写脚本. 例如, 应该可能使用 Python 脚本将一个 Tickler 构建到 Leo 中.
+</t>
+<t tx="livingworld.20180404222150.19">首先, 感谢你与 Leo 取得的卓越的进步. 今天, 在大约使用3个月的旧版本后我升级了, 我很高兴的看到所有的改进都发生的如此之快. 我尤其喜爱移动到下一个克隆节点的能力. 我认为你真正地展示了开源可以做什么, 并且您当前的轨迹可以让你将 Emacs 踢进计算机历史垃圾堆.
+
+所以, 今天从我的旧提纲器 (ThoughtManager, 它用 Palm 同步, 并在 Palm 上运行) 中复制出了我所有的数据 (私人的信息管理和项目管理的材料), 并放入 Leo. 它了我几小时去做. 并用我非常想要的方式来重新排列它. 但是, 有能力制作克隆并有不同的方法来查看我的数据, 如你所知, 是难以置信的. 就我而言, 对于个人信息和项目管理的事情, 我使用灵活的克隆让我能够以不同的角度查看我的数据: 1) 按照项目视角, 根据主题的逻辑层次分解, 2)按照个人视角, 无论什么时候, 在我与某人交流时, 我可以轻松的看到所有与之关联的悬而未决的项目, 这些项目可能分散在多个项目中, 3)按照优先级视角, 所以我可以看到什么事需要马上做完以及什么事儿需要推迟,4) 对于一些我将在未来几小时内重点关注事情, 一个特殊的优先级情况叫做 "今天".
+
+现在这也是我为什么我不再想念我的旧提纲器用 Palm 来同步整个提纲的能力. 这证明在 Palm 中,我真正想要的主要内容是顶层类别 "Tody", 所有我必须要做的就是让 Leo 将一个标题放到一个文本文件 (并且它友好的记住了我上次使用过的文件的名称和目录) 并且我做了, 因为我已经告诉 Palm Hotsync 管理器, 说我每次同步时, 这个文件应该发送到 Palm 备忘录. Palm Hotsync 管理器在将文本文件发送给 Palm 备忘录时做得很好, 如果文件太大而无法放入一个记录从, 甚至将文件分成多个备忘录. 所以这足以让我能够在 Palm 内部浏览 (或全文搜索) 我真正想要的少量数据. 又快又脏, 但很起作用.
+
+在我想要整个提纲的时候, Leo 再次赢了, 因为多亏了它跨平台的性质, 我可以在我的 Mac iBook 中使用我的整个提纲, 尽管我有时在 Windows PC (这是我的旧版本的提纲器唯一一种能运行的机器) 上编辑它. 坦率的讲, 尽管我的旧提纲器能够将整个各系塞入我的 palm/手机, 但在小屏幕和慢处理器上访问它却是很痛苦的. 现在, 当我预期我将需要整个东西时, 例如, 当我参加一个会议, 我可以将它放在我的 Mac iBook 上 (现在在 X 和 Fink 下面, 直到 Python 可以在 Aqua 下进行本机操作) 并且可以真正完全访问它. 
+
+我认为现在除了对编程很好外, Leo 也是一个很棒的 PIM. 能够将策略选择的部分变成一个已知的文件名, Palm 同步管理器被告知在每次同步时发送到 Palm, 这对我来讲是个诀窍. 我想, 是否你会考虑类似 @flatten 指令这样的东西, 这样每次我保存提纲的时候我都能自动完成? 现在, 由我手动将我想要的节点坦化, 尽管一旦完成后, 传输到 Palm 就会自动完成.
+
+你是我的英雄! 非常感谢你.
+
+</t>
+<t tx="livingworld.20180404222150.2">#############
+前言
+#############
+
+.. Use maxdepth 1 to emphasize top-level entries.
+
+**Contents**
+
+.. toctree::
+   :maxdepth: 1
+
+   preface
+   testimonials
+   acknowledgements
+   license
+
+</t>
+<t tx="livingworld.20180404222150.20">另一天, 使用 Leo 的另一个重大突破-现在我意识到 Leo 是最佳的 URL 书签管理器. 我的浏览器没有更多的书签菜单或收藏夹列表. 使用 @url 指令, 我只需要点击 URL 即可在我的浏览器打开它. Leo 让我以一个层级结构 (或多个层级结构) 安排 URL, 给它们附上便笺, 保存我在网站上阅读的剪报. 它比浏览器内置的任何东西都棒, 它让我可以在不同的平台和不同的机器上轻松使用不同的浏览器 (尝试使用浏览器的内置书签管理器).
+
+当我在使用 Leo 作为项目管理器和个人的信息管理器时, 我可以使用有用的和相关的 URL 对每个任务和项目进行大量注释. 而且由于 URL 可以是 file:// 的形式, 它们不仅适用于 web 网页或 HTML 文档; 我可以链接到任何程序所打开的任何类型磁盘上的任何文件.
+
+就我能够管理的项目数量以及我能够以有用的方式发现并组织和存储的信息多少而言, Leo对我来讲是一个巨大的飞跃. 我是现在一个数据挖掘部队, 网络是我的游乐场. 每当我发现一个与其他网页有有趣联系的网页时, 这些链接就会被存储在我的 Leo 提纲, 在那里我可以找到它们并实际使用它们. 我可以每天轻松的接收数十种有价值的链接, 并将它们融入到我正在做的事情中, 让我相信它们不会丢失或忘记. 以前, 我总是因为浏览器中管理书签的困难而陷入困难. 但现在我不再是信息过载的受害者, 埋葬在互联网知识的雪崩之中; 相反, 我是掌握世界最大的推土机的专业露天矿工. 我急切地冲进堆积如山的数据, 并且将所有有价值的信息都整齐的存储和组织好. 而且, 我的知识库是一个灵活的东西, 我尽情地对数据进行重新组织和优先考虑和抚摸. 当我对它有更多的了解, 并决定以不同的方式用于不同的目的. 对我来讲, 这就是镐和蒸汽铲的区别.
+</t>
+<t tx="livingworld.20180404222150.21">今年我的会计收到了一份由 LaTeX 和 Leo 生成的漂亮印刷品. 今年我的税收情况很复杂, 但是我在 Leo 中把这一切都安排和组织好了. 我有每个节点都有我的会计需要看到的数据, 将数据写到 LaTex 表格形式的一个文件中.
+
+有时, 表格的一行可能会有一个通过累加数字列表而计算出来的结果. 为此, 我使用现代的是现代版的一种添加机器的纸带--我在 Leo 评论中存储了一个 lisp s-expression. 为此我喜欢 s-expressions, 因为一旦我另一行上放置了 "(+" 和在另一行上放置了闭括号 ")", 我可以通过输入它们来填写更多的数字, 甚至可以用评论对它们进行注释. 所以在生成一个 LaTeX 文件的过程中, 我可能会这样::
+
+    @
+    (+
+    1165.26 1823.70 ; May 2002
+    123.38 ; June 2002
+    13.50 ; July 2002
+    13.21 ; October 2002
+    55.25 ; November 2002
+    )
+    @c
+
+这是我如何得到会计人员实际看到的数字的注释记录. 我可以将他黏贴到任何 lisp 或 scheme 解释器中, 并得到总数. 添加更多的数字很容易.
+
+明年, 我想我可能会更进一步. 我今年所做的事情对于加总数字来获得 LaTex 表的一行总数很有帮助. 翻事实证明我想在这些表上完成更多的处理 (这次我不得不手动这样做), 我希望行的排列顺序与数量级相反, 以便大的数字从表的开始就跳出来, 希望一个表格中所有行的总数. 所以我认为, 明年, 我不会使用一个 s-expression 来计算一行的总数, 我想我会使用 s-expressions 来生成整个表格, 从底层数据格式化为 LaTex. 所以我想明年我的 s-expressions 可能扛起了更像这样::
+
+    @
+    (table "Widget Related Expenses"
+        ("widget insurance" (+
+                        1165.26 1823.70 ; May 2002
+                        123.38 ; June 2002
+                        13.50 ; July 2002
+                        13.21 ; October 2002
+                        55.25 ; November 2002
+                      ))
+         ("widget shipping" (+
+                        472.15 651.94 ; May 2002
+                        54 ; June 2002
+                       ))
+         ("widget cleaning" (+
+                        165.26 183.70 ; May 2002
+                        123.38 ; June 2002
+                        13.50 ; July 2002
+                        13.21 ; October 2002
+                        55.25 ; November 2002
+                       ))
+    )
+    @c
+
+该 "表" 函数的工作是返回所需的 LaTeX 代码, 以显示类别名称和值的表, 按大小排序, 并显示总数. 在 Leo 里面做一个表格, 然后用 LaTeX 使它看起来更棒, 这是一种穷人的方式. 这个想法是因为我想添加更多的数据, 我将它添加到 s-expression 中, 然后通过将其粘贴到 lisp 解释器中来重新评估整件事, 然后将结果复制回相同的 Leo 节点中, 以便 LaTeX 处理.---Dan
+</t>
+<t tx="livingworld.20180404222150.22">"不确定为什么你说 '你可以将一个计算机程序指定成一个提纲, 就像在一个提纲设置一样' 为什么不只是说, '用提纲编写一个计算机程序?'有什么细微的差别吗?"---EKR 
+
+我可能说过上百万个像这样的理由, 但是我认为主要的理由是, 我永存的, 明亮燃烧的信念是一个程序应该在编写之前被设计. 还记得以前那些人, 他们在收到编程任务之后, 会去键盘上敲出 C 代码吗? 记得还记得他们的成品吗? 还记得他们花了多长时间才完成这个项目吗?
+
+与此同时, 当我接到一个任务时, 我会花费了数小时用一堆纸, 画图表. 当我在终端前坐下时, 我已经知道我的数据结构和算法. 那个抢先开始数小时到数天 "立即开始编码" 的家伙消失了, 因为对我说, 编码只是一个秘书的任务, 而我需要做更少的重构, 甚至更糟的是, 我需要做的是做一些简单的事情. 后来, 有时我会用提纲代替纸上的图表; 在函数分解的时候, 提纲是最合适的.
+
+回到你的问题: 如果我要做的是 **编写** 一个程序, 我只是坐在电脑前, 开始输敲打出 C 或 Python 或 Lua 或什么的. 但是那不是我的风格. 我需要 **设计** 一个程序, 毕竟, 一个设计只是一个程序如何编写的说明书.
+
+所以在我看来, 我在 Leo 上 **设计** 程序, 然后, 当时间到来时, 我打开开关, 然后Leo 为我 **编写** 程序. 这就是我对 Leo 的看法.
+</t>
+<t tx="livingworld.20180404222150.23">我是一名微生物学家, 主要分析大量的细菌基因组, 我几乎全部使用 Python 工具. 几年前, 在耶鲁大学工作期间, 我让 Leo 去写 Python 和组织我的笔记. 
+
+现在不仅 使用 Leo 作为我在探索数据, 生成图形, 开始使用第三方应用程序进行分析等脚本的中央存储库, 而且还用于存储和组织做研究的想法, 以及从学术论文的 PDF 文件中分离的笔记. 
+
+我有一个日历, 解决了我所有的一般 PIM 类型信息, 以及我正在修补的任何项目的注释. 总之, 我是在工作还是在玩, Leo 通常都有涉及 :-)
+</t>
+<t tx="livingworld.20180404222150.24">一个新用户最近对我讲, "Leo 强大而灵活, 复杂而令人困惑". 这是真的. 我相信, 使它们的软件更不复杂和不那么令人困惑经常是开发者的目标, 但是记住, Leo 已经进行了 20 多年的开发...这就使它与 Vim 和 Emacs 在成熟度方面一致. 我在 Vim 和 Emacs 方面的经验与我在 Leo 的经验相当类似. 这三个本身都是强大而灵活, 复杂而令人困惑的.
+
+我相信有了这种分量和影响力的工具, 学习它们总是会有投资的. 它们都是广阔的功能森林, 充满了隐藏的珍宝, 如果它们每个人都投资于该工具, 他们的努力将得到回报. 然而, 社区的责任 (由开发者领导) 是尽可能使寻宝成为一种享受和冒险, 因为任何好的寻宝活动都应该如此.
+
+而这正是 Leo 在社区的帮助下 (虽然可能很小) 不动摇的地方. 我会重申 Edward 多次说过的话, 如果你迷失, 困惑, 或不必所措, 你不要自己挣扎. 如果文档或例子无法满足你的需求. 请提问. 以我自己作为新用户 (尽管偶尔会有分歧) 的体验, 你不会被嘲笑, 蔑视或贬低, 而会得到比你最初所要求的更多的帮助. -- John Lunzer &lt;lunzer@gmail.com&gt;</t>
+<t tx="livingworld.20180404222150.25">不久前, 我一直在思考编程. 我的想法集中在了人类大脑理解计算机编程的极限上. 这是通过观看 `Inventing on Principle &lt;https://www.youtube.com/watch?v=PUv66718DII&gt;`_ 触发的. 这是一个令人望而生畏的多层面概念, 我相信人们一生都在思考.
+
+最近我一直专注于一个方面, 抽象和程序 "单元". 我将 "单元" 定义为程序的一部分, 该程序被认为是本身可以标记并成为整体的一部分. 也许, 作为一名日常的 Leo 用户, 这容易想到, 因为 Leo 会尽其所能的迫使程序员和程序通过这个镜头来观察编程.
+
+大多数工具不会同时忽视这个概念. 大多数的编程环境都有某种 "提纲" 窗口, 它允许你在更高级别上查看程序的结构. 正如我所经历的, 这个 "提纲" 视图经常由程序语言的特性所决定 (例如, 在模块, 类, 函数级上划分的提纲). 此外, 大多数的工具包含 "代码折叠" ,以帮助程序员专注于语言特定的程序单元 (同样, 例如, 在类和函数定义中也可以进行折叠).
+
+Leo 将这个概念运用到了它的极限. Leo 在任意层次上提供了与语言无关的抽象. 它允许程序员在编程模式范围之外构建他们的程序. 当然, 使用语言特定的 "单元" 作为指导仍然有用, 实际上, 这是 Leo 在导入时, 根据源自 Leo 之外的程序创建初始提纲结构的过程.
+
+我不能忽视任意抽象的自由, 我非常依赖它, 所以我很难使用非 Leo 环境. 总所周知, 人类的大脑工作记忆有限. 编程的行为将工作记忆延伸到了它的极限. Leo 提供了一个环境, 在其中, 程序可以无缝地重构以适应程序员个人工作记忆的边界.
+
+我意识到, 这是一个 "为什么" 而不是 "怎么样", 而且这并不能帮助任何人更好的了解 Leo. 但是,作为一名程序员, 如果你曾经对你使用的语言的组织结构感到沮丧, 在使用 Leo 之后, 你可能会惊讶的发现, 这并不是语言的问题, 而是缺乏一种的工具, 以一种对你有意义的方式来组织你的程序.</t>
+<t tx="livingworld.20180404222150.26">我以为我会写自己的推荐信. 我从来没有这样做过, 因为我经常会在我的推荐信上翻白眼, 但是我对 Leo 的热情是如此之高, 我必须 give "props" where props are due.
+
+**背景**
+
+**开始**: 从作为一名早期的 Java 专业人员开始, 我就习惯了 Netbeans. 我像这很好. 几年之后, 我决定我想成为一名 web 开发人员.
+
+**为什么我要找一个新的编辑器**: 我想要完全可扩展的东西. 我像让它成为我自己的. 它就像你的家. 你搬进去, 它取决于你来使它成为你的 "家". 编辑器也是这样. 你把所有的时间都花在这上面. 我认为那一定是你的. 像一双旧鞋一样舒服. 
+
+**历史**
+
+**Ultra-Edit**: 这是我的第一个非 ide 的IDE. 不是不尊重 UltralEdit, 我确信它有许多我从未用过的功能. 我从来没有真正有机会. 我想要一些轻便的东西, 很快就在 2006 年左右发现了 Scite.
+
+**Notepad++**: 最终我找到了 Notepad++ (我仍然认为它很棒, 并会推荐给任何人). 我已经使用了 8 年, 我仍然会偶尔使用它. 主要是因为我还是习惯了 Leo.
+
+**现在**
+
+我现在正处于一个年龄段, 也是我职业生涯中的一个重点, 我想使我的生活 (和工作) 尽可能简单. Leo 帮我做到了这一点. 这很难解释--提纲提供了以一种非常直观的方式将代码和思想混合的能力--甚至是将代码和生活混合. 也许这就是 "文学编程". 我不知道. 他们从来没有在我的 CS 课程中提到这个术语. 不管是什么, 我都喜欢.
+
+附带的好处--我的代码从来没有如此好的格式化和文档化!
+
+**我个人最喜欢的事**
+
+正如我所提到的那样, 扩展能力非常强大. 在工作中, 我在做我的老板想要做的事, 但是在家里, 我花了大部分时间去扩展 Leo. 我从未见过如此容易扩展的编辑器, 相信我, 在过去的五个月, 我已经评估了至少 20 款编辑器.
+
+事情就是这样-任何我想要以用不同方式工作的事情, 或者任何我想要做得更好的事情, 我可以自己做. 我不必提交请求. 如果我至少对 google 有足够的好奇心或者寻求一点帮助的话, 我可以做到我想要的.
+
+凡你能说得出的.  
+
+- 如果我希望日志以不同的方式工作, 或创建我自己的输出窗格:没为题.
+- 如果我像将 PHP 单元测试添加到菜单中, 没问题.
+- 如果我想要成为个人组织者, 混入到我的工作流中, 没问题.
+- 如果我想要将我的 python, PHP 代码, 日志等全部集成在一起, 以便任何事从 20000 英尺的高度来看都合情合理, 没有问题.
+- 如果我想要改变整个外观和感觉...我指的是一切...不仅仅是一些东西, 没有问题.
+- 如果我想能够轻松的向非技术同时解释代码, 没有问题. 任何具有某种程度智力的人都可以跟随这个提纲.
+
+你明白了...
+
+对我来说, 这意味着一切.</t>
+<t tx="livingworld.20180404222150.27">Leo 是理解, 研究和组织任何复杂数据(包括计算机编程)的绝佳工具. 在 Leo 历史上第一个伟大的 Aha 是, web 是伪装的提纲. Leo 的输入模块 (@auto) 使研究其他人的程序变得容易. Leo 一贯的提纲结构阐明了整个程序结构, 并使许多类型的评论变得多余. 
+
+Leo 也是一款极好的代码和数据浏览器. 与其他许多折叠编辑器不同, Leo记得当你上次保存一个提纲时, 哪些节点被拓展了. 这非常重要. 而且 Leo 的克隆让你随心所欲的组织任何数据, 即使所有的折叠都崩溃了. 
+
+Leo 是独特而强大的脚本环境. 这种力量来自三个来源: Leo 的 API, Leo 从提纲组合脚本的能力和 Leo 的基础数据结构, 一个有向无环图, 这是Leo克隆的基础. 
+
+Leo 的 API 的构成主要是生成器 (例如 c.all_positions()、p.self_and_subtree()等) 和属性 (例如 p.b、p.h、p.ghx 和 p.v.u). Leo 的 API 使编写脚本来访问或改变任何节点变得微不足道. 就我所知, 这些功能是独一无二的. 在 vim 或 Emacs 中模拟它们是可能的, 但在 C 中模拟 Python 的功能也是可能的. 
+
+就我所知, 没有其他的脚本环境允许你从提纲中来组合脚本.  @file , @clean , @auto , @others 和章节引用和定义使其成为可能. 章节参考和定义以 noweb 语言为模型, 但是所有的 Leo 脚本组成功能都完全集成到 Leo 的提纲结构中. 
+
+Leo 的提纲节点有标题 (p.h) 和正文 (p.b) 和可扩展信息(p.v.u). 标题是在 p.b 和 p.v.u 中数据的描述 (元数据). 脚本可以使用元数据快速地发现和分类数据. Leo 关于标题的 @ 约定 (@clean, @file, @auto, @html, 等.) 显示了此节点类型的可扩展性.  
+
+这个理论非常重要. 以下在实践中也很重要:
+
+- Python 中的本地脚本, 可以完全访问所有 Leo 的源代码. 
+- Leo 的插件架构. 
+- Leo 的 rst3 命令, vim, xemacs 和 ILeo (IPython bridge), 和 leoBridge 模块. 
+- Leo 的小型缓冲命令, 从 Emacs 厚着脸皮地借用. 
+- @test 和 @suite: Leo 的面向提纲的单元测试框架. 
+- @button: 将脚本带入数据. 
+- Leo 的面向提纲的指令. 
+
+某种意义上讲, @clean 的发明/研究要早于完成 Leo 的年份. 
+
+致谢: 与 Leo 社区的开发者和用户合作 20 多年是非常荣幸的. 我唯一后悔的是 Bernhard Mulder 和 Bob Fitzwater 不再和我们在一起. 两者都做出了重要的贡献. Bob Fitzwater 是我的导师. 他温和地催促我考虑设计, 而不仅仅是 "有点别扭". Bernhard Mulder 贡献了 Leo 最重要的两个元素: Leo的遍历器 (生成器) 和原始的 @shadow 算法. 如果没有他, @clean 和 修改后的 Mulder/Ream 算法都不可能发成. 我思念这两位伟大的思想家. 他们都为他们所创造的东西感到自豪.
+
+一个成功的软件工具就是能用来做一些连它们的作者做梦都想不到的事情.' -- Stephen Johnson
+
+Leo的在这个得分上取得了很大的成功. 20 年前, 我没有预见到这些发展: Leo 的 minibuffer, @button, @test, @auto, @clean, Leo 的插件架构, rst3 命令, Leo bridge 和 IPython bridge. 当然还可以添加许多其他的功能和用法. 没有 Leo 社区的天才们, 这些都不会发生. 这些功能创造了 Leonine 的世界. 谁知道结果会是什么样...
+
+Edward K. Ream</t>
+<t tx="livingworld.20180404222150.28">这种总是呈现提纲的想法一直是我组织写作的关键, 有些同事过去发现, 当我么纠正他们的文本时, 这有助于他们.
+
+&gt; Leo 的克隆让你随心所欲的组织任何数据, 即便所有的目录都折叠了.
+
+对我而言, 这是 Leo 最强大但被误解的功能. 大多数将它与其他的 IDE 对比的人都叫嚷着说为什么 Leo 不能更加自动地施加结构, 但是在 Leo 中由你做主. 你来施加基础结构...
+
+对我而言, Leo 第二个主要的见解是 (在几乎任何的ermergent旁经常显示三种结构) 是让树具有可编程的结构, 能够通过树内部的任何节点来理解和修改. 我认为 Leo 将结构和自我指涉引入到 dumb flat file word 中. 所以你可以从一个 (或多个) 文件创建一个树, 按照你想要的方式解构和重构它, 在行动上自动化这种方式, 并与外部世界对话...我越关注交互式写作和远离 unix 启发的 OS 世界, 则第二个见解对我来说就变得越重要. 我不需要对 flat file 进行结构/重构或施加结构, 而是通过 (交互式) 书写来使用提纲构建想法, 而且我需要将提纲作为完全可编程的对象. 这是我的大部分 Leo 体验中最本质的...
+
+感谢 Leo 及其带来的所有关键灵感. 和往常一样, 感谢 Leo 社区的精神食粮.</t>
+<t tx="livingworld.20180404222150.29">我唯一的投入就是让 Leo 对来讲我如此特殊.
+
+在仅仅学习了 Leo 的几件事之后, 并且在用 @others 替换了章节引用之后, 编写代码成了一场游戏而不是一件苦差事.
+
+一旦一个想法变得复杂, 我就添加一个新的 @ohters, 并将难题分解成组块, 直到所有的难题都变得简单.
+
+我通常在提纲底部克隆该章节, 然后在父级别添加足够的逻辑, 以便可以用控件 B 来测试难题.
+
+这是我对单元测试的逆向实现.这种类型的 '单元测试' 永远不需要在代码被改进 (总是) 时重构.
+
+克隆的 "测试件" 可以降级到一个测试章节, 然后新的组块随后被克隆到任何对该项目有实际意义的结构中.
+
+在实践中, 这对我来说很有乐趣.
+
+没有 Leo 的编码不再更加有趣. 我最近使用 Microsoft's Visual Studio 完成了一个 c++ socket 服务器, 与没有 Leo 的人合作.Microsoft 的工具非常棒, 该项目顺利完成, 但是乐趣简直没有了.
+
+无论如何, 非常感谢 Leo 的伟大视角.
+</t>
+<t tx="livingworld.20180404222150.3">.. |---| unicode:: U+02015 .. for quotes
+   :trim:
+   
+.. |br| raw:: html
+
+   &lt;br /&gt;
+
+   
+########
+Leo 简介
+########
+
+.. Use full links here so links are active in LeoDocs.leo
+
+.. _`Emacs`: https://www.gnu.org/software/emacs/
+.. _`Leo的教程`: tutorial.html
+.. _`寻求帮助`:   https://groups.google.com/forum/#!forum/leo-editor
+.. _`有向无环图`: https://en.wikipedia.org/wiki/Directed_acyclic_graph
+.. _`开发人员和用户`: https://groups.google.com/forum/#!forum/leo-editor
+.. _`Leonine`: leonine-world.html
+.. _`Clones`: tutorial-pim.html
+.. _`Python API`: tutorial-scripting.html
+.. _`面向提纲的指令`: tutorial-basics.html#markup
+.. _`Next`: testimonials.html
+
+    "Word 提纲非常有用. 但是 Leo 让 Word 看起来像一个笨重的玩具"---Joe Orr
+
+Leo 是使用和组织数据, 程序和脚本的根本不同的方法. Leo 积极的开发了 20 多年, 拥有一批活跃的 `开发人员和用户`_. 
+
+**Leo 是:**
+
+- 一个功能齐全的 IDE, 具有许多受 `Emacs`_ 影响的功能. 
+- 一个提纲. 在 Leo 中的任何东西都是提纲. 
+- 一个数据管理器和个人信息管理器. 
+- 一个强大的脚本环境. 
+- 一个组织和学习计算机代码的工具. 
+- 通过简单的插件架构可扩展的. 
+- 一个与 IPython, Vim 和 Emacs 一起使用的工具. 
+- 用 100% 纯 Python 编写. 
+
+**Leo的独特功能**
+
+Leo *完全集成了* Python 脚本和提纲. 在 Vim, Emacs 或 Eclipse 中模拟以下功能是可能的, 正如可以用汇编语言模拟 Python 一样...
+
+- 所有的命令和脚本都可以通过简单的 `Python API`_ 轻松访问提纲结构.  |br|
+  例如, p.b 是所选提纲节点的正文.  |br|
+  脚本有完全地访问权对Leo的所有来源 (sources).
+- `Clones`_ 创建提纲的多个视图.  |br|
+  Leo 的底层数据是一个 `有向无环图`_.  |br|
+  因此, Leo 以全新的方式组织数据.
+- 脚本和程序可使用 `面向提纲的指令`_ 从大纲中组成.
+- Importer 将扁纯文本转换成提纲.
+- @test 和 @suite 脚本自动创建单元测试.
+- @button 脚本应用脚本到大纲数据.
+
+这些功能结合起来, 创造了一种 `Leonine`_ 式的编程和组织的方法. 你不会在一两天内了解 Leo 的全部内容. `Leo的教程`_ 解释了基本的功能. 你可以稍后了解更多高级的功能. 如果你遇到困难, 请立即 `寻求帮助`_ . </t>
+<t tx="livingworld.20180404222150.30"></t>
+<t tx="livingworld.20180404222150.31">我发现 Leo 已经快有 14个月了, 今天我回忆起我是如何找到它的.
+
+我正在 Github 上搜索词语 "QWidgetAction", 并且在 Leo 的代码库中找到了它的使用用法. 然而, 好奇害死猫, 我对 Leo 很好奇, 阅读并下载了它.</t>
+<t tx="livingworld.20180404222150.32">我在寻找 ECCO (有人记得这个程序吗?) 的替代品时发现了 Leo. 我使用了 ECCO 15年, 之后它不再支持了, 并且铁杆用户的核心团队最终丧失了对该程序所有者会开源代码的希望.
+
+不管如何, 我不记得是多久以前; 我记得, 至少是10年前. 在大多数方面, Leo 是对 ECCO 的重大改进, 我并不后悔这次转变. 然而, 有一件事我仍然很想念 ECCO , 并希望有一个很好的 Leo 集成, 就是日历. ECCO 可以打印几乎任何类型的日历, 尤其是任何尺寸上的任何格式. 我真的想念这个. 我知道市场上没有其他的 PIM 有这种的灵活性.
+
+也许其他的 Leo 用户想出了如何将日历与 Leo结合起来; 我没有, 也很想知道(如果可能的话).
+</t>
+<t tx="livingworld.20180404222150.33">当我在寻找一款支持克隆, 在 Linx 上运行, 并且不是网站的提纲时, 我找到了 Leo. 我居住在一个世间边缘的小农场, 我们的互联网一直都很糟糕.
+
+我在 2007 年 拿起 Leo. 如果在此期间我学到了一件事, 那就是对于 Leo, 一切皆有可能.</t>
+<t tx="livingworld.20180404222150.34">我想我在使用 Leo 之前, 一直在使用 Freemind, 尽管我已经花了很长时间使用基于提纲 hnb 的控制台, 它显然已恢复为 tines  https://github.com/larrykollar/tines</t>
+<t tx="livingworld.20180404222150.35">我认为我发现 Leo 是对文学编程短暂兴趣的结果. 不记得日期, 但是在 Leo 从 C++ 移植到 Python 之前.
+
+当我从高中时代的一个好心人那得知, Edward 居住小镇对面的 kitty 街角时, I was SOLD!</t>
+<t tx="livingworld.20180404222150.36">
+################
+致谢
+################
+
+来自电影, My Cousin Vinny::
+
+    Mona Lisa Vito: 那你的问题是什么?
+    Vinny Gambini: 我的问题是, 我想要赢得我的第一个案子
+    无需任何人的帮助.
+    Mona Lisa: 嗯, 我想这个计划是没有意义的.
+    Vinny : 是的.
+    Mona Lisa: 你知道, 这可能是未来的征兆.
+    你赢了所有的案子, 但是有别人的帮助, 对吗?
+    你赢得了一个又一个的案子, 然后你不得不上走上前去
+    对某人, 你不得不说说, "谢谢你."
+    [掌声]
+    我的天哪, 真是个的噩梦! 
+
+Leo 将其大部分视觉设计归功于 MORE, 可能是有史以来最优雅的程序计算机程序. Leo 的克隆节点受到 MORE 的启发.
+
+以下值得特别感谢:
+
+- David Brock 编写了 TSyntaxMemo, 用于 Leo 的早期版本.
+- Terry Brown 贡献了许多重要的功能, 包括 Leo 的 user-modifiable 窗格, 和一些重要的插件, 包括bookmarks.py 和 todo.py . 他也反驳我愚蠢的想法.
+- e 启发了 @button 节点, 真是个绝妙的想法.
+- 已故的 Bob Fitzwater 让我专注于设计. 哦, 我多想他能看到今天的 Leo.
+- Jonathan M. Gilligan 展示了如何将 Leo 图标放入 Leo 的窗口中.
+- Donald Knuth 发明了 CWEB 语言和文学编程.
+- LeoUser (B.H.) 贡献了大量的插件, 包括一个 Leo 的 minibuffer 原型, 并且编写了 jyLeo: Jython 中的 Leo.
+- 已故的 Bernhard Mulder 发明了基础的 @shadow 算法, 真是神来之笔. Bernhard 也还影响了 Leo 的生成器 和 position 类. 如果没有 Bernhard, 单个节点的世界就不可能发生.
+- Joe Orr 为 Leo 创建了的教程 和 XSLT 样式表: http://www.jserv.com/jk_orr/xml/leo.htm.
+- John K. Ousterhout 创建了 tcl/Tk, 用于早期版本的 Leo.
+- Tsuchi Noko 创建了透明的图标.
+- Neal Norwitz 写了 PyChecker.
+- Marc-Antoine Parent 敦促我将 XML 用于 Leo 的文件格式并帮助我改进它..
+- Paul Paterson 创建了插件架构, 帮助进行拼写检查并贡献了许多插件.
+- François Pinard 写了 pymacs.
+- Norman Ramsey 创建了 noweb 并允许从 noweb web 文档引用.
+- Rich Ries 贡献了大量建议.
+- Steven P. Schaefer 指出了安全问题.
+- Gil Shwartz 帮助了 unicode 的支持.
+- Phil Straus 是一位很好的朋友和不断的支持者.
+- Kent Tenney 不断的游说, 让 Leo 更加容易使用和理解. 他的建议打开了通往单节点 (one-node) 世界的大门.
+- Guido van Rossum 创造了 Python.
+- Dave Winer 创造了 MORE.
+- Ville M. Vainio 做出了无价的贡献, 包括单节点 (one-node) 世界, IPythonbridge 代码以及 contextmenu.py 和 valuespace.py 插件.
+- Dan Winkler 帮助在 Mac 上支持 Leo.
+
+特别感谢我的家人. 我的兄弟, David Speed Ream, 测试了 Leo, 并提出了很多有用的建议. Rebecca, James 和 Linda 使一切都值得. 在与 Rebecca 的对话中, 我意识到 MORE 可以用作 Leo 的原型. 这是至关重要的第一步.
+
+以下的人报告了错误, 回答了问题, 并提出了改进 Leo 的建议:
+
+Alex Abacus, Shakeeb Alireze, Steve Allen, Bruce Arnold, Chris Barker, Dennis Benzinger, David Boddie, Jason Breti, Eric Brown, Terry Brown, Darius Clarke, Martin Clifford, Jason Cunliffe, Josef Dalcolmo, Gil Dev, Bill Drissel, Wenshan Du, Allen Edwards, Chris Elliot, Dethe Elza, Reinhard Engle, Mark Engleberg, Roger Erens, Stephen Ferg, Tom Fetherston, Tomaz Ficko, Niklas Frykholm, Fred Gansevles, Jonathan M. Gilligan, Zak Greant, Thomas Guettler, Romain Guy, Dave Hein, Tiago Castro Henriques, Gary Herron, Steve Holden, Klass Holwerda, Matthias Huening, Robert Hustead, John Jacob, Paul Jaros, Christopher P. Jobling, Eric S. Johansson, Garold Johnson, James Kerwin, Nicola Larosa, David LeBlanc, Chris Liechti, Steve Litt, Martin v. Löwis, Robert Low, Fredrik Lundh, Michael Manti, Alex Martelli, Marcus A. Martin, Gidion May, David McNab, Frank Merenda, Martin Montcrieffe, Will Munslow, Lewis Neal, Chad Netzer, Derick van Niekerk, Jeff Nowland, Naud Olivier, Joe Orr, Marc-Antoine Parent, Paul Paterson, Sean Shaleh Perry, Tim Peters, David Priest, Gary Poster, Scott Powell, Bruce Rafnel, Walter H. Rauser, Olivier Ravard, David Speed Ream, Rich Ries, Aharon Robbins, Guido van Rossum, David Rowe, Davide Salomoni, Steven Schaefer,Johannes Schöön, Wolfram Schwenzer, Casey Wong Kam Shun, Gil Shwartz, Jim Sizelove, Paul Snively, Jurjen Stellingwerff, Phil Straus, David Szent-Györgyi, Kent Tenney, Jeffrey Thompson, Gabriel Valiente, Jim Vickroy, Tony Vignaux, Tom van Vleck, Kevin Walzer, Ying-Chao Wang, Cliff Wells, Dan Wharton, John Wiegley, Wim Wijnders, Dan Winkler, Vadim Zeitlin.
+
+以下的人为 Leo 提供了插件:
+
+Rodrigo Benenson, Pierre Bidon, Felix Breuer, Terry Brown, Mike Crowe, Josef Dalcolmo, Michael Dawson, e, Roger Erens, Andrea Galimberti, Engelbert Gruber, Timo Honkasalo, Jaakko Kourula, Maxim Krikun, Zhang Le, LeoUser, Frédéric Momméja, Bernhard Mulder, Mark Ng, Alexis Gendron Paquette, Paul Paterson, Jacob Peck, Dan Rahmel, Davide Salomoni, Ed Taekema, Kent Tenney, Brian Theado, Ville M. Vainio, Steve Zatz.
+
+以下人士向 Leo 向慷慨捐赠: Robert Low, Nic Cave-Lynch.
+</t>
+<t tx="livingworld.20180404222150.37">#################
+Leo 的 MIT 许可证
+#################
+
+Leo 的所有部分都按照下面的版权发布. 这和 MIT 许可证预期的一样, 名义上讲 Leo 是完全免费的, 即使是用于商用, 包括转售. 没有类似于 GNU 的 "公共版权" 限制. 这个许可证与 GPL 相兼容.
+
+**Edward K. Ream, 1997-2017 版权所有. 保留所有权利.**
+
+特此免费授予任何人获得这个软件和关联文档 ("软件") 的副本, 没有任何限制的处理本软件, 包括不受限制的使用, 复制, 修改, 合并, 发布, 分发, 再许可, 和/或出售该软件的副本, 并允许本软件所提供的人员遵守以下要求:
+
+上述版权公告和此许可公告应包括在该软件的所有副本或主要部分中.
+
+**THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.**
+</t>
+<t tx="livingworld.20180404222150.4">.. |---| unicode:: U+02015 .. for quotes
+   :trim:
+   
+################################
+人们对 Leo 的评价
+################################
+
+.. |br| raw:: html
+
+   &lt;br /&gt;
+
+.. contents:: 内容
+    :depth: 3
+    :local:
+
+</t>
+<t tx="livingworld.20180404222150.5">"几星期以来, 我一直在使用 Leo, 我对它充满了热情. 我认为它是自电子表格发明以来最令人惊讶的软件. "---Anon.
+
+"我们使用 Leo 的人知道这是一个突破性工具, 是编写代码的全新方式. "---Joe Orr
+
+"我是 Leo 的忠实粉丝. 我认为它很可能是我曾经使用过的最具革命性的编程工具, 它(连同 Python 语言)彻底改变了我对未来编程(甚至是写作)的看法. "---Shakeeb Alireza
+
+"非常感谢 Leo. 我认为我的数据处理方式将永远改变...我确信 [Leo] 将是一场革命. 这场革命不亚于将书的顺序线性组织变为网页式的超链接页面. 让我印象深刻主要概念是源代码列表不再是主要的焦点. 你聚焦于源代码的非线性, 分层, 可折叠的提纲."---Korakot Chaovavanich
+
+"就我能够管理的项目数量以及我能够以有用的方式发现并组织和存储信息多少而言, Leo对我来讲是一个巨大的飞跃."---Dan Winkler
+
+"哇, 哇, 哇...我终于明白了如何使用克隆, 我意识到这正是我想要组织我的信息的方式. 我的数据有多个视图, 就像我的想法一样, 完全可以相互链接."---Anon
+
+"Edward...你提出了可能是自 VI 和 Emacs 以来, 在代码操作中最强大的新概念."---David McNab
+
+"Leo 是...朝着正确的编程方向迈出的革命性的一步."---Brian Takita</t>
+<t tx="livingworld.20180404222150.6">"感谢这样一个精彩的程序-每个人都应该使用它! 它使 Java 思维导图软件脱颖而出, 赢得了 Sourceforge 本月的项目!" ---Derick van Niekerk.
+
+"几年前, 我会说 Zope 是排名第一的 Python 展示 (showcase), 但是现在我 100% 同意 Leo 处于顶峰." ---Jason Cunliffe
+
+"Leo 是我所知道的最有趣的 Python 项目...我看到许多食材发布在 Daily Python 页面上, 但我通常会打哈欠, 然后来这个论坛看看正在烹饪什么." ---Anon
+
+"多么新颖的不同想法的原创综合, 为什么其他开源项目不能改变我的想法?" ---Anon
+</t>
+<t tx="livingworld.20180404222150.7">"当我第一次打开 Leo, 那是出于好奇. 但是用过之后...我再也不会回去了. 它们将不得不把 Leo 从我冰冷, 麻木的手指里撬开! 说真的, 他应该改名为 `强效可卡因`, 因为它让人上瘾. 我准备开始一个 12 步小组. " ---Travers A. Hough
+
+"我感觉又对编程上瘾了...事实上 [Leo] 已经复活了我的一个死亡项目 :) 提纲已经被证明在测试想法方面最为自由." ---Anon
+
+"在过去的几天里, 我完全被 Leo 诱惑了. 我告诉你, 我不能把它放下. 我觉得自己像个有着闪亮新自信车的孩子...我已经开始用我想要的新方式在未来使用这个工具." ---Lyn Adams Headley
+
+感谢这个伟大的杰作--我爱 Leo!!! ---Josef Dalcolmo
+
+Leo 已经简化了更新和创建新的脚本, 并且 .bats 在同一地方保存了相似的信息. 这几乎是一个成瘾戒断效应, 我可以使用 Leo &amp; Python 在比过去更短的时间内完成操作. ---Anon
+
+Leo 是我喜爱的思维胶囊 ;-)
+
+- 她可以容纳我的各种作品 (小说, 代码, 幻灯片, 文档...)
+- 并且她可以神奇的在相同的时间和地点记录我混乱的思维, 而不会干扰我的工作...
+- luvin Leo, 让我混沌的头脑自由和构建工作的出口!
+- 我所有的幻灯片都是用 rst2s5 制作
+- 在 Leo 中编写 rst
+- 使用 CLI 工具生成 html 幻灯片
+- 简单, 极客, 自由! --- 周琦 (Zoom.Quiet)</t>
+<t tx="livingworld.20180404222150.8">"[Leo] 应该替换或大大增强我使用的开发工具. " ---Zak Greant
+
+"Leo 是提纲和编程的联姻. 纯粹的天才. 我对这个工具留下深刻印象的主要原因是它不影响您对工具的选择. 你可以使用任何语言的 IDE, 并在 Leo 和它之间来回切换. " ---Austin King
+
+"Leo 是我有幸使用的最好的 IDE. 现在我已经用了 2-3 个月. 它不仅完全改变了我的编程方式, 而且改变了我存储和组织工作所需要的所有信息的方式. " ---Ian Mulvany
+
+"我只有一周的 Leo 经验, 但是我已经知道它将是我的默认 IDE/项目管理器...人们抱怨缺乏像 Idle 这样的免费/标准的 Python IDE 项目管理器. Leo 很明显地解决了这个问题, 并以商业工具无法触及的方式. " ---Marshall Parsons
+
+"我已经使用 Leo 大约 3 周了, 我几乎不再使用其他编程编辑器了...我觉得使用起来很简单, 很愉快. 我计划将它作为我的代码评论演示工具." ---Jim Vickroy
+
+"我完全被这样简单的想法的力量震惊了! 它非常好用, 并且我可以立刻看到使用 Leo 代替 flat file 编辑器的好处. " ---Tom Lee
+
+"我认为你真正地展示了开源可以做什么, 并且您当前的轨迹可以让你将 Emacs 踢进计算机历史垃圾堆." ---Dan Winkler
+ </t>
+<t tx="livingworld.20180404222150.9">.. _`Thrive`: https://refiction.com/resource-reviews/leo-editor-for-writers
+
+"Word 提纲非常有用. 但是 Leo 让 Word 看起来像一个笨重的玩具. " ---Joe Orr 
+
+"Leo 是一款交互式编辑器, 可以将文本片段按层次和顺序组织到一个或多个文件和分层文件夹中, 而不会限制文本片段的数量和大小以及层次结构的深度..." ---Alex Abacus
+
+"Leo 让我想起许多我喜欢过的东西, 我曾用过 Userland 的 Frontier (一个带有本地数据库 (cms) 的提纲内容管理系统), - 但是 Frontier 对我来说不够灵活, 并且它不是面向编码的..., 并且您无法来回渲染页面 (Leo 大胜). 这真是个极好的工具-在短短的几天内, 我已经开始在我的所有项目中使用它了, 我还没弄明白没有它之前我是如何生活的" ---John Sequeira
+
+"Leo 正是我想要寻找的那种提纲-好样的!" ---Steve Allen
+
+"Leo 创建活文档. 想法可以逐步组织和重组, 然后插入到项目的适当位置. 提纲变成流动的, 允许无限的深度, 并使用节点的克隆, 任意级别的复杂度...[其它的] 提纲在文档上施加结构...Leo 是不同的. 不同于施加结构, 它允许你施加你自己基础架构, 然后随心所欲的发挥你的创造力. 这就带来了在制作文档时必要的创造力的混乱. 当涉及到章节中的场景排列, 节点结构创造了最大地灵活性. 再见, 复制和粘贴, 你好, 拖放. " —Chris George, 于 `Thrive`_</t>
 <t tx="omlalala.20180206205022.1" str_atime="1376411963.0">@pagewidth 70
 @tabwidth -4
 
@@ -18766,7 +19343,6 @@ Python programs running independently of Leo. Let us call such a program a
 
 
 </t>
-<t tx="omlalala.20180206205022.67"></t>
 <t tx="omlalala.20180206205022.670">Host programs use the leoBridge module as follows::
 
     import leo.core.leoBridge as leoBridge
@@ -19023,23 +19599,6 @@ Notes:
         get_transaction().commit()
         connection.close()
 </t>
-<t tx="omlalala.20180206205022.68">#############
-Preliminaries
-#############
-
-.. Use maxdepth 1 to emphasize top-level entries.
-
-**Contents**
-
-.. toctree::
-   :maxdepth: 1
-
-   preface
-   testimonials
-   acknowledgements
-   license
-
-</t>
 <t tx="omlalala.20180206205022.680">The scripts shown above close the zodb connection after processing the data. This is by far the simplest strategy. I recommend it for typical scripts.
 
 **Important**: you must **leave the connection open** if your script modifies persistent data in any way. (Actually, this statement is not really true, but you must define zodb transaction managers if you intend to use multiple connections simultaneously. This complication is beyond the scope of this documentation.) For example, it would be possible to create a new Leo outline from the data just read, but the script must leave the connection open. I do not recommend this tactic, but for the adventurous here is some sample code::
@@ -19178,67 +19737,6 @@ Using Python colorer control files has the following advantages:
 - Colorer control files are easier for humans to understand and modify than the equivalent xml file. Furthermore, it is easy to insert debugging information into Python colorer control files.
 
 - It is easy to modify the Python colorer control files 'by hand' without changing the corresponding xml file. In particular, it would be easy to define entirely new kinds of pattern-matching rules in Python merely by creating functions in a colorer control file.
-</t>
-<t tx="omlalala.20180206205022.69">.. |---| unicode:: U+02015 .. for quotes
-   :trim:
-   
-.. |br| raw:: html
-
-   &lt;br /&gt;
-
-   
-######################
-A Brief Summary of Leo
-######################
-
-.. Use full links here so links are active in LeoDocs.leo
-
-.. _`Emacs`: https://www.gnu.org/software/emacs/
-.. _`Leo's tutorial`: tutorial.html
-.. _`ask for help`:   https://groups.google.com/forum/#!forum/leo-editor
-.. _`Directed Acyclic Graphs`: https://en.wikipedia.org/wiki/Directed_acyclic_graph
-.. _`group of developers and users`: https://groups.google.com/forum/#!forum/leo-editor
-.. _`Leonine`: leonine-world.html
-.. _`Clones`: tutorial-pim.html
-.. _`Python API`: tutorial-scripting.html
-.. _`outline-oriented directives`: tutorial-programming.html
-.. _`Next`: testimonials.html
-
-    "Word outlines are very useful. But Leo makes Word look like a clunky toy."---Joe Orr
-
-Leo is a fundamentally different way of using and organizing data, programs and scripts. Leo has been under active development for 20+ years with an active `group of developers and users`_.
-
-**Leo is:**
-
-- A fully-featured IDE, with many features inspired by `Emacs`_.
-- An outliner. Everything in Leo is an outline.
-- A data manager, data manager and personal information manager.
-- A powerful scripting environment.
-- A tool for organizing and studying computer code.
-- Extensible via a simple plugin architecture.
-- A tool that plays well with  IPython, Vim and Emacs.
-- Written in 100% pure Python
-
-**Leo's unique features**
-
-Leo *completely integrates* Python scripting and outlines. Simulating the following features in Vim, Emacs or Eclipse is possible, just as it is possible to simulate Python in assembly language...
-
-- All commands and scripts have easy access to outline structure via a simple `Python API`_. |br|
-  For example, p.b is the body text of the selected outline node. |br|
-  Scripts have full access to all of Leo's sources.
-- `Clones`_ create multiple views of an outline.  |br|
-  Leo's underlying data is a `Directed Acyclic Graphs`_.  |br|
-  As a result, Leo organizes data in completely new ways.
-- Scripts and programs can be composed from outlines using `outline-oriented directives`_.
-- Importers convert flat text into outlines.
-- @test and @suite scripts create unit tests automatically.
-- @button scripts apply scripts to outline data.
-
-These features combine to create a `Leonine`_ way of programming and
-organizing. You won't learn all about Leo in a day or two. `Leo's
-tutorial`_ explains the basic features. You can learn more advanced
-features later. Please `ask for help`_ immediately if you get stuck.
-
 </t>
 <t tx="omlalala.20180206205022.690">When Leo's syntax colorer sees the '@language x' directive, it will import x.py from Leo's modes folder. The colorer can then access any module-level object obj in x.py as x.obj.
 
@@ -19536,22 +20034,6 @@ Here is Leo's main window on Windows 7 showing the outline pane (1), the body pa
 The body pane shows the contents of the presently selected node in the outline pane.
 
 |leoQtMainWindow|</t>
-<t tx="omlalala.20180206205022.70">.. |---| unicode:: U+02015 .. for quotes
-   :trim:
-   
-################################
-What People are Saying about Leo
-################################
-
-.. |br| raw:: html
-
-   &lt;br /&gt;
-
-.. contents:: Contents
-    :depth: 3
-    :local:
-
-</t>
 <t tx="omlalala.20180206205022.700">::
 
     def match_eol_span (self,s,i,kind,begin,
@@ -19688,22 +20170,6 @@ If successful, match_span colors s[i:j], with the color specified by kind; but i
 match_terminate succeeds if s[i:] contains at least at_char more characters.
 
 If successful, match_terminate colors at_char characters with the color specified by kind.
-</t>
-<t tx="omlalala.20180206205022.71">"I am using Leo since a few weeks and I brim over with enthusiasm for it. I think it is the most amazing software since the invention of the spreadsheet."---Anon.
-
-"We who use Leo know that it is a breakthrough tool and a whole new way of writing code."---Joe Orr
-
-"I am a huge fan of Leo. I think it's quite possibly the most revolutionary programming tool I have ever used and it (along with the Python language) has utterly changed my view of programming (indeed of writing) forever."---Shakeeb Alireza
-
-"Thank you very much for Leo. I think my way of working with data will change forever... I am certain [Leo] will be a revolution. The revolution is as important as the change from sequential linear organization of a book into a web-like hyperlinked pages. The main concept that impress me is that the source listing isn't the main focus any more. You focus on the non-linear, hierarchical, collapsible outline of the source code."---Korakot Chaovavanich
-
-"Leo is a quantum leap for me in terms of how many projects I can manage and how much information I can find and organize and store in a useful way."---Dan Winkler
-
-"Wow, wow, and wow...I finally understand how to use clones and I realized that this is exactly how I want to organize my information. Multiple views on my data, fully interlinkable just like my thoughts."---Anon
-
-"Edward... you've come up with perhaps the most powerful new concept in code manipulation since VI and Emacs.---David McNab
-
-"Leo is...a revolutionary step in the right direction for programming."---Brian Takita
 </t>
 <t tx="omlalala.20180206205022.710" str_atime="1376414161.0">.. Most of this has nothing to do with *writing* plugins.</t>
 <t tx="omlalala.20180206205022.711" str_atime="1376414163.0">###############
@@ -20106,14 +20572,6 @@ Event name (tag argument)  Stop?    Keys in keywords dict
 So it would be good if writers of plugins would create such a unitTest function. To indicate a failure the unitTest can just throw an exception. Leo's plugins test suite takes care of the rest.
 </t>
 <t tx="omlalala.20180206205022.719"></t>
-<t tx="omlalala.20180206205022.72">"Thanks for a wonderful program – everybody should be using it! It blows the socks off that Java Mind mapping software that won project of the month a while back on sourceforge!"---Derick van Niekerk.
-
-"A few years back I would have said Zope was #1 Python showcase, but I agree 100% that Leo is tops now."---Jason Cunliffe
-
-"Leo is the most interesting Python project I know of...I see lots of stuff posted on the Daily Python page, but I usually yawn and come over to this forum to see what's cooking."---Anon
-
-"What an original synthesis of different ideas, why can't other Open Source projects change the way I think?"---Anon
-</t>
 <t tx="omlalala.20180206205022.720">#####################
 Unit testing with Leo
 #####################
@@ -20332,26 +20790,6 @@ general scripts do not.
     :local:
 
 </t>
-<t tx="omlalala.20180206205022.73">"When first I opened Leo, it was out of curiosity. But having used it...I'll never go back. They'll have to pry Leo out of my cold, dead fingers! Seriously, it should be renamed 'Crack Cocaine' because it's that addictive. I'm ready to start a 12-Step group."---Travers A. Hough
-
-"I feel addicted to programming again...in fact [Leo] has resurrected a dead project of mine :) The Outline has proven most liberating in terms of testing ideas out."---Anon
-
-"I have been absolutely seduced by Leo over the past few days. I tell you, I can not put it down. I feel like a kid with a shiny new bike...I'm already bursting with new ways I'd like to use the tool in the future."---Lyn Adams Headley
-
-Thanks for the great work--I love Leo!!!---Josef Dalcolmo
-
-Leo has simplified updating and creating new scripts and .bats keeping similar information in the same place. there is almost an addictive withdrawal effect when I can complete an operation in so much less time with Leo &amp; python than I had become used to.---Anon
-
-Leo is my Favorites Mind Capsule ;-)
-
-- she can contain all kinds of my Works (novel, code, slides, documents...)
-- and she can magic record my chaos mind in same time and same place and NOT Disturb my working...
-- luvin Leo, make me freedom with chaos mind and structuring work export!
-- all my Slides is make with rst2s5
-- write rst in Leo
-- usage CLI tools generate html slides
-- easy, geek, and freedom!--- 周琦 (Zoom.Quiet)
-</t>
 <t tx="omlalala.20180206205022.730">.. _`FAQ`:                  FAQ.html#how-can-i-use-python-s-pdb-debugger-with-leo
 .. _`pdb`:                  https://docs.python.org/3/library/pdb.html
 .. _`run Leo in a console`: installing.html#running-leo-from-a-console-window
@@ -20462,20 +20900,6 @@ If no .leo file is given, Leo will open ~/.leo/workbook.leo (Leo's workbook file
 **Only one outline can be open at a time**. The only way to load .leo files is from the command line. (There are no menus).
 </t>
 <t tx="omlalala.20180206205022.739">To exit Leo: click "Quit Leo" button and &lt;Enter&gt;. Ctrl-Q also works. **There is no way to cancel Ctrl-Q**. A dialog box will appear. Press Enter to select "No". Press arrow keys to move between "Yes" and "No". "Yes" saves, then exits. "No" Exits without saving.
-</t>
-<t tx="omlalala.20180206205022.74">"[Leo] should either replace or greatly augment the development tools that I use."---Zak Greant
-
-"Leo is a marriage of outlining and programming. Pure genius. The main reason I am impressed with this tool is that it doesn't affect your choice of tools. You can use whatever IDE for whatever language and switch back and forth between Leo and it."---Austin King
-
-"Leo is the best IDE that I have had the pleasure to use. I have been using it now for about 2--3 months. It has totally changed not only the way that I program, but also the way that I store and organize all of the information that I need for the job that I do."---Ian Mulvany
-
-"I only have one week of Leo experience but I already know it will be my default IDE/project manager...people complain about the lack of a project manager for the free/standard Python IDE's like Idle. Leo clearly solves that problem and in a way that commercial tools can't touch."---Marshall Parsons
-
-"I have been using Leo for about 3 weeks and I hardly use my other programming editor anymore...I find it easy and enjoyable to use. I plan to adopt it as my presentation tool for code reviews."---Jim Vickroy
-
-"I'm absolutely astounded by the power of such a simple idea! It works great and I can immediately see the benefits of using Leo in place of the standard flat file editor."---Tom Lee
-
-"I think you're really showing what open source can do and your current trajectory puts you on track to kick Emacs into the dustbin of computing history."---Dan Winkler
 </t>
 <t tx="omlalala.20180206205022.740">Moving around the main window::
 
@@ -20593,14 +21017,6 @@ Other noteworthy methods and functions, all in cursesGui2.py:
 - **CGui.monkeyPatch** contains some hacks needed to make the 'start-find' command work.
 
 To enable tracing for these methods, and many others, set the trace variable at the start of the method.  Feel free to add your own traces in consoleGui2.py.
-</t>
-<t tx="omlalala.20180206205022.75">"Word outlines are very useful. But Leo makes Word look like a clunky toy."---Joe Orr
-
-"Leo is an interactive editor for organizing text fragments hierarchically and sequentially into one or more files and hierarchical folders, without arbitrary limits on the number and size of text fragments and the depth of the hierarchy..."---Alex Abacus
-
-"Leo reminds me a great deal of things I loved when I used Userland's Frontier (an outlining cms with a native oodb) - but Frontier wasn't hackable enough for me, and it wasn't oriented towards coding..., and you couldn't round-trip rendered pages (big Leo win). This is really a super tool - in a matter of days I've started to use it on all my projects and I still haven't figured out how I lived without it."---John Sequeira
-
-"Leo is EXACTLY the kind of outliner I was looking for--fantastic job!"---Steve Allen
 </t>
 <t tx="omlalala.20180206205022.750">**F4 runs all unit tests**. IH.handle_input binds F4 as a special case. All unit tests presently pass when run from the console gui. Devs *must* run all tests in the console gui before committing any changes to this plugin.
 </t>
@@ -20735,18 +21151,6 @@ Scripts can run File Open and Save dialogs with these methods::
     g.app.gui.runSaveFileDialog(initialfile,title,filetypes,defaultextension)
 
 For details about how to use these file dialogs, look for examples in Leo's own source code. The runOpenFileDialog returns a list of file names.
-</t>
-<t tx="omlalala.20180206205022.76">"If you are like me, you have a kind of knowledge base with infos gathered over time. And you have projects, where you use some of those infos. Now, with conventional outliners you begin to double these infos, because you want to have the infos needed for the project with your project. With Leo you can do this too, but if you change text in one place IT IS UPDATED IN THE OTHER PLACE TOO! This is a feature I did not see with any other outliner (and I tried a few). Amazing! Leo directly supports the way I work!"---F. Geiger
-
-"Another day, another breakthrough using Leo--now I realize Leo is the best URL bookmark manager there is. No more bookmarks menus or favorites lists inside the browser for me. With the @url directive I can just double click on the URL to open it in my browser. Leo lets me arrange the URLs in a hierarchy (or multiple hierarchies), attach notes to them, save clippings of things I read on the sites. It's sooo much better than anything the browsers have built in and it lets me easily use different browsers on different platforms and different machines (try that with the browsers' built-in bookmark managers)."---Dan Winkler
-
-"I am an amateur photographer. I use plain old 35mm. film for my pictures. Over the weekend, I used Leo to organize my lists of pictures. It is quite helpful--I can have separate nodes for pictures I have enlarged, as well as pictures I have submitted to our local camera club. Thanks!"---Rich Reis
-
-"Cloning is pure genius!... Leo's cloning facility, allows me to create several views on the CFA course material. My main view follows the prescribed study guide. Another view is organized like the textbooks. Yet another gives me a glossary of terms. And when I'm done, I'll have some nice libraries...I can re-use later in other projects."---Michael Manti
-
-Despite I am no programmer, I have been using Leo for some years now as my "Intelligent PIM" - I organize my (complex) life with Leo. Many thanks to Edward and others for the great application -- vili &lt;viljem.tisnikar@gmail.com&gt;
-
-I had used Leo for a long time as a PIM to track my work, but moved to emacs org mode for a period of time because of its explicit agenda and work tracking capabilities. But I went back to Leo because it seems more flexible when it comes to viewing various aspects of a project. For some recent performance data collection work, under one outline are the theory behind the project, the code (generation) for the project, the project web page (generated from an @rst node tree),  and project deployment (little more than clicking a button). One can change focus from one aspect to another very quickly and use clones to really drill down into an area (for me it's typically the code) when needed. Leo is an impressive tool, and I have only scratched the surface--Robert Shanley.
 </t>
 <t tx="omlalala.20180206205022.760" rst_http_attribute="5d71002858460000003c6120636c6173733d22746172676574222069643d22687474702d6e6f64652d6d61726b65722d323922206e616d653d22687474702d6e6f64652d6d61726b65722d3239223e710158040000003c2f613e71025d71032858390000003c64697620636c6173733d2273656374696f6e222069643d22696e766f6b696e672d636f6d6d616e64732d66726f6d2d73637269707473223e710458060000003c2f6469763e71055d710628583f0000003c64697620636c6173733d22646f63756d656e74222069643d22636861707465722d372d736372697074696e672d6c656f2d776974682d707974686f6e223e710758060000003c2f6469763e71085d71092858060000003c626f64793e710a58070000003c2f626f64793e710b5d710c2858430000003c68746d6c20786d6c6e733d22687474703a2f2f7777772e77332e6f72672f313939392f7868746d6c2220786d6c3a6c616e673d22656e22206c616e673d22656e223e710d58070000003c2f68746d6c3e710e4e6565656558070000003c2f6469763e0a710f583b0000003c64697620636c6173733d2273656374696f6e222069643d2267657474696e672d616e642d73657474696e672d707265666572656e636573223e0a711058780000003c68313e3c6120636c6173733d22746f632d6261636b7265662220687265663d22236964313522206e616d653d2267657474696e672d616e642d73657474696e672d707265666572656e636573223e47657474696e6720616e642073657474696e6720707265666572656e6365733c2f613e3c2f68313e0a7111652e">Each commander sets ivars corresponding to settings.
 
@@ -20962,12 +21366,6 @@ This script finds a position p2 having the same vnode as an invalid position p::
         safe_at_file = False,   # True: generate @@clean nodes.
         theTypes = None,        # Same as ['.py']
     )
-</t>
-<t tx="omlalala.20180206205022.77">"I've written documentation in WordPerfert, Ventura, Word, PageMaker, and FrameMaker and even though they create wonderfully looking and useful documents, they've never been able to do what I've been looking for. HTML, compiled help files, and later PDF came closer, but still not there...I think I've found it in Leo, a way to make a "living" document. A document built out of discrete parts that can be re-organized on the fly to meet the needs of a varying audience...I've already started converting the IT Procedures manual from Open Office to Leo because I know it's going to be much more useful to me and anyone else...just the possibility of keeping system maintenance scripts in the IT manual is mind boggling."---David Nichols
-
-"With the help of the rst2 plugin, [Leo is] the best outliner I have yet encountered for writing the early stages of academic papers."
-
-"A Leo file is an ideal documentation tool, collecting the assorted readme.txt files, the comments from the source files...as well as the config files themselves."---Kent Tenney
 </t>
 <t tx="omlalala.20180206205022.770">@pagewidth 75
 
@@ -21209,16 +21607,6 @@ sort-lines. You will find::
     'sort-lines':    self.sortLines,
     
 Now search for "def sortLines" and you have arrived.</t>
-<t tx="omlalala.20180206205022.78">"Just as structured programming reveals and disciplines the flow control of a program, [Leo] allows the designer to reveal and discipline structure at many layers simultaneously: data structures, object structure, entity-relationship structure, client-server structure, design pattern structure, temporal structure, project management structure, and any other structure relevant to the system."---Steven P. Schaefer
-
-"A funny observation with Leo is that when I 'Leo-ise' other people's code, Leo makes the code's structure so transparent that design faults become very quickly apparent. For example, maintenance pain caused by lack of factorization."---David McNab
-
-"Leo is a powerful tool for organizing text into tree structures, and for just generally attacking a number of problems from a tree-based perspective."---Joe Orr
-
-"I found this blog entry by someone (a talented former coworker of mine actually) complaining about some poorly written code she had to maintain: http://snippy.ceejbot.com/wiki/show/start/2003/01/29/001 She said: 'You'd need a bulldozer to start refactoring it.' That was my cue to write a long message explaining that there is indeed such a bulldozer and it's called Leo. (You can see my message there as a reply to her original posting.) I gave her my recipe for how to get someone else's messy, scary code into Leo and how to break it down into manageable chunks."---Dan Winkler
-
-"Ed, you continue to push the envelope. The amazing thing is that the footprint isn't doubling every few months like it would be in another designer's hands. Adding features by removing constraints, hot refactoring while adding unit tests. Forget the book. I would pay to see the movie."
-</t>
 <t tx="omlalala.20180206205022.780">The following methods and their helpers all have useful traces:
 
 - leoQtEventFilter.eventFilter (qtGui.py) and helpers create keystrokes 
@@ -21341,21 +21729,6 @@ The g.u function should be used *only* to convert from the Qt string type (a wra
   mode-and-pane-dependent bindings.
   
 Much of this complexity is a direct result in the flexibility given to users in specifying key bindings.
-</t>
-<t tx="omlalala.20180206205022.79">"I am extremely impressed at how stable and useful Leo appears to be."---Marcus
-A. Martin
-
-"Leo is amazingly stable. Docs are often weak with Open Source Software. Not so Leo: Leo is unusually well documented."---F. Geiger
-
-"Leo is unimaginably useful and I always find new things it already knows(!) how to do. Indeed I am amazed by the never-ending resources and patience Edward is putting into it and its users community. Excellent."---Gil Shwartz
-
-I feel strongly that Ed Ream, our ever-patient, ever-productive Leo architect deserves a nomination [for the ActiveState OpenSource Award.] Among other reasons, for:
-
-- Delivering the first usable visual literate programming tool.
-- Adding a vast abundance of new features.
-- Making possible a previously unimaginable amount of leverage in code editing.
-- Eliminating vast amounts of menial programming labour.
-- Tirelessly and patiently supporting users, and catering to a wide range of feature requests.---David McNab
 </t>
 <t tx="omlalala.20180206205022.790">Sentinels are necessary for clones, but sentinels would still be necessary if clones did not exist.
 
@@ -21571,17 +21944,6 @@ Here is an example of a dark theme, showing how to manage Emacs config files wit
 
 |emacsConfig|
 </t>
-<t tx="omlalala.20180206205022.80">I just want to provide my own thoughts about the importance of @clean. I look at the posts in this group a fair amount because I find the discussion interesting but I had abandoned Leo as a day-to-day tool principally because of the sentinels in @file nodes. Even for solo projects, I just found them visually unappealing and beyond that occasionally confusing when I went to edit files with external editors. I would sometimes start a project in Leo, particularly if it was based on code I developed in the past using Leo, and then would use the old @nosent to save a version of the code without sentinels and then use my external editor of choice and not use Leo at all. I missed many of the features of Leo but just couldn't get over the sentinel issue.
-
-@clean really seems to solve all the issues that I had. In particular--and
-somehow this point doesn't seem to me to have been emphasized enough--it seems to fully support organizer nodes. They are one of the great things about Leo--it's happy to guess initially at what the structure of your program is but it's completely up to you to determine the structure and the ability to do things like break up long methods, group like methods, group menu actions in GUI code, etc etc is one of the very cool things about Leo. My limited but growing experience with @clean's handling of external changes has been mainly with incremental (as opposed to more sweeping) code changes, and the assignment of new lines is reasonable and you can always fix them it quickly if you don't like how external changes have been handled.
-
-There have been some posts about the recovered nodes, comparing the old and new nodes where there were external changes. I think it's genius. As opposed to hoping that Leo has correctly incorporated external changes, it's all there in case you want to take a closer look. Without this, I would just not have the confidence that external changes were being applied correctly and while you can always do a git diff, I am not looking to do that every time I change a file externally especially if I am not at the point where I am about to do a commit.
-
-There has been some discussion of @auto v. @clean. Preference is obviously a matter of taste. I will say that for me the fact that node headlines are unaffected by external file changes is a feature not a problem since I place notes in the headlines that I want preserved when I edit files externally. Yes, if the node headlines are the method names then they won't be updated if an external edit changes a method name but this was true of @file as well.
-
-The ability to work on projects with people who don't have Leo is obvious; one perhaps slightly less obvious benefit of no sentinels is that I suspect that the likelihood that someone will clone a git repository is reduced when that repository's code is riddled with Leo sentinels (unless the potential cloner is a Leo loyalist). The one downside to no sentinels--there is no evidence that Leo is being used but I think that raises the broader question of marketing Leo, which I certainly believe will be aided significantly by being able to take advantage of Leo without sentinels in external files.--- Steve Zatz
-</t>
 <t tx="omlalala.20180206205022.800">@language python
 ::
 
@@ -21733,48 +22095,6 @@ Key handlers may also use the **high-level interface**. This is the API used thr
 Each key handler sets vc.return_value indirectly by calling an acceptance method. A simple check in vc.do_key ensures that every key handler, has, in fact, called an acceptance method. In practice, this check has been very effective.
 </t>
 <t tx="omlalala.20180206205022.809"></t>
-<t tx="omlalala.20180206205022.81">"I would never again willingly program without Leo"---Edward K. Ream
-
-From Terry Brown:
-
-    If you're looking for an *environment* which includes a good editor and outliner and is completely scriptable / interactive / "live-code" in Python, then Leo wins hands down. Of course, it's basically alone in this field, as far as I know, but I'm sure it would do well even if it wasn't :-). Take out the Python part, and maybe they're some others out there, but who'd want to take out the Python part :) I guess Emacs is sort of an environment like this, only in Lisp with a prehistoric GUI system.
-
-    Sometimes I've wondered why Leo seems to appeal to people who aren't comfortable in Python, I think now it's because they still recognize the value of an *environment*, and there's just not much in this niche.
-    
-    My feeling, talking generally and not about Leo in particular, is that while not everyone needs to be a "programmer", everyone who uses computers would benefit from being able to interact with them with more of the flexibility and efficiency that comes with even relatively simple "scripting", and less of the limitations that come with the "buy our latest product and you'll be able to do anything you want with a click" view pushed by other suppliers of computing environments.
-
-From Jacob Peck:
-
-    Leo's impact on my life since I found it in January has been substantial.
-
-    Leo allows me to automate my life to a great extent. It is my to-do list, my personal assistant, my address book, my password log, my recipe archive, my rss feed reader (due to rss.py), and my favored editor. It partially powers my blog (along with git, ruby, and heroku), allowing me to create a new blog entry with one click and a bit of editing. Viewrendered (with markdown support!) has changed the way I write READMEs and blog posts. On top of all of that, it has allowed to me to organize several disparate tabletop game design projects I have going, as well as my numerous writing projects. Not to mention the impact it has on my ability to understand and decode large python projects!
-
-    But what really cinches all of this for me is how crazy extensible Leo is. Script buttons in particular are an integral part of my daily workflow, allowing me to transform my productivity over the last month...I'm now a thing-getter-doner, and I find much of it is due to the powerful core of Leo, plus scripting.py and todo.py.
-    
-From Ville M. Vainio:
-    
-    The outliner format helps me organize/reorganize my thoughts gradually, instead of putting everything in the right place from the beginning. I write a lot of body text with few headlines, and Leo's approach leaves lots of space for the body text and therefore suits my workflow. I find that I end up revisiting notes composed on Leo more often than notes slapped into tools like Evernote or random files in the file system.
-
-    With Leo, I can interleave "notes" (most of the content), generated files and even random data and python scripts to manipulate that data. I process this data in various tools, but Leo helps me group it together in "project specific" Leo files.
-
-    I know how to script the outline, so I can easily whip up different tools for my needs that deal with the headline structure directly.
-    
-From Terry Brown:
-
-    Why Leo? Because I have two nodes which were originally identical but are now different and I want to see the differences.
-    
-    My outline loads a @file called ~/.leo/t/gen which contains a @button with several @rclick children for commonly used tasks. I add a new one, @rclick diff::
-    
-        selected = c.getSelectedPositions()
-        open('/tmp/a_diff', 'w').write(selected[0].b)
-        open('/tmp/b_diff', 'w').write(selected[1].b)
-        import os
-        os.system("xxdiff /tmp/a_diff /tmp/b_diff &amp;")
-    
-    which is horrible for a number of reasons but also took only moments to write. And now, not only does this Leo session have a visual node diff capability, but also every future session which loads ~/.leo/t/gen.
-    
-    When you can go from wanting to having a feature in less time than it takes to write an email about it - well, that's "why Leo".
-</t>
 <t tx="omlalala.20180206205022.810">#################
 The Leonine World
 #################
@@ -21977,7 +22297,6 @@ Leading whitespace is allowed (and significant) for::
     @all
     @others
     </t>
-<t tx="omlalala.20180206205022.82"></t>
 <t tx="omlalala.20180206205022.820">For documentation see node: "About this file" in leoSettings.leo::
 
     Command history:    @history-list
@@ -22219,32 +22538,6 @@ v.u (uA's or unknownAttributes or userAttributes) allow plugins or scripts
 to associate persistent data with vnodes. For details see the section about
 `userAttributes &lt;customizing.html#adding-extensible-attributes-to-nodes-and-leo-files&gt;`_ in the `Customizing Leo &lt;customizing.html&gt;`_ chapter.
 </t>
-<t tx="omlalala.20180206205022.83">.. _`slashdot`: http://slashdot.org/comments.pl?sid=38848&amp;amp;cid=4171478
-
-August 28, 2002, on `slashdot`_.
-
-Hello, my full name is David Speed Ream. I am known as Speed to friends and enemies alike, but I gladly answer to David or most any other handle. I am an unabashed and biased fan of Leo, the fact that it was written by my brother Edward only slightly coloring my already colored glasses. I have been testing and using Leo in software production for over 4 years. My company currently has over 50,000 lines of code in over 100 source files that are written using Leo.
-
-My comments are from two points of view, the first being software project manager for a complicated, multi-module software product, and the second being as a production line coder. For me, Leo’s greatest and only real drawback is the learning curve. This learning curve can be shallow if all that is required is that someone code using Leo. However, in our company we allocate 40 to 80 hours *on top* of the normal coding load for someone to come up to speed on Leo. The ROI (return on investment) is calculated by me to be on the order of 3 months. So if I hire a consultant for less than 3 months, I don’t teach him Leo, even though all source code in our company must reside in Leo files for the reasons I won’t go into now.
-
-I consider that my coders are 15 to 30 percent more efficient in their daily operations than my competition’s people. This indefensible claim of mine is based on the changes in my productivity as Leo grew from a test document production tool to the primary production method for all our assembly, c and cpp source code.
-
-Personally, I hate to deal with documentation when I write code, except:
-
-1) When I am first sitting down to solve a new problem. Then the documentation becomes quite long-winded and pontificatory, as if I were the only one on earth smart enough to solve the problem - or
-
-2) When I come back to code I or someone else has written and find the documentation insufficient to understand the code without study (seems to be most of the time).
-
-So I do not require my engineers or myself to do a great job of documentation, nor do I use Leo for that purpose. Rather, it is Leo’s outlining and organizing ability, and Leo’s ability to create source files from within the outline that give me what I think is a tremendous competitive advantage. Each of my company’s products run on all versions of windows from Win 3.1 to XP. In our flagship software piece, there are ten main modules, and each module is maintained by one single Leo file. In the CODEC module, one Leo file named compress.leo organizes and creates seven .asm files, forty-four .c files, twenty .h files, two .def files, four .mak files, etc. etc. etc. This one file can be checked out from source code control and given to an engineer for the addition of a new feature.
-
-In it are contained all the known issues for the CODEC, each issue arranged in its own clone section. One clone section groups together every routine, variable or type definition that must change between different versions of Windows. These sections could be from six different c source files, two assembly files, and eight .h files. Another clone section groups together those sections relating to memory problems, which change according to the memory configuration and TSR configuration (or lack thereof) on the target machine. Another clone section groups sections that fail (or don’t fail) if the routine in question was accidentally run during the dreaded ‘interrupt time’. Another clone section is a section containing clones, each of which is named after the major bug that was fixed when the engineer who fixed the bug grouped a bunch of routines, definitions, etc. together to fix the bug.
-
-None of the above clone sections was ‘designed’ into the document. Just the opposite happens. When the codec was first written, there was just a single Leo file with a bunch of sections for each c routine or assembly module. As the product grew and was tested on various platforms, each failure of the module was organized into clones each time a failure was fixed. This is what I call “SELF DOCUMENTING CODE”. This has nothing to do with me sitting and documenting anything. Its just that the STRUCTURE of a bug fix (or product enhancement) lives on long after the coding is done, as long as no one is foolish enough to delete the cloned sections that ‘DOCUMENT’ what happened.
-
-In actual practice, this organizational ‘history’ is so powerful that I can’t begin to describe it. A ‘REVERSE LEARNING CURVE’ happens when an engineer gets a Leo file that already has the ‘interrupt time sensitive’ routines grouped together by the last unfortunate soul who had to work on them. There may not be any more written documentation, but the knowledge contained in the structure can be breathtaking. It is certainly time saving. I find this particularly true in my own case. Often I’ll look at some code that seems totally unfamiliar and think ‘what idiot wrote this crap’. Then I’ll look at the version control comments and realize that I wrote the crap. Then for sure I know the documentation is non-existent, but the clones I used to develop it are still there, and they always serve to refresh my memory in an indescribable way.
-
-Enough of this commentary, I just looked at the clock. Best wishes to anyone willing to try Leo for a week. I hope you will be glad you did.
-</t>
 <t tx="omlalala.20180206205022.830">**Properties**::
 
     p.b: same as p.v.b.  *Warning*: p.b = s is expensive.
@@ -22442,21 +22735,6 @@ March 5, 1996, is the most important date in Leo's history. While returning from
 
 I hacked a translator called M2C which allowed me to use MORE to write real code. I would write code in MORE, copy the text to the clipboard in MORE format, then run M2C, which would convert the outline into C code. This process was useful, if clumsy. I called the language used in the outline SWEB, for simplified CWEB. Much later Leo started supporting the noweb language.
 </t>
-<t tx="omlalala.20180206205022.84">The Word outlines are very useful. But Leo makes Word look like a clunky toy.
-
-#1 Reason would probably be clone nodes. One node can point to another. Another way of putting this is is that a leaf can be on more than one tree. For example, suppose you have a list of recipes. You simultaneously put a single recipe under multiple categories or even multiple hierarchies. You could put "3 bean enchilada" simultaneously under Recipes-Mexican and Food-Gas. Another example would be, if you are a biologist trying to decide under which genus to put a new species, you could put the species under two simultaneously. In effect, you can build a 3-D tree.
-
-
-#2 Reason would probably be that Leo outlines can be embedded in external text files. So, a Leo outline is more than an outline, it is a meta-structure that can be added to another text without changing that text, but rather providing an external road map to the text. Microsoft Word has a text (xml) version with a commenting convention, so Leo can even be used to add outlines into Word docs, although it isn't set up to do that now. For example, see http://www.3dtree.com/ev/e/sbooks/leo/sbframetoc_ie.htm In this case, the upper window of Leo is the meta-structure, and the bottom window is the file to which the meta-structure is being applied, viewed one node at a time.
-
-I may not have made #2 very clear, but it is actually a very useful feature. It takes some getting used to before one sees all of the possibilities tho. One way to think of it is that Leo allows you to throw external documents into your outline, and yet the external document remains independent and can still be edited separately.
-
-Some other cool things about Leo which Word doesn't feature:
-1. Pure xml output that is easy to transform into other formats (next version of Word will have true XML format, but not as easy to work with). One consequence of this is that Leo files can be transformed pretty easily to web pages with their outlining capability intact.
-2. Easy to add features since is programmed in Python and open source. Maybe your average user can't start hacking on it, but a surprising amount can be tacked on...
-3. Free, opensource, multi-platform
-4. Leo is scriptable with Python. It should be possible to build a Tickler into Leo using Python scripting, for example.
-</t>
 <t tx="omlalala.20180206205022.840">Throughout 1996 I created a version of Leo on the Macintosh in plain C and the native Mac Toolbox. This was a poor choice; I wasted a huge amount of time programming with these primitive tools. However, this effort convinced me that Leo was a great way to program.
 
 Late in 1997 I wrote a Print command to typeset an outline. Printing (Weaving) is supposedly a key feature of literate programming. Imagine my surprise when I realized that such a "beautiful" program listing was almost unintelligible; all the structure inherent in the outline was lost! I saw clearly that typesetting, no matter how well done, is no substitute for explicit structure.
@@ -22516,18 +22794,6 @@ This redundancy greatly simplified the read code and made the structure of exter
 The atFile::createNthChild method is a very important: it ensures that nodes will be correctly inserted into the outline. createNthChild must be bullet-proof if the Read code is to be robust. Note that the write code outputs @node sentinels, that is, section definitions, in the order in which sections are referenced in the outline, not the order in which sections appear in the outline. So createNthChild must insert the n'th node of parent p properly even if p contains fewer than n-1 children! The write code ensures that section references are properly nested: @node sentinels are enclosed in @node sentinels for all their ancestors in the @file tree. createNthChild creates dummy siblings as needed, then replaces the dummy siblings later when their actual definitions, that is, @node sentinels, are encountered.
 
 At this point the fundamental read/write code was complete. I found three minor bugs in the code over the next week or so, but it was clear that the read/write code formed a rock-solid base from which to continue design and implementation. This was an entirely unexpected surprise.
-</t>
-<t tx="omlalala.20180206205022.85">First of all, kudos to you for the excellent progress you've been making with Leo. I upgraded today after about three months of using and older version and I was thrilled to see all the great improvements that have happened so fast. I especially love the ability to go to next clone. I think you're really showing what open source can do and your current trajectory puts you on track to kick Emacs into the dustbin of computing history.
-
-So today I copied all my data (personal information manager and project management stuff) out of my old outliner (ThoughtManager, which syncs with and runs on the Palm) and put it into Leo. It took me hours to do it and then to rearrange it the way I really wanted it. But having the ability to make clones and have different ways to view my data is, as you know, fabulous. In my case, for personal information and project management things, I used the flexibility of clones to allow me to see my data in several different views: 1) by project, the logical hierarchical breakdown by topic, 2) by person, so whenever I'm talking to someone I can easily see all the pending items related to them which may be spread over multiple projects, 3) by priority, so I can see what needs to get done sooner and what can wait for later and, 4) a special case of priority called "Today" for the things I'm going to focus on in the coming hours.
-
-Now here's why I don't miss the ability of my old outliner to sync the entire outline with the Palm. It turns out the main thing I really want in the Palm is the top category "Today" so all I have to do is have Leo flatten that one heading into a text file (and it kindly remembers the name and directory of the file I used last time) and then I'm done because I've told the Palm Hotsync manager that that file should be sent to Palm memo pad every time I sync. The Palm Hotsync manager does a nice job of sending a text file to the Palm memo pad and even breaks the file up into multiple memo records if it's too big to fit in just one. So that gives me enough to be able to browse (or full text search) the small amount of data that I really want right inside my Palm (which is also my cell phone). Quick and dirty but it works.
-
-For times when I want my whole outline with me, Leo wins again because thanks to its cross platform nature I can take my whole outline with me on my Mac iBook, even though I usually edit it on a Windows PC (which is the only kind of machine my old outliner would run on). Quite frankly, although my old outliner was able to shoehorn the whole thing into my palm/cellphone, it was a pain to access it on the small screen and slow processor. Now when I anticipate I'll need the whole thing, for example when I'm going to a meeting, I can put it on my Mac iBook (under X and Fink for now until Python can do it native under Aqua) and have real, full access to it all.
-
-I think now in addition to being great for programming Leo is also a great PIM. Being able to flatten a strategically chosen portion of the outline into a known file name that the Palm sync manager has been told to send to the Palm on every sync does the trick for me. I wonder if you would consider something like an @flatten directive so I can have that done automatically for me every time I save my outline? For now it's up to me to flatten the node I want manually, although once I've done that the transfer to the Palm is automatic.
-
-You're my hero! Thank you so much.
 </t>
 <t tx="omlalala.20180206205022.850">At this point I could read and write external files "by hand", using temporary Read and Write commands. The next step was to integrate the reading and writing of external files with the loading and saving of .leo files. From time to time I made minor changes to the drivers for the read/write code to accommodate the Load and Save code, but at no time did I significantly alter the read or write code itself.
 
@@ -22615,12 +22881,6 @@ Leo 4.2 forms the **great divide** in Leo's internal data structures. Before 4.2
     A much faster and more robust spell checker plugin
     Leo saves t.unknownAttributes in the root nodes of @thin trees
     New iterators</t>
-<t tx="omlalala.20180206205022.86">Another day, another breakthrough using Leo--now I realize Leo is the best URL bookmark manager there is.  No more bookmarks menus or favorites lists inside the browser for me.  With the @url directive I can just double click on the URL to open it in my browser.  Leo lets me arrange the URLs in a hierarchy (or multiple hierarchies), attach notes to them, save clippings of things I read on the sites.  It's sooo much better than anything the browsers have built in and it lets me easily use different browsers on different platforms and different machines (try that with the browsers' built-in bookmark managers).
-
-When using Leo as a project manager and personal information manager as I do I can heavily annotate every task and project with helpful and relevant URLs.  And since URLs can be of the file:// form, they're not just for web pages or HTML documents;  I can link to any file on my disk of any type to be opened by any program.
-
-Leo is a quantum leap for me in terms of how many projects I can manage and how much information I can find and organize and store in a useful way.  I'm a data-mining army of one now and the web is my playground. Every time I find a web page that has interesting links to others, those links get stored in my Leo outline too, right where I can find them and make practical use of them.  I can easily accept dozens of valuable links every day and integrate them into what I'm doing in a way that I'm confidant they won't get lost or forgotten.  Before I always used to get bogged down by the difficulty of managing bookmarks inside the browser.  But now I'm no longer the victim of information overload buried in the knowledge landslide of the Internet;  instead I'm the professional strip miner with the world's biggest bulldozer.  I eagerly plunge into mountains of data and emerge with all the valuable information nuggets neatly stored and organized.  And my storehouse of knowledge is a flexible thing where I can reorganize and prioritize and massage the data to my heart's content as I learn more about it and decide to use it in different ways for different purposes.  It's the difference between the pick axe and the steam shovel for me.
-</t>
 <t tx="omlalala.20180206205022.860">Leo 4.3 final was released May 23, 2005.  This release introduced settings files. These files replaced config.txt and made settings completely extensible and flexible. This release also introduced the ill-fated settings pane. It was soon retired because it inhibited development.
 
 ::
@@ -22709,49 +22969,6 @@ The **Great Graph Aha**: Leo outlines can represent arbitrary directed graphs. T
 </t>
 <t tx="omlalala.20180206205022.868">Leo 4.4.6 final was released January 26, 2008.</t>
 <t tx="omlalala.20180206205022.869">Leo 4.4.7 final was released February 18, 2008.  This release added ipython plugin, the result of an excellent collaboration between EKR and Ville M. Vainio.
-</t>
-<t tx="omlalala.20180206205022.87">This year my accountant is getting a beautiful printout generated by LaTeX and Leo. I have a complicated tax situation this year, but I got it all laid out and organized in Leo. Then I had each of the nodes that had something my accountant needs to see write the data out to a file in the form a LaTeX table.
-
-Sometimes a row of a table would have a result that was calculated by adding up a list of numbers. For that I used the modern day equivalent of an adding machine paper tape--I stored a lisp s-expression in a Leo comment. I like s-expressions for this because once I put the opening "(+" on one line and the closing ")" on another line, I can fill in additional numbers just by typing them and can even annotate them with comments. So in the middle of generating a LaTeX file I might have something like this::
-
-    @
-    (+
-    1165.26 1823.70 ; May 2002
-    123.38 ; June 2002
-    13.50 ; July 2002
-    13.21 ; October 2002
-    55.25 ; November 2002
-    )
-    @c
-
-That's an annotated record of how I arrived at the number the accountant will actually see. I can just paste it into any lisp or scheme interpreter and get the total. Adding additional numbers is easy.
-
-For next year, I think I might take this a step further. What I did this year is good for adding up numbers to get a total for one row of a LaTeX table. But it turns out I'd also like some more processing done on those tables (which I had to do by hand this time--I'd like the rows sorted in reverse order by magnitude (so that the big numbers jump out at you from the start of the tables) and I'd like a total of all the rows in the table. So I think next year, instead of having an s-expression that computes the total of one row for me, I think I'll use s-expressions that generate whole tables, formatted for LaTex, from the underlying data. So I'm thinking next year my s-expressions might look more like this::
-
-    @
-    (table "Widget Related Expenses"
-        ("widget insurance" (+
-                        1165.26 1823.70 ; May 2002
-                        123.38 ; June 2002
-                        13.50 ; July 2002
-                        13.21 ; October 2002
-                        55.25 ; November 2002
-                      ))
-         ("widget shipping" (+
-                        472.15 651.94 ; May 2002
-                        54 ; June 2002
-                       ))
-         ("widget cleaning" (+
-                        165.26 183.70 ; May 2002
-                        123.38 ; June 2002
-                        13.50 ; July 2002
-                        13.21 ; October 2002
-                        55.25 ; November 2002
-                       ))
-    )
-    @c
-
-The job of that "table" function would be to return the LaTeX code needed to display a table with the category names and values, sorted descending by magnitude, with the total displayed. It's sort of a poor man's way of doing a spreadsheet inside Leo and then making it look great using LaTeX. The idea would be as I wanted to add more data, I'd add it to the s-expression and then reevaluate the whole thing by pasting it into a lisp interpreter and then copying the result back into the same Leo node for LaTeX to process.---Dan
 </t>
 <t tx="omlalala.20180206205022.870">Leo 4.4.8 final was released April 6, 2008.
 
@@ -22867,16 +23084,6 @@ Leo now stores "ephemeral" or position-related data *in vnodes*. This was a comp
   Added the LeoQtGui.IdleTime class and the g.IdleTime wrapper
   Leo now honors @language inside @doc parts
   @shadow is deprecated
-</t>
-<t tx="omlalala.20180206205022.88">"Not sure why you said 'you can specify a computer program as an outline like thing in an outliner like setting.' Why not just say, 'write a computer program in an outline?' Is there some nuance I am missing?"---EKR
-
-There are probably a million reasons I said it like that, but I think the main one is my ever present, brightly burning belief that a program should be designed before its coded. Remember those guys, back in the day, who after receiving their programming assignment, would go to the keyboard and start pounding out C code? Remember their finished product? Remember how long it took them to finally complete the project?
-
-Meanwhile, when receiving an assignment, I'd spend hours to days with a bunch of paper, drawing diagrams. By the time I sat down at the terminal, I knew my data structures and algorithms. The hours to days head start of the "start coding immediately" guys evaporated because for me, coding was just a secretarial task, and I was required to do less refactoring, or even worse, kludging. Later, sometimes I'd substitute an outliner for the diagrams on paper; in the days of functional decomposition, an outliner was the perfect fit.
-
-Back to your question: If all I needed to do was **write** a program, I'd just sit down at a computer and start pounding out C or Python or Lua or whatever. But that's not my style. I need to **design** a program, and after all, a design is just a specification of how the program is going to be written.
-
-So it seems to me that I *design* the program on Leo, and then, when the time comes, I flip a switch and Leo *writes* the program for me. That's how I'd view what I've heard about Leo.
 </t>
 <t tx="omlalala.20180206205022.880">I just want to provide my own thoughts about the importance of @clean. I look at the posts in this group a fair amount because I find the discussion interesting but I had abandoned leo as a day-to-day tool principally because of the sentinels in @file nodes. Even for solo projects, I just found them visually unappealing and beyond that occasionally confusing when I went to edit files with external editors. I would sometimes start a project in leo, particularly if it was based on code I developed in the past using leo, and then would use the old @nosent to save a version of the code without sentinels and then use my external editor of choice and not use leo at all. I missed many of the features of leo but just couldn't get over the sentinel issue.
 
@@ -23225,12 +23432,6 @@ Prior to Leo 5.1, Leo used Bernhard Mulder's original algorithm to read @shadow 
 
 In February 2015 EKR realized that the @shadow algorithm could be used to update @clean (@nosent) files. Simplifying the algorithm instantly became a top priority. The new code emerged several days later, made possible by the x.sentinels array. It is an important milestone in Leo's history.
 </t>
-<t tx="omlalala.20180206205022.89">I am a microbiologist mostly analyzing large numbers of bacteria genomes for which I use almost entirely Python tools. A couple of years ago while working at Yale University I gave Leo go for writing Python and organizing my notes with.
-
-Not only do I now use Leo is a central repository for scripts I write as I explore the data, generate plots, start analyses with third party applications etc., but also for storing and organizing ideas for research and notes parsed out of PDFs of academic papers. And that's just for work!
-
-I have a calendar, addresses all my general PIM-type info, and notes for any project I'm tinkering with. In short whether I'm at work or play Leo is usually involved :-)
-</t>
 <t tx="omlalala.20180206205022.890">For simplicity, this discussion will assume that we are updating an
 external file, x, created with @clean x. The update algorithm works
 exactly the same way with @shadow trees.
@@ -23434,11 +23635,6 @@ Here is Leo's main window as it appears on Linux:
 |LinuxMainWindow|
 
 </t>
-<t tx="omlalala.20180206205022.90">A new user recently said to me, "Leo is powerful and flexible--and complex and bewildering". This is true. I believe it is always the goal of developers to make their software less complex and bewildering but keep in mind that Leo has been in development for over 20 years...This puts it right up there with Vim and Emacs in terms of maturity. My own experience with Vim and Emacs have been quite similar to my experience with Leo. All three are powerful and flexible and complex and bewildering in their own right.
-
-I believe with tools of this weight and impact, there will always be an investment in learning them. They're all vast forests of features filled with hidden treasures and in the case of each of them he/she that invests in the tool will be rewarded for their effort. It is, however, the responsibility of the community (led by the developers) to help make that treasure hunt as enjoyable and adventurous as possible, as any good treasure hunt should be. 
-
-And this is where Leo does not falter, in the helpfulness of its community (small though it may be). I will reiterate what Edward has said many times, do not struggle on your own if you are lost, confused, or bewildered. Please ask questions. If the documentation or examples do not meet your needs, please ask questions. In my own experience as a once new user (though there may be the occasional disagreement) you will not be chided, scorned, or belittled but will be met with more even more help than you originally asked for. -- John Lunzer &lt;lunzer@gmail.com&gt;</t>
 <t tx="omlalala.20180206205022.900">Python has almost all the speed of C. Other interpretive environments such as icon and Smalltalk have clarity, power and safety similar to Python. What makes Python unique is its seamless way of making C code look like Python code. Python executes at essentially the speed of C code because most Python modules are written in C. The overhead in calling such modules is negligible. Moreover, if code is too slow, one can always create a C module to do the job.
 
 In fact, Python encourages optimization by moving to higher levels of expression. For example, Leo's Open command reads an XML file. If this command is too slow I can use Python's XML parser module. This will speed up Leo while at the same time raising the level of the code.
@@ -24116,17 +24312,6 @@ View node
     descendant nodes comprise most of the data of the view. Other non-cloned
     nodes may add additional information to the view.
 </t>
-<t tx="omlalala.20180206205022.91">Lately I've been thinking about programming in general. My thoughts have centered on the limits of the human brain to understand computer programs. This was triggered by watching `Inventing on Principle &lt;https://www.youtube.com/watch?v=PUv66718DII&gt;`_. It's a daunting multifaceted concept which I'm sure people spend their entire lives pondering.
-
-Most recently I've been focusing on one facet, abstraction and program "units". I define a "unit" as a part of the program that is considered a piece onto itself which can be labeled and referred to as a whole. Perhaps, as a daily Leo user, this is easy to think about because Leo does its best to coerce programmers and programs into looking at programming through this lens.
-
-Most tools do not ignore this concept all together. Most programming environments have some sort of "outline" window which allows you to view the structure of a program at a higher level. As I have experienced it this "outline" view is always dictated by the features of a language (ex. outline divided up at module, class, function levels). In addition most tools incorporate "code folding" to help a programmer focus on language specific programming units (again, ex. folding at class and function definitions). 
-
-Leo takes this concept to its limit. Leo offers language agnostic abstraction at arbitrary levels. It allows a programmer to structure their program outside of the confines of the programming paradigms of the language they're programming in. Of course it still helps to use the language specific "units" as a guide, in fact this is what Leo does upon import to create an initial outline structure from programs originating outside of Leo. 
-
-I can't ignore the freedom of arbitrary abstraction, and I've come to rely upon it so much that I struggle to use non-Leo environments. It is well known that the human brain has a limited working memory. The act of programming stretches working memory to it's limit. Leo provides an environment in which a program can seamlessly be restructured to fit within the bounds of a programmers individual working memory. 
-
-I realize this is a "why" and not a "how" and that this doesn't help anyone get better acquainted with Leo. But, as a programmer if you've ever felt frustrated with the organizational constructs of the language you're working in you might be surprised to realize that after using Leo it wasn't the language that was the problem, but a lack of tools to organize your programs in a way that makes sense to you.</t>
 <t tx="omlalala.20180206205022.910"></t>
 <t tx="omlalala.20180206205022.911">##################
 What's New in Leo
@@ -24196,44 +24381,6 @@ What's New in Leo
 - Improved the console_gui plugin.
 </t>
 <t tx="omlalala.20180206205022.919">reinstated --trace-shutdown</t>
-<t tx="omlalala.20180206205022.92">I thought I would write my own testimonial. I don't ever do this, as I often roll my eyes at testimonials, but my enthusiasm is at such a degree about Leo, that I must give "props" where props are due.
-
-**BACKGROUND**
-
-**The Beginning**: Coming from being a Java professional in the early aughts, I was used to Netbeans. It was fine I guess. A few years later I decided I wanted to be a web developer.
-
-**Why I sought out a new editor**: I wanted something extensible in FULL. I wanted to make it my own. It is like your home. You move in, it is up to you to make it your "HOME". So is an editor. You spend all of your time with it. It must be YOURS I figure. Comfy like a pair of old shoes.
-
-**HISTORY**
-
-**Ultra-Edit**: This was my first non-ide, IDE. No disrespect to UltraEdit, I am sure it has many awesome features I never used.  I never really got the chance.  I wanted something lightweight and soon found Scite around 2006.
-
-**Notepad++**: Eventually  I found Notepad++ (which I still think is awesome, and would recommend to anyone).  I have been using it for 8 years, and I still do use it occasionally.  Mostly  because  I am still getting used to Leo.
-
-**NOW**
-
-I am at an age now, and a point in my career where I want to make my life (and job) as simple as possible. Leo helps me do that.  It is hard to explain--the outlining gives the ability to mix thoughts with code--even life with code, in a very intuitive fashion. Perhaps this is "literate programming".  I don't know.  They never mentioned that term in my CS classes.  Whatever it is, I like it.
-
-Side benefit--my code has never been so well formatted and documented!
-
-**The thing I personally love most**
-
-As I alluded to, so much ability to extend.  At work, I work on what my boss wants, but at home, I spend most of my time extending Leo.  I have never seen an editor so easy to extend, and believe me, I have evaluated at least 20 editors in the past 5 months. 
-
-That's the thing--anything I want to work a different way, or anything I want to be better, I can do it on my own. I don't have to submit a request. If I at least have enough curiosity to google or ask for a bit of help, I can make it what I want.
-
-You name it.  
-
-- If I would like the log to work differently, or create my own output pane: no problem.
-- If I want to add PHP Unit tests to the menu, no problem.
-- If I want to make a personal organizer, mixed in with my work flow, no problem.
-- If I want to have my python, PHP code, journal, all integrated together so that everything makes sense from 20,000 feet, no problem.
-- If I want to change the entire look and feel...and I mean EVERYTHING...not just some things, no problem.
-- If I want to be able to easily explain the code to a non-technical colleague, no problem.  The outline can be followed by anyone with some degree of intelligence.
-
-You get the idea...
-
-And for me, that means everything.</t>
 <t tx="omlalala.20180206205022.920"></t>
 <t tx="omlalala.20180206205022.921">- A new console gui for Leo.
 - Added git-diff command
@@ -24367,38 +24514,6 @@ Improved the following commands:
 - Ctrl-Shift-&lt; and Ctrl-Shift-&gt; are now bound to indent/unindent-region.
   These can be used when no text is selected.
 - Restored default: @bool check_for_changed_external_files = True</t>
-<t tx="omlalala.20180206205022.93">Leo is a superb tool for understanding, studying and organizing any kind of complex data, including computer programs. The first great Aha in Leo's history was that webs (literate programs) are outlines in disguise. Leo's importers (@auto) make it easy to studying other people's programs. Leo's always-present outline structure clarifies overall program structure and makes many kinds of comments unnecessary.
-
-Leo is also a superb browser for code and data. Unlike many other folding editors, Leo remembers which nodes were expanded when you last saved an outline. This is surprisingly important. And Leo's clones let you organize any data as you want, even if all folds are collapsed.
-
-Leo is a uniquely powerful scripting environment. This power comes from three sources: Leo's API, Leo's ability to compose scripts from outlines and Leo's underlying data structure, a Directed Acyclic Graph, the basis for Leo's clones.
-
-Leo's API consists primarily of generators, such as c.all_positions(), p.self_and_subtree(), etc. and properties, such as p.b, p.h, p.gnx and p.v.u.  Leo's API makes it trivial to write scripts to access or change any node. AFAIK, these capabilities are unique.  Simulating them in vim or Emacs is possible, but so is simulating Python's capabilities in C...
-
-Afaik, no other scripting environment allows you to compose scripts from outlines.  @file, @clean, @auto, @others and section references and definitions make this possible.  Section references and definitions are modeled on the noweb language, but all of Leo's script composition features are fully integrated into Leo's outline structure.
-
-Leo's outline nodes have headlines (p.h) and body text (p.b) and extensible information (p.v.u).  Headlines are descriptions (meta-data) of the data in p.b and p.v.u.  Scripts can rapidly discover and categorize data using metadata.  Leo's @ convention for headlines (@clean, @file, @auto, @html, etc.) show how extensible this node typing is.
-
-So much for the theory.  The following also are important in practice:
-
-- Native scripting in Python, with full access to all of Leo's sources.
-- Leo's plugin architecture.
-- Leo's rst3 command, vim, xemacs and ILeo (IPython bridge), and leoBridge module.
-- Leo's minibuffer commands, borrowed shamelessly from Emacs.
-- @test and @suite: Leo's outline-oriented unit testing framework.
-- @button: bringing scripts to data.
-- Leo's outline-oriented directives.
-
-The invention/discovery of @clean earlier this year completes Leo is some sense.
-
-Acknowledgements: Working with Leo's community of Leo's developers and users has been a great pleasure for over 20 years. My only regret is that Bernhard Mulder and Bob Fitzwater are no longer with us. Both made essential contributions. Bob Fitzwater was my mentor. He gently pushed me to consider design, not just "bit twiddling".  Bernhard Mulder contributed two of the most important elements of Leo: Leo's traversers (generators) and the original @shadow algorithm.  Neither @clean nor the revised Mulder/Ream algorithm could possibly have happened without him.  I miss both these great thinkers.  Both would have been proud of what they helped create.
-
-A successful software tool is one that was used to do something undreamed of by its author.' -- Stephen Johnson
-
-Leo is a wild success on this score. I foresaw none of these developments 20 years ago:  Leo's minibuffer, @button, @test, @auto, @clean, Leo's plugin architecture, the rst3 command, the Leo bridge and the IPython bridge.  Surely many other features and uses could be added. None of these would have happened without Leo's community of brilliant people. These features create the Leonine world.  Who knows what will be the result...
-
-Edward K. Ream
-</t>
 <t tx="omlalala.20180206205022.930"></t>
 <t tx="omlalala.20180206205022.931">- Optionally run pyflakes when saving files.
 - Fixed huge performance bug in syntax coloring. The horrible big text hack is no longer needed.
@@ -24478,16 +24593,6 @@ Improved the clone-marked/copy-marked/move-marked commands.
 
 Removed all static abbrev commands.
 Removed all chapter-* commands except the chapter-select and chapter-select-main commands.
-</t>
-<t tx="omlalala.20180206205022.94">This idea of an always-present outline has been key to me for organizing writings. Some coworkers have found in the past that this helps them when we're correcting their text.
-
-&gt; Leo's clones let you organize any data as you want, even if all folds are collapsed.
-
-For me this is the most powerful but misunderstood feature of Leo. Most of the people which compares it with other IDE rant about why Leo doesn't works more automatically imposing structure, but in Leo you're in charge. You impose infrastructure...
-
-For me the second main insight of Leo (besides emergent always present tree structure on almost any file) was to have a tree that is a programmable structure that can be understood and changed by any node inside that tree. I think that Leo brings structure and self-referentiality to the dumb flat file word. So you can create a tree from one (or several) files, deconstruct and reconstruct it they way you want and automatize the way in behaves and talks with the external world...The more I start to focus on interactive writing and going away of the unix inspired OS world, the more the second insight become important to me. I didn't need to deconstruct/reconstruct or impose structure over flat files but to use outlining for structure thought by (interactive) writing and I need the outline be a fully programmable object. That's the essence of most of my Leo experience...
-
-Thanks for Leo and all the key inspiration it brings. And, as always, thanks to the Leo community for the food for thought.
 </t>
 <t tx="omlalala.20180206205022.940">- Added installer for file associations.
 - Added ``File:Import`` submenu.
@@ -24573,24 +24678,6 @@ Thanks for Leo and all the key inspiration it brings. And, as always, thanks to 
     Optional line numbers in the left gutter
     Themes
     Wildcard file names on Leo's command line
-</t>
-<t tx="omlalala.20180206205022.95">My only input is what makes Leo so special to me.
-
-After learning just a few things about Leo, and after replacing section references mostly with @others, writing code becomes a game rather than a chore.
-
-As soon as an idea becomes complicated, I add a new @others, and break down the complication into chunks until all the complications are now simple.
-
-I'll typically clone that section an the bottom of the outline, then add enough logic at a parent level so that the complication can be tested with control B.
-
-This is my backward implementation of unit testing. This kind of 'unit testing' never has to be refactored when the code is (invariably) improved.
-
-The cloned 'test piece' can be relegated to a testing section, and the new chunks subsequently cloned into whatever structure make real sense for the project.
-
-In practice, this is just fun for me.
-
-Coding without Leo is not really fun any more. I recently finished a c++ socket server using Microsoft's Visual Studio, in concert with someone who didn't have Leo. Microsoft's tools are great, and the project went off without a hitch, but the fun was just plain gone.
-
-Anyway, thanks for the great perspective on Leo.
 </t>
 <t tx="omlalala.20180206205022.950">::
 
@@ -24700,68 +24787,6 @@ http://leoeditor.com/appendices.html#the-mulder-ream-update-algorithm
     New plugins for tagging, display and node evaluation
     
     Leo's default workbook files contains Leo's quickstart guide
-</t>
-<t tx="omlalala.20180206205022.96">
-################
-Acknowledgements
-################
-
-From the movie, My Cousin Vinny::
-
-    Mona Lisa Vito: So what's your problem?
-    Vinny Gambini: My problem is, I wanted to win my first case
-    without any help from anybody.
-    Mona Lisa: Well, I guess that plan's moot.
-    Vinny : Yeah.
-    Mona Lisa: You know, this could be a sign of things to come.
-    You win all your cases, but with somebody else's help, right?
-    You win case after case, and then afterwards you have to go up
-    to somebody and you have to say, "thank you."
-    [pause]
-    Oh my God, what a fucking nightmare! 
-
-Leo owes much of its visual design to MORE, possibly the most elegant computer program ever written. Leo's clone nodes are inspired by MORE.
-
-The following deserve special thanks:
-
-- David Brock wrote TSyntaxMemo, used in early versions of Leo.
-- Terry Brown contributed many important features including Leo's user-modifiable panes, and several important plugins, including bookmarks.py and todo.py. He also pushes back against my foolish ideas.
-- e inspired @button nodes, a truly brilliant idea.
-- The late Bob Fitzwater kept me focused on design. Oh, how I wish he could see today's Leo.
-- Jonathan M. Gilligan showed how to put the Leo icon in Leo's windows.
-- Donald Knuth invented the CWEB language and literate programming.
-- LeoUser (B.H.) contributed numerous plugins, including a prototype for Leo's minibuffer, and wrote jyLeo: Leo in Jython.
-- The late Bernhard Mulder invented the fundamental @shadow algorithm, a stroke of genius. Bernhard also inspired Leo's generators and position class. The one-node world could not have happened without Bernhard.
-- Joe Orr created tutorials and XSLT stylesheets for Leo: http://www.jserv.com/jk_orr/xml/leo.htm.
-- John K. Ousterhout created tcl/Tk, used in early versions of Leo.
-- Tsuchi Noko created transparent icons.
-- Neal Norwitz wrote PyChecker.
-- Marc-Antoine Parent urged me to use XML for Leo's file format and helped improve it.
-- Paul Paterson created the plugin architecture, helped with spell checking and contributed many plugins.
-- François Pinard wrote pymacs.
-- Norman Ramsey created noweb and gave permission to quote from the noweb web documentation.
-- Rich Ries has contributed a huge number of suggestions.
-- Steven P. Schaefer pointed out security problems.
-- Gil Shwartz helped with unicode support.
-- Phil Straus has been a great friend and constant support.
-- Kent Tenney lobbies constantly to make Leo easier to use and understand. His comment opened the door to the one-node world.
-- Guido van Rossum created Python.
-- Dave Winer created MORE.
-- Ville M. Vainio made invaluable contributions, including the one-node world,
-  the IPython bridge code and the contextmenu.py and valuespace.py plugins.
-- Dan Winkler helped support Leo on the Mac.
-
-Special thanks to my family. My brother, David Speed Ream, tested Leo and made many useful suggestions. Rebecca, James and Linda make it all worthwhile. During a conversation with Rebecca I realized that MORE could be used as a prototype for Leo. That was a crucial first step.
-
-The following people reported bugs, answered questions, and made suggestions for improving Leo:
-
-Alex Abacus, Shakeeb Alireze, Steve Allen, Bruce Arnold, Chris Barker, Dennis Benzinger, David Boddie, Jason Breti, Eric Brown, Terry Brown, Darius Clarke, Martin Clifford, Jason Cunliffe, Josef Dalcolmo, Gil Dev, Bill Drissel, Wenshan Du, Allen Edwards, Chris Elliot, Dethe Elza, Reinhard Engle, Mark Engleberg, Roger Erens, Stephen Ferg, Tom Fetherston, Tomaz Ficko, Niklas Frykholm, Fred Gansevles, Jonathan M. Gilligan, Zak Greant, Thomas Guettler, Romain Guy, Dave Hein, Tiago Castro Henriques, Gary Herron, Steve Holden, Klass Holwerda, Matthias Huening, Robert Hustead, John Jacob, Paul Jaros, Christopher P. Jobling, Eric S. Johansson, Garold Johnson, James Kerwin, Nicola Larosa, David LeBlanc, Chris Liechti, Steve Litt, Martin v. Löwis, Robert Low, Fredrik Lundh, Michael Manti, Alex Martelli, Marcus A. Martin, Gidion May, David McNab, Frank Merenda, Martin Montcrieffe, Will Munslow, Lewis Neal, Chad Netzer, Derick van Niekerk, Jeff Nowland, Naud Olivier, Joe Orr, Marc-Antoine Parent, Paul Paterson, Sean Shaleh Perry, Tim Peters, David Priest, Gary Poster, Scott Powell, Bruce Rafnel, Walter H. Rauser, Olivier Ravard, David Speed Ream, Rich Ries, Aharon Robbins, Guido van Rossum, David Rowe, Davide Salomoni, Steven Schaefer,Johannes Schöön, Wolfram Schwenzer, Casey Wong Kam Shun, Gil Shwartz, Jim Sizelove, Paul Snively, Jurjen Stellingwerff, Phil Straus, David Szent-Györgyi, Kent Tenney, Jeffrey Thompson, Gabriel Valiente, Jim Vickroy, Tony Vignaux, Tom van Vleck, Kevin Walzer, Ying-Chao Wang, Cliff Wells, Dan Wharton, John Wiegley, Wim Wijnders, Dan Winkler, Vadim Zeitlin.
-
-The following have contributed plugins to Leo:
-
-Rodrigo Benenson, Pierre Bidon, Felix Breuer, Terry Brown, Mike Crowe, Josef Dalcolmo, Michael Dawson, e, Roger Erens, Andrea Galimberti, Engelbert Gruber, Timo Honkasalo, Jaakko Kourula, Maxim Krikun, Zhang Le, LeoUser, Frédéric Momméja, Bernhard Mulder, Mark Ng, Alexis Gendron Paquette, Paul Paterson, Jacob Peck, Dan Rahmel, Davide Salomoni, Ed Taekema, Kent Tenney, Brian Theado, Ville M. Vainio, Steve Zatz.
-
-The following people have made generous donations to the Leo project: Robert Low, Nic Cave-Lynch.
 </t>
 <t tx="omlalala.20180206205022.960">::
 
@@ -24893,20 +24918,6 @@ Importers and writers can register either @auto-names or file extensions. For ex
     screen_capture.py
     screencast.py
     timestamp.py
-</t>
-<t tx="omlalala.20180206205022.97">#################
-Leo's MIT license
-#################
-
-All parts of Leo are distributed under the following copyright. This is intended to be the same as the MIT license, namely that Leo is absolutely free, even for commercial use, including resale. There is no GNU-like "copyleft" restriction. This license is compatible with the GPL.
-
-**Copyright 1997-2018 by Edward K. Ream. All Rights Reserved.**
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-**THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.**
 </t>
 <t tx="omlalala.20180206205022.970">::
 

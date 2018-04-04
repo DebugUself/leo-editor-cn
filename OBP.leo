@@ -394,10 +394,10 @@
 </v>
 <v t="omlalala.20180206205022.66"><vh>生成主要文档</vh></v>
 </v>
-<v t="omlalala.20180206205022.67"><vh>Preliminaries</vh>
+<v t="omlalala.20180206205022.67"><vh>(100%)Preliminaries</vh>
 <v t="omlalala.20180206205022.68"><vh>@rst docs/preliminaries.html</vh></v>
-<v t="omlalala.20180206205022.69"><vh>(LW:0%)@rst docs/preface.html</vh></v>
-<v t="omlalala.20180206205022.70"><vh>(LW:0%)@rst docs/testimonials.html</vh>
+<v t="omlalala.20180206205022.69"><vh>@rst docs/preface.html</vh></v>
+<v t="omlalala.20180206205022.70"><vh>@rst docs/testimonials.html</vh>
 <v t="omlalala.20180206205022.71"><vh>Leo is revolutionary</vh></v>
 <v t="omlalala.20180206205022.72"><vh>Leo is a showcase Python application</vh></v>
 <v t="omlalala.20180206205022.73"><vh>Leo is fun, even addicting</vh></v>
