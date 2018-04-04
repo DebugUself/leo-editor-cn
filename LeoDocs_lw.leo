@@ -366,8 +366,7 @@
 <v t="ekr.20100805171546.4412"><vh>Web pages</vh>
 <v t="ekr.20101112045055.5065"><vh>@url docs generated from plugin_catalog.py</vh></v>
 <v t="ekr.20131005214621.16088"><vh>Home page</vh>
-<v t="omlalala.20180206203511.1"
-expanded="omlalala.20180206203511.6,omlalala.20180206203511.12,"><vh>@file index.html</vh></v>
+<v t="omlalala.20180206203511.1"><vh>@file index.html</vh></v>
 </v>
 <v t="ekr.20101115152915.4937"><vh>wikipedia entry</vh></v>
 </v>
@@ -6435,13 +6434,13 @@ Python 的 `pip`_ 工具将自动下载 *并* 安装 Leo 和 Leo 的所有依赖
 
     pip install pyqt
 
-4. 安装 Leo 用::
+4. 安装 Leo::
 
     pip install leo
     
 这将下载并安装所需的软件包(PyQt 除外). 
 </t>
-<t tx="livingworld.20180331143158.1">`Anaconda`_ 的科学计算环境包括 Python, NumPy, SciPy, PyQt 和其他上千种工具、软件包和库. 这是一个 500 多 MB 的下载, 但是你保证有所需要的东西. 
+<t tx="livingworld.20180331143158.1">`Anaconda`_ 的科学计算环境包括 Python, NumPy, SciPy, PyQt 和其他上千种工具、软件包和库. 它下载后有 500 +MB, 但物有所值. 
 
 要安装 Leo, 可以从控制台进行操作::
 
@@ -6475,7 +6474,7 @@ Python 的 `pip`_ 工具将自动下载 *并* 安装 Leo 和 Leo 的所有依赖
     brew remove pyqt sip qt
     brew install qt sip pyqt
 
-我(Ludwig)最近收到了一台新的 MacBook Pro, 并对 Mac OS 10.7(Lion) 进行了全新升级. 然后我利用这个机会在一个干净系统上测试了各种软件的安装程序. 我的主要的发现是, 优秀的 Homebrew(mxcl.github.com/homebrew/) 这些天使事情容易多了. 
+我(Ludwig)最近收到了一台新的 MacBook Pro, 并对 Mac OS 10.7(Lion) 进行了全新升级. 然后我利用这个机会在一个干净系统上测试了各种软件的安装程序. 我主要的发现是, 优秀的 Homebrew(mxcl.github.com/homebrew/) 使事情容易多了. 
 
 为什么选择 Homebrew？它并不会尝试用自己的版本, 比如 Macports 或 fink 来替换 Mac 上的每一个功能. 它尽可能重复使用现有的库. 例如, 无需重新安装 Python(当人们试图在 Mac 上安装新软件时, 是我的一个宠物抱怨, 以及许多混乱和痛苦的来源). 它安装到 /usr/local, 这是找到第三方库和标题的标准的位置, 而不是隐藏的 /opt 或 /sw. 使用和扩展都很简单. 
 
@@ -6640,7 +6639,7 @@ Leo 有一个用于 Windows 的二进制安装程序, 可以在 `SourceForge 下
     #!/bin/sh 
     python &lt;leopath&gt;launchLeo.py $1
 
-其中 &lt;leopath&gt; 是指向包含 leo 目录的目录的路径.  
+其中 &lt;leopath&gt; 是指向包含 Leo 文件夹的文件夹路径.  
 
 **Windows**
 
@@ -6648,7 +6647,7 @@ Leo 有一个用于 Windows 的二进制安装程序, 可以在 `SourceForge 下
 
     &lt;path-to-python&gt;/python &lt;path-to-leo&gt;/launchLeo.py %*
 
-这里 &lt;path-to-leo&gt; 是指向 *包含* leo 目录的目录的路径, 即包含 launchLeo.py 的目录. 
+这里 &lt;path-to-leo&gt; 是指向 *包含* leo 文件夹的文件夹路径, 即包含 launchLeo.py 的文件夹. 
 </t>
 <t tx="livingworld.20180331143326.2">第一次启动 Leo 时, 对话框会要求您输入唯一的标识符. 如果您使用的是git等源文件控制系统, 请使用您的的 git 登录名. 否则您的姓名首字母就行了. 
 
@@ -6798,15 +6797,15 @@ write_intermediate_file = True
 下载 Leo
 ###############
 
-有四种下载 Leo 的方法:
+四种下载 Leo 的方法:
 
-- **新**: Leo 5.7 最终将有一个 `Python wheel`_, 所以 ``pip install leo`` 将自动下载 *和* 安装 Leo, 包括 Leo 所有的依赖关系. 请参阅 `用 pip 安装 Leo`_. 
+- **新**: Leo 5.7 终版将有一个 `Python wheel`_, 所以 ``pip install leo`` 将自动下载 *和* 安装 Leo, 包括 Leo 所有的依赖项. 请参阅 `用 pip 安装 Leo`_. 
 
 - 我们建议使用 `git`_ 安装 Leo, 请参阅 `用 git 安装 Leo`_. Git 为您提供最新、彻底测试的代码. 所有的 Leo 开发者都使用 git. 
 
 - 如果您比较喜欢开发版, 或 1, 2, 5, 10, 30 或 90 天之前的版本, 请下载 `每夜快照`_. 
 
-- 如果您想要从 `SourceForge`_ 下载稳定的版本. 记住, 它 *不会* 有最新的功能和错误修复. </t>
+- 如果您想要从 `SourceForge`_ 下载稳定的版本. 记住, 它 *不含* 有最新的功能和错误修复. </t>
 <t tx="omlalala.20180206205022.1000">::
 
     Leo 4.4.6 final released January 26, 2008
@@ -6871,7 +6870,7 @@ write_intermediate_file = True
 
   leo-editor-50c070b715b9fec50c31be5853055a0ebc72cad5.zip
 
-其中 ``50c0...cad5`` 部分是您下载的文件版本的ID或指纹. 除了"最新", 这只是 ``leo-editor-master.zip``. 
+其中 ``50c0...cad5`` 部分是您下载的文件版本的ID或指纹. 除了 "最新", 即只是 ``leo-editor-master.zip``. 
 
 这里有一些直接的下载链接:
 
@@ -6981,7 +6980,7 @@ write_intermediate_file = True
 
 .. _`Leo 的帮助论坛`: http://groups.google.com/group/leo-editor
 
-本章讲述了如何安装和运行 Leo 在 Windows, Linux 和 MacOS. 
+本章介绍在 Windows, Linux 和 MacOS 中, 如何安装和运行 Leo . 
 
 **要点**: 如果你安装Leo有 *任何* 问题, 请向 `Leo 的帮助论坛`_ 寻求帮助. 
 
@@ -25091,10 +25090,10 @@ The above copyright notice and this permission notice shall be included in all c
 #####################
 
 .. _`Python`:                   https://www.python.org/
-.. _`Leo的依赖关系`:       installing.html#依赖项
+.. _`Leo的依赖项`:       installing.html#依赖项
 .. _`Installing Leo using pip`:    installing.html#用-pip-安装-Leo
 
-**概述**: Leo 是一个 `Python`_ 程序. 您必须安装Python本身, `Leo的依赖关系`_, 然后下载并安装Leo自身. 
+**概述**: Leo 是一个 `Python`_ 程序. 您必须安装Python本身, `Leo的依赖项`_, 然后下载并安装Leo自身. 
 
 .. toctree::
    :maxdepth: 4

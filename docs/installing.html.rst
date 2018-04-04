@@ -8,7 +8,7 @@
 
 .. _`Leo 的帮助论坛`: http://groups.google.com/group/leo-editor
 
-本章讲述了如何安装和运行 Leo 在 Windows, Linux 和 MacOS. 
+本章介绍在 Windows, Linux 和 MacOS 中, 如何安装和运行 Leo . 
 
 **要点**: 如果你安装Leo有 *任何* 问题, 请向 `Leo 的帮助论坛`_ 寻求帮助. 
 
@@ -64,7 +64,7 @@ Python 的 `pip`_ 工具将自动下载 *并* 安装 Leo 和 Leo 的所有依赖
 
     pip install pyqt
 
-4. 安装 Leo 用::
+4. 安装 Leo::
 
     pip install leo
     
@@ -217,7 +217,7 @@ Leo 有一个用于 Windows 的二进制安装程序, 可以在 `SourceForge 下
     brew remove pyqt sip qt
     brew install qt sip pyqt
 
-我(Ludwig)最近收到了一台新的 MacBook Pro, 并对 Mac OS 10.7(Lion) 进行了全新升级. 然后我利用这个机会在一个干净系统上测试了各种软件的安装程序. 我的主要的发现是, 优秀的 Homebrew(mxcl.github.com/homebrew/) 这些天使事情容易多了. 
+我(Ludwig)最近收到了一台新的 MacBook Pro, 并对 Mac OS 10.7(Lion) 进行了全新升级. 然后我利用这个机会在一个干净系统上测试了各种软件的安装程序. 我主要的发现是, 优秀的 Homebrew(mxcl.github.com/homebrew/) 使事情容易多了. 
 
 为什么选择 Homebrew？它并不会尝试用自己的版本, 比如 Macports 或 fink 来替换 Mac 上的每一个功能. 它尽可能重复使用现有的库. 例如, 无需重新安装 Python(当人们试图在 Mac 上安装新软件时, 是我的一个宠物抱怨, 以及许多混乱和痛苦的来源). 它安装到 /usr/local, 这是找到第三方库和标题的标准的位置, 而不是隐藏的 /opt 或 /sw. 使用和扩展都很简单. 
 
@@ -275,7 +275,7 @@ Leo 有一个用于 Windows 的二进制安装程序, 可以在 `SourceForge 下
 用 Anaconda 或 Miniconda 安装任何东西
 +++++++++++++++++++++++++++++++++++++++++++++
 
-`Anaconda`_ 的科学计算环境包括 Python, NumPy, SciPy, PyQt 和其他上千种工具、软件包和库. 这是一个 500 多 MB 的下载, 但是你保证有所需要的东西. 
+`Anaconda`_ 的科学计算环境包括 Python, NumPy, SciPy, PyQt 和其他上千种工具、软件包和库. 它下载后有 500 +MB, 但物有所值. 
 
 要安装 Leo, 可以从控制台进行操作::
 

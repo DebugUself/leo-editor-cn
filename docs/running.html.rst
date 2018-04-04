@@ -35,7 +35,7 @@ This chapter tells how to run Leo and discusses Leo's command-line options.
     #!/bin/sh 
     python <leopath>launchLeo.py $1
 
-其中 <leopath> 是指向包含 leo 目录的目录的路径.  
+其中 <leopath> 是指向包含 Leo 文件夹的文件夹路径.  
 
 **Windows**
 
@@ -43,7 +43,7 @@ This chapter tells how to run Leo and discusses Leo's command-line options.
 
     <path-to-python>/python <path-to-leo>/launchLeo.py %*
 
-这里 <path-to-leo> 是指向 *包含* leo 目录的目录的路径, 即包含 launchLeo.py 的目录.
+这里 <path-to-leo> 是指向 *包含* leo 文件夹的文件夹路径, 即包含 launchLeo.py 的文件夹.
 
 第一次运行 Leo
 *******************
