@@ -609,28 +609,28 @@
 </v>
 <v t="omlalala.20180206205022.249"><vh>教程</vh>
 <v t="omlalala.20180206205022.250"><vh>@rst docs\tutorial.html</vh></v>
-<v t="omlalala.20180206205022.251"><vh>@rst docs\tutorial-basics.html</vh>
-<v t="omlalala.20180206205022.252"><vh>Leo's main window</vh></v>
-<v t="omlalala.20180206205022.253"><vh>Commands</vh></v>
-<v t="omlalala.20180206205022.254"><vh>Outlines and clones</vh></v>
-<v t="omlalala.20180206205022.255"><vh>Leo directives</vh></v>
-<v t="omlalala.20180206205022.256"><vh>External files</vh>
-<v t="omlalala.20180206205022.257"><vh>\@file</vh></v>
-<v t="omlalala.20180206205022.258"><vh>Markup</vh></v>
-<v t="omlalala.20180206205022.259"><vh>\@clean</vh></v>
-<v t="omlalala.20180206205022.260"><vh>\@all</vh></v>
+<v t="omlalala.20180404220732.1"><vh>@rst docs\tutorial-basics.html</vh>
+<v t="omlalala.20180404220732.2"><vh>Leo 的主窗口</vh></v>
+<v t="omlalala.20180404220732.3"><vh>命令</vh></v>
+<v t="omlalala.20180404220732.4"><vh>提纲和克隆</vh></v>
+<v t="omlalala.20180404220732.5"><vh>Leo 指令</vh></v>
+<v t="omlalala.20180404220732.6"><vh>外部文件</vh>
+<v t="omlalala.20180404220732.7"><vh>\@file</vh></v>
+<v t="omlalala.20180404220732.8"><vh>标记</vh></v>
+<v t="omlalala.20180404220732.9"><vh>\@clean</vh></v>
+<v t="omlalala.20180404220732.10"><vh>\@all</vh></v>
 </v>
-<v t="omlalala.20180206205022.261"><vh>Configuring Leo</vh></v>
-<v t="omlalala.20180206205022.262"><vh>Plugins</vh></v>
-<v t="omlalala.20180206205022.263"><vh>Scripting basics</vh>
-<v t="omlalala.20180206205022.264"><vh>Scripting markup</vh></v>
-<v t="omlalala.20180206205022.265"><vh>c, g and p</vh></v>
-<v t="omlalala.20180206205022.266"><vh>Accessing outline data</vh></v>
-<v t="omlalala.20180206205022.267"><vh>\@button and @command nodes</vh></v>
-<v t="omlalala.20180206205022.268"><vh>\@test nodes</vh></v>
-<v t="omlalala.20180206205022.269"><vh>Autocompletion and calltips</vh></v>
+<v t="omlalala.20180404220732.11"><vh>配置 Leo</vh></v>
+<v t="omlalala.20180404220732.12"><vh>插件</vh></v>
+<v t="omlalala.20180404220732.13"><vh>脚本基础</vh>
+<v t="omlalala.20180404220732.14"><vh>脚本标记</vh></v>
+<v t="omlalala.20180404220732.15"><vh>c, g 和 p</vh></v>
+<v t="omlalala.20180404220732.16"><vh>访问提纲数据</vh></v>
+<v t="omlalala.20180404220732.17"><vh>\@button 和 @command 节点</vh></v>
+<v t="omlalala.20180404220732.18"><vh>\@test 节点</vh></v>
+<v t="omlalala.20180404220732.19"><vh>自动补全和 calltips</vh></v>
 </v>
-<v t="omlalala.20180206205022.270"><vh>Summary</vh></v>
+<v t="omlalala.20180404220732.20"><vh>总结</vh></v>
 </v>
 <v t="omlalala.20180206205022.271"><vh>@rst docs\tutorial-pim.html</vh>
 <v t="omlalala.20180206205022.272"><vh>Clones</vh></v>
@@ -10781,445 +10781,6 @@ And finally, here is a list of helpful tips:
 Ask for help at `leo-editor &lt;https://groups.google.com/forum/#!forum/leo-editor&gt;`_.
 
 </t>
-<t tx="omlalala.20180206205022.251">.. |---| unicode:: U+02015
-   :trim:
-   
-.. |br| raw:: html
-
-   &lt;br /&gt;
-
-##################
-10 分钟快速上手
-##################
-
-..  "Edward...you've come up with perhaps the most powerful new concept in
-..  code manipulation since VI and Emacs."---David McNab
-    
-This chapter introduces Leo's most important features and terminology.
-
-.. contents:: Contents
-    :depth: 3
-    :local:
-
-</t>
-<t tx="omlalala.20180206205022.252">下面是 Leo 主界面的截屏:
-
-.. image:: screen-shots/leo-workbook.png
-   :alt: Screenshot
-   
-.. index::
-    pair: Body pane; Tutorial
-    pair: Expansion box; Tutorial
-    pair: Icon area; Tutorial
-    pair: Log pane; Tutorial
-    pair: Main Window; Tutorial
-    pair: Outline pane; Tutorial
-    pair: Status line; Tutorial
-
-Leo's main window consists of an **icon area** just below the menus, an **outline pane** at the top left, a **log pane** at the top right, a **body pane** at the bottom left, and an optional **viewrendered pane** at the bottom right. The **minibuffer** and **status line** lie at the bottom of the main window.
-
-The log pane contains several tabs. The **Log tab** shows messages from Leo, the **Find Tab** shows the status of Leo's Find/Replace commands. Other tabs may also appear in the log pane: The **Spell Tab** controls Leo's spell-checking. The **Completion Tab** shows available typing completions.
-
-.. index::
-    pair: Icon box; Tutorial
-    pair: Node; Tutorial
-    pair: Headline; Tutorial
-    pair: Body text; Tutorial
-
-Leo stores all data in **nodes**. Nodes have **headlines**, shown in the outline pane, and **body text**. The body pane shows the body text of the **presently selected node**, the node whose headline is selected in the outline pane.  Headlines have an **icon box** indicating a nodes status. For example, the icon box has a black border when the node has been changed. 
-
-</t>
-<t tx="omlalala.20180206205022.253">.. _`Leo's Command Reference`: commands.html
-.. _`Leo's minibuffer`: commands.html#executing-commands-from-the-minibuffer
-.. _`typing completion`: commands.html#executing-commands-from-the-minibuffer
-.. _`key bindings`: commands.html#key-reference
-.. _`Emacs minibuffer`: https://www.gnu.org/software/emacs/manual/html_node/emacs/Minibuffer.html 
-
-Leo has hundreds of commands, described in `Leo's Command Reference`_. **Very important**: You can (and should) ignore most of these commands at first. You execute commands using `key bindings`_ or *by name* in `Leo's minibuffer`_, similar to the `Emacs minibuffer`_.
-
-You could type the full command name in the minibuffer, followed by the ``&lt;Return&gt;`` key to invoke the command, but that would be *way* too much work. Instead, you should use **typing completion** to avoid most typing. For example, you can execute the sort-lines commands this way::
-
-    &lt;Alt-X&gt;so&lt;Tab&gt;
-    
-Now the minibuffer will list common prefix of all commands that start with "so", namely::
-
-    sort-
-    
-After typing l&lt;Tab&gt; the minibuffer will contain::
-
-    sort-lines
-    
-Now, just type &lt;Return&gt; to execute the command.  Typing completion quickly becomes second nature.
-
-**Very important**: There is no need to remember the exact names of Leo’s commands. Instead, you only need to remember a few common command prefixes, such as::
-
-    clone-find  clone-find commands
-    file-       file commands
-    find-       find commands
-    isearch-    incremental search commands
-    leo-        open .leo files
-    open-       open files or url's
-    print-      print commands
-    sort-       sort commands
-    toggle-     toggle settings commands
-    
-The following commands pertain to the minibuffer itself:
-    
-``Alt-X (full-command)``
-    Executes any other command by typing its full name.
-    
-``Ctrl-P (repeat-complex-command``
-    Repeats the last command entered by name in the minibuffer.
-    
-When in the minibuffer, the following keys are treated in special ways:
-
-``&lt;Return&gt;``
-    Executes the command.
-
-``&lt;Tab&gt;``
-    Shows all valid completions.
-
-``&lt;BackSpace&gt;``
-    Shows more completions.
-    
-``Ctrl-G``
-    Exits the minibuffer and puts focus in the body pane.
-    
-``UpArrow``
-    Moves backward through command history. The first ``UpArrow`` is the same as ``Ctrl-P``.
-
-``DownArrow``
-    Moves forward through command history.
-</t>
-<t tx="omlalala.20180206205022.254">.. _`full-featured outliner`: commands.html#outline-commands
-
-Leo is a `full-featured outliner`_, with commands to insert, delete, move, hoist, promote and demote nodes.
-
-**Clones** are a unique feature of Leo. Any outline node may be cloned. Cloned nodes are actually the *same* node, but they appear in different places in the outline. Changes to any clone affect all other clones of that node, *including their descendants*. For example, suppose the A` nodes are clones of each other::
-
-    - A`
-        - B
-        - C
-    - D
-    - A`
-        - B
-        - C
-        
-Moving C right gives this outline::
-
-    - A`
-        - B
-            - C
-    - D
-    - A`
-        - B
-            - C
-            
-.. _`clone-find commands`:
-            
-Clones allow you to create multiple views of data within a single outline. For example, Leo's `clone-find commands`_ create clones of all found nodes, moving the newly-created clones so they are all children of an **organizer node** describing the search. The organizer node is a new view of the outline's data, one focused on the found nodes!
-</t>
-<t tx="omlalala.20180206205022.255">.. index::
-   pair: Directive; Tutorial
-
-Leo **directives** control Leo's operations. Directives start with ``@`` in the leftmost column of body text. Directives **apply to descendants** until overridden in descendant nodes.
-
-.. index::
-    pair: @color; Tutorial
-    pair: @nocolor; Tutorial
-    pair: @nocolor-node; Tutorial
-
-The **@color**, **nocolor** and **nocolor-node** directives control syntax coloring. **Note**: Nodes containing multiple color directives do *not* affect coloring of descendant nodes::
-
-    @color
-    @nocolor
-    @nocolor-node
-    
-.. index::
-    pair: @language; Tutorial
-
-The **@language** directive tells which language is in effect::
-
-    @language python
-    @language c
-    @language rest # restructured text
-    @language plain # plain text: no syntax coloring.
-
-.. index::
-    pair: @pagewidth; Tutorial
-    pair: @tabwidth; Tutorial
-    pair: Negative tab width; Tutorial
-
-The **@pagewidth** directive set page width (used when formatting paragraphs). The **@tabwidth** directive controls tabbing. Negative tab widths (recommended for Python) convert tabs to spaces::
-
-    @pagewidth 100
-    @tabwidth -4
-    @tabwidth 8
-
-.. index::
-    pair: @wrap; Tutorial
-    pair: @nowrap; Tutorial
-    
-The **@wrap** and **@nowrap** enable or disable line wrapping in the body pane::
-
-    @nowrap
-    @wrap
-    
-The **@first** directive ensures that lines appear at the very start of an external file. See the next section. Multiple @first directives are allowed. These directives must be the *very first* lines of body text::
-
-    @first # -*- coding: utf-8 -*-
-    @first #! /usr/bin/env python
-    
-.. _`directives reference page`: directives.html
-    
-Leo has many other directives, described in the `directives reference page`_.
-
-</t>
-<t tx="omlalala.20180206205022.256">Leo outlines can refer to **external files**, files on your file system. Leo quickly loads the files when opening Leo outlines. The following sections discuss only the basics.  See `Leo's Reference Guide &lt;directives.html&gt;`_ for full details.
-</t>
-<t tx="omlalala.20180206205022.257">.. index::
-    pair: @file node; Tutorial
-
-An **@file node** is a node whose headline starts with `@file` followed by a path to an external file::
-
-    @file leoNodes.py
-    @file ../../notes.txt
-
-The @file node and its descendants represent an external file. Leo updates @file nodes when you change external files outside of Leo. When saving an outline, Leo writes all changed @file trees to their external files.</t>
-<t tx="omlalala.20180206205022.258">.. in tutorial-basics.html (External files)
-
-.. index::
-    pair: Markup; Tutorial
-
-Leo's **markup** tells Leo how to create external files from @file trees. Markup may appear in any body text, and *must* appear in the body of the @file node itself.
-
-There are two kinds of markup: **section references** (&lt;&lt; this is my section &gt;&gt;) and the **@others** directive. Section references refer to **named nodes**, nodes whose *headlines* look like a section reference. @others refers to all *other* (unnamed) nodes. Here is the body text of a typical @file node for a python file::
-
-    @first # -*- coding: utf-8 -*-
-    '''whatever.py'''
-    &lt;&lt; imports &gt;&gt;
-    @others
-    # That's all, folks
-    @language python
-    @tabwidth
-    
-Child nodes must define the &lt;&lt; import &gt;&gt; node and the methods of the Controller class.
-
-When writing this file, Leo writes the first two lines::
-
-    @first # -*- coding: utf-8 -*-
-    '''whatever.py'''
-    
-followed by the *body text* of the &lt;&lt; imports&gt;&gt; node, followed by the body text of all *other* nodes, in outline order, followed by the comment # That's all, folks.
-</t>
-<t tx="omlalala.20180206205022.259">.. index::
-    pair: @clean; Tutorial
-
-When writing **file trees**, Leo writes **sentinel comments** into external files. These comments represent outline structure. When writing an @file tree to a .leo file, Leo writes only the root @file node. To avoid sentinels, use **@clean** instead of @file::
-
-    @clean leoNodes.py
-    @clean ../../notes.txt
-    
-There is a small cost to @clean: Leo saves the entire @clean tree in the .leo file.
-</t>
-<t tx="omlalala.20180206205022.260">.. index::
-    pair: @all; Tutorial
-    pair: Outline Order; Tutorial
-
-The **@all** directive tells Leo to write the nodes of an **@file tree** to the external file, *ignoring* all markup. As a result, Leo writes nodes to the file in **outline order**, the order in which they appear in the outline when all nodes are expanded.
-</t>
-<t tx="omlalala.20180206205022.261">.. index::
-    pair: leoSettings.leo; Tutorial
-    pair: Global Settings; Tutorial
-    pair: myLeoSettings.leo; Tutorial
-    pair: Personal Settings; Tutorial
-    pair: Local Settings; Tutorial
-    pair: Configuration file; Tutorial
-    
-Leo uses outlines for just about *everything*, including configuring Leo:
-
-- **leo/config/leoSettings.leo** contains Leo's default **global settings**. Don't change this file unless you are one of Leo's developers.
-   
-- **~/myLeoSettings.leo** contains your **personal settings**. Leo will not create this file automatically: you should create it yourself. Settings in myLeoSettings.leo override (or add to) the default settings in leoSettings.leo.
-   
-- Any other .leo file may also contain **local settings**. Local settings apply only to that file and override all other settings.
-
-**Settings nodes** specify settings.  These nodes *must* be descendants of an **@settings** node. Moving a settings node out from the @settings tree disables the setting. Headlines start with @ followed by a type, and possibly a value.  Here are some examples, with body text shown indented from headlines::
-
-    @bool vim_mode = False
-    
-    @color flash_brackets_background_color = red
-    
-    @data global-abbreviations
-        # Body text contains abbreviations.
-        date;;={|{x=time.strftime("%Y/%m/%d")}|}
-        trace;;=trace = &lt;|bool|&gt; and not g.unitTesting
-        al;;=@language
-        alh;;=@language html\n
-        alj;;=@language javascript\n
-        alm;;=@language md\n
-        alp;;=@language python\n
-        alr;;=@language rest\n@wrap\n
-        nc;;=@nocolor\n
-        ncn;;=@nocolor-node\n
-    
-    @string script_file_path = ../test/scriptFile.py
-
-    @enabled-plugins
-        # a list of enabled plugins
-        plugins_menu.py
-        free_layout.py
-        mod_scripting.py
-        backlink.py
-        bigdash.py
-        bookmarks.py
-        contextmenu.py
-
-    @shortcuts
-        # body text contains personal key bindings
-        file-open-by-name   = Ctrl-O
-        save-all            = Ctrl-S
-        
-.. _`configuration guide`: customizing.html
-
-For more information, see Leo's `configuration guide`_.
-</t>
-<t tx="omlalala.20180206205022.262">.. _`bookmarks.py`:     plugins.html#bookmarks-py
-.. _`contextmenu.py`:   plugins.html#contextmenu-py
-.. _`mod_scripting.py`: plugins.html#mod-scripting-py
-.. _`quicksearch.py`:   plugins.html#quicksearch-py
-.. _`todo.py`:          plugins.html#todo-py
-.. _`valuespace.py`:    plugins.html#valuespace-py
-.. _`viewrendered.py`:  plugins.html#viewrendered-py
-
-.. index::
-    pair: Plugins; Tutorial
-
-`Leo plugins &lt;plugins.html&gt;`_ are Python programs that extend what Leo can do. Plugins reside in the leo/plugins folder. **@enabled-plugins** settings node enable plugins. Leo has dozens of plugins, including:
-
-- `bookmarks.py`_ manages and shows bookmarks.
-- `contextmenu.py`_ shows a context menu when you right-click a headline.
-- `mod_scripting.py`_ supports @button and @command nodes.
-- `quicksearch.py`_ Adds Nav tab for searching.
-- `todo.py`_ provides to-do list and simple project-management capabilities.
-- `valuespace.py`_ adds outline-oriented spreadsheet capabilities.
-- `viewrendered.py`_ creates the rendering pane and renders content in it.
-</t>
-<t tx="omlalala.20180206205022.263">Non-programmers: feel free to skip this part.</t>
-<t tx="omlalala.20180206205022.264">.. in tutorial-basics.html (Scripting basics)
-
-Leo's markup applies to scripts as well as external files. Leo's execute-script command **composes** the script from the selected node, using Leo's markup. For example: this body text defines the top-level part of a script::
-
-    '''My script'''
-    &lt;&lt; imports &gt;&gt;
-    class Controller:
-        # Child nodes define the methods of this class.
-        @others
-    Controller(c).run # c *is* defined.
-
-**Important**: Leo recognizes section references *everywhere*, even inside strings or comments. See `this FAQ entry &lt;FAQ.html#what-about-code-that-looks-like-a-section-reference&gt;`_.</t>
-<t tx="omlalala.20180206205022.265">.. _`commander`: tutorial-basics.html#accessing-outline-data
-.. _`position`: tutorial-scripting.html#positions-and-vnodes
-
-The execute-script command pre-defines three names: c, g, and p. **c** is the `commander`_ of the outline in which the script executes. **g** is the ``leo.core.leoGlobals`` module, containing dozens of useful functions and classes.  **p** is the `position`_ of the presently selected node.
-</t>
-<t tx="omlalala.20180206205022.266">The **Commander class** defines both a scripting API and a DOM (Document Object Module) giving *complete* access to all data in an outline.  For example::
-
-    '''
-        Print all headlines of the outline, properly indented,
-        with the number of characters in each node's body text.
-    '''
-    # c.all_positions() is a python generator yielding all positions, in outline order.
-    for p in c.all_positions():
-        print('%3s %s %s' % (
-            len(p.b),       # p.b is p's body text.
-            ' '*p.level(),  # p.level() is p's indentation level.
-            p.h,            # p.h is p's headline.
-        )
-
-.. _`scripting tutorial`: tutorial-scripting.html
-
-For more information, see Leo's `scripting tutorial`_.</t>
-<t tx="omlalala.20180206205022.267">.. index::
-    pair: Script Button; Tutorial
-    pair: @button Node; Tutorial
-    pair: @command Node; Tutorial
-
-**@command nodes** define a command. Running the command runs a script that can be applied to any outline node. That is, p is bound to the presently selected node, *not* the @button node. **@button nodes** work the same way, and in addition create a button in the icon area. Pressing that button runs the command. For example, this node defines the print-tree command bound to Ctrl-9::
-
-    @command print-tree @key=Ctrl-9 # in the headline
-    
-    '''
-        Print all headlines of the selected subtree, properly indented,
-        with the number of characters in each node's body text.
-    '''
-    # p.self_and_subtree() is a python generator yielding p and
-    # all positions in p's subtree, in outline order.
-    for p in p.self.and_subtree():
-        print('%3s %s %s' % (
-            len(p.b),       # p.b is position p's body text.
-            ' '*p.level(),  # p.level() is p's indentation level.
-            p.h,            # p.h is p's headline.
-        )
-        
-.. index::
-    pair: @test Node; Tutorial</t>
-<t tx="omlalala.20180206205022.268">**@test nodes** create unit tests. @test nodes automatically convert the body to a subclass of unittest.TestCase. Run these tests with one of Leo's ``run-unit-test-`` commands. ``&lt;Alt-X&gt;run&lt;tab&gt;`` gives the full list. Here one of Leo's actual unit tests::
-
-    @test c.positionExists for all nodes # In the headline
-
-    for p in c.all_positions():
-        assert c.positionExists(p)
-    
-Within @test nodes, c, g, and p are predefined as usual. In addition, **self** is the instance of unittest.TestCase created by the @test node. For example::
-  
-    self.assertTrue(g)
-    
-For more details, see `Leo's unit-testing reference &lt;unitTesting.html&gt;`_.
-</t>
-<t tx="omlalala.20180206205022.269">**Autocompletion** reminds you of all members (functions, methods, ivars, etc.) contained in objects in Leo's source code, and in Python's standard library modules. ``Alt-1 (toggle-autocompleter)`` enables and disables autocompletion. **Note**: Autocompletion can be enabled only when @language python is in effect.
-
-For example, typing just "c.atF" (in the body pane, with autocompletion enabled) automatically inserts "c.atFileCommands" into the body pane, because "c.atFileCommands" is the only possible completion of "c.atF".
-
-As another example, typing "at.writeA" will show (in an autocompleter tab in the Log pane) all of the write commands in leoAtFile.py::
-
-    writeAll:method
-    writeAllHelper:method
-    writeAtAutoNodes:method
-    writeAtAutoNodesHelper:method
-    writeAtShadowNodes:method
-    writeAtShadowNodesHelper:method
-
-When a single completion is shown, typing '?' will show the docstring for a method. For example, "c.atFileCommands.write?" shows::
-
-    Write a 4.x derived file.
-    root is the position of an @&lt;file&gt; node
-    
-**Calltips** show the expected arguments to functions and methods. ``Alt-2 (toggle-calltips)`` enables and disables calltips. ``(`` shows calltips, when @language python is in effect.
-``&lt;Return&gt;`` or ``Ctrl-G (keyboard-quit)`` exits calltips. Calltips work for any Python function or method, including Python's global functions. Examples::
-
-    g.toUnicode(            g.toUnicode(s, encoding, reportErrors=False
-    c.widgetWantsFocusNow(  c.widgetWantsFocusNow(w
-    reduce(                 reduce(function, sequence[, initial]) -&gt; value</t>
-<t tx="omlalala.20180206205022.270">Leo is a full-featured outliner with the following special features:
-
-- Directives control how Leo works.
-- @file and @clean nodes create external files.
-- myLeoSettings.leo specifies your personal settings.
-- Plugins extend Leo. @enabled-plugins settings nodes enable plugins.
-
-For programmers:
-
-- Leo has an easy-to-use scripting API, giving full access to all data in the outline.
-- @button and @command nodes define scripts that can be applied to *other* nodes.
-- @test nodes create unit tests.
-- Alt-1 enables autocompletion.
-
-.. _`ask for help`: https://groups.google.com/forum/#!forum/leo-editor
-.. _`Leo's Command Reference`: commands.html
-
-Leo has hundreds of commands, described in `Leo's Command Reference`_. Please feel free to `ask for help`_ at any time.
-</t>
 <t tx="omlalala.20180206205022.271">.. |---| unicode:: U+02015 .. for quotes
    :trim:
    
@@ -11474,7 +11035,7 @@ rst3 命令在输出文件的同一目录下生成 **中间文件 (intermediate 
 
 myDocument.html.txt 是 shpinx 的 **输入** 文件.
 </t>
-<t tx="omlalala.20180206205022.285">在 @rst 节点的内容文本中, 输入::
+<t tx="omlalala.20180206205022.285">在 @rst 节点的正文中, 输入::
 
     #############
     战争与和平
@@ -11486,8 +11047,7 @@ rST 标记使用 上/下划线(over/underlining) 表示单元标题. 在标题(�
 - 上/下划线所含字符数, 必须不少于标题所含字符数
 - 上划线符号与下划线符号必须相同
 
-另外, rst3 命令要求单元标题的上/下划线使用 "#" 字符.
-</t>
+另外, rst3 命令要求单元标题的上/下划线使用 "#" 字符.</t>
 <t tx="omlalala.20180206205022.286">在 @rst 节点本身的正文中, 输入开篇语:
 
     "Well, Prince, so Genoa and Lucca are now just family estates of the
@@ -25206,6 +24766,444 @@ Downloading, Installing &amp; Running Leo
     The IPython bridge (ipython plugin)
 </t>
 <t tx="omlalala.20180206205022.999"></t>
+<t tx="omlalala.20180404220732.1">.. |---| unicode:: U+02015
+   :trim:
+   
+.. |br| raw:: html
+
+   &lt;br /&gt;
+
+##################
+10 分钟体验 Leo
+##################
+
+..  "Edward...you've come up with perhaps the most powerful new concept in
+..  code manipulation since VI and Emacs."---David McNab
+    
+本章介绍 Leo 最重要的特性和概念.
+
+.. contents:: 目录
+    :depth: 3
+    :local:
+
+</t>
+<t tx="omlalala.20180404220732.10">.. index::
+    pair: @all; Tutorial
+    pair: Outline Order; Tutorial
+
+**@all** 指令使 Leo 将 **@file 树** 的节点写入外部文件, *忽视* 所有标记. 结果, Leo 将节点按照 **提纲顺序** 写入文件, 即所有节点在提纲中展开时的顺序.</t>
+<t tx="omlalala.20180404220732.11">.. index::
+    pair: leoSettings.leo; Tutorial
+    pair: Global Settings; Tutorial
+    pair: myLeoSettings.leo; Tutorial
+    pair: Personal Settings; Tutorial
+    pair: Local Settings; Tutorial
+    pair: Configuration file; Tutorial
+    
+Leo 对几乎 *所有* 操作均使用提纲, 包括配置 Leo:
+
+- **leo/config/leoSettings.leo** 包含了 Leo 的默认 **全局设置**. 除非你是 Leo 的开发人员, 否则不要修改这个文件.
+
+- **~/myLeoSettings.leo** 包含你的 **个人设置**. Leo 不会自动创建此文件: 你应自己创建. myLeoSetting.leo 中的设置, 将覆盖 (增补) leoSettings.leo 中的默认设置.
+
+- 其他 .leo 文件也可能包含 **本地设置**. 本地设置仅适用于那个文件, 且覆盖所有其他设置.
+
+**设置节点** 指定设置. 这些节点 *必须* 是 **@settings** 节点的后代. 从 @settings 树移出设置节点, 将取消设置. 标题以 @ 开头, 后跟类型或值. 举例如下, 其中正文在标题下缩进::
+
+    @bool vim_mode = False
+    
+    @color flash_brackets_background_color = red
+    
+    @data global-abbreviations
+        # 正文包含缩写.
+        date;;={|{x=time.strftime("%Y/%m/%d")}|}
+        trace;;=trace = &lt;|bool|&gt; and not g.unitTesting
+        al;;=@language
+        alh;;=@language html\n
+        alj;;=@language javascript\n
+        alm;;=@language md\n
+        alp;;=@language python\n
+        alr;;=@language rest\n@wrap\n
+        nc;;=@nocolor\n
+        ncn;;=@nocolor-node\n
+    
+    @string script_file_path = ../test/scriptFile.py
+
+    @enabled-plugins
+        # 可使用的插件列表
+        plugins_menu.py
+        free_layout.py
+        mod_scripting.py
+        backlink.py
+        bigdash.py
+        bookmarks.py
+        contextmenu.py
+
+    @shortcuts
+        # 正文包含个人按键绑定
+        file-open-by-name   = Ctrl-O
+        save-all            = Ctrl-S
+        
+.. _`配置指南`: customizing.html
+
+更多信息, 请移步 Leo 的 `配置指南`_.</t>
+<t tx="omlalala.20180404220732.12">.. _`bookmarks.py`:     plugins.html#bookmarks-py
+.. _`contextmenu.py`:   plugins.html#contextmenu-py
+.. _`mod_scripting.py`: plugins.html#mod-scripting-py
+.. _`quicksearch.py`:   plugins.html#quicksearch-py
+.. _`todo.py`:          plugins.html#todo-py
+.. _`valuespace.py`:    plugins.html#valuespace-py
+.. _`viewrendered.py`:  plugins.html#viewrendered-py
+
+.. index::
+    pair: Plugins; Tutorial
+
+`Leo 插件 &lt;plugins.html&gt;`_  是 Python 程序, 扩展了 Leo 的功能. 插件存放在 leo/plugins 文件夹. **@enabled-plugins** 设置节点开启插件. Leo 有很多插件, 包括:
+
+- `bookmarks.py`_ 管理和显示书签.
+- `contextmenu.py`_ 右击标题显示文本菜单.
+- `mod_scripting.py`_ 支持 @button 和 @command 节点.
+- `quicksearch.py`_ 增加 Nav 标签搜索.
+- `todo.py`_  提供待办事项清单和简单的项目管理功能.
+- `valuespace.py`_  增加提纲导向的表格功能.
+- `viewrendered.py`_  创建呈现窗格以及其中的内容.</t>
+<t tx="omlalala.20180404220732.13">非程序员: 随意跳过这部分.</t>
+<t tx="omlalala.20180404220732.14">.. in tutorial-basics.html (Scripting basics)
+
+Leo 的标记适用于脚本和外部文件. Leo 的 execute-script (执行脚本) 命令, 使用标记, 从选定的节点中 **组成** 脚本. 例如: 此正文定义了一个脚本的头部分::
+
+    '''My script'''
+    &lt;&lt; imports &gt;&gt;
+    class Controller:
+        # 子节点定义此类的方法.
+        @others
+    Controller(c).run # c *is* defined.
+
+**重要**: Leo 在任何地方都可识别章节索引, 即使在字符串或评论内. 请移步 `这个 FAQ 入口 &lt;http://leoeditor.com/FAQ.html#what-about-code-that-looks-like-a-section-reference&gt;`_.</t>
+<t tx="omlalala.20180404220732.15">.. _`指挥官`: tutorial-basics.html#accessing-outline-data
+.. _`位置`: tutorial-scripting.html#positions-and-vnodes
+
+execute-script 命令预先定义了三个名称: c, g 和 p. **c** 是执行脚本的提纲的 `指挥官`_. **g** 是 ``leo.core.leoGlobals`` 模块, 包含很多有用的函数和类. **p** 是当前选定节点的 `位置`_
+</t>
+<t tx="omlalala.20180404220732.16">** Commander 类** 同时定义了一个脚本 API 和 DOM (文档对象模块), 后者可以 *完全* 访问提纲中的所有数据.
+例如:
+
+    '''
+        打印提纲的所有标题, 正确缩进, 
+        以及每个节点正文的字符个数.
+    '''
+    # c.all_positions() 是一个 Python 生成器, 按提纲顺序, 生成所有位置.
+    for p in c.all_positions():
+        print('%3s %s %s' % (
+            len(p.b),       # p.b is p's body text.
+            ' '*p.level(),  # p.level() is p's indentation level.
+            p.h,            # p.h is p's headline.
+        )
+
+.. _`脚本教程`: tutorial-scripting.html
+
+更多信息, 请移步 Leo 的 `脚本教程`_.</t>
+<t tx="omlalala.20180404220732.17">.. index::
+    pair: Script Button; Tutorial
+    pair: @button Node; Tutorial
+    pair: @command Node; Tutorial
+
+**@command 节点** 定义命令. 运行命令所执行的脚本, 可适用于其他任何提纲节点. 即, p 与当前选择的节点捆绑, 而 *不是* @button 节点. **@button 节点** 同样运作, 同时在图标区域创建一个按钮. 点击那个按钮执行命令. 例如, 下面节点定义了 打印树 命令, 并与 Ctrl-9 捆绑::
+
+    @command print-tree @key=Ctrl-9 # 标题
+    
+    '''
+        打印所选子树的所有标题, 正确缩进, 
+        以及每个节点正文的字符个数.
+    '''
+    # p.self_and_subtree() 是一个 python 生成器, 按提纲顺序, 
+    # 生成 p 和 p 的子树的所有位置.
+    for p in p.self.and_subtree():
+        print('%3s %s %s' % (
+            len(p.b),       # p.b 是 p 的正文
+            ' '*p.level(),  # p.level() 是 p 的缩进级别
+            p.h,            # p.h 是 p 的标题
+        )
+        
+.. index::
+    pair: @test Node; Tutorial</t>
+<t tx="omlalala.20180404220732.18">**@test nodes** 创建单元测试. @test 节点自动将正文转换成一个单元测试的子类. 使用 Leo 的 ``run-unit-test-`` 命令运行这些测试. ``&lt;Alt-X&gt;run&lt;tab&gt;`` 提供完整列表. 下面是 Leo 的实际单元测试::
+
+    @test c.positionExists for all nodes # 标题
+
+    for p in c.all_positions():
+        assert c.positionExists(p)
+    
+在 @test 节点中, c, g 和 p 同样已预定义. 另外, **self** 是单元测试的实例. TestCase 由 @test 节点创建. 例如::
+  
+    self.assertTrue(g)
+    
+更多细节, 请移步 `Leo 的单元测试索引 &lt;unitTesting.html&gt;`_.
+</t>
+<t tx="omlalala.20180404220732.19">**自动补全** 提醒你所有包含在 Leo 源代码对象中的成员(函数, 方法, 变量等), 以及 Python 的标准库模块中的成员. ``Alt-1 (toggle-autocompleter)`` 运行和禁止自动补全. **注意**: 自动补全只有在 @language python 有效时才可使用.
+
+例如, 仅输入 "c.atF" (在正文窗格中, 同时允许自动补全) , 即在内容窗格中自动插入 "c.atFileCommands", 因为 "c.atFileCommands" 是 "c.atF" 仅有的补全.
+
+另一个例子, 输入 "at.writeA" 将显示 (在日志窗格的自动补全标签) leoAtFile.py 中的所有 write 命令::
+
+    writeAll:method
+    writeAllHelper:method
+    writeAtAutoNodes:method
+    writeAtAutoNodesHelper:method
+    writeAtShadowNodes:method
+    writeAtShadowNodesHelper:method
+
+当显示单个补全时, 输入 '?' 将显示方法的文档字符串. 例如, "c.atFileCommands.write?" 显示::
+
+    Write a 4.x derived file.
+    root is the position of an @&lt;file&gt; node
+    
+**Calltips** 显示了函数和方法的期待参数. ``Alt-2 (toggle-calltips)`` 启用和禁用 calltips. 当 @language python 有效时, ``(`` 显示 calltips.
+``&lt;Return&gt;`` 或 ``Ctrl-G (keyboard-quit)`` 退出 calltips. Calltips 作用于任何 Python 函数或方法, 包括 Python 的全局函数.
+例如:
+
+    g.toUnicode(            g.toUnicode(s, encoding, reportErrors=False
+    c.widgetWantsFocusNow(  c.widgetWantsFocusNow(w
+    reduce(                 reduce(function, sequence[, initial]) -&gt; value</t>
+<t tx="omlalala.20180404220732.2">下面是 Leo 主窗口的截图:
+
+.. image:: screen-shots/leo-workbook.png
+   :alt: Screenshot
+   
+.. index::
+    pair: Body pane; Tutorial
+    pair: Expansion box; Tutorial
+    pair: Icon area; Tutorial
+    pair: Log pane; Tutorial
+    pair: Main Window; Tutorial
+    pair: Outline pane; Tutorial
+    pair: Status line; Tutorial
+
+Leo 的主窗口, 由 **图标区域**  (菜单下方),  **提纲窗格** (左上方),  **日志窗格** (右上方) , **正文窗格** (左下方), **可选的视图窗格** (右下方) 组成. **minibuffer** (**迷你缓冲**) 和 **状态行**, 位于主界面的底部.
+
+日志窗格由多个标签组成. **日志标签** 显示来自 Leo 的信息, **查找标签**  显示 Leo 的查找/替换命令的状态. 其他标签也可能出现在日志窗格: **拼写标签** 控制 Leo 的拼写检查. **补全标签** 显示支持的输入自动补全.
+
+.. index::
+    pair: Icon box; Tutorial
+    pair: Node; Tutorial
+    pair: Headline; Tutorial
+    pair: Body text; Tutorial
+
+Leo 存储所有数据至 **节点**. 节点有 **标题** (提纲窗格显示) 和 **正文**. 正文窗格显示
+**当前选中节点** 的正文, 其节点标题在提纲窗格中被选中.  标题的 **图标框** 表明节点状态. 例如,  当节点修改后, 图标框的边线变黑.
+</t>
+<t tx="omlalala.20180404220732.20">Leo 是一个功能齐全的提纲编辑器, 特性如下:
+
+- 指令控制 Leo 如何运行.
+- @file 和 @clean 节点创建外部文件.
+- myLeoSettings.leo 指定你的个人设置.
+- 插件扩展 Leo. @enabled-plugins 设置节点启用插件.
+
+对程序员::
+
+- Leo 拥有一个易用的脚本 API, 可完全访问提纲中的所有数据.
+- @button 和 @command 节点定义了脚本, 其适用于所有 *other* 节点.
+- @test 节点创建单元测试.
+- Alt-1 启用自动补全.
+
+.. _`求助`: https://groups.google.com/forum/#!forum/leo-editor
+.. _`Leo 命令索引`: commands.html
+
+Leo 有百余种命令, 如 `Leo 命令索引`_ 所述. 请随时参阅 `求助`_.
+
+翻译: `OMlalala &lt;https://github.com/OMlalala&gt;`_
+ 
+校对: `hetao &lt;https://github.com/livingworld&gt;`_</t>
+<t tx="omlalala.20180404220732.3">.. _`Leo 命令索引`: commands.html
+.. _`Leo minibuffer`: commands.html#executing-commands-from-the-minibuffer
+.. _`输入补全`: commands.html#executing-commands-from-the-minibuffer
+.. _`按键绑定`: commands.html#key-reference
+.. _`Emacs minibuffer`: https://www.gnu.org/software/emacs/manual/html_node/emacs/Minibuffer.html 
+
+Leo 有百余种命令, 如 `Leo 命令索引`_ 所述. **非常重要**: 你可以 (且应该) 首先无视这些命令中的绝大多数. 执行命令, 可使用 `按键绑定`_, 或在 `Leo minibuffer`_ *使用名称*, 类似 `Emacs minibuffer`_. 
+
+激活命令, 可在 minibuffer 中输入命令全名并敲击 ``&lt;Return&gt;``, 但那将是海量工作. 相反, 
+你应该使用 **输入补全** 避免大部分输入. 例如, 你可以这样执行 *sort-lines* (行分类) 命令:::
+
+    &lt;Alt-X&gt;so&lt;Tab&gt;
+    
+现在, minibuffer 将列出以 "so" 开头的所有命令的常用前缀, 即:::
+
+    sort-
+    
+输入 l&lt;Tab&gt; 后, minibuffer 将包含::
+
+    sort-lines
+    
+现在,  按 &lt;Return&gt; 即可执行命令. 输入补全将很快成为第二天性.
+
+**非常重要**: 无需记住 Leo 命令的确切名称. 相反, 你只需记住几个常用的命令前缀, 例如::
+
+    clone-find  查找节点 命令
+    file-       文件 命令
+    find-       查找 命令
+    isearch-    incremental search commands
+    leo-        打开 .leo 文件
+    open-       打开文件或网址
+    print-      打印 命令
+    sort-       分类 命令
+    toggle-     切换设置命令
+    
+下述命令作用于 minibuffer 本身:
+    
+``Alt-X (命令全名)``
+    通过输入全名, 执行任意命令.
+    
+``Ctrl-P (重复复杂命令)``
+    重复 minibuffer 最后输入的命令名称
+    
+在 minibuffer 中, 下述按键将被特别对待:
+
+``&lt;Return&gt;``
+    执行命令.
+
+``&lt;Tab&gt;``
+    显示所有的有效补全.
+
+``&lt;BackSpace&gt;``
+    显示更多补全.
+    
+``Ctrl-G``
+    退出 minibuffer , 聚焦于正文窗格.
+    
+``UpArrow``
+    在命令历史中, 调至更早的命令. 第一个 向上箭头 等价于 ``Ctrl-P``.
+
+``DownArrow``
+    在命令历史中, 调至更近的命令.
+</t>
+<t tx="omlalala.20180404220732.4">.. _`功能齐全的提纲编辑器`: commands.html#outline-commands
+
+Leo 是一个 `功能齐全的提纲编辑器`_, 拥有可插入, 删除, 移动, 升级, 降级节点的命令.
+
+**克隆** 是 Leo 的一个独特功能. 所有提纲节点都可被克隆. 克隆节点实际上是 **相同的** 节点, 只是出现在提纲的不同地方. 对任一克隆的更改, 都会同步在节点的所有其他克隆上, *包括他们的后代节点*. 例如, 假设 A` 节点是 A 节点的克隆::
+
+    - A`
+        - B
+        - C
+    - D
+    - A`
+        - B
+        - C
+        
+右移 C, 提纲变成::
+
+    - A`
+        - B
+            - C
+    - D
+    - A`
+        - B
+            - C
+            
+.. _`clone-find 命令`:
+            
+克隆允许你在单一提纲内创建数据的多种视图. 例如, Leo 的 `clone-find 命令`_ 创建所有已找到节点的克隆, 移动这些新建的克隆, 使他们成为描述搜索条件的 **组织节点** 的子节点. 组织节点是提纲数据的全新视图, 聚焦于搜索出的节点!</t>
+<t tx="omlalala.20180404220732.5">.. index::
+   pair: Directive; Tutorial
+
+Leo **指令** 控制 Leo 的运行. 指令在正文的起始位置, 以 ``@`` 开头. 指令 **应用于后代**, 直到在后代节点中被覆盖.
+
+.. index::
+    pair: @color; Tutorial
+    pair: @nocolor; Tutorial
+    pair: @nocolor-node; Tutorial
+
+**@color**, **@nocolor** 和 **@nocolor-node** 指令控制语法高亮. **注意**: 包含多个颜色指令的节点, **不会** 影响后代节点的颜色::
+
+    @color
+    @nocolor
+    @nocolor-node
+    
+.. index::
+    pair: @language; Tutorial
+
+**@language** 指令指示哪种语言有效::
+
+    @language python
+    @language c
+    @language rest # restructured text
+    @language plain # plain text: no syntax coloring.
+
+.. index::
+    pair: @pagewidth; Tutorial
+    pair: @tabwidth; Tutorial
+    pair: Negative tab width; Tutorial
+
+**@pagewidth** 指令设置页面宽度 (格式化段落使用). **@tabwidth** 指令控制缩进. 负数制表符 (推荐 Python 使用) 转化制表符为空格::
+
+    @pagewidth 100
+    @tabwidth -4
+    @tabwidth 8
+
+.. index::
+    pair: @wrap; Tutorial
+    pair: @nowrap; Tutorial
+    
+**@wrap** 和 **@nowrap** 启用和禁用正文中的自动换行::
+
+    @nowrap
+    @wrap
+    
+**@first** 指令确保其后跟的内容, 出现在每一个外部文件 (阅读下一部分) 的开头.  多个 @first 指令可行. 这些指令必须出现在正文的 **首行**.
+
+    @first # -*- coding: utf-8 -*-
+    @first #! /usr/bin/env python
+    
+.. _`指令索引`: directives.html
+    
+Leo 的其他指令, 如 `指令索引`_ 所述.
+
+</t>
+<t tx="omlalala.20180404220732.6">Leo 提纲可索引 **外部文件**, 即文件系统中的文件. 当打开 Leo 提纲时, Leo 会快速加载文件. 下节仅讨论基础. 更多细节请移步 `Leo 索引指南 &lt;directives.html&gt;`_ .</t>
+<t tx="omlalala.20180404220732.7">.. index::
+    pair: @file node; Tutorial
+
+** @file 节点**: 节点标题以 `@file` 开头, 后跟外部文件的路径.::
+
+    @file leoNodes.py
+    @file ../../notes.txt
+
+@file 节点及其后代, 代表了一个外部文件. 当你更改 Leo 外的外部文件时, Leo 会自动更新 @file 节点. 当保存提纲时, Leo 自动将所有对 @file 树的修改写入外部文件.</t>
+<t tx="omlalala.20180404220732.8">.. in tutorial-basics.html (External files)
+
+.. index::
+    pair: Markup; Tutorial
+
+Leo 的 **标记** 显示 Leo 如何从 @file 树中创建外部文件. 标记可出现在任意正文中, 且 **必须** 出现在 @file 节点本身的正文中.
+
+标记有两种: **章节索引** (&lt;&lt;这是我们的部分&gt;&gt;) 和 **@others** 指令. 章节索引指向 **命名节点**, 即 *标题* 看起来像章节索引的节点. @other 指向所有 *其他* (未命名) 节点. 下面是一个 python 文件典型的 @file 节点的正文::
+
+    @first # -*- coding: utf-8 -*-
+    '''whatever.py'''
+    &lt;&lt; imports &gt;&gt;
+    @others
+    # 可以了, 哥们
+    @language python
+    @tabwidth
+    
+子节点必须定义 &lt;&lt;import&gt;&gt; 节点以及 Controller 类的方法.
+
+当写入这个文件时, Leo 编写头两行::
+
+    @first # -*- coding: utf-8 -*-
+    '''whatever.py'''
+    
+后跟 &lt;&lt;imports&gt;&gt; 节点的 *正文*, 所有 *other* 节点的正文, 按照提纲顺序, 后跟注释 #可以了, 哥们.</t>
+<t tx="omlalala.20180404220732.9">.. index::
+    pair: @clean; Tutorial
+
+当编写 **文件树** 时, Leo 将 **结构注释** 写入外部文件. 这些注释代表了提纲结构. 将一个 @file 树写入 .leo 文件时, Leo 只写入根 @file 节点. 为避免注释, 使用 **@clean** 代替 @file::
+
+    @clean leoNodes.py
+    @clean ../../notes.txt
+    
+使用 @clean 的副作用: Leo 将保存整个 @clean 树至 .leo 文件.</t>
 <t tx="sps.20100708203040.19008">@language python
 import os
 pos = c.find_h("Users Guide")[0]
