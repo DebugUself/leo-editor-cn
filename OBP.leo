@@ -630,7 +630,7 @@
 </v>
 <v t="omlalala.20180206205022.270"><vh>Summary</vh></v>
 </v>
-<v t="omlalala.20180206205022.271"><vh>@rst docs\tutorial-pim.html</vh>
+<v t="omlalala.20180206205022.271"><vh>(lw:100%)@rst docs\tutorial-pim.html</vh>
 <v t="omlalala.20180206205022.272"><vh>Clones</vh></v>
 <v t="omlalala.20180206205022.273"><vh>Clones accelerate work flow by creating views</vh></v>
 <v t="omlalala.20180206205022.274"><vh>Using abbreviations and templates</vh></v>

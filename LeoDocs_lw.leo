@@ -632,13 +632,13 @@
 </v>
 <v t="omlalala.20180206205022.270"><vh>Summary</vh></v>
 </v>
-<v t="omlalala.20180206205022.271"><vh>@rst docs\tutorial-pim.html</vh>
-<v t="omlalala.20180206205022.272"><vh>Clones</vh></v>
-<v t="omlalala.20180206205022.273"><vh>Clones accelerate work flow by creating views</vh></v>
-<v t="omlalala.20180206205022.274"><vh>Using abbreviations and templates</vh></v>
-<v t="omlalala.20180206205022.275"><vh>Using URLs</vh></v>
-<v t="omlalala.20180206205022.276"><vh>Using Chapters</vh></v>
-<v t="omlalala.20180206205022.277"><vh>Summary</vh></v>
+<v t="livingworld.20180418192452.1"><vh>@rst docs\tutorial-pim.html</vh>
+<v t="livingworld.20180418192452.2"><vh>克隆</vh></v>
+<v t="livingworld.20180418192452.3"><vh>克隆通过创建视图加速工作流</vh></v>
+<v t="livingworld.20180418192452.4"><vh>使用缩写和模板</vh></v>
+<v t="livingworld.20180418192452.5"><vh>使用 URL</vh></v>
+<v t="livingworld.20180418192452.6"><vh>使用章节</vh></v>
+<v t="livingworld.20180418192452.7"><vh>概要</vh></v>
 </v>
 <v t="omlalala.20180206205022.278"><vh>@rst docs\tutorial-rst3.html</vh>
 <v t="omlalala.20180206205022.279"><vh>@rst-ignore notes</vh></v>
@@ -6734,6 +6734,160 @@ Leo 将几个文件放在您的 HOME/.leo 目录: .leoID.txt, .leoRecentFiles.tx
 
 当 Leo 关闭时, 它将会话状态存储在 `~/.leo/leo.session` 中. 会话状态由打开的文件列表和每个文件中选定的节点组成. 下一次 Leo 开始使用这些选项时, Leo 将打开这些文件并选择合适的节点. 
 </t>
+<t tx="livingworld.20180418192452.1">.. |---| unicode:: U+02015 .. for quotes
+   :trim:
+   
+###########################################
+使用 Leo 作为个人信息管理器
+###########################################
+
+..  "克隆是纯粹的天才!"---Michael Manti
+..  "如果你像我一样, 你有一种随着时间的推移收集到的
+..  基础知识库.而且你有项目, 在那里使用这些信息.  
+..  现在, 用传统的提纲, 你开始将这些信息加倍,
+..  因为你希望为项目提供项目所需的信息.
+..  你也可以用 Leo 做这个, 但是如果你在一个地方更改文本,
+..  **它也会在其它地方更新!** 这是我在其它提纲
+..  从没有看到的功能 (我尝试过一些). 太神了! 
+..  Leo 直接支持我工作的方式!"---F. Geiger
+
+本章讲述如何使用 Leo 作为个人信息管理器. 它介绍 `克隆`_: Leo 组织数据最独特和强大的功能之一.
+
+.. contents:: Contents
+    :depth: 2
+    :local:
+
+</t>
+<t tx="livingworld.20180418192452.2">.. index::
+    pair: Clone; Tutorial
+    
+**克隆** 是出现在 Leo 提纲中多个位置的节点. 克隆在其图标框内中标记有一个小的红色箭头. 节点的所有克隆实际上是 **相同的节点**:
+
+- 任何一个克隆的更改都会影响所有克隆.
+- 插入, 移动或删除任何克隆的子节点将会改变屏幕中的所有其他的克隆.
+
+克隆允许将数据存储在提纲中的多个位置.
+
+``Ctrl-` (clone-node)``
+    克隆节点 A. 快捷键是一个沉音符, *不是* 单引号. 这通常与波浪号 ``~`` 字符具有相同的键盘键.
+
+请花点时间试验克隆:
+
+- 创建一个标题为 A 的克隆.
+- 用 ``clone-node`` 命令克隆节点 A.
+- 将一些文本输入到 A 的正文中.
+- A 的所有克隆现在具有相同的正文.
+- 插入一个节点, 比如说 B, 作为任一 A 节点的子节点.
+- 注意, *所有的* A 节点现在都有一个 B 子节点.
+- 如果你克隆 B, 看看会发生什么.
+- 如果你插入, 删除或移动 A 节点的子节点, 看看会发生什么.
+- 当你删除节点的倒数第二个克隆时, 该节点再次成为常规节点.
+</t>
+<t tx="livingworld.20180418192452.3">克隆可以大大加速你的工作流程. 要启动一个项目, 请克隆与项目相关的节点, 并将它们拖放至顶层或接近顶层, 以便轻松获取它们. 项目完成后, 只需要删除克隆. 这个工作流程出奇的有效:
+
+- 原始节点从不移动, 但是它们在克隆时就会改变.
+
+- 当你完成任务时, 没有什么可以 "放回原位". 只是删除克隆.
+  
+用这种方式, **克隆创建视图**: 当你为一个项目收集克隆节点时, 实现上是创建了一个面向项目的提纲视图. 该视图 **只关注** 那些与手头任务相关的节点.
+</t>
+<t tx="livingworld.20180418192452.4">.. index::
+    pair: Abbreviation; Tutorial
+
+在你输入时, Leo 可以选择性地扩展缩写. 缩写通常以 ``;;`` 结尾, 所以它们不会意外触发.
+
+要使用缩写, 你必须在 myLeoSettings.leo 中启用它们::
+
+    @bool enable-abbreviations = True
+
+你可以在 ``@data abbreviations`` 节点或 ``@data global-abbreviations`` 节点中定义缩写. 没有预定义, 但是 ``leo/config/exampleSettings.leo`` 包含 ``@data abbreviations examples`` 节点中的示例缩写.
+
+缩写可以简单地作为快捷键:: Abbreviations can simply be shortcuts::
+
+    ncn;;=@nocolor
+    
+缩写可以跨越多行. 以 ``\:`` 作为连续行的开头, 像这样::
+
+    form;;=&lt;form action="main_submit" method="get" accept-charset="utf-8"&gt;
+    \:&lt;p&gt;&lt;input type="submit" value="Continue &amp;rarr;"&gt;&lt;/p&gt;
+    \:&lt;/form&gt;\n
+
+缩写可以定义模板, 其中 ``&lt;|a-field-name|&gt;`` 表示要填写的字段::
+
+    input;;=&lt;input type="text/submit/hidden/button"
+    \:name="&lt;|name|&gt;"
+    \:value="" id="&lt;|id|&gt;"&gt;\n
+
+插入模板后, 输入 ``,,`` 选择下一个区域.
+
+缩写可以执行 **缩写脚本**, 用``{|{`` 和 ``}|}`` 分割::
+
+    date;;={|{import time ; x=time.asctime()}|}
+    ts;;={|{import time ; x=time.strftime("%Y%m%d%H%M%S")}|}
+    
+要使用缩写脚本, 请在 myLeoSettings.leo 中启用它们, 如下所示::
+
+    @bool scripting-abbreviations = True
+
+在启用缩写脚本的情况下, 输入 ``ts;;`` 给出::
+
+    20131009171117
+    
+甚至可以定义缩写脚本执行的上下文. 详情请参阅 leoSettings.leo.
+</t>
+<t tx="livingworld.20180418192452.5">.. index::
+    pair: URL; Tutorial
+    pair: @url; Tutorial
+
+只要启用了语法着色, Leo 就会突出显示 URL.
+
+``Ctrl-Left-Click (open-url-under-cursor)``
+    打开光标下的 URL.
+``open-url``
+    打开显示在标题或正文第一行的 URL. 如果标题以 ``@url`` 开头, 那么标题的其余部分就是 url.
+    
+**注意**:
+
+- Leo 使用 os.startfile 打开看起来像文件名的 URL.
+- Leo 使用你的默认网络浏览器打开所有其他 URL.
+- 你的浏览器支持的任何方案 (http, mailto, ftp, file 等.) 均有效.
+- URL 不应包含空格: 使用 ``%20`` 代替空格.
+
+`请参阅附录 &lt;appendices.html#valid-url-s&gt;`_ 以获取有效 URL 的完整说明.
+</t>
+<t tx="livingworld.20180418192452.6">.. index::
+    pair: Chapter; Tutorial
+    pair: @chapter; Tutorial
+
+@chapter 树表示 **章节**. 你可以从图标区域或使用 chapter-select 命令 **激活** 章节. 激活章节只会使章节中的那些节点可见. ``main`` 章节代表了整个提纲. 激活 ``main``章节显示所有的提纲节点. 
+
+``chapter-select-main``
+    选择 main 章节.Selects the main chapter.
+    
+``chapter-select-&lt;chapter-name&gt;``
+    安名称选择章节.
+</t>
+<t tx="livingworld.20180418192452.7">克隆是出现在提纲中多个位置的节点.
+
+- 对一个克隆的更改会影响所有其他克隆.
+- 节点的所有克隆都是 **完全相同的节点**
+
+视图允许数据的多个视图存在于单个提纲中.
+
+- 视图只是节点的集合.
+- 由于克隆, 一个节点可能同时存在于许多视图中.
+- 视图关注任务并减少对节点的搜索.
+
+在你输入时, Leo 拓展缩写.
+
+- 缩写范围从简单的快捷键到包含字段的多行模板.
+- 输入 ``,,`` 移动到下一个字段.
+- 缩写还可以插入执行代码的结果.
+
+Ctrl 加鼠标左键点击任何的 URL 打开 URL.
+
+@chapter 树表示章节. 激活章节只会显示该章节中的节点.
+</t>
 <t tx="omlalala.20180206205022.1" str_atime="1376411963.0">@pagewidth 70
 @tabwidth -4
 
@@ -11181,161 +11335,6 @@ For programmers:
 .. _`Leo's Command Reference`: commands.html
 
 Leo has hundreds of commands, described in `Leo's Command Reference`_. Please feel free to `ask for help`_ at any time.
-</t>
-<t tx="omlalala.20180206205022.271">.. |---| unicode:: U+02015 .. for quotes
-   :trim:
-   
-###########################################
-Using Leo as a Personal Information Manager
-###########################################
-
-..  "Cloning is pure genius!"---Michael Manti
-
-..  "If you are like me, you have a kind of knowledge base with infos
-..  gathered over time. And you have projects, where you use some of those
-..  infos. Now, with conventional outliners you begin to double these
-..  infos, because you want to have the infos needed for the project with
-..  your project. With Leo you can do this too, but if you change text in
-..  one place **it is updated in the other place too!** This is a feature I
-..  did not see with any other outliner (and I tried a few). Amazing! Leo
-..  directly supports the way I work!"---F. Geiger
-
-This chapter tells how you can use Leo as a Personal Information Manager. It introduces `clones`_: one of Leo's most unusual and powerful features for organizing data.
-
-.. contents:: Contents
-    :depth: 2
-    :local:
-
-</t>
-<t tx="omlalala.20180206205022.272">.. index::
-    pair: Clone; Tutorial
-    
-A **clone** is a node that appears in more than one place in a Leo outline. Clones are marked with a small red arrow in its icon box. All clones of a node are actually *the same node*:
-
-- Any change to one clone affects all clones.
-- Inserting, moving or deleting any child of a clone will change all other clones on the screen.
-
-Clones allow data to be stored in multiple places within an outline.
-
-``Ctrl-` (clone-node)``
-    Clones node A. The shortcut is a grave accent, *not* a single quote.  This is often on the same keyboard key as the tilde ``~`` character.
-
-Please take a few moments to experiment with clones:
-
-- Create a node whose headline is A.
-- Clone node A with the ``clone-node`` command.
-- Type some text into the body of A.
-- All clones of A now have the same body.
-- Insert a node, say B, as a child of any of the A nodes.
-- Notice that *all* the A nodes now have a B child.
-- See what happens if you clone B.
-- See what happens if you insert, delete or move nodes that are children of A.
-- When you delete a node's penultimate clone, the node becomes a regular node again.
-</t>
-<t tx="omlalala.20180206205022.273">Clones can greatly accelerate your work flow. To start a project, clone nodes related to the project and drag them at or near the top level, where you can get at them easily. When the project is complete, just delete the clones. This work flow is surprisingly effective:
-
-- The original nodes never move, but they change whenever their clones do.
-
-- There is nothing to "put back in place" when you are done. Just delete the clones.
-  
-Used this way, **clones create views**: when you gather cloned nodes together for a project, you are, in effect, creating a project-oriented view of the outline. This view **focuses your attention** on only those nodes that are relevant to the task at hand.
-</t>
-<t tx="omlalala.20180206205022.274">.. index::
-    pair: Abbreviation; Tutorial
-
-Leo optionally expands abbreviations as you type. Abbreviations typically end with something like ``;;`` so they won't trigger by accident.
-
-To use abbreviations, you must enable them in myLeoSettings.leo::
-
-    @bool enable-abbreviations = True
-
-You define abbreviations in ``@data abbreviations`` nodes or ``@data global-abbreviations`` nodes. None come predefined, but ``leo/config/exampleSettings.leo`` contains example abbreviations in the node ``@data abbreviations examples``
-
-Abbreviations can simply be shortcuts::
-
-    ncn;;=@nocolor
-    
-Abbreviations can span multiple lines. Continued lines start with ``\:``, like this::
-
-    form;;=&lt;form action="main_submit" method="get" accept-charset="utf-8"&gt;
-    \:&lt;p&gt;&lt;input type="submit" value="Continue &amp;rarr;"&gt;&lt;/p&gt;
-    \:&lt;/form&gt;\n
-
-Abbreviations can define templates in which ``&lt;|a-field-name|&gt;`` denotes a field to be filled in::
-
-    input;;=&lt;input type="text/submit/hidden/button"
-    \:name="&lt;|name|&gt;"
-    \:value="" id="&lt;|id|&gt;"&gt;\n
-
-Typing ``,,`` after inserting a template selects the next field.
-
-Abbreviations can execute **abbreviation scripts**, delimited by ``{|{`` and ``}|}``::
-
-    date;;={|{import time ; x=time.asctime()}|}
-    ts;;={|{import time ; x=time.strftime("%Y%m%d%H%M%S")}|}
-    
-To use abbreviations scripts, enable them in myLeoSettings.leo as follows::
-
-    @bool scripting-abbreviations = True
-
-With abbreviation scripts enabled, typing ``ts;;`` gives::
-
-    20131009171117
-    
-It's even possible to define a context in which abbreviation scripts execute. See leoSettings.leo for full details.
-</t>
-<t tx="omlalala.20180206205022.275">.. index::
-    pair: URL; Tutorial
-    pair: @url; Tutorial
-
-Leo highlights URLs whenever syntax is coloring is enabled.
-
-``Ctrl-Left-Click (open-url-under-cursor)``
-    Opens the URL under the cursor.
-``open-url``
-    Opens a URL appearing either in the headline or the first line of body text. If a headline starts with ``@url``, the rest of the headline is take to be a url.
-    
-**Note**:
-
-- Leo opens URLs that look like file names using os.startfile.
-- Leo opens all other URLs with your default web browser.
-- Any scheme (http, mailto, ftp, file, etc.) supported by your browser is valid.
-- URL's should contain no spaces: use ``%20`` instead of spaces.
-
-`See the Appendix &lt;appendices.html#valid-url-s&gt;`_ for a complete description of valid URLs.
-</t>
-<t tx="omlalala.20180206205022.276">.. index::
-    pair: Chapter; Tutorial
-    pair: @chapter; Tutorial
-
-@chapter trees denote a **chapter**. You can **activate** a chapter from the icon area, or with chapter-select commands. Activating a chapter makes only those nodes in the chapter visible. The ``main`` chapter represents the entire outline. Activating the ``main`` chapter shows all outline nodes.
-
-``chapter-select-main``
-    Selects the main chapter.
-    
-``chapter-select-&lt;chapter-name&gt;``
-    Selects a chapter by name.
-</t>
-<t tx="omlalala.20180206205022.277">Clones are nodes appearing multiple places in the outline.
-
-- Changes to one clone affect all other clones.
-- All clones of a node are *exactly the same node*.
-
-Views allow multiple views of data to exist in a single outline.
-
-- A view is simply a collection of nodes.
-- Because of clones, a node may appear in many views at once.
-- View focus attention on tasks and reduce searching for nodes.
-
-Leo expands abbreviations as you type.
-
-- Abbreviations range from simple shortcuts to multi-line templates containing fields.
-- Type ``,,`` to move to the next field.
-- Abbreviations can also insert the result of executing code.
-    
-Ctrl-left-clicking any URL opens the URL.
-
-@chapter trees denote chapters. Activating a chapter shows only the nodes in that chapter.
 </t>
 <t tx="omlalala.20180206205022.278">.. |---| unicode:: U+02015 .. for quotes
    :trim:

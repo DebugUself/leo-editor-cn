@@ -4,29 +4,20 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Using Leo as a Personal Information Manager &#8212; Leo 5.6 documentation</title>
+    <title>使用 Leo 作为个人信息管理器 &#8212; Leo 5.6 documentation</title>
     <link rel="stylesheet" href="_static/classic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    './',
-        VERSION:     '5.6',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true,
-        SOURCELINK_SUFFIX: '.txt'
-      };
-    </script>
+    <script type="text/javascript" src="_static/documentation_options.js"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="使用提纲创建文档" href="tutorial-rst3.html" />
-    <link rel="prev" title="Leo in 10 Minutes" href="tutorial-basics.html" /> 
-  </head>
-  <body>
+    <link rel="prev" title="10 分钟体验 Leo" href="tutorial-basics.html" /> 
+  </head><body>
     <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
       <ul>
@@ -37,7 +28,7 @@
           <a href="tutorial-rst3.html" title="使用提纲创建文档"
              accesskey="N">next</a> |</li>
         <li class="right" >
-          <a href="tutorial-basics.html" title="Leo in 10 Minutes"
+          <a href="tutorial-basics.html" title="10 分钟体验 Leo"
              accesskey="P">previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="leo_toc.html">Leo 5.6 documentation</a> &#187;</li>
           <li class="nav-item nav-item-1"><a href="tutorial.html" accesskey="U">Leo’s Tutorials</a> &#187;</li> 
@@ -49,143 +40,143 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="using-leo-as-a-personal-information-manager">
-<h1>Using Leo as a Personal Information Manager<a class="headerlink" href="#using-leo-as-a-personal-information-manager" title="Permalink to this headline">¶</a></h1>
-<p>This chapter tells how you can use Leo as a Personal Information Manager. It introduces <a class="reference internal" href="#clones">clones</a>: one of Leo’s most unusual and powerful features for organizing data.</p>
+  <div class="section" id="leo">
+<h1>使用 Leo 作为个人信息管理器<a class="headerlink" href="#leo" title="Permalink to this headline">¶</a></h1>
+<p>本章讲述如何使用 Leo 作为个人信息管理器. 它介绍 <a class="reference internal" href="#id1">克隆</a>: Leo 组织数据最独特和强大的功能之一.</p>
 <div class="contents local topic" id="contents">
 <p class="topic-title first">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#clones" id="id1">Clones</a></li>
-<li><a class="reference internal" href="#clones-accelerate-work-flow-by-creating-views" id="id2">Clones accelerate work flow by creating views</a></li>
-<li><a class="reference internal" href="#using-abbreviations-and-templates" id="id3">Using abbreviations and templates</a></li>
-<li><a class="reference internal" href="#using-urls" id="id4">Using URLs</a></li>
-<li><a class="reference internal" href="#using-chapters" id="id5">Using Chapters</a></li>
-<li><a class="reference internal" href="#summary" id="id6">Summary</a></li>
+<li><a class="reference internal" href="#id1" id="id11">克隆</a></li>
+<li><a class="reference internal" href="#id2" id="id12">克隆通过创建视图加速工作流</a></li>
+<li><a class="reference internal" href="#id3" id="id13">使用缩写和模板</a></li>
+<li><a class="reference internal" href="#url" id="id14">使用 URL</a></li>
+<li><a class="reference internal" href="#id5" id="id15">使用章节</a></li>
+<li><a class="reference internal" href="#id8" id="id16">概要</a></li>
 </ul>
 </div>
-<div class="section" id="clones">
-<h2><a class="toc-backref" href="#id1">Clones</a><a class="headerlink" href="#clones" title="Permalink to this headline">¶</a></h2>
-<p id="index-0">A <strong>clone</strong> is a node that appears in more than one place in a Leo outline. Clones are marked with a small red arrow in its icon box. All clones of a node are actually <em>the same node</em>:</p>
+<div class="section" id="id1">
+<h2><a class="toc-backref" href="#id11">克隆</a><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<p id="index-0"><strong>克隆</strong> 是出现在 Leo 提纲中多个位置的节点. 克隆在其图标框内中标记有一个小的红色箭头. 节点的所有克隆实际上是 <strong>相同的节点</strong>:</p>
 <ul class="simple">
-<li>Any change to one clone affects all clones.</li>
-<li>Inserting, moving or deleting any child of a clone will change all other clones on the screen.</li>
+<li>任何一个克隆的更改都会影响所有克隆.</li>
+<li>插入, 移动或删除任何克隆的子节点将会改变屏幕中的所有其他的克隆.</li>
 </ul>
-<p>Clones allow data to be stored in multiple places within an outline.</p>
+<p>克隆允许将数据存储在提纲中的多个位置.</p>
 <dl class="docutils">
-<dt><code class="docutils literal"><span class="pre">Ctrl-`</span> <span class="pre">(clone-node)</span></code></dt>
-<dd>Clones node A. The shortcut is a grave accent, <em>not</em> a single quote.  This is often on the same keyboard key as the tilde <code class="docutils literal"><span class="pre">~</span></code> character.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">Ctrl-`</span> <span class="pre">(clone-node)</span></code></dt>
+<dd>克隆节点 A. 快捷键是一个沉音符, <em>不是</em> 单引号. 这通常与波浪号 <code class="docutils literal notranslate"><span class="pre">~</span></code> 字符具有相同的键盘键.</dd>
 </dl>
-<p>Please take a few moments to experiment with clones:</p>
+<p>请花点时间试验克隆:</p>
 <ul class="simple">
-<li>Create a node whose headline is A.</li>
-<li>Clone node A with the <code class="docutils literal"><span class="pre">clone-node</span></code> command.</li>
-<li>Type some text into the body of A.</li>
-<li>All clones of A now have the same body.</li>
-<li>Insert a node, say B, as a child of any of the A nodes.</li>
-<li>Notice that <em>all</em> the A nodes now have a B child.</li>
-<li>See what happens if you clone B.</li>
-<li>See what happens if you insert, delete or move nodes that are children of A.</li>
-<li>When you delete a node’s penultimate clone, the node becomes a regular node again.</li>
+<li>创建一个标题为 A 的克隆.</li>
+<li>用 <code class="docutils literal notranslate"><span class="pre">clone-node</span></code> 命令克隆节点 A.</li>
+<li>将一些文本输入到 A 的正文中.</li>
+<li>A 的所有克隆现在具有相同的正文.</li>
+<li>插入一个节点, 比如说 B, 作为任一 A 节点的子节点.</li>
+<li>注意, <em>所有的</em> A 节点现在都有一个 B 子节点.</li>
+<li>如果你克隆 B, 看看会发生什么.</li>
+<li>如果你插入, 删除或移动 A 节点的子节点, 看看会发生什么.</li>
+<li>当你删除节点的倒数第二个克隆时, 该节点再次成为常规节点.</li>
 </ul>
 </div>
-<div class="section" id="clones-accelerate-work-flow-by-creating-views">
-<h2><a class="toc-backref" href="#id2">Clones accelerate work flow by creating views</a><a class="headerlink" href="#clones-accelerate-work-flow-by-creating-views" title="Permalink to this headline">¶</a></h2>
-<p>Clones can greatly accelerate your work flow. To start a project, clone nodes related to the project and drag them at or near the top level, where you can get at them easily. When the project is complete, just delete the clones. This work flow is surprisingly effective:</p>
+<div class="section" id="id2">
+<h2><a class="toc-backref" href="#id12">克隆通过创建视图加速工作流</a><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p>克隆可以大大加速你的工作流程. 要启动一个项目, 请克隆与项目相关的节点, 并将它们拖放至顶层或接近顶层, 以便轻松获取它们. 项目完成后, 只需要删除克隆. 这个工作流程出奇的有效:</p>
 <ul class="simple">
-<li>The original nodes never move, but they change whenever their clones do.</li>
-<li>There is nothing to “put back in place” when you are done. Just delete the clones.</li>
+<li>原始节点从不移动, 但是它们在克隆时就会改变.</li>
+<li>当你完成任务时, 没有什么可以 “放回原位”. 只是删除克隆.</li>
 </ul>
-<p>Used this way, <strong>clones create views</strong>: when you gather cloned nodes together for a project, you are, in effect, creating a project-oriented view of the outline. This view <strong>focuses your attention</strong> on only those nodes that are relevant to the task at hand.</p>
+<p>用这种方式, <strong>克隆创建视图</strong>: 当你为一个项目收集克隆节点时, 实现上是创建了一个面向项目的提纲视图. 该视图 <strong>只关注</strong> 那些与手头任务相关的节点.</p>
 </div>
-<div class="section" id="using-abbreviations-and-templates">
-<h2><a class="toc-backref" href="#id3">Using abbreviations and templates</a><a class="headerlink" href="#using-abbreviations-and-templates" title="Permalink to this headline">¶</a></h2>
-<p id="index-1">Leo optionally expands abbreviations as you type. Abbreviations typically end with something like <code class="docutils literal"><span class="pre">;;</span></code> so they won’t trigger by accident.</p>
-<p>To use abbreviations, you must enable them in myLeoSettings.leo:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="nd">@bool</span> <span class="n">enable</span><span class="o">-</span><span class="n">abbreviations</span> <span class="o">=</span> <span class="kc">True</span>
+<div class="section" id="id3">
+<h2><a class="toc-backref" href="#id13">使用缩写和模板</a><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p id="index-1">在你输入时, Leo 可以选择性地扩展缩写. 缩写通常以 <code class="docutils literal notranslate"><span class="pre">;;</span></code> 结尾, 所以它们不会意外触发.</p>
+<p>要使用缩写, 你必须在 myLeoSettings.leo 中启用它们:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@bool</span> <span class="n">enable</span><span class="o">-</span><span class="n">abbreviations</span> <span class="o">=</span> <span class="kc">True</span>
 </pre></div>
 </div>
-<p>You define abbreviations in <code class="docutils literal"><span class="pre">&#64;data</span> <span class="pre">abbreviations</span></code> nodes or <code class="docutils literal"><span class="pre">&#64;data</span> <span class="pre">global-abbreviations</span></code> nodes. None come predefined, but <code class="docutils literal"><span class="pre">leo/config/exampleSettings.leo</span></code> contains example abbreviations in the node <code class="docutils literal"><span class="pre">&#64;data</span> <span class="pre">abbreviations</span> <span class="pre">examples</span></code></p>
-<p>Abbreviations can simply be shortcuts:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">ncn</span><span class="p">;;</span><span class="o">=</span><span class="nd">@nocolor</span>
+<p>你可以在 <code class="docutils literal notranslate"><span class="pre">&#64;data</span> <span class="pre">abbreviations</span></code> 节点或 <code class="docutils literal notranslate"><span class="pre">&#64;data</span> <span class="pre">global-abbreviations</span></code> 节点中定义缩写. 没有预定义, 但是 <code class="docutils literal notranslate"><span class="pre">leo/config/exampleSettings.leo</span></code> 包含 <code class="docutils literal notranslate"><span class="pre">&#64;data</span> <span class="pre">abbreviations</span> <span class="pre">examples</span></code> 节点中的示例缩写.</p>
+<p>缩写可以简单地作为快捷键:: Abbreviations can simply be shortcuts:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ncn</span><span class="p">;;</span><span class="o">=</span><span class="nd">@nocolor</span>
 </pre></div>
 </div>
-<p>Abbreviations can span multiple lines. Continued lines start with <code class="docutils literal"><span class="pre">\:</span></code>, like this:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">form</span><span class="p">;;</span><span class="o">=&lt;</span><span class="n">form</span> <span class="n">action</span><span class="o">=</span><span class="s2">&quot;main_submit&quot;</span> <span class="n">method</span><span class="o">=</span><span class="s2">&quot;get&quot;</span> <span class="n">accept</span><span class="o">-</span><span class="n">charset</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="o">&gt;</span>
+<p>缩写可以跨越多行. 以 <code class="docutils literal notranslate"><span class="pre">\:</span></code> 作为连续行的开头, 像这样:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">form</span><span class="p">;;</span><span class="o">=&lt;</span><span class="n">form</span> <span class="n">action</span><span class="o">=</span><span class="s2">&quot;main_submit&quot;</span> <span class="n">method</span><span class="o">=</span><span class="s2">&quot;get&quot;</span> <span class="n">accept</span><span class="o">-</span><span class="n">charset</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="o">&gt;</span>
 \<span class="p">:</span><span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;&lt;</span><span class="nb">input</span> <span class="nb">type</span><span class="o">=</span><span class="s2">&quot;submit&quot;</span> <span class="n">value</span><span class="o">=</span><span class="s2">&quot;Continue &amp;rarr;&quot;</span><span class="o">&gt;&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
 \<span class="p">:</span><span class="o">&lt;/</span><span class="n">form</span><span class="o">&gt;</span>\<span class="n">n</span>
 </pre></div>
 </div>
-<p>Abbreviations can define templates in which <code class="docutils literal"><span class="pre">&lt;|a-field-name|&gt;</span></code> denotes a field to be filled in:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="nb">input</span><span class="p">;;</span><span class="o">=&lt;</span><span class="nb">input</span> <span class="nb">type</span><span class="o">=</span><span class="s2">&quot;text/submit/hidden/button&quot;</span>
+<p>缩写可以定义模板, 其中 <code class="docutils literal notranslate"><span class="pre">&lt;|a-field-name|&gt;</span></code> 表示要填写的字段:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nb">input</span><span class="p">;;</span><span class="o">=&lt;</span><span class="nb">input</span> <span class="nb">type</span><span class="o">=</span><span class="s2">&quot;text/submit/hidden/button&quot;</span>
 \<span class="p">:</span><span class="n">name</span><span class="o">=</span><span class="s2">&quot;&lt;|name|&gt;&quot;</span>
 \<span class="p">:</span><span class="n">value</span><span class="o">=</span><span class="s2">&quot;&quot;</span> <span class="nb">id</span><span class="o">=</span><span class="s2">&quot;&lt;|id|&gt;&quot;</span><span class="o">&gt;</span>\<span class="n">n</span>
 </pre></div>
 </div>
-<p>Typing <code class="docutils literal"><span class="pre">,,</span></code> after inserting a template selects the next field.</p>
-<p>Abbreviations can execute <strong>abbreviation scripts</strong>, delimited by <code class="docutils literal"><span class="pre">{|{</span></code> and <code class="docutils literal"><span class="pre">}|}</span></code>:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">date</span><span class="p">;;</span><span class="o">=</span><span class="p">{</span><span class="o">|</span><span class="p">{</span><span class="kn">import</span> <span class="nn">time</span> <span class="p">;</span> <span class="n">x</span><span class="o">=</span><span class="n">time</span><span class="o">.</span><span class="n">asctime</span><span class="p">()}</span><span class="o">|</span><span class="p">}</span>
+<p>插入模板后, 输入 <code class="docutils literal notranslate"><span class="pre">,,</span></code> 选择下一个区域.</p>
+<p>缩写可以执行 <strong>缩写脚本</strong>, 用``{<a href="#id9"><span class="problematic" id="id10">|{`` 和 ``}|</span></a>}`` 分割:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">date</span><span class="p">;;</span><span class="o">=</span><span class="p">{</span><span class="o">|</span><span class="p">{</span><span class="kn">import</span> <span class="nn">time</span> <span class="p">;</span> <span class="n">x</span><span class="o">=</span><span class="n">time</span><span class="o">.</span><span class="n">asctime</span><span class="p">()}</span><span class="o">|</span><span class="p">}</span>
 <span class="n">ts</span><span class="p">;;</span><span class="o">=</span><span class="p">{</span><span class="o">|</span><span class="p">{</span><span class="kn">import</span> <span class="nn">time</span> <span class="p">;</span> <span class="n">x</span><span class="o">=</span><span class="n">time</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s2">&quot;%Y%m</span><span class="si">%d</span><span class="s2">%H%M%S&quot;</span><span class="p">)}</span><span class="o">|</span><span class="p">}</span>
 </pre></div>
 </div>
-<p>To use abbreviations scripts, enable them in myLeoSettings.leo as follows:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="nd">@bool</span> <span class="n">scripting</span><span class="o">-</span><span class="n">abbreviations</span> <span class="o">=</span> <span class="kc">True</span>
+<p>要使用缩写脚本, 请在 myLeoSettings.leo 中启用它们, 如下所示:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@bool</span> <span class="n">scripting</span><span class="o">-</span><span class="n">abbreviations</span> <span class="o">=</span> <span class="kc">True</span>
 </pre></div>
 </div>
-<p>With abbreviation scripts enabled, typing <code class="docutils literal"><span class="pre">ts;;</span></code> gives:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="mi">20131009171117</span>
+<p>在启用缩写脚本的情况下, 输入 <code class="docutils literal notranslate"><span class="pre">ts;;</span></code> 给出:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">20131009171117</span>
 </pre></div>
 </div>
-<p>It’s even possible to define a context in which abbreviation scripts execute. See leoSettings.leo for full details.</p>
+<p>甚至可以定义缩写脚本执行的上下文. 详情请参阅 leoSettings.leo.</p>
 </div>
-<div class="section" id="using-urls">
-<h2><a class="toc-backref" href="#id4">Using URLs</a><a class="headerlink" href="#using-urls" title="Permalink to this headline">¶</a></h2>
-<p id="index-2">Leo highlights URLs whenever syntax is coloring is enabled.</p>
+<div class="section" id="url">
+<h2><a class="toc-backref" href="#id14">使用 URL</a><a class="headerlink" href="#url" title="Permalink to this headline">¶</a></h2>
+<p id="index-2">只要启用了语法着色, Leo 就会突出显示 URL.</p>
 <dl class="docutils">
-<dt><code class="docutils literal"><span class="pre">Ctrl-Left-Click</span> <span class="pre">(open-url-under-cursor)</span></code></dt>
-<dd>Opens the URL under the cursor.</dd>
-<dt><code class="docutils literal"><span class="pre">open-url</span></code></dt>
-<dd>Opens a URL appearing either in the headline or the first line of body text. If a headline starts with <code class="docutils literal"><span class="pre">&#64;url</span></code>, the rest of the headline is take to be a url.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">Ctrl-Left-Click</span> <span class="pre">(open-url-under-cursor)</span></code></dt>
+<dd>打开光标下的 URL.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">open-url</span></code></dt>
+<dd>打开显示在标题或正文第一行的 URL. 如果标题以 <code class="docutils literal notranslate"><span class="pre">&#64;url</span></code> 开头, 那么标题的其余部分就是 url.</dd>
 </dl>
-<p><strong>Note</strong>:</p>
+<p><strong>注意</strong>:</p>
 <ul class="simple">
-<li>Leo opens URLs that look like file names using os.startfile.</li>
-<li>Leo opens all other URLs with your default web browser.</li>
-<li>Any scheme (http, mailto, ftp, file, etc.) supported by your browser is valid.</li>
-<li>URL’s should contain no spaces: use <code class="docutils literal"><span class="pre">%20</span></code> instead of spaces.</li>
+<li>Leo 使用 os.startfile 打开看起来像文件名的 URL.</li>
+<li>Leo 使用你的默认网络浏览器打开所有其他 URL.</li>
+<li>你的浏览器支持的任何方案 (http, mailto, ftp, file 等.) 均有效.</li>
+<li>URL 不应包含空格: 使用 <code class="docutils literal notranslate"><span class="pre">%20</span></code> 代替空格.</li>
 </ul>
-<p><a class="reference external" href="appendices.html#valid-url-s">See the Appendix</a> for a complete description of valid URLs.</p>
+<p><a class="reference external" href="appendices.html#valid-url-s">请参阅附录</a> 以获取有效 URL 的完整说明.</p>
 </div>
-<div class="section" id="using-chapters">
-<h2><a class="toc-backref" href="#id5">Using Chapters</a><a class="headerlink" href="#using-chapters" title="Permalink to this headline">¶</a></h2>
-<p id="index-3">&#64;chapter trees denote a <strong>chapter</strong>. You can <strong>activate</strong> a chapter from the icon area, or with chapter-select commands. Activating a chapter makes only those nodes in the chapter visible. The <code class="docutils literal"><span class="pre">main</span></code> chapter represents the entire outline. Activating the <code class="docutils literal"><span class="pre">main</span></code> chapter shows all outline nodes.</p>
+<div class="section" id="id5">
+<h2><a class="toc-backref" href="#id15">使用章节</a><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<p id="index-3">&#64;chapter 树表示 <strong>章节</strong>. 你可以从图标区域或使用 chapter-select 命令 <strong>激活</strong> 章节. 激活章节只会使章节中的那些节点可见. <code class="docutils literal notranslate"><span class="pre">main</span></code> 章节代表了整个提纲. 激活 <a href="#id6"><span class="problematic" id="id7">``</span></a>main``章节显示所有的提纲节点.</p>
 <dl class="docutils">
-<dt><code class="docutils literal"><span class="pre">chapter-select-main</span></code></dt>
-<dd>Selects the main chapter.</dd>
-<dt><code class="docutils literal"><span class="pre">chapter-select-&lt;chapter-name&gt;</span></code></dt>
-<dd>Selects a chapter by name.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">chapter-select-main</span></code></dt>
+<dd>选择 main 章节.Selects the main chapter.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">chapter-select-&lt;chapter-name&gt;</span></code></dt>
+<dd>安名称选择章节.</dd>
 </dl>
 </div>
-<div class="section" id="summary">
-<h2><a class="toc-backref" href="#id6">Summary</a><a class="headerlink" href="#summary" title="Permalink to this headline">¶</a></h2>
-<p>Clones are nodes appearing multiple places in the outline.</p>
+<div class="section" id="id8">
+<h2><a class="toc-backref" href="#id16">概要</a><a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h2>
+<p>克隆是出现在提纲中多个位置的节点.</p>
 <ul class="simple">
-<li>Changes to one clone affect all other clones.</li>
-<li>All clones of a node are <em>exactly the same node</em>.</li>
+<li>对一个克隆的更改会影响所有其他克隆.</li>
+<li>节点的所有克隆都是 <strong>完全相同的节点</strong></li>
 </ul>
-<p>Views allow multiple views of data to exist in a single outline.</p>
+<p>视图允许数据的多个视图存在于单个提纲中.</p>
 <ul class="simple">
-<li>A view is simply a collection of nodes.</li>
-<li>Because of clones, a node may appear in many views at once.</li>
-<li>View focus attention on tasks and reduce searching for nodes.</li>
+<li>视图只是节点的集合.</li>
+<li>由于克隆, 一个节点可能同时存在于许多视图中.</li>
+<li>视图关注任务并减少对节点的搜索.</li>
 </ul>
-<p>Leo expands abbreviations as you type.</p>
+<p>在你输入时, Leo 拓展缩写.</p>
 <ul class="simple">
-<li>Abbreviations range from simple shortcuts to multi-line templates containing fields.</li>
-<li>Type <code class="docutils literal"><span class="pre">,,</span></code> to move to the next field.</li>
-<li>Abbreviations can also insert the result of executing code.</li>
+<li>缩写范围从简单的快捷键到包含字段的多行模板.</li>
+<li>输入 <code class="docutils literal notranslate"><span class="pre">,,</span></code> 移动到下一个字段.</li>
+<li>缩写还可以插入执行代码的结果.</li>
 </ul>
-<p>Ctrl-left-clicking any URL opens the URL.</p>
-<p>&#64;chapter trees denote chapters. Activating a chapter shows only the nodes in that chapter.</p>
+<p>Ctrl 加鼠标左键点击任何的 URL 打开 URL.</p>
+<p>&#64;chapter 树表示章节. 激活章节只会显示该章节中的节点.</p>
 </div>
 </div>
 
@@ -200,18 +191,20 @@
             </a></p>
   <h4>Previous topic</h4>
   <p class="topless"><a href="tutorial-basics.html"
-                        title="previous chapter">Leo in 10 Minutes</a></p>
+                        title="previous chapter">10 分钟体验 Leo</a></p>
   <h4>Next topic</h4>
   <p class="topless"><a href="tutorial-rst3.html"
                         title="next chapter">使用提纲创建文档</a></p>
 <div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
+    <div class="searchformwrapper">
     <form class="search" action="search.html" method="get">
-      <div><input type="text" name="q" /></div>
-      <div><input type="submit" value="Go" /></div>
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
       <input type="hidden" name="check_keywords" value="yes" />
       <input type="hidden" name="area" value="default" />
     </form>
+    </div>
 </div>
 <script type="text/javascript">$('#searchbox').show(0);</script>
         </div>
@@ -228,7 +221,7 @@
           <a href="tutorial-rst3.html" title="使用提纲创建文档"
              >next</a> |</li>
         <li class="right" >
-          <a href="tutorial-basics.html" title="Leo in 10 Minutes"
+          <a href="tutorial-basics.html" title="10 分钟体验 Leo"
              >previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="leo_toc.html">Leo 5.6 documentation</a> &#187;</li>
           <li class="nav-item nav-item-1"><a href="tutorial.html" >Leo’s Tutorials</a> &#187;</li> 
@@ -236,7 +229,7 @@
     </div>
     <div class="footer" role="contentinfo">
         &#169; Copyright 1997-2017, Edward K. Ream.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.5.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.2.
     </div>
   </body>
 </html>
