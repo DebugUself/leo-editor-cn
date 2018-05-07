@@ -37,7 +37,7 @@
 克隆允许将数据存储在提纲中的多个位置.
 
 ``Ctrl-` (clone-node)``
-    克隆节点 A. 快捷键是一个沉音符, *不是* 单引号. 这通常与波浪号 ``~`` 字符具有相同的键盘键.
+    克隆节点 A. 快捷键是一个沉音符, *不是* 单引号. 这通常与波浪号 ``~`` 字符同键.
 
 请花点时间试验克隆:
 
@@ -56,7 +56,7 @@
 
 克隆可以大大加速你的工作流程. 要启动一个项目, 请克隆与项目相关的节点, 并将它们拖放至顶层或接近顶层, 以便轻松获取它们. 项目完成后, 只需要删除克隆. 这个工作流程出奇的有效:
 
-- 原始节点从不移动, 但是它们在克隆时就会改变.
+- 原始节点从不移动, 但是它们随克隆而变.
 
 - 当你完成任务时, 没有什么可以 "放回原位". 只是删除克隆.
   
@@ -76,7 +76,7 @@
 
 你可以在 ``@data abbreviations`` 节点或 ``@data global-abbreviations`` 节点中定义缩写. 没有预定义, 但是 ``leo/config/exampleSettings.leo`` 包含 ``@data abbreviations examples`` 节点中的示例缩写.
 
-缩写可以简单地作为快捷键:: Abbreviations can simply be shortcuts::
+缩写可以简单地作为快捷键::
 
     ncn;;=@nocolor
     
@@ -109,8 +109,8 @@
     
 甚至可以定义缩写脚本执行的上下文. 详情请参阅 leoSettings.leo.
 
-使用 URL
-++++++++++
+使用 URLs
++++++++++++
 
 .. index::
     pair: URL; Tutorial
@@ -142,10 +142,10 @@
 @chapter 树表示 **章节**. 你可以从图标区域或使用 chapter-select 命令 **激活** 章节. 激活章节只会使章节中的那些节点可见. ``main`` 章节代表了整个提纲. 激活 ``main``章节显示所有的提纲节点. 
 
 ``chapter-select-main``
-    选择 main 章节.Selects the main chapter.
+    选择 main 章节.
     
 ``chapter-select-<chapter-name>``
-    安名称选择章节.
+    按名称选择章节.
 
 概要
 ++++++

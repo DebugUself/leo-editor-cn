@@ -636,7 +636,7 @@
 <v t="livingworld.20180418192452.2"><vh>克隆</vh></v>
 <v t="livingworld.20180418192452.3"><vh>克隆通过创建视图加速工作流</vh></v>
 <v t="livingworld.20180418192452.4"><vh>使用缩写和模板</vh></v>
-<v t="livingworld.20180418192452.5"><vh>使用 URL</vh></v>
+<v t="livingworld.20180418192452.5"><vh>使用 URLs</vh></v>
 <v t="livingworld.20180418192452.6"><vh>使用章节</vh></v>
 <v t="livingworld.20180418192452.7"><vh>概要</vh></v>
 </v>
@@ -6769,7 +6769,7 @@ Leo 将几个文件放在您的 HOME/.leo 目录: .leoID.txt, .leoRecentFiles.tx
 克隆允许将数据存储在提纲中的多个位置.
 
 ``Ctrl-` (clone-node)``
-    克隆节点 A. 快捷键是一个沉音符, *不是* 单引号. 这通常与波浪号 ``~`` 字符具有相同的键盘键.
+    克隆节点 A. 快捷键是一个沉音符, *不是* 单引号. 这通常与波浪号 ``~`` 字符同键.
 
 请花点时间试验克隆:
 
@@ -6785,7 +6785,7 @@ Leo 将几个文件放在您的 HOME/.leo 目录: .leoID.txt, .leoRecentFiles.tx
 </t>
 <t tx="livingworld.20180418192452.3">克隆可以大大加速你的工作流程. 要启动一个项目, 请克隆与项目相关的节点, 并将它们拖放至顶层或接近顶层, 以便轻松获取它们. 项目完成后, 只需要删除克隆. 这个工作流程出奇的有效:
 
-- 原始节点从不移动, 但是它们在克隆时就会改变.
+- 原始节点从不移动, 但是它们随克隆而变.
 
 - 当你完成任务时, 没有什么可以 "放回原位". 只是删除克隆.
   
@@ -6802,7 +6802,7 @@ Leo 将几个文件放在您的 HOME/.leo 目录: .leoID.txt, .leoRecentFiles.tx
 
 你可以在 ``@data abbreviations`` 节点或 ``@data global-abbreviations`` 节点中定义缩写. 没有预定义, 但是 ``leo/config/exampleSettings.leo`` 包含 ``@data abbreviations examples`` 节点中的示例缩写.
 
-缩写可以简单地作为快捷键:: Abbreviations can simply be shortcuts::
+缩写可以简单地作为快捷键::
 
     ncn;;=@nocolor
     
@@ -6862,10 +6862,10 @@ Leo 将几个文件放在您的 HOME/.leo 目录: .leoID.txt, .leoRecentFiles.tx
 @chapter 树表示 **章节**. 你可以从图标区域或使用 chapter-select 命令 **激活** 章节. 激活章节只会使章节中的那些节点可见. ``main`` 章节代表了整个提纲. 激活 ``main``章节显示所有的提纲节点. 
 
 ``chapter-select-main``
-    选择 main 章节.Selects the main chapter.
+    选择 main 章节.
     
 ``chapter-select-&lt;chapter-name&gt;``
-    安名称选择章节.
+    按名称选择章节.
 </t>
 <t tx="livingworld.20180418192452.7">克隆是出现在提纲中多个位置的节点.
 
