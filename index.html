@@ -2,7 +2,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <!-- This is Leo's home page -->
 <!--@+leo-ver=5-thin-->
-<!--@+node:omlalala.20180206203511.1: * @file index.html-->
+<!--@+node:ekr.20100808060203.4273: * @file html/index.html-->
 <!--@@first-->
 <!--@@first-->
 <!--@@first-->
@@ -13,7 +13,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <!--@+<< head >>-->
-    <!--@+node:omlalala.20180206203511.2: ** << head >> (home page)-->
+    <!--@+node:ekr.20100808060203.4274: ** << head >> (home page)-->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
     <title>Leo 中文首页</title>
@@ -22,22 +22,49 @@
 
     <!-- scale screen-shot to fit parent container -->
     <style type="text/css">
-    img { max-width:100%; max-height:100%; }
+    img {
+        max-width:50%; max-height:50%;
+    }
     </style>
 
-    <!--
     <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    '',
-        VERSION:     '5.7',
-        COLLAPSE_MODINDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  false
-      };
+    var DOCUMENTATION_OPTIONS = {
+      URL_ROOT:    './',
+      VERSION:     '5.7',
+      COLLAPSE_INDEX: false,
+      FILE_SUFFIX: '.html',
+      HAS_SOURCE:  true,
+      SOURCELINK_SUFFIX: '.txt'
+    };
     </script>
-    -->
+
+    <script type="text/javascript">
+    function search(event) {
+      if (event === null || (event.keyCode || event.which) === 13) {
+        window.open('http://www.google.com/search?q=site:leoeditor.com+'+document.getElementById('q').value);
+      }
+    }
+    </script>
+
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/sidebar.js"></script>
+
+    <link rel="search" title="Search" href="search.html" />
+
+    <div id="searchbox" style="display: none" role="search">
+      <h3>Quick search</h3>
+        <form class="search" action="search.html" method="get">
+          <div><input type="text" name="q" /></div>
+          <div><input type="submit" value="Go" /></div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+    </div>
+
     <!--@+<< flattr head >>-->
-    <!--@+node:omlalala.20180206203511.3: *3* << flattr head >>-->
+    <!--@+node:ekr.20110518101739.18155: *3* << flattr head >>-->
     <script type="text/javascript">
     /* <![CDATA[ */
         (function() {
@@ -50,9 +77,8 @@
     /* ]]> */
     </script>
     <!--@-<< flattr head >>-->
-
     <!--@+<< feed2js stylesheet >>-->
-    <!--@+node:omlalala.20180206203511.4: *3* << feed2js stylesheet >>-->
+    <!--@+node:ekr.20111028195854.16608: *3* << feed2js stylesheet >>-->
     <style type="text/css" media="all">
 
     <!-- See: http://feed2js.org/index.php?s=style -->
@@ -75,38 +101,28 @@
 
     </style>
     <!--@-<< feed2js stylesheet >>-->
+    <link rel="top" title="Leo 5.7 documentation" href="index.html" />
+    <link rel="next" title="Table of Contents" href="leo_toc.html" />
+    <link rel="Users Guide" title="Leo&#8217;s Users Guide" href="leo_toc.html" />
 
-    <!-- <script type="text/javascript" src="_static/jquery.js"></script>-->
-    <!-- <script type="text/javascript" src="_static/doctools.js"></script>-->
-    <link rel="top" title="Leo 5.7 documentation" href="html/index.html" />
-    <link rel="Users Guide" title="Leo&#8217;s Users Guide" href="html/leo_toc.html" />
-    <!-- <link rel="prev" title="Using Leo's Commands" href="commands.html" />--> 
-
-    <script type="text/javascript">
-    function search(event) {
-      if (event === null || (event.keyCode || event.which) === 13) {
-        window.open('http://www.google.com/search?q=site:leoeditor.com+'+document.getElementById('q').value);
-      }
-    }
-    </script>
     <!--@-<< head >>-->
 </head>
 <body>
   <!--@+<< div top nav >>-->
-  <!--@+node:omlalala.20180206203511.5: ** << div top nav >>-->
+  <!--@+node:ekr.20100808060203.4276: ** << div top nav >>-->
   <div class="related">
-    <h3>导航</h3>
+    <h3>Navigation</h3>
     <ul>
       <li class="right" style="margin-right: 10px">
-        <a href="html/genindex.html" title="General Index"
+        <a href="genindex.html" title="General Index"
            accesskey="I">索引</a></li>
       <li class="right" >
-        <a href="html/glossary.html" title="Glossary"
+        <a href="glossary.html" title="Glossary"
            accesskey="G">词汇表</a> |</li>
       <li class="right" >
-        <a href="html/leo_toc.html" title="Users Guide"
+        <a href="leo_toc.html" title="Users Guide"
            accesskey="N">目录</a> |</li>
-      <li><a href="html/leo_toc.html">Leo 5.7 文档</a></li>
+      <li><a href="leo_toc.html">Leo 5.7 文档</a></li>
       <!--  &raquo; -->
     </ul>
   </div>
@@ -116,18 +132,17 @@
       <div class="bodywrapper">
         <div class="body">
           <!--@+<< div main section >>-->
-          <!--@+node:omlalala.20180206203511.6: ** << div main section >> (home page)-->
+          <!--@+node:ekr.20100808060203.4286: ** << div main section >> (home page)-->
           <div class="section" id="Leo&#8217;s Home page">
 
-              <h1>Leo 中文首页</h1>
+              <h1>Leo 首页</h1>
               <!--@+<< Leo is... >>-->
-              <!--@+node:omlalala.20180206203511.7: *3* << Leo is... >>-->
+              <!--@+node:ekr.20111019104425.15904: *3* << Leo is... >>-->
               <p><blockquote>
                 "Leo 是迈向正确编程最革命性的一步."&#8213;Brian Takita
               </blockquote>
 
-              <blockquote> 
-              "Leo 是我用过最好的 IDE. 它不仅彻底改变了我编程的方式, 还改变了我存储和组织工作所需信息的方式."&#8213;Ian Mulvany
+              <blockquote> "Leo 是我用过最好的 IDE. 它不仅彻底改变了我编程的方式, 还改变了我存储和组织工作所需信息的方式."&#8213;Ian Mulvany
               </blockquote>
 
               <blockquote>
@@ -146,19 +161,19 @@
               <em>提纲节点可出现在多处</em>, 允许同一提纲有多种数据组织形式.
 
               <p>
-                <a href="html/preface.html">
+                <a href="preface.html">
                   <strong>Leo 简介</strong></a>.
                 <br>
-                <a href="html/testimonials.html">
+                <a href="testimonials.html">
                   <strong>Leo 评述</strong></a>.
                 <br>
-                <a href="html/tutorial.html">
-                  <strong>快速上手</strong></a>.
+                <a href="tutorial.html">
+                  <strong>Leo 教程</strong></a>.
               </p>
 
               <!--@-<< Leo is... >>-->
               <!--@+<< Leo Google group & postcard >>-->
-              <!--@+node:omlalala.20180206203511.8: *3* << Leo Google group & postcard >>-->
+              <!--@+node:ekr.20131005151401.16117: *3* << Leo Google group & postcard >>-->
               <p>
               在 <a href="http://groups.google.com/group/leo-editor"><strong>leo-editor Google 网上论坛</strong></a>, <strong>向我们提问</strong>.
               <br>
@@ -175,15 +190,15 @@
               -->
               <!--@-<< Leo Google group & postcard >>-->
               <!--@+<< screenshot >>-->
-              <!--@+node:omlalala.20180206203511.9: *3* << screenshot >>-->
+              <!--@+node:ekr.20130924043646.21624: *3* << screenshot >>-->
               <p>下图是 Leo 主界面:</p>
 
               <img class="screenshot"
-                  src="html/screen-shots/leo-workbook.png"
+                  src="screen-shots/DarkScreenShot.png"
                   alt="ScreenShot"/>
               <!--@-<< screenshot >>-->
               <!--@+<< embed leo-editor >>-->
-              <!--@+node:omlalala.20180206203511.10: *3* << embed leo-editor >>-->
+              <!--@+node:ekr.20150414224436.1: *3* << embed leo-editor >>-->
               <!-- This works --
               <iframe id="forum_embed"
                   src="javascript:void(0)"
@@ -206,19 +221,19 @@
       </div>
     </div>
     <!--@+<< sidebar >>-->
-    <!--@+node:omlalala.20180206203511.11: ** << sidebar >> (home page)-->
+    <!--@+node:ekr.20100808060203.4282: ** << sidebar >> (home page)-->
     <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
             <!--@+<< sidebar contents >>-->
-            <!--@+node:omlalala.20180206203511.12: *3* << sidebar contents >> (home page)-->
+            <!--@+node:ekr.20100808060203.4283: *3* << sidebar contents >> (home page)-->
             <!--@@language html-->
 
-            <p class="logo"><a href="html/leo_toc.html">
+            <p class="logo"><a href="leo_toc.html">
               <img class="logo" src="_static/Leo4-80-border.jpg" alt="Logo"/></a>
             </p>
 
             <p>
-              <a class="reference external" href="html/leo_toc.html">目录</a>: 画狮点睛!
+              <a class="reference external" href="leo_toc.html">目录</a>: 画狮点睛!
             </p>
             <p>
             <form>
@@ -229,24 +244,22 @@
             </form>
             </p>
 
-            <a class="reference external" href="html/tutorial.html">
+            <a class="reference external" href="tutorial.html">
               教程</a><br>
 
-            <a class="reference external" href="html/leo_toc.html">
+            <a class="reference external" href="leo_toc.html">
               文档</a><br>
               
             <a class="reference external" href="http:screen-shots.html">
-              截屏</a><br>
+              屏幕截图</a><br>
               
-            <a class="reference external" href="html/screencasts.html">
+            <a class="reference external" href="screencasts.html">
               视频</a><br>
               
-            <!--
             <a class="reference external" href="testimonials.html">
-              Quotes from Leo&#8217;s Users</a><br>
-            -->
+              评述</a><br>
               
-            <a class="reference external" href="html/slides.html">
+            <a class="reference external" href="slides.html">
               教程幻灯</a><br>
               
             <a class="reference external" href="http://webchat.freenode.net/?channels=%23leo&uio=d4">
@@ -263,43 +276,31 @@
               
             <a class="reference external" href="https://github.com/leo-editor/snippets">
               代码片段</a><br>
-
-            <!--
-            <a class="reference external" href="http://leo.zwiki.org">
-              Leo&#8217;s Wiki</a><br>
-            -->
               
             <a class="reference external" href="http://leo-editor.readthedocs.org/en/latest/">
-              Readthedocs (API)</a><br>
-              
-            <!--
-            <a class="reference external" href="http://www.mind-mapping.org/">
-              Mind Mapping</a><br>
-            -->
+              Read the docs (API)</a><br>
 
             <a class="reference external" href="https://github.com/leo-editor/leo-editor/issues">
               提交 bug</a><br>
               
-            <a class="reference external" href="html/leoLinks.html">
-             更多链接</a><br>
+            <a class="reference external" href="leoLinks.html">
+               更多链接</a><br>
               
             </p>
             <p>
             <div id="searchbox" style="">
-              <!-- <h4>Google Search</h4> -->
                 <input id='q' type="text" name="q" onkeypress="search(event)">
               <div><button onclick="search(null)">Google Search</button></div>
               <div class="searchtip" style="font-size: 90%">
-                使用如 "@file" 的引号或类似符号.
+                <!-- 使用如 "@file" 的引号或类似符号. -->
               </div>
             </div>
             </p>
 
-            <!-- <p>Leo: Leonine Editor with Outlines</p> -->
-
-            <p><a HREF="ekr.html">Edward K. Ream 出品</a>
+            <p>Written by <a HREF="ekr.html">Edward K. Ream</a><br>
+            and <a HREF="acknowledgements.html">many others</a>.
             <!--@+<< flattr icon >>-->
-            <!--@+node:omlalala.20180206203511.13: *4* << flattr icon >>-->
+            <!--@+node:ekr.20110518101739.18154: *4* << flattr icon >>-->
             <a class="FlattrButton" style="display:none;" rev="flattr;button:compact;"
             href="http://leoeditor.com"></a>
             <noscript>
@@ -317,30 +318,30 @@
     <div class="clearer"></div>
   </div>
   <!--@+<< div bottom nav >>-->
-  <!--@+node:omlalala.20180206203511.14: ** << div bottom nav >>-->
+  <!--@+node:ekr.20100808060203.4277: ** << div bottom nav >>-->
   <div class="related">
     <h3>Navigation</h3>
     <ul>
       <li class="right" style="margin-right: 10px">
-        <a href="html/genindex.html" title="General Index"
+        <a href="genindex.html" title="General Index"
            >索引</a></li>
       <li class="right" >
-        <a href="html/glossary.html" title="Glossary"
+        <a href="glossary.html" title="Glossary"
            accesskey="G">词汇表</a> |</li>
       <li class="right" >
-        <a href="html/leo_toc.html" title="Users Guide"
+        <a href="leo_toc.html" title="Users Guide"
            >目录</a> |</li>
 
-      <li><a href="html/leo_toc.html">Leo 5.7 文档</a></li> 
+      <li><a href="leo_toc.html">Leo 5.7 文档</a></li> 
     </ul>
   </div>
   <!--@-<< div bottom nav >>-->
   <!--@+<< div footer >>-->
-  <!--@+node:omlalala.20180206203511.15: ** << div footer >>-->
+  <!--@+node:ekr.20100808060203.4278: ** << div footer >>-->
   <div class="footer">
     &copy; Copyright 1997-2018, Edward K. Ream.
-    Last updated on January 30, 2018.
-    Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.
+    Last updated on May 27, 2018.
+    Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.6.
   </div>
   <!--@-<< div footer >>-->
 </body>
