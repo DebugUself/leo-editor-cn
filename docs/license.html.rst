@@ -1,16 +1,16 @@
 .. rst3: filename: docs/license.html
 
 #################
-Leo's MIT license
+Leo 的 MIT 许可证
 #################
 
-All parts of Leo are distributed under the following copyright. This is intended to be the same as the MIT license, namely that Leo is absolutely free, even for commercial use, including resale. There is no GNU-like "copyleft" restriction. This license is compatible with the GPL.
+Leo 的所有部分都按照下面的版权发布. 这和 MIT 许可证预期的一样, 名义上讲 Leo 是完全免费的, 即使是用于商用, 包括转售. 没有类似于 GNU 的 "公共版权" 限制. 这个许可证与 GPL 相兼容.
 
-**Copyright 1997-2018 by Edward K. Ream. All Rights Reserved.**
+**Edward K. Ream, 1997-2017 版权所有. 保留所有权利.**
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+特此免费授予任何人获得这个软件和关联文档 ("软件") 的副本, 没有任何限制的处理本软件, 包括不受限制的使用, 复制, 修改, 合并, 发布, 分发, 再许可, 和/或出售该软件的副本, 并允许本软件所提供的人员遵守以下要求:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+上述版权公告和此许可公告应包括在该软件的所有副本或主要部分中.
 
 **THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.**
 

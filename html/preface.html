@@ -4,29 +4,20 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>A Brief Summary of Leo &#8212; Leo 5.6 documentation</title>
+    <title>Leo 简介 &#8212; Leo 5.6 documentation</title>
     <link rel="stylesheet" href="_static/classic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    './',
-        VERSION:     '5.6',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true,
-        SOURCELINK_SUFFIX: '.txt'
-      };
-    </script>
+    <script type="text/javascript" src="_static/documentation_options.js"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="What People are Saying about Leo" href="testimonials.html" />
-    <link rel="prev" title="Preliminaries" href="preliminaries.html" /> 
-  </head>
-  <body>
+    <link rel="next" title="人们对 Leo 的评价" href="testimonials.html" />
+    <link rel="prev" title="前言" href="preliminaries.html" /> 
+  </head><body>
     <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
       <ul>
@@ -34,13 +25,13 @@
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
         <li class="right" >
-          <a href="testimonials.html" title="What People are Saying about Leo"
+          <a href="testimonials.html" title="人们对 Leo 的评价"
              accesskey="N">next</a> |</li>
         <li class="right" >
-          <a href="preliminaries.html" title="Preliminaries"
+          <a href="preliminaries.html" title="前言"
              accesskey="P">previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="leo_toc.html">Leo 5.6 documentation</a> &#187;</li>
-          <li class="nav-item nav-item-1"><a href="preliminaries.html" accesskey="U">Preliminaries</a> &#187;</li> 
+          <li class="nav-item nav-item-1"><a href="preliminaries.html" accesskey="U">前言</a> &#187;</li> 
       </ul>
     </div>  
 
@@ -49,40 +40,37 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="a-brief-summary-of-leo">
-<h1>A Brief Summary of Leo<a class="headerlink" href="#a-brief-summary-of-leo" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="leo">
+<h1>Leo 简介<a class="headerlink" href="#leo" title="Permalink to this headline">¶</a></h1>
 <blockquote>
-<div>“Word outlines are very useful. But Leo makes Word look like a clunky toy.”—Joe Orr</div></blockquote>
-<p>Leo is a fundamentally different way of using and organizing data, programs and scripts. Leo has been under active development for 20+ years with an active <a class="reference external" href="https://groups.google.com/forum/#!forum/leo-editor">group of developers and users</a>.</p>
-<p><strong>Leo is:</strong></p>
+<div>“Word 提纲非常有用. 但是 Leo 让 Word 看起来像一个笨重的玩具”—Joe Orr</div></blockquote>
+<p>Leo 是使用和组织数据, 程序和脚本的根本不同的方法. Leo 积极的开发了 20 多年, 拥有一批活跃的 <a class="reference external" href="https://groups.google.com/forum/#!forum/leo-editor">开发人员和用户</a>.</p>
+<p><strong>Leo 是:</strong></p>
 <ul class="simple">
-<li>A fully-featured IDE, with many features inspired by <a class="reference external" href="https://www.gnu.org/software/emacs/">Emacs</a>.</li>
-<li>An outliner. Everything in Leo is an outline.</li>
-<li>A data manager, data manager and personal information manager.</li>
-<li>A powerful scripting environment.</li>
-<li>A tool for organizing and studying computer code.</li>
-<li>Extensible via a simple plugin architecture.</li>
-<li>A tool that plays well with  IPython, Vim and Emacs.</li>
-<li>Written in 100% pure Python</li>
+<li>一个功能齐全的 IDE, 具有许多受 <a class="reference external" href="https://www.gnu.org/software/emacs/">Emacs</a> 影响的功能.</li>
+<li>一个提纲. 在 Leo 中的任何东西都是提纲.</li>
+<li>一个数据管理器和个人信息管理器.</li>
+<li>一个强大的脚本环境.</li>
+<li>一个组织和学习计算机代码的工具.</li>
+<li>通过简单的插件架构可扩展的.</li>
+<li>一个与 IPython, Vim 和 Emacs 一起使用的工具.</li>
+<li>用 100% 纯 Python 编写.</li>
 </ul>
-<p><strong>Leo’s unique features</strong></p>
-<p>Leo <em>completely integrates</em> Python scripting and outlines. Simulating the following features in Vim, Emacs or Eclipse is possible, just as it is possible to simulate Python in assembly language…</p>
+<p><strong>Leo的独特功能</strong></p>
+<p>Leo <em>完全集成了</em> Python 脚本和提纲. 在 Vim, Emacs 或 Eclipse 中模拟以下功能是可能的, 正如可以用汇编语言模拟 Python 一样…</p>
 <ul class="simple">
-<li>All commands and scripts have easy access to outline structure via a simple <a class="reference external" href="tutorial-scripting.html">Python API</a>. <br />
-For example, p.b is the body text of the selected outline node. <br />
-Scripts have full access to all of Leo’s sources.</li>
-<li><a class="reference external" href="tutorial-pim.html">Clones</a> create multiple views of an outline.  <br />
-Leo’s underlying data is a <a class="reference external" href="https://en.wikipedia.org/wiki/Directed_acyclic_graph">Directed Acyclic Graphs</a>.  <br />
-As a result, Leo organizes data in completely new ways.</li>
-<li>Scripts and programs can be composed from outlines using <a class="reference external" href="tutorial-programming.html">outline-oriented directives</a>.</li>
-<li>Importers convert flat text into outlines.</li>
-<li>&#64;test and &#64;suite scripts create unit tests automatically.</li>
-<li>&#64;button scripts apply scripts to outline data.</li>
+<li>所有的命令和脚本都可以通过简单的 <a class="reference external" href="tutorial-scripting.html">Python API</a> 轻松访问提纲结构.  <br />
+例如, p.b 是所选提纲节点的正文.  <br />
+脚本有完全地访问权对Leo的所有来源 (sources).</li>
+<li><a class="reference external" href="tutorial-pim.html">Clones</a> 创建提纲的多个视图.  <br />
+Leo 的底层数据是一个 <a class="reference external" href="https://en.wikipedia.org/wiki/Directed_acyclic_graph">有向无环图</a>.  <br />
+因此, Leo 以全新的方式组织数据.</li>
+<li>脚本和程序可使用 <a class="reference external" href="tutorial-basics.html#markup">面向提纲的指令</a> 从大纲中组成.</li>
+<li>Importer 将扁纯文本转换成提纲.</li>
+<li>&#64;test 和 &#64;suite 脚本自动创建单元测试.</li>
+<li>&#64;button 脚本应用脚本到大纲数据.</li>
 </ul>
-<p>These features combine to create a <a class="reference external" href="leonine-world.html">Leonine</a> way of programming and
-organizing. You won’t learn all about Leo in a day or two. <a class="reference external" href="tutorial.html">Leo’s
-tutorial</a> explains the basic features. You can learn more advanced
-features later. Please <a class="reference external" href="https://groups.google.com/forum/#!forum/leo-editor">ask for help</a> immediately if you get stuck.</p>
+<p>这些功能结合起来, 创造了一种 <a class="reference external" href="leonine-world.html">Leonine</a> 式的编程和组织的方法. 你不会在一两天内了解 Leo 的全部内容. <a class="reference external" href="tutorial.html">Leo的教程</a> 解释了基本的功能. 你可以稍后了解更多高级的功能. 如果你遇到困难, 请立即 <a class="reference external" href="https://groups.google.com/forum/#!forum/leo-editor">寻求帮助</a> .</p>
 </div>
 
 
@@ -96,18 +84,20 @@ features later. Please <a class="reference external" href="https://groups.google
             </a></p>
   <h4>Previous topic</h4>
   <p class="topless"><a href="preliminaries.html"
-                        title="previous chapter">Preliminaries</a></p>
+                        title="previous chapter">前言</a></p>
   <h4>Next topic</h4>
   <p class="topless"><a href="testimonials.html"
-                        title="next chapter">What People are Saying about Leo</a></p>
+                        title="next chapter">人们对 Leo 的评价</a></p>
 <div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
+    <div class="searchformwrapper">
     <form class="search" action="search.html" method="get">
-      <div><input type="text" name="q" /></div>
-      <div><input type="submit" value="Go" /></div>
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
       <input type="hidden" name="check_keywords" value="yes" />
       <input type="hidden" name="area" value="default" />
     </form>
+    </div>
 </div>
 <script type="text/javascript">$('#searchbox').show(0);</script>
         </div>
@@ -121,18 +111,18 @@ features later. Please <a class="reference external" href="https://groups.google
           <a href="genindex.html" title="General Index"
              >index</a></li>
         <li class="right" >
-          <a href="testimonials.html" title="What People are Saying about Leo"
+          <a href="testimonials.html" title="人们对 Leo 的评价"
              >next</a> |</li>
         <li class="right" >
-          <a href="preliminaries.html" title="Preliminaries"
+          <a href="preliminaries.html" title="前言"
              >previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="leo_toc.html">Leo 5.6 documentation</a> &#187;</li>
-          <li class="nav-item nav-item-1"><a href="preliminaries.html" >Preliminaries</a> &#187;</li> 
+          <li class="nav-item nav-item-1"><a href="preliminaries.html" >前言</a> &#187;</li> 
       </ul>
     </div>
     <div class="footer" role="contentinfo">
         &#169; Copyright 1997-2017, Edward K. Ream.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.5.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.2.
     </div>
   </body>
 </html>
